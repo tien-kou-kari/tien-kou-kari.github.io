@@ -6,7 +6,7 @@
 
 {%- block pageBody -%}
 
-  {%- if rgc.tkAppCtx.isDoingStaticGen %}
+  {%- if rgc.reqQuery.isStaticGen302Target != '1' and rgc.tkAppCtx.isDoingStaticGen %}
     {%- assign reqSearchRaw = rgc.reqSearchRaw %}
     {%- if reqSearchRaw != '?' and reqSearchRaw != '' %}
       <div class="alert alert-primary" role="alert">
