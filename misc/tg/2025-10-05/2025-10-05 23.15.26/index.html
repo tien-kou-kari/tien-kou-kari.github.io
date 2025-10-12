@@ -45,7 +45,9 @@
           alertStaticQueryStrEl.setAttribute('role', 'alert');
           alertStaticQueryStrEl.innerText = 'Warn: you are viewing a static version of this site. The query string in the URL will not work. Instead, the site will behave if no query is provided.';
           var alertStaticQueryStrBrEl = document.createElement('br');
+          var alertStaticQueryStrBr2El = document.createElement('br');
           alertStaticQueryStrEl.appendChild(alertStaticQueryStrBrEl);
+          alertStaticQueryStrEl.appendChild(alertStaticQueryStrBr2El);
           insertAfter(alertStaticQueryStrEl, document.getElementById('homeLinkWrapper'));
         }
       </script><style type="text/css" title="Tien-kou Empty Style (for customization)">
