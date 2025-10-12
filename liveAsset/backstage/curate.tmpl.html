@@ -6,6 +6,18 @@
 
 {%- block pageBody -%}
 
+  {%- if rgc.reqSearchRaw and rgc.isDoingStaticGen %}
+    <script type="text/javascript">
+      if (location.search && location.search != '?') {
+        var alertStaticQueryStrEl = document.createElement('div');
+        alertStaticQueryStrEl.setAttribute('class', 'alert alert-primary');
+        alertStaticQueryStrEl.setAttribute('role', 'alert');
+        alertStaticQueryStrEl.innerText = 'Warn: you are viewing a static version of this site. The query string in the URL will not work.';
+        document.body.insertBefore(alertStaticQueryStrEl, document.body.firstChild);
+      }
+    </script>
+  {%- endif %}
+
   {%- liquid
 
   render 'inc/style.tmpl.html'
