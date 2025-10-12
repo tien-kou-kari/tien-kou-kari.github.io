@@ -12,7 +12,7 @@
 {%- assign isMarkdown = asset.origin_file_path | isEndWithExtension: rgc.markdownExtNames %}
 
 {%- if isMarkdown %}
-  {%- if asset.metadata.title %}
+  {%- if asset.metadata.title != '' and asset.metadata.title %}
     <h3 class="md-title">{{ asset.metadata.title }}</h3>
   {%- endif %}
   {%- if asset.metadata.declaredTags and asset.metadata.declaredTags.size > 0 %}
