@@ -1,7 +1,7 @@
 
 <div class="lang-wrapper"
 {%- liquid
-  if asset.metadata.lang
+  if asset.metadata.lang != '' and asset.metadata.lang
     echo asset.metadata.lang | escape | prepend: ' lang="' | append: '"' | raw
   else
     echo ' lang="zh-CN"' | raw
