@@ -29,7 +29,7 @@ x reqQuery.tags4 | default: '' | split: ',' | setToObj: tagConds, 3
 x reqQuery.groups4 | default: '' | split: ',' | setToObj: groupConds, 3
 x reqQuery.ancestors4 | default: '' | split: ',' | setToObj: ancestorConds, 3
 
-if reqQuery.spec
+if reqQuery.spec != '' and reqQuery.spec
 
   for i in (1..allowedCondCount)
     assign izero = i | minus: 1
