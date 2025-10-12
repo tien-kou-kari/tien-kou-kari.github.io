@@ -6,10 +6,10 @@ assign matchAllSubAncestors = undefined | newArr | inplacePush: ''
 assign possibleGroupLocators = undefined | newArr
 
 for asset in assetListOfMultiGroups
-  if asset.metadata.groupPrimaryLocator
+  if asset.metadata.groupPrimaryLocator != '' and asset.metadata.groupPrimaryLocator
     x possibleGroupLocators | inplacePush: asset.metadata.groupPrimaryLocator
   endif
-  if asset.metadata.specifiedLocator
+  if asset.metadata.specifiedLocator != '' and asset.metadata.specifiedLocator
     x possibleGroupLocators | inplacePush: asset.metadata.specifiedLocator
   endif
   x possibleGroupLocators | inplacePush: asset.asset_locator
