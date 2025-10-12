@@ -53,9 +53,15 @@ assign slList = specifiedLocatorDedupMap | keys
 assign groupList = groupDedupMap | keys
 
 for tag in tagList
-
   x tag | prepend: 'tag/' | genStaticPageWithAncestors
+endfor
 
+for sl in slList
+  x sl | prepend: 'sl/' | genStaticPageWithAncestors
+endfor
+
+for group in groupList
+  x group | prepend: 'group/' | genStaticPageWithAncestors
 endfor
 
 
