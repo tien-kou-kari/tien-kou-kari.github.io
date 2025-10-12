@@ -7,18 +7,20 @@ assign matchAllSubAncestors = undefined | newArr | inplacePush: ''
 
 assign list = undefined | queryLiveAssetByRawLocators: locatorSubAncestors: matchAllSubAncestors, shouldIncludeDirectories: true, shouldIncludeDerivingParent: true, shouldIncludeWithoutPubTime: true, shouldFetchRawBytes: true
 
-assign allTags = undefined | newArr
 assign tagDedupMap = undefined | newObj
+assign specifiedLocatorDedupMap = undefined | newObj
+assign groupDedupMap = undefined | newObj
 
 for asset in list
+
   x asset.asset_locator | genStaticPageWithAncestors
+
   if asset.metadata.declaredTags.size > 0 and asset.metadata.declaredTags
     for tag in asset.metadata.declaredTags
       if tagDedupMap[tag]
         continue
       endif
       x true | setToObj: tagDedupMap, tag
-      x allTags | inplacePush: tag
     endfor
   endif
   if asset.metadata.referencedTags.size > 0 and asset.metadata.referencedTags
@@ -27,10 +29,35 @@ for asset in list
         continue
       endif
       x true | setToObj: tagDedupMap, tag
-      x allTags | inplacePush: tag
     endfor
   endif
+
+  if asset.metadata.specifiedLocator
+    if specifiedLocatorDedupMap[asset.metadata.specifiedLocator]
+      continue
+    endif
+    x true | setToObj: specifiedLocatorDedupMap, asset.metadata.specifiedLocator
+  endif
+
+  if asset.metadata.groupPrimaryLocator
+    if groupDedupMap[asset.metadata.groupPrimaryLocator]
+      continue
+    endif
+    x true | setToObj: groupDedupMap, asset.metadata.groupPrimaryLocator
+  endif
+
 endfor
+
+assign tagList = tagDedupMap | keys
+assign slList = specifiedLocatorDedupMap | keys
+assign groupList = groupDedupMap | keys
+
+for tag in tagList
+
+  x tag | prepend: 'tag/' | genStaticPageWithAncestors
+
+endfor
+
 
 # TODO: for each tags/slugs, fixed rss, ...
 
