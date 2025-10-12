@@ -22,7 +22,7 @@
 
   <h3 
   {%- liquid
-  if post.metadata.lang
+  if post.metadata.lang != '' and post.metadata.lang
     # echo doesn't do escape by default, so
     echo post.metadata.lang | escape | prepend: ' lang="' | append: '"' | raw
   endif
