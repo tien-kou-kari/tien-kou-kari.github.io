@@ -33,7 +33,7 @@
     <tr class="group-layout group-thread-brief">
       <td colspan="2" class="group-layout group-thread-brief">
         <span lang="ja-JP">〜</span>
-        {%- if currGroupPrimary.metadata.groupTitle %}
+        {%- if currGroupPrimary.metadata.groupTitle != '' and currGroupPrimary.metadata.groupTitle %}
           {{- currGroupPrimary.metadata.groupTitle }}
         {%- elsif currGroupPrimary.metadata.title %}
           {{- currGroupPrimary.metadata.title }}
