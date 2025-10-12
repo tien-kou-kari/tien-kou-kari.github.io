@@ -1,7 +1,7 @@
 
 {%- liquid
 
-x true | rgcSet: 'isDoingStaticGen'
+x true | setToObj: rgc.tkAppCtx, 'isDoingStaticGen'
 
 assign matchAllSubAncestors = undefined | newArr | inplacePush: ''
 
