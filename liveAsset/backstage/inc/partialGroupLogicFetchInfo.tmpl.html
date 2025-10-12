@@ -95,7 +95,7 @@ assign groupPrimaryMap = undefined | newObj
 
 for groupPrimaryAsset in groupPrimaryList
   assign currGroupPrimaryLocator = undefined
-  if groupPrimaryAsset.metadata.isGroupPrimary and groupPrimaryList contains groupPrimaryAsset.metadata.groupPrimaryLocator and groupPrimaryAsset.metadata.groupPrimaryLocator
+  if groupPrimaryAsset.metadata.isGroupPrimary and groupPrimaryList contains groupPrimaryAsset.metadata.groupPrimaryLocator and groupPrimaryAsset.metadata.groupPrimaryLocator != '' and groupPrimaryAsset.metadata.groupPrimaryLocator
 
     assign currGroupPrimaryLocator = groupPrimaryAsset.metadata.groupPrimaryLocator
 
