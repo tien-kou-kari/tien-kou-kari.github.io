@@ -7,15 +7,21 @@
 {%- block pageBody -%}
 
   {%- if rgc.isDoingStaticGen %}
-    <script type="text/javascript">
-      if (location.search && location.search != '?') {
-        var alertStaticQueryStrEl = document.createElement('div');
-        alertStaticQueryStrEl.setAttribute('class', 'alert alert-primary');
-        alertStaticQueryStrEl.setAttribute('role', 'alert');
-        alertStaticQueryStrEl.innerText = 'Warn: you are viewing a static version of this site. The query string in the URL will not work. Instead, this query (specified when generating the static files) is used: {{ rgc.reqSearchRaw | default: '<Empty>'  | replace: '\\', '\\\\' | replace: '\'', '\\\'' | raw }}';
-        document.body.insertBefore(alertStaticQueryStrEl, document.body.firstChild);
-      }
-    </script>
+    {%- if rgc.reqSearchRaw != '?' and rgc.reqSearchRaw %}
+      <div class="alert alert-primary" role="alert">
+        Warn: you are viewing a static version of this site. This page will behave if this fixed URL query (specified when generating the static files) is used: <pre>{{ rgc.reqSearchRaw | escape | raw }}</pre><br/><br/>If currently a different query is provided in the URL, it will not work.
+      </div>
+    {%- else %}
+      <script type="text/javascript">
+        if (location.search && location.search != '?') {
+          var alertStaticQueryStrEl = document.createElement('div');
+          alertStaticQueryStrEl.setAttribute('class', 'alert alert-primary');
+          alertStaticQueryStrEl.setAttribute('role', 'alert');
+          alertStaticQueryStrEl.innerText = 'Warn: you are viewing a static version of this site. The query string in the URL will not work. Instead, the site will behave if no query is provided.';
+          document.body.insertBefore(alertStaticQueryStrEl, document.body.firstChild);
+        }
+      </script>
+    {%- endif %}
   {%- endif %}
 
   {%- liquid
