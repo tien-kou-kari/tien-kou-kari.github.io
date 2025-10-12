@@ -3,7 +3,7 @@ tkLocatorBase: -^tg_
 ---
 
 {%- assign pGj = p.gjSessionPeerInfo %}
-{%- if pGj[2] -%}
+{%- if pGj[2] != '' and pGj[2] -%}
 <a href="https://t.me/{{ pGj[2] }}" title="Telegram {{ p.className | default: 'PeerUnknown' }} handle: {{ pGj[2] }}" data-title="tg:{{ pGj[2] }}">
 {%- endif -%}
 {{ pGj[4] | default: 'Unnamed' }}
