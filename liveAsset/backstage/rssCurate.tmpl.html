@@ -28,7 +28,7 @@
   assign rssTitleExtra = resultWrapper.resultDesc 
 
   capture rssTitle
-    if reqQuery.feedTitle
+    if reqQuery.feedTitle != '' and reqQuery.feedTitle
       echo reqQuery.feedTitle | escape
     elsif periodType == 'fixedMinutes'
       echo 'Tien-kou Aggregated'
