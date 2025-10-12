@@ -125,7 +125,7 @@ assign assetInPageGrouped = assetListOfMultiGroups | arrToGroupingObjByKey: 'met
 # recognize ungrouped primary in assetListOfMultiGroups, and push them info assetInPageGrouped map
 for asset in assetListOfMultiGroups
   assign currGroupPrimaryLocator = undefined
-  if asset.metadata.groupPrimaryLocator
+  if asset.metadata.groupPrimaryLocator and asset.metadata.groupPrimaryLocator != ''
     continue
   elsif groupPrimaryLocators contains asset.metadata.specifiedLocator
     assign currGroupPrimaryLocator = asset.metadata.specifiedLocator
