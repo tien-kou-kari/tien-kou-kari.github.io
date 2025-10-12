@@ -1,15 +1,250 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
-  <channel>
-    <title>Tien-kou Daily</title>
-    <link>https://tien-kou.shunf4.workers.dev/</link>
-    <description>Tien-kou Daily Ancestors: misc/, SlipBox/, TheDesk/</description>
-      <item>
-        <title>Tien-kou Daily 2025-10-10T06:30:00+08:00</title>
-        <link>https://tien-kou.shunf4.workers.dev/</link>
-        <guid>tien-kou-fixedMinutes-2025-10-10T06:30:00+08:00</guid>
-        <pubDate>2025-10-10T06:30:00+08:00</pubDate>
-        <description><![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <base href="." />
+    <link rel="stylesheet" href="about:blank" title="Tien-kou Builtin Style" />
+    <link rel="alternate stylesheet" href="about:blank" title="Tien-kou Empty Style (for customization)" />
+    <title>Latest Posts - Tien-kou</title>
+    
+  </head>
+  <body>
+    <div id="tkRootWrapper" class="tien-kou-page">
+      <style type="text/css">
+        #tkRootWrapper {
+          container-name: tien-kou-page;
+          container-type: inline-size;
+        }
+      </style>
+      <div id="homeLinkWrapper" class="home-link-wrapper" style="margin-top: 0.8rem; margin-bottom: 1.2rem; margin-left: 1rem;;">
+        <a href="/">Tien-kou.</a>
+      </div>
+      <script type="text/javascript">
+        function insertAfter(newElement, referenceElement) {
+          if (!newElement || !referenceElement) {
+              return false;
+          }
+          if (!referenceElement.parentNode) {
+              return false;
+          }
+          
+          var parent = referenceElement.parentNode;
+          if (referenceElement.nextSibling) {
+              parent.insertBefore(newElement, referenceElement.nextSibling);
+          } else {
+              parent.appendChild(newElement);
+          }
+          
+          return true;
+        }
+
+        if (location.search && location.search != '?') {
+          var alertStaticQueryStrEl = document.createElement('div');
+          alertStaticQueryStrEl.setAttribute('class', 'alert alert-primary');
+          alertStaticQueryStrEl.setAttribute('role', 'alert');
+          alertStaticQueryStrEl.innerText = 'Warn: you are viewing a static version of this site. The query string in the URL will not work. Instead, the site will behave if no query is provided.';
+          var alertStaticQueryStrBrEl = document.createElement('br');
+          var alertStaticQueryStrBr2El = document.createElement('br');
+          alertStaticQueryStrEl.appendChild(alertStaticQueryStrBrEl);
+          alertStaticQueryStrEl.appendChild(alertStaticQueryStrBr2El);
+          insertAfter(alertStaticQueryStrEl, document.getElementById('homeLinkWrapper'));
+        }
+      </script><style type="text/css" title="Tien-kou Empty Style (for customization)">
+</style>
+
+<noscript>
+  <style type="text/css" title="Tien-kou Builtin Style">
+
+    
+
+html {
+  color-scheme: light dark;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font-family: System UI;
+  font-size: 0.75rem;
+}
+
+main {
+  max-width: min(80ch, 100% - 2ch);
+  max-width: min(40rem, 100% - 2rem);
+}
+
+.white-space-preserve {
+  white-space-collapse: preserve;
+}
+
+div.principal-content {
+  margin-top: 0.5rem;
+}
+
+
+/**/
+
+table.tg-wrapper-layout {
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  min-width: 10rem;
+}
+
+table.tg-wrapper-layout,
+th.tg-wrapper-layout,
+td.tg-wrapper-layout  {
+  border: 2px ridge lightgrey;
+  border-collapse: collapse;
+}
+
+/**/
+
+table.tg-involvement-layout {
+  margin-left: 0.3rem;
+  margin-top: 0.5rem;
+  min-width: 6rem;
+}
+
+table.tg-involvement-layout,
+th.tg-involvement-layout,
+td.tg-involvement-layout  {
+  border: 2px ridge lightgrey;
+  border-collapse: collapse;
+}
+
+/**/
+
+table.tg-websummary-layout {
+  margin-left: 0.3rem;
+  margin-top: 0.5rem;
+  min-width: 6rem;
+}
+
+table.tg-websummary-layout,
+th.tg-websummary-layout,
+td.tg-websummary-layout {
+  border: 2px ridge lightgrey;
+  border-collapse: collapse;
+}
+
+/**/
+
+table.group-layout {
+  margin-left: 0.3rem;
+  margin-top: 0.5rem;
+  min-width: 10rem;
+}
+
+table.group-layout,
+th.group-layout,
+td.group-layout {
+  border: 2px ridge lightgrey;
+  border-collapse: collapse;
+}
+
+/**/
+
+td.group-ref-primary.group-ref-scroll .principal-content {
+  max-height: 20rem;
+  overflow-y: scroll;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.tg-img, .tg-video {
+  max-width: 20rem;
+  max-height: 40rem;
+}
+
+a.tag-link {
+
+}
+
+.tag-wrapper {
+
+}
+
+
+table.tg-wrapper-layout a {
+  filter: brightness(5) contrast(0.7) saturate(0.6);
+  text-decoration: underline dashed;
+}
+
+a.secondary {
+  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */
+  filter: brightness(3) contrast(0.26);
+  text-decoration: underline dotted;
+}
+
+
+
+  </style>
+</noscript><script type="text/javascript">
+  function setCookie(name, value, days) {
+    var expires = "";
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + encodeURIComponent(value) + expires + "; path=/";
+  }
+  function removeCookie(name) {
+    document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+  }
+  function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) == 0) return decodeURIComponent(c.substring(nameEQ.length, c.length));
+    }
+    return null;
+  }
+  function getElement(id) {
+    return document.getElementById(id);
+  }
+
+  var tkDefaultStyle = "\n\nhtml {\n  color-scheme: light dark;\n}\n\nimg,\nsvg,\nvideo {\n  max-width: 100%;\n  display: block;\n}\n\nbody {\n  font-family: System UI;\n  font-size: 0.75rem;\n}\n\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\n.white-space-preserve {\n  white-space-collapse: preserve;\n}\n\ndiv.principal-content {\n  margin-top: 0.5rem;\n}\n\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-involvement-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-websummary-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntd.group-ref-primary.group-ref-scroll .principal-content {\n  max-height: 20rem;\n  overflow-y: scroll;\n}\n\nh1, h2, h3 {\n  color: #2c3e50;\n  border-bottom: 1px solid #eee;\n  padding-bottom: 5px;\n}\n\n.tg-img, .tg-video {\n  max-width: 20rem;\n  max-height: 40rem;\n}\n\na.tag-link {\n\n}\n\n.tag-wrapper {\n\n}\n\n\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n"
+
+  var tkStyleContent = getCookie('tkStyle');
+  var tkStyleElement = document.createElement('style');
+  tkStyleElement.type = 'text/css';
+  tkStyleElement.setAttribute('title', 'Tien-kou Builtin Style');
+
+  if (tkStyleContent) {
+    // If cookie exists, use its value
+    if (tkStyleElement.styleSheet) {
+      // For IE
+      tkStyleElement.styleSheet.cssText = tkStyleContent;
+    } else {
+      tkStyleElement.appendChild(document.createTextNode(tkStyleContent));
+    }
+  } else {
+    // If no cookie, use default but don't save to cookie
+    if (tkStyleElement.styleSheet) {
+      tkStyleElement.styleSheet.cssText = tkDefaultStyle;
+    } else {
+      tkStyleElement.appendChild(document.createTextNode(tkDefaultStyle));
+    }
+  }
+
+  // Add style to head
+  document.getElementsByTagName('head')[0].appendChild(tkStyleElement);
+
+</script>
+<main>
 <div class="one-in-seq-wrapper">
   <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-10-10">misc/tg/2025-10-10</a> / <a href="/misc/tg/2025-10-10/2025-10-10%2020.07.15">2025-10-10 20.07.15</a> <span>2025-10-10 20:07:15 UTC+8</span></div>
 
@@ -175,15 +410,7 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);</div>
 </div>
 </div>
 
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou Daily 2025-10-09T06:30:00+08:00</title>
-        <link>https://tien-kou.shunf4.workers.dev/</link>
-        <guid>tien-kou-fixedMinutes-2025-10-09T06:30:00+08:00</guid>
-        <pubDate>2025-10-09T06:30:00+08:00</pubDate>
-        <description><![CDATA[
-<div class="one-in-seq-wrapper">
+<hr/><div class="one-in-seq-wrapper">
   <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-10-09">misc/tg/2025-10-09</a> / <a href="/misc/tg/2025-10-09/2025-10-09%2016.59.36">2025-10-09 16.59.36</a> <span>2025-10-09 16:59:36 UTC+8</span></div>
 
   <div class="one-in-seq principal-content">
@@ -230,15 +457,7 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);</div>
 </div>
 </div>
 
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou Daily 2025-10-08T06:30:00+08:00</title>
-        <link>https://tien-kou.shunf4.workers.dev/</link>
-        <guid>tien-kou-fixedMinutes-2025-10-08T06:30:00+08:00</guid>
-        <pubDate>2025-10-08T06:30:00+08:00</pubDate>
-        <description><![CDATA[
-<div class="one-in-seq-wrapper">
+<hr/><div class="one-in-seq-wrapper">
   <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-10-08">misc/tg/2025-10-08</a> / <a href="/misc/tg/2025-10-08/2025-10-08%2014.31.43">2025-10-08 14.31.43</a> <span>2025-10-08 14:31:43 UTC+8</span></div>
 
   <div class="one-in-seq principal-content">
@@ -283,15 +502,18 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);</div>
 </div>
 </div>
 
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou Daily 2025-10-07T06:30:00+08:00</title>
-        <link>https://tien-kou.shunf4.workers.dev/</link>
-        <guid>tien-kou-fixedMinutes-2025-10-07T06:30:00+08:00</guid>
-        <pubDate>2025-10-07T06:30:00+08:00</pubDate>
-        <description><![CDATA[
-<div class="one-in-seq-wrapper">
+<hr/><div class="one-in-seq-wrapper">
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/hive/Murmur">hive/Murmur</a> / <a href="/hive/Murmur/2025-10-08%2013.47.31">2025-10-08 13.47.31</a> <span>2025-10-08 13:47:31 UTC+8</span></div>
+
+  <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p>是么？</p>
+
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
   <div class="one-in-seq asset-base-name"><a class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-07%2021.49.49">2025-10-07 21.49.49</a> <span>2025-10-07 21:49:49 UTC+8</span></div>
 
   <div class="one-in-seq principal-content">
@@ -360,15 +582,7 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);</div>
 </div>
 </div>
 
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou Daily 2025-10-06T06:30:00+08:00</title>
-        <link>https://tien-kou.shunf4.workers.dev/</link>
-        <guid>tien-kou-fixedMinutes-2025-10-06T06:30:00+08:00</guid>
-        <pubDate>2025-10-06T06:30:00+08:00</pubDate>
-        <description><![CDATA[
-<div class="one-in-seq-wrapper">
+<hr/><div class="one-in-seq-wrapper">
   <div class="one-in-seq asset-base-name"><a class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-07%2001.06.36">2025-10-07 01.06.36</a> <span>2025-10-07 01:06:36 UTC+8</span></div>
 
   <div class="one-in-seq principal-content">
@@ -542,15 +756,7 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);</div>
 </div>
 </div>
 
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou Daily 2025-10-05T06:30:00+08:00</title>
-        <link>https://tien-kou.shunf4.workers.dev/</link>
-        <guid>tien-kou-fixedMinutes-2025-10-05T06:30:00+08:00</guid>
-        <pubDate>2025-10-05T06:30:00+08:00</pubDate>
-        <description><![CDATA[
-<div class="one-in-seq-wrapper">
+<hr/><div class="one-in-seq-wrapper">
   <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-10-05">misc/tg/2025-10-05</a> / <a href="/misc/tg/2025-10-05/2025-10-05%2023.15.26">2025-10-05 23.15.26</a> <span>2025-10-05 23:15:26 UTC+8</span></div>
 
   <div class="one-in-seq principal-content">
@@ -633,15 +839,7 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);</div>
 </div>
 </div>
 
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou Daily 2025-10-04T06:30:00+08:00</title>
-        <link>https://tien-kou.shunf4.workers.dev/</link>
-        <guid>tien-kou-fixedMinutes-2025-10-04T06:30:00+08:00</guid>
-        <pubDate>2025-10-04T06:30:00+08:00</pubDate>
-        <description><![CDATA[
-<div class="one-in-seq-wrapper">
+<hr/><div class="one-in-seq-wrapper">
   <div class="one-in-seq asset-base-name"><a class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-05%2001.00.31">2025-10-05 01.00.31</a> <span>2025-10-05 01:00:31 UTC+8</span></div>
 
   <div class="one-in-seq principal-content">
@@ -768,15 +966,7 @@ In the 1980s, the card file began to be used as metaphor in the interface of som
 </div>
 </div>
 
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou Daily 2025-10-03T06:30:00+08:00</title>
-        <link>https://tien-kou.shunf4.workers.dev/</link>
-        <guid>tien-kou-fixedMinutes-2025-10-03T06:30:00+08:00</guid>
-        <pubDate>2025-10-03T06:30:00+08:00</pubDate>
-        <description><![CDATA[
-<div class="one-in-seq-wrapper">
+<hr/><div class="one-in-seq-wrapper">
   <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-10-03">misc/tg/2025-10-03</a> / <a href="/misc/tg/2025-10-03/2025-10-03%2018.06.12">2025-10-03 18.06.12</a> <span>2025-10-03 18:06:12 UTC+8</span></div>
 
   <div class="one-in-seq principal-content">
@@ -863,7 +1053,419 @@ seealso: <a href="https://news.ycombinator.com/item?id=45440117">HackerNews:4544
 </div>
 </div>
 
-        ]]></description>
-      </item>
-  </channel>
-</rss>
+<hr/><div class="one-in-seq-wrapper">
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-03%2001.37.51">2025-10-03 01.37.51</a> <span>2025-10-03 01:37:51 UTC+8</span></div>
+
+  <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN">
+    <div>
+      <span class="tag-wrapper" style="margin-right: 0.6rem;"><a class="tag-link" href="/tag/tk%E6%BC%94%E8%BF%9B">#tk演进</a></span>
+    </div><p>什么都有了，sender也做了，应该没什么事了吧…</p>
+
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-03%2001.36.02">2025-10-03 01.36.02</a> <span>2025-10-03 01:36:02 UTC+8</span></div>
+
+  <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p>啊啊啊</p>
+
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-03%2001.26.22">2025-10-03 01.26.22</a> <span>2025-10-03 01:26:22 UTC+8</span></div>
+
+  <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p>Lovely red panda 5</p>
+<a href="/miscMedia/2025-10-03_01-26-22_0.jpg" class="md-attach md-attach-img-link" target="_blank">
+            <img src="/miscMedia/2025-10-03_01-26-22_0.jpg" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
+        </a>
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-03%2001.25.46">2025-10-03 01.25.46</a> <span>2025-10-03 01:25:46 UTC+8</span></div>
+
+  <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p>Lovely red panda 4</p>
+<a href="/miscMedia/2025-10-03_01-25-46_0.jpg" class="md-attach md-attach-img-link" target="_blank">
+            <img src="/miscMedia/2025-10-03_01-25-46_0.jpg" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
+        </a>
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-10-02">misc/tg/2025-10-02</a> / <a href="/misc/tg/2025-10-02/2025-10-02%2017.34.40">2025-10-02 17.34.40</a> <span>2025-10-02 17:34:40 UTC+8</span></div>
+
+  <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN">
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a href="https://t.me/illusory_world" title="Telegram PeerChannel handle: illusory_world" data-title="tg:illusory_world">不存在的世界</a>
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span><a href="https://t.me/microblock_pub" title="Telegram PeerChannel handle: microblock_pub" data-title="tg:microblock_pub">橘橘橘子汁 &amp; 🍊</a>
+    </div>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6256021635500984805.png" title="Telegram media id 6256021635500984805" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5102646973193456415.png" title="Telegram media id 5102646973193456415" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5102646973193456414.png" title="Telegram media id 5102646973193456414" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5102646973193456416.png" title="Telegram media id 5102646973193456416" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-10-02">misc/tg/2025-10-02</a> / <a href="/misc/tg/2025-10-02/2025-10-02%2009.54.15">2025-10-02 09.54.15</a> <span>2025-10-02 09:54:15 UTC+8</span></div>
+
+  <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p>111</p>
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a href="https://t.me/moonvoidclass" title="Telegram PeerChannel handle: moonvoidclass" data-title="tg:moonvoidclass">inside class</a>
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span><a href="https://t.me/tuixiusiji1" title="Telegram PeerChannel handle: tuixiusiji1" data-title="tg:tuixiusiji1">一个落魄的退休司机</a>
+    </div>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6262421862621498790.png" title="Telegram media id 6262421862621498790" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-10-02">misc/tg/2025-10-02</a> / <a href="/misc/tg/2025-10-02/2025-10-02%2009.53.10">2025-10-02 09.53.10</a> <span>2025-10-02 09:53:10 UTC+8</span></div>
+
+  <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p>哇还有大点兵</p>
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a href="https://t.me/tuixiusiji1" title="Telegram PeerChannel handle: tuixiusiji1" data-title="tg:tuixiusiji1">一个落魄的退休司机</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6262421862621498790.png" title="Telegram media id 6262421862621498790" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-10-02">misc/tg/2025-10-02</a> / <a href="/misc/tg/2025-10-02/2025-10-02%2002.38.35">2025-10-02 02.38.35</a> <span>2025-10-02 02:38:35 UTC+8</span></div>
+
+  <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN">
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a href="https://t.me/ibreaking" title="Telegram PeerChannel handle: ibreaking" data-title="tg:ibreaking">iBreaking</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">著名動物行為學家珍古德逝世，終年 91 歲。</div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5111958711399287606.png" title="Telegram media id 5111958711399287606" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-10-01">misc/tg/2025-10-01</a> / <a href="/misc/tg/2025-10-01/2025-10-01%2010.22.35">2025-10-01 10.22.35</a> <span>2025-10-01 10:22:35 UTC+8</span></div>
+
+  <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN">
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a href="https://t.me/fucku_idiot" title="Telegram PeerChannel handle: fucku_idiot" data-title="tg:fucku_idiot">简中互联网废物大赏</a>
+      <table class="tg-involvement-layout"><tr class="tg-involvement-layout"><td  class="tg-involvement-layout tg-involvement-type">
+      <span class="tg-involvement-type">[Re]</span>
+      </td><td class="tg-involvement-layout tg-involvement-body"><a href="https://t.me/fucku_idiot" title="Telegram PeerChannel handle: fucku_idiot" data-title="tg:fucku_idiot">简中互联网废物大赏</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://www.xiaohongshu.com/discovery/item/68da80af0000000012020b98">我们为什么做不出美联航这样的App？？？</a> <a href="https://www.xiaohongshu.com/user/profile/64cc17b7000000000e025c8d">@旅行鲍勃</a>
+
+📝 <a href="https://telegra.ph/我们为什么做不出美联航这样的App-旅行鲍勃-10-01">View via Telegraph</a></div>
+      
+        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
+          <a href="https://telegra.ph/%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E5%81%9A%E4%B8%8D%E5%87%BA%E7%BE%8E%E8%81%94%E8%88%AA%E8%BF%99%E6%A0%B7%E7%9A%84App-%E6%97%85%E8%A1%8C%E9%B2%8D%E5%8B%83-10-01">Telegraph</a>
+          <h6>我们为什么做不出美联航这样的App？？？ @旅行鲍勃</h6>
+          <p>『我们为什么做不出美联航这样的App？？？』 这次买了UA199 上海飞洛杉矶转机再去奥兰多 往返都是UA美联航 一开始还不太熟悉操作 并且是第一次真正飞美联航 之前只是万豪钛金匹配 打开以后一众秒杀国内航司🐶 喜欢简约突出的设计 打开以后竟然连个广告都没发现？？目测下来最实用的还是省了电话☎️直接在线客服帮忙选座或者直接钞能力拿下 有意思的还能看到United Polaris® business的候补名单hh 🧲总结下比较实用的信息ℹ️ 🍐 全程航段信息（如果中美往返都是UA超流畅） 🫐 选座清晰（各种座位一目了然 灰色就是不能选 蓝色就是超经 排布还挺流畅的） 🍅 餐食菜单（原本以为可以选 不过点开一看其实是提前预览 不过也好 主食1-2款 可以饱腹） 🫑 行李友好（据说可以准确看到你的行李在哪hh）🫚 登机指南（在外面的机场这么不想睁眼摸瞎） 请告诉我还有什么是我没研究出来的！ #ChineseNewYear #留学必备app #这个网站真好用 #APP #留学生机票 #美联航 👤 @旅行鲍勃 (bob940513) 🕘 2025-09-29 20:50:55 ❤️ 1555 ⭐ 429 💬 2038…</p>
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5972996317330389855.png" title="Telegram wepbage media id 5972996317330389855" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </td></tr></table>
+      </td></tr></table>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6262758708316589472.png" title="Telegram media id 6262758708316589472" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr/>
+    <table class="group-layout">
+      <tr class="group-layout group-asset"><td colspan="2" class="group-layout group-asset"><div class="one-in-seq-wrapper">
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-01%2001.08.12">2025-10-01 01.08.12</a> <span>2025-10-01 01:08:12 UTC+8</span></div>
+
+  <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p>在此庆贺这个新民主主义国家走过第七十六个年头。</p>
+
+
+</div>
+</div>
+</div>
+
+      </td></tr>
+      <tr class="group-layout group-ref-primary group-asset">
+        <td class="group-layout group-ref-type">
+          Ref
+        </td>
+        <td class="group-layout group-ref-primary group-asset"><div class="one-in-seq-wrapper">
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-10-01">misc/tg/2025-10-01</a> / <a href="/misc/tg/2025-10-01/2025-10-01%2000.00.29">2025-10-01 00.00.29</a> <span>2025-10-01 00:00:29 UTC+8</span></div>
+
+  <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p>啊？</p>
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a href="https://t.me/sena_yuki_chan" title="Telegram PeerChannel handle: sena_yuki_chan" data-title="tg:sena_yuki_chan">纷飞的小窝</a> (<span class="tg-author">瀬名 由希</span>)
+      <table class="tg-involvement-layout"><tr class="tg-involvement-layout"><td  class="tg-involvement-layout tg-involvement-type">
+      <span class="tg-involvement-type">[Re]</span>
+      </td><td class="tg-involvement-layout tg-involvement-body"><a href="https://t.me/sena_yuki_chan" title="Telegram PeerChannel handle: sena_yuki_chan" data-title="tg:sena_yuki_chan">纷飞的小窝</a>
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span><a href="https://t.me/sky66666666666666666666666666666" title="Telegram PeerChannel handle: sky66666666666666666666666666666" data-title="tg:sky66666666666666666666666666666">苍穹の下 @blueskyxnblog· SKY的🤡💦日常😅😅😅</a>
+    </div> (<span class="tg-author">瀬名 由希</span>)
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5105174896454601596.png" title="Telegram media id 5105174896454601596" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+      </td></tr></table>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://opinion.southcn.com/node_e4f9db6b4d/0e82faf196.shtml">https://opinion.southcn.com/node_e4f9db6b4d/0e82faf196.shtml</a></div>
+      
+        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
+          <a href="https://opinion.southcn.com/node_e4f9db6b4d/0e82faf196.shtml">Southcn</a>
+          <h6>南方网评：教育不能为功利主义所绑架_南方网</h6>
+          <p>教育是百年大计，不容被急功近利的商业逻辑所绑架。此次多平台的封禁措施，可视为对扭曲的教育价值观的一次必要矫正。</p>
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5853999485275974830.png" title="Telegram wepbage media id 5853999485275974830" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </td></tr></table>
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+        </td>
+      </tr>
+
+    </table>
+
+<hr/><div class="one-in-seq-wrapper">
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-09-30">misc/tg/2025-09-30</a> / <a href="/misc/tg/2025-09-30/2025-09-30%2023.07.59">2025-09-30 23.07.59</a> <span>2025-09-30 23:07:59 UTC+8</span></div>
+
+  <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p>啊？？</p>
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a href="https://t.me/solidotr" title="Telegram PeerChannel handle: solidotr" data-title="tg:solidotr">Solidot 纯净版</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://www.solidot.org/story?sid=82452"><b><u>高糖芒果有助于降低糖尿病风险</u></b></a>
+#科学
+
+根据发表在《Foods》期刊上的一项研究，每天食用芒果有助于降低糖尿病风险。芒果含糖量属于较高水平，对糖尿病前期患者而言可能不是好的水果选择。但对照测试发现，结果并非如此。研究人员将参与者分成两组，一组每天吃一个新鲜芒果，另一组则每天食用一根低糖燕麦棒。研究人员在 6 个月中测量了参与者的血糖水平、身体对胰岛素的反应以及体脂。结果显示，含 32 克糖的高糖芒果比含 11 克糖的低糖燕麦棒更有益。每天食用芒果的参与者血糖控制得到改善、胰岛素敏感性增强，并且体脂减少。芒果等水果中天然存在糖分，辅以纤维、维生素及营养素，能提供额外的健康益处。而像早餐麦片，甚至是一些低糖零食这些添加糖分的食物，则可能不具备同等的营养价值，甚至还会增加患糖尿病的风险。研究人员称，“重要的不仅是含糖量，食物的整体构成也很重要。”
+<a href="www.mdpi.com/2304-8158/14/17/2971">www.mdpi.com/2304-8158/14/17/2971</a>
+中国科学报 一种高糖水果有望降低糖尿病风险</div>
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-09-30">misc/tg/2025-09-30</a> / <a href="/misc/tg/2025-09-30/2025-09-30%2001.08.35">2025-09-30 01.08.35</a> <span>2025-09-30 01:08:35 UTC+8</span></div>
+
+  <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN">
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a href="https://t.me/zhihu_bazaar" title="Telegram PeerChannel handle: zhihu_bazaar" data-title="tg:zhihu_bazaar">知乎大巴扎</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://telegra.ph/在日本的-IT-公司工作是怎样一番体验-08-31"> 在日本的 IT 公司工作是怎样一番体验？ </a> | <a href="https://www.zhihu.com/question/25334349/answer/1945551762313446084">原文</a></div>
+      
+        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
+          <a href="https://telegra.ph/%E5%9C%A8%E6%97%A5%E6%9C%AC%E7%9A%84-IT-%E5%85%AC%E5%8F%B8%E5%B7%A5%E4%BD%9C%E6%98%AF%E6%80%8E%E6%A0%B7%E4%B8%80%E7%95%AA%E4%BD%93%E9%AA%8C-08-31">Telegraph</a>
+          <h6>在日本的 IT 公司工作是怎样一番体验？</h6>
+          <p>在 Indeed 和 DoorDash（收购 Wolt 之后，在日本以 Wolt Japan 运营）就不细说了，美国公司在日本的分公司，工作和在美国没什么区别 老中的文人都有一些 sigma 男人或者隐士情怀。像是曹刿，知道肉食者鄙，未能远谋。平时看着你肉食者在乱搞也就罢了。但家真要被推了隐士还是要站出来。又像是诸葛亮，被三顾茅庐就总得鞠躬尽瘁。霓虹的真田幸村从高野山复出之后也为了丰臣家燃尽了。HR 多次找到我，聊了好几次，非常有诚意。承诺 match 在 I 社的工资外加期权，钱也给到位了。公司看上去不是传统的日本公司，国际化程度还不错，不需要西装敬语飲み会什么的。更重要的是我终于有了个测试我的能力，实践一下几年间学到的东西，证明自己的机会。而在大厂爬梯子，猴年能自己负责个项目，拉个队伍呢？就这样，我加入了这家公司。 前期还是挺带劲的，我刚接手项目的时候，Team还没有形成生产力，工程师缺乏训练，缺乏软件工程实践。AI Engineer是个日本老哥，0202年仍然认为前端开发写个静态 html，双击可以浏览器打开是最好的。其他工程师一个也没有。最重要的是缺少可靠的基础架构。Jira 不存在，敏捷开发不存在，服务直接跑在…</p>
+        </td></tr></table>
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr/>
+    <table class="group-layout">
+      <tr class="group-layout group-ref-primary group-asset">
+        <td class="group-layout group-ref-type">
+          Ref
+        </td>
+        <td class="group-layout group-ref-primary group-asset"><div class="one-in-seq-wrapper">
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-09-30">misc/tg/2025-09-30</a> / <a href="/misc/tg/2025-09-30/2025-09-30%2001.02.54">2025-09-30 01.02.54</a> <span>2025-09-30 01:02:54 UTC+8</span></div>
+
+  <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN">
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a href="https://t.me/laoself" title="Telegram PeerChannel handle: laoself" data-title="tg:laoself">Laoself 🦠</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">所以，我們是不是可以有一個Markdown瀏覽器，Accept頭優先發text/markdown，訪問根先嘗試llm.txt（x
+<a href="https://www.skeptrune.com/posts/use-the-accept-header-to-serve-markdown-instead-of-html-to-llms/">https://www.skeptrune.com/posts/use-the-accept-header-to-serve-markdown-instead-of-html-to-llms/</a></div>
+      
+        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
+          <a href="https://www.skeptrune.com/posts/use-the-accept-header-to-serve-markdown-instead-of-html-to-llms/">Nick Khami&#39;s Blog</a>
+          <h6>Use the Accept Header to serve Markdown instead of HTML to LLMs</h6>
+          <p>Make your website accessible to LLM agents by serving plain Markdown when they request text/plain or text/markdown. Save tokens and improve agent experience with this simple Astro and Cloudflare Workers implementation.</p>
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5966414172575087158.png" title="Telegram wepbage media id 5966414172575087158" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </td></tr></table>
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+        </td>
+      </tr>
+      <tr class="group-layout group-asset"><td colspan="2" class="group-layout group-asset"><div class="one-in-seq-wrapper">
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-09-30">misc/tg/2025-09-30</a> / <a href="/misc/tg/2025-09-30/2025-09-30%2001.02.55">2025-09-30 01.02.55</a> <span>2025-09-30 01:02:55 UTC+8</span></div>
+
+  <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p>Test</p>
+
+
+</div>
+</div>
+</div>
+
+      </td></tr>
+
+    </table>
+
+<hr/><div class="one-in-seq-wrapper">
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-09-29">misc/tg/2025-09-29</a> / <a href="/misc/tg/2025-09-29/2025-09-29%2017.09.34">2025-09-29 17.09.34</a> <span>2025-09-29 17:09:34 UTC+8</span></div>
+
+  <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN">
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a href="https://t.me/hacker_news_feed" title="Telegram PeerChannel handle: hacker_news_feed" data-title="tg:hacker_news_feed">Hacker News</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><b>EU Chat Control: Germany's position has been reverted to UNDECIDED</b> (🔥 Score: 160+ in 2 hours)
+
+<b>Link:</b> <a href="https://readhacker.news/s/6BNPG">https://readhacker.news/s/6BNPG</a>
+<b>Comments:</b> <a href="https://readhacker.news/c/6BNPG">https://readhacker.news/c/6BNPG</a></div>
+      
+        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
+          <a href="https://readhacker.news/s/6BNPG">Mastodon</a>
+          <h6>Fight Chat Control (@chatcontrol@mastodon.social)</h6>
+          <p>Attached: 1 image
+
+Germany&#39;s position has been reverted to UNDECIDED.
+
+Despite expressing concerns about breaking end-to-end encryption, Germany refrained from taking a definitive stance on the Chat Control proposal during the September 12th LEWP meeting. A willingness to negotiate and compromise remains.
+
+This is an unfortunate development as Germany is crucial to defeating Chat Control. 
+
+Please make your voices heard! https://fightchatcontrol.eu/
+
+Source: https://netzpolitik.org/2025/chatkontrolle-noch-haelt-sich-widerstand/</p>
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5932375994113571358.png" title="Telegram wepbage media id 5932375994113571358" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </td></tr></table>
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+</main>
+    </div>
+  </body>
+</html>
