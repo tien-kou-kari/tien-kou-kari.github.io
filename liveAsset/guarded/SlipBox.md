@@ -133,3 +133,9 @@ https://wiki.c2.com/?ContextObjectsAreEvil
 2025-10-07 01:06:36 #tk演进 是否需要考虑将所有链接默认target=_blank？
 
 2025-10-07 21:49:49 #tk演进 CSS;tksender md渲染？临时缓存
+
+2025-10-13 02:09:38 #tk演进 如果还有明天的话：
+
+里站。
+
+全文多关键词搜索。
