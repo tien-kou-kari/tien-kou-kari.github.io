@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <base href="." />
+    <link rel="stylesheet" href="about:blank" title="Tien-kou Builtin Style" />
+    <link rel="alternate stylesheet" href="about:blank" title="Tien-kou Empty Style (for customization)" />
+    <title>Style Customizer - Tien Kou</title>
+    
+<style type="text/css">
+  textarea#styleInput {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    font-family: monospace;
+  }
+
+  #styleButtonGroup {
+    margin: 15px 0;
+  }
+
+  #styleButtonGroup button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  #tkStyleSaveHint {
+    color: green;
+    margin-left: 10px;
+    display: none;
+  }
+
+  #styleButtonExplanation, #styleButtonExplanation2 {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+  }
+
+  .style-customize-js-only-part {
+    display: none;
+  }
+
+</style>
+  </head>
+  <body>
+    <div id="tkRootWrapper" class="tien-kou-page">
+      <style type="text/css">
+        #tkRootWrapper {
+          container-name: tien-kou-page;
+          container-type: inline-size;
+        }
+      </style>
+      <div class="home-link-wrapper" style="margin-top: 0.8rem; margin-bottom: 1.2rem; margin-left: 1rem;;">
+        <a href="/">Tien-kou.</a>
+      </div>
+      <style type="text/css" title="Tien-kou Empty Style (for customization)">
+</style>
+
+<noscript>
+  <style type="text/css" title="Tien-kou Builtin Style">
+
+    
+
+html {
+  color-scheme: light dark;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font-family: System UI;
+  font-size: 0.75rem;
+}
+
+main {
+  max-width: min(80ch, 100% - 2ch);
+  max-width: min(40rem, 100% - 2rem);
+}
+
+.white-space-preserve {
+  white-space-collapse: preserve;
+}
+
+div.principal-content {
+  margin-top: 0.5rem;
+}
+
+
+/**/
+
+table.tg-wrapper-layout {
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  min-width: 10rem;
+}
+
+table.tg-wrapper-layout,
+th.tg-wrapper-layout,
+td.tg-wrapper-layout  {
+  border: 2px ridge lightgrey;
+  border-collapse: collapse;
+}
+
+/**/
+
+table.tg-involvement-layout {
+  margin-left: 0.3rem;
+  margin-top: 0.5rem;
+  min-width: 6rem;
+}
+
+table.tg-involvement-layout,
+th.tg-involvement-layout,
+td.tg-involvement-layout  {
+  border: 2px ridge lightgrey;
+  border-collapse: collapse;
+}
+
+/**/
+
+table.tg-websummary-layout {
+  margin-left: 0.3rem;
+  margin-top: 0.5rem;
+  min-width: 6rem;
+}
+
+table.tg-websummary-layout,
+th.tg-websummary-layout,
+td.tg-websummary-layout {
+  border: 2px ridge lightgrey;
+  border-collapse: collapse;
+}
+
+/**/
+
+table.group-layout {
+  margin-left: 0.3rem;
+  margin-top: 0.5rem;
+  min-width: 10rem;
+}
+
+table.group-layout,
+th.group-layout,
+td.group-layout {
+  border: 2px ridge lightgrey;
+  border-collapse: collapse;
+}
+
+/**/
+
+td.group-ref-primary.group-ref-scroll .principal-content {
+  max-height: 20rem;
+  overflow-y: scroll;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.tg-img, .tg-video {
+  max-width: 20rem;
+  max-height: 40rem;
+}
+
+a.tag-link {
+
+}
+
+.tag-wrapper {
+
+}
+
+
+table.tg-wrapper-layout a {
+  filter: brightness(5) contrast(0.7) saturate(0.6);
+  text-decoration: underline dashed;
+}
+
+a.secondary {
+  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */
+  filter: brightness(3) contrast(0.26);
+  text-decoration: underline dotted;
+}
+
+
+
+  </style>
+</noscript><script type="text/javascript">
+  function setCookie(name, value, days) {
+    var expires = "";
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + encodeURIComponent(value) + expires + "; path=/";
+  }
+  function removeCookie(name) {
+    document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+  }
+  function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) == 0) return decodeURIComponent(c.substring(nameEQ.length, c.length));
+    }
+    return null;
+  }
+  function getElement(id) {
+    return document.getElementById(id);
+  }
+
+  var tkDefaultStyle = "\n\nhtml {\n  color-scheme: light dark;\n}\n\nimg,\nsvg,\nvideo {\n  max-width: 100%;\n  display: block;\n}\n\nbody {\n  font-family: System UI;\n  font-size: 0.75rem;\n}\n\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\n.white-space-preserve {\n  white-space-collapse: preserve;\n}\n\ndiv.principal-content {\n  margin-top: 0.5rem;\n}\n\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-involvement-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-websummary-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntd.group-ref-primary.group-ref-scroll .principal-content {\n  max-height: 20rem;\n  overflow-y: scroll;\n}\n\nh1, h2, h3 {\n  color: #2c3e50;\n  border-bottom: 1px solid #eee;\n  padding-bottom: 5px;\n}\n\n.tg-img, .tg-video {\n  max-width: 20rem;\n  max-height: 40rem;\n}\n\na.tag-link {\n\n}\n\n.tag-wrapper {\n\n}\n\n\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n"
+
+  var tkStyleContent = getCookie('tkStyle');
+  var tkStyleElement = document.createElement('style');
+  tkStyleElement.type = 'text/css';
+  tkStyleElement.setAttribute('title', 'Tien-kou Builtin Style');
+
+  if (tkStyleContent) {
+    // If cookie exists, use its value
+    if (tkStyleElement.styleSheet) {
+      // For IE
+      tkStyleElement.styleSheet.cssText = tkStyleContent;
+    } else {
+      tkStyleElement.appendChild(document.createTextNode(tkStyleContent));
+    }
+  } else {
+    // If no cookie, use default but don't save to cookie
+    if (tkStyleElement.styleSheet) {
+      tkStyleElement.styleSheet.cssText = tkDefaultStyle;
+    } else {
+      tkStyleElement.appendChild(document.createTextNode(tkDefaultStyle));
+    }
+  }
+
+  // Add style to head
+  document.getElementsByTagName('head')[0].appendChild(tkStyleElement);
+
+</script>
+
+
+<div class="container style-customize-wrapper" id="styleCustomizeWrapper">
+  <h1>Style Customizer</h1>
+
+  <noscript>
+    Sorry, but Style Customizer requires JavaScript support enabled in your browser to function.
+  </noscript>
+
+  <div class="container style-customize-js-only-part">
+    <textarea id="styleInput"></textarea>
+
+    <p class="explanation" id="styleButtonExplanation">
+      Saving the style requires storing cookies in your browser.
+      The style will be applied to all pages on this domain.
+    </p>
+
+    <div class="button-group" id="styleButtonGroup">
+      <button id="styleSaveBtn">Save style</button>
+      <button id="styleSaveRefreshBtn">Save style then refresh</button>
+      <button id="styleLoadDefaultBtn">Load default style</button>
+      <button id="styleResetAndFollowBtn">Reset style and follow site updates</button>
+      <span id="tkStyleSaveHint" class="hint">Style saved successfully!</span>
+    </div>
+
+  </div>
+
+  <div>
+    <h2>Use a UserStyles extension</h2>
+    <p>
+      You can still use a UserStyles implementation/extension (like Stylus) to apply styles whether JavaScript support is available in your browser.
+
+    </p>
+    <noscript>
+      <p>
+        Before applying your styles by UserStyles extension, you may want the original styles cancelled:
+        <pre>
+#tkRootWrapper * {
+  all: revert;
+}
+        </pre>
+      </p>
+      <!-- Firefox also supports changing the page stylesheet to "alternate stylesheet" Tien-kou Empty Style (for customization), but that seems to require user action each time a page loads.  -->
+    </noscript>
+  </div>
+
+  <div class="container style-customize-js-only-part">
+
+    <p>
+      Before applying your styles by UserStyles extension, you may want to clear the style above.
+    </p>
+
+  </div>
+
+  <div id="styleCustomizePreview">
+    <h2>Preview</h2>
+    <p>This is a preview of how your styles might look when applied.</p>
+    <p>Here's a <a href="#">sample link</a> to test your styles.</p>
+    <h3>Sample Heading</h3>
+    <p>Another paragraph with some <strong>bold text</strong> and <em>italic text</em>.</p>
+  </div>
+</div>
+
+
+<script type="text/javascript">
+  if (tkStyleContent) {
+    getElement('styleInput').value = tkStyleContent;
+  } else {
+    getElement('styleInput').value = tkDefaultStyle;
+  }
+
+  // Set up button event handlers
+  getElement('styleSaveBtn').onclick = function () {
+    var newStyle = getElement('styleInput').value;
+    setCookie('tkStyle', newStyle, 365);
+
+    // Update the style element
+    if (tkStyleElement.styleSheet) {
+      // For IE
+      tkStyleElement.styleSheet.cssText = newStyle;
+    } else {
+      tkStyleElement.innerHTML = '';
+      tkStyleElement.appendChild(document.createTextNode(newStyle));
+    }
+
+    // Show hint
+    var hint = getElement('tkStyleSaveHint');
+    hint.style.display = 'inline';
+    setTimeout(function () {
+      hint.style.display = 'none';
+    }, 2000);
+  };
+
+  getElement('styleSaveRefreshBtn').onclick = function () {
+    var newStyle = getElement('styleInput').value;
+    setCookie('tkStyle', newStyle, 365);
+    location.reload();
+  };
+
+  getElement('styleLoadDefaultBtn').onclick = function () {
+    getElement('styleInput').value = tkDefaultStyle;
+  };
+
+  getElement('styleResetAndFollowBtn').onclick = function () {
+    removeCookie('tkStyle');
+    getElement('styleInput').value = tkDefaultStyle;
+
+    // Update the style element
+    if (tkStyleElement.styleSheet) {
+      // For IE
+      tkStyleElement.styleSheet.cssText = tkDefaultStyle;
+    } else {
+      tkStyleElement.innerHTML = '';
+      tkStyleElement.appendChild(document.createTextNode(tkDefaultStyle));
+    }
+
+    // Show hint
+    var hint = getElement('tkStyleSaveHint');
+    hint.style.display = 'inline';
+    setTimeout(function () {
+      hint.style.display = 'none';
+    }, 2000);
+  };
+
+  var tkStyleCustomizeJsPartStyleElement = document.createElement('style');
+  tkStyleCustomizeJsPartStyleElement.type = 'text/css';
+
+  var tkStyleCustomizeJsPartStyleContent = '.style-customize-js-only-part { display: block; }';
+
+  if (tkStyleCustomizeJsPartStyleElement.styleSheet) {
+    // For IE
+    tkStyleCustomizeJsPartStyleElement.styleSheet.cssText = tkStyleCustomizeJsPartStyleContent;
+  } else {
+    tkStyleCustomizeJsPartStyleElement.appendChild(document.createTextNode(tkStyleCustomizeJsPartStyleContent));
+  }
+
+  document.getElementsByTagName('head')[0].appendChild(tkStyleCustomizeJsPartStyleElement);
+  
+</script>
+    </div>
+  </body>
+</html>
