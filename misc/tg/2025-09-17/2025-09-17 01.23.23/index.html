@@ -21,9 +21,15 @@
         <a href="/">Tien-kou.</a>
       </div>
       
-      <div class="alert alert-primary" role="alert">
-        Warn: you are viewing a static version of this site. This page will behave if this fixed URL query (specified when generating the static files) is used: <pre></pre><br/><br/>If currently a different query is provided in the URL, it will not work.
-      </div><style type="text/css" title="Tien-kou Empty Style (for customization)">
+      <script type="text/javascript">
+        if (location.search && location.search != '?') {
+          var alertStaticQueryStrEl = document.createElement('div');
+          alertStaticQueryStrEl.setAttribute('class', 'alert alert-primary');
+          alertStaticQueryStrEl.setAttribute('role', 'alert');
+          alertStaticQueryStrEl.innerText = 'Warn: you are viewing a static version of this site. The query string in the URL will not work. Instead, the site will behave if no query is provided.';
+          document.body.insertBefore(alertStaticQueryStrEl, document.body.firstChild);
+        }
+      </script><style type="text/css" title="Tien-kou Empty Style (for customization)">
 </style>
 
 <noscript>
@@ -243,7 +249,6 @@ a.secondary {
 <a href="www.theguardian.com/global-development/2025/sep/08/myanmar-military-junta-scam-centres-trafficking-crime-syndicates-kk-park">www.theguardian.com/global-development/2025/sep/08/myanmar-military-junta-scam-centres-trafficking-crime-syndicates-kk-park</a>
 
 #犯罪</div>
-      </td></tr></table>
     </td></tr>
   </table>
 

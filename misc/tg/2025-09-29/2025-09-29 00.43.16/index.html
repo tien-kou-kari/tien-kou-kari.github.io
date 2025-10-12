@@ -21,9 +21,15 @@
         <a href="/">Tien-kou.</a>
       </div>
       
-      <div class="alert alert-primary" role="alert">
-        Warn: you are viewing a static version of this site. This page will behave if this fixed URL query (specified when generating the static files) is used: <pre></pre><br/><br/>If currently a different query is provided in the URL, it will not work.
-      </div><style type="text/css" title="Tien-kou Empty Style (for customization)">
+      <script type="text/javascript">
+        if (location.search && location.search != '?') {
+          var alertStaticQueryStrEl = document.createElement('div');
+          alertStaticQueryStrEl.setAttribute('class', 'alert alert-primary');
+          alertStaticQueryStrEl.setAttribute('role', 'alert');
+          alertStaticQueryStrEl.innerText = 'Warn: you are viewing a static version of this site. The query string in the URL will not work. Instead, the site will behave if no query is provided.';
+          document.body.insertBefore(alertStaticQueryStrEl, document.body.firstChild);
+        }
+      </script><style type="text/css" title="Tien-kou Empty Style (for customization)">
 </style>
 
 <noscript>
@@ -243,7 +249,6 @@ a.secondary {
 (2) 这个 Hook 要能妥善处理 Callback，即在 Hook 回调内可以调用外部 Callback
 
 然后我们就来看花式的 Move 扭曲的摇，Rc Arc Mutex 满天飞，Box 来 Box 去 Box 在地上蠕动 Box 在天花板爬行，编译器噂噂教你做人但是今天你就当不成人</div>
-      </td></tr></table>
     </td></tr>
   </table>
 

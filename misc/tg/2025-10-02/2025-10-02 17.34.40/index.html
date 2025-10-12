@@ -21,9 +21,15 @@
         <a href="/">Tien-kou.</a>
       </div>
       
-      <div class="alert alert-primary" role="alert">
-        Warn: you are viewing a static version of this site. This page will behave if this fixed URL query (specified when generating the static files) is used: <pre></pre><br/><br/>If currently a different query is provided in the URL, it will not work.
-      </div><style type="text/css" title="Tien-kou Empty Style (for customization)">
+      <script type="text/javascript">
+        if (location.search && location.search != '?') {
+          var alertStaticQueryStrEl = document.createElement('div');
+          alertStaticQueryStrEl.setAttribute('class', 'alert alert-primary');
+          alertStaticQueryStrEl.setAttribute('role', 'alert');
+          alertStaticQueryStrEl.innerText = 'Warn: you are viewing a static version of this site. The query string in the URL will not work. Instead, the site will behave if no query is provided.';
+          document.body.insertBefore(alertStaticQueryStrEl, document.body.firstChild);
+        }
+      </script><style type="text/css" title="Tien-kou Empty Style (for customization)">
 </style>
 
 <noscript>
@@ -245,7 +251,6 @@ a.secondary {
 
     <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
       <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5102646973193456416.png" title="Telegram media id 5102646973193456416" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-      </td></tr></table>
     </td></tr>
   </table>
 
