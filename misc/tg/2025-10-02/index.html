@@ -17,10 +17,40 @@
           container-type: inline-size;
         }
       </style>
-      <div class="home-link-wrapper" style="margin-top: 0.8rem; margin-bottom: 1.2rem; margin-left: 1rem;;">
+      <div id="homeLinkWrapper" class="home-link-wrapper" style="margin-top: 0.8rem; margin-bottom: 1.2rem; margin-left: 1rem;;">
         <a href="/">Tien-kou.</a>
       </div>
-      <style type="text/css" title="Tien-kou Empty Style (for customization)">
+      <script type="text/javascript">
+        function insertAfter(newElement, referenceElement) {
+          if (!newElement || !referenceElement) {
+              return false;
+          }
+          if (!referenceElement.parentNode) {
+              return false;
+          }
+          
+          var parent = referenceElement.parentNode;
+          if (referenceElement.nextSibling) {
+              parent.insertBefore(newElement, referenceElement.nextSibling);
+          } else {
+              parent.appendChild(newElement);
+          }
+          
+          return true;
+        }
+
+        if (location.search && location.search != '?') {
+          var alertStaticQueryStrEl = document.createElement('div');
+          alertStaticQueryStrEl.setAttribute('class', 'alert alert-primary');
+          alertStaticQueryStrEl.setAttribute('role', 'alert');
+          alertStaticQueryStrEl.innerText = 'Warn: you are viewing a static version of this site. The query string in the URL will not work. Instead, the site will behave if no query is provided.';
+          var alertStaticQueryStrBrEl = document.createElement('br');
+          var alertStaticQueryStrBr2El = document.createElement('br');
+          alertStaticQueryStrEl.appendChild(alertStaticQueryStrBrEl);
+          alertStaticQueryStrEl.appendChild(alertStaticQueryStrBr2El);
+          insertAfter(alertStaticQueryStrEl, document.getElementById('homeLinkWrapper'));
+        }
+      </script><style type="text/css" title="Tien-kou Empty Style (for customization)">
 </style>
 
 <noscript>
@@ -216,7 +246,7 @@ a.secondary {
 </script>
 <main>
 <div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-10-02">misc/tg/2025-10-02</a> / <a href="/misc/tg/2025-10-02/2025-10-02%2017:34:40">2025-10-02 17:34:40</a> <span>2025-10-02 17:34:40 UTC+8</span></div>
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-10-02">misc/tg/2025-10-02</a> / <a href="/misc/tg/2025-10-02/2025-10-02%2017.34.40">2025-10-02 17.34.40</a> <span>2025-10-02 17:34:40 UTC+8</span></div>
 
   <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
@@ -242,7 +272,6 @@ a.secondary {
 
     <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
       <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5102646973193456416.png" title="Telegram media id 5102646973193456416" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-      </td></tr></table>
     </td></tr>
   </table>
 
@@ -252,7 +281,7 @@ a.secondary {
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-10-02">misc/tg/2025-10-02</a> / <a href="/misc/tg/2025-10-02/2025-10-02%2009:54:15">2025-10-02 09:54:15</a> <span>2025-10-02 09:54:15 UTC+8</span></div>
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-10-02">misc/tg/2025-10-02</a> / <a href="/misc/tg/2025-10-02/2025-10-02%2009.54.15">2025-10-02 09.54.15</a> <span>2025-10-02 09:54:15 UTC+8</span></div>
 
   <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>111</p>
@@ -270,7 +299,6 @@ a.secondary {
 
     <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
       <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6262421862621498790.png" title="Telegram media id 6262421862621498790" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-      </td></tr></table>
     </td></tr>
   </table>
 
@@ -280,7 +308,7 @@ a.secondary {
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-10-02">misc/tg/2025-10-02</a> / <a href="/misc/tg/2025-10-02/2025-10-02%2009:53:10">2025-10-02 09:53:10</a> <span>2025-10-02 09:53:10 UTC+8</span></div>
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-10-02">misc/tg/2025-10-02</a> / <a href="/misc/tg/2025-10-02/2025-10-02%2009.53.10">2025-10-02 09.53.10</a> <span>2025-10-02 09:53:10 UTC+8</span></div>
 
   <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>哇还有大点兵</p>
@@ -304,7 +332,7 @@ a.secondary {
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-10-02">misc/tg/2025-10-02</a> / <a href="/misc/tg/2025-10-02/2025-10-02%2002:38:35">2025-10-02 02:38:35</a> <span>2025-10-02 02:38:35 UTC+8</span></div>
+  <div class="one-in-seq asset-base-name"><a class="secondary" href="/misc/tg/2025-10-02">misc/tg/2025-10-02</a> / <a href="/misc/tg/2025-10-02/2025-10-02%2002.38.35">2025-10-02 02.38.35</a> <span>2025-10-02 02:38:35 UTC+8</span></div>
 
   <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
