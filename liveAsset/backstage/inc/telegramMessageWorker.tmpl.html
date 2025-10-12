@@ -68,7 +68,7 @@
       <span class="tg-involvement-type">[Re]</span>
     {%- endif %}
     
-    {%- if tg.involvementType %}
+    {%- if tg.involvementType and tg.involvementType != '' %}
       </td><td class="tg-involvement-layout tg-involvement-body">
       {{- authorOutput | raw -}}
     {%- endif %}
