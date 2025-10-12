@@ -105,15 +105,15 @@
 
     x '/filter?spec=noise' | uri_escape | rgcSet: 'respSend302'
 
-  elsif reqPathTidy == 'misc/rss/dailyRss'
+  elsif reqPathTidy == 'misc/fixedRss/dailyRss'
 
     x '/rss?feedTitle=Tien-kou%20Daily&periodType=fixedMinutes&periodNumParam=1440&periodDateParam=2000-01-01T06:30:00%2B08:00&spec=flow' | uri_escape | rgcSet: 'respSend302'
 
-  elsif reqPathTidy == 'misc/rss/monthlyRss'
+  elsif reqPathTidy == 'misc/fixedRss/monthlyRss'
 
     x '/rss?periodType=everyMonth&periodNumParam=1440&spec=flow' | uri_escape | rgcSet: 'respSend302'
 
-  elsif reqPathTidy == 'misc/rss/looseRss'
+  elsif reqPathTidy == 'misc/fixedRss/looseRss'
 
     x '/rss?periodType=loose&spec=flow' | uri_escape | rgcSet: 'respSend302'
 
