@@ -32,7 +32,7 @@ for asset in list
     endfor
   endif
 
-  if asset.metadata.specifiedLocator
+  if asset.metadata.specifiedLocator != '' and asset.metadata.specifiedLocator
     if specifiedLocatorDedupMap[asset.metadata.specifiedLocator]
       continue
     endif
