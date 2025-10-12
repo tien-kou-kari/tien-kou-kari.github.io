@@ -24,7 +24,7 @@ if c.isLocatableContent and c.isLocatableContentFound and c.isLocatableContentNo
 
 endif
 
-if tagTitleMdStr
+if tagTitleMdStr != '' and tagTitleMdStr
   echo tagTitleMdStr | md | raw
 endif
 
