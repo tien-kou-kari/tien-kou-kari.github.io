@@ -30,7 +30,7 @@ publishTime: '2025-09-23 00:52:52'
 
 (Dynamic+Static) Fixed RSS:
 
-- [/misc/fixedRss/looseRss](/misc/fixedRss/looseRss)
-- [/misc/fixedRss/dailyRss](/misc/fixedRss/dailyRss)
-- [/misc/fixedRss/monthlyRss](/misc/fixedRss/monthlyRss)
+- [/misc/fixedRss/looseRss.xml](/misc/fixedRss/looseRss.xml)
+- [/misc/fixedRss/dailyRss.xml](/misc/fixedRss/dailyRss.xml)
+- [/misc/fixedRss/monthlyRss.xml](/misc/fixedRss/monthlyRss.xml)
 
