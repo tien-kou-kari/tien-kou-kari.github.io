@@ -64,9 +64,7 @@ for group in groupList
   x group | prepend: 'group/' | genStaticPageWithAncestors
 endfor
 
-  x 'styleCustomizer' | genStaticPageWithAncestors
+x 'styleCustomizer' | genStaticPageWithAncestors
 
-
-# TODO: for each tags/slugs, fixed rss, ...
 
 -%}
