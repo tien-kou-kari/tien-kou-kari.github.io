@@ -6,13 +6,13 @@
 
 {%- block pageBody -%}
 
-  {%- if rgc.reqSearchRaw and rgc.isDoingStaticGen %}
+  {%- if rgc.isDoingStaticGen %}
     <script type="text/javascript">
       if (location.search && location.search != '?') {
         var alertStaticQueryStrEl = document.createElement('div');
         alertStaticQueryStrEl.setAttribute('class', 'alert alert-primary');
         alertStaticQueryStrEl.setAttribute('role', 'alert');
-        alertStaticQueryStrEl.innerText = 'Warn: you are viewing a static version of this site. The query string in the URL will not work.';
+        alertStaticQueryStrEl.innerText = 'Warn: you are viewing a static version of this site. The query string in the URL will not work. Instead, this query (specified when generating the static files) is used: {{ rgc.reqSearchRaw | default: '<Empty>'  | replace: '\\', '\\\\' | replace: '\'', '\\\'' | raw }}';
         document.body.insertBefore(alertStaticQueryStrEl, document.body.firstChild);
       }
     </script>
