@@ -37,3 +37,9 @@ publishTime: '2025-09-23 00:52:52'
 - [/misc/fixedRss/weeklyRss.xml](/misc/fixedRss/weeklyRss.xml)
 - [/misc/fixedRss/monthlyRss.xml](/misc/fixedRss/monthlyRss.xml)
 
+This site is available at:
+
+- [https://tien-kou.fly.dev/](https://tien-kou.fly.dev/) (Node.JS, Cloud Database, Dynamic)
+- [https://tien-kou.shunf4.workers.dev/](https://tien-kou.shunf4.workers.dev/) (Cloudflare Workers, Cloud Database, Dynamic)
+- (An internal address) (Node.JS, Local Database, Dynamic)
+- [https://tien-kou-kari.github.io/](https://tien-kou-kari.github.io/) (Static, Less Frequently Updated)
