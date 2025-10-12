@@ -1,0 +1,85 @@
+{%- layout 'layout.tmpl.html' -%}
+
+{%- block pageTitle -%}
+  {%- backpatch pageTitle %}
+{%- endblock -%}
+
+{%- block pageBody -%}
+
+  {%- liquid
+
+  render 'inc/style.tmpl.html'
+
+  echo '<main>'
+
+  assign pageNum = reqQuery.pageNum | default: '0' | to_integer
+  assign pageSize = reqQuery.pageSize | default: '0' | to_integer
+  if pageNum < 0
+    assign pageNum = 0
+  endif
+  if pageSize < 0
+    assign pageSize = 0
+  endif
+  if pageSize == 0 or pageSize == undefined or pageSize == null
+    assign pageNum = undefined
+    assign pageSize = undefined
+  endif
+
+  if reqPathTidy | startsWith: 'hello2'
+    echo 'Hello2'
+  elsif reqPathTidy | startsWith: 'tag/'
+
+    assign theTag = reqPathTidy | remove_first: 'tag/'
+    render 'tag.tmpl.html', tag: theTag, pageNum: pageNum, pageSize: pageSize
+
+  elsif reqPathTidy | startsWith: 'group/'
+
+    assign theGroup = reqPathTidy | remove_first: 'group/'
+    render 'inc/fullGroupLogic.tmpl.html', groupPrimaryLocator: theGroup
+
+  elsif reqPathTidy | startsWith: 'day/'
+
+    assign theDate = reqPathTidy | remove_first: 'day/'
+    render 'today.tmpl.html', date: theDate, pageNum: pageNum, pageSize: pageSize
+
+  elsif reqPathTidy == 'day' or reqPathTidy == 'today'
+
+    render 'today.tmpl.html', date: undefined, pageNum: pageNum, pageSize: pageSize
+
+  elsif reqPathTidy | startsWith: 'sl/'
+
+    assign theSl = reqPathTidy | remove_first: 'sl/'
+    render 'sl.tmpl.html', sl: theSl, pageNum: pageNum, pageSize: pageSize
+
+  elsif reqPathTidy == 'all' or reqPathTidy == 'filter'
+
+    render 'all.tmpl.html', pageNum: pageNum, pageSize: pageSize
+
+  elsif reqPathTidy == '＊TheFlow'
+
+    x '/filter?spec=flow' | uri_escape | rgcSet: 'respSend302'
+
+  elsif reqPathTidy == 'TheNoise'
+
+    x '/filter?spec=noise' | uri_escape | rgcSet: 'respSend302'
+
+  else
+
+    render 'directAsset.tmpl.html', pageNum: pageNum, pageSize: pageSize
+
+  endif
+    
+  backpatchVal pageTitle
+    if rgc.pageTitlePart == 'Home'
+      echo 'Tien-kou'
+    else
+      echo rgc.pageTitlePart | default: reqPathTidy | escape | append: ' - Tien-kou'
+    endif
+  endBackpatchVal
+
+  echo '</main>'
+
+  %}
+{%- endblock -%}
+
+

@@ -1,0 +1,30 @@
+
+{%- liquid
+
+if reqPathTidy == ''
+  x 'Home' | rgcSet: "pageTitlePart"
+endif
+
+assign asset = reqPathTidy | fetchLocatableContent: shouldThrowIfNotFound: true
+
+if c.isNotLocatableContent or asset == undefined
+
+  x reqPathTidy | rgcSet: "respGenericLocatableAssetSubPath"
+
+elsif isLocatableContentNotFound
+
+  x 404 | rgcSet: "respStatusCode"
+
+  echo 'Not Found'
+
+elsif c.isLocatableContentDirectory or c.isLocatableContentHasDerivedChildren
+
+  render 'directParentAsset.tmpl.html', asset: asset
+
+else
+   
+  render 'directLeafAsset.tmpl.html', asset: asset
+
+endif
+
+-%}

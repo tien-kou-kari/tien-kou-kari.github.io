@@ -1,0 +1,29 @@
+{%- liquid
+
+assign partialGroupLogicCtx = undefined | newObj
+
+render 'inc/partialGroupLogicFetchInfo.tmpl.html', partialGroupLogicCtx: partialGroupLogicCtx, assetListOfMultiGroups: list
+
+for post in list
+
+  assign partialGroupLogicOneAssetCtx = undefined | newObj
+
+  render 'inc/partialGroupLogicHandleEachAsset.tmpl.html', partialGroupLogicCtx: partialGroupLogicCtx, partialGroupLogicOneAssetCtx: partialGroupLogicOneAssetCtx, asset: post
+
+  if partialGroupLogicOneAssetCtx.shouldFullySkipRender
+    continue
+  endif
+
+  if forloop.first == false
+    echo '<hr/>' | raw
+  endif
+
+  if partialGroupLogicOneAssetCtx.shouldSuppressNormalRenderAndDoGroupRender
+    echo partialGroupLogicOneAssetCtx.toRender
+  else
+    render 'inc/oneInSeq.tmpl.html', post: post
+  endif
+  
+endfor
+
+-%}

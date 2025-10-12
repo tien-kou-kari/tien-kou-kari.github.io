@@ -1,0 +1,18 @@
+
+{%- liquid
+
+if date == undefined
+  assign dateTitle = "Today"
+  assign date = "now" | date: "%Y-%m-%d", -480 | append: ' 00:00:00'
+else
+  assign dateTitle = date | date: "%Y-%m-%d"
+  assign date = date | date: "%Y-%m-%d" | append: ' 00:00:00'
+endif
+
+x dateTitle | append: ' Posts' | rgcSet: "pageTitlePart"
+
+assign list = '' | listAssetDescendants: false, 'condTimeDesc', pageNum, pageSize, " AND publish_time_by_metadata >= strftime('%s', DATETIME(?, '-08:00')) * 1000 AND publish_time_by_metadata < strftime('%s', DATETIME(?, '-08:00', '+1 DAY')) * 1000", date, date
+
+render 'inc/sequence.tmpl.html' list: list
+
+-%}

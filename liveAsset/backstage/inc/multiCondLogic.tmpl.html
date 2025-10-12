@@ -1,0 +1,182 @@
+{%- liquid
+
+
+assign matchAllSubAncestors = undefined | newArr | inplacePush: ''
+
+assign pageNum = reqQuery.pageNum | default: '0' | to_integer
+assign pageSize = reqQuery.pageSize | default: '0' | to_integer
+assign allowedCondCount = 4
+assign tagConds = undefined | newArr
+assign groupConds = undefined | newArr
+assign ancestorConds = undefined | newArr
+
+for i in (1..allowedCondCount)
+  x undefined | inplacePushTo: tagConds
+  x undefined | inplacePushTo: groupConds
+  x undefined | inplacePushTo: ancestorConds
+endfor
+
+x reqQuery.tags | default: '' | split: ',' | setToObj: tagConds, 0
+x reqQuery.groups | default: '' | split: ',' | setToObj: groupConds, 0
+x reqQuery.ancestors | default: '' | split: ',' | setToObj: ancestorConds, 0
+x reqQuery.tags2 | default: '' | split: ','  | setToObj: tagConds, 1
+x reqQuery.groups2 | default: '' | split: ',' | setToObj: groupConds, 1
+x reqQuery.ancestors2 | default: '' | split: ',' | setToObj: ancestorConds, 1
+x reqQuery.tags3 | default: '' | split: ',' | setToObj: tagConds, 2
+x reqQuery.groups3 | default: '' | split: ',' | setToObj: groupConds, 2
+x reqQuery.ancestors3 | default: '' | split: ',' | setToObj: ancestorConds, 2
+x reqQuery.tags4 | default: '' | split: ',' | setToObj: tagConds, 3
+x reqQuery.groups4 | default: '' | split: ',' | setToObj: groupConds, 3
+x reqQuery.ancestors4 | default: '' | split: ',' | setToObj: ancestorConds, 3
+
+if reqQuery.spec
+
+  for i in (1..allowedCondCount)
+    assign izero = i | minus: 1
+    x undefined | setToObj: tagConds, izero
+    x undefined | setToObj: groupConds, izero
+    x undefined | setToObj: ancestorConds, izero
+  endfor
+
+  if reqQuery.spec == 'flow'
+    x 'misc/,SlipBox/,TheDesk/' | default: '' | split: ',' | setToObj: ancestorConds, 0
+  endif
+
+  if reqQuery.spec == 'noise'
+    x 'misc/,SlipBox/,TheDesk/,tagTopic/,hive/Murmur/,hive/Blabber/' | default: '' | split: ',' | setToObj: ancestorConds, 0
+  endif
+
+endif
+
+if pageNum < 0
+  assign pageNum = 0
+endif
+if pageSize < 0
+  assign pageSize = 0
+endif
+if pageSize == 0 or pageSize == undefined or pageSize == null
+  assign pageNum = 0
+  assign pageSize = 300
+endif
+
+assign extraColumnSqlSegmentArgs = undefined | newArr
+assign currSqlArgs = undefined | newArr
+
+
+assign extraColumnSqlSegment = ''
+if periodType == 'fixedMinutes'
+  assign milli = periodNumParam | times: 60000
+  assign extraColumnSqlSegment = ", (strftime('%s', ?) * 1000 + ceil((publish_time_by_metadata - strftime('%s', ?) * 1000) / ?) * ?) AS datetime_slot, ((strftime('%s', ?) * 1000 + ceil((publish_time_by_metadata - strftime('%s', ?) * 1000) / ?) * ?) = (strftime('%s', ?) * 1000 + ceil((strftime('%s', 'now') * 1000 - strftime('%s', ?) * 1000) / ?) * ?)) AS is_now_slot"
+  x extraColumnSqlSegmentArgs | inplacePush: periodDateParam | inplacePush: periodDateParam | inplacePush: milli | inplacePush: milli | inplacePush: periodDateParam | inplacePush: periodDateParam | inplacePush: milli | inplacePush: milli | inplacePush: periodDateParam | inplacePush: periodDateParam | inplacePush: milli | inplacePush: milli
+elsif periodType == 'everyMonth'
+  assign milli = periodNumParam | times: 60000
+  assign extraColumnSqlSegment = ", strftime('%s', strftime('%Y-%m-01T00:00:00+08:00', DATETIME((publish_time_by_metadata - ?) / 1000, 'unixepoch', '+08:00'), ('+' || ( ? / 1000 ) || ' seconds')), '+1 month') * 1000 AS datetime_slot, (strftime('%s', strftime('%Y-%m-01T00:00:00+08:00', DATETIME((publish_time_by_metadata - ?) / 1000, 'unixepoch', '+08:00'), ('+' || ( ? / 1000 ) || ' seconds')), '+1 month') * 1000 = strftime('%s', strftime('%Y-%m-01T00:00:00+08:00', DATETIME((strftime('%s', 'now') * 1000 - ?) / 1000, 'unixepoch', '+08:00'), ('+' || ( ? / 1000 ) || ' seconds')), '+1 month') * 1000) AS is_now_slot"
+  
+  x extraColumnSqlSegmentArgs | inplacePush: milli | inplacePush: milli | inplacePush: milli | inplacePush: milli | inplacePush: milli | inplacePush: milli
+elsif periodType == 'everyYear'
+  assign milli = periodNumParam | times: 60000
+  assign extraColumnSqlSegment = ", strftime('%s', strftime('%Y-01-01T00:00:00+08:00', DATETIME((publish_time_by_metadata - ?) / 1000, 'unixepoch', '+08:00'), ('+' || ( ? / 1000 ) || ' seconds')), '+1 year') * 1000 AS datetime_slot, (strftime('%s', strftime('%Y-01-01T00:00:00+08:00', DATETIME((publish_time_by_metadata - ?) / 1000, 'unixepoch', '+08:00'), ('+' || ( ? / 1000 ) || ' seconds')), '+1 year') * 1000 = strftime('%s', strftime('%Y-01-01T00:00:00+08:00', DATETIME((strftime('%s', 'now') * 1000 - ?) / 1000, 'unixepoch', '+08:00'), ('+' || ( ? / 1000 ) || ' seconds')), '+1 year') * 1000) AS is_now_slot"
+  
+  x extraColumnSqlSegmentArgs | inplacePush: milli | inplacePush: milli | inplacePush: milli | inplacePush: milli | inplacePush: milli | inplacePush: milli
+  if pageSize > 100
+    assign pageSize = 100
+    assign pageNum = 0
+  endif
+else
+  assign extraColumnSqlSegment = ", 0 AS datetime_slot, FALSE AS is_now_slot"
+  if pageSize > itemSizeLimit
+    assign pageSize = itemSizeLimit
+    assign pageNum = 0
+  endif
+endif
+
+assign resultDesc = ''
+
+%}
+
+
+{%- capture condSql %}
+  AND publish_time_by_metadata IS NOT NULL
+  AND (
+    {%- for i in (1..allowedCondCount) %}
+      {%- assign izero = i | minus: 1 %}
+      
+      {%- assign tags = tagConds[izero] %}
+      {%- assign groups = groupConds[izero] %}
+      {%- assign ancestors = ancestorConds[izero] %}
+      {%- unless forloop.first %}
+        {%- if tags.size > 0 or groups.size > 0 or ancestors.size > 0 %}
+          OR
+          {%- assign resultDesc = resultDesc | append: ' or ' %}
+        {%- else %}
+          {%- continue %}
+        {%- endif %}
+      {%- endunless %}
+      (
+        1 = 1
+        {%- if tags.size > 0 %}
+          {%- assign tagsStr = tags | join: ', ' %}
+          {%- assign resultDesc = resultDesc | append: ' Tags: ' | append: tagsStr %}
+          {%- assign currSqlPlaceholders = tags.size | newArr: '?' | join: ', ' %}
+          AND EXISTS ( SELECT 1 FROM json_each(json_extract(metadata, '$.declaredTags')) WHERE value IN ( {{ currSqlPlaceholders }} ) )
+
+          {%- for tag in tags %}
+            {%- x currSqlArgs | inplacePush: tag %}
+          {%- endfor %}
+          
+        {%- endif %}
+
+        {%- if groups.size > 0 %}
+          {%- assign groupsStr = groups | join: ', ' %}
+          {%- assign resultDesc = resultDesc | append: ' Groups: ' | append: groupsStr %}
+          {%- assign currSqlPlaceholders = groups.size | newArr: '?' | join: ', ' %}
+          AND (
+            json_extract(metadata, '$.groupPrimaryLocator') IN (
+              {{ currSqlPlaceholders }}
+            )
+            OR json_extract(metadata, '$.specifiedLocator') IN (
+              {{ currSqlPlaceholders }}
+            )
+            OR asset_locator IN (
+              {{ currSqlPlaceholders }}
+            )
+          )
+          {%- for group in groups %}
+            {%- x currSqlArgs | inplacePush: group %}
+          {%- endfor %}
+          {%- for group in groups %}
+            {%- x currSqlArgs | inplacePush: group %}
+          {%- endfor %}
+          {%- for group in groups %}
+            {%- x currSqlArgs | inplacePush: group %}
+          {%- endfor %}
+        {%- endif %}
+        {%- if ancestors.size > 0 %}
+          {%- assign ancestorsStr = ancestors | join: ', ' %}
+          {%- assign resultDesc = resultDesc | append: ' Ancestors: ' | append: ancestorsStr %}
+          AND (
+            {%- for anc in ancestors %}
+              {%- unless forloop.first %}
+                OR
+              {%- endunless %}
+              asset_locator GLOB ?
+              {%- x anc | prepend: 'guarded/' | sqlGlobPatternEscape | append: '*' | inplacePushTo: currSqlArgs %}
+              OR
+              asset_locator GLOB ?
+              {%- x anc | prepend: 'open/' | sqlGlobPatternEscape | append: '*' | inplacePushTo: currSqlArgs %}
+            {%- endfor %}
+          )
+        {%- endif %}
+      )
+    {%- endfor %}
+  )
+{%- endcapture %}
+
+{%- liquid
+
+assign list = undefined | queryLiveAssetByRawLocators: locatorSubAncestors: matchAllSubAncestors, shouldIncludeDirectories: false, shouldIncludeDerivingParent: false, shouldFetchRawBytes: true, extraColumnSqlSegment: extraColumnSqlSegment, extraColumnSqlSegmentArgs: extraColumnSqlSegmentArgs, customSql: condSql, customSqlArgs: currSqlArgs, extensions: c.listableAssetExtNames, pageNum: pageNum, pageSize: pageSize
+
+x list | setToObj: resultWrapper, 'list'
+x resultDesc | setToObj: resultWrapper, 'resultDesc'
+
+-%}

@@ -1,0 +1,267 @@
+
+{%- liquid
+
+assign matchAllSubAncestors = undefined | newArr | inplacePush: ''
+
+assign possibleGroupLocators = undefined | newArr
+
+for asset in assetListOfMultiGroups
+  if asset.metadata.groupPrimaryLocator
+    x possibleGroupLocators | inplacePush: asset.metadata.groupPrimaryLocator
+  endif
+  if asset.metadata.specifiedLocator
+    x possibleGroupLocators | inplacePush: asset.metadata.specifiedLocator
+  endif
+  x possibleGroupLocators | inplacePush: asset.asset_locator
+endfor
+
+if possibleGroupLocators.size == 0
+  break
+endif
+
+assign currSqlPlaceholders = possibleGroupLocators | size | newArr: '?' | join: ', '
+
+%}
+
+{%- capture fetchPossibleGroupNonPrimaryMaxMinTimeAssetsCustomSql %}
+  AND grouped_result.asset_locator IN (
+    WITH non_pri_asset AS (
+      SELECT
+        f2.*,
+        json_extract(f2.metadata, '$.groupPrimaryLocator') AS runtime_groupPrimaryLocator
+      FROM files f2
+      WHERE
+      runtime_groupPrimaryLocator IN (
+        {{ currSqlPlaceholders }}
+      )
+    )
+    SELECT MAX(npa1.asset_locator) FROM
+      non_pri_asset npa1
+    WHERE
+    npa1.publish_time_by_metadata = (
+      SELECT MAX(npa2.publish_time_by_metadata) AS non_pri_max_t
+      FROM non_pri_asset npa2
+      WHERE npa1.runtime_groupPrimaryLocator = npa2.runtime_groupPrimaryLocator
+    )
+    OR
+    npa1.publish_time_by_metadata = (
+      SELECT MIN(npa2.publish_time_by_metadata) AS non_pri_min_t
+      FROM non_pri_asset npa2
+      WHERE npa1.runtime_groupPrimaryLocator = npa2.runtime_groupPrimaryLocator
+    )
+    GROUP BY npa1.runtime_groupPrimaryLocator, npa1.publish_time_by_metadata
+  )
+{%- endcapture %}
+
+{%- liquid
+
+assign fetchPossibleGroupNonPrimaryMaxMinTimeAssetsCustomSqlArgs = possibleGroupLocators 
+
+assign possibleGroupNonPrimaryMaxMinTimeAssets = undefined | queryLiveAssetByRawLocators: locatorSubAncestors: matchAllSubAncestors, shouldIncludeDirectories: false, shouldIncludeDerivingParent: false, shouldFetchRawBytes: true, shouldIncludeWithoutPubTime: true, customSql: fetchPossibleGroupNonPrimaryMaxMinTimeAssetsCustomSql, customSqlArgs: fetchPossibleGroupNonPrimaryMaxMinTimeAssetsCustomSqlArgs
+
+assign groupNonPrimaryMinMaxTimeGrouped = possibleGroupNonPrimaryMaxMinTimeAssets | arrToGroupingObjByKey: 'metadata', 'groupPrimaryLocator'
+
+assign groupPrimaryLocators = groupNonPrimaryMinMaxTimeGrouped | keys
+
+x partialGroupLogicCtx | objSet: 'groupPrimaryLocators', groupPrimaryLocators
+
+assign currSqlPlaceholders = groupPrimaryLocators | size | newArr: '?' | join: ', '
+
+%}
+
+{%- capture fetchGroupPrimaryListCustomSql %}
+  AND grouped_result.asset_locator IN (
+    {{ currSqlPlaceholders }}
+  )
+  OR (
+    json_extract(metadata, '$.groupPrimaryLocator') IN (
+      {{ currSqlPlaceholders }}
+    )
+    AND
+    json_extract(metadata, '$.isGroupPrimary') = TRUE
+  )
+  OR json_extract(metadata, '$.specifiedLocator') IN (
+    {{ currSqlPlaceholders }}
+  )
+{%- endcapture %}
+
+{%- liquid
+
+assign fetchGroupPrimaryListCustomSqlArgs = groupPrimaryLocators | concat: groupPrimaryLocators | concat: groupPrimaryLocators 
+
+assign groupPrimaryList = undefined | queryLiveAssetByRawLocators: locatorSubAncestors: matchAllSubAncestors, shouldIncludeDirectories: false, shouldIncludeDerivingParent: false, shouldIncludeWithoutPubTime: true, shouldFetchRawBytes: true, customSql: fetchGroupPrimaryListCustomSql, customSqlArgs: fetchGroupPrimaryListCustomSqlArgs
+
+assign groupPrimaryMap = undefined | newObj
+
+for groupPrimaryAsset in groupPrimaryList
+  assign currGroupPrimaryLocator = undefined
+  if groupPrimaryAsset.metadata.isGroupPrimary and groupPrimaryList contains groupPrimaryAsset.metadata.groupPrimaryLocator and groupPrimaryAsset.metadata.groupPrimaryLocator
+
+    assign currGroupPrimaryLocator = groupPrimaryAsset.metadata.groupPrimaryLocator
+
+  elsif groupPrimaryLocators contains groupPrimaryAsset.metadata.specifiedLocator
+
+    assign currGroupPrimaryLocator = groupPrimaryAsset.metadata.specifiedLocator
+
+  elsif groupPrimaryLocators contains groupPrimaryAsset.asset_locator
+
+    assign currGroupPrimaryLocator = groupPrimaryAsset.asset_locator
+  endif
+
+  if currGroupPrimaryLocator != undefined
+
+    x groupPrimaryMap | objSet: currGroupPrimaryLocator, groupPrimaryAsset
+
+    x true | setToObj: groupPrimaryAsset, 'runtime_isGroupPrimary'
+
+  endif
+endfor
+
+x partialGroupLogicCtx | objSet: 'groupPrimaryMap', groupPrimaryMap
+
+
+assign assetInPageGrouped = assetListOfMultiGroups | arrToGroupingObjByKey: 'metadata', 'groupPrimaryLocator'
+
+# recognize ungrouped primary in assetListOfMultiGroups, and push them info assetInPageGrouped map
+for asset in assetListOfMultiGroups
+  assign currGroupPrimaryLocator = undefined
+  if asset.metadata.groupPrimaryLocator
+    continue
+  elsif groupPrimaryLocators contains asset.metadata.specifiedLocator
+    assign currGroupPrimaryLocator = asset.metadata.specifiedLocator
+  elsif groupPrimaryLocators contains asset.asset_locator
+    assign currGroupPrimaryLocator = asset.asset_locator
+  else
+    continue
+  endif
+
+  if assetInPageGrouped[currGroupPrimaryLocator] == undefined
+    x undefined | newArr | setToObj: assetInPageGrouped, currGroupPrimaryLocator
+  endif
+
+  x assetInPageGrouped[currGroupPrimaryLocator] | inplacePush: asset
+endfor
+
+x partialGroupLogicCtx | objSet: 'assetInPageGrouped', assetInPageGrouped
+
+# get max min time among *all* assets in group
+# also, fetch useful information in assets, and collect them in curr group primary
+assign groupMinTimeMap = undefined | newObj
+assign groupMaxTimeMap = undefined | newObj
+
+for groupNonPrimaryHash in groupNonPrimaryMinMaxTimeGrouped
+  assign currGroupPrimaryLocator = groupNonPrimaryHash[0]
+  assign currGroupPrimary = groupPrimaryMap[currGroupPrimaryLocator]
+  if currGroupPrimary == undefined
+    continue
+  endif
+  assign currGroupNonPrimaryAssets = groupNonPrimaryHash[1]
+  unless currGroupNonPrimaryAssets.size > 0 and currGroupNonPrimaryAssets != undefined
+    continue
+  endunless
+
+  assign currGroupAssets = currGroupNonPrimaryAssets | push: currGroupPrimary
+
+  for currGroupAsset in currGroupAssets
+    assign shouldUpdateMaxTime = false
+    assign shouldUpdateMinTime = false
+
+    x currGroupAsset | objSet: 'runtime_groupPrimaryLocator', currGroupPrimaryLocator
+
+    if currGroupAsset.metadata.groupType != undefined
+      x currGroupAsset.metadata.groupType | setToObj: currGroupPrimary, 'runtime_groupType'
+    endif
+
+    if currGroupAsset.publish_time_by_metadata == undefined
+      assign shouldUpdateMaxTime = false
+      assign shouldUpdateMinTime = false
+    else
+
+      if groupMinTimeMap[currGroupPrimaryLocator] == undefined
+        assign shouldUpdateMinTime = true
+      else
+        assign shouldUpdateMinTime = groupMinTimeMap[currGroupPrimaryLocator] > currGroupAsset.publish_time_by_metadata
+      endif
+
+      if groupMaxTimeMap[currGroupPrimaryLocator] == undefined
+        assign shouldUpdateMaxTime = true
+      else
+        assign shouldUpdateMaxTime = groupMaxTimeMap[currGroupPrimaryLocator] < currGroupAsset.publish_time_by_metadata
+      endif
+    
+    endif
+
+    if shouldUpdateMinTime
+      x groupMinTimeMap | objSet: currGroupPrimaryLocator, currGroupAsset.publish_time_by_metadata
+    endif
+
+    if shouldUpdateMaxTime
+      x groupMaxTimeMap | objSet: currGroupPrimaryLocator, currGroupAsset.publish_time_by_metadata
+    endif
+    
+  endfor
+endfor
+
+x partialGroupLogicCtx | objSet: 'groupMinTimeMap', groupMinTimeMap
+x partialGroupLogicCtx | objSet: 'groupMaxTimeMap', groupMaxTimeMap
+
+# get max min time among assets *in current page* in group
+# also handles some useful info
+assign groupMinPubTimeInPageMap = undefined | newObj
+assign groupMaxPubTimeInPageMap = undefined | newObj
+
+for groupHash in assetInPageGrouped 
+  assign currGroupPrimaryLocator = groupHash[0]
+  assign currGroupPrimary = groupPrimaryMap[currGroupPrimaryLocator]
+  if currGroupPrimary == undefined
+    continue
+  endif
+  assign currGroupInPageAssets = groupHash[1]
+  unless currGroupInPageAssets.size > 0 and currGroupInPageAssets != undefined
+    continue
+  endunless
+
+  for asset in currGroupInPageAssets
+    x asset | objSet: 'runtime_groupPrimaryLocator', currGroupPrimaryLocator
+
+    if asset.runtime_groupPrimaryLocator == asset.metadata.specifiedLocator or asset.runtime_groupPrimaryLocator == asset.asset_locator or asset.metadata.isGroupPrimary
+      x true | setToObj: asset, 'runtime_isGroupPrimary'
+    endif
+
+    assign shouldUpdateMaxTime = false
+    assign shouldUpdateMinTime = false
+
+    if asset.publish_time_by_metadata == undefined
+      assign shouldUpdateMaxTime = false
+      assign shouldUpdateMinTime = false
+    else
+
+      if groupMinPubTimeInPageMap[currGroupPrimaryLocator] == undefined
+        assign shouldUpdateMinTime = true
+      else
+        assign shouldUpdateMinTime = groupMinPubTimeInPageMap[currGroupPrimaryLocator] > asset.publish_time_by_metadata
+      endif
+
+      if groupMaxPubTimeInPageMap[currGroupPrimaryLocator] == undefined
+        assign shouldUpdateMaxTime = true
+      else
+        assign shouldUpdateMaxTime = groupMaxPubTimeInPageMap[currGroupPrimaryLocator] < asset.publish_time_by_metadata
+      endif
+    
+    endif
+
+    if shouldUpdateMinTime
+      x groupMinPubTimeInPageMap | objSet: currGroupPrimaryLocator, asset.publish_time_by_metadata
+    endif
+
+    if shouldUpdateMaxTime
+      x groupMaxPubTimeInPageMap | objSet: currGroupPrimaryLocator, asset.publish_time_by_metadata
+    endif
+
+  endfor
+endfor
+
+x partialGroupLogicCtx | objSet: 'groupMinPubTimeInPageMap', groupMinPubTimeInPageMap
+x partialGroupLogicCtx | objSet: 'groupMaxPubTimeInPageMap', groupMaxPubTimeInPageMap
+
+-%}

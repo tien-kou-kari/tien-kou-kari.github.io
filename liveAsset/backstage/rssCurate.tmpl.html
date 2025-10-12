@@ -1,0 +1,111 @@
+{%- layout 'rssLayout.tmpl.html' -%}
+
+{%- block rssTitle -%}
+  {%- backpatch rssTitle %}
+{%- endblock -%}
+
+{%- block rssDescription -%}
+  {%- backpatch rssDescription %}
+{%- endblock -%}
+
+{%- block rssItemList -%}
+
+  {%- liquid
+
+  x 'application/rss+xml' | rgcSet: 'respContentType'
+  # loose, fixedMinutes, everyMonth, everyYear
+  assign periodType = reqQuery.periodType | default: 'fixedMinutes'
+  assign periodDateParam = reqQuery.periodDateParam | default: '2000-01-01T00:00:00+08:00'
+  assign periodNumParam = reqQuery.periodNumParam | default: '1440' | to_integer
+  assign itemSizeLimit = 8
+  assign rssTitleExtra = ''
+
+  assign resultWrapper = undefined | newObj
+
+  render 'inc/multiCondLogic.tmpl.html', reqQuery: reqQuery, periodType: periodType, periodDateParam: periodDateParam, periodNumParam: periodNumParam, itemSizeLimit: itemSizeLimit, resultWrapper: resultWrapper
+
+  assign list = resultWrapper.list
+  assign rssTitleExtra = resultWrapper.resultDesc 
+
+  capture rssTitle
+    if reqQuery.feedTitle
+      echo reqQuery.feedTitle | escape
+    elsif periodType == 'fixedMinutes'
+      echo 'Tien-kou Aggregated'
+    elsif periodType == 'everyMonth'
+      echo 'Tien-kou Monthly'
+    elsif periodType == 'everyYear'
+      echo 'Tien-kou Yearly'
+    else
+      echo 'Tien-kou'
+    endif
+  endcapture
+
+  %}
+
+  {%- if periodType != 'loose' %}
+    {%- liquid
+
+    assign listPerPeriod = list | arrToGroupingObjByKey: 'datetime_slot'
+    assign periodKeys = listPerPeriod | keys | sort | reverse
+    assign itemCount = 0
+    %}
+    {%- for period in periodKeys %}
+      {%- liquid
+
+      if itemCount >= itemSizeLimit
+        break
+      endif
+      assign listInPeriod = listPerPeriod[period]
+      if listInPeriod[0].is_now_slot == 1 and listInPeriod.size > 0
+        continue
+      endif
+
+      assign periodDate = period | divided_by: 1000 | date: "%Y-%m-%dT%H:%M:%S+08:00", -480
+
+      %}
+      <item>
+        <title>{{ rssTitle }} {{ periodDate }}</title>
+        <link>https://tien-kou.shunf4.workers.dev/</link>
+        <guid>tien-kou-{{ periodType }}-{{ periodDate }}</guid>
+        <pubDate>{{ periodDate }}</pubDate>
+        <description><![CDATA[
+          {%- render 'inc/sequence.tmpl.html' list: listInPeriod %}
+        ]]></description>
+      </item>
+      {%- assign itemCount = itemCount | plus: 1 %}
+    {%- endfor %}
+  {%- else %}
+    {%- liquid
+      assign listSort = list | sort: 'publish_time_by_metadata' | reverse
+    %}
+    {%- for asset in listSort %}
+      <item>
+        {%- assign assetDate = asset.publish_time_by_metadata | divided_by: 1000 | date: "%Y-%m-%dT%H:%M:%S+08:00", -480 %}
+        {%- assign assetName = asset.asset_locator | split: '/' | last %}
+        <title>{{ rssTitle }} - {{ asset.metadata.title | default: assetName | default: assetDate }}</title>
+        <link>https://tien-kou.shunf4.workers.dev{{ asset.web_url_path }}</link>
+        <guid>tien-kou-{{ asset.asset_locator }}</guid>
+        <pubDate>{{ assetDate }}</pubDate>
+        <description><![CDATA[
+          {%- render 'directLeafAsset.tmpl.html' asset: asset %}
+        ]]></description>
+      </item>
+    {%- endfor %}
+  {%- endif %}
+
+  {%- liquid
+  backpatchVal rssTitle
+    echo rssTitle
+    unless reqQuery.feedTitle
+      echo rssTitleExtra
+    endunless
+  endBackpatchVal
+  backpatchVal rssDescription
+    echo rssTitle
+    echo rssTitleExtra
+  endBackpatchVal
+  %}
+  
+{%- endblock -%}
+

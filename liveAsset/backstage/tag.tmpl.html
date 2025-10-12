@@ -1,0 +1,70 @@
+
+{%- liquid
+
+x tag | prepend: 'Tag ' | rgcSet: "pageTitlePart"
+
+assign shouldRenderDeclaringTagAssetList = true
+assign shouldRenderReferencingTagAssetList = true
+
+assign tagContent = 'tagTopic/' | append: tag | fetchLocatableContent: shouldThrowIfNotFound: false
+assign shouldRenderTagTopicContent = false
+assign tagTitleMdStr = '\n### #' | append: tag | append: '\n\n'
+
+if c.isLocatableContent and c.isLocatableContentFound and c.isLocatableContentNotDirectory and tagContent.asset_raw_bytes != undefined and tagContent != undefined
+
+  assign shouldRenderTagTopicContent = true
+
+  if tagContent.metadata.shouldSuppressDefaultHeader
+    assign tagTitleMdStr = ''
+  endif
+
+  assign shouldRenderDeclaringTagAssetList = tagContent.metadata.shouldRenderDeclaringTagAssetList | default: true, allow_false: true
+
+  assign shouldRenderReferencingTagAssetList = tagContent.metadata.shouldRenderReferencingTagAssetList | default: true, allow_false: true
+
+endif
+
+if tagTitleMdStr
+  echo tagTitleMdStr | md | raw
+endif
+
+-%}
+
+{%- if shouldRenderTagTopicContent %}
+
+  <div class="tag-topic">
+    {%- render 'inc/content.tmpl.html', shouldUseRgcForAssetStatus: true, asset: tagContent %}
+  </div>
+  
+  {%- if shouldRenderDeclaringTagAssetListt %}
+    <hr/>
+  {%- endif %}
+
+{%- endif %}
+
+{%- liquid
+
+if shouldRenderDeclaringTagAssetList
+
+  echo tagContent.metadata.declaringTagTitleMd | default: '#### Declared by\n' | md | raw
+
+  assign list = '' | listAssetDescendants: false, 'condTimeDesc', pageNum, pageSize, " AND EXISTS ( SELECT 1 FROM json_each(json_extract(metadata, '$.declaredTags')) WHERE value = ? )", tag
+
+  render 'inc/sequence.tmpl.html' list: list
+
+  if shouldRenderReferencingTagAssetList
+    echo '<hr/>' | raw
+  endif
+
+endif
+
+if shouldRenderReferencingTagAssetList
+  echo tagContent.metadata.referencingTagTitleMd | default: '#### Referenced by\n' | md | raw
+
+  assign list = '' | listAssetDescendants: false, 'condTimeDesc', pageNum, pageSize, " AND EXISTS ( SELECT 1 FROM json_each(json_extract(metadata, '$.referencedTags')) WHERE value = ? )", tag
+
+  render 'inc/sequence.tmpl.html' list: list
+
+endif
+
+-%}

@@ -1,0 +1,24 @@
+
+{%- liquid
+  
+  assign eTagOfCurrVerCurrReqPathWithQuotes = serverDeployVersion | quickStrHash: ':', dataVersion, ':', reqPathTidy | toString | prepend: 'W/"Tk' | append: '"'
+
+  assign sent304 = false
+
+  if reqIfNoneMatchHeader
+    if reqIfNoneMatchHeader == eTagOfCurrVerCurrReqPathWithQuotes
+      x true | rgcSet: "respSend304"
+      assign sent304 = true
+    endif
+  endif
+
+  unless sent304
+    x eTagOfCurrVerCurrReqPathWithQuotes | rgcSet: "respETag"
+    if reqPathTidy == 'rss'
+      render 'rssCurate.tmpl.html'
+    else
+      render 'curate.tmpl.html'
+    endif
+  endunless
+
+-%}

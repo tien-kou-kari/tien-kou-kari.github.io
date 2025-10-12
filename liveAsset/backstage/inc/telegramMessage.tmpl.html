@@ -1,0 +1,22 @@
+{%- if tg %}
+
+{%- comment %}
+<details>
+  <summary>JSON</summary>
+  <div style="width: 95vw;">
+    <pre style="white-space: pre-wrap;">
+      {{- tg | json | raw -}}
+    </pre>
+  </div>
+</details>
+{%- endcomment %}
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief">
+      {%- q "badge/tg" %}
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body">
+      {%- render 'inc/telegramMessageWorker.tmpl.html', tg: tg, otherMetadata: otherMetadata %}
+    </td></tr>
+  </table>
+
+{%- endif %}

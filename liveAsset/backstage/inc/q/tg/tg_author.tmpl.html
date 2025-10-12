@@ -1,0 +1,75 @@
+---
+tkLocatorBase: -^tg_
+---
+
+{%- liquid
+
+assign postAuthor = tg.postAuthor
+
+if tg.savedPeerId
+  assign msgSourceLv1 = tg.savedPeerId
+elsif tg.peerId
+  assign msgSourceLv1 = tg.peerId
+else
+  assign msgSourceLv1 = undefined
+endif
+
+assign msgSourceLv2Explain = 'Sent by'
+if tg.fwdFrom
+  if tg.fwdFrom.fromId
+    assign msgSourceLv2 = tg.fwdFrom.fromId
+    assign msgSourceLv2Str = undefined
+  elsif tg.fwdFrom.fromName
+    assign msgSourceLv2 = undefined
+    assign msgSourceLv2Str = tg.fwdFrom.fromName
+  else
+    assign msgSourceLv2 = undefined
+    assign msgSourceLv2Str = 'Unnamed'
+  endif
+  unless postAuthor
+    assign postAuthor = tg.fwdFrom.postAuthor
+  endunless
+  assign msgSourceLv2Explain = 'Forwarded from'
+elsif tg.fromId
+  if tg.fromId
+    assign msgSourceLv2 = tg.fromId
+    assign msgSourceLv2Str = undefined
+  elsif tg.fromName
+    assign msgSourceLv2 = undefined
+    assign msgSourceLv2Str = tg.fromName
+  else
+    assign msgSourceLv2 = undefined
+    assign msgSourceLv2Str = 'Unnamed'
+  endif
+  unless postAuthor
+    assign postAuthor = tg.postAuthor
+  endunless
+else
+  assign msgSourceLv2 = undefined
+  assign msgSourceLv2Str = undefined
+endif
+
+
+if msgSourceLv1
+  q 'tg/peer', p: msgSourceLv1
+endif
+
+%}
+
+{%- unless msgSourceLv1 and msgSourceLv2 and msgSourceLv1.gjSessionPeerInfo[0] == msgSourceLv2.gjSessionPeerInfo[0] %}
+  {%- if msgSourceLv2 or msgSourceLv2Str %}
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">{{ msgSourceLv2Explain }} </span>
+        {%- if msgSourceLv2 %}
+          {%- q 'tg/peer', p: msgSourceLv2 %}
+        {%- else %}
+          {{ msgSourceLv2Str | default: 'Unnamed' }}
+        {%- endif %}
+    </div>
+  {%- endif %}
+{%- endunless %}
+
+
+{%- if postAuthor -%}
+{%- echo ' (' %}<span class="tg-author">{{ postAuthor }}</span>{%- echo ')' %}
+{%- endif -%}

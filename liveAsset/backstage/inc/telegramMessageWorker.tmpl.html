@@ -1,0 +1,160 @@
+
+{%- if tg %}
+
+  {%- liquid
+
+  # Prominent(Primary) TeleGram message
+  if tg.extInvolvedMessage and tg.extInvolvedMessage.involvementType == 'fwd'
+    assign ptg = tg.extInvolvedMessage
+    assign isCurrMsgProminent = false
+  else
+    assign ptg = tg
+    assign isCurrMsgProminent = true
+  endif
+
+  capture authorOutput
+    unless shouldSuppressPeerAndAuthor
+      q "tg/author", tg: tg
+    endunless
+  endcapture
+
+  unless tg.involvementType
+    echo authorOutput | raw
+  endunless
+
+  unless otherMetadata.shouldSuppressExtInvolvement or otherMetadata.shouldSuppressExtInvolvementAbove2
+    if tg.haveMoreLevelExtInvolvedMessage
+      render 'inc/telegramMessageWorker.tmpl.html', tg: tg.haveMoreLevelExtInvolvedMessage
+    endif
+
+    if tg.extInvolvedMessageLv4
+      render 'inc/telegramMessageWorker.tmpl.html', tg: tg.extInvolvedMessageLv4
+    endif
+
+    if tg.extInvolvedMessageLv3
+      render 'inc/telegramMessageWorker.tmpl.html', tg: tg.extInvolvedMessageLv3
+    endif
+
+    if tg.extInvolvedMessageLv2
+      render 'inc/telegramMessageWorker.tmpl.html', tg: tg.extInvolvedMessageLv2
+    endif
+  endunless
+
+  unless otherMetadata.shouldSuppressExtInvolvement == 'true' or otherMetadata.shouldSuppressExtInvolvementAbove2 == 'true'
+    if tg.extInvolvedMessage
+      if isCurrMsgProminent
+        render 'inc/telegramMessageWorker.tmpl.html', tg: tg.extInvolvedMessage
+      endif
+    endif
+
+    if tg.involvementType == 'fwd'
+      assign abortRender = true
+    endif
+  endunless
+
+  %}
+
+  {%- if not abortRender %}
+
+    {%- if tg.involvementType %}
+      <table class="tg-involvement-layout"><tr class="tg-involvement-layout"><td  class="tg-involvement-layout tg-involvement-type">
+    {%- endif %}
+        
+    {%- if tg.involvementType == 'fwd' %}
+      <span class="tg-involvement-type">[Fwd]</span>
+    {%- endif %}
+
+    {%- if tg.involvementType == 'reply' %}
+      <span class="tg-involvement-type">[Re]</span>
+    {%- endif %}
+    
+    {%- if tg.involvementType %}
+      </td><td class="tg-involvement-layout tg-involvement-body">
+      {{- authorOutput | raw -}}
+    {%- endif %}
+
+    {%- assign tgWebpagePreview = undefined %}
+    {%- if ptg.media.webpage %}
+      {%- capture tgWebpagePreview %}
+        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
+          <a href="{{ ptg.media.webpage.url }}">{{ ptg.media.webpage.siteName }}</a>
+          <h6>{{ ptg.media.webpage.title }}</h6>
+          <p>{{ ptg.media.webpage.description }}</p>
+          {%- if ptg.media.webpage.photo.id %}
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-{{ptg.media.webpage.photo.id}}.png" title="Telegram wepbage media id {{ptg.media.webpage.photo.id}}" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+          {%- endif %}
+        </td></tr></table>
+      {%- endcapture %}
+    {%- endif %}
+
+    {%- if ptg.invertMedia and tgWebpagePreview %}
+      {{ tgWebpagePreview | raw }}
+    {%- endif %}
+
+    {{ ptg | tgMsg | raw }}
+
+    {%- if ptg.media.photo.id %}
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-{{ptg.media.photo.id}}.png" title="Telegram media id {{ptg.media.photo.id}}" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    {%- endif %}
+
+    {%- if ptg.media.document.id %}
+      {%- liquid
+
+      assign tgDocFileName = undefined
+      assign tgDocType = 'document'
+      assign tgDocAlt = undefined
+      assign tgDocHandled = false
+      assign tgDocAltDesc = 'No more alt detail for now.'
+      if ptg.media.document.attributes and ptg.media.document.size > 0
+        assign tgStickerAttr = ptg.media.document.attributes | find: 'className', 'DocumentAttributeSticker'
+        if tgStickerAttr
+          assign tgDocType = 'sticker'
+          assign tgDocAlt = tgStickerAttr.alt
+          assign tgDocAltDesc = tgDocAlt | prepend: 'alt: '
+        endif
+        assign tgFileNameAttr = ptg.media.document.attributes | find: 'className', 'DocumentAttributeFilename'
+        if tgFileNameAttr
+          assign tgDocFileName = tgFileNameAttr.fileName
+        endif
+      endif
+      %}
+
+      {%- if ptg.media.document.isUnavailable %}
+
+      {%- else %}
+        {%- if ptg.media.document.mimeType == 'image/webp' %}
+          <img loading="lazy" class="tg-img tg-{{ tgDocType }}" src="/misc/tg/media/m-{{ptg.media.document.id}}.dat" title="Telegram media id {{ptg.media.document.id}}" alt="A {{ tgDocType }} from Telegram, related to current message. {{ tgDocAltDesc }}" />
+          {%- assign tgDocHandled = true %}
+        {%- elsif ptg.media.document.mimeType | startsWith: 'video/' %}
+          {%- assign tgDocType = 'video' %}
+          <video controls class="tg-video tg-{{ tgDocType }}" src="/misc/tg/media/m-{{ptg.media.document.id}}.dat" title="Telegram media id {{ptg.media.document.id}}" alt="A {{ tgDocType }} from Telegram, related to current message. {{ tgDocAltDesc }}">
+            Your browser does not support the video tag.
+          </video>
+          {%- assign tgDocHandled = true %}
+        {%- endif %}
+      {%- endif %}
+
+      {%- unless tgDocHandled -%}
+        [[ Telegram {{ tgDocType }} ({{ tgDocFileName | nAppend: ', ' }}{{ ptg.media.document.size }} bytes){{ tgDocAlt | nPrepend: ' : ' }} - Non-downloadable here ]]
+      {%- endunless %}
+
+    {%- endif %}
+
+    {%- if not ptg.invertMedia and tgWebpagePreview %}
+      {{ tgWebpagePreview | raw }}
+    {%- endif %}
+
+    {%- liquid
+    if tg.sameGroupedMessages and tg.sameGroupedMessages.size > 0
+      for sgm in tg.sameGroupedMessages
+        render 'inc/telegramMessageWorker.tmpl.html', tg: sgm, shouldSuppressPeerAndAuthor: true
+      endfor
+    endif
+    %}
+
+    {%- if ptg.involvementType %}
+      </td></tr></table>
+    {%- endif %}
+
+  {%- endif %}
+{%- endif -%}

@@ -1,0 +1,9 @@
+{%- if reqPathTidy == 'styleCustomizer' %}
+  {%- render 'styleCustomize.tmpl.html' %}
+{%- elsif reqPathTidy == 'precache' %}
+  {%- render 'preloadTmpl.tmpl.html' %}
+{%- elsif reqPathTidy == 'playground' %}
+  {%- render 'playground.tmpl.html' %}
+{%- else -%}
+  {%- render 'cachedCurate.tmpl.html' %}
+{%- endif -%}

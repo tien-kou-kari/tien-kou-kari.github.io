@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{%- block rssTitle -%}{{ rssTitle | default: 'Tien-kou' }}{%- endblock %}</title>
+    <link>https://tien-kou.shunf4.workers.dev/</link>
+    <description>{%- block rssDescription -%}{{ rssDescription | default: 'Tien-kou' }}{%- endblock %}</description>
+    {%- block rssItemList %}
+
+    {%- endblock %}
+  </channel>
+</rss>

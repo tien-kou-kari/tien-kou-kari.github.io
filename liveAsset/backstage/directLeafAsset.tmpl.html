@@ -1,0 +1,26 @@
+{%- liquid
+
+x asset.metadata.title | rgcSet: "pageTitlePart"
+
+assign partialGroupLogicCtx = undefined | newObj
+assign singletonList = undefined | newArr | inplacePush: asset
+
+render 'inc/partialGroupLogicFetchInfo.tmpl.html', partialGroupLogicCtx: partialGroupLogicCtx, assetListOfMultiGroups: singletonList
+
+assign partialGroupLogicOneAssetCtx = undefined | newObj
+
+render 'inc/partialGroupLogicHandleEachAsset.tmpl.html', partialGroupLogicCtx: partialGroupLogicCtx, partialGroupLogicOneAssetCtx: partialGroupLogicOneAssetCtx, asset: asset
+
+-%}
+
+{%- if partialGroupLogicOneAssetCtx.shouldSuppressNormalRenderAndDoGroupRender %}
+  {{- partialGroupLogicOneAssetCtx.toRender | raw }}
+{%- else %}
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+  {%- render 'inc/content.tmpl.html', shouldUseRgcForAssetStatus: true, asset: asset %}
+  </div>
+</div>
+
+{%- endif -%}

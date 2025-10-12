@@ -1,0 +1,22 @@
+{%- liquid
+
+assign childrenOrder = asset.metadata.childrenSortOrder | default: 'condTimeDesc'
+
+assign isHive = reqPathTidy | startsWith: 'hive/'
+assign isHive = reqPathTidy == 'hive' or isHive
+
+if isHive
+  echo '<span>Hive.</span>'
+  break
+endif
+
+assign list = reqPathTidy | listAssetChildren: true, true, listableAssetExtNames, childrenOrder, pageNum, pageSize
+
+assign isShowAsSequence = c.isLocatableContentHasDerivedChildren
+
+if isShowAsSequence
+  render 'inc/sequence.tmpl.html' list: list
+else
+  render 'childLinkList.tmpl.html' list: list
+endif
+-%}

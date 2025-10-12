@@ -1,0 +1,24 @@
+
+{%- liquid
+
+assign matchAllSubAncestors = undefined | newArr | inplacePush: ''
+
+x sl | prepend: 'Slug ' | rgcSet: "pageTitlePart"
+
+assign customSqlArgs = undefined | newArr | inplacePush: sl
+
+assign resultList = undefined | queryLiveAssetByRawLocators: locatorSubAncestors: matchAllSubAncestors, shouldIncludeDirectories: false, shouldIncludeDerivingParent: false, shouldIncludeWithoutPubTime: true, shouldFetchRawBytes: true, customSql: " AND json_extract(metadata, '$.specifiedLocator') = ?", customSqlArgs: customSqlArgs
+
+if resultList.size == 0
+
+  x 404 | rgcSet: "respStatusCode"
+
+  echo 'Not Found'
+
+else
+
+  render 'directLeafAsset.tmpl.html', asset: resultList[0]
+
+endif
+
+-%}

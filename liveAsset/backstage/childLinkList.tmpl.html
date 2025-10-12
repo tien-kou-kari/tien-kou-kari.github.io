@@ -1,0 +1,37 @@
+
+<div style="margin-top: 2rem; margin-left: 1rem;">
+
+{%- for post in list %}
+
+  {%- liquid
+
+  assign webUrlPathUnencoded = post.web_url_path_unencoded
+  assign isMisc1 = webUrlPathUnencoded | endsWith: '/misc'
+  assign isMisc2 = webUrlPathUnencoded | endsWith: '/miscMedia'
+  assign isHive = webUrlPathUnencoded == '/hive'
+  assign isTag = webUrlPathUnencoded == '/tag'
+  assign isTagTopic = webUrlPathUnencoded == '/tagTopic'
+  assign isWebArc = webUrlPathUnencoded == '/webArc'
+  assign isTest = webUrlPathUnencoded == '/Test' or webUrlPathUnencoded == '/SendTest'
+
+  if isMisc1 or isMisc2 or isHive or isTag or isTagTopic or isWebArc or isTest
+    continue
+  endif
+
+  %}
+
+  <h3 
+  {%- liquid
+  if post.metadata.lang
+    # echo doesn't do escape by default, so
+    echo post.metadata.lang | escape | prepend: ' lang="' | append: '"' | raw
+  endif
+  -%}
+  >
+    <a href="{{post.web_url_path}}">{{ webUrlPathUnencoded }}</a>
+  </h3>
+
+{%- else %}
+  Nothing in this directory could be listed for you. Sorry if I previously guided you here.
+{%- endfor %}
+</div>

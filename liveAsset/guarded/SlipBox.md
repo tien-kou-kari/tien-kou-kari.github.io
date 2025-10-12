@@ -1,0 +1,135 @@
+---
+isDerivableIntoChildren: true
+---
+
+
+
+2025-09-15 01:43:43 #meta title=图书馆建成了
+
+图书馆建成了。
+
+2025-09-18 01:02:57 
+
+AI用于完全琐碎/非创意领域的道德性？
+- 也有可能是非道德的。妳在给AI公司提供数据。
+
+2025-09-18 11:15:51 [[
+
+Thunderbird 143 on Windows 启动后闪退，在prefs.js里`mail.accountmanager.accounts`把Gmail账号移除掉后恢复。
+
+2025-09-18 11:31:18
+
+或者把mail.server.server1.login_at_startup改成false就好了
+
+2025-09-18 11:31:19 ~~ Thunderbird 143 on Windows 启动后闪退问题
+
+2025-09-18 11:31:23
+
+但是只要gmail一收件就crash，咲希了
+
+2025-09-18 11:35:04
+？好像好了
+
+2025-09-18 11:35:09
+只要保证启动时gmail绝对不能自动收件就行
+
+2025-09-18 23:56:39 ]]
+
+2025-09-19 21:37:55 艹，太傻逼了，Windows 10有些窗口（比如services.msc）在最大化后习惯性鼠标甩到最右上角的位置点击竟然不是对应本窗口的关闭按钮，而是穿透到下一层窗口，比如把下一层的Chrome关掉了
+
+2025-09-21 01:02:10 #tk演进 内容更新时间，group重新思考primary逻辑，进g内单条asset时行为，gkeys
+
+2025-09-22 00:43:05 #tk演进 尽量减少kv写入，每请求最多写1次，每刷新最多写1+n(后续有增量请求数)次
+
+2025-09-26 00:41:17
+
+https://wiki.c2.com/?ClassesAreContext
+
+https://wiki.c2.com/?ContextObjectsAreEvil
+
+2025-09-26 01:09:03
+
+所以说到Context，将JavaScript的AsyncLocalStorage类似概念（其他语言是否也有？Structured Concurrency是不是关于这个的？）用在Context的传递上变成语言的内禀功能，默认（或以一个尽量方便的标记opt-in）函数都需要用到context对象，需要取其中的内容时有语法糖支持使其尽可能方便，是否可行？
+
+2025-09-27 22:43:32
+
+#tk演进 frontMatter内直接写时间的问题
+
+#tk演进 内容submit页面
+
+#tk演进 文件变成文件夹后hoard的bug
+
+2025-10-01 01:08:12 tref=zxf-struggled 在此庆贺这个新民主主义国家走过第七十六个年头。
+
+
+
+2025-10-03 01:25:46 Lovely red panda 4
+
+<a href="/miscMedia/2025-10-03_01-25-46_0.jpg" class="md-attach md-attach-img-link" target="_blank">
+            <img src="/miscMedia/2025-10-03_01-25-46_0.jpg" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
+        </a>
+
+
+2025-10-03 01:26:22 Lovely red panda 5
+
+<a href="/miscMedia/2025-10-03_01-26-22_0.jpg" class="md-attach md-attach-img-link" target="_blank">
+            <img src="/miscMedia/2025-10-03_01-26-22_0.jpg" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
+        </a>
+
+
+2025-10-03 01:36:02 啊啊啊
+
+
+
+
+2025-10-03 01:37:51 #tk演进 什么都有了，sender也做了，应该没什么事了吧…
+
+
+
+
+2025-10-03 12:22:31 哎唷我草瓜熟迪落拉也听きとずぼ
+
+
+
+
+2025-10-03 12:22:55 品味这一块
+
+
+2025-10-04 16:10:07 船长的资料室 - 将一般Windows操作系统迁移到VHDX中并切换为WindowsToGo启动
+ http://www.tiger2doudou.com/doku.php/windows:os:migrate_ordinary_os_to_vhdx_window_to_go_on_usb_driver
+
+关于将Windows系统做成外置USB硬盘盒（Windows To Go）启动，以及（按需）克隆保证不出冲突的指引可以看上文，加上以下几点我自己的经验：
+
+- 1. USB 驱动 `HKLM\SYSTEM\ControlSet001\Control\Class\{36fc9e60-c465-11cf-8056-444553540000}` 不能有 UpperFilters 。
+
+- 2. 除了上述检查之外，改 BootDriverFlags 是保证USB 21H2能够启动的唯一需要。（如果是移动到新主板启动，即 Hardware GUID 全新，则可能改为只启用 HAL 检测即可。）
+
+<a href="/miscMedia/SlipBox_b1xv3rs3_0.html" class="md-attach md-attach-file-link" target="_blank">SlipBox_b1xv3rs3_0.html</a>
+
+2025-10-04 16:32:58 接上条。
+
+普通系统切换为WTG的方法 · GitHub - https://gist.github.com/muink/1f963c5229328c4f5da408076af13448
+
+把两个注册表键值的作用讲得很清楚了，可以理解为 PortableOperatingSystem 的值是完全不需要的。
+
+同时还需要注意：ControlSet\Control键下也有一个BootDriverFlags，修改这个值对我而言似乎没用。而且在我的系统上一开始就是0x1c了（允许USB启动的值），也不需要修改。
+
+<a href="/miscMedia/SlipBox_xlj13ckn_0_普通系统切换为WTG的方法 · GitHub (2025_10_4 16：22：37).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_xlj13ckn_0_普通系统切换为WTG的方法 · GitHub (2025_10_4 16：22：37).html</a>
+
+2025-10-04 23:25:27 看起来Chromium on Android/ChromeOS对于“让用户选择一个本地目录，然后对里面的某个具体文件进行取writable然后写入”这个用例目前还是不通的，至少Chrome 140.0.7339.207现在是这样…
+
+2025-10-05 00:39:29 接上条：乐，查了下Firefox根本不支持window.showDirectoryPicker API。还得靠同行衬托
+
+2025-10-05 00:58:30 又试了一试，感觉是总路径名太长才会触发这个bug…
+
+2025-10-05 01:00:31 达到一定长度（70左右）会触发这个bug
+
+2025-10-05 12:41:26 
+
+2025-10-05 14:13:43 https://lab.skk.moe/traffic-consumer
+
+苏卡卡的大厂 CDN 流量拉取器，可以测速、消耗流量等
+
+2025-10-07 01:06:36 #tk演进 是否需要考虑将所有链接默认target=_blank？
+
+2025-10-07 21:49:49 #tk演进 CSS;tksender md渲染？临时缓存
