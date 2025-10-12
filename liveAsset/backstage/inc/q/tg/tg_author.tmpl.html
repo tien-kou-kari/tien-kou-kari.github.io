@@ -70,6 +70,6 @@ endif
 {%- endunless %}
 
 
-{%- if postAuthor -%}
+{%- if postAuthor != '' and postAuthor -%}
 {%- echo ' (' %}<span class="tg-author">{{ postAuthor }}</span>{%- echo ')' %}
 {%- endif -%}
