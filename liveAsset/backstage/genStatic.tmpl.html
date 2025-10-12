@@ -1,12 +1,14 @@
 
 {%- liquid
 
+x true | rgcSet: 'isDoingStaticGen'
+
 assign matchAllSubAncestors = undefined | newArr | inplacePush: ''
 
 assign list = undefined | queryLiveAssetByRawLocators: locatorSubAncestors: matchAllSubAncestors, shouldIncludeDirectories: true, shouldIncludeDerivingParent: true, shouldIncludeWithoutPubTime: true, shouldFetchRawBytes: true
 
 for asset in list
-  x asset.web_url_path | genStaticPageWithAncestors
+  x asset.asset_locator | genStaticPageWithAncestors
 endfor
 
 # TODO: for each tags/slugs, fixed rss, ...
