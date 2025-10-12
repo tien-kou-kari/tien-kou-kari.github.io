@@ -13,7 +13,7 @@ assign groupDedupMap = undefined | newObj
 
 for asset in list
 
-  x asset.asset_locator | genStaticPageWithAncestors
+  x asset.web_url_path_unencoded | genStaticPageWithAncestors
 
   if asset.metadata.declaredTags.size > 0 and asset.metadata.declaredTags
     for tag in asset.metadata.declaredTags
