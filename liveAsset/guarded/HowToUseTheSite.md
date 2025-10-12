@@ -24,6 +24,8 @@ publishTime: '2025-09-23 00:52:52'
 
 (Dynamic) RSS Daily with filter: [/rss?periodType=fixedMinutes&periodNumParam=1440&periodDateParam=2000-01-01T06:30:00%2B08:00&tags=LatestStageCapitalism](/rss?periodType=fixedMinutes&periodNumParam=1440&periodDateParam=2000-01-01T06:30:00%2B08:00&tags=LatestStageCapitalism)
 
+(Dynamic) RSS Weekly: [/rss?feedTitle=Tien-kou%20Weekly&periodType=fixedMinutes&periodNumParam=10080&periodDateParam=2000-01-01T06:30:00%2B08:00&spec=flow](/rss?feedTitle=Tien-kou%20Weekly&periodType=fixedMinutes&periodNumParam=10080&periodDateParam=2000-01-01T06:30:00%2B08:00&spec=flow)
+
 (Dynamic) RSS Monthly: [/rss?periodType=everyMonth&periodNumParam=1440&spec=flow](/rss?periodType=everyMonth&periodNumParam=1440&spec=flow)
 
 (Dynamic) RSS Yearly: [/rss?periodType=everyYear&periodNumParam=1440&spec=flow](/rss?periodType=everyYear&periodNumParam=1440&spec=flow)
@@ -32,5 +34,6 @@ publishTime: '2025-09-23 00:52:52'
 
 - [/misc/fixedRss/looseRss.xml](/misc/fixedRss/looseRss.xml)
 - [/misc/fixedRss/dailyRss.xml](/misc/fixedRss/dailyRss.xml)
+- [/misc/fixedRss/weeklyRss.xml](/misc/fixedRss/weeklyRss.xml)
 - [/misc/fixedRss/monthlyRss.xml](/misc/fixedRss/monthlyRss.xml)
 
