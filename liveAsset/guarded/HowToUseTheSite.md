@@ -22,7 +22,7 @@ publishTime: '2025-09-23 00:52:52'
 
 (Post filters apply.)
 
-(Dynamic) RSS with filter: [/rss?periodType=fixedMinutes&periodNumParam=1440&periodDateParam=2000-01-01T06:30:00%2B08:00&tags=LatestStageCapitalism](/rss?periodType=fixedMinutes&periodNumParam=1440&periodDateParam=2000-01-01T06:30:00%2B08:00&tags=LatestStageCapitalism)
+(Dynamic) RSS Daily with filter: [/rss?periodType=fixedMinutes&periodNumParam=1440&periodDateParam=2000-01-01T06:30:00%2B08:00&tags=LatestStageCapitalism](/rss?periodType=fixedMinutes&periodNumParam=1440&periodDateParam=2000-01-01T06:30:00%2B08:00&tags=LatestStageCapitalism)
 
 (Dynamic) RSS Monthly: [/rss?periodType=everyMonth&periodNumParam=1440&spec=flow](/rss?periodType=everyMonth&periodNumParam=1440&spec=flow)
 
@@ -30,7 +30,7 @@ publishTime: '2025-09-23 00:52:52'
 
 (Dynamic+Static) Fixed RSS:
 
-- [/misc/looseRss](/misc/looseRss)
-- [/misc/dailyRss](/misc/dailyRss)
-- [/misc/monthlyRss](/misc/monthlyRss)
+- [/misc/rss/looseRss](/misc/rss/looseRss)
+- [/misc/rss/dailyRss](/misc/rss/dailyRss)
+- [/misc/rss/monthlyRss](/misc/rss/monthlyRss)
 
