@@ -17,18 +17,22 @@ for asset in list
 
   if asset.metadata.declaredTags.size > 0 and asset.metadata.declaredTags
     for tag in asset.metadata.declaredTags
-      if tagDedupMap[tag]
-        continue
+      if tag != '' and tag
+        if tagDedupMap[tag]
+          continue
+        endif
+        x true | setToObj: tagDedupMap, tag
       endif
-      x true | setToObj: tagDedupMap, tag
     endfor
   endif
   if asset.metadata.referencedTags.size > 0 and asset.metadata.referencedTags
     for tag in asset.metadata.referencedTags
-      if tagDedupMap[tag]
-        continue
+      if tag != '' and tag
+        if tagDedupMap[tag]
+          continue
+        endif
+        x true | setToObj: tagDedupMap, tag
       endif
-      x true | setToObj: tagDedupMap, tag
     endfor
   endif
 
@@ -39,7 +43,7 @@ for asset in list
     x true | setToObj: specifiedLocatorDedupMap, asset.metadata.specifiedLocator
   endif
 
-  if asset.metadata.groupPrimaryLocator
+  if asset.metadata.groupPrimaryLocator != '' and asset.metadata.groupPrimaryLocator
     if groupDedupMap[asset.metadata.groupPrimaryLocator]
       continue
     endif
