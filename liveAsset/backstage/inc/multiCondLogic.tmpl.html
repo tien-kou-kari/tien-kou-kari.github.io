@@ -50,7 +50,7 @@ if reqQuery.spec != '' and reqQuery.spec
   endif
 
   if reqQuery.spec == 'noise'
-    x 'misc/,SlipBox/,TheDesk/,tagTopic/,hive/Murmur/,hive/Blabber/' | default: '' | split: ',' | setToObj: ancestorConds, 0
+    x 'misc/,SlipBox/,TheDesk/,tagTopic/,hive/Murmur/,hive/Blabber/,hive/Rant/' | default: '' | split: ',' | setToObj: ancestorConds, 0
   endif
 
   if reqQuery.spec == 'unreleased'
