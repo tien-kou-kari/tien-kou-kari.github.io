@@ -143,3 +143,9 @@ https://wiki.c2.com/?ContextObjectsAreEvil
 2025-10-13 18:16:27 [/hive/Blabber/NamingThings](/hive/Blabber/NamingThings)
 
 2025-10-13 20:53:32 Nostr and ATProto (2024) Nostr 和 ATProto (2024) - https://shreyanjain.net/2024/07/05/nostr-and-atproto.html
+
+2025-10-14 01:04:53 Nostr and ATProto (2024) Nostr 和 ATProto (2024) - https://shreyanjain.net/2024/07/05/nostr-and-atproto.html
+
+双语留档
+
+<a href="/miscMedia/SlipBox_0_shreyan_ - Nostr and ATProto (2025_10_14 01：02：31).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_0_shreyan_ - Nostr and ATProto (2025_10_14 01：02：31).html</a>
