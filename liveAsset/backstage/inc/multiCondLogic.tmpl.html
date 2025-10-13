@@ -53,6 +53,10 @@ if reqQuery.spec != '' and reqQuery.spec
     x 'misc/,SlipBox/,TheDesk/,tagTopic/,hive/Murmur/,hive/Blabber/' | default: '' | split: ',' | setToObj: ancestorConds, 0
   endif
 
+  if reqQuery.spec == 'unreleased'
+    x 'hive/Unreleased/,hive/UnreleasedSlip/' | default: '' | split: ',' | setToObj: ancestorConds, 0
+  endif
+
 endif
 
 if pageNum < 0
