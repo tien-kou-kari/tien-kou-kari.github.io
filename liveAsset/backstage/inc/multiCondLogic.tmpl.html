@@ -9,25 +9,31 @@ assign allowedCondCount = 4
 assign tagConds = undefined | newArr
 assign groupConds = undefined | newArr
 assign ancestorConds = undefined | newArr
+assign keywordConds = undefined | newArr
 
 for i in (1..allowedCondCount)
   x undefined | inplacePushTo: tagConds
   x undefined | inplacePushTo: groupConds
   x undefined | inplacePushTo: ancestorConds
+  x undefined | inplacePushTo: keywordConds
 endfor
 
 x reqQuery.tags | default: '' | split: ',' | setToObj: tagConds, 0
 x reqQuery.groups | default: '' | split: ',' | setToObj: groupConds, 0
 x reqQuery.ancestors | default: '' | split: ',' | setToObj: ancestorConds, 0
+x reqQuery.keywords | default: '' | split: ',' | setToObj: keywordConds, 0
 x reqQuery.tags2 | default: '' | split: ','  | setToObj: tagConds, 1
 x reqQuery.groups2 | default: '' | split: ',' | setToObj: groupConds, 1
 x reqQuery.ancestors2 | default: '' | split: ',' | setToObj: ancestorConds, 1
+x reqQuery.keywords2 | default: '' | split: ',' | setToObj: keywordConds, 1
 x reqQuery.tags3 | default: '' | split: ',' | setToObj: tagConds, 2
 x reqQuery.groups3 | default: '' | split: ',' | setToObj: groupConds, 2
 x reqQuery.ancestors3 | default: '' | split: ',' | setToObj: ancestorConds, 2
+x reqQuery.keyword3 | default: '' | split: ',' | setToObj: keywordConds, 2
 x reqQuery.tags4 | default: '' | split: ',' | setToObj: tagConds, 3
 x reqQuery.groups4 | default: '' | split: ',' | setToObj: groupConds, 3
 x reqQuery.ancestors4 | default: '' | split: ',' | setToObj: ancestorConds, 3
+x reqQuery.keywords4 | default: '' | split: ',' | setToObj: keywordConds, 3
 
 if reqQuery.spec != '' and reqQuery.spec
 
