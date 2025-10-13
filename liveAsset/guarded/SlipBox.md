@@ -140,4 +140,4 @@ https://wiki.c2.com/?ContextObjectsAreEvil
 
 全文多关键词搜索。
 
-2025-10-13 18:16:27 [//hive/Blabber/NamingThings](/hive/Blabber/NamingThings)
+2025-10-13 18:16:27 [/hive/Blabber/NamingThings](/hive/Blabber/NamingThings)
