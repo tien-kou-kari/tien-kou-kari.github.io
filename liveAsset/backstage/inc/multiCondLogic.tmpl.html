@@ -99,6 +99,9 @@ endif
 
 assign resultDesc = ''
 
+# will assign below
+assign hasKeywords = false
+
 %}
 
 
@@ -183,6 +186,7 @@ assign resultDesc = ''
               {%- unless forloop.first %}
                 OR
               {%- endunless %}
+              {%- assign hasKeywords = true %}
               {%- assign kwQueryMeta = kw | startsWith: '*' %}
               {%- if kwQueryMeta %}
                 {%- assign kw = kw | slice: 1, kw.size %}
@@ -203,6 +207,10 @@ assign resultDesc = ''
 {%- endcapture %}
 
 {%- liquid
+
+if hasKeywords and rgc.serverProfileName != 'insiders'
+  x 'filter by keywords not allowed' | throwWithUserMessage
+endif
 
 assign list = undefined | queryLiveAssetByRawLocators: locatorSubAncestors: matchAllSubAncestors, shouldIncludeDirectories: false, shouldIncludeDerivingParent: false, shouldFetchRawBytes: true, extraColumnSqlSegment: extraColumnSqlSegment, extraColumnSqlSegmentArgs: extraColumnSqlSegmentArgs, customSql: condSql, customSqlArgs: currSqlArgs, extensions: c.listableAssetExtNames, pageNum: pageNum, pageSize: pageSize
 
