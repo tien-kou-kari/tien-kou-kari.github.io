@@ -184,8 +184,9 @@ assign hasKeywords = false
           AND (
             {%- for kw in keywords %}
               {%- unless forloop.first %}
-                OR
+                AND
               {%- endunless %}
+              (
               {%- assign hasKeywords = true %}
               {%- assign kwQueryMeta = kw | startsWith: '*' %}
               {%- if kwQueryMeta %}
@@ -198,6 +199,7 @@ assign hasKeywords = false
                 metadata GLOB ?
                 {%- x kw | sqlGlobPatternEscape | append: '*' | prepend: '*' | inplacePushTo: currSqlArgs %}
               {%- endif %}
+              )
             {%- endfor %}
           )
         {%- endif %}
