@@ -77,7 +77,7 @@
     {%- if ptg.media.webpage %}
       {%- capture tgWebpagePreview %}
         <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
-          <a href="{{ ptg.media.webpage.url }}">{{ ptg.media.webpage.siteName }}</a>
+          <a target="_blank" href="{{ ptg.media.webpage.url }}">{{ ptg.media.webpage.siteName }}</a>
           <h6>{{ ptg.media.webpage.title }}</h6>
           <p>{{ ptg.media.webpage.description }}</p>
           {%- if ptg.media.webpage.photo.id %}
