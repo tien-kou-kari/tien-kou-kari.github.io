@@ -42,6 +42,7 @@ if reqQuery.spec != '' and reqQuery.spec
     x undefined | setToObj: tagConds, izero
     x undefined | setToObj: groupConds, izero
     x undefined | setToObj: ancestorConds, izero
+    x undefined | setToObj: keywordConds, izero
   endfor
 
   if reqQuery.spec == 'flow'
@@ -110,8 +111,9 @@ assign resultDesc = ''
       {%- assign tags = tagConds[izero] %}
       {%- assign groups = groupConds[izero] %}
       {%- assign ancestors = ancestorConds[izero] %}
+      {%- assign keywords = keywordConds[izero] %}
       {%- unless forloop.first %}
-        {%- if tags.size > 0 or groups.size > 0 or ancestors.size > 0 %}
+        {%- if tags.size > 0 or groups.size > 0 or ancestors.size > 0 or keywords.size > 0 %}
           OR
           {%- assign resultDesc = resultDesc | append: ' or ' %}
         {%- else %}
@@ -170,6 +172,28 @@ assign resultDesc = ''
               OR
               asset_locator GLOB ?
               {%- x anc | prepend: 'open/' | sqlGlobPatternEscape | append: '*' | inplacePushTo: currSqlArgs %}
+            {%- endfor %}
+          )
+        {%- endif %}
+        {%- if keywords.size > 0 %}
+          {%- assign keywordsStr = keywords | join: ', ' %}
+          {%- assign resultDesc = resultDesc | append: ' Keywords: ' | append: keywordsStr %}
+          AND (
+            {%- for kw in keywords %}
+              {%- unless forloop.first %}
+                OR
+              {%- endunless %}
+              {%- assign kwQueryMeta = kw | startsWith: '*' %}
+              {%- if kwQueryMeta %}
+                {%- assign kw = kw | slice: 1, kw.size %}
+              {%- endif %}
+              asset_raw_bytes GLOB ?
+              {%- x kw | sqlGlobPatternEscape | append: '*' | prepend: '*' | inplacePushTo: currSqlArgs %}
+              {%- if kwQueryMeta %}
+                OR
+                metadata GLOB ?
+                {%- x kw | sqlGlobPatternEscape | append: '*' | prepend: '*' | inplacePushTo: currSqlArgs %}
+              {%- endif %}
             {%- endfor %}
           )
         {%- endif %}
