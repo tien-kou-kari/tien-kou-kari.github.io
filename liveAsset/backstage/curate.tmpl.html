@@ -101,6 +101,10 @@
 
     x '/filter?spec=flow' | uri_escape | rgcSet: 'respSend302'
 
+  elsif reqPathTidy == '＊Unpublished'
+
+    x '/filter?spec=unpublished' | uri_escape | rgcSet: 'respSend302'
+
   elsif reqPathTidy == 'TheNoise'
 
     x '/filter?spec=noise' | uri_escape | rgcSet: 'respSend302'
