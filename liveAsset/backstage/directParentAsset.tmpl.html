@@ -5,7 +5,7 @@ assign childrenOrder = asset.metadata.childrenSortOrder | default: 'condTimeDesc
 assign isHive = reqPathTidy | startsWith: 'hive/'
 assign isHive = reqPathTidy == 'hive' or isHive
 
-if isHive
+if isHive and rgc.serverProfileName != 'insiders'
   echo '<span>Hive.</span>'
   break
 endif
