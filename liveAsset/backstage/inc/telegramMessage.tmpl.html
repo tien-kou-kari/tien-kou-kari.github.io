@@ -10,6 +10,20 @@
   </div>
 </details>
 {%- endcomment %}
+
+{%- # to make https://github.com/Rongronggg9/RSS-to-Telegram-Bot/blob/e9839d92e88ee3a82e1322ffc2a5357d6a5bf466/src/parsing/html_parser.py happy %}
+{%- if rgc.isRss %}
+  {%- assign tableEl = 'div' %}
+  {%- assign trEl = 'div' %}
+  {%- assign tdEl = 'div' %}
+  {%- assign thEl = 'div' %}
+{%- else %}
+  {%- assign tableEl = 'table' %}
+  {%- assign trEl = 'tr' %}
+  {%- assign tdEl = 'td' %}
+  {%- assign thEl = 'th' %}
+{%- endif %}
+
   <{%- echo tableEl -%} class="tg-wrapper-layout">
     <{%- echo trEl -%} class="tg-wrapper-layout tg-wrapper-brief"><{%- echo tdEl -%} class="tg-wrapper-layout tg-wrapper-brief">
       {%- q "badge/tg" %}
