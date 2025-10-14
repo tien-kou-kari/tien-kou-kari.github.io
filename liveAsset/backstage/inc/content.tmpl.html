@@ -26,7 +26,7 @@
   if asset.metadata.tg
     # {{- asset.asset_raw_bytes | default: "" | btos | split: "\n" | first | mdInline | raw }}
     echo asset.asset_raw_bytes | default: "" | btos | md | raw
-    render 'inc/telegramMessage.tmpl.html', tg: asset.metadata.tg, otherMetadata: asset.metadata
+    render 'inc/telegramMessage.tmpl.html', tg: asset.metadata.tg, asset: asset
   else
     echo asset.asset_raw_bytes | default: "" | btos | applyFilters: asset.runtime_mdPostProcessors | md | raw
   endif

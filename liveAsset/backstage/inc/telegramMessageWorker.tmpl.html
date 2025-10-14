@@ -24,26 +24,26 @@
 
   unless asset.metadata.shouldSuppressExtInvolvement or asset.metadata.shouldSuppressExtInvolvementAbove2
     if tg.haveMoreLevelExtInvolvedMessage
-      render 'inc/telegramMessageWorker.tmpl.html', tg: tg.haveMoreLevelExtInvolvedMessage
+      render 'inc/telegramMessageWorker.tmpl.html', tg: tg.haveMoreLevelExtInvolvedMessage, asset: asset
     endif
 
     if tg.extInvolvedMessageLv4
-      render 'inc/telegramMessageWorker.tmpl.html', tg: tg.extInvolvedMessageLv4
+      render 'inc/telegramMessageWorker.tmpl.html', tg: tg.extInvolvedMessageLv4, asset: asset
     endif
 
     if tg.extInvolvedMessageLv3
-      render 'inc/telegramMessageWorker.tmpl.html', tg: tg.extInvolvedMessageLv3
+      render 'inc/telegramMessageWorker.tmpl.html', tg: tg.extInvolvedMessageLv3, asset: asset
     endif
 
     if tg.extInvolvedMessageLv2
-      render 'inc/telegramMessageWorker.tmpl.html', tg: tg.extInvolvedMessageLv2
+      render 'inc/telegramMessageWorker.tmpl.html', tg: tg.extInvolvedMessageLv2, asset: asset
     endif
   endunless
 
   unless asset.metadata.shouldSuppressExtInvolvement == 'true' or asset.metadata.shouldSuppressExtInvolvementAbove2 == 'true'
     if tg.extInvolvedMessage
       if isCurrMsgProminent
-        render 'inc/telegramMessageWorker.tmpl.html', tg: tg.extInvolvedMessage
+        render 'inc/telegramMessageWorker.tmpl.html', tg: tg.extInvolvedMessage, asset: asset
       endif
     endif
 
@@ -152,7 +152,7 @@
     {%- liquid
     if tg.sameGroupedMessages and tg.sameGroupedMessages.size > 0
       for sgm in tg.sameGroupedMessages
-        render 'inc/telegramMessageWorker.tmpl.html', tg: sgm, shouldSuppressPeerAndAuthor: true
+        render 'inc/telegramMessageWorker.tmpl.html', tg: sgm, shouldSuppressPeerAndAuthor: true, asset: asset
       endfor
     endif
     %}
