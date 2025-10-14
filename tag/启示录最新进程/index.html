@@ -171,7 +171,7 @@ a.tag-link {
 }
 
 .tag-wrapper {
-
+  margin-right: 0.6rem;
 }
 
 
@@ -216,7 +216,7 @@ a.secondary {
     return document.getElementById(id);
   }
 
-  var tkDefaultStyle = "\n\nhtml {\n  color-scheme: light dark;\n}\n\nimg,\nsvg,\nvideo {\n  max-width: 100%;\n  display: block;\n}\n\nbody {\n  font-family: System UI;\n  font-size: 0.75rem;\n}\n\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\n.white-space-preserve {\n  white-space-collapse: preserve;\n}\n\ndiv.principal-content {\n  margin-top: 0.5rem;\n}\n\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-involvement-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-websummary-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntd.group-ref-primary.group-ref-scroll .principal-content {\n  max-height: 20rem;\n  overflow-y: scroll;\n}\n\nh1, h2, h3 {\n  color: #2c3e50;\n  border-bottom: 1px solid #eee;\n  padding-bottom: 5px;\n}\n\n.tg-img, .tg-video {\n  max-width: 20rem;\n  max-height: 40rem;\n}\n\na.tag-link {\n\n}\n\n.tag-wrapper {\n\n}\n\n\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n"
+  var tkDefaultStyle = "\n\nhtml {\n  color-scheme: light dark;\n}\n\nimg,\nsvg,\nvideo {\n  max-width: 100%;\n  display: block;\n}\n\nbody {\n  font-family: System UI;\n  font-size: 0.75rem;\n}\n\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\n.white-space-preserve {\n  white-space-collapse: preserve;\n}\n\ndiv.principal-content {\n  margin-top: 0.5rem;\n}\n\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-involvement-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-websummary-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntd.group-ref-primary.group-ref-scroll .principal-content {\n  max-height: 20rem;\n  overflow-y: scroll;\n}\n\nh1, h2, h3 {\n  color: #2c3e50;\n  border-bottom: 1px solid #eee;\n  padding-bottom: 5px;\n}\n\n.tg-img, .tg-video {\n  max-width: 20rem;\n  max-height: 40rem;\n}\n\na.tag-link {\n\n}\n\n.tag-wrapper {\n  margin-right: 0.6rem;\n}\n\n\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n"
 
   var tkStyleContent = getCookie('tkStyle');
   var tkStyleElement = document.createElement('style');
@@ -248,12 +248,88 @@ a.secondary {
 <h4>Declared by</h4>
 
 <div class="one-in-seq-wrapper">
+  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-14">misc/tg/2025-10-14</a> / <a href="/misc/tg/2025-10-14/2025-10-14%2017.03.16">2025-10-14 17.03.16</a> <span>2025-10-14 17:03:16 UTC+8</span></div>
+
+  <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
+    </div>
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/illusory_world" title="Telegram PeerChannel handle: illusory_world" data-title="tg:illusory_world">不存在的世界</a>
+      <table class="tg-involvement-layout"><tr class="tg-involvement-layout"><td  class="tg-involvement-layout tg-involvement-type">
+      <span class="tg-involvement-type">[Re]</span>
+      </td><td class="tg-involvement-layout tg-involvement-body"><a target="_blank" href="https://t.me/dnspodt" title="Telegram PeerChannel handle: dnspodt" data-title="tg:dnspodt">LoopDNS资讯播报</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><b>华盛顿正在考虑要求向中国出口软件的公司必须申请出口许可证</b>
+
+美国财政部长斯科特·贝森特（Scott Bessent）指责中国在实施大范围稀土和关键矿产出口管制后，试图“损害全球经济”，这一举措扰乱了全球供应链。
+
+一名知情人士表示，如果双方无法达成协议，美国已准备好反制措施，并将在本周于华盛顿举行的七国集团（G7）会议上将此议题列为优先事项，该会议与世界银行和国际货币基金组织年会同时进行。
+
+另外两名消息人士称，华盛顿正在考虑要求向中国出口软件的企业必须获得出口许可证，这一举措可能会对中国多个产业造成严重影响。
+
+美国和中国官员已于周一在华盛顿会面，此前贝森特表示，双方在周末期间进行了“大量沟通”。据悉，贝森特预计将在10月29日特朗普与习近平于韩国举行会谈前，再次与何立峰进行会晤。
+
+一名消息人士指出，中国原本希望贝森特与何的会面安排在亚太经合组织（APEC）会议之后，但现在“语气已变”，更倾向于在会前举行。
+
+来源：<a href="https://www.ft.com/content/fbc5f7bc-b36c-4a12-9c5e-a3f0c19aad12">金融时报</a></div>
+      </td></tr></table>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">看这形势，虽然不知道 GitHub 未来会不会被影响，但最好还是把自己的仓库搞个备份吧（</div>
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-14">misc/tg/2025-10-14</a> / <a href="/misc/tg/2025-10-14/2025-10-14%2016.53.58">2025-10-14 16.53.58</a> <span>2025-10-14 16:53:58 UTC+8</span></div>
+
+  <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
+    </div>
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/solidot" title="Telegram PeerChannel handle: solidot" data-title="tg:solidot">Solidot</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://www.solidot.org/story?sid=82542"><b>日本夏季过去 42 年增加了 3 周</b></a>
+
+2025-10-14 15:50 by 奇迹男孩与冰霜巨人
+
+日本三重大学的研究团队发现，1982-2023 年的 42 年间，日本的“夏季时长”增加了约 3 周。“冬季时长”基本未变，春季与秋季则不断缩短。团队警示称：“全球变暖导致的海面水温上升是主要原因。若变暖趋势持续，‘长夏+长冬’的两季化现象将进一步加剧”。42 年间夏季起始日提前了约 12.6 天，结束日推迟了约 8.8 天，总时长增加了约 21.4 天。以 2023 年为例，日本夏季为 6 月11 日至 10 月  9日，共计 121 天。
+
+日经：全球变暖，日本夏季42年来长了3周
+
+#五七桐</div>
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
   <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-25">misc/tg/2025-09-25</a> / <a href="/misc/tg/2025-09-25/2025-09-25%2017.06.05">2025-09-25 17.06.05</a> <span>2025-09-25 17:06:05 UTC+8</span></div>
 
   <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
-      <span class="tag-wrapper" style="margin-right: 0.6rem;"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
     </div>
   <table class="tg-wrapper-layout">
     <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
@@ -287,7 +363,7 @@ a.secondary {
   <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
-      <span class="tag-wrapper" style="margin-right: 0.6rem;"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
     </div>
   <table class="tg-wrapper-layout">
     <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
@@ -314,7 +390,7 @@ NPM 再次出现供应链投毒
   <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
-      <span class="tag-wrapper" style="margin-right: 0.6rem;"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
     </div>
   <table class="tg-wrapper-layout">
     <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
@@ -347,7 +423,7 @@ NPM 再次出现供应链投毒
   <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
-      <span class="tag-wrapper" style="margin-right: 0.6rem;"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
     </div>
   <table class="tg-wrapper-layout">
     <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
@@ -376,7 +452,7 @@ NPM 再次出现供应链投毒
   <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
-      <span class="tag-wrapper" style="margin-right: 0.6rem;"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
     </div>
   <table class="tg-wrapper-layout">
     <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
