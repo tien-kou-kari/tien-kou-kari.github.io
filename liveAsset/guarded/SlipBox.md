@@ -154,4 +154,8 @@ https://wiki.c2.com/?ContextObjectsAreEvil
 
 双语留档
 
+有付费墙，文章不完整
+
+美帝的大洪水怎么还不来，可恶的AI.jpg
+
 <a href="/miscMedia/SlipBox_0_America&#039;s%20future%20could%20hinge%20on%20whether%20AI%20slightly%20disappoints%20(2025_10_15%2001%EF%BC%9A41%EF%BC%9A52).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_0_America&#039;s future could hinge on whether AI slightly disappoints (2025_10_15 01：41：52).html</a>
