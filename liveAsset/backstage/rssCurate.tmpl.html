@@ -1,5 +1,7 @@
 {%- layout 'rssLayout.tmpl.html' -%}
 
+{%- x true | rgcSet: 'isRss' %}
+
 {%- block rssTitle -%}
   {%- backpatch rssTitle %}
 {%- endblock -%}
