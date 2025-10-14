@@ -57,7 +57,7 @@
   {%- if not abortRender %}
 
     {%- if tg.involvementType != '' and tg.involvementType %}
-      <table class="tg-involvement-layout"><tr class="tg-involvement-layout"><td  class="tg-involvement-layout tg-involvement-type">
+      <{%- echo tableEl -%} class="tg-involvement-layout"><{%- echo trEl -%} class="tg-involvement-layout"><{%- echo tdEl -%}  class="tg-involvement-layout tg-involvement-type">
     {%- endif %}
         
     {%- if tg.involvementType == 'fwd' %}
@@ -69,7 +69,7 @@
     {%- endif %}
     
     {%- if tg.involvementType and tg.involvementType != '' %}
-      </td><td class="tg-involvement-layout tg-involvement-body">
+      </{%- echo tdEl -%}><{%- echo tdEl -%} class="tg-involvement-layout tg-involvement-body">
       {{- authorOutput | raw -}}
     {%- endif %}
 
@@ -81,14 +81,14 @@
     {%- assign tgWebpagePreview = undefined %}
     {%- if ptg.media.webpage %}
       {%- capture tgWebpagePreview %}
-        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
+        <{%- echo tableEl -%} class="tg-websummary-layout"><{%- echo trEl -%} class="tg-websummary-layout"><{%- echo tdEl -%} class="tg-websummary-layout">
           <a target="_blank" href="{{ ptg.media.webpage.url }}">{{ ptg.media.webpage.siteName }}</a>
           <h6>{{ ptg.media.webpage.title }}</h6>
           <p>{{ ptg.media.webpage.description }}</p>
           {%- if ptg.media.webpage.photo.id %}
             <img loading="lazy" class="tg-img tg-photo" src="{{ tgMediaWebPathPrefix }}/m-{{ptg.media.webpage.photo.id}}.png" title="Telegram wepbage media id {{ptg.media.webpage.photo.id}}" alt="A picture related to current telegram webpage message. No more alt detail for now." />
           {%- endif %}
-        </td></tr></table>
+        </{%- echo tdEl -%}></{%- echo trEl -%}></{%- echo tableEl -%}>
       {%- endcapture %}
     {%- endif %}
 
@@ -158,7 +158,7 @@
     %}
 
     {%- if tg.involvementType != '' and tg.involvementType %}
-      </td></tr></table>
+      </{%- echo tdEl -%}></{%- echo trEl -%}></{%- echo tableEl -%}>
     {%- endif %}
 
   {%- endif %}

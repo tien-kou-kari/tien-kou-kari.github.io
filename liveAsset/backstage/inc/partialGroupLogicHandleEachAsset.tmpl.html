@@ -20,10 +20,10 @@ endif
 
 {%- unless currGroupPrimaryLocator == undefined or partialGroupLogicOneAssetCtx.shouldFullySkipRender %}
   {%- capture toRender %}
-    <table class="group-layout">
+    <{%- echo tableEl -%} class="group-layout">
     {%- assign currGroupPrimary = partialGroupLogicCtx.groupPrimaryMap[currGroupPrimaryLocator] %}
     {%- if currGroupPrimary.runtime_groupType == 'thread' or currGroupPrimary.runtime_groupType == undefined %}
-      <tr class="group-layout group-brief"><td colspan="2" class="group-layout group-brief">
+      <{%- echo trEl -%} class="group-layout group-brief"><{%- echo tdEl -%} colspan="2" class="group-layout group-brief">
         <span lang="ja-JP">〜</span>
       {%- if currGroupPrimary == undefined %}
         {{- ??? }}
@@ -34,11 +34,11 @@ endif
       {%- else %}
         {{- currGroupPrimary.asset_raw_bytes | default: "" | btos | split: "\n" | find_exp: 'item', 'item | strip | toBoolean' | mdInline | raw }}
       {%- endif %}
-      </td></tr>
+      </{%- echo tdEl -%}></{%- echo trEl -%}>
     {%- endif %}
 
     {%- if partialGroupLogicCtx.groupMinPubTimeInPageMap[currGroupPrimaryLocator] != partialGroupLogicCtx.groupMinTimeMap[currGroupPrimaryLocator] %}
-      <tr class="group-layout group-min-ellipsis"><td colspan="2" class="group-layout group-min-ellipsis"><a title="Jump to this group" class="group-jump-link" href="/group/{{ currGroupPrimaryLocator }}">...</a></td></tr>
+      <{%- echo trEl -%} class="group-layout group-min-ellipsis"><{%- echo tdEl -%} colspan="2" class="group-layout group-min-ellipsis"><a title="Jump to this group" class="group-jump-link" href="/group/{{ currGroupPrimaryLocator }}">...</a></{%- echo tdEl -%}></{%- echo trEl -%}>
     {%- endif %}
 
     {%- liquid
@@ -59,15 +59,29 @@ endif
     endif
 
     %}
+
+    {%- # to make https://github.com/Rongronggg9/RSS-to-Telegram-Bot/blob/e9839d92e88ee3a82e1322ffc2a5357d6a5bf466/src/parsing/html_parser.py happy %}
+    {%- if rgc.isRss %}
+      {%- assign tableEl = 'div' %}
+      {%- assign trEl = 'div' %}
+      {%- assign tdEl = 'div' %}
+      {%- assign thEl = 'div' %}
+    {%- else %}
+      {%- assign tableEl = 'table' %}
+      {%- assign trEl = 'tr' %}
+      {%- assign tdEl = 'td' %}
+      {%- assign thEl = 'th' %}
+    {%- endif %}
+    
     {%- if currGroupPrimary.runtime_groupType == 'ref' %}
-      <tr class="group-layout group-ref-primary group-asset">
-        <td class="group-layout group-ref-type">
+      <{%- echo trEl -%} class="group-layout group-ref-primary group-asset">
+        <{%- echo tdEl -%} class="group-layout group-ref-type">
           Ref
-        </td>
-        <td class="group-layout group-ref-primary{{shouldShowRefPrimaryAsScroll}} group-asset">
+        </{%- echo tdEl -%}>
+        <{%- echo tdEl -%} class="group-layout group-ref-primary{{shouldShowRefPrimaryAsScroll}} group-asset">
           {%- render 'inc/oneInSeq.tmpl.html', post: currGroupPrimary %}
-        </td>
-      </tr>
+        </{%- echo tdEl -%}>
+      </{%- echo trEl -%}>
     {%- endif %}
     {%- for assetInGroup in currGroupInPageAssetList %}
       {%- liquid
@@ -75,26 +89,26 @@ endif
         continue
       endif
       %}
-      <tr class="group-layout group-asset"><td colspan="2" class="group-layout group-asset">
+      <{%- echo trEl -%} class="group-layout group-asset"><{%- echo tdEl -%} colspan="2" class="group-layout group-asset">
         {%- render 'inc/oneInSeq.tmpl.html', post: assetInGroup %}
-      </td></tr>
+      </{%- echo tdEl -%}></{%- echo trEl -%}>
     {%- endfor %}
     {%- if currGroupPrimary.runtime_groupType == 'topRef' %}
-      <tr class="group-layout group-ref-primary group-asset">
-        <td class="group-layout group-ref-type">
+      <{%- echo trEl -%} class="group-layout group-ref-primary group-asset">
+        <{%- echo tdEl -%} class="group-layout group-ref-type">
           Ref
-        </td>
-        <td class="group-layout group-ref-primary{{shouldShowRefPrimaryAsScroll}} group-asset">
+        </{%- echo tdEl -%}>
+        <{%- echo tdEl -%} class="group-layout group-ref-primary{{shouldShowRefPrimaryAsScroll}} group-asset">
           {%- render 'inc/oneInSeq.tmpl.html', post: currGroupPrimary %}
-        </td>
-      </tr>
+        </{%- echo tdEl -%}>
+      </{%- echo trEl -%}>
     {%- endif %}
 
     {%- if partialGroupLogicCtx.groupMaxPubTimeInPageMap[currGroupPrimaryLocator] != partialGroupLogicCtx.groupMaxTimeMap[currGroupPrimaryLocator] %}
-      <tr class="group-layout group-max-ellipsis"><td colspan="2" class="group-layout group-max-ellipsis"><a title="Jump to this group" class="group-jump-link" href="/group/{{ currGroupPrimaryLocator }}">...</a></td></tr>
+      <{%- echo trEl -%} class="group-layout group-max-ellipsis"><{%- echo tdEl -%} colspan="2" class="group-layout group-max-ellipsis"><a title="Jump to this group" class="group-jump-link" href="/group/{{ currGroupPrimaryLocator }}">...</a></{%- echo tdEl -%}></{%- echo trEl -%}>
     {%- endif %}
 
-    </table>
+    </{%- echo tableEl -%}>
   {%- endcapture %}
 
   {%- x partialGroupLogicOneAssetCtx | objSet: 'toRender', toRender %}

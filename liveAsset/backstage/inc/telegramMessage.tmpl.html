@@ -10,13 +10,13 @@
   </div>
 </details>
 {%- endcomment %}
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief">
+  <{%- echo tableEl -%} class="tg-wrapper-layout">
+    <{%- echo trEl -%} class="tg-wrapper-layout tg-wrapper-brief"><{%- echo tdEl -%} class="tg-wrapper-layout tg-wrapper-brief">
       {%- q "badge/tg" %}
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body">
+    </{%- echo tdEl -%}></{%- echo trEl -%}>
+    <{%- echo trEl -%} class="tg-wrapper-layout tg-wrapper-body"><{%- echo tdEl -%} class="tg-wrapper-layout tg-wrapper-body">
       {%- render 'inc/telegramMessageWorker.tmpl.html', tg: tg, asset: asset %}
-    </td></tr>
-  </table>
+    </{%- echo tdEl -%}></{%- echo trEl -%}>
+  </{%- echo tableEl -%}>
 
 {%- endif %}
