@@ -67,7 +67,7 @@
       <item>
         <title>{{ rssTitle }} {{ periodDate }}</title>
         <link>https://tien-kou.shunf4.workers.dev/</link>
-        <guid>tien-kou-{{ periodType }}-{{ periodDate }}</guid>
+        <guid isPermaLink="false">tien-kou-{{ periodType }}-{{ periodDate }}</guid>
         <pubDate>{{ periodDate }}</pubDate>
         <description><![CDATA[
           {%- render 'inc/sequence.tmpl.html' list: listInPeriod %}
