@@ -149,3 +149,9 @@ https://wiki.c2.com/?ContextObjectsAreEvil
 双语留档
 
 <a href="/miscMedia/SlipBox_0_shreyan_ - Nostr and ATProto (2025_10_14 01：02：31).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_0_shreyan_ - Nostr and ATProto (2025_10_14 01：02：31).html</a>
+
+2025-10-15 01:43:03 America's future could hinge on whether AI slightly disappoints - https://www.noahpinion.blog/p/americas-future-could-hinge-on-whether
+
+双语留档
+
+<a href="/miscMedia/SlipBox_0_America&#039;s%20future%20could%20hinge%20on%20whether%20AI%20slightly%20disappoints%20(2025_10_15%2001%EF%BC%9A41%EF%BC%9A52).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_0_America&#039;s future could hinge on whether AI slightly disappoints (2025_10_15 01：41：52).html</a>
