@@ -85,7 +85,7 @@
         {%- assign assetName = asset.asset_locator | split: '/' | last %}
         <title>{{ rssTitle }} - {{ asset.metadata.title | default: assetName | default: assetDate }}</title>
         <link>https://tien-kou.shunf4.workers.dev{{ asset.web_url_path }}</link>
-        <guid>tien-kou-{{ asset.asset_locator }}</guid>
+        <guid isPermaLink="false">tien-kou-{{ asset.asset_locator }}</guid>
         <pubDate>{{ assetDate }}</pubDate>
         <description><![CDATA[
           {%- render 'directLeafAsset.tmpl.html' asset: asset %}
