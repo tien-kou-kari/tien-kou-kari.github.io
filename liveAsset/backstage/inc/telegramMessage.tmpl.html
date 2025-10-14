@@ -24,13 +24,13 @@
   {%- assign thEl = 'th' %}
 {%- endif %}
 
-  <{%- echo tableEl -%} class="tg-wrapper-layout">
-    <{%- echo trEl -%} class="tg-wrapper-layout tg-wrapper-brief"><{%- echo tdEl -%} class="tg-wrapper-layout tg-wrapper-brief">
+  <{% echo tableEl %} class="tg-wrapper-layout">
+    <{% echo trEl %} class="tg-wrapper-layout tg-wrapper-brief"><{% echo tdEl %} class="tg-wrapper-layout tg-wrapper-brief">
       {%- q "badge/tg" %}
-    </{%- echo tdEl -%}></{%- echo trEl -%}>
-    <{%- echo trEl -%} class="tg-wrapper-layout tg-wrapper-body"><{%- echo tdEl -%} class="tg-wrapper-layout tg-wrapper-body">
+    </{% echo tdEl %}></{% echo trEl %}>
+    <{% echo trEl %} class="tg-wrapper-layout tg-wrapper-body"><{% echo tdEl %} class="tg-wrapper-layout tg-wrapper-body">
       {%- render 'inc/telegramMessageWorker.tmpl.html', tg: tg, asset: asset %}
-    </{%- echo tdEl -%}></{%- echo trEl -%}>
-  </{%- echo tableEl -%}>
+    </{% echo tdEl %}></{% echo trEl %}>
+  </{% echo tableEl %}>
 
 {%- endif %}
