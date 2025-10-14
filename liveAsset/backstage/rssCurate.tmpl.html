@@ -66,9 +66,9 @@
       %}
       <item>
         <title>{{ rssTitle }} {{ periodDate }}</title>
-        <link>https://tien-kou.shunf4.workers.dev/</link>
-        <guid isPermaLink="false">tien-kou-{{ periodType }}-{{ periodDate }}</guid>
-        <pubDate>{{ periodDate }}</pubDate>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake/</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-{{ periodType }}-{{ periodDate }}</guid>
+        <pubDate>{{ periodDate | date_to_rfc822 }}</pubDate>
         <description><![CDATA[
           {%- render 'inc/sequence.tmpl.html' list: listInPeriod %}
         ]]></description>
@@ -84,9 +84,9 @@
         {%- assign assetDate = asset.publish_time_by_metadata | divided_by: 1000 | date: "%Y-%m-%dT%H:%M:%S+08:00", -480 %}
         {%- assign assetName = asset.asset_locator | split: '/' | last %}
         <title>{{ rssTitle }} - {{ asset.metadata.title | default: assetName | default: assetDate }}</title>
-        <link>https://tien-kou.shunf4.workers.dev{{ asset.web_url_path }}</link>
-        <guid isPermaLink="false">tien-kou-{{ asset.asset_locator }}</guid>
-        <pubDate>{{ assetDate }}</pubDate>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake/{{ asset.web_url_path }}</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-{{ asset.asset_locator }}</guid>
+        <pubDate>{{ assetDate | date_to_rfc822 }}</pubDate>
         <description><![CDATA[
           {%- render 'directLeafAsset.tmpl.html' asset: asset %}
         ]]></description>
