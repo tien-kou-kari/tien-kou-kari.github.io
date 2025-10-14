@@ -22,7 +22,7 @@
     echo authorOutput | raw
   endunless
 
-  unless otherMetadata.shouldSuppressExtInvolvement or otherMetadata.shouldSuppressExtInvolvementAbove2
+  unless asset.metadata.shouldSuppressExtInvolvement or asset.metadata.shouldSuppressExtInvolvementAbove2
     if tg.haveMoreLevelExtInvolvedMessage
       render 'inc/telegramMessageWorker.tmpl.html', tg: tg.haveMoreLevelExtInvolvedMessage
     endif
@@ -40,7 +40,7 @@
     endif
   endunless
 
-  unless otherMetadata.shouldSuppressExtInvolvement == 'true' or otherMetadata.shouldSuppressExtInvolvementAbove2 == 'true'
+  unless asset.metadata.shouldSuppressExtInvolvement == 'true' or asset.metadata.shouldSuppressExtInvolvementAbove2 == 'true'
     if tg.extInvolvedMessage
       if isCurrMsgProminent
         render 'inc/telegramMessageWorker.tmpl.html', tg: tg.extInvolvedMessage
@@ -73,8 +73,8 @@
       {{- authorOutput | raw -}}
     {%- endif %}
 
-    assign tgMediaWebPathPrefix = '/misc/tg/media'
-    {%- if rgc.reqPath contains '/Unreleased/' %}
+    {%- assign tgMediaWebPathPrefix = '/misc/tg/media' %}
+    {%- if asset.asset_locator contains '/Unreleased/' %}
       {%- assign tgMediaWebPathPrefix = '/misc/Unreleased/tg/media' %}
     {%- endif %}
 
