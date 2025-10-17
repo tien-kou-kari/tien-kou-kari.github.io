@@ -163,3 +163,7 @@ https://wiki.c2.com/?ContextObjectsAreEvil
 2025-10-17 20:48:45 很有戏剧性的黑客/工程师阴谋剧情
 
 A conspiracy to kill IE6 (2019) 暗杀 IE6 的阴谋 (2019) - https://blog.chriszacharias.com/a-conspiracy-to-kill-ie6
+
+2025-10-17 21:35:56 
+
+<a href="/miscMedia/SlipBox_rahkfuia_0_A%20Conspiracy%20To%20Kill%20IE6%20(10_17_2025%209%EF%BC%9A35%EF%BC%9A20%20PM).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_rahkfuia_0_A Conspiracy To Kill IE6 (10_17_2025 9：35：20 PM).html</a>
