@@ -159,3 +159,7 @@ https://wiki.c2.com/?ContextObjectsAreEvil
 美帝的大洪水怎么还不来，可恶的AI.jpg
 
 <a href="/miscMedia/SlipBox_0_America&#039;s%20future%20could%20hinge%20on%20whether%20AI%20slightly%20disappoints%20(2025_10_15%2001%EF%BC%9A41%EF%BC%9A52).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_0_America&#039;s future could hinge on whether AI slightly disappoints (2025_10_15 01：41：52).html</a>
+
+2025-10-17 20:48:45 很有戏剧性的黑客/工程师阴谋剧情
+
+A conspiracy to kill IE6 (2019) 暗杀 IE6 的阴谋 (2019) - https://blog.chriszacharias.com/a-conspiracy-to-kill-ie6
