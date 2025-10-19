@@ -23,14 +23,14 @@
         <div class="asset-parent-line"><a class="secondary" href="{{ asset.web_url_path | split: '/' | inplaceRemoveLast | join: '/' }}">{{ asset.web_url_path_tidy | split: '/' | inplaceRemoveLast | join: '/' }}/</a>
         </div>
       </div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">Locator</div><div class="tidbit-value">{{ asset.asset_locator }}</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">Locator</div><div class="tidbit-value white-space-preserve">{{ asset.asset_locator }}</div></div>
       {%- if asset.publish_time_by_metadata %}
-        <div class="tidbit-pair"><div class="tidbit-key">PublishTime</div><div class="tidbit-value">{{ asset.publish_time_by_metadata | divided_by: 1000 | date: "%Y-%m-%d %H:%M:%S UTC+8", -480 }}</div></div>
+        <div class="tidbit-pair"><div class="tidbit-key">PublishTime</div><div class="tidbit-value white-space-preserve">{{ asset.publish_time_by_metadata | divided_by: 1000 | date: "%Y-%m-%d %H:%M:%S UTC+8", -480 }}</div></div>
       {%- endif %}
-      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value">{{ asset.update_time_by_hoard }}</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">{{ asset.update_time_by_hoard }}</div></div>
       {%- if asset.metadata.tidbits %}
         {%- for tp in asset.metadata.tidbits %}
-          <div class="tidbit-pair"><div class="tidbit-key">{{ tp[0] }}</div><div class="tidbit-value">{{ tp[1] }}</div></div>
+          <div class="tidbit-pair"><div class="tidbit-key">{{ tp[0] }}</div><div class="tidbit-value white-space-preserve">{{ tp[1] }}</div></div>
         {%- endfor %}
       {%- endif %}
     </details>
