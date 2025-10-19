@@ -1,11 +1,9 @@
 <div class="one-in-seq-wrapper">
   {%- unless notRenderInfoLine %}
     <div class="one-in-seq asset-info-line">{{ infoLinePrefixHtml | default: '' | raw }}<a target="_blank" class="secondary" href="{{ post.web_url_path | split: '/' | inplaceRemoveLast | join: '/' }}">{{ post.web_url_path_tidy | split: '/' | inplaceRemoveLast | join: '/' }}</a> / <a href="{{ post.web_url_path }}">{{ post.web_url_path_tidy | split: '/' | last }}</a> <span>{{ post.publish_time_by_metadata | divided_by: 1000 | date: "%Y-%m-%d %H:%M:%S UTC+8", -480 }}</span>
-    {%- liquid
-      if post.metadata.tidbits.size > 0 and post.metadata.tidbits
-        echo ' *'
-      endif
-    -%}
+    {%- if post.metadata.tidbits.size > 0 and post.metadata.tidbits -%}
+      {{ ' ' }}<a target="_blank" class="secondary" href="{{ post.web_url_path }}" title="Go to detail page for tidbits.">*</a>
+    {%- endif -%}
     </div>
   {%- endunless %}
 
