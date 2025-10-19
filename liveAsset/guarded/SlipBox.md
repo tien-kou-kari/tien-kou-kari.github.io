@@ -173,7 +173,7 @@ A conspiracy to kill IE6 (2019) 暗杀 IE6 的阴谋 (2019) - https://blog.chris
 <a href="/miscMedia/SlipBox_rq5lb1wo_0_The%20pivot%20-%20Charlie&#039;s%20Diary%20(2025_10_18%2013%EF%BC%9A51%EF%BC%9A33).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_rq5lb1wo_0_The pivot - Charlie&#039;s Diary (2025_10_18 13：51：33).html</a>
 
 
-2025-10-18 19:08:07 tidbit={"Tidbit":"IYouPort在翻译时并没有给出原始来源链接，由此再次印证IYP的编辑过程持续地存在与其倡导价值观背道而驰的地方。原始来源链接为笔者所加。"} > 4、***主张**：“言论自由权意味着政府不能因为你说的话而逮捕你；但它仍然让其他人有赶走你的自由。”*
+2025-10-18 19:08:07 tidbit={} > 4、***主张**：“言论自由权意味着政府不能因为你说的话而逮捕你；但它仍然让其他人有赶走你的自由。”*
 >
 > 不是的。下面这幅流行的xkcd漫画是**错误的**。第一修正案限制了政府可以做什么，但言论自由是比这更大的事。
 >
