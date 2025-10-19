@@ -173,7 +173,7 @@ A conspiracy to kill IE6 (2019) 暗杀 IE6 的阴谋 (2019) - https://blog.chris
 <a href="/miscMedia/SlipBox_rq5lb1wo_0_The%20pivot%20-%20Charlie&#039;s%20Diary%20(2025_10_18%2013%EF%BC%9A51%EF%BC%9A33).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_rq5lb1wo_0_The pivot - Charlie&#039;s Diary (2025_10_18 13：51：33).html</a>
 
 
-2025-10-18 19:08:07 > 4、***主张**：“言论自由权意味着政府不能因为你说的话而逮捕你；但它仍然让其他人有赶走你的自由。”*
+2025-10-18 19:08:07 tidbit={"Note1":"IYouPort在翻译时并没有给出原始来源链接。原始来源链接为笔者所加。"} > 4、***主张**：“言论自由权意味着政府不能因为你说的话而逮捕你；但它仍然让其他人有赶走你的自由。”*
 >
 > 不是的。下面这幅流行的xkcd漫画是**错误的**。第一修正案限制了政府可以做什么，但言论自由是比这更大的事。
 >
@@ -182,10 +182,14 @@ A conspiracy to kill IE6 (2019) 暗杀 IE6 的阴谋 (2019) - https://blog.chris
 > 这幅漫画经常被用来作为否定言论自由的论点，但它是错误的：它不仅混淆了第一修正案的法律和言论自由，甚至没有正确理解第一修正案。
 >
 > 言论自由的概念是一个更大、更古老、更广泛的概念，而不是它在第一修正案中的具体应用。**对言论自由重要性的信念是激发第一修正案的原因；是它赋予第一修正案以意义，也是它在法律上的支撑。**
+>
+> [...]
+>
+> 虽然美国宪法在表面上只限制政府行为，但其应用有时需要政府保护你不被其他公民审查。例如，政府有责任保护你不被不喜欢你的想法的敌对暴徒攻击，或保护你的公开演讲不[被质问者](https://www.thefire.org/rejecting-the-hecklers-veto/)的否决权打断。
 
 来源： https://www.thefire.org/news/blogs/eternally-radical-idea/answers-12-bad-anti-free-speech-arguments-featuring-xkcd-cartoon
 
-引译：IYouPort，但它没有给出原始来源链接： https://iyouport.substack.com/p/12-8d8
+引译：IYouPort： https://iyouport.substack.com/p/12-8d8
 
 <a href="/miscMedia/SlipBox_854ieqlf_0_e960b8e8-c27f-4a35-9938-63ccd6598814_998x1022.webp" class="md-attach md-attach-img-link" target="_blank">
             <img src="/miscMedia/SlipBox_854ieqlf_0_e960b8e8-c27f-4a35-9938-63ccd6598814_998x1022.webp" class="md-attach md-attach-img" alt="https://xkcd.com/1357/ The famous xkcd comic about free speech. See transcript on https://www.explainxkcd.com/wiki/index.php/1357:_Free_Speech" title="https://xkcd.com/1357/ The famous xkcd comic about free speech. See transcript on https://www.explainxkcd.com/wiki/index.php/1357:_Free_Speech" style="max-width: 20rem; max-height: 40rem;">
