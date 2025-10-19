@@ -133,8 +133,8 @@
 
   if rgc.serverProfileName == 'insiders' and reqPathTidy == ''
     echo '<br/><br/><h2>The Flow</h2>'
-    assign pseudoReqQueryFlow = undefined | newObj | objSet: 'spec', 'flow'
-    render 'all.tmpl.html', pageNum: 0, pageSize: 18, reqQuery: pseudoReqQueryFlow
+    assign pseudoReqQueryFlow = undefined | newObj | objSet: 'spec', 'flow' | objSet: 'pageNum', 0 | objSet: 'pageSize', 18
+    render 'all.tmpl.html', reqQuery: pseudoReqQueryFlow
     # set the title back...
     x 'Home' | rgcSet: "pageTitlePart"
   endif
