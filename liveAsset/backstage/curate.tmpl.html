@@ -130,6 +130,11 @@
     render 'directAsset.tmpl.html', pageNum: pageNum, pageSize: pageSize
 
   endif
+
+  if rgc.serverProfileName == 'insiders' and reqPathTidy == ''
+    echo '<h4>The Flow</h4>'
+    render 'all.tmpl.html', pageNum: 0, pageSize: 18
+  endif
     
   backpatchVal pageTitle
     if rgc.pageTitlePart == 'Home'
