@@ -6,7 +6,7 @@
       <base href="." />
     <link rel="stylesheet" href="about:blank" title="Tien-kou Builtin Style" />
     <link rel="alternate stylesheet" href="about:blank" title="Tien-kou Empty Style (for customization)" />
-    <title>TheDesk/WhyThisSite - Tien-kou</title>
+    <title>Why This Site - Tien-kou</title>
     
   </head>
   <body>
@@ -79,12 +79,17 @@ main {
   max-width: min(40rem, 100% - 2rem);
 }
 
+p {
+  margin-block-start: 0.4rem;
+  margin-block-end: 0.4rem;
+}
+
 .white-space-preserve {
   white-space-collapse: preserve;
 }
 
 div.principal-content {
-  margin-top: 0.5rem;
+  /*margin-top: 0.5rem;*/
 }
 
 
@@ -186,6 +191,46 @@ a.secondary {
   text-decoration: underline dotted;
 }
 
+.tidbit-value.white-space-preserve {
+  white-space: pre-wrap;
+  font-family: monospace;
+}
+
+.tidbit-value {
+}
+
+.tidbit-key {
+  font-weight: bold;
+  flex-shrink: 1;
+  margin-inline-end: 0.6rem;
+}
+
+.tidbit-key::after {
+  content: ': ';
+}
+
+.tidbit-pair {
+  display: flex;
+}
+
+blockquote {
+  margin: 0.1rem 0;
+  padding: 0.1rem 0.2rem 0.1rem 0.8rem;
+  background-color: #eeeeee;
+
+  border: 1px solid #6e6e6e;
+  border-left: 5px solid #6e6e6e;
+}
+
+a.md-attach {
+  display: block;
+  width: fit-content;
+}
+
+.md-attach img {
+  display: inline;
+}
+
 
 
   </style>
@@ -216,7 +261,7 @@ a.secondary {
     return document.getElementById(id);
   }
 
-  var tkDefaultStyle = "\n\nhtml {\n  color-scheme: light dark;\n}\n\nimg,\nsvg,\nvideo {\n  max-width: 100%;\n  display: block;\n}\n\nbody {\n  font-family: System UI;\n  font-size: 0.75rem;\n}\n\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\n.white-space-preserve {\n  white-space-collapse: preserve;\n}\n\ndiv.principal-content {\n  margin-top: 0.5rem;\n}\n\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-involvement-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-websummary-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntd.group-ref-primary.group-ref-scroll .principal-content {\n  max-height: 20rem;\n  overflow-y: scroll;\n}\n\nh1, h2, h3 {\n  color: #2c3e50;\n  border-bottom: 1px solid #eee;\n  padding-bottom: 5px;\n}\n\n.tg-img, .tg-video {\n  max-width: 20rem;\n  max-height: 40rem;\n}\n\na.tag-link {\n\n}\n\n.tag-wrapper {\n  margin-right: 0.6rem;\n}\n\n\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n"
+  var tkDefaultStyle = "\n\nhtml {\n  color-scheme: light dark;\n}\n\nimg,\nsvg,\nvideo {\n  max-width: 100%;\n  display: block;\n}\n\nbody {\n  font-family: System UI;\n  font-size: 0.75rem;\n}\n\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\np {\n  margin-block-start: 0.4rem;\n  margin-block-end: 0.4rem;\n}\n\n.white-space-preserve {\n  white-space-collapse: preserve;\n}\n\ndiv.principal-content {\n  /*margin-top: 0.5rem;*/\n}\n\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-involvement-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-websummary-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntd.group-ref-primary.group-ref-scroll .principal-content {\n  max-height: 20rem;\n  overflow-y: scroll;\n}\n\nh1, h2, h3 {\n  color: #2c3e50;\n  border-bottom: 1px solid #eee;\n  padding-bottom: 5px;\n}\n\n.tg-img, .tg-video {\n  max-width: 20rem;\n  max-height: 40rem;\n}\n\na.tag-link {\n\n}\n\n.tag-wrapper {\n  margin-right: 0.6rem;\n}\n\n\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n.tidbit-value.white-space-preserve {\n  white-space: pre-wrap;\n  font-family: monospace;\n}\n\n.tidbit-value {\n}\n\n.tidbit-key {\n  font-weight: bold;\n  flex-shrink: 1;\n  margin-inline-end: 0.6rem;\n}\n\n.tidbit-key::after {\n  content: ': ';\n}\n\n.tidbit-pair {\n  display: flex;\n}\n\nblockquote {\n  margin: 0.1rem 0;\n  padding: 0.1rem 0.2rem 0.1rem 0.8rem;\n  background-color: #eeeeee;\n\n  border: 1px solid #6e6e6e;\n  border-left: 5px solid #6e6e6e;\n}\n\na.md-attach {\n  display: block;\n  width: fit-content;\n}\n\n.md-attach img {\n  display: inline;\n}\n\n"
 
   var tkStyleContent = getCookie('tkStyle');
   var tkStyleElement = document.createElement('style');
@@ -245,10 +290,29 @@ a.secondary {
 
 </script>
 <main>
-<div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-25%2022.42.52">2025-09-25 22.42.52</a> <span>2025-09-25 22:42:52 UTC+8</span></div>
+  <div class="parent-p-content-wrapper">
+    <div class="principal-content">
+<div class="lang-wrapper" lang="zh-CN">
+    <details style="margin-bottom: 0.4rem" lang="en">
+      <summary>...</summary>
+      <div class="tidbit-pair"><div class="tidbit-key">Parent</div><div class="tidbit-value">
+        <div class="asset-parent-line"><a class="secondary" href="/TheDesk">TheDesk/</a>
+        </div>
+      </div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">Locator</div><div class="tidbit-value white-space-preserve">guarded/TheDesk/WhyThisSite</div></div>
+        <div class="tidbit-pair"><div class="tidbit-key">PublishTime</div><div class="tidbit-value white-space-preserve">2025-09-25 22:40:02 UTC+8</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1760893654496</div></div>
+    </details>
+    <h3 class="md-title">Why This Site</h3><p>一些记录此站何所是、之所以是、何以成是的文字</p>
 
-  <div class="one-in-seq principal-content">
+
+</div>
+
+    </div>
+  </div>
+<div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-25%2022.42.52">2025-09-25 22.42.52</a> <span>2025-09-25 22:42:52 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><ul>
 <li><a href="https://wiki.c2.com/" target="_blank">https://wiki.c2.com/</a> 更新后不再采用 <a  target="_blank" href="/tag/OldBoringTechnology" class="tag">#OldBoringTechnology</a> ，转而成为了一个强依赖 JavaScript 和浏览器 Ajax 预载全站数据索引为 JSON 的 SPA。</li>
 </ul>
@@ -259,9 +323,8 @@ a.secondary {
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-26%2000.33.33">2025-09-26 00.33.33</a> <span>2025-09-26 00:33:33 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-26%2000.33.33">2025-09-26 00.33.33</a> <span>2025-09-26 00:33:33 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><ul>
 <li>类似项目：<a href="https://github.com/microfeed/microfeed" target="_blank">https://github.com/microfeed/microfeed</a></li>
 </ul>
@@ -272,9 +335,8 @@ a.secondary {
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-26%2000.34.47">2025-09-26 00.34.47</a> <span>2025-09-26 00:34:47 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-26%2000.34.47">2025-09-26 00.34.47</a> <span>2025-09-26 00:34:47 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><ul>
 <li>TIL: 本站的几乎所有返回网页的请求的CPU时间都超过10ms（Cloudflare Workers的免费额度限制）。Cloudflare只是在大部分时间内不杀而已；在某些情况下（如连续重载/all页三次左右）Cloudflare会开始拦截几乎所有网页请求。看来将其写成可插拔的模块架构随时准备被De-platform/避免Vendor lock-in是正确的。</li>
 </ul>
@@ -285,9 +347,8 @@ a.secondary {
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-27%2022.38.51">2025-09-27 22.38.51</a> <span>2025-09-27 22:38:51 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-27%2022.38.51">2025-09-27 22.38.51</a> <span>2025-09-27 22:38:51 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>From <a href="https://en.wikipedia.org/wiki/LessWrong" target="_blank">https://en.wikipedia.org/wiki/LessWrong</a> :</p>
 <blockquote>
 <p>LessWrong （也写作Less Wrong）是一个社区博客和论坛，专注于讨论认知偏差、哲学、心理学、经济学、理性和人工智能等主题。它与理性主义社区有关。</p>
@@ -301,9 +362,8 @@ a.secondary {
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-28%2001.31.45">2025-09-28 01.31.45</a> <span>2025-09-28 01:31:45 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-28%2001.31.45">2025-09-28 01.31.45</a> <span>2025-09-28 01:31:45 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <table class="tg-wrapper-layout">
@@ -333,9 +393,8 @@ a.secondary {
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-28%2001.32.09">2025-09-28 01.32.09</a> <span>2025-09-28 01:32:09 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-28%2001.32.09">2025-09-28 01.32.09</a> <span>2025-09-28 01:32:09 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <table class="tg-wrapper-layout">
@@ -372,9 +431,8 @@ https://www.denizcemonduygu.com/philo/browse/</p>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-28%2001.35.10">2025-09-28 01.35.10</a> <span>2025-09-28 01:35:10 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-28%2001.35.10">2025-09-28 01.35.10</a> <span>2025-09-28 01:35:10 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p><a href="https://wiki.lesswrong.com" target="_blank">https://wiki.lesswrong.com</a></p>
 <p><a href="https://www.lesswrong.com/wikitags/all" target="_blank">https://www.lesswrong.com/wikitags/all</a></p>
 
@@ -384,9 +442,8 @@ https://www.denizcemonduygu.com/philo/browse/</p>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-10-04%2014.02.45">2025-10-04 14.02.45</a> <span>2025-10-04 14:02:45 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-10-04%2014.02.45">2025-10-04 14.02.45</a> <span>2025-10-04 14:02:45 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p><a href="https://en.wikipedia.org/wiki/Zettelkasten" target="_blank">https://en.wikipedia.org/wiki/Zettelkasten</a></p>
 <blockquote>
 <p>A Zettelkasten (German: 'slipbox', plural Zettelkästen) or card file consists of small items of information stored on Zetteln (German: 'slips'), paper slips or cards, that may be linked to each other through subject headings or other metadata such as numbers and tags. It has often been used as a system of note-taking and personal knowledge management for research, study, and writing.</p>

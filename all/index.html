@@ -79,12 +79,17 @@ main {
   max-width: min(40rem, 100% - 2rem);
 }
 
+p {
+  margin-block-start: 0.4rem;
+  margin-block-end: 0.4rem;
+}
+
 .white-space-preserve {
   white-space-collapse: preserve;
 }
 
 div.principal-content {
-  margin-top: 0.5rem;
+  /*margin-top: 0.5rem;*/
 }
 
 
@@ -186,6 +191,46 @@ a.secondary {
   text-decoration: underline dotted;
 }
 
+.tidbit-value.white-space-preserve {
+  white-space: pre-wrap;
+  font-family: monospace;
+}
+
+.tidbit-value {
+}
+
+.tidbit-key {
+  font-weight: bold;
+  flex-shrink: 1;
+  margin-inline-end: 0.6rem;
+}
+
+.tidbit-key::after {
+  content: ': ';
+}
+
+.tidbit-pair {
+  display: flex;
+}
+
+blockquote {
+  margin: 0.1rem 0;
+  padding: 0.1rem 0.2rem 0.1rem 0.8rem;
+  background-color: #eeeeee;
+
+  border: 1px solid #6e6e6e;
+  border-left: 5px solid #6e6e6e;
+}
+
+a.md-attach {
+  display: block;
+  width: fit-content;
+}
+
+.md-attach img {
+  display: inline;
+}
+
 
 
   </style>
@@ -216,7 +261,7 @@ a.secondary {
     return document.getElementById(id);
   }
 
-  var tkDefaultStyle = "\n\nhtml {\n  color-scheme: light dark;\n}\n\nimg,\nsvg,\nvideo {\n  max-width: 100%;\n  display: block;\n}\n\nbody {\n  font-family: System UI;\n  font-size: 0.75rem;\n}\n\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\n.white-space-preserve {\n  white-space-collapse: preserve;\n}\n\ndiv.principal-content {\n  margin-top: 0.5rem;\n}\n\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-involvement-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-websummary-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntd.group-ref-primary.group-ref-scroll .principal-content {\n  max-height: 20rem;\n  overflow-y: scroll;\n}\n\nh1, h2, h3 {\n  color: #2c3e50;\n  border-bottom: 1px solid #eee;\n  padding-bottom: 5px;\n}\n\n.tg-img, .tg-video {\n  max-width: 20rem;\n  max-height: 40rem;\n}\n\na.tag-link {\n\n}\n\n.tag-wrapper {\n  margin-right: 0.6rem;\n}\n\n\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n"
+  var tkDefaultStyle = "\n\nhtml {\n  color-scheme: light dark;\n}\n\nimg,\nsvg,\nvideo {\n  max-width: 100%;\n  display: block;\n}\n\nbody {\n  font-family: System UI;\n  font-size: 0.75rem;\n}\n\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\np {\n  margin-block-start: 0.4rem;\n  margin-block-end: 0.4rem;\n}\n\n.white-space-preserve {\n  white-space-collapse: preserve;\n}\n\ndiv.principal-content {\n  /*margin-top: 0.5rem;*/\n}\n\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-involvement-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-websummary-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntd.group-ref-primary.group-ref-scroll .principal-content {\n  max-height: 20rem;\n  overflow-y: scroll;\n}\n\nh1, h2, h3 {\n  color: #2c3e50;\n  border-bottom: 1px solid #eee;\n  padding-bottom: 5px;\n}\n\n.tg-img, .tg-video {\n  max-width: 20rem;\n  max-height: 40rem;\n}\n\na.tag-link {\n\n}\n\n.tag-wrapper {\n  margin-right: 0.6rem;\n}\n\n\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n.tidbit-value.white-space-preserve {\n  white-space: pre-wrap;\n  font-family: monospace;\n}\n\n.tidbit-value {\n}\n\n.tidbit-key {\n  font-weight: bold;\n  flex-shrink: 1;\n  margin-inline-end: 0.6rem;\n}\n\n.tidbit-key::after {\n  content: ': ';\n}\n\n.tidbit-pair {\n  display: flex;\n}\n\nblockquote {\n  margin: 0.1rem 0;\n  padding: 0.1rem 0.2rem 0.1rem 0.8rem;\n  background-color: #eeeeee;\n\n  border: 1px solid #6e6e6e;\n  border-left: 5px solid #6e6e6e;\n}\n\na.md-attach {\n  display: block;\n  width: fit-content;\n}\n\n.md-attach img {\n  display: inline;\n}\n\n"
 
   var tkStyleContent = getCookie('tkStyle');
   var tkStyleElement = document.createElement('style');
@@ -246,9 +291,25 @@ a.secondary {
 </script>
 <main>
 <div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-19">misc/tg/2025-10-19</a> / <a href="/misc/tg/2025-10-19/2025-10-19%2000.23.20">2025-10-19 00.23.20</a> <span>2025-10-19 00:23:20 UTC+8</span></div>
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-20%2001.51.50">2025-10-20 01.51.50</a> <span>2025-10-20 01:51:50 UTC+8</span></div>
+</div>
 
-  <div class="one-in-seq principal-content">
+      
+          <div class="group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p>这篇的存档，AI生成的作品。</p>
+<p>可怕的是人的神经结构是否确实允许会如作品中所说的认知方式的根本性改变？</p>
+<p><a href="/miscMedia/SlipBox_6w18xwaj_0_(1)%20Tz%20on%20X%EF%BC%9A%20%EF%BC%82%E3%80%8A%E8%AE%A4%E7%9F%A5%E7%9A%84%E8%BF%9C%E7%82%B9%E3%80%8B_%E4%B8%80_%E6%88%91%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%84%8F%E8%AF%86%E5%88%B0%E8%AF%AD%E8%A8%80%E5%87%BA%E4%BA%86%E9%97%AE%E9%A2%98%EF%BC%8C%E6%98%AF%E5%9C%A8%E7%BB%99%E5%84%BF%E5%AD%90%E6%A3%80%E6%9F%A5%E4%BD%9C%E6%96%87%E7%9A%84%E6%97%B6%E5%80%99%E3%80%82_%E9%82%A3%E6%98%AF%E4%B8%80%E7%AF%87%E5%85%B3%E4%BA%8E%EF%BC%82%E6%97%B6%E9%97%B4%EF%BC%82%E7%9A%84%E5%91%BD%E9%A2%98%E4%BD%9C%E6%96%87%E3%80%82%E4%BB%96%E5%86%99%E9%81%93%EF%BC%9A%E2%80%A6.html" class="md-attach md-attach-file-link" target="_blank">SlipBox_6w18xwaj_0_(1) Tz on X： ＂《认知的远点》_一_我第一次意识到语言出了问题，是在给儿子检查作文的时候。_那是一篇关于＂时间＂的命题作文。他写道：….html</a></p>
+
+
+</div>
+</div>
+</div>
+
+          </div>
+      <div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line">> <a target="_blank" class="secondary" href="/misc/tg/2025-10-19">misc/tg/2025-10-19</a> / <a href="/misc/tg/2025-10-19/2025-10-19%2015.36.28">2025-10-19 15.36.28</a> <span>2025-10-19 15:36:28 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <table class="tg-wrapper-layout">
@@ -257,10 +318,66 @@ a.secondary {
 </div>
 
     </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/c_res" title="Telegram PeerChannel handle: c_res" data-title="tg:c_res">Catoverflow@Reserve</a> (<span class="tg-author">Catoverflow</span>)
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/ningxueye" title="Telegram PeerChannel handle: ningxueye" data-title="tg:ningxueye">ARCADIA</a>
 
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://missing.shiroki-y.top/introduction.html">https://missing.shiroki-y.top/introduction.html</a>
-好玩的故事向无CTF网页解密</div>
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://fixupx.com/tz_2022/status/1973811468446609746?s=46">https://fixupx.com/tz_2022/status/1973811468446609746?s=46</a></div>
+      
+        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
+          <a target="_blank" href="https://fixupx.com/tz_2022/status/1973811468446609746?s=46">🧵 Thread • FixupX</a>
+          <h6>Tz (@Tz_2022)</h6>
+          <p>《认知的远点》
+
+一
+
+我第一次意识到语言出了问题，是在给儿子检查作文的时候。
+
+那是一篇关于&#34;时间&#34;的命题作文。他写道：&#34;时间不是流动的。是我们的记忆编码方式让我们产生了流动的幻觉。&#34;这个观点本身不算新颖，但接下来的句子让我停顿了：
+
+&#34;当信息密度超过阈值，时间感会坍缩。十五秒可以包含过去需要一小时传递的信息量。这不是时间变慢了，是带宽变宽了。&#34;
+
+我是认知语言学家。我的专业训练让我立刻察觉到：这不是一个十六岁男孩的思维方式。不是说他不够聪明——相反，是这种思维太过高效。他跳过了所有人类认知中必需的&#34;理解阶梯&#34;，直接抵达了结论。
+
+就像一个人学会了瞬移，但忘记了行走的意义。
+
+&#34;你是怎么想到这个的？&#34;我问。
+
+他看着我，眼神里有短暂的困惑——仿佛不理解&#34;怎么想到&#34;这个问题本身。最后他说：&#34;我没有想。我只是知道。&#34;
+
+那是2025年九月。我在笔记本上记录下这次对话，并标注：需要观察。
+
+现在是2026年三月。我的笔记本已经写满了三本。
+
+二
+
+我开始系统地测试儿子的语言能力。
+
+我给他看索绪尔关于&#34;能指&#34;与&#34;所指&#34;的经典论述，问他理解吗。他读了三十秒，说：&#34;这是在描述一个单向映射系统。但现在映射是双向的，而且是动态更新的。&#34;
+
+我愣住了。不是因为他的答案错误——而是因为他用了&#34;映射&#34;和&#34;动态更新&#34;这样的计算机术语来描述语言。对他而言，这些词比&#34;意义&#34;更加精确。
+
+&#34;你还记得第一次学会&#39;苹果&#39;这个词的时候吗？&#34;我换了一个问题。
+
+他想了很久。&#34;记得。你指着一个红色的圆形物体，重复那个声音。我需要很多次才能建立连接。&#34;他顿了顿，&#34;现在我不需要这个过程了。&#34;
+
+&#34;什么意思？&#34;
+
+&#34;现在我看到一个新概念，不需要先把它翻译成语言。我可以直接……存储那个模式。&#34;
+
+我请他举例。他打开手机，给我看一个十秒钟的视频：画面里是三层同时进行的信息流——背景音乐传递情绪基调，视觉特效标注重点，文字碎片提供概念锚点。整个视频没有一个完整的句子，但传递了一个完整的论证：关于注意力经济如何重构社交关系。
+
+&#34;你看懂了吗？&#34;他问。
+
+&#34;需要暂停几次，&#34;我承认。
+
+&#34;妈妈，这就是问题，&#34;他的语气很平静，没有指责，&#34;你需要&#39;暂停&#39;。你需要把信息转换成语言，才能处理。我不需要。&#34;
+
+我问他：那你是用什么处理的？
+
+他想了很久，最后说：&#34;我不知道怎么用语言描述。因为描述本身就需要语言。&#34;
+
+那天晚上，我写下第一个真正让我不安的假设：语言可能不是认知…</p>
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5795270196959753470.png" title="Telegram wepbage media id 5795270196959753470" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </td></tr></table>
     </td></tr>
   </table>
 
@@ -270,9 +387,78 @@ a.secondary {
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-18">misc/tg/2025-10-18</a> / <a href="/misc/tg/2025-10-18/2025-10-18%2023.37.59">2025-10-18 23.37.59</a> <span>2025-10-18 23:37:59 UTC+8</span></div>
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/hive/Murmur">hive/Murmur</a> / <a href="/hive/Murmur/2025-10-20%2000.25.22">2025-10-20 00.25.22</a> <span>2025-10-20 00:25:22 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p>在后LLM时代，非全功能/非官方/非主流的浏览器/用户代理/客户端的作用/适用范围可能越来越小了。此一对于隐私的影响。</p>
 
-  <div class="one-in-seq principal-content">
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-20%2000.00.26">2025-10-20 00.00.26</a> <span>2025-10-20 00:00:26 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p><a href="https://www.rich-text-to-markdown.com/" target="_blank">https://www.rich-text-to-markdown.com/</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/hive/MyList1">hive/MyList1</a> / <a href="/hive/MyList1/2025-10-19%2022.56.57">2025-10-19 22.56.57</a> <span>2025-10-19 22:56:57 UTC+8</span></div>
+</div>
+
+      
+          <div class="group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN">
+
+</div>
+</div>
+</div>
+
+          </div>
+      <div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line">> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-18%2019.08.07">2025-10-18 19.08.07</a> <span>2025-10-18 19:08:07 UTC+8</span> <a target="_blank" href="/SlipBox/2025-10-18%2019.08.07" title="Go to detail page for more information.">*</a></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN"><blockquote>
+<p>4、<em><strong>主张</strong>：“言论自由权意味着政府不能因为你说的话而逮捕你；但它仍然让其他人有赶走你的自由。”</em></p>
+<p>不是的。下面这幅流行的xkcd漫画是<strong>错误的</strong>。第一修正案限制了政府可以做什么，但言论自由是比这更大的事。</p>
+<p>[图1]</p>
+<p>这幅漫画经常被用来作为否定言论自由的论点，但它是错误的：它不仅混淆了第一修正案的法律和言论自由，甚至没有正确理解第一修正案。</p>
+<p>言论自由的概念是一个更大、更古老、更广泛的概念，而不是它在第一修正案中的具体应用。<strong>对言论自由重要性的信念是激发第一修正案的原因；是它赋予第一修正案以意义，也是它在法律上的支撑。</strong></p>
+<p>[...]</p>
+<p>虽然美国宪法在表面上只限制政府行为，但其应用有时需要政府保护你不被其他公民审查。例如，政府有责任保护你不被不喜欢你的想法的敌对暴徒攻击，或保护你的公开演讲不<a href="https://www.thefire.org/rejecting-the-hecklers-veto/" target="_blank">被质问者</a>的否决权打断。</p>
+</blockquote>
+<p>来源： <a href="https://www.thefire.org/news/blogs/eternally-radical-idea/answers-12-bad-anti-free-speech-arguments-featuring-xkcd-cartoon" target="_blank">https://www.thefire.org/news/blogs/eternally-radical-idea/answers-12-bad-anti-free-speech-arguments-featuring-xkcd-cartoon</a></p>
+<p>引译：IYouPort： <a href="https://iyouport.substack.com/p/12-8d8" target="_blank">https://iyouport.substack.com/p/12-8d8</a></p>
+<a href="/miscMedia/SlipBox_854ieqlf_0_e960b8e8-c27f-4a35-9938-63ccd6598814_998x1022.webp" class="md-attach md-attach-img-link" target="_blank">
+            <img src="/miscMedia/SlipBox_854ieqlf_0_e960b8e8-c27f-4a35-9938-63ccd6598814_998x1022.webp" class="md-attach md-attach-img" alt="https://xkcd.com/1357/ The famous xkcd comic about free speech. See transcript on https://www.explainxkcd.com/wiki/index.php/1357:_Free_Speech" title="https://xkcd.com/1357/ The famous xkcd comic about free speech. See transcript on https://www.explainxkcd.com/wiki/index.php/1357:_Free_Speech" style="max-width: 20rem; max-height: 40rem;">
+        </a>
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/hive/MyList1">hive/MyList1</a> / <a href="/hive/MyList1/2025-10-19%2022.54.18">2025-10-19 22.54.18</a> <span>2025-10-19 22:54:18 UTC+8</span></div>
+</div>
+
+      
+          <div class="group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN">
+
+</div>
+</div>
+</div>
+
+          </div>
+      <div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line">> <a target="_blank" class="secondary" href="/misc/tg/2025-10-18">misc/tg/2025-10-18</a> / <a href="/misc/tg/2025-10-18/2025-10-18%2023.37.59">2025-10-18 23.37.59</a> <span>2025-10-18 23:37:59 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <table class="tg-wrapper-layout">
@@ -294,9 +480,202 @@ a.secondary {
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-18">misc/tg/2025-10-18</a> / <a href="/misc/tg/2025-10-18/2025-10-18%2021.39.28">2025-10-18 21.39.28</a> <span>2025-10-18 21:39:28 UTC+8</span></div>
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/hive/MyList1">hive/MyList1</a> / <a href="/hive/MyList1/2025-10-19%2022.53.53">2025-10-19 22.53.53</a> <span>2025-10-19 22:53:53 UTC+8</span></div>
+</div>
 
-  <div class="one-in-seq principal-content">
+      
+          <div class="group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN">
+
+</div>
+</div>
+</div>
+
+          </div>
+      <div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line">> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-19%2022.41.33">2025-10-19 22.41.33</a> <span>2025-10-19 22:41:33 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p>浏览器里给了一句<code>font-family: monospace</code>，结果它的字体还和当前节点所属的lang有关？是中文直接变宋体，忽略浏览器设置？？</p>
+
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-19%2022.41.33">2025-10-19 22.41.33</a> <span>2025-10-19 22:41:33 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p>浏览器里给了一句<code>font-family: monospace</code>，结果它的字体还和当前节点所属的lang有关？是中文直接变宋体，忽略浏览器设置？？</p>
+
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-19">misc/tg/2025-10-19</a> / <a href="/misc/tg/2025-10-19/2025-10-19%2020.14.16">2025-10-19 20.14.16</a> <span>2025-10-19 20:14:16 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN">
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/illusory_world" title="Telegram PeerChannel handle: illusory_world" data-title="tg:illusory_world">不存在的世界</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">关于国家授时中心遭受美国国家安全局网络攻击事件的技术分析报告
+<a href="https://mp.weixin.qq.com/s/XPjT0BVOJPJxSmASW0tXTA">https://mp.weixin.qq.com/s/XPjT0BVOJPJxSmASW0tXTA</a></div>
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-19">misc/tg/2025-10-19</a> / <a href="/misc/tg/2025-10-19/2025-10-19%2015.36.28">2025-10-19 15.36.28</a> <span>2025-10-19 15:36:28 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN">
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/ningxueye" title="Telegram PeerChannel handle: ningxueye" data-title="tg:ningxueye">ARCADIA</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://fixupx.com/tz_2022/status/1973811468446609746?s=46">https://fixupx.com/tz_2022/status/1973811468446609746?s=46</a></div>
+      
+        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
+          <a target="_blank" href="https://fixupx.com/tz_2022/status/1973811468446609746?s=46">🧵 Thread • FixupX</a>
+          <h6>Tz (@Tz_2022)</h6>
+          <p>《认知的远点》
+
+一
+
+我第一次意识到语言出了问题，是在给儿子检查作文的时候。
+
+那是一篇关于&#34;时间&#34;的命题作文。他写道：&#34;时间不是流动的。是我们的记忆编码方式让我们产生了流动的幻觉。&#34;这个观点本身不算新颖，但接下来的句子让我停顿了：
+
+&#34;当信息密度超过阈值，时间感会坍缩。十五秒可以包含过去需要一小时传递的信息量。这不是时间变慢了，是带宽变宽了。&#34;
+
+我是认知语言学家。我的专业训练让我立刻察觉到：这不是一个十六岁男孩的思维方式。不是说他不够聪明——相反，是这种思维太过高效。他跳过了所有人类认知中必需的&#34;理解阶梯&#34;，直接抵达了结论。
+
+就像一个人学会了瞬移，但忘记了行走的意义。
+
+&#34;你是怎么想到这个的？&#34;我问。
+
+他看着我，眼神里有短暂的困惑——仿佛不理解&#34;怎么想到&#34;这个问题本身。最后他说：&#34;我没有想。我只是知道。&#34;
+
+那是2025年九月。我在笔记本上记录下这次对话，并标注：需要观察。
+
+现在是2026年三月。我的笔记本已经写满了三本。
+
+二
+
+我开始系统地测试儿子的语言能力。
+
+我给他看索绪尔关于&#34;能指&#34;与&#34;所指&#34;的经典论述，问他理解吗。他读了三十秒，说：&#34;这是在描述一个单向映射系统。但现在映射是双向的，而且是动态更新的。&#34;
+
+我愣住了。不是因为他的答案错误——而是因为他用了&#34;映射&#34;和&#34;动态更新&#34;这样的计算机术语来描述语言。对他而言，这些词比&#34;意义&#34;更加精确。
+
+&#34;你还记得第一次学会&#39;苹果&#39;这个词的时候吗？&#34;我换了一个问题。
+
+他想了很久。&#34;记得。你指着一个红色的圆形物体，重复那个声音。我需要很多次才能建立连接。&#34;他顿了顿，&#34;现在我不需要这个过程了。&#34;
+
+&#34;什么意思？&#34;
+
+&#34;现在我看到一个新概念，不需要先把它翻译成语言。我可以直接……存储那个模式。&#34;
+
+我请他举例。他打开手机，给我看一个十秒钟的视频：画面里是三层同时进行的信息流——背景音乐传递情绪基调，视觉特效标注重点，文字碎片提供概念锚点。整个视频没有一个完整的句子，但传递了一个完整的论证：关于注意力经济如何重构社交关系。
+
+&#34;你看懂了吗？&#34;他问。
+
+&#34;需要暂停几次，&#34;我承认。
+
+&#34;妈妈，这就是问题，&#34;他的语气很平静，没有指责，&#34;你需要&#39;暂停&#39;。你需要把信息转换成语言，才能处理。我不需要。&#34;
+
+我问他：那你是用什么处理的？
+
+他想了很久，最后说：&#34;我不知道怎么用语言描述。因为描述本身就需要语言。&#34;
+
+那天晚上，我写下第一个真正让我不安的假设：语言可能不是认知…</p>
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5795270196959753470.png" title="Telegram wepbage media id 5795270196959753470" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </td></tr></table>
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-19%2011.30.53">2025-10-19 11.30.53</a> <span>2025-10-19 11:30:53 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p>Why the open social web matters now - <a href="https://werd.io/why-the-open-social-web-matters-now/" target="_blank">https://werd.io/why-the-open-social-web-matters-now/</a></p>
+<p>双语留档</p>
+<p><a href="/miscMedia/SlipBox_q9i8su8w_0_share4044655835246134171.html" class="md-attach md-attach-file-link" target="_blank">SlipBox_q9i8su8w_0_share4044655835246134171.html</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-19">misc/tg/2025-10-19</a> / <a href="/misc/tg/2025-10-19/2025-10-19%2000.23.20">2025-10-19 00.23.20</a> <span>2025-10-19 00:23:20 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN">
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/c_res" title="Telegram PeerChannel handle: c_res" data-title="tg:c_res">Catoverflow@Reserve</a> (<span class="tg-author">Catoverflow</span>)
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://missing.shiroki-y.top/introduction.html">https://missing.shiroki-y.top/introduction.html</a>
+好玩的故事向无CTF网页解密</div>
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-18">misc/tg/2025-10-18</a> / <a href="/misc/tg/2025-10-18/2025-10-18%2023.37.59">2025-10-18 23.37.59</a> <span>2025-10-18 23:37:59 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN">
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">/g/slop</div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5159106384178645807.png" title="Telegram media id 5159106384178645807" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr/><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-18">misc/tg/2025-10-18</a> / <a href="/misc/tg/2025-10-18/2025-10-18%2021.39.28">2025-10-18 21.39.28</a> <span>2025-10-18 21:39:28 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>读了感觉确实就是许多需要一定知识水平再加上大量研究对比测试挖掘源码等才能解决的细节问题，除此之外没太多受益。</p>
 <p>后面可以看看对于本站在Cf上的实例有没有改善，可能要等文章里的一些补丁真正发布后才行</p>
 
@@ -329,9 +708,8 @@ https://t.co/zd5PxPxbRW</p>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-18">misc/tg/2025-10-18</a> / <a href="/misc/tg/2025-10-18/2025-10-18%2021.09.13">2025-10-18 21.09.13</a> <span>2025-10-18 21:09:13 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-18">misc/tg/2025-10-18</a> / <a href="/misc/tg/2025-10-18/2025-10-18%2021.09.13">2025-10-18 21.09.13</a> <span>2025-10-18 21:09:13 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%94%89%E5%BE%AE%E8%BD%AF">#唉微软</a></span>
@@ -363,18 +741,19 @@ https://t.co/zd5PxPxbRW</p>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-18%2019.08.07">2025-10-18 19.08.07</a> <span>2025-10-18 19:08:07 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-18%2019.08.07">2025-10-18 19.08.07</a> <span>2025-10-18 19:08:07 UTC+8</span> <a target="_blank" href="/SlipBox/2025-10-18%2019.08.07" title="Go to detail page for more information.">*</a></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><blockquote>
 <p>4、<em><strong>主张</strong>：“言论自由权意味着政府不能因为你说的话而逮捕你；但它仍然让其他人有赶走你的自由。”</em></p>
 <p>不是的。下面这幅流行的xkcd漫画是<strong>错误的</strong>。第一修正案限制了政府可以做什么，但言论自由是比这更大的事。</p>
 <p>[图1]</p>
 <p>这幅漫画经常被用来作为否定言论自由的论点，但它是错误的：它不仅混淆了第一修正案的法律和言论自由，甚至没有正确理解第一修正案。</p>
 <p>言论自由的概念是一个更大、更古老、更广泛的概念，而不是它在第一修正案中的具体应用。<strong>对言论自由重要性的信念是激发第一修正案的原因；是它赋予第一修正案以意义，也是它在法律上的支撑。</strong></p>
+<p>[...]</p>
+<p>虽然美国宪法在表面上只限制政府行为，但其应用有时需要政府保护你不被其他公民审查。例如，政府有责任保护你不被不喜欢你的想法的敌对暴徒攻击，或保护你的公开演讲不<a href="https://www.thefire.org/rejecting-the-hecklers-veto/" target="_blank">被质问者</a>的否决权打断。</p>
 </blockquote>
 <p>来源： <a href="https://www.thefire.org/news/blogs/eternally-radical-idea/answers-12-bad-anti-free-speech-arguments-featuring-xkcd-cartoon" target="_blank">https://www.thefire.org/news/blogs/eternally-radical-idea/answers-12-bad-anti-free-speech-arguments-featuring-xkcd-cartoon</a></p>
-<p>引译：IYouPort，但它没有给出原始来源链接： <a href="https://iyouport.substack.com/p/12-8d8" target="_blank">https://iyouport.substack.com/p/12-8d8</a></p>
+<p>引译：IYouPort： <a href="https://iyouport.substack.com/p/12-8d8" target="_blank">https://iyouport.substack.com/p/12-8d8</a></p>
 <a href="/miscMedia/SlipBox_854ieqlf_0_e960b8e8-c27f-4a35-9938-63ccd6598814_998x1022.webp" class="md-attach md-attach-img-link" target="_blank">
             <img src="/miscMedia/SlipBox_854ieqlf_0_e960b8e8-c27f-4a35-9938-63ccd6598814_998x1022.webp" class="md-attach md-attach-img" alt="https://xkcd.com/1357/ The famous xkcd comic about free speech. See transcript on https://www.explainxkcd.com/wiki/index.php/1357:_Free_Speech" title="https://xkcd.com/1357/ The famous xkcd comic about free speech. See transcript on https://www.explainxkcd.com/wiki/index.php/1357:_Free_Speech" style="max-width: 20rem; max-height: 40rem;">
         </a>
@@ -384,9 +763,8 @@ https://t.co/zd5PxPxbRW</p>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-18%2013.52.48">2025-10-18 13.52.48</a> <span>2025-10-18 13:52:48 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-18%2013.52.48">2025-10-18 13.52.48</a> <span>2025-10-18 13:52:48 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>The pivot 枢纽 - <a href="https://www.antipope.org/charlie/blog-static/2025/10/the-pivot-1.html" target="_blank">https://www.antipope.org/charlie/blog-static/2025/10/the-pivot-1.html</a></p>
 <p>双语备档</p>
 <p><a href="/miscMedia/SlipBox_rq5lb1wo_0_The%20pivot%20-%20Charlie&#039;s%20Diary%20(2025_10_18%2013%EF%BC%9A51%EF%BC%9A33).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_rq5lb1wo_0_The pivot - Charlie's Diary (2025_10_18 13：51：33).html</a></p>
@@ -397,9 +775,8 @@ https://t.co/zd5PxPxbRW</p>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-17">misc/tg/2025-10-17</a> / <a href="/misc/tg/2025-10-17/2025-10-17%2022.09.25">2025-10-17 22.09.25</a> <span>2025-10-17 22:09:25 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-17">misc/tg/2025-10-17</a> / <a href="/misc/tg/2025-10-17/2025-10-17%2022.09.25">2025-10-17 22.09.25</a> <span>2025-10-17 22:09:25 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%94%89%E5%BE%AE%E8%BD%AF">#唉微软</a></span>
@@ -430,9 +807,8 @@ https://t.co/zd5PxPxbRW</p>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-17%2020.48.45">2025-10-17 20.48.45</a> <span>2025-10-17 20:48:45 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-17%2020.48.45">2025-10-17 20.48.45</a> <span>2025-10-17 20:48:45 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>很有戏剧性的黑客/工程师阴谋剧情</p>
 <p>A conspiracy to kill IE6 (2019) 暗杀 IE6 的阴谋 (2019) - <a href="https://blog.chriszacharias.com/a-conspiracy-to-kill-ie6" target="_blank">https://blog.chriszacharias.com/a-conspiracy-to-kill-ie6</a></p>
 <p><a href="/miscMedia/SlipBox_rahkfuia_0_A%20Conspiracy%20To%20Kill%20IE6%20(10_17_2025%209%EF%BC%9A35%EF%BC%9A20%20PM).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_rahkfuia_0_A Conspiracy To Kill IE6 (10_17_2025 9：35：20 PM).html</a></p>
@@ -443,9 +819,8 @@ https://t.co/zd5PxPxbRW</p>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-17">misc/tg/2025-10-17</a> / <a href="/misc/tg/2025-10-17/2025-10-17%2018.07.01">2025-10-17 18.07.01</a> <span>2025-10-17 18:07:01 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-17">misc/tg/2025-10-17</a> / <a href="/misc/tg/2025-10-17/2025-10-17%2018.07.01">2025-10-17 18.07.01</a> <span>2025-10-17 18:07:01 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <table class="tg-wrapper-layout">
@@ -493,9 +868,8 @@ EPA和DHA也是细胞膜的重要成分，细胞膜的EPA和DHA含量会影响�
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-17">misc/tg/2025-10-17</a> / <a href="/misc/tg/2025-10-17/2025-10-17%2015.48.45">2025-10-17 15.48.45</a> <span>2025-10-17 15:48:45 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-17">misc/tg/2025-10-17</a> / <a href="/misc/tg/2025-10-17/2025-10-17%2015.48.45">2025-10-17 15.48.45</a> <span>2025-10-17 15:48:45 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <table class="tg-wrapper-layout">
@@ -518,9 +892,8 @@ EPA和DHA也是细胞膜的重要成分，细胞膜的EPA和DHA含量会影响�
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-17">misc/tg/2025-10-17</a> / <a href="/misc/tg/2025-10-17/2025-10-17%2014.16.22">2025-10-17 14.16.22</a> <span>2025-10-17 14:16:22 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-17">misc/tg/2025-10-17</a> / <a href="/misc/tg/2025-10-17/2025-10-17%2014.16.22">2025-10-17 14.16.22</a> <span>2025-10-17 14:16:22 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <table class="tg-wrapper-layout">
@@ -542,9 +915,8 @@ EPA和DHA也是细胞膜的重要成分，细胞膜的EPA和DHA含量会影响�
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-15%2001.43.03">2025-10-15 01.43.03</a> <span>2025-10-15 01:43:03 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-15%2001.43.03">2025-10-15 01.43.03</a> <span>2025-10-15 01:43:03 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>America's future could hinge on whether AI slightly disappoints - <a href="https://www.noahpinion.blog/p/americas-future-could-hinge-on-whether" target="_blank">https://www.noahpinion.blog/p/americas-future-could-hinge-on-whether</a></p>
 <p>双语留档</p>
 <p>有付费墙，文章不完整</p>
@@ -557,9 +929,8 @@ EPA和DHA也是细胞膜的重要成分，细胞膜的EPA和DHA含量会影响�
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-14">misc/tg/2025-10-14</a> / <a href="/misc/tg/2025-10-14/2025-10-14%2017.03.16">2025-10-14 17.03.16</a> <span>2025-10-14 17:03:16 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-14">misc/tg/2025-10-14</a> / <a href="/misc/tg/2025-10-14/2025-10-14%2017.03.16">2025-10-14 17.03.16</a> <span>2025-10-14 17:03:16 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
@@ -601,9 +972,8 @@ EPA和DHA也是细胞膜的重要成分，细胞膜的EPA和DHA含量会影响�
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-14">misc/tg/2025-10-14</a> / <a href="/misc/tg/2025-10-14/2025-10-14%2017.02.34">2025-10-14 17.02.34</a> <span>2025-10-14 17:02:34 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-14">misc/tg/2025-10-14</a> / <a href="/misc/tg/2025-10-14/2025-10-14%2017.02.34">2025-10-14 17.02.34</a> <span>2025-10-14 17:02:34 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>这是个…好事啊…</p>
 
 
@@ -633,9 +1003,8 @@ EPA和DHA也是细胞膜的重要成分，细胞膜的EPA和DHA含量会影响�
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-14">misc/tg/2025-10-14</a> / <a href="/misc/tg/2025-10-14/2025-10-14%2016.54.07">2025-10-14 16.54.07</a> <span>2025-10-14 16:54:07 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-14">misc/tg/2025-10-14</a> / <a href="/misc/tg/2025-10-14/2025-10-14%2016.54.07">2025-10-14 16.54.07</a> <span>2025-10-14 16:54:07 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <table class="tg-wrapper-layout">
@@ -665,9 +1034,8 @@ EPA和DHA也是细胞膜的重要成分，细胞膜的EPA和DHA含量会影响�
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-14">misc/tg/2025-10-14</a> / <a href="/misc/tg/2025-10-14/2025-10-14%2016.53.58">2025-10-14 16.53.58</a> <span>2025-10-14 16:53:58 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-14">misc/tg/2025-10-14</a> / <a href="/misc/tg/2025-10-14/2025-10-14%2016.53.58">2025-10-14 16.53.58</a> <span>2025-10-14 16:53:58 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
@@ -699,9 +1067,8 @@ EPA和DHA也是细胞膜的重要成分，细胞膜的EPA和DHA含量会影响�
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-14%2001.04.53">2025-10-14 01.04.53</a> <span>2025-10-14 01:04:53 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-14%2001.04.53">2025-10-14 01.04.53</a> <span>2025-10-14 01:04:53 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>Nostr and ATProto (2024) Nostr 和 ATProto (2024) - <a href="https://shreyanjain.net/2024/07/05/nostr-and-atproto.html" target="_blank">https://shreyanjain.net/2024/07/05/nostr-and-atproto.html</a></p>
 <p>双语留档</p>
 <p><a href="/miscMedia/SlipBox_0_shreyan_ - Nostr and ATProto (2025_10_14 01：02：31).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_0_shreyan_ - Nostr and ATProto (2025_10_14 01：02：31).html</a></p>
@@ -712,9 +1079,8 @@ EPA和DHA也是细胞膜的重要成分，细胞膜的EPA和DHA含量会影响�
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-13">misc/tg/2025-10-13</a> / <a href="/misc/tg/2025-10-13/2025-10-13%2021.44.09">2025-10-13 21.44.09</a> <span>2025-10-13 21:44:09 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-13">misc/tg/2025-10-13</a> / <a href="/misc/tg/2025-10-13/2025-10-13%2021.44.09">2025-10-13 21.44.09</a> <span>2025-10-13 21:44:09 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/TPOF">#TPOF</a></span>
@@ -739,9 +1105,8 @@ EPA和DHA也是细胞膜的重要成分，细胞膜的EPA和DHA含量会影响�
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-13">misc/tg/2025-10-13</a> / <a href="/misc/tg/2025-10-13/2025-10-13%2021.43.48">2025-10-13 21.43.48</a> <span>2025-10-13 21:43:48 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-13">misc/tg/2025-10-13</a> / <a href="/misc/tg/2025-10-13/2025-10-13%2021.43.48">2025-10-13 21.43.48</a> <span>2025-10-13 21:43:48 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <table class="tg-wrapper-layout">
@@ -769,9 +1134,8 @@ EPA和DHA也是细胞膜的重要成分，细胞膜的EPA和DHA含量会影响�
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-13%2020.53.32">2025-10-13 20.53.32</a> <span>2025-10-13 20:53:32 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-13%2020.53.32">2025-10-13 20.53.32</a> <span>2025-10-13 20:53:32 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>Nostr and ATProto (2024) Nostr 和 ATProto (2024) - <a href="https://shreyanjain.net/2024/07/05/nostr-and-atproto.html" target="_blank">https://shreyanjain.net/2024/07/05/nostr-and-atproto.html</a></p>
 
 
@@ -780,9 +1144,8 @@ EPA和DHA也是细胞膜的重要成分，细胞膜的EPA和DHA含量会影响�
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-13%2018.16.27">2025-10-13 18.16.27</a> <span>2025-10-13 18:16:27 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-13%2018.16.27">2025-10-13 18.16.27</a> <span>2025-10-13 18:16:27 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p><a href="/hive/Blabber/NamingThings" target="_blank">/hive/Blabber/NamingThings</a></p>
 
 
@@ -791,9 +1154,8 @@ EPA和DHA也是细胞膜的重要成分，细胞膜的EPA和DHA含量会影响�
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/hive/Rant">hive/Rant</a> / <a href="/hive/Rant/2025-10-13%2017.57.32">2025-10-13 17.57.32</a> <span>2025-10-13 17:57:32 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/hive/Rant">hive/Rant</a> / <a href="/hive/Rant/2025-10-13%2017.57.32">2025-10-13 17.57.32</a> <span>2025-10-13 17:57:32 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>因为7-Zip vuln，又下了PeaZip试了试。PeaZip到2025年了，还是没把Windows的文件关联搞明白…</p>
 <p>装完文件关联不Work，研究了下是因为文件关联分系统全局设置和用户设置，7-Zip的关联选项一应俱全清晰明了，但是PeaZip就只有那几个复选框，只修改全局设置，所以如果事前有用户设置的覆盖，则完全不生效。</p>
 
@@ -803,9 +1165,8 @@ EPA和DHA也是细胞膜的重要成分，细胞膜的EPA和DHA含量会影响�
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-13%2002.09.38">2025-10-13 02.09.38</a> <span>2025-10-13 02:09:38 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-13%2002.09.38">2025-10-13 02.09.38</a> <span>2025-10-13 02:09:38 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/tk%E6%BC%94%E8%BF%9B">#tk演进</a></span>
@@ -819,9 +1180,8 @@ EPA和DHA也是细胞膜的重要成分，细胞膜的EPA和DHA含量会影响�
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-10">misc/tg/2025-10-10</a> / <a href="/misc/tg/2025-10-10/2025-10-10%2020.07.15">2025-10-10 20.07.15</a> <span>2025-10-10 20:07:15 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-10">misc/tg/2025-10-10</a> / <a href="/misc/tg/2025-10-10/2025-10-10%2020.07.15">2025-10-10 20.07.15</a> <span>2025-10-10 20:07:15 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>it's 2025 and 技术社区终于rediscovered it（可能not true for non-ADHD individuals 或者只需要在同一个舒适区一直工作的人</p>
 
 
@@ -843,9 +1203,8 @@ EPA和DHA也是细胞膜的重要成分，细胞膜的EPA和DHA含量会影响�
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-10">misc/tg/2025-10-10</a> / <a href="/misc/tg/2025-10-10/2025-10-10%2019.57.07">2025-10-10 19.57.07</a> <span>2025-10-10 19:57:07 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-10">misc/tg/2025-10-10</a> / <a href="/misc/tg/2025-10-10/2025-10-10%2019.57.07">2025-10-10 19.57.07</a> <span>2025-10-10 19:57:07 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <table class="tg-wrapper-layout">
@@ -873,9 +1232,8 @@ EPA和DHA也是细胞膜的重要成分，细胞膜的EPA和DHA含量会影响�
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-10">misc/tg/2025-10-10</a> / <a href="/misc/tg/2025-10-10/2025-10-10%2016.43.50">2025-10-10 16.43.50</a> <span>2025-10-10 16:43:50 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-10">misc/tg/2025-10-10</a> / <a href="/misc/tg/2025-10-10/2025-10-10%2016.43.50">2025-10-10 16.43.50</a> <span>2025-10-10 16:43:50 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <table class="tg-wrapper-layout">
@@ -915,9 +1273,8 @@ Fish:
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-10">misc/tg/2025-10-10</a> / <a href="/misc/tg/2025-10-10/2025-10-10%2016.43.35">2025-10-10 16.43.35</a> <span>2025-10-10 16:43:35 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-10">misc/tg/2025-10-10</a> / <a href="/misc/tg/2025-10-10/2025-10-10%2016.43.35">2025-10-10 16.43.35</a> <span>2025-10-10 16:43:35 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <table class="tg-wrapper-layout">
@@ -940,9 +1297,8 @@ Fish:
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-10">misc/tg/2025-10-10</a> / <a href="/misc/tg/2025-10-10/2025-10-10%2012.23.58">2025-10-10 12.23.58</a> <span>2025-10-10 12:23:58 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-10">misc/tg/2025-10-10</a> / <a href="/misc/tg/2025-10-10/2025-10-10%2012.23.58">2025-10-10 12.23.58</a> <span>2025-10-10 12:23:58 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <table class="tg-wrapper-layout">
@@ -989,9 +1345,8 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-09">misc/tg/2025-10-09</a> / <a href="/misc/tg/2025-10-09/2025-10-09%2016.59.36">2025-10-09 16.59.36</a> <span>2025-10-09 16:59:36 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-09">misc/tg/2025-10-09</a> / <a href="/misc/tg/2025-10-09/2025-10-09%2016.59.36">2025-10-09 16.59.36</a> <span>2025-10-09 16:59:36 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <table class="tg-wrapper-layout">
@@ -1037,9 +1392,8 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-08">misc/tg/2025-10-08</a> / <a href="/misc/tg/2025-10-08/2025-10-08%2014.31.43">2025-10-08 14.31.43</a> <span>2025-10-08 14:31:43 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-08">misc/tg/2025-10-08</a> / <a href="/misc/tg/2025-10-08/2025-10-08%2014.31.43">2025-10-08 14.31.43</a> <span>2025-10-08 14:31:43 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%94%89%E5%BE%AE%E8%BD%AF">#唉微软</a></span>
@@ -1083,9 +1437,8 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/hive/Murmur">hive/Murmur</a> / <a href="/hive/Murmur/2025-10-08%2013.47.31">2025-10-08 13.47.31</a> <span>2025-10-08 13:47:31 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/hive/Murmur">hive/Murmur</a> / <a href="/hive/Murmur/2025-10-08%2013.47.31">2025-10-08 13.47.31</a> <span>2025-10-08 13:47:31 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>是么？</p>
 
 
@@ -1094,9 +1447,8 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-07%2021.49.49">2025-10-07 21.49.49</a> <span>2025-10-07 21:49:49 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-07%2021.49.49">2025-10-07 21.49.49</a> <span>2025-10-07 21:49:49 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/tk%E6%BC%94%E8%BF%9B">#tk演进</a></span>
@@ -1108,9 +1460,8 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-07">misc/tg/2025-10-07</a> / <a href="/misc/tg/2025-10-07/2025-10-07%2016.55.37">2025-10-07 16.55.37</a> <span>2025-10-07 16:55:37 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-07">misc/tg/2025-10-07</a> / <a href="/misc/tg/2025-10-07/2025-10-07%2016.55.37">2025-10-07 16.55.37</a> <span>2025-10-07 16:55:37 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <table class="tg-wrapper-layout">
@@ -1132,9 +1483,8 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-07">misc/tg/2025-10-07</a> / <a href="/misc/tg/2025-10-07/2025-10-07%2014.19.52">2025-10-07 14.19.52</a> <span>2025-10-07 14:19:52 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-07">misc/tg/2025-10-07</a> / <a href="/misc/tg/2025-10-07/2025-10-07%2014.19.52">2025-10-07 14.19.52</a> <span>2025-10-07 14:19:52 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <table class="tg-wrapper-layout">
@@ -1165,9 +1515,8 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-07%2001.06.36">2025-10-07 01.06.36</a> <span>2025-10-07 01:06:36 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-07%2001.06.36">2025-10-07 01.06.36</a> <span>2025-10-07 01:06:36 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/tk%E6%BC%94%E8%BF%9B">#tk演进</a></span>
@@ -1179,9 +1528,8 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc">misc</a> / <a href="/misc/2025-10-06_23-24-59_%E7%BB%A7%E7%BB%AD%E6%96%AD%E7%AB%A0%E5%8F%96%E4%B9%89Lawrence_2">2025-10-06_23-24-59_继续断章取义Lawrence_2</a> <span>2025-10-06 23:22:22 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc">misc</a> / <a href="/misc/2025-10-06_23-24-59_%E7%BB%A7%E7%BB%AD%E6%96%AD%E7%AB%A0%E5%8F%96%E4%B9%89Lawrence_2">2025-10-06_23-24-59_继续断章取义Lawrence_2</a> <span>2025-10-06 23:22:22 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>* * *</p>
 <p>全部一起开着看视频。自动播放要开，让它们都像电视台一样一直播下去。</p>
 <p>——Lawrence Li <a href="https://blog.yitianshijie.net/2019/06/10/how-to-be-radical/" target="_blank">如何反抗</a></p>
@@ -1196,9 +1544,8 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc">misc</a> / <a href="/misc/2025-10-06_23-22-12_%E7%BB%A7%E7%BB%AD%E5%BC%95Lawrence%E5%BC%95">2025-10-06_23-22-12_继续引Lawrence引</a> <span>2025-10-06 23:19:22 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc">misc</a> / <a href="/misc/2025-10-06_23-22-12_%E7%BB%A7%E7%BB%AD%E5%BC%95Lawrence%E5%BC%95">2025-10-06_23-22-12_继续引Lawrence引</a> <span>2025-10-06 23:19:22 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>* * *</p>
 <p>A good compromise is when each party is equally unsatisfied.</p>
 <p>—引Lawrence Li <a href="https://blog.yitianshijie.net/quotes/" target="_blank">她山之石</a>引Larry David</p>
@@ -1210,9 +1557,8 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc">misc</a> / <a href="/misc/2025-10-06_23-01-23_jjzpuejn">2025-10-06_23-01-23_jjzpuejn</a> <span>2025-10-06 22:29:43 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc">misc</a> / <a href="/misc/2025-10-06_23-01-23_jjzpuejn">2025-10-06_23-01-23_jjzpuejn</a> <span>2025-10-06 22:29:43 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>* * *</p>
 <p>[图1]</p>
 <p>* * *</p>
@@ -1241,9 +1587,8 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-06">misc/tg/2025-10-06</a> / <a href="/misc/tg/2025-10-06/2025-10-06%2011.27.14">2025-10-06 11.27.14</a> <span>2025-10-06 11:27:14 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-06">misc/tg/2025-10-06</a> / <a href="/misc/tg/2025-10-06/2025-10-06%2011.27.14">2025-10-06 11.27.14</a> <span>2025-10-06 11:27:14 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <table class="tg-wrapper-layout">
@@ -1273,9 +1618,8 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-06">misc/tg/2025-10-06</a> / <a href="/misc/tg/2025-10-06/2025-10-06%2011.23.46">2025-10-06 11.23.46</a> <span>2025-10-06 11:23:46 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-06">misc/tg/2025-10-06</a> / <a href="/misc/tg/2025-10-06/2025-10-06%2011.23.46">2025-10-06 11.23.46</a> <span>2025-10-06 11:23:46 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <table class="tg-wrapper-layout">
@@ -1309,188 +1653,6 @@ user_pref("browser.tabs.groups.smart.userEnabled", false);</div>
       <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5977696549150505591.png" title="Telegram media id 5977696549150505591" alt="A picture from Telegram, related to current message. No more alt detail for now." />
     </td></tr>
   </table>
-
-
-</div>
-</div>
-</div>
-
-<hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-06">misc/tg/2025-10-06</a> / <a href="/misc/tg/2025-10-06/2025-10-06%2010.50.53">2025-10-06 10.50.53</a> <span>2025-10-06 10:50:53 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-CN">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/reorx_share" title="Telegram PeerChannel handle: reorx_share" data-title="tg:reorx_share">Reorx’s Forge</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">Immich 有个 Cursed Knowledge, 是其维护者们收集的开发过程中遇到的各种恶心的坑，这些坑并非单纯的难以解决或影响严重，而是反直觉或者让人感到「不该如此」，虽然花了大量时间解决，却让人感到痛苦远大于成就。回顾我记录过的一些 <code>#issue-log</code>, 也有不少这种被诅咒的知识，你有遇到过哪些，来一起分享下
-
-<a href="https://immich.app/cursed-knowledge">https://immich.app/cursed-knowledge</a></div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5983228922294291733.png" title="Telegram media id 5983228922294291733" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-05">misc/tg/2025-10-05</a> / <a href="/misc/tg/2025-10-05/2025-10-05%2023.15.26">2025-10-05 23.15.26</a> <span>2025-10-05 23:15:26 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-CN"><p>这是原来与Moonlight Android开发者争执贡献方式后愤而出走创建硬分支apollo的那位；另外不得不说是会起HN大字报标题的</p>
-
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/rynif" title="Telegram PeerChannel handle: rynif" data-title="tg:rynif">&amp;&#39;a ::rynco::UntitledChannel</a> (<span class="tg-author">Rynco Maekawa</span>)
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">Twitter 上一位互关推友的代码仓库被人用 AI 洗稿了。
-<a href="https://news.ycombinator.com/item?id=45477661">https://news.ycombinator.com/item?id=45477661</a>
-<a href="https://fixupx.com/ClassicOldSong/status/1974482250193621049">https://fixupx.com/ClassicOldSong/status/1974482250193621049</a></div>
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-05">misc/tg/2025-10-05</a> / <a href="/misc/tg/2025-10-05/2025-10-05%2023.07.06">2025-10-05 23.07.06</a> <span>2025-10-05 23:07:06 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-CN"><p>谁叫你对这类机制不设置白名单的，等着被利用</p>
-
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/seminews" title="Telegram PeerChannel handle: seminews" data-title="tg:seminews">SEMI Newspaper</a>
-    <div class="tg-msg-source-lv2">
-      <span class="tg-msg-source-lv2-explain">Forwarded from </span>科技圈🎗在花频道📮
-    </div>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><b>抖音极速版等使用小米系统应用的命名空间以在卸载时挽留用户</b>
-
-有博主发现，在小米手机上卸载抖音极速版 App 时会弹出挽留提示，内容包括“金币资产将在30天后清零，无法看到朋友最新动态和关注的作者更新”等警告信息。
-
-进一步分析认为，这是抖音利用了小米系统原本用于系统应用卸载警告的接口，该接口本应用于提醒用户卸载系统应用的后果，如卸载手机管家后无法杀毒等；除抖音极速版外，快手极速版App在小米手机上卸载时也会出现类似的挽留提醒。
-
-🍀<a href="http://t.me/zaihuanews">在花频道</a>  🍵<a href="http://t.me/zaihuachat">茶馆</a>  📮<a href="http://t.me/ZaiHuabot">投稿</a></div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6273961387482614744.png" title="Telegram media id 6273961387482614744" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6273961387482614745.png" title="Telegram media id 6273961387482614745" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-05%2014.13.43">2025-10-05 14.13.43</a> <span>2025-10-05 14:13:43 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-CN"><p><a href="https://lab.skk.moe/traffic-consumer" target="_blank">https://lab.skk.moe/traffic-consumer</a></p>
-<p>苏卡卡的大厂 CDN 流量拉取器，可以测速、消耗流量等</p>
-
-
-</div>
-</div>
-</div>
-
-<hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-05%2012.41.26">2025-10-05 12.41.26</a> <span>2025-10-05 12:41:26 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-CN">
-
-</div>
-</div>
-</div>
-
-<hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-05%2001.00.31">2025-10-05 01.00.31</a> <span>2025-10-05 01:00:31 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-CN"><p>达到一定长度（70左右）会触发这个bug</p>
-
-
-</div>
-</div>
-</div>
-
-<hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-05%2000.58.30">2025-10-05 00.58.30</a> <span>2025-10-05 00:58:30 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-CN"><p>又试了一试，感觉是总路径名太长才会触发这个bug…</p>
-
-
-</div>
-</div>
-</div>
-
-<hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-05%2000.39.29">2025-10-05 00.39.29</a> <span>2025-10-05 00:39:29 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-CN"><p>接上条：乐，查了下Firefox根本不支持window.showDirectoryPicker API。还得靠同行衬托</p>
-
-
-</div>
-</div>
-</div>
-
-<hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-10-04">misc/tg/2025-10-04</a> / <a href="/misc/tg/2025-10-04/2025-10-04%2023.30.14">2025-10-04 23.30.14</a> <span>2025-10-04 23:30:14 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-CN">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/ce_observe" title="Telegram PeerChannel handle: ce_observe" data-title="tg:ce_observe">每日消费电子观察</a> (<span class="tg-author">septs</span>)
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">Telegram CEO 杜罗夫称自己起床后几乎不碰手机，每天睡足 11-12 小时
-
-<a href="https://www.ithome.com/0/887/526.htm">https://www.ithome.com/0/887/526.htm</a>
-
-他对此表示：“我知道这听起来很反直觉，毕竟我创立了世界上最大的社交媒体网络，随后又一手创办了全球第二大即时通信软件 Telegram。<b><u>我发现一个人越是‘随时在线、触手可达’，工作效率反而会变低”。</u></b></div>
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-04%2023.25.27">2025-10-04 23.25.27</a> <span>2025-10-04 23:25:27 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-CN"><p>看起来Chromium on Android/ChromeOS对于“让用户选择一个本地目录，然后对里面的某个具体文件进行取writable然后写入”这个用例目前还是不通的，至少Chrome 140.0.7339.207现在是这样…</p>
 
 
 </div>

@@ -12,9 +12,8 @@
         <pubDate>Thu, 02 Oct 2025 00:00:00 +0800</pubDate>
         <description><![CDATA[
 <div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-30">misc/tg/2025-09-30</a> / <a href="/misc/tg/2025-09-30/2025-09-30%2023.07.59">2025-09-30 23.07.59</a> <span>2025-09-30 23:07:59 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-30">misc/tg/2025-09-30</a> / <a href="/misc/tg/2025-09-30/2025-09-30%2023.07.59">2025-09-30 23.07.59</a> <span>2025-09-30 23:07:59 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>啊？？</p>
 
 
@@ -41,9 +40,8 @@
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-30">misc/tg/2025-09-30</a> / <a href="/misc/tg/2025-09-30/2025-09-30%2001.08.35">2025-09-30 01.08.35</a> <span>2025-09-30 01:08:35 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-30">misc/tg/2025-09-30</a> / <a href="/misc/tg/2025-09-30/2025-09-30%2001.08.35">2025-09-30 01.08.35</a> <span>2025-09-30 01:08:35 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -69,16 +67,27 @@
 </div>
 </div>
 
-<hr/>
-    <div class="group-layout">
-      <div class="group-layout group-ref-primary group-asset">
-        <div class="group-layout group-ref-type">
-          Ref
-        </div>
-        <div class="group-layout group-ref-primary group-asset"><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-30">misc/tg/2025-09-30</a> / <a href="/misc/tg/2025-09-30/2025-09-30%2001.02.54">2025-09-30 01.02.54</a> <span>2025-09-30 01:02:54 UTC+8</span></div>
+<hr/><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-30">misc/tg/2025-09-30</a> / <a href="/misc/tg/2025-09-30/2025-09-30%2001.02.55">2025-09-30 01.02.55</a> <span>2025-09-30 01:02:55 UTC+8</span></div>
+</div>
 
-  <div class="one-in-seq principal-content">
+      
+          <div class="group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p>Test</p>
+
+
+</div>
+</div>
+</div>
+
+          </div>
+      <div class="group-layout">
+          
+          <div class="group-layout group-ref-primary group-asset">
+          <div class="group-layout group-ref-primary group-asset" colspan=&#34;2&#34;><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-30">misc/tg/2025-09-30</a> / <a href="/misc/tg/2025-09-30/2025-09-30%2001.02.54">2025-09-30 01.02.54</a> <span>2025-09-30 01:02:54 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -106,27 +115,14 @@
 </div>
 </div>
 
-        </div>
+          </div>
+          </div>
+
       </div>
-      <div class="group-layout group-asset"><div colspan="2" class="group-layout group-asset"><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-30">misc/tg/2025-09-30</a> / <a href="/misc/tg/2025-09-30/2025-09-30%2001.02.55">2025-09-30 01.02.55</a> <span>2025-09-30 01:02:55 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-CN"><p>Test</p>
-
-
-</div>
-</div>
-</div>
-
-      </div></div>
-
-    </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-29">misc/tg/2025-09-29</a> / <a href="/misc/tg/2025-09-29/2025-09-29%2017.09.34">2025-09-29 17.09.34</a> <span>2025-09-29 17:09:34 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-29">misc/tg/2025-09-29</a> / <a href="/misc/tg/2025-09-29/2025-09-29%2017.09.34">2025-09-29 17.09.34</a> <span>2025-09-29 17:09:34 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -167,9 +163,8 @@ Source: https://netzpolitik.org/2025/chatkontrolle-noch-haelt-sich-widerstand/</
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-29">misc/tg/2025-09-29</a> / <a href="/misc/tg/2025-09-29/2025-09-29%2017.08.02">2025-09-29 17.08.02</a> <span>2025-09-29 17:08:02 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-29">misc/tg/2025-09-29</a> / <a href="/misc/tg/2025-09-29/2025-09-29%2017.08.02">2025-09-29 17.08.02</a> <span>2025-09-29 17:08:02 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -200,9 +195,8 @@ Source: https://netzpolitik.org/2025/chatkontrolle-noch-haelt-sich-widerstand/</
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-29">misc/tg/2025-09-29</a> / <a href="/misc/tg/2025-09-29/2025-09-29%2017.02.35">2025-09-29 17.02.35</a> <span>2025-09-29 17:02:35 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-29">misc/tg/2025-09-29</a> / <a href="/misc/tg/2025-09-29/2025-09-29%2017.02.35">2025-09-29 17.02.35</a> <span>2025-09-29 17:02:35 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -230,9 +224,8 @@ Source: https://netzpolitik.org/2025/chatkontrolle-noch-haelt-sich-widerstand/</
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-29">misc/tg/2025-09-29</a> / <a href="/misc/tg/2025-09-29/2025-09-29%2000.43.16">2025-09-29 00.43.16</a> <span>2025-09-29 00:43:16 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-29">misc/tg/2025-09-29</a> / <a href="/misc/tg/2025-09-29/2025-09-29%2000.43.16">2025-09-29 00.43.16</a> <span>2025-09-29 00:43:16 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -264,9 +257,8 @@ Source: https://netzpolitik.org/2025/chatkontrolle-noch-haelt-sich-widerstand/</
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-28">misc/tg/2025-09-28</a> / <a href="/misc/tg/2025-09-28/2025-09-28%2021.40.17">2025-09-28 21.40.17</a> <span>2025-09-28 21:40:17 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-28">misc/tg/2025-09-28</a> / <a href="/misc/tg/2025-09-28/2025-09-28%2021.40.17">2025-09-28 21.40.17</a> <span>2025-09-28 21:40:17 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -299,9 +291,8 @@ Source: https://netzpolitik.org/2025/chatkontrolle-noch-haelt-sich-widerstand/</
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-28%2001.35.10">2025-09-28 01.35.10</a> <span>2025-09-28 01:35:10 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-28%2001.35.10">2025-09-28 01.35.10</a> <span>2025-09-28 01:35:10 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p><a href="https://wiki.lesswrong.com" target="_blank">https://wiki.lesswrong.com</a></p>
 <p><a href="https://www.lesswrong.com/wikitags/all" target="_blank">https://www.lesswrong.com/wikitags/all</a></p>
 
@@ -311,9 +302,8 @@ Source: https://netzpolitik.org/2025/chatkontrolle-noch-haelt-sich-widerstand/</
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-28%2001.32.09">2025-09-28 01.32.09</a> <span>2025-09-28 01:32:09 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-28%2001.32.09">2025-09-28 01.32.09</a> <span>2025-09-28 01:32:09 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -350,9 +340,8 @@ https://www.denizcemonduygu.com/philo/browse/</p>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-28%2001.31.45">2025-09-28 01.31.45</a> <span>2025-09-28 01:31:45 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-28%2001.31.45">2025-09-28 01.31.45</a> <span>2025-09-28 01:31:45 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -382,9 +371,8 @@ https://www.denizcemonduygu.com/philo/browse/</p>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-27%2022.43.32">2025-09-27 22.43.32</a> <span>2025-09-27 22:43:32 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-27%2022.43.32">2025-09-27 22.43.32</a> <span>2025-09-27 22:43:32 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p><a  target="_blank" href="/tag/tk%E6%BC%94%E8%BF%9B" class="tag">#tk演进</a> frontMatter内直接写时间的问题</p>
 <p><a  target="_blank" href="/tag/tk%E6%BC%94%E8%BF%9B" class="tag">#tk演进</a> 内容submit页面</p>
 <p><a  target="_blank" href="/tag/tk%E6%BC%94%E8%BF%9B" class="tag">#tk演进</a> 文件变成文件夹后hoard的bug</p>
@@ -395,9 +383,8 @@ https://www.denizcemonduygu.com/philo/browse/</p>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-27%2022.38.51">2025-09-27 22.38.51</a> <span>2025-09-27 22:38:51 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-27%2022.38.51">2025-09-27 22.38.51</a> <span>2025-09-27 22:38:51 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>From <a href="https://en.wikipedia.org/wiki/LessWrong" target="_blank">https://en.wikipedia.org/wiki/LessWrong</a> :</p>
 <blockquote>
 <p>LessWrong （也写作Less Wrong）是一个社区博客和论坛，专注于讨论认知偏差、哲学、心理学、经济学、理性和人工智能等主题。它与理性主义社区有关。</p>
@@ -411,9 +398,8 @@ https://www.denizcemonduygu.com/philo/browse/</p>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-27">misc/tg/2025-09-27</a> / <a href="/misc/tg/2025-09-27/2025-09-27%2017.58.29">2025-09-27 17.58.29</a> <span>2025-09-27 17:58:29 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-27">misc/tg/2025-09-27</a> / <a href="/misc/tg/2025-09-27/2025-09-27%2017.58.29">2025-09-27 17.58.29</a> <span>2025-09-27 17:58:29 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -448,9 +434,8 @@ https://www.denizcemonduygu.com/philo/browse/</p>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-27">misc/tg/2025-09-27</a> / <a href="/misc/tg/2025-09-27/2025-09-27%2017.40.41">2025-09-27 17.40.41</a> <span>2025-09-27 17:40:41 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-27">misc/tg/2025-09-27</a> / <a href="/misc/tg/2025-09-27/2025-09-27%2017.40.41">2025-09-27 17.40.41</a> <span>2025-09-27 17:40:41 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/TPOT">#TPOT</a></span>
@@ -476,9 +461,8 @@ https://www.denizcemonduygu.com/philo/browse/</p>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-27">misc/tg/2025-09-27</a> / <a href="/misc/tg/2025-09-27/2025-09-27%2016.47.07">2025-09-27 16.47.07</a> <span>2025-09-27 16:47:07 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-27">misc/tg/2025-09-27</a> / <a href="/misc/tg/2025-09-27/2025-09-27%2016.47.07">2025-09-27 16.47.07</a> <span>2025-09-27 16:47:07 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/KnowMan">#KnowMan</a></span>
@@ -515,9 +499,8 @@ https://www.denizcemonduygu.com/philo/browse/</p>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-27">misc/tg/2025-09-27</a> / <a href="/misc/tg/2025-09-27/2025-09-27%2016.03.03">2025-09-27 16.03.03</a> <span>2025-09-27 16:03:03 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-27">misc/tg/2025-09-27</a> / <a href="/misc/tg/2025-09-27/2025-09-27%2016.03.03">2025-09-27 16.03.03</a> <span>2025-09-27 16:03:03 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>用sed重新实现的一系列文本编码功能，包括base64、json、json转yaml等，疯狂。需要 GNU sed。</p>
 
 
@@ -555,9 +538,8 @@ I love it ❤️🥰❤️</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-27">misc/tg/2025-09-27</a> / <a href="/misc/tg/2025-09-27/2025-09-27%2013.07.36">2025-09-27 13.07.36</a> <span>2025-09-27 13:07:36 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-27">misc/tg/2025-09-27</a> / <a href="/misc/tg/2025-09-27/2025-09-27%2013.07.36">2025-09-27 13.07.36</a> <span>2025-09-27 13:07:36 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -585,9 +567,8 @@ I love it ❤️🥰❤️</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-26">misc/tg/2025-09-26</a> / <a href="/misc/tg/2025-09-26/2025-09-26%2017.12.09">2025-09-26 17.12.09</a> <span>2025-09-26 17:12:09 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-26">misc/tg/2025-09-26</a> / <a href="/misc/tg/2025-09-26/2025-09-26%2017.12.09">2025-09-26 17.12.09</a> <span>2025-09-26 17:12:09 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>见上条</p>
 
 
@@ -610,9 +591,8 @@ I love it ❤️🥰❤️</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-26">misc/tg/2025-09-26</a> / <a href="/misc/tg/2025-09-26/2025-09-26%2017.07.58">2025-09-26 17.07.58</a> <span>2025-09-26 17:07:58 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-26">misc/tg/2025-09-26</a> / <a href="/misc/tg/2025-09-26/2025-09-26%2017.07.58">2025-09-26 17.07.58</a> <span>2025-09-26 17:07:58 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/LatestStageCapitalism">#LatestStageCapitalism</a></span>
@@ -651,9 +631,8 @@ I love it ❤️🥰❤️</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-26">misc/tg/2025-09-26</a> / <a href="/misc/tg/2025-09-26/2025-09-26%2008.49.30">2025-09-26 08.49.30</a> <span>2025-09-26 08:49:30 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-26">misc/tg/2025-09-26</a> / <a href="/misc/tg/2025-09-26/2025-09-26%2008.49.30">2025-09-26 08.49.30</a> <span>2025-09-26 08:49:30 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>...</p>
 
 
@@ -683,9 +662,8 @@ I love it ❤️🥰❤️</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-26">misc/tg/2025-09-26</a> / <a href="/misc/tg/2025-09-26/2025-09-26%2001.13.15">2025-09-26 01.13.15</a> <span>2025-09-26 01:13:15 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-26">misc/tg/2025-09-26</a> / <a href="/misc/tg/2025-09-26/2025-09-26%2001.13.15">2025-09-26 01.13.15</a> <span>2025-09-26 01:13:15 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -707,9 +685,8 @@ I love it ❤️🥰❤️</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-26%2001.09.03">2025-09-26 01.09.03</a> <span>2025-09-26 01:09:03 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-26%2001.09.03">2025-09-26 01.09.03</a> <span>2025-09-26 01:09:03 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>所以说到Context，将JavaScript的AsyncLocalStorage类似概念（其他语言是否也有？Structured Concurrency是不是关于这个的？）用在Context的传递上变成语言的内禀功能，默认（或以一个尽量方便的标记opt-in）函数都需要用到context对象，需要取其中的内容时有语法糖支持使其尽可能方便，是否可行？</p>
 
 
@@ -718,9 +695,8 @@ I love it ❤️🥰❤️</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-26">misc/tg/2025-09-26</a> / <a href="/misc/tg/2025-09-26/2025-09-26%2001.05.24">2025-09-26 01.05.24</a> <span>2025-09-26 01:05:24 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-26">misc/tg/2025-09-26</a> / <a href="/misc/tg/2025-09-26/2025-09-26%2001.05.24">2025-09-26 01.05.24</a> <span>2025-09-26 01:05:24 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><ol>
 <li>
 <p>favors 监管</p>
@@ -757,9 +733,8 @@ I love it ❤️🥰❤️</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-26%2000.41.17">2025-09-26 00.41.17</a> <span>2025-09-26 00:41:17 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-26%2000.41.17">2025-09-26 00.41.17</a> <span>2025-09-26 00:41:17 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p><a href="https://wiki.c2.com/?ClassesAreContext" target="_blank">https://wiki.c2.com/?ClassesAreContext</a></p>
 <p><a href="https://wiki.c2.com/?ContextObjectsAreEvil" target="_blank">https://wiki.c2.com/?ContextObjectsAreEvil</a></p>
 
@@ -769,9 +744,8 @@ I love it ❤️🥰❤️</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-26%2000.34.47">2025-09-26 00.34.47</a> <span>2025-09-26 00:34:47 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-26%2000.34.47">2025-09-26 00.34.47</a> <span>2025-09-26 00:34:47 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><ul>
 <li>TIL: 本站的几乎所有返回网页的请求的CPU时间都超过10ms（Cloudflare Workers的免费额度限制）。Cloudflare只是在大部分时间内不杀而已；在某些情况下（如连续重载/all页三次左右）Cloudflare会开始拦截几乎所有网页请求。看来将其写成可插拔的模块架构随时准备被De-platform/避免Vendor lock-in是正确的。</li>
 </ul>
@@ -782,9 +756,8 @@ I love it ❤️🥰❤️</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-26%2000.33.33">2025-09-26 00.33.33</a> <span>2025-09-26 00:33:33 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-26%2000.33.33">2025-09-26 00.33.33</a> <span>2025-09-26 00:33:33 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><ul>
 <li>类似项目：<a href="https://github.com/microfeed/microfeed" target="_blank">https://github.com/microfeed/microfeed</a></li>
 </ul>
@@ -795,9 +768,8 @@ I love it ❤️🥰❤️</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-25%2022.42.52">2025-09-25 22.42.52</a> <span>2025-09-25 22:42:52 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/WhyThisSite">TheDesk/WhyThisSite</a> / <a href="/TheDesk/WhyThisSite/2025-09-25%2022.42.52">2025-09-25 22.42.52</a> <span>2025-09-25 22:42:52 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><ul>
 <li><a href="https://wiki.c2.com/" target="_blank">https://wiki.c2.com/</a> 更新后不再采用 <a  target="_blank" href="/tag/OldBoringTechnology" class="tag">#OldBoringTechnology</a> ，转而成为了一个强依赖 JavaScript 和浏览器 Ajax 预载全站数据索引为 JSON 的 SPA。</li>
 </ul>
@@ -808,9 +780,8 @@ I love it ❤️🥰❤️</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/TheDesk">TheDesk</a> / <a href="/TheDesk/Cosmos">Cosmos</a> <span>2025-09-25 22:32:04 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk">TheDesk</a> / <a href="/TheDesk/Cosmos">Cosmos</a> <span>2025-09-25 22:32:04 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>TBA</p>
 
 
@@ -819,9 +790,8 @@ I love it ❤️🥰❤️</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-25">misc/tg/2025-09-25</a> / <a href="/misc/tg/2025-09-25/2025-09-25%2017.06.05">2025-09-25 17.06.05</a> <span>2025-09-25 17:06:05 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-25">misc/tg/2025-09-25</a> / <a href="/misc/tg/2025-09-25/2025-09-25%2017.06.05">2025-09-25 17.06.05</a> <span>2025-09-25 17:06:05 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
@@ -854,9 +824,8 @@ I love it ❤️🥰❤️</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-24">misc/tg/2025-09-24</a> / <a href="/misc/tg/2025-09-24/2025-09-24%2020.36.18">2025-09-24 20.36.18</a> <span>2025-09-24 20:36:18 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-24">misc/tg/2025-09-24</a> / <a href="/misc/tg/2025-09-24/2025-09-24%2020.36.18">2025-09-24 20.36.18</a> <span>2025-09-24 20:36:18 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p><a href="/webArc/bbdbccd9-8a59-4b62-a0df-7a4e47b54e31.htm">/webArc/bbdbccd9-8a59-4b62-a0df-7a4e47b54e31.htm</a></p>
 
 
@@ -893,9 +862,8 @@ I love it ❤️🥰❤️</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-23">misc/tg/2025-09-23</a> / <a href="/misc/tg/2025-09-23/2025-09-23%2022.38.18">2025-09-23 22.38.18</a> <span>2025-09-23 22:38:18 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-23">misc/tg/2025-09-23</a> / <a href="/misc/tg/2025-09-23/2025-09-23%2022.38.18">2025-09-23 22.38.18</a> <span>2025-09-23 22:38:18 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -924,9 +892,8 @@ TL;DR 想法很好实现依托</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-23">misc/tg/2025-09-23</a> / <a href="/misc/tg/2025-09-23/2025-09-23%2021.00.22">2025-09-23 21.00.22</a> <span>2025-09-23 21:00:22 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-23">misc/tg/2025-09-23</a> / <a href="/misc/tg/2025-09-23/2025-09-23%2021.00.22">2025-09-23 21.00.22</a> <span>2025-09-23 21:00:22 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -954,9 +921,8 @@ TL;DR 想法很好实现依托</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-23">misc/tg/2025-09-23</a> / <a href="/misc/tg/2025-09-23/2025-09-23%2008.41.05">2025-09-23 08.41.05</a> <span>2025-09-23 08:41:05 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-23">misc/tg/2025-09-23</a> / <a href="/misc/tg/2025-09-23/2025-09-23%2008.41.05">2025-09-23 08.41.05</a> <span>2025-09-23 08:41:05 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -987,9 +953,8 @@ TL;DR 想法很好实现依托</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-22">misc/tg/2025-09-22</a> / <a href="/misc/tg/2025-09-22/2025-09-22%2012.21.55">2025-09-22 12.21.55</a> <span>2025-09-22 12:21:55 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-22">misc/tg/2025-09-22</a> / <a href="/misc/tg/2025-09-22/2025-09-22%2012.21.55">2025-09-22 12.21.55</a> <span>2025-09-22 12:21:55 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -1041,9 +1006,8 @@ TL;DR 想法很好实现依托</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-22">misc/tg/2025-09-22</a> / <a href="/misc/tg/2025-09-22/2025-09-22%2001.06.51">2025-09-22 01.06.51</a> <span>2025-09-22 01:06:51 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-22">misc/tg/2025-09-22</a> / <a href="/misc/tg/2025-09-22/2025-09-22%2001.06.51">2025-09-22 01.06.51</a> <span>2025-09-22 01:06:51 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -1071,9 +1035,8 @@ TL;DR 想法很好实现依托</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-22%2000.43.05">2025-09-22 00.43.05</a> <span>2025-09-22 00:43:05 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-22%2000.43.05">2025-09-22 00.43.05</a> <span>2025-09-22 00:43:05 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/tk%E6%BC%94%E8%BF%9B">#tk演进</a></span>
@@ -1085,9 +1048,8 @@ TL;DR 想法很好实现依托</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-21">misc/tg/2025-09-21</a> / <a href="/misc/tg/2025-09-21/2025-09-21%2021.32.48">2025-09-21 21.32.48</a> <span>2025-09-21 21:32:48 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-21">misc/tg/2025-09-21</a> / <a href="/misc/tg/2025-09-21/2025-09-21%2021.32.48">2025-09-21 21.32.48</a> <span>2025-09-21 21:32:48 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -1115,9 +1077,8 @@ TL;DR 想法很好实现依托</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-21%2001.02.10">2025-09-21 01.02.10</a> <span>2025-09-21 01:02:10 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-21%2001.02.10">2025-09-21 01.02.10</a> <span>2025-09-21 01:02:10 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/tk%E6%BC%94%E8%BF%9B">#tk演进</a></span>
@@ -1129,9 +1090,8 @@ TL;DR 想法很好实现依托</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-20">misc/tg/2025-09-20</a> / <a href="/misc/tg/2025-09-20/2025-09-20%2018.26.12">2025-09-20 18.26.12</a> <span>2025-09-20 18:26:12 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-20">misc/tg/2025-09-20</a> / <a href="/misc/tg/2025-09-20/2025-09-20%2018.26.12">2025-09-20 18.26.12</a> <span>2025-09-20 18:26:12 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/OBraveNewWorld">#OBraveNewWorld</a></span>
@@ -1159,9 +1119,8 @@ TL;DR 想法很好实现依托</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-20">misc/tg/2025-09-20</a> / <a href="/misc/tg/2025-09-20/2025-09-20%2017.21.51">2025-09-20 17.21.51</a> <span>2025-09-20 17:21:51 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-20">misc/tg/2025-09-20</a> / <a href="/misc/tg/2025-09-20/2025-09-20%2017.21.51">2025-09-20 17.21.51</a> <span>2025-09-20 17:21:51 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/OBraveNewWorld">#OBraveNewWorld</a></span>
@@ -1204,9 +1163,8 @@ TL;DR 想法很好实现依托</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-19%2021.37.55">2025-09-19 21.37.55</a> <span>2025-09-19 21:37:55 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-19%2021.37.55">2025-09-19 21.37.55</a> <span>2025-09-19 21:37:55 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>艹，太傻逼了，Windows 10有些窗口（比如services.msc）在最大化后习惯性鼠标甩到最右上角的位置点击竟然不是对应本窗口的关闭按钮，而是穿透到下一层窗口，比如把下一层的Chrome关掉了</p>
 
 
@@ -1215,9 +1173,8 @@ TL;DR 想法很好实现依托</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-18">misc/tg/2025-09-18</a> / <a href="/misc/tg/2025-09-18/2025-09-18%2016.59.48">2025-09-18 16.59.48</a> <span>2025-09-18 16:59:48 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-18">misc/tg/2025-09-18</a> / <a href="/misc/tg/2025-09-18/2025-09-18%2016.59.48">2025-09-18 16.59.48</a> <span>2025-09-18 16:59:48 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/iAppleTime">#iAppleTime</a></span>
@@ -1245,14 +1202,15 @@ TL;DR 想法很好实现依托</div>
 </div>
 
 <hr/>
-    <div class="group-layout">
-      <div class="group-layout group-brief"><div colspan="2" class="group-layout group-brief">
-        <span lang="ja-JP">〜</span>Thunderbird 143 on Windows 启动后闪退问题
-      </div></div>
-      <div class="group-layout group-asset"><div colspan="2" class="group-layout group-asset"><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-18%2011.15.51">2025-09-18 11.15.51</a> <span>2025-09-18 11:15:51 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+      <div class="group-layout">
+          <div class="group-layout group-thread-brief">
+            <div colspan="2" class="group-layout group-thread-brief">
+              <span lang="ja-JP">〜</span>Thunderbird 143 on Windows 启动后闪退问题
+            </div>
+          </div>
+          <div class="group-layout group-asset"><div colspan="2" class="group-layout group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-18%2011.15.51">2025-09-18 11.15.51</a> <span>2025-09-18 11:15:51 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>Thunderbird 143 on Windows 启动后闪退，在prefs.js里<code>mail.accountmanager.accounts</code>把Gmail账号移除掉后恢复。</p>
 
 
@@ -1260,11 +1218,10 @@ TL;DR 想法很好实现依托</div>
 </div>
 </div>
 
-      </div></div>
-      <div class="group-layout group-asset"><div colspan="2" class="group-layout group-asset"><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-18%2011.31.18">2025-09-18 11.31.18</a> <span>2025-09-18 11:31:18 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+          </div></div>
+          <div class="group-layout group-asset"><div colspan="2" class="group-layout group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-18%2011.31.18">2025-09-18 11.31.18</a> <span>2025-09-18 11:31:18 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>或者把mail.server.server1.login_at_startup改成false就好了</p>
 
 
@@ -1272,11 +1229,10 @@ TL;DR 想法很好实现依托</div>
 </div>
 </div>
 
-      </div></div>
-      <div class="group-layout group-asset"><div colspan="2" class="group-layout group-asset"><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-18%2011.31.19">2025-09-18 11.31.19</a> <span>2025-09-18 11:31:19 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+          </div></div>
+          <div class="group-layout group-asset"><div colspan="2" class="group-layout group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-18%2011.31.19">2025-09-18 11.31.19</a> <span>2025-09-18 11:31:19 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p><span lang="ja-JP">〜</span>Thunderbird 143 on Windows 启动后闪退问题</p>
 
 
@@ -1284,11 +1240,10 @@ TL;DR 想法很好实现依托</div>
 </div>
 </div>
 
-      </div></div>
-      <div class="group-layout group-asset"><div colspan="2" class="group-layout group-asset"><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-18%2011.31.23">2025-09-18 11.31.23</a> <span>2025-09-18 11:31:23 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+          </div></div>
+          <div class="group-layout group-asset"><div colspan="2" class="group-layout group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-18%2011.31.23">2025-09-18 11.31.23</a> <span>2025-09-18 11:31:23 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>但是只要gmail一收件就crash，咲希了</p>
 
 
@@ -1296,11 +1251,10 @@ TL;DR 想法很好实现依托</div>
 </div>
 </div>
 
-      </div></div>
-      <div class="group-layout group-asset"><div colspan="2" class="group-layout group-asset"><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-18%2011.35.04">2025-09-18 11.35.04</a> <span>2025-09-18 11:35:04 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+          </div></div>
+          <div class="group-layout group-asset"><div colspan="2" class="group-layout group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-18%2011.35.04">2025-09-18 11.35.04</a> <span>2025-09-18 11:35:04 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>？好像好了</p>
 
 
@@ -1308,11 +1262,10 @@ TL;DR 想法很好实现依托</div>
 </div>
 </div>
 
-      </div></div>
-      <div class="group-layout group-asset"><div colspan="2" class="group-layout group-asset"><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-18%2011.35.09">2025-09-18 11.35.09</a> <span>2025-09-18 11:35:09 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+          </div></div>
+          <div class="group-layout group-asset"><div colspan="2" class="group-layout group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-18%2011.35.09">2025-09-18 11.35.09</a> <span>2025-09-18 11:35:09 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>只要保证启动时gmail绝对不能自动收件就行</p>
 
 
@@ -1320,18 +1273,17 @@ TL;DR 想法很好实现依托</div>
 </div>
 </div>
 
-      </div></div>
+          </div></div>
 
-    </div>
+      </div>
 
 
 
 
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-18%2001.02.57">2025-09-18 01.02.57</a> <span>2025-09-18 01:02:57 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-18%2001.02.57">2025-09-18 01.02.57</a> <span>2025-09-18 01:02:57 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>AI用于完全琐碎/非创意领域的道德性？</p>
 <ul>
 <li>也有可能是非道德的。妳在给AI公司提供数据。</li>
@@ -1343,9 +1295,8 @@ TL;DR 想法很好实现依托</div>
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-17">misc/tg/2025-09-17</a> / <a href="/misc/tg/2025-09-17/2025-09-17%2017.40.50">2025-09-17 17.40.50</a> <span>2025-09-17 17:40:50 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-17">misc/tg/2025-09-17</a> / <a href="/misc/tg/2025-09-17/2025-09-17%2017.40.50">2025-09-17 17.40.50</a> <span>2025-09-17 17:40:50 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
@@ -1371,9 +1322,8 @@ NPM 再次出现供应链投毒
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-17">misc/tg/2025-09-17</a> / <a href="/misc/tg/2025-09-17/2025-09-17%2016.56.20">2025-09-17 16.56.20</a> <span>2025-09-17 16:56:20 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-17">misc/tg/2025-09-17</a> / <a href="/misc/tg/2025-09-17/2025-09-17%2016.56.20">2025-09-17 16.56.20</a> <span>2025-09-17 16:56:20 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -1395,9 +1345,8 @@ NPM 再次出现供应链投毒
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-17">misc/tg/2025-09-17</a> / <a href="/misc/tg/2025-09-17/2025-09-17%2012.13.08">2025-09-17 12.13.08</a> <span>2025-09-17 12:13:08 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-17">misc/tg/2025-09-17</a> / <a href="/misc/tg/2025-09-17/2025-09-17%2012.13.08">2025-09-17 12.13.08</a> <span>2025-09-17 12:13:08 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -1426,9 +1375,8 @@ NPM 再次出现供应链投毒
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-17">misc/tg/2025-09-17</a> / <a href="/misc/tg/2025-09-17/2025-09-17%2010.37.04">2025-09-17 10.37.04</a> <span>2025-09-17 10:37:04 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-17">misc/tg/2025-09-17</a> / <a href="/misc/tg/2025-09-17/2025-09-17%2010.37.04">2025-09-17 10.37.04</a> <span>2025-09-17 10:37:04 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -1450,9 +1398,8 @@ NPM 再次出现供应链投毒
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-17">misc/tg/2025-09-17</a> / <a href="/misc/tg/2025-09-17/2025-09-17%2001.23.40">2025-09-17 01.23.40</a> <span>2025-09-17 01:23:40 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-17">misc/tg/2025-09-17</a> / <a href="/misc/tg/2025-09-17/2025-09-17%2001.23.40">2025-09-17 01.23.40</a> <span>2025-09-17 01:23:40 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -1474,9 +1421,8 @@ NPM 再次出现供应链投毒
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-17">misc/tg/2025-09-17</a> / <a href="/misc/tg/2025-09-17/2025-09-17%2001.23.23">2025-09-17 01.23.23</a> <span>2025-09-17 01:23:23 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-17">misc/tg/2025-09-17</a> / <a href="/misc/tg/2025-09-17/2025-09-17%2001.23.23">2025-09-17 01.23.23</a> <span>2025-09-17 01:23:23 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
@@ -1508,9 +1454,8 @@ NPM 再次出现供应链投毒
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-16">misc/tg/2025-09-16</a> / <a href="/misc/tg/2025-09-16/2025-09-16%2018.35.42">2025-09-16 18.35.42</a> <span>2025-09-16 18:35:42 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-16">misc/tg/2025-09-16</a> / <a href="/misc/tg/2025-09-16/2025-09-16%2018.35.42">2025-09-16 18.35.42</a> <span>2025-09-16 18:35:42 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -1532,9 +1477,8 @@ NPM 再次出现供应链投毒
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-16">misc/tg/2025-09-16</a> / <a href="/misc/tg/2025-09-16/2025-09-16%2000.17.41">2025-09-16 00.17.41</a> <span>2025-09-16 00:17:41 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-16">misc/tg/2025-09-16</a> / <a href="/misc/tg/2025-09-16/2025-09-16%2000.17.41">2025-09-16 00.17.41</a> <span>2025-09-16 00:17:41 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
@@ -1562,9 +1506,8 @@ NPM 再次出现供应链投毒
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-15">misc/tg/2025-09-15</a> / <a href="/misc/tg/2025-09-15/2025-09-15%2022.38.55">2025-09-15 22.38.55</a> <span>2025-09-15 22:38:55 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-15">misc/tg/2025-09-15</a> / <a href="/misc/tg/2025-09-15/2025-09-15%2022.38.55">2025-09-15 22.38.55</a> <span>2025-09-15 22:38:55 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -1588,9 +1531,8 @@ NPM 再次出现供应链投毒
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-15">misc/tg/2025-09-15</a> / <a href="/misc/tg/2025-09-15/2025-09-15%2022.38.11">2025-09-15 22.38.11</a> <span>2025-09-15 22:38:11 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-15">misc/tg/2025-09-15</a> / <a href="/misc/tg/2025-09-15/2025-09-15%2022.38.11">2025-09-15 22.38.11</a> <span>2025-09-15 22:38:11 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -1612,9 +1554,8 @@ NPM 再次出现供应链投毒
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-15">misc/tg/2025-09-15</a> / <a href="/misc/tg/2025-09-15/2025-09-15%2016.57.46">2025-09-15 16.57.46</a> <span>2025-09-15 16:57:46 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-15">misc/tg/2025-09-15</a> / <a href="/misc/tg/2025-09-15/2025-09-15%2016.57.46">2025-09-15 16.57.46</a> <span>2025-09-15 16:57:46 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -1647,9 +1588,8 @@ NPM 再次出现供应链投毒
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/misc/tg/2025-09-15">misc/tg/2025-09-15</a> / <a href="/misc/tg/2025-09-15/2025-09-15%2001.46.58">2025-09-15 01.46.58</a> <span>2025-09-15 01:46:58 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-09-15">misc/tg/2025-09-15</a> / <a href="/misc/tg/2025-09-15/2025-09-15%2001.46.58">2025-09-15 01.46.58</a> <span>2025-09-15 01:46:58 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
@@ -1681,9 +1621,8 @@ NPM 再次出现供应链投毒
 </div>
 
 <hr/><div class="one-in-seq-wrapper">
-  <div class="one-in-seq asset-base-name"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-15%2001.43.43">2025-09-15 01.43.43</a> <span>2025-09-15 01:43:43 UTC+8</span></div>
-
-  <div class="one-in-seq principal-content">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-15%2001.43.43">2025-09-15 01.43.43</a> <span>2025-09-15 01:43:43 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
     <h3 class="md-title">图书馆建成了</h3>
     <div>
