@@ -43,3 +43,8 @@ This site is available at:
 - [https://tien-kou.shunf4.workers.dev/](https://tien-kou.shunf4.workers.dev/) (Cloudflare Workers, Cloud Database, Dynamic, May hit resource limit)
 - (An internal address) (Node.JS, Local Database, Dynamic)
 - [https://tien-kou-kari.github.io/](https://tien-kou-kari.github.io/) (Static, Less Frequently Updated)
+
+The site's source code:
+
+- https://github.com/tien-kou-kari/tien-kou-kari.github.io (tk_asset_main branch, Site-specific templates, contents and configurations)
+- https://github.com/ProjectKoto/tien-kou (Infrastructure: server, hoarder, etc.)
