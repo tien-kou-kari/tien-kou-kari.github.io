@@ -155,12 +155,28 @@ a.secondary {
 }
 
 blockquote {
-  margin: 20px 40px;
-  padding: 10px;
-  color: #333;
+  margin: 25px 0;
+  padding: 20px;
   font-style: italic;
-  background-color: #f9f9f9;
-  border-left: 5px solid #ccc;
+  font-family: Georgia, "Times New Roman", serif; /* A more "elegant" font */
+
+  /* The Web 2.0 Color Palette: often blues or soft colors */
+  background-color: #e4f2fd;
+  background-image: linear-gradient(to bottom, #f6f9fc, #e4f2fd); /* Subtle gradient */
+
+  /* The Fancy Borders */
+  border: 1px solid #b8d4e7;
+  border-left: 5px solid #6bb5e0; /* A brighter, blue left border */
+
+  /* The Drop Shadow - Very Web 2.0! */
+  -moz-box-shadow: 2px 2px 5px #ccc; /* For Firefox */
+  -webkit-box-shadow: 2px 2px 5px #ccc; /* For Chrome/Safari */
+  box-shadow: 2px 2px 5px #ccc;
+
+  /* Rounded Corners - The hallmark of the era */
+  -moz-border-radius: 10px; /* For Firefox */
+  -webkit-border-radius: 10px; /* For Chrome/Safari */
+  border-radius: 10px;
 }
 
 {% endcapture -%}
