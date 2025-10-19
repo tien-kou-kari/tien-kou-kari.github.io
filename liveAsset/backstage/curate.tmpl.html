@@ -134,6 +134,8 @@
   if rgc.serverProfileName == 'insiders' and reqPathTidy == ''
     echo '<br/><br/><h2>The Flow</h2>'
     render 'all.tmpl.html', pageNum: 0, pageSize: 18
+    # set the title back...
+    x 'Home' | rgcSet: "pageTitlePart"
   endif
     
   backpatchVal pageTitle
