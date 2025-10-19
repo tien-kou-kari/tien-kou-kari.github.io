@@ -13,7 +13,7 @@
 
 {%- if isMarkdown %}
   {%- if rgc.currPageFocusedAssetLocator == asset.asset_locator %}
-    <div class="asset-parent-line"><a target="_blank" class="secondary" href="{{ asset.web_url_path | split: '/' | inplaceRemoveLast | join: '/' }}">{{ asset.web_url_path_tidy | split: '/' | inplaceRemoveLast | join: '/' }}</a> /
+    <div class="asset-parent-line"><a class="secondary" href="{{ asset.web_url_path | split: '/' | inplaceRemoveLast | join: '/' }}">{{ asset.web_url_path_tidy | split: '/' | inplaceRemoveLast | join: '/' }}</a> /
     </div>
     <details lang="en">
       <summary>...
