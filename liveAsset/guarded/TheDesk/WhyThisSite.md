@@ -4,6 +4,8 @@ isDerivableIntoChildren: true
 childrenSortOrder: condTimeAsc
 ---
 
+一些记录此站何所是、之所以是、何以成是的文字
+
 2025-09-25 22:42:52
 - https://wiki.c2.com/ 更新后不再采用 #OldBoringTechnology ，转而成为了一个强依赖 JavaScript 和浏览器 Ajax 预载全站数据索引为 JSON 的 SPA。
 
