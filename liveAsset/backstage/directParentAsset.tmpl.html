@@ -32,6 +32,7 @@ endif
       <div class="asset-parent-line"><a class="secondary" href="/{{ rgc.reqPathTidy | split: '/' | inplaceRemoveLast | join: '/' }}">{{ rgc.reqPathTidy | split: '/' | inplaceRemoveLast | join: '/' }}/</a>
       </div>
     </div></div>
+    <div class="tidbit-pair"><div class="tidbit-key">PseudoLocator</div><div class="tidbit-value white-space-preserve">{{ rgc.reqPathTidy }}</div></div>
   </details>
 {%- endif %}
 
