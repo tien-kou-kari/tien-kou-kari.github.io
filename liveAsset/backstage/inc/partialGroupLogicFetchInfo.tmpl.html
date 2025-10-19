@@ -3,23 +3,23 @@
 
 assign matchAllSubAncestors = undefined | newArr | inplacePush: ''
 
-assign possibleGroupLocators = undefined | newArr
+assign possibleNonPrivateGroupLocators = undefined | newArr
 
 for asset in assetListOfMultiGroups
   if asset.metadata.groupPrimaryLocator != '' and asset.metadata.groupPrimaryLocator
-    x possibleGroupLocators | inplacePush: asset.metadata.groupPrimaryLocator
+    x possibleNonPrivateGroupLocators | inplacePush: asset.metadata.groupPrimaryLocator
   endif
   if asset.metadata.specifiedLocator != '' and asset.metadata.specifiedLocator
-    x possibleGroupLocators | inplacePush: asset.metadata.specifiedLocator
+    x possibleNonPrivateGroupLocators | inplacePush: asset.metadata.specifiedLocator
   endif
-  x possibleGroupLocators | inplacePush: asset.asset_locator
+  x possibleNonPrivateGroupLocators | inplacePush: asset.asset_locator
 endfor
 
-if possibleGroupLocators.size == 0
+if possibleNonPrivateGroupLocators.size == 0
   break
 endif
 
-assign currSqlPlaceholders = possibleGroupLocators | size | newArr: '?' | join: ', '
+assign currSqlPlaceholders = possibleNonPrivateGroupLocators | size | newArr: '?' | join: ', '
 
 %}
 
@@ -55,7 +55,7 @@ assign currSqlPlaceholders = possibleGroupLocators | size | newArr: '?' | join: 
 
 {%- liquid
 
-assign fetchPossibleGroupNonPrimaryMaxMinTimeAssetsCustomSqlArgs = possibleGroupLocators 
+assign fetchPossibleGroupNonPrimaryMaxMinTimeAssetsCustomSqlArgs = possibleNonPrivateGroupLocators 
 
 assign possibleGroupNonPrimaryMaxMinTimeAssets = undefined | queryLiveAssetByRawLocators: locatorSubAncestors: matchAllSubAncestors, shouldIncludeDirectories: false, shouldIncludeDerivingParent: false, shouldFetchRawBytes: true, shouldIncludeWithoutPubTime: true, customSql: fetchPossibleGroupNonPrimaryMaxMinTimeAssetsCustomSql, customSqlArgs: fetchPossibleGroupNonPrimaryMaxMinTimeAssetsCustomSqlArgs
 
