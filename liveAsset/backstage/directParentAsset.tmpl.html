@@ -10,9 +10,21 @@ if isHive and rgc.serverProfileName != 'insiders'
   break
 endif
 
+assign isShowAsSequence = c.isLocatableContentHasDerivedChildren
+%}
+
+{%- if c.isLocatableContentHasDerivedChildren %}
+  <div class="parent-p-content-wrapper">
+    <div class="principal-content">
+    {%- render 'inc/content.tmpl.html', shouldUseRgcForAssetStatus: true, asset: asset %}
+    </div>
+  </div>
+{%- endif %}
+
+{%- liquid
 assign list = reqPathTidy | listAssetChildren: true, true, listableAssetExtNames, childrenOrder, pageNum, pageSize
 
-assign isShowAsSequence = c.isLocatableContentHasDerivedChildren
+
 
 if isShowAsSequence
   render 'inc/sequence.tmpl.html' list: list
