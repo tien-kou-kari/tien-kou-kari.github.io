@@ -14,7 +14,11 @@
 {%- if isMarkdown %}
   {%- if rgc.currPageFocusedAssetLocator == asset.asset_locator %}
     <details lang="en">
-      <summary>...</summary>
+      <summary>...
+      {%- if post.metadata.tidbits.size > 0 and post.metadata.tidbits -%}
+        *
+      {%- endif -%}
+      </summary>
       <div class="tidbit-pair"><div class="tidbit-key">Locator</div><div class="tidbit-value">{{ asset.asset_locator }}</div></div>
       <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value">{{ asset.update_time_by_hoard }}</div></div>
       {%- if asset.metadata.tidbits %}
