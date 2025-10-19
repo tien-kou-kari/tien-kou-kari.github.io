@@ -19,11 +19,11 @@ elsif isLocatableContentNotFound
 
 elsif c.isLocatableContentDirectory or c.isLocatableContentHasDerivedChildren
 
-  render 'directParentAsset.tmpl.html', asset: asset
+  render 'directParentAsset.tmpl.html', asset: asset, pageNum: pageNum, pageSize: pageSize
 
 else
    
-  render 'directLeafAsset.tmpl.html', asset: asset
+  render 'directLeafAsset.tmpl.html', asset: asset, pageNum: pageNum, pageSize: pageSize
 
 endif
 

@@ -1,90 +1,164 @@
 
 {%- liquid
 
-  assign currGroupAssetList = '' | listAssetDescendants: false, 'condTimeDesc', undefined, undefined, " AND ( json_extract(metadata, '$.groupPrimaryLocator') = ? OR json_extract(metadata, '$.specifiedLocator') = ? OR asset_locator = ? ) ", groupPrimaryLocator, groupPrimaryLocator, groupPrimaryLocator | arrInplaceSortAscByKey: 'publish_time_by_metadata'
+  assign currGroupViewAssetList = '' | listAssetDescendants: false, 'condTimeDesc', undefined, undefined, " AND ( json_extract(metadata, '$.groupPrimaryLocator') = ? OR json_extract(metadata, '$.specifiedLocator') = ? OR asset_locator = ? ) ", groupPrimaryLocator, groupPrimaryLocator, groupPrimaryLocator | arrInplaceSortAscByKey: 'publish_time_by_metadata'
 
-  unless currGroupAssetList.size == 0
-    assign currGroupPrimary = currGroupAssetList[0]
-    for assetInGroup in currGroupAssetList
+  unless currGroupViewAssetList.size == 0
+    assign currGroupViewPrimary = currGroupViewAssetList[0]
+    for assetInGroup in currGroupViewAssetList
       if assetInGroup.asset_locator == groupPrimaryLocator or assetInGroup.metadata.specifiedLocator == groupPrimaryLocator
         x true | setToObj: assetInGroup.metadata, 'isGroupPrimary'
       endif
       if assetInGroup.metadata.isGroupPrimary
-        x true | setToObj: assetInGroup, 'runtime_isGroupPrimary'
-        assign currGroupPrimary = assetInGroup
+        assign currGroupViewPrimary = assetInGroup
       endif
     endfor
-    for assetInGroup in currGroupAssetList
+    for assetInGroup in currGroupViewAssetList
       if assetInGroup.metadata.groupType != undefined
-        x assetInGroup.metadata.groupType | setToObj: currGroupPrimary, 'runtime_groupType'
+        x assetInGroup.metadata.groupType | setToObj: currGroupViewPrimary, 'runtime_groupType'
+        assign currGroupViewType = currGroupViewPrimary.runtime_groupType
       endif
     endfor
   endunless
   
 %}
 
-      {%- if currGroupAssetList.size == 0 %}
+      {%- if currGroupViewAssetList.size == 0 %}
 <p>Nothing in group</p>
       {%- else %}
 
-  {%- # to make https://github.com/Rongronggg9/RSS-to-Telegram-Bot/blob/e9839d92e88ee3a82e1322ffc2a5357d6a5bf466/src/parsing/html_parser.py happy %}
-  {%- if rgc.isRss %}
-    {%- assign tableEl = 'div' %}
-    {%- assign trEl = 'div' %}
-    {%- assign tdEl = 'div' %}
-    {%- assign thEl = 'div' %}
-  {%- else %}
-    {%- assign tableEl = 'table' %}
-    {%- assign trEl = 'tr' %}
-    {%- assign tdEl = 'td' %}
-    {%- assign thEl = 'th' %}
-  {%- endif %}
+{%- # to make https://github.com/Rongronggg9/RSS-to-Telegram-Bot/blob/e9839d92e88ee3a82e1322ffc2a5357d6a5bf466/src/parsing/html_parser.py happy %}
+{%- if rgc.isRss %}
+  {%- assign tableEl = 'div' %}
+  {%- assign trEl = 'div' %}
+  {%- assign tdEl = 'div' %}
+  {%- assign thEl = 'div' %}
+{%- else %}
+  {%- assign tableEl = 'table' %}
+  {%- assign trEl = 'tr' %}
+  {%- assign tdEl = 'td' %}
+  {%- assign thEl = 'th' %}
+{%- endif %}
 
-<{% echo tableEl %} class="group-layout">
-  {%- if currGroupPrimary.runtime_groupType == 'thread' or currGroupPrimary.runtime_groupType == undefined %}
-    <{% echo trEl %} class="group-layout group-thread-brief">
-      <{% echo tdEl %} colspan="2" class="group-layout group-thread-brief">
-        <span lang="ja-JP">〜</span>
-        {%- if currGroupPrimary.metadata.groupTitle != '' and currGroupPrimary.metadata.groupTitle %}
-          {{- currGroupPrimary.metadata.groupTitle }}
-        {%- elsif currGroupPrimary.metadata.title %}
-          {{- currGroupPrimary.metadata.title }}
-        {%- else %}
-          {{- currGroupPrimary.asset_raw_bytes | default: "" | btos | split: "\n" | find_exp: 'item', 'item | strip | toBoolean' | mdInline | raw }}
-        {%- endif %}
-      </{% echo tdEl %}>
-    </{% echo trEl %}>
-  {%- endif %}
+{%- liquid
 
-  {%- if currGroupPrimary.runtime_groupType == 'ref' %}
-    <{% echo trEl %} class="group-layout group-ref-primary group-asset">
-      <{% echo tdEl %} class="group-layout group-ref-type">
-        Ref
-      </{% echo tdEl %}>
-      <{% echo tdEl %} class="group-layout group-ref-primary group-asset">
-        {%- render 'inc/oneInSeq.tmpl.html', post: currGroupPrimary %}
-      </{% echo tdEl %}>
-    </{% echo trEl %}>
-  {%- endif %}
-  {%- for assetInGroup in currGroupAssetList %}
-    {%- if assetInGroup.runtime_isGroupPrimary and currGroupPrimary.runtime_groupType == 'ref' or currGroupPrimary.runtime_groupType == 'topRef' %}
-      {%- continue %}
+  assign isGroupTypeRef = false
+  if currGroupViewType == 'ref' or currGroupViewType == 'bottomPostRef' or currGroupViewType == 'noBorderRef' or currGroupViewType == 'noBorderBottomPostRef' or currGroupViewType == 'inTableRef' or currGroupViewType == 'inTableBottomPostRef'
+    assign isGroupTypeRef = true
+endif
+
+%}
+
+{%- if isGroupTypeRef %}
+  {%- capture refRender %}
+    {%- assign infoLinePrefixHtml = '' %}
+    {%- if currGroupViewType == 'ref' or currGroupViewType == 'bottomPostRef' or currGroupViewType == 'inTableRef' or currGroupViewType == 'inTableBottomPostRef' %}
+      <{% echo trEl %} class="group-layout group-ref-primary group-asset">
+      {%- assign primaryInTableColspan = '' %}
+      {%- if currGroupViewType == 'inTableRef' or currGroupViewType == 'inTableBottomPostRef' %}
+        <{% echo tdEl %} class="group-layout group-ref-type">
+          Ref
+        </{% echo tdEl %}>
+      {%- else %}
+        {%- assign primaryInTableColspan = ' colspan="2"' %}
+      {%- endif %}
+      <{% echo tdEl %} class="group-layout group-ref-primary group-asset"{{ primaryInTableColspan }}>
+    {%- else %}
+      {%- assign infoLinePrefixHtml = '> ' %}
     {%- endif %}
-    <{% echo trEl %} class="group-layout group-asset"><{% echo tdEl %} colspan="2" class="group-layout group-asset">
-      {%- render 'inc/oneInSeq.tmpl.html', post: assetInGroup %}
-    </{% echo tdEl %}></{% echo trEl %}>
+    {%- render 'inc/oneInSeq.tmpl.html', post: currGroupViewPrimary, infoLinePrefixHtml: infoLinePrefixHtml %}
+    {%- if currGroupViewType == 'ref' or currGroupViewType == 'bottomPostRef' or currGroupViewType == 'inTableRef' or currGroupViewType == 'inTableBottomPostRef' %}
+      </{% echo tdEl %}>
+      </{% echo trEl %}>
+    {%- endif %}
+  {%- endcapture %}
+{%- endif %}
+
+{%- if isGroupTypeRef and not currGroupViewType == 'inTableBottomPostRef' and not currGroupViewType == 'inTableRef' %}
+  {%-# render asset info line itself %}
+
+  {%- for assetInGroup in currGroupViewAssetList %}
+    {%- liquid
+    if assetInGroup.asset_locator == currGroupViewPrimary.asset_locator
+      continue
+    endif
+    render 'inc/oneInSeq.tmpl.html', post: assetInGroup, notRenderContent: true
+    %}
   {%- endfor %}
 
-  {%- if currGroupPrimary.runtime_groupType == 'topRef' %}
-    <{% echo trEl %} class="group-layout group-ref-primary group-asset">
-      <{% echo tdEl %} class="group-layout group-ref-type">
-        Ref
-      </{% echo tdEl %}>
-      <{% echo tdEl %} class="group-layout group-ref-primary group-asset">
-        {%- render 'inc/oneInSeq.tmpl.html', post: currGroupPrimary %}
-      </{% echo tdEl %}>
-    </{% echo trEl %}>
-  {%- endif %}
+  {%-# render and capture asset itself %}
+  {%- capture noBorderAssetRender %}
 
-</{% echo tableEl %}>
-      {%- endif -%}
+    {%- for assetInGroup in currGroupViewAssetList %}
+      {%- liquid
+      if assetInGroup.asset_locator == currGroupViewPrimary.asset_locator
+        continue
+      endif
+      %}
+      <div class="group-asset">
+        {%- render 'inc/oneInSeq.tmpl.html', post: assetInGroup, notRenderInfoLine: true %}
+      </div>
+    {%- endfor %}
+  {%- endcapture %}
+{%- endif %}
+
+{%- if currGroupViewType == 'noBorderBottomPostRef' %}
+  {{ refRender | raw }}
+{%- endif %}
+
+{%- if currGroupViewType == 'noBorderRef' or currGroupViewType == 'noBorderBottomPostRef' or currGroupViewType == 'ref' %}
+  {{ noBorderAssetRender | raw }}
+{%- endif %}
+
+{%- if currGroupViewType == 'noBorderRef' %}
+  {{ refRender | raw }}
+{%- endif %}
+
+{%- if currGroupViewType != 'noBorderRef' and currGroupViewType != 'noBorderBottomPostRef' %}
+  <{% echo tableEl %} class="group-layout">
+    {%- if currGroupViewType == 'thread' or currGroupViewType == undefined %}
+      <{% echo trEl %} class="group-layout group-thread-brief">
+        <{% echo tdEl %} colspan="2" class="group-layout group-thread-brief">
+          <span lang="ja-JP">〜</span>
+          {%- if currGroupViewPrimary.metadata.groupTitle %}
+            {{- currGroupViewPrimary.metadata.groupTitle }}
+          {%- elsif currGroupViewPrimary.metadata.title %}
+            {{- currGroupViewPrimary.metadata.title }}
+          {%- else %}
+            {{- currGroupViewPrimary.asset_raw_bytes | default: "" | btos | split: "\n" | find_exp: 'item', 'item | strip | toBoolean' | mdInline | raw }}
+          {%- endif %}
+        </{% echo tdEl %}>
+      </{% echo trEl %}>
+    {%- endif %}
+
+    {%- if currGroupViewType == 'inTableBottomPostRef' or currGroupViewType == 'bottomPostRef' %}
+      {{ refRender | raw }}  
+    {%- endif %}
+
+    {%- for assetInGroup in currGroupViewAssetList %}
+      {%- if isGroupTypeRef %}
+        {%- if currGroupViewType == 'ref' or currGroupViewType == 'bottomPostRef' %}
+          {%- break %}
+        {%- endif %}
+        {%- if assetInGroup.asset_locator == currGroupViewPrimary.asset_locator %}
+          {%- continue %}
+        {%- endif %}
+      {%- endif %}
+      <{% echo trEl %} class="group-layout group-asset"><{% echo tdEl %} colspan="2" class="group-layout group-asset">
+        {%- render 'inc/oneInSeq.tmpl.html', post: assetInGroup %}
+      </{% echo tdEl %}></{% echo trEl %}>
+    {%- endfor %}
+
+    {%- if currGroupViewType == 'inTableRef' or currGroupViewType == 'ref' %}
+      {{ refRender | raw }}  
+    {%- endif %}
+
+  </{% echo tableEl %}>
+
+{%- endif %}
+
+{%- if currGroupViewType == 'bottomPostRef' %}
+  {{ noBorderAssetRender | raw }}
+{%- endif %}
+
+        {%- endif -%}

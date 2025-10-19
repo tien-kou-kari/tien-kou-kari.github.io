@@ -1,5 +1,7 @@
 {%- liquid
 
+x asset.asset_locator | rgcSet: 'currPageFocusedAssetLocator'
+
 x asset.metadata.title | rgcSet: "pageTitlePart"
 
 assign partialGroupLogicCtx = undefined | newObj

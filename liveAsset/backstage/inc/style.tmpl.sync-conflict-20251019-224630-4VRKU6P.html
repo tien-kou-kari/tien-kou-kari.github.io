@@ -22,17 +22,12 @@ main {
   max-width: min(40rem, 100% - 2rem);
 }
 
-p {
-  margin-block-start: 0.4rem;
-  margin-block-end: 0.4rem;
-}
-
 .white-space-preserve {
   white-space-collapse: preserve;
 }
 
 div.principal-content {
-  /*margin-top: 0.5rem;*/
+  margin-top: 0.5rem;
 }
 
 
@@ -132,26 +127,6 @@ a.secondary {
   /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */
   filter: brightness(3) contrast(0.26);
   text-decoration: underline dotted;
-}
-
-.tidbit-value {
-  flex: 1;
-  white-space: pre-wrap;
-  font-family: monospace;
-}
-
-.tidbit-key {
-  font-weight: bold;
-  flex-shrink: 1;
-  margin-inline-end: 0.6rem;
-}
-
-.tidbit-key::after {
-  content: ': ';
-}
-
-.tidbit-pair {
-  display: flex;
 }
 
 {% endcapture -%}

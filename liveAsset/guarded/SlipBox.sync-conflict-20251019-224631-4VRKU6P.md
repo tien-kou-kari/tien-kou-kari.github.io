@@ -59,7 +59,7 @@ https://wiki.c2.com/?ContextObjectsAreEvil
 
 #tk演进 文件变成文件夹后hoard的bug
 
-2025-10-01 01:08:12 ref=zxf-struggled 在此庆贺这个新民主主义国家走过第七十六个年头。
+2025-10-01 01:08:12 tref=zxf-struggled 在此庆贺这个新民主主义国家走过第七十六个年头。
 
 
 
@@ -196,21 +196,3 @@ A conspiracy to kill IE6 (2019) 暗杀 IE6 的阴谋 (2019) - https://blog.chris
 双语留档
 
 <a href="/miscMedia/SlipBox_q9i8su8w_0_share4044655835246134171.html" class="md-attach md-attach-file-link" target="_blank">SlipBox_q9i8su8w_0_share4044655835246134171.html</a>
-
-2025-10-19 12:28:31 privateOneSidedGroupPrimaryLocator="guarded/SlipBox/2025-10-19 11.30.53" privateOneSidedGroupType=ref xxx3
-
-2025-10-19 12:28:32 privateOneSidedGroupPrimaryLocator="guarded/SlipBox/2025-10-19 11.30.53" privateOneSidedGroupType=ref ref
-2025-10-19 12:28:33 privateOneSidedGroupPrimaryLocator="guarded/SlipBox/2025-10-19 11.30.53" privateOneSidedGroupType=bottomPostRef bottomPostRef
-2025-10-19 12:28:34 privateOneSidedGroupPrimaryLocator="guarded/SlipBox/2025-10-19 11.30.53" privateOneSidedGroupType=noBorderRef noBorderRef
-2025-10-19 12:28:35 privateOneSidedGroupPrimaryLocator="guarded/SlipBox/2025-10-19 11.30.53" privateOneSidedGroupType=noBorderBottomPostRef noBorderBottomPostRef
-2025-10-19 12:28:36 privateOneSidedGroupPrimaryLocator="guarded/SlipBox/2025-10-19 11.30.53" privateOneSidedGroupType=inTableRef inTableRef
-2025-10-19 12:28:37 privateOneSidedGroupPrimaryLocator="guarded/SlipBox/2025-10-19 11.30.53" privateOneSidedGroupType=inTableBottomPostRef inTableBottomPostRef
-
-2025-10-19 12:28:38 groupPrimaryLocator="guarded/SlipBox/2025-10-19 11.30.53" groupType=ref nonPrivateRef
-2025-10-19 12:28:39 groupPrimaryLocator="guarded/SlipBox/2025-10-19 11.30.53" groupType=bottomPostRef nonPrivateBottomPostRef
-2025-10-19 12:28:40 groupPrimaryLocator="guarded/SlipBox/2025-10-19 11.30.53" groupType=noBorderRef nonPrivateNoBorderRef
-2025-10-19 12:28:41 groupPrimaryLocator="guarded/SlipBox/2025-10-19 11.30.53" groupType=noBorderBottomPostRef nonPrivateNoBorderBottomPostRef
-2025-10-19 12:28:42 groupPrimaryLocator="guarded/SlipBox/2025-10-19 11.30.53" groupType=inTableRef nonPrivateInTableRef
-2025-10-19 12:28:43 groupPrimaryLocator="guarded/SlipBox/2025-10-19 11.30.53" groupType=inTableBottomPostRef nonPrivateInTableBottomPostRef
-
-2025-10-19 22:41:33 浏览器里给了一句`font-family: monospace`，结果它的字体还和当前节点所属的lang有关？是中文直接变宋体，忽略浏览器设置？？

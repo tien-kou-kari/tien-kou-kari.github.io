@@ -12,18 +12,6 @@
 {%- assign isMarkdown = asset.origin_file_path | isEndWithExtension: rgc.markdownExtNames %}
 
 {%- if isMarkdown %}
-  {%- if rgc.currPageFocusedAssetLocator == asset.asset_locator %}
-    <details lang="en">
-      <summary>...</summary>
-      <div class="tidbit-pair"><div class="tidbit-key">Locator</div><div class="tidbit-value">{{ asset.asset_locator }}</div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value">{{ asset.update_time_by_hoard }}</div></div>
-      {%- if asset.metadata.tidbits %}
-        {%- for tp in asset.metadata.tidbits %}
-          <div class="tidbit-pair"><div class="tidbit-key">{{ tp[0] }}</div><div class="tidbit-value">{{ tp[1] }}</div></div>
-        {%- endfor %}
-      {%- endif %}
-    </details>
-  {%- endif %}
   {%- if asset.metadata.title != '' and asset.metadata.title %}
     <h3 class="md-title">{{ asset.metadata.title }}</h3>
   {%- endif %}
