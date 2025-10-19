@@ -1,5 +1,6 @@
 ---
 isDerivableIntoChildren: true
+childrenSortOrder: condTimeAsc
 ---
 
 2025-10-19 22:53:53 repost="guarded/SlipBox/2025-10-19 22.41.33"
