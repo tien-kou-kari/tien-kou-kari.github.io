@@ -25,7 +25,7 @@ endif
     {%- render 'inc/content.tmpl.html', shouldUseRgcForAssetStatus: true, asset: asset %}
     </div>
   </div>
-{%- else %}
+{%- elsif rgc.reqPathTidy != '' %}
   <details style="margin-bottom: 0.4rem" lang="en">
     <summary>...</summary>
     <div class="tidbit-pair"><div class="tidbit-key">Parent</div><div class="tidbit-value">
