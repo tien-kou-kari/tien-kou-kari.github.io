@@ -79,13 +79,6 @@
     assign theGroup = reqPathTidy | remove_first: 'group/'
     render 'inc/fullGroupLogic.tmpl.html', groupPrimaryLocator: theGroup
 
-  elsif reqPathTidy | startsWith: 'src/'
-
-    if rgc.serverProfileName == 'insiders'
-      assign theAssetLocator = reqPathTidy | remove_first: 'src/'
-      render 'src.tmpl.html', assetLocator: theAssetLocator
-    endif
-
   elsif reqPathTidy | startsWith: 'day/'
 
     assign theDate = reqPathTidy | remove_first: 'day/'
@@ -134,7 +127,15 @@
 
   else
 
-    render 'directAsset.tmpl.html', pageNum: pageNum, pageSize: pageSize
+    assign theAssetLocatorWithoutPrefix = reqPathTidy
+    if rgc.serverProfileName == 'insiders'
+      if reqPathTidy | startsWith: 'src/'
+        assign theAssetLocatorWithoutPrefix = reqPathTidy | remove_first: 'src/'
+        x true | rgcSet: 'isSrc'
+      endif
+    endif
+
+    render 'directAsset.tmpl.html', pageNum: pageNum, pageSize: pageSize, assetLocatorWithoutPrefix: theAssetLocatorWithoutPrefix
 
   endif
 

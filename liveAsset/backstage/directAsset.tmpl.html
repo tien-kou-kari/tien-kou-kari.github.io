@@ -1,15 +1,15 @@
 
 {%- liquid
 
-if reqPathTidy == ''
+if assetLocatorWithoutPrefix == ''
   x 'Home' | rgcSet: "pageTitlePart"
 endif
 
-assign asset = reqPathTidy | fetchLocatableContent: shouldThrowIfNotFound: true
+assign asset = assetLocatorWithoutPrefix | fetchLocatableContent: shouldThrowIfNotFound: true
 
 if c.isNotLocatableContent or asset == undefined
 
-  x reqPathTidy | rgcSet: "respGenericLocatableAssetSubPath"
+  x assetLocatorWithoutPrefix | rgcSet: "respGenericLocatableAssetSubPath"
 
 elsif isLocatableContentNotFound
 
