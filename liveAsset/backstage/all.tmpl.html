@@ -6,7 +6,7 @@ endunless
 
 if pageSize > 100 and rgc.serverProfileName != 'insiders'
   assign pageSize = 100
-endunless
+endif
 
 unless pageNum != undefined and pageNum >= 0
   assign pageNum = 0
