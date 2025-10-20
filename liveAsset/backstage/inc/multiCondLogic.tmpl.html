@@ -71,6 +71,12 @@ if pageSize == 0 or pageSize == undefined or pageSize == null
   assign pageSize = 300
 endif
 
+if pageSize > 100 and rgc.serverProfileName != 'insiders'
+  assign pageSize = 100
+endif
+
+# assign list = '' | listAssetDescendants: false, 'condTimeDesc', pageNum, pageSize
+
 assign extraColumnSqlSegmentArgs = undefined | newArr
 assign currSqlArgs = undefined | newArr
 
@@ -96,7 +102,7 @@ elsif periodType == 'everyYear'
   endif
 else
   assign extraColumnSqlSegment = ", 0 AS datetime_slot, FALSE AS is_now_slot"
-  if pageSize > itemSizeLimit
+  if pageSize > itemSizeLimit and itemSizeLimit != -1
     assign pageSize = itemSizeLimit
     assign pageNum = 0
   endif
