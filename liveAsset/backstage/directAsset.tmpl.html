@@ -17,6 +17,12 @@ elsif isLocatableContentNotFound
 
   echo 'Not Found'
 
+elsif c.isSrc
+
+  echo '<pre>'
+  echo asset | inspect
+  echo '</pre>'
+
 elsif c.isLocatableContentDirectory or c.isLocatableContentHasDerivedChildren
 
   render 'directParentAsset.tmpl.html', asset: asset, pageNum: pageNum, pageSize: pageSize
