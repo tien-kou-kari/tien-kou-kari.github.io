@@ -4,7 +4,7 @@ unless pageSize != undefined and pageSize > 0
   assign pageSize = 100
 endunless
 
-unless pageSize < 100 or rgc.serverProfileName == 'insiders'
+if pageSize > 100 and rgc.serverProfileName != 'insiders'
   assign pageSize = 100
 endunless
 
