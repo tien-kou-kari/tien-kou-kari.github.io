@@ -1,19 +1,5 @@
 {%- liquid
 
-unless pageSize != undefined and pageSize > 0
-  assign pageSize = 100
-endunless
-
-if pageSize > 100 and rgc.serverProfileName != 'insiders'
-  assign pageSize = 100
-endif
-
-unless pageNum != undefined and pageNum >= 0
-  assign pageNum = 0
-endunless
-
-# assign list = '' | listAssetDescendants: false, 'condTimeDesc', pageNum, pageSize
-
 assign resultWrapper = undefined | newObj
 
 render 'inc/multiCondLogic.tmpl.html', reqQuery: reqQuery, periodType: 'loose', periodDateParam: undefined, periodNumParam: undefined, itemSizeLimit: 50, resultWrapper: resultWrapper
