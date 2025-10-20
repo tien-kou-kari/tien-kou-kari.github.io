@@ -19,8 +19,8 @@ elsif isLocatableContentNotFound
 
 elsif c.isSrc
 
-  echo '<pre>'
-  echo asset | inspect
+  echo '<pre style="white-space: pre-wrap;">'
+  echo asset | inspect: 2
   echo '</pre>'
 
 elsif c.isLocatableContentDirectory or c.isLocatableContentHasDerivedChildren
