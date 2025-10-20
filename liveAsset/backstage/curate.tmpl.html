@@ -79,6 +79,13 @@
     assign theGroup = reqPathTidy | remove_first: 'group/'
     render 'inc/fullGroupLogic.tmpl.html', groupPrimaryLocator: theGroup
 
+  elsif reqPathTidy | startsWith: 'src/'
+
+    if rgc.serverProfileName == 'insiders'
+      assign theAssetLocator = reqPathTidy | remove_first: 'src/'
+      render 'src.tmpl.html', assetLocator: theAssetLocator
+    endif
+
   elsif reqPathTidy | startsWith: 'day/'
 
     assign theDate = reqPathTidy | remove_first: 'day/'
