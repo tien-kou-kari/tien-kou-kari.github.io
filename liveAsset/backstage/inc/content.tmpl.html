@@ -12,7 +12,7 @@
 {%- assign isMarkdown = asset.origin_file_path | isEndWithExtension: rgc.markdownExtNames %}
 
 {%- if isMarkdown %}
-  {%- if rgc.currPageFocusedAssetLocator == asset.asset_locator %}
+  {%- if rgc.currPageFocusedAssetLocator == asset.asset_locator and not rgc.isRss %}
     <details style="margin-bottom: 0.4rem" lang="en">
       <summary>...
       {%- if asset.metadata.tidbits.size > 0 and asset.metadata.tidbits -%}
