@@ -27,6 +27,9 @@
       {%- if asset.publish_time_by_metadata %}
         <div class="tidbit-pair"><div class="tidbit-key">PublishTime</div><div class="tidbit-value white-space-preserve">{{ asset.publish_time_by_metadata | divided_by: 1000 | date: "%Y-%m-%d %H:%M:%S UTC+8", -480 }}</div></div>
       {%- endif %}
+      {%- if rgc.serverProfileName == 'insiders' %}
+        <div class="tidbit-pair"><div class="tidbit-key">Source</div><div class="tidbit-value"><a href="/src{{ asset.web_url_path }}" target="_blank">/src{{ asset.web_url_path_unencoded }}</a></div></div>
+      {%- endif %}
       <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">{{ asset.update_time_by_hoard }}</div></div>
       {%- if asset.metadata.tidbits %}
         {%- for tp in asset.metadata.tidbits %}
