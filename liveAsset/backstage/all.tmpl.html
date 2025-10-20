@@ -2,7 +2,7 @@
 
 assign resultWrapper = undefined | newObj
 
-render 'inc/multiCondLogic.tmpl.html', reqQuery: reqQuery, periodType: 'loose', periodDateParam: undefined, periodNumParam: undefined, itemSizeLimit: 50, resultWrapper: resultWrapper
+render 'inc/multiCondLogic.tmpl.html', reqQuery: reqQuery, periodType: 'loose', periodDateParam: undefined, periodNumParam: undefined, itemSizeLimit: -1, resultWrapper: resultWrapper
 
 x 'Latest Posts' | append: resultWrapper.resultDesc | rgcSet: "pageTitlePart"
 
