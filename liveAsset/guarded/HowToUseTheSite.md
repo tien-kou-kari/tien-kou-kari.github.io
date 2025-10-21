@@ -2,9 +2,6 @@
 publishTime: '2025-09-23 00:52:52'
 ---
 
-(Dynamic+Static) Style Customizer: [/styleCustomizer](/styleCustomizer)
-
-(Dynamic+Partially Static) All posts (first 20): [/all?pageSize=20](/all?pageSize=20)
 
 (Dynamic+Partially Static) Posts filter: [/filter?tags=tk%E6%BC%94%E8%BF%9B&ancestors2=TheDesk/&groups3=zxf-struggled](/filter?tags=tk%E6%BC%94%E8%BF%9B&ancestors2=TheDesk/&groups3=zxf-struggled)
 
@@ -14,7 +11,13 @@ publishTime: '2025-09-23 00:52:52'
 
 (Dynamic) Pagination: [/day/2025-09-21?pageSize=3&pageNum=0](/day/2025-09-21?pageSize=3&pageNum=0)
 
+(Dynamic+Partially Static) TheNoise: [/TheNoise](/TheNoise)
+
+(Dynamic+Partially Static) All posts (first 20): [/all?pageSize=20](/all?pageSize=20)
+
 (Dynamic+Static) Slug: [/sl/solidot-sugar-mango](/sl/solidot-sugar-mango)
+
+(Dynamic+Static) Style Customizer: [/styleCustomizer](/styleCustomizer)
 
 (Dynamic) RSS: [/rss?periodType=loose&spec=flow](/rss?periodType=loose&spec=flow)
 
