@@ -92,6 +92,11 @@ div.principal-content {
   /*margin-top: 0.5rem;*/
 }
 
+div.one-in-seq-wrapper {
+  margin-inline-start: 0.4rem;
+  max-width: 96%;
+  max-width: max(96%, 100% - 1rem);
+}
 
 /**/
 
@@ -232,6 +237,11 @@ a.md-attach {
   display: inline;
 }
 
+hr.sep-in-seq {
+  margin-block-start: 0.75rem;
+  margin-block-end: 0.75rem;
+}
+
 
 
   </style>
@@ -262,7 +272,7 @@ a.md-attach {
     return document.getElementById(id);
   }
 
-  var tkDefaultStyle = "\n\nhtml {\n  color-scheme: light dark;\n}\n\nimg,\nsvg,\nvideo {\n  max-width: 100%;\n  display: block;\n}\n\nbody {\n  font-family: System UI;\n  font-size: 0.75rem;\n}\n\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\np {\n  margin-block-start: 0.4rem;\n  margin-block-end: 0.4rem;\n}\n\n.white-space-preserve {\n  white-space-collapse: preserve;\n}\n\ndiv.principal-content {\n  /*margin-top: 0.5rem;*/\n}\n\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-involvement-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-websummary-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntd.group-ref-primary.group-ref-scroll .principal-content {\n  max-height: 20rem;\n  overflow-y: scroll;\n}\n\nh1, h2, h3 {\n  color: #2c3e50;\n  border-bottom: 1px solid #eee;\n  padding-bottom: 5px;\n}\n\n.tg-img, .tg-video {\n  max-width: 20rem;\n  max-height: 40rem;\n}\n\na.tag-link {\n\n}\n\n.tag-wrapper {\n  margin-right: 0.6rem;\n}\n\n\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n.tidbit-value.white-space-preserve {\n  white-space: pre-wrap;\n  font-family: monospace;\n}\n\n.tidbit-value {\n}\n\n.tidbit-key {\n  font-weight: bold;\n  flex-shrink: 1;\n  margin-inline-end: 0.6rem;\n  min-width: 7.6rem;\n}\n\n.tidbit-key::after {\n  content: ': ';\n}\n\n.tidbit-pair {\n  display: flex;\n}\n\nblockquote {\n  margin: 0.1rem 0;\n  padding: 0.1rem 0.2rem 0.1rem 0.8rem;\n  background-color: #fafafa;\n\n  border: 1px solid #6e6e6e;\n  border-left: 5px solid #6e6e6e;\n}\n\na.md-attach {\n  display: block;\n  width: fit-content;\n}\n\n.md-attach img {\n  display: inline;\n}\n\n"
+  var tkDefaultStyle = "\n\nhtml {\n  color-scheme: light dark;\n}\n\nimg,\nsvg,\nvideo {\n  max-width: 100%;\n  display: block;\n}\n\nbody {\n  font-family: System UI;\n  font-size: 0.75rem;\n}\n\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\np {\n  margin-block-start: 0.4rem;\n  margin-block-end: 0.4rem;\n}\n\n.white-space-preserve {\n  white-space-collapse: preserve;\n}\n\ndiv.principal-content {\n  /*margin-top: 0.5rem;*/\n}\n\ndiv.one-in-seq-wrapper {\n  margin-inline-start: 0.4rem;\n  max-width: 96%;\n  max-width: max(96%, 100% - 1rem);\n}\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-involvement-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-websummary-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntd.group-ref-primary.group-ref-scroll .principal-content {\n  max-height: 20rem;\n  overflow-y: scroll;\n}\n\nh1, h2, h3 {\n  color: #2c3e50;\n  border-bottom: 1px solid #eee;\n  padding-bottom: 5px;\n}\n\n.tg-img, .tg-video {\n  max-width: 20rem;\n  max-height: 40rem;\n}\n\na.tag-link {\n\n}\n\n.tag-wrapper {\n  margin-right: 0.6rem;\n}\n\n\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n.tidbit-value.white-space-preserve {\n  white-space: pre-wrap;\n  font-family: monospace;\n}\n\n.tidbit-value {\n}\n\n.tidbit-key {\n  font-weight: bold;\n  flex-shrink: 1;\n  margin-inline-end: 0.6rem;\n  min-width: 7.6rem;\n}\n\n.tidbit-key::after {\n  content: ': ';\n}\n\n.tidbit-pair {\n  display: flex;\n}\n\nblockquote {\n  margin: 0.1rem 0;\n  padding: 0.1rem 0.2rem 0.1rem 0.8rem;\n  background-color: #fafafa;\n\n  border: 1px solid #6e6e6e;\n  border-left: 5px solid #6e6e6e;\n}\n\na.md-attach {\n  display: block;\n  width: fit-content;\n}\n\n.md-attach img {\n  display: inline;\n}\n\nhr.sep-in-seq {\n  margin-block-start: 0.75rem;\n  margin-block-end: 0.75rem;\n}\n\n"
 
   var tkStyleContent = getCookie('tkStyle');
   var tkStyleElement = document.createElement('style');
@@ -319,7 +329,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-20%2001.51.50">2025-10-20 01.51.50</a> <span>2025-10-20 01:51:50 UTC+8</span></div>
 </div>
 
@@ -415,7 +425,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-20%2000.00.26">2025-10-20 00.00.26</a> <span>2025-10-20 00:00:26 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p><a href="https://www.rich-text-to-markdown.com/" target="_blank">https://www.rich-text-to-markdown.com/</a></p>
@@ -425,7 +435,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-19%2022.41.33">2025-10-19 22.41.33</a> <span>2025-10-19 22:41:33 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>浏览器里给了一句<code>font-family: monospace</code>，结果它的字体还和当前节点所属的lang有关？是中文直接变宋体，忽略浏览器设置？？</p>
@@ -435,7 +445,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-19%2011.30.53">2025-10-19 11.30.53</a> <span>2025-10-19 11:30:53 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>Why the open social web matters now - <a href="https://werd.io/why-the-open-social-web-matters-now/" target="_blank">https://werd.io/why-the-open-social-web-matters-now/</a></p>
@@ -447,7 +457,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-18%2019.08.07">2025-10-18 19.08.07</a> <span>2025-10-18 19:08:07 UTC+8</span> <a target="_blank" href="/SlipBox/2025-10-18%2019.08.07" title="Go to detail page for more information.">*</a></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><blockquote>
@@ -469,7 +479,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-18%2013.52.48">2025-10-18 13.52.48</a> <span>2025-10-18 13:52:48 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>The pivot 枢纽 - <a href="https://www.antipope.org/charlie/blog-static/2025/10/the-pivot-1.html" target="_blank">https://www.antipope.org/charlie/blog-static/2025/10/the-pivot-1.html</a></p>
@@ -481,7 +491,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-17%2020.48.45">2025-10-17 20.48.45</a> <span>2025-10-17 20:48:45 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>很有戏剧性的黑客/工程师阴谋剧情</p>
@@ -493,7 +503,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-15%2001.43.03">2025-10-15 01.43.03</a> <span>2025-10-15 01:43:03 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>America's future could hinge on whether AI slightly disappoints - <a href="https://www.noahpinion.blog/p/americas-future-could-hinge-on-whether" target="_blank">https://www.noahpinion.blog/p/americas-future-could-hinge-on-whether</a></p>
@@ -507,7 +517,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-14%2001.04.53">2025-10-14 01.04.53</a> <span>2025-10-14 01:04:53 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>Nostr and ATProto (2024) Nostr 和 ATProto (2024) - <a href="https://shreyanjain.net/2024/07/05/nostr-and-atproto.html" target="_blank">https://shreyanjain.net/2024/07/05/nostr-and-atproto.html</a></p>
@@ -519,7 +529,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-13%2020.53.32">2025-10-13 20.53.32</a> <span>2025-10-13 20:53:32 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>Nostr and ATProto (2024) Nostr 和 ATProto (2024) - <a href="https://shreyanjain.net/2024/07/05/nostr-and-atproto.html" target="_blank">https://shreyanjain.net/2024/07/05/nostr-and-atproto.html</a></p>
@@ -529,7 +539,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-13%2018.16.27">2025-10-13 18.16.27</a> <span>2025-10-13 18:16:27 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p><a href="/hive/Blabber/NamingThings" target="_blank">/hive/Blabber/NamingThings</a></p>
@@ -539,7 +549,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-13%2002.09.38">2025-10-13 02.09.38</a> <span>2025-10-13 02:09:38 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
@@ -554,7 +564,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-07%2021.49.49">2025-10-07 21.49.49</a> <span>2025-10-07 21:49:49 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
@@ -567,7 +577,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-07%2001.06.36">2025-10-07 01.06.36</a> <span>2025-10-07 01:06:36 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
@@ -580,7 +590,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-05%2014.13.43">2025-10-05 14.13.43</a> <span>2025-10-05 14:13:43 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p><a href="https://lab.skk.moe/traffic-consumer" target="_blank">https://lab.skk.moe/traffic-consumer</a></p>
@@ -591,7 +601,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-05%2012.41.26">2025-10-05 12.41.26</a> <span>2025-10-05 12:41:26 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
@@ -600,7 +610,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-05%2001.00.31">2025-10-05 01.00.31</a> <span>2025-10-05 01:00:31 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>达到一定长度（70左右）会触发这个bug</p>
@@ -610,7 +620,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-05%2000.58.30">2025-10-05 00.58.30</a> <span>2025-10-05 00:58:30 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>又试了一试，感觉是总路径名太长才会触发这个bug…</p>
@@ -620,7 +630,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-05%2000.39.29">2025-10-05 00.39.29</a> <span>2025-10-05 00:39:29 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>接上条：乐，查了下Firefox根本不支持window.showDirectoryPicker API。还得靠同行衬托</p>
@@ -630,7 +640,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-04%2023.25.27">2025-10-04 23.25.27</a> <span>2025-10-04 23:25:27 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>看起来Chromium on Android/ChromeOS对于“让用户选择一个本地目录，然后对里面的某个具体文件进行取writable然后写入”这个用例目前还是不通的，至少Chrome 140.0.7339.207现在是这样…</p>
@@ -640,7 +650,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-04%2016.32.58">2025-10-04 16.32.58</a> <span>2025-10-04 16:32:58 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>接上条。</p>
@@ -654,7 +664,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-04%2016.10.07">2025-10-04 16.10.07</a> <span>2025-10-04 16:10:07 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>船长的资料室 - 将一般Windows操作系统迁移到VHDX中并切换为WindowsToGo启动
@@ -679,7 +689,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-03%2012.22.55">2025-10-03 12.22.55</a> <span>2025-10-03 12:22:55 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>品味这一块</p>
@@ -689,7 +699,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-03%2012.22.31">2025-10-03 12.22.31</a> <span>2025-10-03 12:22:31 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>哎唷我草瓜熟迪落拉也听きとずぼ</p>
@@ -699,7 +709,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-03%2001.37.51">2025-10-03 01.37.51</a> <span>2025-10-03 01:37:51 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
@@ -712,7 +722,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-03%2001.36.02">2025-10-03 01.36.02</a> <span>2025-10-03 01:36:02 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>啊啊啊</p>
@@ -722,7 +732,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-03%2001.26.22">2025-10-03 01.26.22</a> <span>2025-10-03 01:26:22 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>Lovely red panda 5</p>
@@ -734,7 +744,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-03%2001.25.46">2025-10-03 01.25.46</a> <span>2025-10-03 01:25:46 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>Lovely red panda 4</p>
@@ -746,7 +756,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-01%2001.08.12">2025-10-01 01.08.12</a> <span>2025-10-01 01:08:12 UTC+8</span></div>
 </div>
 
@@ -809,7 +819,7 @@ a.md-attach {
           </tr>
 
       </table>
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-27%2022.43.32">2025-09-27 22.43.32</a> <span>2025-09-27 22:43:32 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p><a  target="_blank" href="/tag/tk%E6%BC%94%E8%BF%9B" class="tag">#tk演进</a> frontMatter内直接写时间的问题</p>
@@ -821,7 +831,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-26%2001.09.03">2025-09-26 01.09.03</a> <span>2025-09-26 01:09:03 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>所以说到Context，将JavaScript的AsyncLocalStorage类似概念（其他语言是否也有？Structured Concurrency是不是关于这个的？）用在Context的传递上变成语言的内禀功能，默认（或以一个尽量方便的标记opt-in）函数都需要用到context对象，需要取其中的内容时有语法糖支持使其尽可能方便，是否可行？</p>
@@ -831,7 +841,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-26%2000.41.17">2025-09-26 00.41.17</a> <span>2025-09-26 00:41:17 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p><a href="https://wiki.c2.com/?ClassesAreContext" target="_blank">https://wiki.c2.com/?ClassesAreContext</a></p>
@@ -842,7 +852,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-22%2000.43.05">2025-09-22 00.43.05</a> <span>2025-09-22 00:43:05 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
@@ -855,7 +865,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-21%2001.02.10">2025-09-21 01.02.10</a> <span>2025-09-21 01:02:10 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">
@@ -868,7 +878,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-19%2021.37.55">2025-09-19 21.37.55</a> <span>2025-09-19 21:37:55 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>艹，太傻逼了，Windows 10有些窗口（比如services.msc）在最大化后习惯性鼠标甩到最右上角的位置点击竟然不是对应本窗口的关闭按钮，而是穿透到下一层窗口，比如把下一层的Chrome关掉了</p>
@@ -878,7 +888,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/>
+<hr class="sep-in-seq">
       <table class="group-layout">
           <tr class="group-layout group-thread-brief">
             <td colspan="2" class="group-layout group-thread-brief">
@@ -958,7 +968,7 @@ a.md-attach {
 
 
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-18%2001.02.57">2025-09-18 01.02.57</a> <span>2025-09-18 01:02:57 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN"><p>AI用于完全琐碎/非创意领域的道德性？</p>
@@ -971,7 +981,7 @@ a.md-attach {
 </div>
 </div>
 
-<hr/><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-15%2001.43.43">2025-09-15 01.43.43</a> <span>2025-09-15 01:43:43 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-CN">

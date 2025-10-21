@@ -92,6 +92,11 @@ div.principal-content {
   /*margin-top: 0.5rem;*/
 }
 
+div.one-in-seq-wrapper {
+  margin-inline-start: 0.4rem;
+  max-width: 96%;
+  max-width: max(96%, 100% - 1rem);
+}
 
 /**/
 
@@ -232,6 +237,11 @@ a.md-attach {
   display: inline;
 }
 
+hr.sep-in-seq {
+  margin-block-start: 0.75rem;
+  margin-block-end: 0.75rem;
+}
+
 
 
   </style>
@@ -262,7 +272,7 @@ a.md-attach {
     return document.getElementById(id);
   }
 
-  var tkDefaultStyle = "\n\nhtml {\n  color-scheme: light dark;\n}\n\nimg,\nsvg,\nvideo {\n  max-width: 100%;\n  display: block;\n}\n\nbody {\n  font-family: System UI;\n  font-size: 0.75rem;\n}\n\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\np {\n  margin-block-start: 0.4rem;\n  margin-block-end: 0.4rem;\n}\n\n.white-space-preserve {\n  white-space-collapse: preserve;\n}\n\ndiv.principal-content {\n  /*margin-top: 0.5rem;*/\n}\n\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-involvement-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-websummary-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntd.group-ref-primary.group-ref-scroll .principal-content {\n  max-height: 20rem;\n  overflow-y: scroll;\n}\n\nh1, h2, h3 {\n  color: #2c3e50;\n  border-bottom: 1px solid #eee;\n  padding-bottom: 5px;\n}\n\n.tg-img, .tg-video {\n  max-width: 20rem;\n  max-height: 40rem;\n}\n\na.tag-link {\n\n}\n\n.tag-wrapper {\n  margin-right: 0.6rem;\n}\n\n\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n.tidbit-value.white-space-preserve {\n  white-space: pre-wrap;\n  font-family: monospace;\n}\n\n.tidbit-value {\n}\n\n.tidbit-key {\n  font-weight: bold;\n  flex-shrink: 1;\n  margin-inline-end: 0.6rem;\n  min-width: 7.6rem;\n}\n\n.tidbit-key::after {\n  content: ': ';\n}\n\n.tidbit-pair {\n  display: flex;\n}\n\nblockquote {\n  margin: 0.1rem 0;\n  padding: 0.1rem 0.2rem 0.1rem 0.8rem;\n  background-color: #fafafa;\n\n  border: 1px solid #6e6e6e;\n  border-left: 5px solid #6e6e6e;\n}\n\na.md-attach {\n  display: block;\n  width: fit-content;\n}\n\n.md-attach img {\n  display: inline;\n}\n\n"
+  var tkDefaultStyle = "\n\nhtml {\n  color-scheme: light dark;\n}\n\nimg,\nsvg,\nvideo {\n  max-width: 100%;\n  display: block;\n}\n\nbody {\n  font-family: System UI;\n  font-size: 0.75rem;\n}\n\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\np {\n  margin-block-start: 0.4rem;\n  margin-block-end: 0.4rem;\n}\n\n.white-space-preserve {\n  white-space-collapse: preserve;\n}\n\ndiv.principal-content {\n  /*margin-top: 0.5rem;*/\n}\n\ndiv.one-in-seq-wrapper {\n  margin-inline-start: 0.4rem;\n  max-width: 96%;\n  max-width: max(96%, 100% - 1rem);\n}\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-involvement-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-websummary-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntd.group-ref-primary.group-ref-scroll .principal-content {\n  max-height: 20rem;\n  overflow-y: scroll;\n}\n\nh1, h2, h3 {\n  color: #2c3e50;\n  border-bottom: 1px solid #eee;\n  padding-bottom: 5px;\n}\n\n.tg-img, .tg-video {\n  max-width: 20rem;\n  max-height: 40rem;\n}\n\na.tag-link {\n\n}\n\n.tag-wrapper {\n  margin-right: 0.6rem;\n}\n\n\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n.tidbit-value.white-space-preserve {\n  white-space: pre-wrap;\n  font-family: monospace;\n}\n\n.tidbit-value {\n}\n\n.tidbit-key {\n  font-weight: bold;\n  flex-shrink: 1;\n  margin-inline-end: 0.6rem;\n  min-width: 7.6rem;\n}\n\n.tidbit-key::after {\n  content: ': ';\n}\n\n.tidbit-pair {\n  display: flex;\n}\n\nblockquote {\n  margin: 0.1rem 0;\n  padding: 0.1rem 0.2rem 0.1rem 0.8rem;\n  background-color: #fafafa;\n\n  border: 1px solid #6e6e6e;\n  border-left: 5px solid #6e6e6e;\n}\n\na.md-attach {\n  display: block;\n  width: fit-content;\n}\n\n.md-attach img {\n  display: inline;\n}\n\nhr.sep-in-seq {\n  margin-block-start: 0.75rem;\n  margin-block-end: 0.75rem;\n}\n\n"
 
   var tkStyleContent = getCookie('tkStyle');
   var tkStyleElement = document.createElement('style');
@@ -304,14 +314,18 @@ a.md-attach {
       </div></div>
       <div class="tidbit-pair"><div class="tidbit-key">Locator</div><div class="tidbit-value white-space-preserve">guarded/HowToUseTheSite</div></div>
         <div class="tidbit-pair"><div class="tidbit-key">PublishTime</div><div class="tidbit-value white-space-preserve">2025-09-23 00:52:52 UTC+8</div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1760894787980</div></div>
-    </details><p>(Dynamic+Static) Style Customizer: <a href="/styleCustomizer" target="_blank">/styleCustomizer</a></p>
-<p>(Dynamic+Partially Static) All posts (first 20): <a href="/all?pageSize=20" target="_blank">/all?pageSize=20</a></p>
-<p>(Dynamic+Partially Static) Posts filter: <a href="/filter?tags=tk%E6%BC%94%E8%BF%9B&amp;ancestors2=TheDesk/&amp;groups3=zxf-struggled" target="_blank">/filter?tags=tk%E6%BC%94%E8%BF%9B&amp;ancestors2=TheDesk/&amp;groups3=zxf-struggled</a></p>
+      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1761058087070</div></div>
+    </details><h3>Posts View</h3>
 <p>(Dynamic) Today's posts: <a href="/today" target="_blank">/today</a></p>
 <p>(Dynamic) Posts of a specific day: <a href="/day/2025-09-21" target="_blank">/day/2025-09-21</a></p>
 <p>(Dynamic) Pagination: <a href="/day/2025-09-21?pageSize=3&amp;pageNum=0" target="_blank">/day/2025-09-21?pageSize=3&amp;pageNum=0</a></p>
+<p>(Dynamic+Partially Static) Posts filter: <a href="/filter?tags=tk%E6%BC%94%E8%BF%9B&amp;ancestors2=TheDesk/&amp;groups3=zxf-struggled" target="_blank">/filter?tags=tk%E6%BC%94%E8%BF%9B&amp;ancestors2=TheDesk/&amp;groups3=zxf-struggled</a></p>
+<p>(Dynamic+Partially Static) TheNoise: <a href="/TheNoise" target="_blank">/TheNoise</a></p>
+<p>(Dynamic+Partially Static) All posts (first 20): <a href="/all?pageSize=20" target="_blank">/all?pageSize=20</a></p>
 <p>(Dynamic+Static) Slug: <a href="/sl/solidot-sugar-mango" target="_blank">/sl/solidot-sugar-mango</a></p>
+<h3>Style</h3>
+<p>(Dynamic+Static) Style Customizer: <a href="/styleCustomizer" target="_blank">/styleCustomizer</a></p>
+<h3>RSS</h3>
 <p>(Dynamic) RSS: <a href="/rss?periodType=loose&amp;spec=flow" target="_blank">/rss?periodType=loose&amp;spec=flow</a></p>
 <p>(Dynamic) RSS Daily: <a href="/rss?feedTitle=Tien-kou%20Daily&amp;periodType=fixedMinutes&amp;periodNumParam=1440&amp;periodDateParam=2000-01-01T06:30:00%2B08:00&amp;spec=flow" target="_blank">/rss?feedTitle=Tien-kou%20Daily&amp;periodType=fixedMinutes&amp;periodNumParam=1440&amp;periodDateParam=2000-01-01T06:30:00%2B08:00&amp;spec=flow</a></p>
 <p>(Post filters apply.)</p>
@@ -326,13 +340,15 @@ a.md-attach {
 <li><a href="/misc/fixedRss/weeklyRss.xml" target="_blank">/misc/fixedRss/weeklyRss.xml</a></li>
 <li><a href="/misc/fixedRss/monthlyRss.xml" target="_blank">/misc/fixedRss/monthlyRss.xml</a></li>
 </ul>
+<h3>Deployment</h3>
 <p>This site is available at:</p>
 <ul>
 <li><a href="https://tien-kou.fly.dev/" target="_blank">https://tien-kou.fly.dev/</a> (Node.JS, Cloud Database, Dynamic)</li>
 <li><a href="https://tien-kou.shunf4.workers.dev/" target="_blank">https://tien-kou.shunf4.workers.dev/</a> (Cloudflare Workers, Cloud Database, Dynamic, May hit resource limit)</li>
-<li>(An internal address) (Node.JS, Local Database, Dynamic)</li>
+<li>(An internal address) (Node.JS, Local Database, Dynamic, Insiders version)</li>
 <li><a href="https://tien-kou-kari.github.io/" target="_blank">https://tien-kou-kari.github.io/</a> (Static, Less Frequently Updated)</li>
 </ul>
+<h3>Source Code</h3>
 <p>The site's source code:</p>
 <ul>
 <li><a href="https://github.com/tien-kou-kari/tien-kou-kari.github.io" target="_blank">https://github.com/tien-kou-kari/tien-kou-kari.github.io</a> (tk_asset_main branch, Site-specific templates, contents and configurations)</li>

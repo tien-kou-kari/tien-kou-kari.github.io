@@ -6,10 +6,69 @@
     <atom:link href="http://pseudo-tien-kou-app.home.arpa/rss?periodType=loose&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
-        <title>Tien-kou - 2025-10-20 17.11.06</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-10-20/2025-10-20%2017.11.06</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-10-20/2025-10-20 17.11.06</guid>
-        <pubDate>Mon, 20 Oct 2025 17:11:06 +0800</pubDate>
+        <title>Tien-kou - MegaPost：TheEstablished</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//TheDesk/MegaPost%EF%BC%9ATheEstablished</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/TheDesk/MegaPost：TheEstablished</guid>
+        <pubDate>Tue, 21 Oct 2025 23:58:38 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p>TBA</p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2025-10-21 22.26.40</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-10-21/2025-10-21%2022.26.40</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-10-21/2025-10-21 22.26.40</guid>
+        <pubDate>Tue, 21 Oct 2025 22:26:40 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-CN"><p>提供大量信息的一个观察</p>
+<p>via <a href="https://t.me/gaojiriji/6404" target="_blank">https://t.me/gaojiriji/6404</a></p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/justpaper81663" title="Telegram PeerChannel handle: justpaper81663" data-title="tg:justpaper81663">Just Paper‘s Channel</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">Apple Music中文歌词显示乱码或者闪退问题的盲猜根源是26系统（不包括macOS 26） 的歌词部分源码变动及历史遗留bug（主唱歌词和和声歌词时间轴重复重叠 <a href="http://bilibili.com/BV1nUWtzoE65">source）与简繁体中文的转换</a> 在中文歌（包含国语 粤语 闽南语等）且外区Apple Music会有简体和繁体中文两套歌词根据系统语言切换，国区只显示简体中文的歌词，由于版权方提供的歌词的时间轴出现的与iOS26的兼容问题会导致国区的孤勇者闪退，但外区涉及到简繁的切换会乱码直接绕开了这个问题就不会闪退。对于Android设备的Apple Music，虽然有简繁体中文混杂，但并没有多余括号歌词和和声歌词重叠导致发生闪退。
+
+苹果在26系统对Apple Music的歌词动了场大手术（不包括macOS 26） 除了增加了发音和翻译，歌词时间轴显示也做了相应的调整 比如在NewJeans的OMG里的They keep on asking “who is he”的和声是在主唱前面的新版本的Apple Music比较符合歌曲本身的时间轴，而在iOS18或早期版本，无论时间轴如何设置，和声歌词一定放在主场歌词的下面。
+
+据传在WWDC25之前苹果就要求唱片公司提供歌词翻译，我估计是只有欧美和韩国公司比较积极所以就只支持英语至中文 (简体)、英语至日语、韩语至中文 (简体)、韩语至英语、韩语至日语，西班牙语至英语。所以欧美歌翻译质量比较直白，kpop歌只翻译韩语部分不翻译英语部分（韩团YouTube官方频道的mv中文歌词就是这样）。到后续苹果不仅会为没有翻译的歌（热度到位的前提下）才用AI翻译+人工校准，对于之前翻译不好的歌会重制翻译（比如 SEVENTEEN的孙悟空这首歌里，마치된것같아 손오공 这句原来翻译是：仿佛化身为孙悟空，而苹果最近更新的翻译是：恍若已成就 齐天大圣）
+ 
+其实唱片公司并没有问题因为提供的歌词及时间轴是没问题的，甚至Apple Music负责歌词的项目组也没问题，本意推出这个功能也是为了优化Apple Music Sing。而问题出在软件团队的远古历史原因留下的烂摊子，但至少在以前的系统版本不会出现闪退问题，苹果软件生态的口碑逐渐败坏，或许AI领域的落后，对汽车行业优柔寡断不一定是苹果的凶手，但软件一定是死杀死苹果的凶手。</div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5168277737083439940.png" title="Telegram media id 5168277737083439940" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2025-10-21 22.20.35</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-10-21/2025-10-21%2022.20.35</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-10-21/2025-10-21 22.20.35</guid>
+        <pubDate>Tue, 21 Oct 2025 22:20:35 +0800</pubDate>
         <description><![CDATA[
 
 
@@ -23,14 +82,107 @@
 </div>
 
     </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/haruhi_collections" title="Telegram PeerChannel handle: haruhi_collections" data-title="tg:haruhi_collections">Haruhi的技术收藏</a> (<span class="tg-author">Haruhi</span>)
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a> (<span class="tg-author">дамир ✿</span>)
 
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://www.uber.com/en-HK/blog/postgres-to-mysql-migration/">https://www.uber.com/en-HK/blog/postgres-to-mysql-migration/</a></div>
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5456528149253847542.png" title="Telegram media id 5456528149253847542" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2025-10-21 20.01.52</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-10-21/2025-10-21%2020.01.52</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-10-21/2025-10-21 20.01.52</guid>
+        <pubDate>Tue, 21 Oct 2025 20:01:52 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-CN">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/manjusakah" title="Telegram PeerChannel handle: manjusakah" data-title="tg:manjusakah">Manjusaka 的碎碎念（以及摇曳露营 S4 制作确定！）</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">简单复盘一下 AWS 这次事件作为一个 AIGC Startup SRE 的一些操作吧，希望能帮到大家
+从入职开始发现我们主要的集群在 USE1 之后，我就开始做一些准备了。
+我主要做的事情有这几件事
+1. 将我们核心的几个数据库做了多地的备份，形成了 USE1，Tokyo，SG 三地备份。这样在极端情况下，我们损失一部分数据，但是也能保证服务的继续
+2. 将我们 SG 的测试集群从原本的 EC2 自己简单搭的 K3S，重构为了一个标准的 AWS EKS 集群。这样可以在灾害时刻快速 warmup 一个集群，复用 AWS 已有组件。将 manifest 变更的代价降至最小
+3. 简单梳理了一个 SOP，包含用户公告，DNS 切换，封版等事宜
+
+回到今天，我大概在 AWS 事故发生后的10min，发现了我们容器中有新的 Pod 无法 setup。
+
+在和 AWS 支持确认是 USE1 的问题后，我意识到 ECR 的事件必然关联其余事件，于是我就果断按照我自己规划的 Tier1 等级事件开始处理（对于 SRE 来说，这种事情宁可错，但是不能错过）
+
+T+0 min，我发布了全员公告，开始进入紧急模式。我 setup 了一个全员公开会议。所有人员可以随时加入
+T+2 min，我确认事件如我所预期的一样，在逐渐扩大，我发出了两个指令，1. 全线禁止任何代码合入/提交（主要是避免新创建资源会导致 Pod rotate 进而影响流量），2. 请运营同学准备公告
+T+3 min, 我开始按照 SOP，开始进行数据库在 SG 区域的恢复，并且级联创建诸如 OpenSearch / Redis 等在内的依赖
+T+5 min，我们开始正式的确认上下游依赖的具体问题，确认一个新上线的核心服务受到影响
+T+10min，我们停服公告和其余服务的受影响公告发出
+T+10min，我请另外两位同时协助 setup 新的 ECR 以及清理测试环境已有资源，并同步 CTO ，在极端情况下，我们可能会存在保体验，丢数据的决策。
+T+15min， 我们最终确认目前已创建的资源以及流量入方向不会受到太大影响。切换方案挂起，但是我们继续准备相关资源
+T+30min，我们第一个数据库恢复完毕
+T+40min，我们第二个数据库恢复完毕
+T+1h，我们所有关联的核心 infra，RDS/ES/Redis 都 stand by，并且按照生产架构设置主从等优化选项。同时我们也开始正在新的集群启动新的服务
+所幸，最终 AWS 的 crash 没有影响我们全部服务。我们无须面对切换流量后复杂的数据修复工作
+大概 T+2h 到 T+3h 后，我正式通报全员，紧急状态解除。为保险起见，今晚依旧对 feature 封版。
+
+回顾整个事故，我还可以做的更多
+1.  将我之前为自己准备的极端 case  SOP，对全员公开。这样确保我即便不在线，也有人能接替我
+2. 我们可以做一些提前的预先演练
+3. 指令下达可以更果断一些
+
+差不多就是这样，一点分享，希望能帮到大家</div>
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2025-10-21 19.39.40</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-10-21/2025-10-21%2019.39.40</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-10-21/2025-10-21 19.39.40</guid>
+        <pubDate>Tue, 21 Oct 2025 19:39:40 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-CN">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gaojiriji" title="Telegram PeerChannel handle: gaojiriji" data-title="tg:gaojiriji">搞机日记</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://fxtwitter.com/hoenheimer/status/1980181754146369570">https://fxtwitter.com/hoenheimer/status/1980181754146369570</a></div>
       
         <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
-          <a target="_blank" href="https://www.uber.com/en-HK/blog/postgres-to-mysql-migration/"></a>
-          <h6></h6>
-          <p></p>
+          <a target="_blank" href="https://fxtwitter.com/hoenheimer/status/1980181754146369570">FxTwitter</a>
+          <h6>张张张子恒 (@Hoenheimer)</h6>
+          <p>Only Apple Can Do.</p>
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6031648734321949382.png" title="Telegram wepbage media id 6031648734321949382" alt="A picture related to current telegram webpage message. No more alt detail for now." />
         </div></div></div>
     </div></div>
   </div>
@@ -43,17 +195,29 @@
         ]]></description>
       </item>
       <item>
-        <title>Tien-kou - 2025-10-20 12.37.17</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-10-20%2012.37.17</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-10-20 12.37.17</guid>
-        <pubDate>Mon, 20 Oct 2025 12:37:17 +0800</pubDate>
+        <title>Tien-kou - 2025-10-21 19.33.53</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-10-21/2025-10-21%2019.33.53</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-10-21/2025-10-21 19.33.53</guid>
+        <pubDate>Tue, 21 Oct 2025 19:33:53 +0800</pubDate>
         <description><![CDATA[
 
 
 <div class="sole-content-wrapper">
   <div class="principal-content">
-<div class="lang-wrapper" lang="zh-CN"><p>US Government Uptime Monitor 美国政府正常运行时间监控器 - <a href="https://usa-status.com/" target="_blank">https://usa-status.com/</a></p>
-<p>草</p>
+<div class="lang-wrapper" lang="zh-CN">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/dai_daily" title="Telegram PeerChannel handle: dai_daily" data-title="tg:dai_daily">💈就在这理发店💈</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6321147543168945303.png" title="Telegram media id 6321147543168945303" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
 
 
 </div>
@@ -63,31 +227,15 @@
         ]]></description>
       </item>
       <item>
-        <title>Tien-kou - 2025-10-20 01.51.50</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-10-20%2001.51.50</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-10-20 01.51.50</guid>
-        <pubDate>Mon, 20 Oct 2025 01:51:50 +0800</pubDate>
+        <title>Tien-kou - 2025-10-21 19.28.17</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-10-21/2025-10-21%2019.28.17</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-10-21/2025-10-21 19.28.17</guid>
+        <pubDate>Tue, 21 Oct 2025 19:28:17 +0800</pubDate>
         <description><![CDATA[
-<div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-20%2001.51.50">2025-10-20 01.51.50</a> <span>2025-10-20 01:51:50 UTC+8</span></div>
-</div>
-
-      
-          <div class="group-asset"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-CN"><p>这篇的存档，AI生成的作品。</p>
-<p>可怕的是人的神经结构是否确实允许会如作品中所说的认知方式的根本性改变？</p>
-<p><a href="/miscMedia/SlipBox_6w18xwaj_0_(1)%20Tz%20on%20X%EF%BC%9A%20%EF%BC%82%E3%80%8A%E8%AE%A4%E7%9F%A5%E7%9A%84%E8%BF%9C%E7%82%B9%E3%80%8B_%E4%B8%80_%E6%88%91%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%84%8F%E8%AF%86%E5%88%B0%E8%AF%AD%E8%A8%80%E5%87%BA%E4%BA%86%E9%97%AE%E9%A2%98%EF%BC%8C%E6%98%AF%E5%9C%A8%E7%BB%99%E5%84%BF%E5%AD%90%E6%A3%80%E6%9F%A5%E4%BD%9C%E6%96%87%E7%9A%84%E6%97%B6%E5%80%99%E3%80%82_%E9%82%A3%E6%98%AF%E4%B8%80%E7%AF%87%E5%85%B3%E4%BA%8E%EF%BC%82%E6%97%B6%E9%97%B4%EF%BC%82%E7%9A%84%E5%91%BD%E9%A2%98%E4%BD%9C%E6%96%87%E3%80%82%E4%BB%96%E5%86%99%E9%81%93%EF%BC%9A%E2%80%A6.html" class="md-attach md-attach-file-link" target="_blank">SlipBox_6w18xwaj_0_(1) Tz on X： ＂《认知的远点》_一_我第一次意识到语言出了问题，是在给儿子检查作文的时候。_那是一篇关于＂时间＂的命题作文。他写道：….html</a></p>
 
 
-</div>
-</div>
-</div>
-
-          </div>
-      <div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line">> <a target="_blank" class="secondary" href="/misc/tg/2025-10-19">misc/tg/2025-10-19</a> / <a href="/misc/tg/2025-10-19/2025-10-19%2015.36.28">2025-10-19 15.36.28</a> <span>2025-10-19 15:36:28 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
+<div class="sole-content-wrapper">
+  <div class="principal-content">
 <div class="lang-wrapper" lang="zh-CN">
 
   <div class="tg-wrapper-layout">
@@ -96,223 +244,36 @@
 </div>
 
     </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/ningxueye" title="Telegram PeerChannel handle: ningxueye" data-title="tg:ningxueye">ARCADIA</a>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/reorx_share" title="Telegram PeerChannel handle: reorx_share" data-title="tg:reorx_share">Reorx’s Forge</a>
 
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://fixupx.com/tz_2022/status/1973811468446609746?s=46">https://fixupx.com/tz_2022/status/1973811468446609746?s=46</a></div>
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">教科书般的故障应对，kudos!
+
+<a href="https://t.me/ManjusakaH/578">https://t.me/ManjusakaH/578</a></div>
       
         <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
-          <a target="_blank" href="https://fixupx.com/tz_2022/status/1973811468446609746?s=46">🧵 Thread • FixupX</a>
-          <h6>Tz (@Tz_2022)</h6>
-          <p>《认知的远点》
-
-一
-
-我第一次意识到语言出了问题，是在给儿子检查作文的时候。
-
-那是一篇关于&#34;时间&#34;的命题作文。他写道：&#34;时间不是流动的。是我们的记忆编码方式让我们产生了流动的幻觉。&#34;这个观点本身不算新颖，但接下来的句子让我停顿了：
-
-&#34;当信息密度超过阈值，时间感会坍缩。十五秒可以包含过去需要一小时传递的信息量。这不是时间变慢了，是带宽变宽了。&#34;
-
-我是认知语言学家。我的专业训练让我立刻察觉到：这不是一个十六岁男孩的思维方式。不是说他不够聪明——相反，是这种思维太过高效。他跳过了所有人类认知中必需的&#34;理解阶梯&#34;，直接抵达了结论。
-
-就像一个人学会了瞬移，但忘记了行走的意义。
-
-&#34;你是怎么想到这个的？&#34;我问。
-
-他看着我，眼神里有短暂的困惑——仿佛不理解&#34;怎么想到&#34;这个问题本身。最后他说：&#34;我没有想。我只是知道。&#34;
-
-那是2025年九月。我在笔记本上记录下这次对话，并标注：需要观察。
-
-现在是2026年三月。我的笔记本已经写满了三本。
-
-二
-
-我开始系统地测试儿子的语言能力。
-
-我给他看索绪尔关于&#34;能指&#34;与&#34;所指&#34;的经典论述，问他理解吗。他读了三十秒，说：&#34;这是在描述一个单向映射系统。但现在映射是双向的，而且是动态更新的。&#34;
-
-我愣住了。不是因为他的答案错误——而是因为他用了&#34;映射&#34;和&#34;动态更新&#34;这样的计算机术语来描述语言。对他而言，这些词比&#34;意义&#34;更加精确。
-
-&#34;你还记得第一次学会&#39;苹果&#39;这个词的时候吗？&#34;我换了一个问题。
-
-他想了很久。&#34;记得。你指着一个红色的圆形物体，重复那个声音。我需要很多次才能建立连接。&#34;他顿了顿，&#34;现在我不需要这个过程了。&#34;
-
-&#34;什么意思？&#34;
-
-&#34;现在我看到一个新概念，不需要先把它翻译成语言。我可以直接……存储那个模式。&#34;
-
-我请他举例。他打开手机，给我看一个十秒钟的视频：画面里是三层同时进行的信息流——背景音乐传递情绪基调，视觉特效标注重点，文字碎片提供概念锚点。整个视频没有一个完整的句子，但传递了一个完整的论证：关于注意力经济如何重构社交关系。
-
-&#34;你看懂了吗？&#34;他问。
-
-&#34;需要暂停几次，&#34;我承认。
-
-&#34;妈妈，这就是问题，&#34;他的语气很平静，没有指责，&#34;你需要&#39;暂停&#39;。你需要把信息转换成语言，才能处理。我不需要。&#34;
-
-我问他：那你是用什么处理的？
-
-他想了很久，最后说：&#34;我不知道怎么用语言描述。因为描述本身就需要语言。&#34;
-
-那天晚上，我写下第一个真正让我不安的假设：语言可能不是认知…</p>
-            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5795270196959753470.png" title="Telegram wepbage media id 5795270196959753470" alt="A picture related to current telegram webpage message. No more alt detail for now." />
-        </div></div></div>
-    </div></div>
-  </div>
-
-
-</div>
-</div>
-</div>
-
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2025-10-20 00.00.26</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-10-20%2000.00.26</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-10-20 00.00.26</guid>
-        <pubDate>Mon, 20 Oct 2025 00:00:26 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-CN"><p><a href="https://www.rich-text-to-markdown.com/" target="_blank">https://www.rich-text-to-markdown.com/</a></p>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2025-10-19 22.41.33</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-10-19%2022.41.33</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-10-19 22.41.33</guid>
-        <pubDate>Sun, 19 Oct 2025 22:41:33 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-CN"><p>浏览器里给了一句<code>font-family: monospace</code>，结果它的字体还和当前节点所属的lang有关？是中文直接变宋体，忽略浏览器设置？？</p>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2025-10-19 20.14.16</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-10-19/2025-10-19%2020.14.16</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-10-19/2025-10-19 20.14.16</guid>
-        <pubDate>Sun, 19 Oct 2025 20:14:16 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-CN">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/illusory_world" title="Telegram PeerChannel handle: illusory_world" data-title="tg:illusory_world">不存在的世界</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">关于国家授时中心遭受美国国家安全局网络攻击事件的技术分析报告
-<a href="https://mp.weixin.qq.com/s/XPjT0BVOJPJxSmASW0tXTA">https://mp.weixin.qq.com/s/XPjT0BVOJPJxSmASW0tXTA</a></div>
-    </div></div>
-  </div>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2025-10-19 15.36.28</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-10-19/2025-10-19%2015.36.28</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-10-19/2025-10-19 15.36.28</guid>
-        <pubDate>Sun, 19 Oct 2025 15:36:28 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-CN">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/ningxueye" title="Telegram PeerChannel handle: ningxueye" data-title="tg:ningxueye">ARCADIA</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://fixupx.com/tz_2022/status/1973811468446609746?s=46">https://fixupx.com/tz_2022/status/1973811468446609746?s=46</a></div>
-      
-        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
-          <a target="_blank" href="https://fixupx.com/tz_2022/status/1973811468446609746?s=46">🧵 Thread • FixupX</a>
-          <h6>Tz (@Tz_2022)</h6>
-          <p>《认知的远点》
-
-一
-
-我第一次意识到语言出了问题，是在给儿子检查作文的时候。
-
-那是一篇关于&#34;时间&#34;的命题作文。他写道：&#34;时间不是流动的。是我们的记忆编码方式让我们产生了流动的幻觉。&#34;这个观点本身不算新颖，但接下来的句子让我停顿了：
-
-&#34;当信息密度超过阈值，时间感会坍缩。十五秒可以包含过去需要一小时传递的信息量。这不是时间变慢了，是带宽变宽了。&#34;
-
-我是认知语言学家。我的专业训练让我立刻察觉到：这不是一个十六岁男孩的思维方式。不是说他不够聪明——相反，是这种思维太过高效。他跳过了所有人类认知中必需的&#34;理解阶梯&#34;，直接抵达了结论。
-
-就像一个人学会了瞬移，但忘记了行走的意义。
-
-&#34;你是怎么想到这个的？&#34;我问。
-
-他看着我，眼神里有短暂的困惑——仿佛不理解&#34;怎么想到&#34;这个问题本身。最后他说：&#34;我没有想。我只是知道。&#34;
-
-那是2025年九月。我在笔记本上记录下这次对话，并标注：需要观察。
-
-现在是2026年三月。我的笔记本已经写满了三本。
-
-二
-
-我开始系统地测试儿子的语言能力。
-
-我给他看索绪尔关于&#34;能指&#34;与&#34;所指&#34;的经典论述，问他理解吗。他读了三十秒，说：&#34;这是在描述一个单向映射系统。但现在映射是双向的，而且是动态更新的。&#34;
-
-我愣住了。不是因为他的答案错误——而是因为他用了&#34;映射&#34;和&#34;动态更新&#34;这样的计算机术语来描述语言。对他而言，这些词比&#34;意义&#34;更加精确。
-
-&#34;你还记得第一次学会&#39;苹果&#39;这个词的时候吗？&#34;我换了一个问题。
-
-他想了很久。&#34;记得。你指着一个红色的圆形物体，重复那个声音。我需要很多次才能建立连接。&#34;他顿了顿，&#34;现在我不需要这个过程了。&#34;
-
-&#34;什么意思？&#34;
-
-&#34;现在我看到一个新概念，不需要先把它翻译成语言。我可以直接……存储那个模式。&#34;
-
-我请他举例。他打开手机，给我看一个十秒钟的视频：画面里是三层同时进行的信息流——背景音乐传递情绪基调，视觉特效标注重点，文字碎片提供概念锚点。整个视频没有一个完整的句子，但传递了一个完整的论证：关于注意力经济如何重构社交关系。
-
-&#34;你看懂了吗？&#34;他问。
-
-&#34;需要暂停几次，&#34;我承认。
-
-&#34;妈妈，这就是问题，&#34;他的语气很平静，没有指责，&#34;你需要&#39;暂停&#39;。你需要把信息转换成语言，才能处理。我不需要。&#34;
-
-我问他：那你是用什么处理的？
-
-他想了很久，最后说：&#34;我不知道怎么用语言描述。因为描述本身就需要语言。&#34;
-
-那天晚上，我写下第一个真正让我不安的假设：语言可能不是认知…</p>
-            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5795270196959753470.png" title="Telegram wepbage media id 5795270196959753470" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+          <a target="_blank" href="https://t.me/ManjusakaH/578">Telegram</a>
+          <h6>Manjusaka 的碎碎念（以及摇曳露营 S4 制作确定！）</h6>
+          <p>简单复盘一下 AWS 这次事件作为一个 AIGC Startup SRE 的一些操作吧，希望能帮到大家
+从入职开始发现我们主要的集群在 USE1 之后，我就开始做一些准备了。
+我主要做的事情有这几件事
+1. 将我们核心的几个数据库做了多地的备份，形成了 USE1，Tokyo，SG 三地备份。这样在极端情况下，我们损失一部分数据，但是也能保证服务的继续
+2. 将我们 SG 的测试集群从原本的 EC2 自己简单搭的 K3S，重构为了一个标准的 AWS EKS 集群。这样可以在灾害时刻快速 warmup 一个集群，复用 AWS 已有组件。将 manifest 变更的代价降至最小
+3. 简单梳理了一个 SOP，包含用户公告，DNS 切换，封版等事宜
+
+回到今天，我大概在 AWS 事故发生后的10min，发现了我们容器中有新的 Pod 无法 setup。
+
+在和 AWS 支持确认是 USE1 的问题后，我意识到 ECR 的事件必然关联其余事件，于是我就果断按照我自己规划的 Tier1 等级事件开始处理（对于 SRE 来说，这种事情宁可错，但是不能错过）
+
+T+0 min，我发布了全员公告，开始进入紧急模式。我 setup 了一个全员公开会议。所有人员可以随时加入
+T+2 min，我确认事件如我所预期的一样，在逐渐扩大，我发出了两个指令，1. 全线禁止任何代码合入/提交（主要是避免新创建资源会导致 Pod rotate 进而影响流量），2. 请运营同学准备公告
+T+3 min, 我开始按照 SOP，开始进行数据库在 SG 区域的恢复，并且级联创建诸如 OpenSearch / Redis 等在内的依赖
+T+5 min，我们开始正式的确认上下游依赖的具体问题，确认一个新上线的核心服务受到影响
+T+10min，我们停服公告和其余服务的受影响公告发出
+T+10min，我请另外两位同时协助 setup 新的 ECR 以及清理测试环境已有资源，并同步 CTO ，在极端情况下，我们可能会存在保体验，丢数据的决策。
+T+15min， 我们最终确认目前已创建的资源以及流量入方向不会受到太大影响。切换方案挂起，但是我们继续准备相关资源
+T+30min，我们第一个数据库恢复完毕
+T+40min，我们第二个数据库恢复完毕
+T+1h，我们所有关联的核心 infra，RDS/ES/Redis 都 stand by，并且按照生产架构设置主从等优化选项…</p>
         </div></div></div>
     </div></div>
   </div>
@@ -325,18 +286,37 @@
         ]]></description>
       </item>
       <item>
-        <title>Tien-kou - 2025-10-19 11.30.53</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-10-19%2011.30.53</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-10-19 11.30.53</guid>
-        <pubDate>Sun, 19 Oct 2025 11:30:53 +0800</pubDate>
+        <title>Tien-kou - 2025-10-21 19.25.06</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-10-21/2025-10-21%2019.25.06</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-10-21/2025-10-21 19.25.06</guid>
+        <pubDate>Tue, 21 Oct 2025 19:25:06 +0800</pubDate>
         <description><![CDATA[
 
 
 <div class="sole-content-wrapper">
   <div class="principal-content">
-<div class="lang-wrapper" lang="zh-CN"><p>Why the open social web matters now - <a href="https://werd.io/why-the-open-social-web-matters-now/" target="_blank">https://werd.io/why-the-open-social-web-matters-now/</a></p>
-<p>双语留档</p>
-<p><a href="/miscMedia/SlipBox_q9i8su8w_0_share4044655835246134171.html" class="md-attach md-attach-file-link" target="_blank">SlipBox_q9i8su8w_0_share4044655835246134171.html</a></p>
+<div class="lang-wrapper" lang="zh-CN"><p>草</p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/reorx_share" title="Telegram PeerChannel handle: reorx_share" data-title="tg:reorx_share">Reorx’s Forge</a>
+      <div class="tg-involvement-layout"><div class="tg-involvement-layout"><div  class="tg-involvement-layout tg-involvement-type">
+      <span class="tg-involvement-type">[Re]</span>
+      </div><div class="tg-involvement-layout tg-involvement-body"><a target="_blank" href="https://t.me/suibian_tietie" title="Telegram PeerChannel handle: suibian_tietie" data-title="tg:suibian_tietie">ニヤニヤ的随便贴贴</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">等等 突然想到
+
+GitHub 封存在南极的代码是保存完整的前LLM时代资料</div>
+      </div></div></div>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">”低本底代码”</div>
+    </div></div>
+  </div>
 
 
 </div>
