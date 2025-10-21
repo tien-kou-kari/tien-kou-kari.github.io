@@ -144,7 +144,7 @@
     assign pseudoReqQueryFlow = undefined | newObj
     # x pseudoReqQueryFlow | objSet: 'spec', 'flow'
     x pseudoReqQueryFlow | objSet: 'pageNum', 0
-    x pseudoReqQueryFlow | objSet: 'pageSize', 7
+    x pseudoReqQueryFlow | objSet: 'pageSize', 25
     render 'all.tmpl.html', reqQuery: pseudoReqQueryFlow
     # set the title back...
     x 'Home' | rgcSet: "pageTitlePart"

@@ -11,7 +11,7 @@
   assign isHive = webUrlPathUnencoded == '/hive'
   assign isTag = webUrlPathUnencoded == '/tag'
   assign isTagTopic = webUrlPathUnencoded == '/tagTopic'
-  assign isTheNoise = webUrlPathUnencoded == '/TheNoise'
+  assign isTheNoise = webUrlPathUnencoded == '/TheNoise' and not rgc.serverProfileName == 'insiders'
   assign isWebArc = webUrlPathUnencoded == '/webArc'
   assign isTest = webUrlPathUnencoded == '/Test' or webUrlPathUnencoded == '/SendTest'
 
