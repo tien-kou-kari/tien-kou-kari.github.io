@@ -6,7 +6,7 @@ render 'inc/multiCondLogic.tmpl.html', reqQuery: reqQuery, periodType: 'loose', 
 
 x 'Latest Posts' | append: resultWrapper.resultDesc | rgcSet: "pageTitlePart"
 
-x | resultWrapper | l
+x resultWrapper | l
 
 render 'inc/sequence.tmpl.html' list: resultWrapper.list
 
