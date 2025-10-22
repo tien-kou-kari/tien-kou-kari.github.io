@@ -9,6 +9,12 @@
 -%}
 >
 
+{%- unless asset %}
+  (Invalid asset)
+  </div>
+  {%- break %}
+{%- endunless %}
+
 {%- assign isMarkdown = asset.origin_file_path | isEndWithExtension: rgc.markdownExtNames %}
 
 {%- if isMarkdown %}
