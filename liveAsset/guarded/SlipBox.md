@@ -229,3 +229,17 @@ A conspiracy to kill IE6 (2019) 暗杀 IE6 的阴谋 (2019) - https://blog.chris
 2025-10-22 10:24:31 repost="guarded/hive/Rant/2025-10-13 17.57.32" 即使是NanaZip，相对于原版7-Zip的体验也有降级（启动速度；文件关联设置；以及所有的对话框都只在主显示器位置弹出而不是当前显示器），真不知道代码基是一样的为什么会改成这样。更别提PeaZip这个打开等几秒的了…
 
 7-Zip有一点不好：默认宋体，之后看有没有办法改
+
+2025-10-22 23:46:35 继Reddit内建全站贴文多语言AI翻译版本且开放给Google直接索引后 * ，现在知乎也同样开始做中译英了：
+
+https://www.google.com/search?q=site%3Aen.zhihu.com
+
+https://en.zhihu.com/answer/221354314
+
+\* 关于Reddit见：
+
+Reddit 的內建翻譯機制 | 敘事鋸 Narrativesaw - https://www.narrativesaw.com/2025/09/05/reddit-reddit-ai-ai.html
+
+Bringing Reddit to More People Around the World – Machine Learning-Powered Localization and Translation Launching in More than 35 New Countries - https://redditinc.com/blog/bringing-reddit-to-more-people-around-the-world-machine-learning-powered-localization-and-translation-launching-in-more-than-35-new-countries
+
+Reddit AI 翻译拯救了 Google 中文搜索结果质量 - V2EX - https://www.v2ex.com/t/1140800
