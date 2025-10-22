@@ -214,3 +214,14 @@ A conspiracy to kill IE6 (2019) 暗杀 IE6 的阴谋 (2019) - https://blog.chris
 2025-10-20 12:37:17 tidbit={"如果你看不懂":"这是在用一般互联网公司会为云服务制作的运行状态监控页（status page）的形式为美国政府也做了个运行状态页。"} US Government Uptime Monitor 美国政府正常运行时间监控器 - https://usa-status.com/
 
 草
+
+2025-10-22 08:57:01 错误处理：异常好于状态码 - 阮一峰的网络日志 - http://www.ruanyifeng.com/blog/2025/10/exception.html
+
+> 在软件中，错误处理有两种方式：抛出异常（throwing exceptions）和返回状态码（returning status codes）。
+
+> 几乎所有人都认为异常是更好的处理方式，但有些人仍然更喜欢返回状态码。本文解释为什么异常是更好的选择
+
+源：Ned Batchelder
+译：阮一峰
+
+<a href="/miscMedia/SlipBox_97kqmd1t_0_%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86%EF%BC%9A%E5%BC%82%E5%B8%B8%E5%A5%BD%E4%BA%8E%E7%8A%B6%E6%80%81%E7%A0%81%20-%20%E9%98%AE%E4%B8%80%E5%B3%B0%E7%9A%84%E7%BD%91%E7%BB%9C%E6%97%A5%E5%BF%97%20(2025_10_22%2008%EF%BC%9A55%EF%BC%9A20).html" class="md-attach md-attach-file-link" target="_blank">备档</a>
