@@ -21,7 +21,6 @@ for post in list
   if partialGroupLogicOneAssetCtx.shouldSuppressNormalRenderAndDoGroupRender
     echo partialGroupLogicOneAssetCtx.toRender
   else
-    x post | l
     render 'inc/oneInSeq.tmpl.html', post: post
   endif
   
