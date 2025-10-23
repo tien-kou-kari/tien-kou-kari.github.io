@@ -262,3 +262,7 @@ Reddit AI 翻译拯救了 Google 中文搜索结果质量 - V2EX - https://www.v
 2025-10-23 20:28:54 #bash Scripts I wrote that I use all the time - https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/
 
 <a href="/miscMedia/SlipBox_qa2chfpl_0_Scripts%20I%20wrote%20that%20I%20use%20all%20the%20time%20(2025_10_23%2020%EF%BC%9A28%EF%BC%9A11).html" class="md-attach md-attach-file-link" target="_blank">备档</a>
+
+2025-10-24 00:43:26 repost="guarded/SlipBox/2025-10-22 10.24.31" 好了，花了一晚上把之前工作过的Easy7-Zip-SF直接rebase干上了最新版25.01，再也不用管什么NanaZip和PeaZip了。
+
+https://github.com/shunf4/Easy7-Zip-SF
