@@ -244,3 +244,7 @@ Bringing Reddit to More People Around the World – Machine Learning-Powered Loc
 
 Reddit AI 翻译拯救了 Google 中文搜索结果质量 - V2EX - https://www.v2ex.com/t/1140800
 
+
+2025-10-23 17:46:07 草，一个检测任意网站是否在线的工具站 https://downforeveryoneorjustme.com/ 居然有了一个短链： http://www.downfor.io/
+
+之前也是直接Google搜索downfor找这个站的
