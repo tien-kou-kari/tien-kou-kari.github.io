@@ -35,7 +35,7 @@ elsif asset.runtime_privateOneSidedGroupType != '' and asset.runtime_privateOneS
       assign currGroupViewOtherPrimaryLocatorList = asset.runtime_privateOneSidedGroupPrimaryLocator | slice: 1
       assign currGroupViewOtherPrimaryList = undefined | newArr
       for otherPriLoc in currGroupViewOtherPrimaryLocatorList
-        x currGroupViewOtherPrimaryList | inplacePush: partialGroupLogicCtx.privateOneSidedGroupPrimaryMap[currGroupViewPrimaryLocator]
+        x currGroupViewOtherPrimaryList | inplacePush: partialGroupLogicCtx.privateOneSidedGroupPrimaryMap[otherPriLoc]
       endfor
     endif
     x partialGroupLogicOneAssetCtx | objSet: 'shouldSuppressNormalRenderAndDoGroupRender', true
