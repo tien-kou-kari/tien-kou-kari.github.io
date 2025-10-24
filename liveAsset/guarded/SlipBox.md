@@ -236,6 +236,8 @@ https://www.google.com/search?q=site%3Aen.zhihu.com
 
 https://en.zhihu.com/answer/221354314
 
+\---
+
 **\* 关于Reddit见 -**
 
 Reddit 的內建翻譯機制 | 敘事鋸 Narrativesaw - https://www.narrativesaw.com/2025/09/05/reddit-reddit-ai-ai.html
