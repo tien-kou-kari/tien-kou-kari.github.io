@@ -64,7 +64,7 @@ endif
       {%- endif %}
       <{% echo tdEl %} class="group-layout group-ref-primary group-asset"{{ primaryInTableColspan }}>
     {%- else %}
-      {%- assign infoLinePrefixHtml = '<b>&gt;&gt;&gt;</b> ' %}
+      {%- assign infoLinePrefixHtml = '<span class="ref-marker">&gt;&gt;&gt;</span> ' %}
     {%- endif %}
     {%- render 'inc/oneInSeq.tmpl.html', post: currGroupViewPrimary, infoLinePrefixHtml: infoLinePrefixHtml %}
     {%- if currGroupViewType == 'ref' or currGroupViewType == 'bottomPostRef' or currGroupViewType == 'inTableRef' or currGroupViewType == 'inTableBottomPostRef' %}
