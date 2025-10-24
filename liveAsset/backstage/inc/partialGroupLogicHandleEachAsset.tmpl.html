@@ -1,6 +1,9 @@
 
 {%- liquid
 
+assign currGroupViewPrimary = undefined
+assign currGroupViewOtherPrimaryLocatorList = undefined
+assign currGroupViewOtherPrimaryList = undefined
 assign currGroupViewPrimaryLocator = undefined
 
 if asset.runtime_groupPrimaryLocator != undefined
@@ -22,12 +25,19 @@ if asset.runtime_groupPrimaryLocator != undefined
     endif
   endif
 elsif asset.runtime_privateOneSidedGroupType != '' and asset.runtime_privateOneSidedGroupType
-  if asset.runtime_privateOneSidedGroupPrimaryLocator != '' and asset.runtime_privateOneSidedGroupPrimaryLocator
-    assign currGroupViewPrimaryLocator = asset.runtime_privateOneSidedGroupPrimaryLocator
+  if asset.runtime_privateOneSidedGroupPrimaryLocator
+    assign currGroupViewPrimaryLocator = asset.runtime_privateOneSidedGroupPrimaryLocator[0]
     assign currGroupViewPrimary = partialGroupLogicCtx.privateOneSidedGroupPrimaryMap[currGroupViewPrimaryLocator]
     assign currGroupViewAssetList = undefined | newArr | inplacePush: asset, currGroupViewPrimary
     assign currGroupViewType = asset.runtime_privateOneSidedGroupType
     assign currGroupViewIsPrivate = true
+    if asset.runtime_privateOneSidedGroupPrimaryLocator.size > 1
+      assign currGroupViewOtherPrimaryLocatorList = asset.runtime_privateOneSidedGroupPrimaryLocator | slice: 1
+      assign currGroupViewOtherPrimaryList = undefined | newArr
+      for otherPriLoc in currGroupViewOtherPrimaryLocatorList
+        x currGroupViewOtherPrimaryList | inplacePush: partialGroupLogicCtx.privateOneSidedGroupPrimaryMap[currGroupViewPrimaryLocator]
+      endfor
+    endif
     x partialGroupLogicOneAssetCtx | objSet: 'shouldSuppressNormalRenderAndDoGroupRender', true
   endif
 endif
@@ -84,6 +94,11 @@ endif
           {%- assign infoLinePrefixHtml = '// ' %}
         {%- endif %}
         {%- render 'inc/oneInSeq.tmpl.html', post: currGroupViewPrimary, infoLinePrefixHtml: infoLinePrefixHtml %}
+        {%- if currGroupViewOtherPrimaryList %}
+          {%- for otherPri in currGroupViewOtherPrimaryList %}
+            {%- render 'inc/oneInSeq.tmpl.html', post: otherPri, infoLinePrefixHtml: infoLinePrefixHtml %}
+          {%- endfor %}
+        {%- endif %}
         {%- if currGroupViewType == 'ref' or currGroupViewType == 'bottomPostRef' or currGroupViewType == 'inTableRef' or currGroupViewType == 'inTableBottomPostRef' %}
           </{% echo tdEl %}>
           </{% echo trEl %}>

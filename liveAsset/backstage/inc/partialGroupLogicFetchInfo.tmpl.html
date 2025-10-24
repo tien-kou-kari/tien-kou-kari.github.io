@@ -14,7 +14,16 @@ for asset in assetListOfMultiGroups
   if asset.metadata.privateOneSidedGroupPrimaryLocator != '' and asset.metadata.privateOneSidedGroupPrimaryLocator
     x asset | objSet: 'runtime_privateOneSidedGroupPrimaryLocator', asset.metadata.privateOneSidedGroupPrimaryLocator
     x asset.metadata.privateOneSidedGroupType | default: 'ref' | setToObj: asset, 'runtime_privateOneSidedGroupType'
-    x possiblePrivateOneSidedGroupLocators | inplacePush: asset.metadata.privateOneSidedGroupPrimaryLocator
+    assign privateGroupLocator0 = asset.runtime_privateOneSidedGroupPrimaryLocator | slice: 0, 1 | inspect | slice: 0, 1
+    if privateGroupLocator0 != '['
+      # is string, instead of array
+      x asset.runtime_privateOneSidedGroupPrimaryLocator | split: ',' | setToObj: asset, 'runtime_privateOneSidedGroupPrimaryLocator'
+    endif
+    for el in asset.runtime_privateOneSidedGroupPrimaryLocator
+      x possiblePrivateOneSidedGroupLocators | inplacePush: el
+    else
+      x undefined | setToObj: asset, 'runtime_privateOneSidedGroupPrimaryLocator'
+    endfor
   endif
   if asset.metadata.specifiedLocator != '' and asset.metadata.specifiedLocator
     x possibleGroupLocators | inplacePush: asset.metadata.specifiedLocator
