@@ -218,7 +218,7 @@ A conspiracy to kill IE6 (2019) 暗杀 IE6 的阴谋 (2019) - https://blog.chris
 2025-10-22 08:57:01 错误处理：异常好于状态码 - 阮一峰的网络日志 - http://www.ruanyifeng.com/blog/2025/10/exception.html
 
 > 在软件中，错误处理有两种方式：抛出异常（throwing exceptions）和返回状态码（returning status codes）。
-
+>
 > 几乎所有人都认为异常是更好的处理方式，但有些人仍然更喜欢返回状态码。本文解释为什么异常是更好的选择
 
 源：Ned Batchelder
@@ -265,7 +265,7 @@ Reddit AI 翻译拯救了 Google 中文搜索结果质量 - V2EX - https://www.v
 
 <a href="/miscMedia/SlipBox_qa2chfpl_0_Scripts%20I%20wrote%20that%20I%20use%20all%20the%20time%20(2025_10_23%2020%EF%BC%9A28%EF%BC%9A11).html" class="md-attach md-attach-file-link" target="_blank">备档</a>
 
-2025-10-24 00:43:26 repost="guarded/SlipBox/2025-10-22_10.24.31" 好了，花了一晚上把之前工作过的Easy7-Zip-SF直接rebase干上了最新版25.01，再也不用管什么NanaZip和PeaZip了。
+2025-10-24 00:43:26 repost=guarded/SlipBox/2025-10-22_10.24.31,guarded/hive/Rant/2025-10-13_17.57.32 好了，花了一晚上把之前工作过的Easy7-Zip-SF直接rebase干上了最新版25.01，再也不用管什么NanaZip和PeaZip了。
 
 https://github.com/shunf4/Easy7-Zip-SF
 
