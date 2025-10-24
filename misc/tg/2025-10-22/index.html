@@ -62,6 +62,10 @@ html {
   color-scheme: light dark;
 }
 
+#tkRootWrapper {
+  text-autospace: normal;
+}
+
 img,
 svg,
 video {
@@ -80,8 +84,12 @@ main {
 }
 
 p {
-  margin-block-start: 0.4rem;
-  margin-block-end: 0.4rem;
+  margin-top: 0.32rem;
+  margin-bottom: 0.32rem;
+}
+
+p:first-child {
+  margin-top: 0.16rem;
 }
 
 .white-space-preserve {
@@ -242,6 +250,14 @@ hr.sep-in-seq {
   margin-block-end: 0.75rem;
 }
 
+div.ref-marker {
+  letter-spacing: -0.08rem;
+  margin-right: 0.4rem;
+  font-weight: bold;
+  margin-top: 0.8rem;
+  display: inline-block;
+}
+
 
 
   </style>
@@ -272,7 +288,7 @@ hr.sep-in-seq {
     return document.getElementById(id);
   }
 
-  var tkDefaultStyle = "\n\nhtml {\n  color-scheme: light dark;\n}\n\nimg,\nsvg,\nvideo {\n  max-width: 100%;\n  display: block;\n}\n\nbody {\n  font-family: System UI;\n  font-size: 0.75rem;\n}\n\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\np {\n  margin-block-start: 0.4rem;\n  margin-block-end: 0.4rem;\n}\n\n.white-space-preserve {\n  white-space-collapse: preserve;\n}\n\ndiv.principal-content {\n  /*margin-top: 0.5rem;*/\n}\n\ndiv.one-in-seq-wrapper {\n  margin-inline-start: 0.4rem;\n  max-width: 96%;\n  max-width: max(96%, 100% - 1rem);\n}\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-involvement-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-websummary-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntd.group-ref-primary.group-ref-scroll .principal-content {\n  max-height: 20rem;\n  overflow-y: scroll;\n}\n\nh1, h2, h3 {\n  color: #2c3e50;\n  border-bottom: 1px solid #eee;\n  padding-bottom: 5px;\n}\n\n.tg-img, .tg-video {\n  max-width: 20rem;\n  max-height: 40rem;\n}\n\na.tag-link {\n\n}\n\n.tag-wrapper {\n  margin-right: 0.6rem;\n}\n\n\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n.tidbit-value.white-space-preserve {\n  white-space: pre-wrap;\n  font-family: monospace;\n}\n\n.tidbit-value {\n}\n\n.tidbit-key {\n  font-weight: bold;\n  flex-shrink: 1;\n  margin-inline-end: 0.6rem;\n  min-width: 7.6rem;\n}\n\n.tidbit-key::after {\n  content: ': ';\n}\n\n.tidbit-pair {\n  display: flex;\n}\n\nblockquote {\n  margin: 0.1rem 0;\n  padding: 0.1rem 0.2rem 0.1rem 0.8rem;\n  background-color: #fafafa;\n\n  border: 1px solid #6e6e6e;\n  border-left: 5px solid #6e6e6e;\n}\n\na.md-attach {\n  display: block;\n  width: fit-content;\n}\n\n.md-attach img {\n  display: inline;\n}\n\nhr.sep-in-seq {\n  margin-block-start: 0.75rem;\n  margin-block-end: 0.75rem;\n}\n\n"
+  var tkDefaultStyle = "\n\nhtml {\n  color-scheme: light dark;\n}\n\n#tkRootWrapper {\n  text-autospace: normal;\n}\n\nimg,\nsvg,\nvideo {\n  max-width: 100%;\n  display: block;\n}\n\nbody {\n  font-family: System UI;\n  font-size: 0.75rem;\n}\n\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\np {\n  margin-top: 0.32rem;\n  margin-bottom: 0.32rem;\n}\n\np:first-child {\n  margin-top: 0.16rem;\n}\n\n.white-space-preserve {\n  white-space-collapse: preserve;\n}\n\ndiv.principal-content {\n  /*margin-top: 0.5rem;*/\n}\n\ndiv.one-in-seq-wrapper {\n  margin-inline-start: 0.4rem;\n  max-width: 96%;\n  max-width: max(96%, 100% - 1rem);\n}\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-involvement-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-websummary-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntd.group-ref-primary.group-ref-scroll .principal-content {\n  max-height: 20rem;\n  overflow-y: scroll;\n}\n\nh1, h2, h3 {\n  color: #2c3e50;\n  border-bottom: 1px solid #eee;\n  padding-bottom: 5px;\n}\n\n.tg-img, .tg-video {\n  max-width: 20rem;\n  max-height: 40rem;\n}\n\na.tag-link {\n\n}\n\n.tag-wrapper {\n  margin-right: 0.6rem;\n}\n\n\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n.tidbit-value.white-space-preserve {\n  white-space: pre-wrap;\n  font-family: monospace;\n}\n\n.tidbit-value {\n}\n\n.tidbit-key {\n  font-weight: bold;\n  flex-shrink: 1;\n  margin-inline-end: 0.6rem;\n  min-width: 7.6rem;\n}\n\n.tidbit-key::after {\n  content: ': ';\n}\n\n.tidbit-pair {\n  display: flex;\n}\n\nblockquote {\n  margin: 0.1rem 0;\n  padding: 0.1rem 0.2rem 0.1rem 0.8rem;\n  background-color: #fafafa;\n\n  border: 1px solid #6e6e6e;\n  border-left: 5px solid #6e6e6e;\n}\n\na.md-attach {\n  display: block;\n  width: fit-content;\n}\n\n.md-attach img {\n  display: inline;\n}\n\nhr.sep-in-seq {\n  margin-block-start: 0.75rem;\n  margin-block-end: 0.75rem;\n}\n\ndiv.ref-marker {\n  letter-spacing: -0.08rem;\n  margin-right: 0.4rem;\n  font-weight: bold;\n  margin-top: 0.8rem;\n  display: inline-block;\n}\n\n"
 
   var tkStyleContent = getCookie('tkStyle');
   var tkStyleElement = document.createElement('style');
@@ -303,7 +319,7 @@ hr.sep-in-seq {
 <main>
   <div class="parent-p-content-wrapper">
     <div class="principal-content">
-<div class="lang-wrapper" lang="zh-CN">
+<div class="lang-wrapper" lang="zh-Hans">
     <details style="margin-bottom: 0.4rem" lang="en">
       <summary>...</summary>
       <div class="tidbit-pair"><div class="tidbit-key">Parent</div><div class="tidbit-value">
@@ -311,6 +327,7 @@ hr.sep-in-seq {
         </div>
       </div></div>
       <div class="tidbit-pair"><div class="tidbit-key">Locator</div><div class="tidbit-value white-space-preserve">guarded/misc/tg/2025-10-22</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">Locator (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">guarded/misc/tg/2025-10-22</div></div>
       <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1761146993078</div></div>
     </details>
 
@@ -319,9 +336,9 @@ hr.sep-in-seq {
     </div>
   </div>
 <div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-22">misc/tg/2025-10-22</a> / <a href="/misc/tg/2025-10-22/2025-10-22%2023.29.49">2025-10-22 23.29.49</a> <span>2025-10-22 23:29:49 UTC+8</span></div>
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-22">misc/tg/2025-10-22</a> / <a href="/misc/tg/2025-10-22/2025-10-22_23.29.49">2025-10-22_23.29.49</a> <span>2025-10-22 23:29:49 UTC+8</span></div>
     <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-CN"><p>Solidot投稿者/编辑按原文且不加注解地引用了FSF对Trusted Platform Module的讽刺修辞性贬称——背叛平台模块（Treacherous Platform Module）。</p>
+<div class="lang-wrapper" lang="zh-Hans"><p>Solidot投稿者/编辑按原文且不加注解地引用了FSF对Trusted Platform Module的讽刺修辞性贬称——背叛平台模块（Treacherous Platform Module）。</p>
 
 
   <table class="tg-wrapper-layout">
@@ -350,9 +367,9 @@ Windows 10 于 10 月 14 日终止了主流支持，IT 管理公司 Lansweeper �
 </div>
 
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-22">misc/tg/2025-10-22</a> / <a href="/misc/tg/2025-10-22/2025-10-22%2017.00.21">2025-10-22 17.00.21</a> <span>2025-10-22 17:00:21 UTC+8</span></div>
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-22">misc/tg/2025-10-22</a> / <a href="/misc/tg/2025-10-22/2025-10-22_17.00.21">2025-10-22_17.00.21</a> <span>2025-10-22 17:00:21 UTC+8</span></div>
     <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-CN">
+<div class="lang-wrapper" lang="zh-Hans">
 
   <table class="tg-wrapper-layout">
     <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
@@ -377,9 +394,9 @@ Windows 10 于 10 月 14 日终止了主流支持，IT 管理公司 Lansweeper �
 </div>
 
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-22">misc/tg/2025-10-22</a> / <a href="/misc/tg/2025-10-22/2025-10-22%2016.58.30">2025-10-22 16.58.30</a> <span>2025-10-22 16:58:30 UTC+8</span></div>
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-22">misc/tg/2025-10-22</a> / <a href="/misc/tg/2025-10-22/2025-10-22_16.58.30">2025-10-22_16.58.30</a> <span>2025-10-22 16:58:30 UTC+8</span></div>
     <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-CN"><p>终于。</p>
+<div class="lang-wrapper" lang="zh-Hans"><p>终于。</p>
 <p>Chrome 140可用</p>
 <p>related: <a href="https://blog.yitianshijie.net/2023/09/13/it-is-wrong-to-add-space-between-hanzi-and-roman-letters-manually/" target="_blank">在中西文之間手動加空格是錯誤做法 – 一天世界</a></p>
 
@@ -410,9 +427,9 @@ Windows 10 于 10 月 14 日终止了主流支持，IT 管理公司 Lansweeper �
 </div>
 
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-22">misc/tg/2025-10-22</a> / <a href="/misc/tg/2025-10-22/2025-10-22%2016.45.24">2025-10-22 16.45.24</a> <span>2025-10-22 16:45:24 UTC+8</span></div>
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-22">misc/tg/2025-10-22</a> / <a href="/misc/tg/2025-10-22/2025-10-22_16.45.24">2025-10-22_16.45.24</a> <span>2025-10-22 16:45:24 UTC+8</span></div>
     <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-CN">
+<div class="lang-wrapper" lang="zh-Hans">
 
   <table class="tg-wrapper-layout">
     <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
@@ -433,9 +450,9 @@ Windows 10 于 10 月 14 日终止了主流支持，IT 管理公司 Lansweeper �
 </div>
 
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-22">misc/tg/2025-10-22</a> / <a href="/misc/tg/2025-10-22/2025-10-22%2012.38.03">2025-10-22 12.38.03</a> <span>2025-10-22 12:38:03 UTC+8</span></div>
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-22">misc/tg/2025-10-22</a> / <a href="/misc/tg/2025-10-22/2025-10-22_12.38.03">2025-10-22_12.38.03</a> <span>2025-10-22 12:38:03 UTC+8</span></div>
     <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-CN">
+<div class="lang-wrapper" lang="zh-Hans">
 
   <table class="tg-wrapper-layout">
     <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
