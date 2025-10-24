@@ -268,3 +268,10 @@ Reddit AI 翻译拯救了 Google 中文搜索结果质量 - V2EX - https://www.v
 2025-10-24 00:43:26 repost="guarded/SlipBox/2025-10-22_10.24.31" 好了，花了一晚上把之前工作过的Easy7-Zip-SF直接rebase干上了最新版25.01，再也不用管什么NanaZip和PeaZip了。
 
 https://github.com/shunf4/Easy7-Zip-SF
+
+2025-10-24 21:52:18 repost=guarded/SlipBox/2025-10-19_22.41.33 现在浏览器御二家对于简体中文的字体fallback依然是狗屎。证据：
+
+- `font.name-list.monospace.zh-CN` is `NSimSun, SimSun, MS Song, SimSun-ExtB` by default on ff
+- https://issues.chromium.org/issues/41104519
+
+所以本站所有`lang="zh-Hans"`下的monospace内容仍然是宋体，没有任何设置可供调整，唯一调整办法是用[/styleCustomizer](/styleCustomizer)或者UserScript或者UserStyle自定义页面样式。
