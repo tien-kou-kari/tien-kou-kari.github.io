@@ -140,7 +140,8 @@
   endif
 
   if rgc.serverProfileName == 'insiders' and reqPathTidy == ''
-    echo '<br/><br/><h2>Latest</h2>'
+    echo '<br/><br/><font size="5"><a target="_blank" href="http://tksend.hpn54lw/">Write</a></font>'
+    echo '<br/><h2>Latest</h2>'
     assign pseudoReqQueryFlow = undefined | newObj
     # x pseudoReqQueryFlow | objSet: 'spec', 'flow'
     x pseudoReqQueryFlow | objSet: 'pageNum', 0
