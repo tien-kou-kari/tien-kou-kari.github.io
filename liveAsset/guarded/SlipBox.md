@@ -205,7 +205,7 @@ A conspiracy to kill IE6 (2019) 暗杀 IE6 的阴谋 (2019) - https://blog.chris
 
 2025-10-20 00:00:26 https://www.rich-text-to-markdown.com/
 
-2025-10-20 01:51:50 repost="guarded/misc/tg/2025-10-19/2025-10-19 15.36.28" 这篇的存档，AI生成的作品。
+2025-10-20 01:51:50 repost="guarded/misc/tg/2025-10-19/2025-10-19_15.36.28" 这篇的存档，AI生成的作品。
 
 可怕的是人的神经结构是否确实允许会如作品中所说的认知方式的根本性改变？
 
@@ -226,7 +226,7 @@ A conspiracy to kill IE6 (2019) 暗杀 IE6 的阴谋 (2019) - https://blog.chris
 
 <a href="/miscMedia/SlipBox_97kqmd1t_0_%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86%EF%BC%9A%E5%BC%82%E5%B8%B8%E5%A5%BD%E4%BA%8E%E7%8A%B6%E6%80%81%E7%A0%81%20-%20%E9%98%AE%E4%B8%80%E5%B3%B0%E7%9A%84%E7%BD%91%E7%BB%9C%E6%97%A5%E5%BF%97%20(2025_10_22%2008%EF%BC%9A55%EF%BC%9A20).html" class="md-attach md-attach-file-link" target="_blank">备档</a>
 
-2025-10-22 10:24:31 repost="guarded/hive/Rant/2025-10-13 17.57.32" 即使是NanaZip，相对于原版7-Zip的体验也有降级（启动速度；文件关联设置；以及所有的对话框都只在主显示器位置弹出而不是当前显示器），真不知道代码基是一样的为什么会改成这样。更别提PeaZip这个打开等几秒的了…
+2025-10-22 10:24:31 repost="guarded/hive/Rant/2025-10-13_17.57.32" 即使是NanaZip，相对于原版7-Zip的体验也有降级（启动速度；文件关联设置；以及所有的对话框都只在主显示器位置弹出而不是当前显示器），真不知道代码基是一样的为什么会改成这样。更别提PeaZip这个打开等几秒的了…
 
 7-Zip有一点不好：默认宋体，之后看有没有办法改
 
@@ -263,6 +263,6 @@ Reddit AI 翻译拯救了 Google 中文搜索结果质量 - V2EX - https://www.v
 
 <a href="/miscMedia/SlipBox_qa2chfpl_0_Scripts%20I%20wrote%20that%20I%20use%20all%20the%20time%20(2025_10_23%2020%EF%BC%9A28%EF%BC%9A11).html" class="md-attach md-attach-file-link" target="_blank">备档</a>
 
-2025-10-24 00:43:26 repost="guarded/SlipBox/2025-10-22 10.24.31" 好了，花了一晚上把之前工作过的Easy7-Zip-SF直接rebase干上了最新版25.01，再也不用管什么NanaZip和PeaZip了。
+2025-10-24 00:43:26 repost="guarded/SlipBox/2025-10-22_10.24.31" 好了，花了一晚上把之前工作过的Easy7-Zip-SF直接rebase干上了最新版25.01，再也不用管什么NanaZip和PeaZip了。
 
 https://github.com/shunf4/Easy7-Zip-SF
