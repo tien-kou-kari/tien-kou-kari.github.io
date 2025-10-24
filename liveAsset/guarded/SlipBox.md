@@ -236,14 +236,14 @@ https://www.google.com/search?q=site%3Aen.zhihu.com
 
 https://en.zhihu.com/answer/221354314
 
-<detail><summary>* 关于Reddit见：</summary>
+<details><summary>* 关于Reddit见：</summary>
 
 Reddit 的內建翻譯機制 | 敘事鋸 Narrativesaw - https://www.narrativesaw.com/2025/09/05/reddit-reddit-ai-ai.html
 
 Bringing Reddit to More People Around the World – Machine Learning-Powered Localization and Translation Launching in More than 35 New Countries - https://redditinc.com/blog/bringing-reddit-to-more-people-around-the-world-machine-learning-powered-localization-and-translation-launching-in-more-than-35-new-countries
 
 Reddit AI 翻译拯救了 Google 中文搜索结果质量 - V2EX - https://www.v2ex.com/t/1140800
-</detail>
+</details>
 
 
 2025-10-23 17:46:07 草，一个检测任意网站是否在线的工具站 https://downforeveryoneorjustme.com/ 居然有了一个短链： http://www.downfor.io/
