@@ -4,7 +4,7 @@
   if asset.metadata.lang != '' and asset.metadata.lang
     echo asset.metadata.lang | escape | prepend: ' lang="' | append: '"' | raw
   else
-    echo ' lang="zh-CN"' | raw
+    echo ' lang="zh-Hans"' | raw
   endif
 -%}
 >
