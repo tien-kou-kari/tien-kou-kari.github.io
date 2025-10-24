@@ -30,6 +30,7 @@
         </div>
       </div></div>
       <div class="tidbit-pair"><div class="tidbit-key">Locator</div><div class="tidbit-value white-space-preserve">{{ asset.asset_locator }}</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">Locator (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">{{ asset.asset_locator }}</div></div>
       {%- if asset.publish_time_by_metadata %}
         <div class="tidbit-pair"><div class="tidbit-key">PublishTime</div><div class="tidbit-value white-space-preserve">{{ asset.publish_time_by_metadata | divided_by: 1000 | date: "%Y-%m-%d %H:%M:%S UTC+8", -480 }}</div></div>
       {%- endif %}
