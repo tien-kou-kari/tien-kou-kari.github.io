@@ -6,6 +6,7 @@
   {%- liquid
 
   assign webUrlPathUnencoded = post.web_url_path_unencoded
+  assign webUrlDirPathUnencoded = webUrlPathUnencoded | split: '/' | inplaceRemoveLast | join: '/'
   assign isMisc1 = webUrlPathUnencoded | endsWith: '/misc'
   assign isMisc2 = webUrlPathUnencoded | endsWith: '/miscMedia'
   assign isHive = webUrlPathUnencoded == '/hive'
@@ -29,7 +30,7 @@
   endif
   -%}
   >
-    <a href="{{post.web_url_path}}">{{ post.metadata.friendlyChildName | default: webUrlPathUnencoded }}</a>
+    <a href="{{post.web_url_path}}">{{ post.metadata.friendlyChildName | default: webUrlPathUnencoded | replace: '${path}', webUrlPathUnencoded | replace '${dir}', webUrlDirPathUnencoded }}</a>
   </h3>
 
 {%- else %}
