@@ -12,15 +12,12 @@ endif
 
 assign isLcp = c.isLocatableContentHasDerivedChildren
 
-if isLcp or true
-  x asset.asset_locator | l: 'x asset.asset_locator'
-  x asset.asset_locator | rgcSet: 'currPageFocusedAssetLocator'
-  x asset.metadata.title | rgcSet: "pageTitlePart"
-endif
+x asset.asset_locator | rgcSet: 'currPageFocusedAssetLocator'
+x asset.metadata.title | rgcSet: "pageTitlePart"
 
 %}
 
-{%- if isLcp or true %}
+{%- if true %}
   <div class="parent-p-content-wrapper">
     <div class="principal-content">
     {%- render 'inc/content.tmpl.html', shouldUseRgcForAssetStatus: true, asset: asset %}
