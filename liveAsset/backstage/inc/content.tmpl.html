@@ -15,7 +15,17 @@
   {%- break %}
 {%- endunless %}
 
-{%- assign isMarkdown = asset.origin_file_path | isEndWithExtension: rgc.markdownExtNames %}
+{%- liquid
+
+assign isMarkdown = false
+if rgc.isLocatableContentDirectory and shouldUseRgcForAssetStatus
+  assign isMarkdown = true
+  x asset.metadata.dirMdContent | default: '' | setToObj: asset, 'asset_raw_bytes'
+else
+  assign isMarkdown = asset.origin_file_path | isEndWithExtension: rgc.markdownExtNames
+endif
+
+%}
 
 {%- if isMarkdown %}
   {%- if rgc.currPageFocusedAssetLocator == asset.asset_locator and not rgc.isRss %}
