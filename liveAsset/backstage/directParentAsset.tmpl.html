@@ -13,6 +13,7 @@ endif
 assign isLcp = c.isLocatableContentHasDerivedChildren
 
 if isLcp or true
+  x asset.asset_locator | l: 'x asset.asset_locator'
   x asset.asset_locator | rgcSet: 'currPageFocusedAssetLocator'
   x asset.metadata.title | rgcSet: "pageTitlePart"
 endif
