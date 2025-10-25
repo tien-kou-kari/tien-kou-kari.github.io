@@ -115,10 +115,10 @@
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p>现在浏览器御二家对于简体中文的字体fallback依然是狗屎。证据：</p>
 <ul>
-<li><code>font.name-list.monospace.zh-CN</code> is <code>NSimSun, SimSun, MS Song, SimSun-ExtB</code> by default on ff</li>
+<li>&quot;<code>font.name-list.monospace.zh-CN</code>&quot; is &quot;<code>NSimSun, SimSun, MS Song, SimSun-ExtB</code>&quot; by default on ff</li>
 <li><a href="https://issues.chromium.org/issues/41104519" target="_blank">https://issues.chromium.org/issues/41104519</a></li>
 </ul>
-<p>所以本站所有<code>lang=&quot;zh-Hans&quot;</code>下的monospace内容仍然是宋体，没有任何设置可供调整，唯一调整办法是用<a href="/styleCustomizer" target="_blank">/styleCustomizer</a>或者UserScript或者UserStyle自定义页面样式。</p>
+<p>所以本站所有目前<code>lang=&quot;zh-Hans&quot;</code>下的<code>font-family: monospace</code>（等宽字体 Fixed-width font）内容仍然是宋体，如： <span style="font-family:monospace;">这是一段等宽字体文字</span> ，没有任何浏览器内建设置可供调整，唯一调整办法是用<a href="/styleCustomizer" target="_blank">/styleCustomizer</a>或者UserScript或者UserStyle自定义页面样式。</p>
 
 
 </div>
@@ -1119,29 +1119,6 @@ iPhone 4S年代，iOS只有兩種熒幕邏輯尺寸（iPhone和iPad），只有�
 <div class="lang-wrapper" lang="zh-Hans"><p>Why the open social web matters now - <a href="https://werd.io/why-the-open-social-web-matters-now/" target="_blank">https://werd.io/why-the-open-social-web-matters-now/</a></p>
 <p>双语留档</p>
 <p><a href="/miscMedia/SlipBox_q9i8su8w_0_share4044655835246134171.html" class="md-attach md-attach-file-link" target="_blank">SlipBox_q9i8su8w_0_share4044655835246134171.html</a></p>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-19">misc/tg/2025-10-19</a> / <a href="/misc/tg/2025-10-19/2025-10-19_00.23.20">2025-10-19_00.23.20</a> <span>2025-10-19 00:23:20 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/c_res" title="Telegram PeerChannel handle: c_res" data-title="tg:c_res">Catoverflow@Reserve</a> (<span class="tg-author">Catoverflow</span>)
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://missing.shiroki-y.top/introduction.html">https://missing.shiroki-y.top/introduction.html</a>
-好玩的故事向无CTF网页解密</div>
-    </div></div>
-  </div>
 
 
 </div>
