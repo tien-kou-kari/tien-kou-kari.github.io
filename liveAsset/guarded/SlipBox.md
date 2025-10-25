@@ -271,10 +271,10 @@ https://github.com/shunf4/Easy7-Zip-SF
 
 2025-10-24 21:52:18 repost=guarded/SlipBox/2025-10-19_22.41.33 现在浏览器御二家对于简体中文的字体fallback依然是狗屎。证据：
 
-- `font.name-list.monospace.zh-CN` is `NSimSun, SimSun, MS Song, SimSun-ExtB` by default on ff
+- "`font.name-list.monospace.zh-CN`" is "`NSimSun, SimSun, MS Song, SimSun-ExtB`" by default on ff
 - https://issues.chromium.org/issues/41104519
 
-所以本站所有`lang="zh-Hans"`下的monospace内容仍然是宋体，没有任何设置可供调整，唯一调整办法是用[/styleCustomizer](/styleCustomizer)或者UserScript或者UserStyle自定义页面样式。
+所以本站所有目前`lang="zh-Hans"`下的`font-family: monospace`（等宽字体 Fixed-width font）内容仍然是宋体，如： <span style="font-family:monospace;">这是一段等宽字体文字</span> ，没有任何浏览器内建设置可供调整，唯一调整办法是用[/styleCustomizer](/styleCustomizer)或者UserScript或者UserStyle自定义页面样式。
 
 2025-10-25 00:20:43 repost=guarded/misc/tg/2025-10-22/2025-10-22_16.58.30 本站已尝试全站内容默认添加此CSS样式。Chromium 140以上（如果没有在[/styleCustomizer](/styleCustomizer)自定义过样式）应该可以正常看到中英字符间距了。
 
