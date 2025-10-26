@@ -291,3 +291,11 @@ https://github.com/shunf4/Easy7-Zip-SF
 The Great SaaS-Lighting: How IT Users Got Gaslit – Unworkable Ideas - https://unworkableideas.com/the-great-saas-lighting-how-it-users-got-gaslit/
 
 <a href="/miscMedia/SlipBox_7uewgqdg_0_The%20Great%20SaaS-Lighting%EF%BC%9A%20How%20IT%20Users%20Got%20Gaslit%20%E2%80%93%20Unworkable%20Ideas%20(2025_10_27%2000%EF%BC%9A48%EF%BC%9A15).html" class="md-attach md-attach-file-link" target="_blank">留档</a>
+
+2025-10-27 00:56:34 好了，我弄通了在手机上给网页机翻+留档的流程：
+
+- 使用Ultimatum，虽然作者现在不更了。
+- 安装SingleFile-MV3、ScriptCat、ScTranslator。
+- 最重要的：SingleFile把misc-save in background关掉，否则下载报错。SingleFile通过导出配置，编辑，导入的方式把userscript隐藏选项打开。
+- ScriptCat安装Eruda UserScript，方便随时开控制台。写一个SingleFile事件处理器，保存前先将当前网页请求留档到Internet Archive和archive.today。
+- done。现在可以先打开网页，点工具栏ScTranslator全文翻译，然后点一下SingleFile，网页就被抓下来提示保存到本地了。
