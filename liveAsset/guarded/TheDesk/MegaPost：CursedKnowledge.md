@@ -1,5 +1,6 @@
 ---
 publishTime: '2025-10-26 12:36:13'
+childrenSortOrder: condTimeAsc
 isDerivableIntoChildren: true
 ---
 
