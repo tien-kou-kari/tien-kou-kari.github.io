@@ -6,16 +6,123 @@
     <atom:link href="http://pseudo-tien-kou-app.home.arpa/rss?periodType=loose&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
-        <title>Tien-kou - 2025-10-25_23.18.40</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-10-25/2025-10-25_23.18.40</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-10-25/2025-10-25_23.18.40</guid>
-        <pubDate>Sat, 25 Oct 2025 23:18:40 +0800</pubDate>
+        <title>Tien-kou - 2025-10-27_01.03.08</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-10-27_01.03.08</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-10-27_01.03.08</guid>
+        <pubDate>Mon, 27 Oct 2025 01:03:08 +0800</pubDate>
+        <description><![CDATA[
+<div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-27_01.03.08">2025-10-27_01.03.08</a> <span>2025-10-27 01:03:08 UTC+8</span></div>
+</div>
+
+      
+          <div class="group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>不是，找了个没收录过的URL试了下，怎么感觉IA和AT的这两个api都没用啊，提交了后还是反查不到，还是说要排队？不管了，反正已经提交获取到200返回，尽最大努力了，它收不收录是它的事。</p>
+
+
+</div>
+</div>
+</div>
+
+          </div>
+      <div class="group-layout">
+          <div class="group-layout group-min-ellipsis"><div class="group-layout group-min-ellipsis"><a title="Jump to this group" class="group-jump-link" href="/group/guarded/SlipBox/2025-10-27_00.56.34">...</a></div></div>
+          
+          <div class="group-layout group-ref-primary group-asset">
+          <div class="group-layout group-ref-primary group-ref-scroll group-asset" colspan=&#34;2&#34;><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-27_00.56.34">2025-10-27_00.56.34</a> <span>2025-10-27 00:56:34 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>好了，我弄通了在手机上给网页机翻+留档的流程：</p>
+<ul>
+<li>使用Ultimatum，较新版Android Chromium系浏览器安装扩展插件的唯一办法。虽然作者现在不更了。</li>
+<li>安装SingleFile-MV3、ScriptCat、ScTranslator。</li>
+<li>最重要的：SingleFile把misc-save in background关掉，否则下载报错。SingleFile通过导出配置，编辑，导入的方式把userscript隐藏选项打开。</li>
+<li>ScriptCat安装Eruda UserScript，方便随时开控制台。写一个SingleFile事件处理器，保存前先将当前网页请求留档到Internet Archive和archive.today。</li>
+<li>done。现在可以先打开网页，点工具栏ScTranslator全文翻译，然后点一下SingleFile，网页就被抓下来提示保存到本地了。</li>
+</ul>
+
+
+</div>
+</div>
+</div>
+
+          </div>
+          </div>
+
+      </div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2025-10-27_00.56.34</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-10-27_00.56.34</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-10-27_00.56.34</guid>
+        <pubDate>Mon, 27 Oct 2025 00:56:34 +0800</pubDate>
+        <description><![CDATA[
+
+      
+      <div class="group-layout">
+          
+          <div class="group-layout group-ref-primary group-asset">
+          <div class="group-layout group-ref-primary group-asset" colspan=&#34;2&#34;><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-27_00.56.34">2025-10-27_00.56.34</a> <span>2025-10-27 00:56:34 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>好了，我弄通了在手机上给网页机翻+留档的流程：</p>
+<ul>
+<li>使用Ultimatum，较新版Android Chromium系浏览器安装扩展插件的唯一办法。虽然作者现在不更了。</li>
+<li>安装SingleFile-MV3、ScriptCat、ScTranslator。</li>
+<li>最重要的：SingleFile把misc-save in background关掉，否则下载报错。SingleFile通过导出配置，编辑，导入的方式把userscript隐藏选项打开。</li>
+<li>ScriptCat安装Eruda UserScript，方便随时开控制台。写一个SingleFile事件处理器，保存前先将当前网页请求留档到Internet Archive和archive.today。</li>
+<li>done。现在可以先打开网页，点工具栏ScTranslator全文翻译，然后点一下SingleFile，网页就被抓下来提示保存到本地了。</li>
+</ul>
+
+
+</div>
+</div>
+</div>
+
+          </div>
+          </div>
+          <div class="group-layout group-max-ellipsis"><div class="group-layout group-max-ellipsis"><a title="Jump to this group" class="group-jump-link" href="/group/guarded/SlipBox/2025-10-27_00.56.34">...</a></div></div>
+
+      </div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2025-10-27_00.49.44</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-10-27_00.49.44</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-10-27_00.49.44</guid>
+        <pubDate>Mon, 27 Oct 2025 00:49:44 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>这个博客的其他文章好像特别喜欢不说人话，which让我比较在意</p>
+<p>The Great SaaS-Lighting: How IT Users Got Gaslit – Unworkable Ideas - <a href="https://unworkableideas.com/the-great-saas-lighting-how-it-users-got-gaslit/" target="_blank">https://unworkableideas.com/the-great-saas-lighting-how-it-users-got-gaslit/</a></p>
+<p><a href="/miscMedia/SlipBox_7uewgqdg_0_The%20Great%20SaaS-Lighting%EF%BC%9A%20How%20IT%20Users%20Got%20Gaslit%20%E2%80%93%20Unworkable%20Ideas%20(2025_10_27%2000%EF%BC%9A48%EF%BC%9A15).html" class="md-attach md-attach-file-link" target="_blank">留档</a></p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2025-10-26_20.45.08</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-10-26/2025-10-26_20.45.08</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-10-26/2025-10-26_20.45.08</guid>
+        <pubDate>Sun, 26 Oct 2025 20:45:08 +0800</pubDate>
         <description><![CDATA[
 
 
 <div class="sole-content-wrapper">
   <div class="principal-content">
 <div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/iAppleTime">#iAppleTime</a></span>
+    </div>
 
   <div class="tg-wrapper-layout">
     <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
@@ -24,12 +131,9 @@
 
     </div></div>
     <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a>
-    <div class="tg-msg-source-lv2">
-      <span class="tg-msg-source-lv2-explain">Forwarded from </span><a target="_blank" href="https://t.me/archlinuxgang" title="Telegram PeerChannel handle: archlinuxgang" data-title="tg:archlinuxgang">Arch Linux + Memes</a>
-    </div> (<span class="tg-author">. ᅠᅠᅠᅠᅠᅠก้้้้้้้้้้้้้้้้้้้้</span>)
 
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5895561548791924374.png" title="Telegram media id 5895561548791924374" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">the state of apple intelligence in the year 2025</div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5181742747319208743.png" title="Telegram media id 5181742747319208743" alt="A picture from Telegram, related to current message. No more alt detail for now." />
     </div></div>
   </div>
 
@@ -41,52 +145,19 @@
         ]]></description>
       </item>
       <item>
-        <title>Tien-kou - 2025-10-25_00.22.37</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-10-25_00.22.37</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-10-25_00.22.37</guid>
-        <pubDate>Sat, 25 Oct 2025 00:22:37 +0800</pubDate>
+        <title>Tien-kou - 2025-10-26_20.42.58</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-10-26/2025-10-26_20.42.58</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-10-26/2025-10-26_20.42.58</guid>
+        <pubDate>Sun, 26 Oct 2025 20:42:58 +0800</pubDate>
         <description><![CDATA[
 
 
 <div class="sole-content-wrapper">
   <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>把Chromium Hibbiki fork更到了140以上发现它已经开始block Manifest V2扩展，怒切Marmaduke fork</p>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2025-10-25_00.20.43</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-10-25_00.20.43</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-10-25_00.20.43</guid>
-        <pubDate>Sat, 25 Oct 2025 00:20:43 +0800</pubDate>
-        <description><![CDATA[
-<div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-25_00.20.43">2025-10-25_00.20.43</a> <span>2025-10-25 00:20:43 UTC+8</span></div>
-</div>
-
-      
-          <div class="group-asset"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>本站已尝试全站内容默认添加此CSS样式。Chromium 140以上（如果没有在<a href="/styleCustomizer" target="_blank">/styleCustomizer</a>自定义过样式）应该可以正常看到中英字符间距了。</p>
-
-
-</div>
-</div>
-</div>
-
-          </div>
-      <div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/misc/tg/2025-10-22">misc/tg/2025-10-22</a> / <a href="/misc/tg/2025-10-22/2025-10-22_16.58.30">2025-10-22_16.58.30</a> <span>2025-10-22 16:58:30 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>终于。</p>
-<p>Chrome 140可用</p>
-<p>related: <a href="https://blog.yitianshijie.net/2023/09/13/it-is-wrong-to-add-space-between-hanzi-and-roman-letters-manually/" target="_blank">在中西文之間手動加空格是錯誤做法 – 一天世界</a></p>
-
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
+    </div>
 
   <div class="tg-wrapper-layout">
     <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
@@ -94,32 +165,68 @@
 </div>
 
     </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/mokeyjay_channel" title="Telegram PeerChannel handle: mokeyjay_channel" data-title="tg:mokeyjay_channel">moke 的 日常分享、吐槽和动态</a>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/getoutforchina" title="Telegram PeerChannel handle: getoutforchina" data-title="tg:getoutforchina">今天你想跑路了吗？？</a>
 
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">非常优雅的 CSS 新属性：text-autospace
-<a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-autospace">https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-autospace</a></div>
-      
-        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
-          <a target="_blank" href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-autospace">MDN Web Docs</a>
-          <h6>text-autospace - CSS：层叠样式表 | MDN</h6>
-          <p>text-autospace CSS 属性允许指定中日韩（CJK）字符和非中日韩字符之间的间距行为。</p>
-            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5903324384351860540.png" title="Telegram wepbage media id 5903324384351860540" alt="A picture related to current telegram webpage message. No more alt detail for now." />
-        </div></div></div>
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><b>美国密歇根州提案禁止</b> <b>VPN
+</b>
+美国密歇根州共和党议员提出《反公共道德堕落法案》，拟禁止民众使用虚拟专用网络（VPN）、代理服务器及加密隧道访问被认定为“腐蚀道德”的网络内容，其中包括色情、ASMR及涉及跨性别者的内容。若通过，这将成为美国首个禁止VPN的州法案。
+
+该法案引发广泛反对，维权组织Fight for the Future发起“VPN行动日”，已有逾1.5万人签署公开信，呼吁保护用户网络隐私与访问自由。专家指出，VPN不仅用于绕过审查，也在网络安全、防止数据泄露等方面发挥关键作用。
+
+这下殊途同归了</div>
     </div></div>
   </div>
 
 
 </div>
-</div>
-</div>
 
+  </div>
+</div>
         ]]></description>
       </item>
       <item>
-        <title>Tien-kou - 2025-10-24_23.05.20</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-10-24/2025-10-24_23.05.20</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-10-24/2025-10-24_23.05.20</guid>
-        <pubDate>Fri, 24 Oct 2025 23:05:20 +0800</pubDate>
+        <title>Tien-kou - 2025-10-26_20.11.53</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-10-26_20.11.53</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-10-26_20.11.53</guid>
+        <pubDate>Sun, 26 Oct 2025 20:11:53 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Any decent error message is a kind of oracle — Digital Seams - <a href="https://digitalseams.com/blog/any-decent-error-message-is-a-kind-of-oracle" target="_blank">https://digitalseams.com/blog/any-decent-error-message-is-a-kind-of-oracle</a></p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2025-10-26_17.26.53</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-10-26_17.26.53</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-10-26_17.26.53</guid>
+        <pubDate>Sun, 26 Oct 2025 17:26:53 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>笑死我了，llama.cpp自带的那个Web界面刷新内容会让Chromium吃死GPU，查了半天为什么模型跑起来卡卡的结果发现GPU占用最多的不是模型自己</p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2025-10-26_13.38.11</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-10-26/2025-10-26_13.38.11</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-10-26/2025-10-26_13.38.11</guid>
+        <pubDate>Sun, 26 Oct 2025 13:38:11 +0800</pubDate>
         <description><![CDATA[
 
 
@@ -133,24 +240,18 @@
 </div>
 
     </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/laoself" title="Telegram PeerChannel handle: laoself" data-title="tg:laoself">Laoself 🦠</a>
-      <div class="tg-involvement-layout"><div class="tg-involvement-layout"><div  class="tg-involvement-layout tg-involvement-type">
-      <span class="tg-involvement-type">[Re]</span>
-      </div><div class="tg-involvement-layout tg-involvement-body"><a target="_blank" href="https://t.me/laoself" title="Telegram PeerChannel handle: laoself" data-title="tg:laoself">Laoself 🦠</a>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/noticeboardthings" title="Telegram PeerChannel handle: noticeboardthings" data-title="tg:noticeboardthings">布告栏上的贴纸</a>
 
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">怎麼會想到會有一天在麥當勞app上登GitHub（x
-怎麼這OAuth開發者名字叫Macdonalds（</div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6330062963267537784.png" title="Telegram media id 6330062963267537784" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">笑话成真了🤣
 
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6330062963267537785.png" title="Telegram media id 6330062963267537785" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+中国 BIOS 新标准「UBIOS」正式发布，这一标准将带来哪些影响？ - 地狱少年丶的回答 - 知乎
+<a href="https://www.zhihu.com/question/1964065968503361781/answer/1964771887243560608">https://www.zhihu.com/question/1964065968503361781/answer/1964771887243560608</a>
+
+官方网站：<a href="https://www.gccorg.com/article/69/426.html">https://www.gccorg.com/article/69/426.html</a></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6327689444080684322.png" title="Telegram media id 6327689444080684322" alt="A picture from Telegram, related to current message. No more alt detail for now." />
 
     <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6330062963267537786.png" title="Telegram media id 6330062963267537786" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-      </div></div></div>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">笑話升級：麥當勞用來認證的GitHub OAuth app被GitHub suspend了🌝🌚🌝</div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6330062963267538044.png" title="Telegram media id 6330062963267538044" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6327689444080684321.png" title="Telegram media id 6327689444080684321" alt="A picture from Telegram, related to current message. No more alt detail for now." />
     </div></div>
   </div>
 
@@ -159,169 +260,6 @@
 
   </div>
 </div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2025-10-24_21.52.18</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-10-24_21.52.18</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-10-24_21.52.18</guid>
-        <pubDate>Fri, 24 Oct 2025 21:52:18 +0800</pubDate>
-        <description><![CDATA[
-<div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-24_21.52.18">2025-10-24_21.52.18</a> <span>2025-10-24 21:52:18 UTC+8</span></div>
-</div>
-
-      
-          <div class="group-asset"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>现在浏览器御二家对于简体中文的字体fallback依然是狗屎。证据：</p>
-<ul>
-<li>&quot;<code>font.name-list.monospace.zh-CN</code>&quot; is &quot;<code>NSimSun, SimSun, MS Song, SimSun-ExtB</code>&quot; by default on ff</li>
-<li><a href="https://issues.chromium.org/issues/41104519" target="_blank">https://issues.chromium.org/issues/41104519</a></li>
-</ul>
-<p>所以本站所有目前<code>lang=&quot;zh-Hans&quot;</code>下的<code>font-family: monospace</code>（等宽字体 Fixed-width font）内容仍然是宋体，如： <span style="font-family:monospace;">这是一段等宽字体文字</span> ，没有任何浏览器内建设置可供调整，唯一调整办法是用<a href="/styleCustomizer" target="_blank">/styleCustomizer</a>或者UserScript或者UserStyle自定义页面样式。</p>
-
-
-</div>
-</div>
-</div>
-
-          </div>
-      <div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-19_22.41.33">2025-10-19_22.41.33</a> <span>2025-10-19 22:41:33 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>浏览器里给了一句<code>font-family: monospace</code>，结果它的字体还和当前节点所属的lang有关？是中文直接变宋体，忽略浏览器设置？？</p>
-
-
-</div>
-</div>
-</div>
-
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2025-10-24_17.14.48</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-10-24/2025-10-24_17.14.48</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-10-24/2025-10-24_17.14.48</guid>
-        <pubDate>Fri, 24 Oct 2025 17:14:48 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a> (<span class="tg-author">GM</span>)
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6039711968488262663.png" title="Telegram media id 6039711968488262663" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </div></div>
-  </div>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2025-10-24_17.05.05</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-10-24/2025-10-24_17.05.05</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-10-24/2025-10-24_17.05.05</guid>
-        <pubDate>Fri, 24 Oct 2025 17:05:05 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>经典内置浏览器做外部登录SSO</p>
-
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/illusory_world" title="Telegram PeerChannel handle: illusory_world" data-title="tg:illusory_world">不存在的世界</a>
-      <div class="tg-involvement-layout"><div class="tg-involvement-layout"><div  class="tg-involvement-layout tg-involvement-type">
-      <span class="tg-involvement-type">[Re]</span>
-      </div><div class="tg-involvement-layout tg-involvement-body"><a target="_blank" href="https://t.me/illusory_world" title="Telegram PeerChannel handle: illusory_world" data-title="tg:illusory_world">不存在的世界</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">想不懂麦当劳要 GitHub 账号干嘛，可能只是一种商业统计吧（总之领了！
-
-PS: 原来不是免费兑换，而是还要花 29.9……</div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6330354028906220416.png" title="Telegram media id 6330354028906220416" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-      </div></div></div>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">据群友补充，认证过程不是跳转 GitHub App 或者浏览器走 OAuth，而是在麦当劳 App 内置的浏览器进行的，先登录账号然后再走 OAuth。
-
-理论上麦当劳 App 是能拿到你的 GitHub session，然后在登录状态下操作你的 GitHub 账户。
-
-图内就是使用麦当劳 iOS App 认证后新建的 web session，设备显示是 "Unknown Browser on iOS iPhone"
-
-所以如果有人去认证账号了，记得去 revoke web session 吧。</div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6330010483062148046.png" title="Telegram media id 6330010483062148046" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </div></div>
-  </div>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2025-10-24_00.43.26</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-10-24_00.43.26</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-10-24_00.43.26</guid>
-        <pubDate>Fri, 24 Oct 2025 00:43:26 +0800</pubDate>
-        <description><![CDATA[
-<div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-24_00.43.26">2025-10-24_00.43.26</a> <span>2025-10-24 00:43:26 UTC+8</span></div>
-</div>
-
-      
-          <div class="group-asset"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>好了，花了一晚上把之前工作过的Easy7-Zip-SF直接rebase干上了最新版25.01，再也不用管什么NanaZip和PeaZip了。</p>
-<p><a href="https://github.com/shunf4/Easy7-Zip-SF" target="_blank">https://github.com/shunf4/Easy7-Zip-SF</a></p>
-
-
-</div>
-</div>
-</div>
-
-          </div>
-      <div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-22_10.24.31">2025-10-22_10.24.31</a> <span>2025-10-22 10:24:31 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>即使是NanaZip，相对于原版7-Zip的体验也有降级（启动速度；文件关联设置；以及所有的对话框都只在主显示器位置弹出而不是当前显示器），真不知道代码基是一样的为什么会改成这样。更别提PeaZip这个打开等几秒的了…</p>
-<p>7-Zip有一点不好：默认宋体，之后看有没有办法改</p>
-
-
-</div>
-</div>
-</div>
-<div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/hive/Rant">hive/Rant</a> / <a href="/hive/Rant/2025-10-13_17.57.32">2025-10-13_17.57.32</a> <span>2025-10-13 17:57:32 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>因为7-Zip vuln，又下了PeaZip试了试。PeaZip到2025年了，还是没把Windows的文件关联搞明白…</p>
-<p>装完文件关联不Work，研究了下是因为文件关联分系统全局设置和用户设置，7-Zip的关联选项一应俱全清晰明了，但是PeaZip就只有那几个复选框，只修改全局设置，所以如果事前有用户设置的覆盖，则完全不生效。</p>
-
-
-</div>
-</div>
-</div>
-
         ]]></description>
       </item>
   </channel>

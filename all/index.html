@@ -258,6 +258,10 @@ div.ref-marker {
   display: inline-block;
 }
 
+div.asset-info-line {
+  margin-bottom: 0.2rem;
+}
+
 
 
   </style>
@@ -288,7 +292,7 @@ div.ref-marker {
     return document.getElementById(id);
   }
 
-  var tkDefaultStyle = "\n\nhtml {\n  color-scheme: light dark;\n}\n\n#tkRootWrapper {\n  text-autospace: normal;\n}\n\nimg,\nsvg,\nvideo {\n  max-width: 100%;\n  display: block;\n}\n\nbody {\n  font-family: System UI;\n  font-size: 0.75rem;\n}\n\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\np {\n  margin-top: 0.32rem;\n  margin-bottom: 0.32rem;\n}\n\np:first-child {\n  margin-top: 0.16rem;\n}\n\n.white-space-preserve {\n  white-space-collapse: preserve;\n}\n\ndiv.principal-content {\n  /*margin-top: 0.5rem;*/\n}\n\ndiv.one-in-seq-wrapper {\n  margin-inline-start: 0.4rem;\n  max-width: 96%;\n  max-width: max(96%, 100% - 1rem);\n}\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-involvement-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-websummary-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntd.group-ref-primary.group-ref-scroll .principal-content {\n  max-height: 20rem;\n  overflow-y: scroll;\n}\n\nh1, h2, h3 {\n  color: #2c3e50;\n  border-bottom: 1px solid #eee;\n  padding-bottom: 5px;\n}\n\n.tg-img, .tg-video {\n  max-width: 20rem;\n  max-height: 40rem;\n}\n\na.tag-link {\n\n}\n\n.tag-wrapper {\n  margin-right: 0.6rem;\n}\n\n\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n.tidbit-value.white-space-preserve {\n  white-space: pre-wrap;\n  font-family: monospace;\n}\n\n.tidbit-value {\n}\n\n.tidbit-key {\n  font-weight: bold;\n  flex-shrink: 1;\n  margin-inline-end: 0.6rem;\n  min-width: 7.6rem;\n}\n\n.tidbit-key::after {\n  content: ': ';\n}\n\n.tidbit-pair {\n  display: flex;\n}\n\nblockquote {\n  margin: 0.1rem 0;\n  padding: 0.1rem 0.2rem 0.1rem 0.8rem;\n  background-color: #fafafa;\n\n  border: 1px solid #6e6e6e;\n  border-left: 5px solid #6e6e6e;\n}\n\na.md-attach {\n  display: block;\n  width: fit-content;\n}\n\n.md-attach img {\n  display: inline;\n}\n\nhr.sep-in-seq {\n  margin-block-start: 0.75rem;\n  margin-block-end: 0.75rem;\n}\n\ndiv.ref-marker {\n  letter-spacing: -0.08rem;\n  margin-right: 0.4rem;\n  font-weight: bold;\n  margin-top: 0.8rem;\n  display: inline-block;\n}\n\n"
+  var tkDefaultStyle = "\n\nhtml {\n  color-scheme: light dark;\n}\n\n#tkRootWrapper {\n  text-autospace: normal;\n}\n\nimg,\nsvg,\nvideo {\n  max-width: 100%;\n  display: block;\n}\n\nbody {\n  font-family: System UI;\n  font-size: 0.75rem;\n}\n\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\np {\n  margin-top: 0.32rem;\n  margin-bottom: 0.32rem;\n}\n\np:first-child {\n  margin-top: 0.16rem;\n}\n\n.white-space-preserve {\n  white-space-collapse: preserve;\n}\n\ndiv.principal-content {\n  /*margin-top: 0.5rem;*/\n}\n\ndiv.one-in-seq-wrapper {\n  margin-inline-start: 0.4rem;\n  max-width: 96%;\n  max-width: max(96%, 100% - 1rem);\n}\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-involvement-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-websummary-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntd.group-ref-primary.group-ref-scroll .principal-content {\n  max-height: 20rem;\n  overflow-y: scroll;\n}\n\nh1, h2, h3 {\n  color: #2c3e50;\n  border-bottom: 1px solid #eee;\n  padding-bottom: 5px;\n}\n\n.tg-img, .tg-video {\n  max-width: 20rem;\n  max-height: 40rem;\n}\n\na.tag-link {\n\n}\n\n.tag-wrapper {\n  margin-right: 0.6rem;\n}\n\n\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n.tidbit-value.white-space-preserve {\n  white-space: pre-wrap;\n  font-family: monospace;\n}\n\n.tidbit-value {\n}\n\n.tidbit-key {\n  font-weight: bold;\n  flex-shrink: 1;\n  margin-inline-end: 0.6rem;\n  min-width: 7.6rem;\n}\n\n.tidbit-key::after {\n  content: ': ';\n}\n\n.tidbit-pair {\n  display: flex;\n}\n\nblockquote {\n  margin: 0.1rem 0;\n  padding: 0.1rem 0.2rem 0.1rem 0.8rem;\n  background-color: #fafafa;\n\n  border: 1px solid #6e6e6e;\n  border-left: 5px solid #6e6e6e;\n}\n\na.md-attach {\n  display: block;\n  width: fit-content;\n}\n\n.md-attach img {\n  display: inline;\n}\n\nhr.sep-in-seq {\n  margin-block-start: 0.75rem;\n  margin-block-end: 0.75rem;\n}\n\ndiv.ref-marker {\n  letter-spacing: -0.08rem;\n  margin-right: 0.4rem;\n  font-weight: bold;\n  margin-top: 0.8rem;\n  display: inline-block;\n}\n\ndiv.asset-info-line {\n  margin-bottom: 0.2rem;\n}\n\n"
 
   var tkStyleContent = getCookie('tkStyle');
   var tkStyleElement = document.createElement('style');
@@ -318,6 +322,277 @@ div.ref-marker {
 </script>
 <main>
 <div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-27_01.03.08">2025-10-27_01.03.08</a> <span>2025-10-27 01:03:08 UTC+8</span></div>
+</div>
+
+      
+          <div class="group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>不是，找了个没收录过的URL试了下，怎么感觉IA和AT的这两个api都没用啊，提交了后还是反查不到，还是说要排队？不管了，反正已经提交获取到200返回，尽最大努力了，它收不收录是它的事。</p>
+
+
+</div>
+</div>
+</div>
+
+          </div>
+      <table class="group-layout">
+          
+          <tr class="group-layout group-ref-primary group-asset">
+          <td class="group-layout group-ref-primary group-asset" colspan=&#34;2&#34;><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-27_00.56.34">2025-10-27_00.56.34</a> <span>2025-10-27 00:56:34 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>好了，我弄通了在手机上给网页机翻+留档的流程：</p>
+<ul>
+<li>使用Ultimatum，较新版Android Chromium系浏览器安装扩展插件的唯一办法。虽然作者现在不更了。</li>
+<li>安装SingleFile-MV3、ScriptCat、ScTranslator。</li>
+<li>最重要的：SingleFile把misc-save in background关掉，否则下载报错。SingleFile通过导出配置，编辑，导入的方式把userscript隐藏选项打开。</li>
+<li>ScriptCat安装Eruda UserScript，方便随时开控制台。写一个SingleFile事件处理器，保存前先将当前网页请求留档到Internet Archive和archive.today。</li>
+<li>done。现在可以先打开网页，点工具栏ScTranslator全文翻译，然后点一下SingleFile，网页就被抓下来提示保存到本地了。</li>
+</ul>
+
+
+</div>
+</div>
+</div>
+
+          </td>
+          </tr>
+
+      </table>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-27_00.49.44">2025-10-27_00.49.44</a> <span>2025-10-27 00:49:44 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>这个博客的其他文章好像特别喜欢不说人话，which让我比较在意</p>
+<p>The Great SaaS-Lighting: How IT Users Got Gaslit – Unworkable Ideas - <a href="https://unworkableideas.com/the-great-saas-lighting-how-it-users-got-gaslit/" target="_blank">https://unworkableideas.com/the-great-saas-lighting-how-it-users-got-gaslit/</a></p>
+<p><a href="/miscMedia/SlipBox_7uewgqdg_0_The%20Great%20SaaS-Lighting%EF%BC%9A%20How%20IT%20Users%20Got%20Gaslit%20%E2%80%93%20Unworkable%20Ideas%20(2025_10_27%2000%EF%BC%9A48%EF%BC%9A15).html" class="md-attach md-attach-file-link" target="_blank">留档</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-26">misc/tg/2025-10-26</a> / <a href="/misc/tg/2025-10-26/2025-10-26_20.45.08">2025-10-26_20.45.08</a> <span>2025-10-26 20:45:08 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/iAppleTime">#iAppleTime</a></span>
+    </div>
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">the state of apple intelligence in the year 2025</div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5181742747319208743.png" title="Telegram media id 5181742747319208743" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-26">misc/tg/2025-10-26</a> / <a href="/misc/tg/2025-10-26/2025-10-26_20.42.58">2025-10-26_20.42.58</a> <span>2025-10-26 20:42:58 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
+    </div>
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/getoutforchina" title="Telegram PeerChannel handle: getoutforchina" data-title="tg:getoutforchina">今天你想跑路了吗？？</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><b>美国密歇根州提案禁止</b> <b>VPN
+</b>
+美国密歇根州共和党议员提出《反公共道德堕落法案》，拟禁止民众使用虚拟专用网络（VPN）、代理服务器及加密隧道访问被认定为“腐蚀道德”的网络内容，其中包括色情、ASMR及涉及跨性别者的内容。若通过，这将成为美国首个禁止VPN的州法案。
+
+该法案引发广泛反对，维权组织Fight for the Future发起“VPN行动日”，已有逾1.5万人签署公开信，呼吁保护用户网络隐私与访问自由。专家指出，VPN不仅用于绕过审查，也在网络安全、防止数据泄露等方面发挥关键作用。
+
+这下殊途同归了</div>
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-26_20.11.53">2025-10-26_20.11.53</a> <span>2025-10-26 20:11:53 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Any decent error message is a kind of oracle — Digital Seams - <a href="https://digitalseams.com/blog/any-decent-error-message-is-a-kind-of-oracle" target="_blank">https://digitalseams.com/blog/any-decent-error-message-is-a-kind-of-oracle</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-26_17.26.53">2025-10-26_17.26.53</a> <span>2025-10-26 17:26:53 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>笑死我了，llama.cpp自带的那个Web界面刷新内容会让Chromium吃死GPU，查了半天为什么模型跑起来卡卡的结果发现GPU占用最多的不是模型自己</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-26">misc/tg/2025-10-26</a> / <a href="/misc/tg/2025-10-26/2025-10-26_13.38.11">2025-10-26_13.38.11</a> <span>2025-10-26 13:38:11 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/noticeboardthings" title="Telegram PeerChannel handle: noticeboardthings" data-title="tg:noticeboardthings">布告栏上的贴纸</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">笑话成真了🤣
+
+中国 BIOS 新标准「UBIOS」正式发布，这一标准将带来哪些影响？ - 地狱少年丶的回答 - 知乎
+<a href="https://www.zhihu.com/question/1964065968503361781/answer/1964771887243560608">https://www.zhihu.com/question/1964065968503361781/answer/1964771887243560608</a>
+
+官方网站：<a href="https://www.gccorg.com/article/69/426.html">https://www.gccorg.com/article/69/426.html</a></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6327689444080684322.png" title="Telegram media id 6327689444080684322" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6327689444080684321.png" title="Telegram media id 6327689444080684321" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9ACursedKnowledge">TheDesk/MegaPost：CursedKnowledge</a> / <a href="/TheDesk/MegaPost%EF%BC%9ACursedKnowledge/2025-10-26_12.39.57">2025-10-26_12.39.57</a> <span>2025-10-26 12:39:57 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/TIL">#TIL</a></span>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/WebJs">#WebJs</a></span>
+    </div><p>如果你用浏览器JavaScript的新剪贴板粘贴API，则会发现它不仅只支持在Secure Context下使用，而且还不支持粘贴“文件”类型： <a href="https://stackoverflow.com/questions/62293013/new-clipboard-api-access-to-non-text-plain-content" target="_blank">https://stackoverflow.com/questions/62293013/new-clipboard-api-access-to-non-text-plain-content</a> ，只支持文本和图片（而且不能是本地复制图片文件后粘贴，而是类似截图后粘贴才行）。而且Chrome已经明确这一点Won't fix： <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=897289" target="_blank">https://bugs.chromium.org/p/chromium/issues/detail?id=897289</a></p>
+<p>但是如果用老API（paste事件），则一切完美运作。越适配新标准越当孙子</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9ACursedKnowledge">TheDesk/MegaPost：CursedKnowledge</a> / <a href="/TheDesk/MegaPost%EF%BC%9ACursedKnowledge/2025-10-26_12.37.50">2025-10-26_12.37.50</a> <span>2025-10-26 12:37:50 UTC+8</span></div>
+</div>
+
+      
+          <div class="group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>当然了当然了！我们当然也要有这个CursedKnowledge页，否则对不起我这个一路走来被无数克系知识和nuances侵蚀过的脑子和心智。</p>
+<p>要注意，这个Cursed Knowledge和“知识的诅咒”这个概念本身没有特别联系/有一定差异。</p>
+
+
+</div>
+</div>
+</div>
+
+          </div>
+      <div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/misc/tg/2025-10-06">misc/tg/2025-10-06</a> / <a href="/misc/tg/2025-10-06/2025-10-06_10.50.53">2025-10-06_10.50.53</a> <span>2025-10-06 10:50:53 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/reorx_share" title="Telegram PeerChannel handle: reorx_share" data-title="tg:reorx_share">Reorx’s Forge</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">Immich 有个 Cursed Knowledge, 是其维护者们收集的开发过程中遇到的各种恶心的坑，这些坑并非单纯的难以解决或影响严重，而是反直觉或者让人感到「不该如此」，虽然花了大量时间解决，却让人感到痛苦远大于成就。回顾我记录过的一些 <code>#issue-log</code>, 也有不少这种被诅咒的知识，你有遇到过哪些，来一起分享下
+
+<a href="https://immich.app/cursed-knowledge">https://immich.app/cursed-knowledge</a></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5983228922294291733.png" title="Telegram media id 5983228922294291733" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-26">misc/tg/2025-10-26</a> / <a href="/misc/tg/2025-10-26/2025-10-26_11.12.10">2025-10-26_11.12.10</a> <span>2025-10-26 11:12:10 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/jisfw" title="Telegram PeerChannel handle: jisfw" data-title="tg:jisfw">〄FW</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6334688973757812160.png" title="Telegram media id 6334688973757812160" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-26">misc/tg/2025-10-26</a> / <a href="/misc/tg/2025-10-26/2025-10-26_11.09.25">2025-10-26_11.09.25</a> <span>2025-10-26 11:09:25 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/yahnc" title="Telegram PeerChannel handle: yahnc" data-title="tg:yahnc">Hacker News</a> (<span class="tg-author">yahnc_bot</span>)
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><b>Against SQL (2021)</b>  <a href="https://www.scattered-thoughts.net/writing/against-sql/">https://www.scattered-thoughts.net/writing/against-sql/</a></div>
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-26_10.51.08">2025-10-26_10.51.08</a> <span>2025-10-26 10:51:08 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Tarmageddon: RCE vulnerability highlights challenges of open source abandonware Tamageddon: RCE 漏洞突出开源弃用软件的挑战 - <a href="https://edera.dev/stories/tarmageddon" target="_blank">https://edera.dev/stories/tarmageddon</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-25">misc/tg/2025-10-25</a> / <a href="/misc/tg/2025-10-25/2025-10-25_23.18.40">2025-10-25_23.18.40</a> <span>2025-10-25 23:18:40 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans">
@@ -479,7 +754,7 @@ div.ref-marker {
 <li>&quot;<code>font.name-list.monospace.zh-CN</code>&quot; is &quot;<code>NSimSun, SimSun, MS Song, SimSun-ExtB</code>&quot; by default on ff</li>
 <li><a href="https://issues.chromium.org/issues/41104519" target="_blank">https://issues.chromium.org/issues/41104519</a></li>
 </ul>
-<p>所以本站所有目前<code>lang=&quot;zh-Hans&quot;</code>下的<code>font-family: monospace</code>（等宽字体 Fixed-width font）内容仍然是宋体，如： <span style="font-family:monospace;">这是一段等宽字体文字</span> ，没有任何浏览器内建设置可供调整，唯一调整办法是用<a href="/styleCustomizer" target="_blank">/styleCustomizer</a>或者UserScript或者UserStyle自定义页面样式。</p>
+<p>所以本站所有目前<code>lang=&quot;zh-Hans&quot;</code>下的<code>font-family: monospace</code>（等宽字体 Fixed-width font）在Windows下内容仍然是宋体，如： <span style="font-family:monospace;">这是一段等宽字体文字</span> ，没有任何浏览器内建设置可供调整，唯一调整办法是用<a href="/styleCustomizer" target="_blank">/styleCustomizer</a>或者UserScript或者UserStyle自定义页面样式。</p>
 
 
 </div>
@@ -969,413 +1244,6 @@ T+1h，我们所有关联的核心 infra，RDS/ES/Redis 都 stand by，并且按
 差不多就是这样，一点分享，希望能帮到大家</div>
     </td></tr>
   </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-21">misc/tg/2025-10-21</a> / <a href="/misc/tg/2025-10-21/2025-10-21_19.39.40">2025-10-21_19.39.40</a> <span>2025-10-21 19:39:40 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gaojiriji" title="Telegram PeerChannel handle: gaojiriji" data-title="tg:gaojiriji">搞机日记</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://fxtwitter.com/hoenheimer/status/1980181754146369570">https://fxtwitter.com/hoenheimer/status/1980181754146369570</a></div>
-      
-        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
-          <a target="_blank" href="https://fxtwitter.com/hoenheimer/status/1980181754146369570">FxTwitter</a>
-          <h6>张张张子恒 (@Hoenheimer)</h6>
-          <p>Only Apple Can Do.</p>
-            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6031648734321949382.png" title="Telegram wepbage media id 6031648734321949382" alt="A picture related to current telegram webpage message. No more alt detail for now." />
-        </td></tr></table>
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-21">misc/tg/2025-10-21</a> / <a href="/misc/tg/2025-10-21/2025-10-21_19.33.53">2025-10-21_19.33.53</a> <span>2025-10-21 19:33:53 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/dai_daily" title="Telegram PeerChannel handle: dai_daily" data-title="tg:dai_daily">💈就在这理发店💈</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6321147543168945303.png" title="Telegram media id 6321147543168945303" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-21">misc/tg/2025-10-21</a> / <a href="/misc/tg/2025-10-21/2025-10-21_19.28.17">2025-10-21_19.28.17</a> <span>2025-10-21 19:28:17 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/reorx_share" title="Telegram PeerChannel handle: reorx_share" data-title="tg:reorx_share">Reorx’s Forge</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">教科书般的故障应对，kudos!
-
-<a href="https://t.me/ManjusakaH/578">https://t.me/ManjusakaH/578</a></div>
-      
-        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
-          <a target="_blank" href="https://t.me/ManjusakaH/578">Telegram</a>
-          <h6>Manjusaka 的碎碎念（以及摇曳露营 S4 制作确定！）</h6>
-          <p>简单复盘一下 AWS 这次事件作为一个 AIGC Startup SRE 的一些操作吧，希望能帮到大家
-从入职开始发现我们主要的集群在 USE1 之后，我就开始做一些准备了。
-我主要做的事情有这几件事
-1. 将我们核心的几个数据库做了多地的备份，形成了 USE1，Tokyo，SG 三地备份。这样在极端情况下，我们损失一部分数据，但是也能保证服务的继续
-2. 将我们 SG 的测试集群从原本的 EC2 自己简单搭的 K3S，重构为了一个标准的 AWS EKS 集群。这样可以在灾害时刻快速 warmup 一个集群，复用 AWS 已有组件。将 manifest 变更的代价降至最小
-3. 简单梳理了一个 SOP，包含用户公告，DNS 切换，封版等事宜
-
-回到今天，我大概在 AWS 事故发生后的10min，发现了我们容器中有新的 Pod 无法 setup。
-
-在和 AWS 支持确认是 USE1 的问题后，我意识到 ECR 的事件必然关联其余事件，于是我就果断按照我自己规划的 Tier1 等级事件开始处理（对于 SRE 来说，这种事情宁可错，但是不能错过）
-
-T+0 min，我发布了全员公告，开始进入紧急模式。我 setup 了一个全员公开会议。所有人员可以随时加入
-T+2 min，我确认事件如我所预期的一样，在逐渐扩大，我发出了两个指令，1. 全线禁止任何代码合入/提交（主要是避免新创建资源会导致 Pod rotate 进而影响流量），2. 请运营同学准备公告
-T+3 min, 我开始按照 SOP，开始进行数据库在 SG 区域的恢复，并且级联创建诸如 OpenSearch / Redis 等在内的依赖
-T+5 min，我们开始正式的确认上下游依赖的具体问题，确认一个新上线的核心服务受到影响
-T+10min，我们停服公告和其余服务的受影响公告发出
-T+10min，我请另外两位同时协助 setup 新的 ECR 以及清理测试环境已有资源，并同步 CTO ，在极端情况下，我们可能会存在保体验，丢数据的决策。
-T+15min， 我们最终确认目前已创建的资源以及流量入方向不会受到太大影响。切换方案挂起，但是我们继续准备相关资源
-T+30min，我们第一个数据库恢复完毕
-T+40min，我们第二个数据库恢复完毕
-T+1h，我们所有关联的核心 infra，RDS/ES/Redis 都 stand by，并且按照生产架构设置主从等优化选项…</p>
-        </td></tr></table>
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-21">misc/tg/2025-10-21</a> / <a href="/misc/tg/2025-10-21/2025-10-21_19.25.06">2025-10-21_19.25.06</a> <span>2025-10-21 19:25:06 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>草</p>
-
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/reorx_share" title="Telegram PeerChannel handle: reorx_share" data-title="tg:reorx_share">Reorx’s Forge</a>
-      <table class="tg-involvement-layout"><tr class="tg-involvement-layout"><td  class="tg-involvement-layout tg-involvement-type">
-      <span class="tg-involvement-type">[Re]</span>
-      </td><td class="tg-involvement-layout tg-involvement-body"><a target="_blank" href="https://t.me/suibian_tietie" title="Telegram PeerChannel handle: suibian_tietie" data-title="tg:suibian_tietie">ニヤニヤ的随便贴贴</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">等等 突然想到
-
-GitHub 封存在南极的代码是保存完整的前LLM时代资料</div>
-      </td></tr></table>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">”低本底代码”</div>
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-21">misc/tg/2025-10-21</a> / <a href="/misc/tg/2025-10-21/2025-10-21_19.24.09">2025-10-21_19.24.09</a> <span>2025-10-21 19:24:09 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a> (<span class="tg-author">GM</span>)
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6030826879444961758.png" title="Telegram media id 6030826879444961758" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-21">misc/tg/2025-10-21</a> / <a href="/misc/tg/2025-10-21/2025-10-21_19.21.35">2025-10-21_19.21.35</a> <span>2025-10-21 19:21:35 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body">谭家胖的自留地🫸🎨😳 📺🫷
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">翻相册翻到这张，这是当年在做某一期内容的时候，特别受触动然后保存的一张照片。
-
-某个消费者很开心地将这个照片发布在了拼多多上的二手组装电视的评论区。而这样的垃圾电视当时正在拼多多泛滥。
-
-利用旧零部件组装电视，卖小米电视的价格，再通过虚报尺寸获得对品牌机的营销优势。而无数下沉市场的群众在拼多多上搜索电视的时候，优先看到的就是这一类假王牌拼多多电视。
-
-评论者和他的孩子应该很高兴家里多了一台 65、75 寸大电视，他们没心机去量电视的对角线，这也不是普通消费者的责任。
-
-看着这张图片里面兴奋的眼神，我真的到现在都感到无比愧疚。
-
-因为墙上挂的是一台 65 装 75，43 装 65 的、用回收料后壳加上拆机屏幕组成的一台电视。
-这些电视显示不佳、易燃、易损。
-
-而我始终觉得自己有责任。
-
-这些在广州白云和番禺的吸血鬼，通过在上海的一群伟大而体面的人，吸吮着全国无数农村和乡镇消费者的骨血，继续着整个劫贫济富的主线剧情。
-
-而那群体面的人，从这片血海中一瓢一瓢地舀起并吞下。这还嫌不够，那些为他们创造了财富的下属，却连基本的需求都不能满足，整层人共享着少得可怜的厕所，人被逼到在坑位外面拉屎。
-
-我真的不知道拼多多对我的乡亲们有什么好处，真的；就像我不知道仅退款对整个行业有什么好处一样。
-
-当我在拼多多上买到假的小米排插、假的小米充电版（是的小米是重灾区）、假冒伪劣拼多多电视的时候，仅退款怎么就没有弹出来呢？怎么就要我上黑猫，上 12315 投诉呢？我们只是上网说了事实，怎么就给我们发律师函呢？
-
-画面上这个女孩应该是小学年纪，现在应该已经快要接受高等教育，或者出来工作了，以中国家庭的节俭程度，他们大概率还在用这一台电视……</div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6320870199950773217.png" title="Telegram media id 6320870199950773217" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-21">misc/tg/2025-10-21</a> / <a href="/misc/tg/2025-10-21/2025-10-21_18.52.31">2025-10-21_18.52.31</a> <span>2025-10-21 18:52:31 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/laoself" title="Telegram PeerChannel handle: laoself" data-title="tg:laoself">Laoself 🦠</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">我覺得這些年讓人覺得軟體品質下降的最大原因，還是軟體要處理的不同狀態實在是太多了。
-iPhone 4S年代，iOS只有兩種熒幕邏輯尺寸（iPhone和iPad），只有一種硬體按鍵佈局（switch+volume+home button），app只能full screen（不管是iPad還是iPhone），沒有Dark Mode，沒有除了系統app和個別API墓碑特例以外的背景駐留，沒有第三方提供的share extension（分享全靠系統內建），設定app在3.5吋的iPhone 4S上除了首頁基本上都在兩屏以內。
-過去擔心素材需要一個@2x，現在雖然可以給svg/pdf，但是要考慮dark mode、increased contrast、reduced opacity、bold text、dynamic type，以及至少三種iPhone size、iPad上fullscreen、sliderover、windowed。
-多一個系統級的on/off選項就會造成多一倍的需要測試驗收的狀態，是指數增長。Apple在sherlock越獄插件的同時，實際上把iOS本身變成了一個打滿越獄補丁和模組的怪獸。</div>
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-21">misc/tg/2025-10-21</a> / <a href="/misc/tg/2025-10-21/2025-10-21_14.49.33">2025-10-21_14.49.33</a> <span>2025-10-21 14:49:33 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>应得的</p>
-
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/ycombinatornews" title="Telegram PeerChannel handle: ycombinatornews" data-title="tg:ycombinatornews">YCombinator News</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><b>Postman which I thought worked locally on my computer, is down</b>
-<i>300 points by helloguillecl  ago | 139 comments</i>
-<a href="https://news.ycombinator.com/item?id=45645172">https://news.ycombinator.com/item?id=45645172</a></div>
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-20">misc/tg/2025-10-20</a> / <a href="/misc/tg/2025-10-20/2025-10-20_17.11.06">2025-10-20_17.11.06</a> <span>2025-10-20 17:11:06 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/haruhi_collections" title="Telegram PeerChannel handle: haruhi_collections" data-title="tg:haruhi_collections">Haruhi的技术收藏</a> (<span class="tg-author">Haruhi</span>)
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://www.uber.com/en-HK/blog/postgres-to-mysql-migration/">https://www.uber.com/en-HK/blog/postgres-to-mysql-migration/</a></div>
-      
-        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
-          <a target="_blank" href="https://www.uber.com/en-HK/blog/postgres-to-mysql-migration/"></a>
-          <h6></h6>
-          <p></p>
-        </td></tr></table>
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-20_12.37.17">2025-10-20_12.37.17</a> <span>2025-10-20 12:37:17 UTC+8</span> <a target="_blank" href="/SlipBox/2025-10-20_12.37.17" title="Go to detail page for more information.">*</a></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>US Government Uptime Monitor 美国政府正常运行时间监控器 - <a href="https://usa-status.com/" target="_blank">https://usa-status.com/</a></p>
-<p>草</p>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-20_01.51.50">2025-10-20_01.51.50</a> <span>2025-10-20 01:51:50 UTC+8</span></div>
-</div>
-
-      
-          <div class="group-asset"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>这篇的存档，AI生成的作品。</p>
-<p>可怕的是人的神经结构是否确实允许会如作品中所说的认知方式的根本性改变？</p>
-<p><a href="/miscMedia/SlipBox_6w18xwaj_0_(1)%20Tz%20on%20X%EF%BC%9A%20%EF%BC%82%E3%80%8A%E8%AE%A4%E7%9F%A5%E7%9A%84%E8%BF%9C%E7%82%B9%E3%80%8B_%E4%B8%80_%E6%88%91%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%84%8F%E8%AF%86%E5%88%B0%E8%AF%AD%E8%A8%80%E5%87%BA%E4%BA%86%E9%97%AE%E9%A2%98%EF%BC%8C%E6%98%AF%E5%9C%A8%E7%BB%99%E5%84%BF%E5%AD%90%E6%A3%80%E6%9F%A5%E4%BD%9C%E6%96%87%E7%9A%84%E6%97%B6%E5%80%99%E3%80%82_%E9%82%A3%E6%98%AF%E4%B8%80%E7%AF%87%E5%85%B3%E4%BA%8E%EF%BC%82%E6%97%B6%E9%97%B4%EF%BC%82%E7%9A%84%E5%91%BD%E9%A2%98%E4%BD%9C%E6%96%87%E3%80%82%E4%BB%96%E5%86%99%E9%81%93%EF%BC%9A%E2%80%A6.html" class="md-attach md-attach-file-link" target="_blank">SlipBox_6w18xwaj_0_(1) Tz on X： ＂《认知的远点》_一_我第一次意识到语言出了问题，是在给儿子检查作文的时候。_那是一篇关于＂时间＂的命题作文。他写道：….html</a></p>
-
-
-</div>
-</div>
-</div>
-
-          </div>
-      <div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/misc/tg/2025-10-19">misc/tg/2025-10-19</a> / <a href="/misc/tg/2025-10-19/2025-10-19_15.36.28">2025-10-19_15.36.28</a> <span>2025-10-19 15:36:28 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/ningxueye" title="Telegram PeerChannel handle: ningxueye" data-title="tg:ningxueye">ARCADIA</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://fixupx.com/tz_2022/status/1973811468446609746?s=46">https://fixupx.com/tz_2022/status/1973811468446609746?s=46</a></div>
-      
-        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
-          <a target="_blank" href="https://fixupx.com/tz_2022/status/1973811468446609746?s=46">🧵 Thread • FixupX</a>
-          <h6>Tz (@Tz_2022)</h6>
-          <p>《认知的远点》
-
-一
-
-我第一次意识到语言出了问题，是在给儿子检查作文的时候。
-
-那是一篇关于&#34;时间&#34;的命题作文。他写道：&#34;时间不是流动的。是我们的记忆编码方式让我们产生了流动的幻觉。&#34;这个观点本身不算新颖，但接下来的句子让我停顿了：
-
-&#34;当信息密度超过阈值，时间感会坍缩。十五秒可以包含过去需要一小时传递的信息量。这不是时间变慢了，是带宽变宽了。&#34;
-
-我是认知语言学家。我的专业训练让我立刻察觉到：这不是一个十六岁男孩的思维方式。不是说他不够聪明——相反，是这种思维太过高效。他跳过了所有人类认知中必需的&#34;理解阶梯&#34;，直接抵达了结论。
-
-就像一个人学会了瞬移，但忘记了行走的意义。
-
-&#34;你是怎么想到这个的？&#34;我问。
-
-他看着我，眼神里有短暂的困惑——仿佛不理解&#34;怎么想到&#34;这个问题本身。最后他说：&#34;我没有想。我只是知道。&#34;
-
-那是2025年九月。我在笔记本上记录下这次对话，并标注：需要观察。
-
-现在是2026年三月。我的笔记本已经写满了三本。
-
-二
-
-我开始系统地测试儿子的语言能力。
-
-我给他看索绪尔关于&#34;能指&#34;与&#34;所指&#34;的经典论述，问他理解吗。他读了三十秒，说：&#34;这是在描述一个单向映射系统。但现在映射是双向的，而且是动态更新的。&#34;
-
-我愣住了。不是因为他的答案错误——而是因为他用了&#34;映射&#34;和&#34;动态更新&#34;这样的计算机术语来描述语言。对他而言，这些词比&#34;意义&#34;更加精确。
-
-&#34;你还记得第一次学会&#39;苹果&#39;这个词的时候吗？&#34;我换了一个问题。
-
-他想了很久。&#34;记得。你指着一个红色的圆形物体，重复那个声音。我需要很多次才能建立连接。&#34;他顿了顿，&#34;现在我不需要这个过程了。&#34;
-
-&#34;什么意思？&#34;
-
-&#34;现在我看到一个新概念，不需要先把它翻译成语言。我可以直接……存储那个模式。&#34;
-
-我请他举例。他打开手机，给我看一个十秒钟的视频：画面里是三层同时进行的信息流——背景音乐传递情绪基调，视觉特效标注重点，文字碎片提供概念锚点。整个视频没有一个完整的句子，但传递了一个完整的论证：关于注意力经济如何重构社交关系。
-
-&#34;你看懂了吗？&#34;他问。
-
-&#34;需要暂停几次，&#34;我承认。
-
-&#34;妈妈，这就是问题，&#34;他的语气很平静，没有指责，&#34;你需要&#39;暂停&#39;。你需要把信息转换成语言，才能处理。我不需要。&#34;
-
-我问他：那你是用什么处理的？
-
-他想了很久，最后说：&#34;我不知道怎么用语言描述。因为描述本身就需要语言。&#34;
-
-那天晚上，我写下第一个真正让我不安的假设：语言可能不是认知…</p>
-            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5795270196959753470.png" title="Telegram wepbage media id 5795270196959753470" alt="A picture related to current telegram webpage message. No more alt detail for now." />
-        </td></tr></table>
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/hive/Murmur">hive/Murmur</a> / <a href="/hive/Murmur/2025-10-20_00.25.22">2025-10-20_00.25.22</a> <span>2025-10-20 00:25:22 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>在后LLM时代，非全功能/非官方/非主流的浏览器/用户代理/客户端的作用/适用范围可能越来越小了。此一对于隐私的影响。</p>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-20_00.00.26">2025-10-20_00.00.26</a> <span>2025-10-20 00:00:26 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p><a href="https://www.rich-text-to-markdown.com/" target="_blank">https://www.rich-text-to-markdown.com/</a></p>
 
 
 </div>
