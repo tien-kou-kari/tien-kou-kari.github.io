@@ -285,3 +285,9 @@ https://github.com/shunf4/Easy7-Zip-SF
 2025-10-26 17:26:53 笑死我了，llama.cpp自带的那个Web界面刷新内容会让Chromium吃死GPU，查了半天为什么模型跑起来卡卡的结果发现GPU占用最多的不是模型自己
 
 2025-10-26 20:11:53 Any decent error message is a kind of oracle — Digital Seams - https://digitalseams.com/blog/any-decent-error-message-is-a-kind-of-oracle
+
+2025-10-27 00:49:44 这个博客的其他文章好像特别喜欢不说人话，which让我比较在意
+
+The Great SaaS-Lighting: How IT Users Got Gaslit – Unworkable Ideas - https://unworkableideas.com/the-great-saas-lighting-how-it-users-got-gaslit/
+
+<a href="/miscMedia/SlipBox_7uewgqdg_0_The%20Great%20SaaS-Lighting%EF%BC%9A%20How%20IT%20Users%20Got%20Gaslit%20%E2%80%93%20Unworkable%20Ideas%20(2025_10_27%2000%EF%BC%9A48%EF%BC%9A15).html" class="md-attach md-attach-file-link" target="_blank">留档</a>
