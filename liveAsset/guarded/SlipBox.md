@@ -299,3 +299,5 @@ The Great SaaS-Lighting: How IT Users Got Gaslit – Unworkable Ideas - https://
 - 最重要的：SingleFile把misc-save in background关掉，否则下载报错。SingleFile通过导出配置，编辑，导入的方式把userscript隐藏选项打开。
 - ScriptCat安装Eruda UserScript，方便随时开控制台。写一个SingleFile事件处理器，保存前先将当前网页请求留档到Internet Archive和archive.today。
 - done。现在可以先打开网页，点工具栏ScTranslator全文翻译，然后点一下SingleFile，网页就被抓下来提示保存到本地了。
+
+2025-10-27 01:03:08 repost=guarded/SlipBox/2025-10-27_00.56.34 不是，找了个没收录过的URL试了下，怎么感觉IA和AT的这两个api都没用啊，提交了后还是反查不到，还是说要排队？不管了，反正已经提交获取到200返回，尽最大努力了，它收不收录是它的事。
