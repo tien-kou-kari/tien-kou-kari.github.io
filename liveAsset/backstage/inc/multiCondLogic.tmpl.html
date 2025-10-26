@@ -54,7 +54,7 @@ if reqQuery.spec != '' and reqQuery.spec
   endif
 
   if reqQuery.spec == 'unreleased'
-    x 'misc/Unreleased/,misc/UnreleasedSlip/' | default: '' | split: ',' | setToObj: ancestorConds, 0
+    x 'misc/Unreleased/,misc/UnreleasedSlip/,hive/Unreleased/' | default: '' | split: ',' | setToObj: ancestorConds, 0
     x 'Unreleased' | default: '' | split: ',' | setToObj: tagConds, 1
   endif
 
