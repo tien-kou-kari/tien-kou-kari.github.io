@@ -3,7 +3,7 @@ publishTime: '2025-10-26 12:36:13'
 isDerivableIntoChildren: true
 ---
 
-2025-10-26 12:37:50 repost=guarded/misc/tg/2025-10-06/2025-10-06_10.50.53 当然了当然了！我们当然也要有这个CursedKnowledge页，否则对不起我这个被知识污染过的脑子和心智。
+2025-10-26 12:37:50 repost=guarded/misc/tg/2025-10-06/2025-10-06_10.50.53 当然了当然了！我们当然也要有这个CursedKnowledge页，否则对不起我这个一路走来被无数克系知识和nuances侵蚀过的脑子和心智。
 
 要注意，这个Cursed Knowledge和“知识的诅咒”这个概念本身没有特别联系/有一定差异。
 
