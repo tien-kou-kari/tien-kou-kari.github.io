@@ -282,4 +282,4 @@ https://github.com/shunf4/Easy7-Zip-SF
 
 2025-10-26 10:51:08 Tarmageddon: RCE vulnerability highlights challenges of open source abandonware Tamageddon: RCE 漏洞突出开源弃用软件的挑战 - https://edera.dev/stories/tarmageddon
 
-2025-10-26 17:26:53 笑死我了，llama.cpp自带的那个Web界面刷新内容会让Chromium吃死CPU，查了半天为什么模型跑起来卡卡的结果发现GPU占用最多的不是模型自己
+2025-10-26 17:26:53 笑死我了，llama.cpp自带的那个Web界面刷新内容会让Chromium吃死GPU，查了半天为什么模型跑起来卡卡的结果发现GPU占用最多的不是模型自己
