@@ -156,7 +156,7 @@
     echo '</script>'
 
     assign pseudoReqQueryFlow = undefined | newObj
-    # x pseudoReqQueryFlow | objSet: 'spec', 'flow'
+    x pseudoReqQueryFlow | objSet: 'spec', 'flow'
     x pseudoReqQueryFlow | objSet: 'pageNum', 0
     x pseudoReqQueryFlow | objSet: 'pageSize', 25
     render 'all.tmpl.html', reqQuery: pseudoReqQueryFlow
