@@ -5,7 +5,9 @@ title: '关于此站'
 
 Tien-kou不是站名。它是本站底层引擎的名称，站名本身还没有确定。因此顶侧主页链接标了<span lang="ja-JP">(仮)</span>。
 
-此站是之前已流产的两个项目litel
+这个引擎是之前已流产的几个项目litel、freefalltrajectory、kowareship的延续。当我失去开发/维护这几个项目的动力后，想到Web 2.0之前/早期的时候用PHP和FTP就能创建和维护一个网站的时候。
+
+（WIP）
 
 ### Posts View
 
