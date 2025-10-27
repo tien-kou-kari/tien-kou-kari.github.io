@@ -1,9 +1,11 @@
 ---
 publishTime: '2025-09-23 00:52:52'
-title: '关于本站'
+title: '关于此站'
 ---
 
+Tien-kou不是站名。它是本站底层引擎的名称，站名本身还没有确定。因此顶侧主页链接标了<span lang="ja-JP">(仮)</span>。
 
+此站是之前已流产的两个项目litel
 
 ### Posts View
 
