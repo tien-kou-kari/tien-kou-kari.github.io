@@ -274,7 +274,9 @@ https://github.com/shunf4/Easy7-Zip-SF
 - "`font.name-list.monospace.zh-CN`" is "`NSimSun, SimSun, MS Song, SimSun-ExtB`" by default on ff
 - https://issues.chromium.org/issues/41104519
 
-所以本站所有目前`lang="zh-Hans"`下的`font-family: monospace`（等宽字体 Fixed-width font）在Windows下内容仍然是宋体，如： <span style="font-family:monospace;">这是一段等宽字体文字</span> ，没有任何浏览器内建设置可供调整，唯一调整办法是用[/styleCustomizer](/styleCustomizer)或者UserScript或者UserStyle自定义页面样式。
+所以本站所有目前`lang="zh-Hans"`下的`font-family: monospace`（等宽字体 Fixed-width font）内容仍然是宋体，如： <span style="font-family:monospace;">这是一段等宽字体文字</span> ，没有任何浏览器内建设置可供调整，唯一调整办法是用[/styleCustomizer](/styleCustomizer)或者UserScript或者UserStyle自定义页面样式。
+
+- 2025-10-27 10:59:55 更新：验证了一下，这似乎是一个仅Windows端的问题。
 
 2025-10-25 00:20:43 repost=guarded/misc/tg/2025-10-22/2025-10-22_16.58.30 本站已尝试全站内容默认添加此CSS样式。Chromium 140以上（如果没有在[/styleCustomizer](/styleCustomizer)自定义过样式）应该可以正常看到中英字符间距了。
 
@@ -296,8 +298,10 @@ The Great SaaS-Lighting: How IT Users Got Gaslit – Unworkable Ideas - https://
 
 - 使用Ultimatum，较新版Android Chromium系浏览器安装扩展插件的唯一办法。虽然作者现在不更了。
 - 安装SingleFile-MV3、ScriptCat、ScTranslator。
-- 最重要的：SingleFile把misc-save in background关掉，否则下载报错。SingleFile通过导出配置，编辑，导入的方式把userscript隐藏选项打开。
+- 最重要的：SingleFile把misc-save in background关掉，否则下载报错；下载前确认dialog也可以关掉。SingleFile通过导出配置，编辑，导入的方式把userscript隐藏选项打开。
 - ScriptCat安装Eruda UserScript，方便随时开控制台。写一个SingleFile事件处理器，保存前先将当前网页请求留档到Internet Archive和archive.today。
 - done。现在可以先打开网页，点工具栏ScTranslator全文翻译，然后点一下SingleFile，网页就被抓下来提示保存到本地了。
 
 2025-10-27 01:03:08 ref=guarded/SlipBox/2025-10-27_00.56.34 不是，找了个没收录过的URL试了下，怎么感觉IA和AT的这两个api都没用啊，提交了后还是反查不到，还是说要排队？不管了，反正已经提交获取到200返回，尽最大努力了，它收不收录是它的事。
+
+- 2025-10-27 11:00:54 更新：后续确认，AT的接口没问题，提交了之后几分钟出结果。IA调整了一下参数要求其尽快存档，如此修改了之后IA几分钟后也可成功存档。
