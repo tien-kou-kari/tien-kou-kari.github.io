@@ -305,3 +305,9 @@ The Great SaaS-Lighting: How IT Users Got Gaslit – Unworkable Ideas - https://
 2025-10-27 01:03:08 ref=guarded/SlipBox/2025-10-27_00.56.34 不是，找了个没收录过的URL试了下，怎么感觉IA和AT的这两个api都没用啊，提交了后还是反查不到，还是说要排队？不管了，反正已经提交获取到200返回，尽最大努力了，它收不收录是它的事。
 
 - 2025-10-27 11:00:54 更新：后续确认，AT的接口没问题，提交了之后几分钟出结果。IA调整了一下参数要求其尽快存档，如此修改了之后IA几分钟后也可成功存档。
+
+2025-10-28 20:49:14 #WhatIAmOntoNow #ShareAiPrompt
+
+```
+Give source code for a minimal (but complete - do not omit) and secure docker setup of Java + Maven + Tomcat + SFTP-hosted JSP (with an initial page of "Hello world"), suitable to be deployed to Fly.io .
+```
