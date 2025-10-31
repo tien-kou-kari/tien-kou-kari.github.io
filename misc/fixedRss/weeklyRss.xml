@@ -6,15 +6,36 @@
     <atom:link href="http://pseudo-tien-kou-app.home.arpa/rss?feedTitle=Tien-kou+Weekly&amp;periodType=fixedMinutes&amp;periodNumParam=10080&amp;periodDateParam=2000-01-01T06%3A30%3A00%2B08%3A00&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou Weekly Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
-        <title>Tien-kou Weekly 2025-10-18T06:30:00+08:00</title>
+        <title>Tien-kou Weekly 2025-10-25T06:30:00+08:00</title>
         <link>https://tien-kou.shunf4.workers.dev/fakefake/</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-fixedMinutes-2025-10-18T06:30:00+08:00</guid>
-        <pubDate>Sat, 18 Oct 2025 06:30:00 +0800</pubDate>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-fixedMinutes-2025-10-25T06:30:00+08:00</guid>
+        <pubDate>Sat, 25 Oct 2025 06:30:00 +0800</pubDate>
         <description><![CDATA[
 <div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-25_00.22.37">2025-10-25_00.22.37</a> <span>2025-10-25 00:22:37 UTC+8</span></div>
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-11-01">misc/tg/2025-11-01</a> / <a href="/misc/tg/2025-11-01/2025-11-01_01.59.50">2025-11-01_01.59.50</a> <span>2025-11-01 01:59:50 UTC+8</span></div>
     <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>把Chromium Hibbiki fork更到了140以上发现它已经开始block Manifest V2扩展，怒切Marmaduke fork</p>
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body">Oasis 的时光杂货店
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span><a target="_blank" href="https://t.me/ce_observe" title="Telegram PeerChannel handle: ce_observe" data-title="tg:ce_observe">每日消费电子观察</a>
+    </div> (<span class="tg-author">septs</span>)
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">研究人员在 Chromium 引擎中发现可以 30 秒耗尽内存导致死机的漏洞 但谷歌迟迟没有修复
+
+<a href="https://www.landiannews.com/archives/111050.html">https://www.landiannews.com/archives/111050.html</a>
+
+<a href="https://ygcaicn.github.io/Brash">https://ygcaicn.github.io/Brash</a> (PoC)
+
+研究人员称，攻击途径源于 <code>document.title</code> API 更新完全没有速率限制，因此攻击者可以每秒注入高达数百万次的 DOM 变更，在注入过程中阻塞主线程并干扰事件循环最终导致崩溃。</div>
+    </div></div>
+  </div>
 
 
 </div>
@@ -22,13 +43,40 @@
 </div>
 
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-25_00.20.43">2025-10-25_00.20.43</a> <span>2025-10-25 00:20:43 UTC+8</span></div>
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-11-01">misc/tg/2025-11-01</a> / <a href="/misc/tg/2025-11-01/2025-11-01_01.58.04">2025-11-01_01.58.04</a> <span>2025-11-01 01:58:04 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body">Oasis 的时光杂货店
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span>開掛之達人
+    </div>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6055096902116027042.png" title="Telegram media id 6055096902116027042" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-01_01.02.49">2025-11-01_01.02.49</a> <span>2025-11-01 01:02:49 UTC+8</span></div>
 </div>
 
       
           <div class="group-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>本站已尝试全站内容默认添加此CSS样式。Chromium 140以上（如果没有在<a href="/styleCustomizer" target="_blank">/styleCustomizer</a>自定义过样式）应该可以正常看到中英字符间距了。</p>
+<div class="lang-wrapper" lang="zh-Hans"><p>Helium说是proudly based on Ungoogled Chromium，但看起来Android端并没有很Ungoogled啊，搜索引擎有Google，也能直跳Chrome扩展商店页。但是发现了Mullvad Leta这个搜索引擎代理站，可以代理搜DuckDuckGo和Google，好东西。</p>
+<p><a href="https://leta.mullvad.net/search?q=hello" target="_blank">https://leta.mullvad.net/search?q=hello</a></p>
 
 
 </div>
@@ -37,12 +85,72 @@
 
           </div>
       <div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/misc/tg/2025-10-22">misc/tg/2025-10-22</a> / <a href="/misc/tg/2025-10-22/2025-10-22_16.58.30">2025-10-22_16.58.30</a> <span>2025-10-22 16:58:30 UTC+8</span></div>
+    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-31_23.42.18">2025-10-31_23.42.18</a> <span>2025-10-31 23:42:18 UTC+8</span></div>
     <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>终于。</p>
-<p>Chrome 140可用</p>
-<p>related: <a href="https://blog.yitianshijie.net/2023/09/13/it-is-wrong-to-add-space-between-hanzi-and-roman-letters-manually/" target="_blank">在中西文之間手動加空格是錯誤做法 – 一天世界</a></p>
+<div class="lang-wrapper" lang="zh-Hans"><p>又一个Chromium on Android with Extension Support：</p>
+<p><a href="https://github.com/jqssun/android-helium-browser" target="_blank">https://github.com/jqssun/android-helium-browser</a></p>
+<p>HN讨论：</p>
+<p><a href="https://news.ycombinator.com/item?id=45715752" target="_blank">https://news.ycombinator.com/item?id=45715752</a></p>
+<p>这可能得益于Chromium 142（？）起对移动端扩展的官方支持，谷歌官方也对支持移动端扩展的Chromium进行了官方构建发布，这个GitHub仓库将其自动获取下来发布为Release：</p>
+<p><a href="https://github.com/andrewginns/chromium-browser-snapshots-AndroidDesktop_arm64/releases" target="_blank">https://github.com/andrewginns/chromium-browser-snapshots-AndroidDesktop_arm64/releases</a></p>
 
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-01_00.44.49">2025-11-01_00.44.49</a> <span>2025-11-01 00:44:49 UTC+8</span></div>
+</div>
+
+      
+          <div class="group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>试了下，这两个浏览器在加载本地已解包的扩展程序目录后都是直接闪退，纯烂。看来现阶段少不了Ultimatum那样对扩展程序在移动端做单独适配。</p>
+
+
+</div>
+</div>
+</div>
+
+          </div>
+      <div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-31_23.42.18">2025-10-31_23.42.18</a> <span>2025-10-31 23:42:18 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>又一个Chromium on Android with Extension Support：</p>
+<p><a href="https://github.com/jqssun/android-helium-browser" target="_blank">https://github.com/jqssun/android-helium-browser</a></p>
+<p>HN讨论：</p>
+<p><a href="https://news.ycombinator.com/item?id=45715752" target="_blank">https://news.ycombinator.com/item?id=45715752</a></p>
+<p>这可能得益于Chromium 142（？）起对移动端扩展的官方支持，谷歌官方也对支持移动端扩展的Chromium进行了官方构建发布，这个GitHub仓库将其自动获取下来发布为Release：</p>
+<p><a href="https://github.com/andrewginns/chromium-browser-snapshots-AndroidDesktop_arm64/releases" target="_blank">https://github.com/andrewginns/chromium-browser-snapshots-AndroidDesktop_arm64/releases</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-31_23.42.18">2025-10-31_23.42.18</a> <span>2025-10-31 23:42:18 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>又一个Chromium on Android with Extension Support：</p>
+<p><a href="https://github.com/jqssun/android-helium-browser" target="_blank">https://github.com/jqssun/android-helium-browser</a></p>
+<p>HN讨论：</p>
+<p><a href="https://news.ycombinator.com/item?id=45715752" target="_blank">https://news.ycombinator.com/item?id=45715752</a></p>
+<p>这可能得益于Chromium 142（？）起对移动端扩展的官方支持，谷歌官方也对支持移动端扩展的Chromium进行了官方构建发布，这个GitHub仓库将其自动获取下来发布为Release：</p>
+<p><a href="https://github.com/andrewginns/chromium-browser-snapshots-AndroidDesktop_arm64/releases" target="_blank">https://github.com/andrewginns/chromium-browser-snapshots-AndroidDesktop_arm64/releases</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-31">misc/tg/2025-10-31</a> / <a href="/misc/tg/2025-10-31/2025-10-31_13.35.27">2025-10-31_13.35.27</a> <span>2025-10-31 13:35:27 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/ReadItLater_OrNever">#ReadItLater_OrNever</a></span>
+    </div>
 
   <div class="tg-wrapper-layout">
     <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
@@ -50,16 +158,15 @@
 </div>
 
     </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/mokeyjay_channel" title="Telegram PeerChannel handle: mokeyjay_channel" data-title="tg:mokeyjay_channel">moke 的 日常分享、吐槽和动态</a>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/plumzme" title="Telegram PeerChannel handle: plumzme" data-title="tg:plumzme">普拉姆的胡言乱语</a>
 
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">非常优雅的 CSS 新属性：text-autospace
-<a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-autospace">https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-autospace</a></div>
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://zexwoo.blog/posts/research/fat-cat/">https://zexwoo.blog/posts/research/fat-cat/</a></div>
       
         <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
-          <a target="_blank" href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-autospace">MDN Web Docs</a>
-          <h6>text-autospace - CSS：层叠样式表 | MDN</h6>
-          <p>text-autospace CSS 属性允许指定中日韩（CJK）字符和非中日韩字符之间的间距行为。</p>
-            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5903324384351860540.png" title="Telegram wepbage media id 5903324384351860540" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+          <a target="_blank" href="https://zexwoo.blog/posts/research/fat-cat/">浴沂咏归</a>
+          <h6>「『胖猫』跳江自杀」事件研究</h6>
+          <p>毛主席在《关心群众生活，注意工作方法》中提到：「一切工作，如果仅仅提出任务而不注意实行时候的工作方法，不反对官僚主义的工作方法而采取实际的具体的工作方法，不抛弃命令主义的工作方法而采取耐心说服的工作方法，那末，什么任务也是不能实现的。」又，毛主席 1962 年 1 月 30 日《在扩大的中央工作会议上的讲话》中提到：「总之，让人讲话，天不会塌下来，自己也不会垮台。不让人家讲话呢？那就难免有一天要垮台。」</p>
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5775234419340806993.png" title="Telegram wepbage media id 5775234419340806993" alt="A picture related to current telegram webpage message. No more alt detail for now." />
         </div></div></div>
     </div></div>
   </div>
@@ -70,7 +177,7 @@
 </div>
 
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-24">misc/tg/2025-10-24</a> / <a href="/misc/tg/2025-10-24/2025-10-24_23.05.20">2025-10-24_23.05.20</a> <span>2025-10-24 23:05:20 UTC+8</span></div>
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-31">misc/tg/2025-10-31</a> / <a href="/misc/tg/2025-10-31/2025-10-31_02.25.59">2025-10-31_02.25.59</a> <span>2025-10-31 02:25:59 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans">
 
@@ -80,24 +187,35 @@
 </div>
 
     </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/laoself" title="Telegram PeerChannel handle: laoself" data-title="tg:laoself">Laoself 🦠</a>
-      <div class="tg-involvement-layout"><div class="tg-involvement-layout"><div  class="tg-involvement-layout tg-involvement-type">
-      <span class="tg-involvement-type">[Re]</span>
-      </div><div class="tg-involvement-layout tg-involvement-body"><a target="_blank" href="https://t.me/laoself" title="Telegram PeerChannel handle: laoself" data-title="tg:laoself">Laoself 🦠</a>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gatsby_radio" title="Telegram PeerChannel handle: gatsby_radio" data-title="tg:gatsby_radio">日本華人新闻-傑士派電台-日本中文圈最大新闻频道</a>
 
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">怎麼會想到會有一天在麥當勞app上登GitHub（x
-怎麼這OAuth開發者名字叫Macdonalds（</div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6330062963267537784.png" title="Telegram media id 6330062963267537784" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><u>11/4 闭门会议“搞外国人”</u>
 
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6330062963267537785.png" title="Telegram media id 6330062963267537785" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+<i>温和的观点～</i>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+大幅提高出国税可能是最直接的办法吧。
+虽然可能会引来批评，但对于<b>非日本国籍、且不在日本居住的人</b>，应该在现有水平的基础上<b>大幅上调</b>，提高到大约<b>3万日元</b>左右比较好。
+即便如此，也不过是杯水车薪。
+就像应对物价上涨一样，今后如果日元升值，入境游客数量自然会减少。
 
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6330062963267537786.png" title="Telegram media id 6330062963267537786" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-      </div></div></div>
+另外，关于外国人获取日本土地的问题，由于已经有不少土地被外国人购入，现在只能通过<b>制定新的法律进行限制</b>，同时让<b>日元升值</b>，使得外国人更难购买日本的国土。
 
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">笑話升級：麥當勞用來認證的GitHub OAuth app被GitHub suspend了🌝🌚🌝</div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6330062963267538044.png" title="Telegram media id 6330062963267538044" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+高盛预测，今后10年内，美元兑日元汇率将会达到<b>1美元＝100日元</b>左右。
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+<i>激进的观点～</i>
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+国民所期望的外国人政策
+
+① 外国劳工仅以<b>短期工作签证</b>形式应对，<b>签证期满后必须离境</b>。
+
+② <b>废除永久居留制度和归化制度</b>，以防止移民人数继续增加。
+
+③ <b>禁止外国人取得土地和不动产</b>，防止非法开发及据点化。
+
+④ <b>在日外国人总量以不超过1%为目标</b>。
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝</div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6062003235301559387.png" title="Telegram media id 6062003235301559387" alt="A picture from Telegram, related to current message. No more alt detail for now." />
     </div></div>
   </div>
 
@@ -107,20 +225,547 @@
 </div>
 
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-24_21.52.18">2025-10-24_21.52.18</a> <span>2025-10-24 21:52:18 UTC+8</span></div>
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-31">misc/tg/2025-10-31</a> / <a href="/misc/tg/2025-10-31/2025-10-31_02.21.23">2025-10-31_02.21.23</a> <span>2025-10-31 02:21:23 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/laozhoubuluo_opcenter" title="Telegram PeerChannel handle: laozhoubuluo_opcenter" data-title="tg:laozhoubuluo_opcenter">老周部落运营中心</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">随着 Firefox 146 在今天正式启用 CSS text-autospace 属性，主流三大浏览器都已经支持中英文自动增加空白。注意，该特性默认没有启用，是时候你的页面中开启了！
+
+<blockquote>:root { text-autospace: normal; }</blockquote>
+
+<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1981086">https://bugzilla.mozilla.org/show_bug.cgi?id=1981086</a>
+
+Ref: <a href="https://x.com/yisibl/status/1979132340942041270">https://x.com/yisibl/status/1979132340942041270</a></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6060069778463853771.png" title="Telegram media id 6060069778463853771" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-31">misc/tg/2025-10-31</a> / <a href="/misc/tg/2025-10-31/2025-10-31_01.56.40">2025-10-31_01.56.40</a> <span>2025-10-31 01:56:40 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/im_roriri" title="Telegram PeerChannel handle: im_roriri" data-title="tg:im_roriri">螺莉莉的黑板报</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://www.thiings.co/things/century-egg">https://www.thiings.co/things/century-egg</a>
+
+这图标库是不是有点太全了……</div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://www.thiings.co/things/century-egg">www.thiings.co</a>
+          <h6>Century Egg | Thiings Collection</h6>
+          <p>Download the free 3D icon. A century egg is a Chinese delicacy made by preserving duck, chicken, or quail eggs in a mixture of clay, ash, salt, quicklime, and rice hulls for several weeks to months. The process transforms the egg yolk into a creamy, dark green or gray color and the white into a translucent brown jelly, giving it a unique flavor and aroma.</p>
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5772893945632328833.png" title="Telegram wepbage media id 5772893945632328833" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-30">misc/tg/2025-10-30</a> / <a href="/misc/tg/2025-10-30/2025-10-30_17.04.41">2025-10-30_17.04.41</a> <span>2025-10-30 17:04:41 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-4900321616613542717.png" title="Telegram media id 4900321616613542717" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-30">misc/tg/2025-10-30</a> / <a href="/misc/tg/2025-10-30/2025-10-30_10.54.05">2025-10-30_10.54.05</a> <span>2025-10-30 10:54:05 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/landiansub" title="Telegram PeerChannel handle: landiansub" data-title="tg:landiansub">蓝点网订阅频道</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">#网站应用 <b>社交媒体网站 X 将彻底停用 Twitter[.]com 域名，已经绑定通行密钥的用户必须解绑重新绑定，否则将无法正常登录账户。</b>
+
+当然如果已经开通其他 2FA 验证也是可以的，这样可以单独解绑现有通行密钥继续使用，如果你使用 Yubikey 之类的硬件密钥也记得解绑重新绑定。
+
+查看全文：<a href="https://ourl.co/111024">https://ourl.co/111024</a>
+
+<tg-emoji emoji-id="undefined">🎲</tg-emoji> <a href="https://t.me/landiansub">订阅频道</a> <tg-emoji emoji-id="undefined">🎲</tg-emoji> <a href="https://x.com/landiantech">蓝点网</a> <tg-emoji emoji-id="undefined">✅</tg-emoji><a href="https://t.me/landiansub/12423">99元/年CN2服务器</a></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6053009389100141396.png" title="Telegram media id 6053009389100141396" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-30">misc/tg/2025-10-30</a> / <a href="/misc/tg/2025-10-30/2025-10-30_10.53.46">2025-10-30_10.53.46</a> <span>2025-10-30 10:53:46 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/projectxtls" title="Telegram PeerChannel handle: projectxtls" data-title="tg:projectxtls">Project X Channel</a>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://github.com/XTLS/BBS/issues/2">GitHub</a>
+          <h6>根据“2025年第五届全国刑事技术技能比武个人赛题目”分析为什么不应该使用 Shadowsocks、VMess 等不具有“客户端配置安全”的加密方式 · Issue #2 · XTLS/BBS</h6>
+          <p>有人给我分享了一份被 archive 的题目 https://archive.fo/rYnom ，“电子物证-手机部分”第 20 题： 20、(1 分)根据小米手机备份分析，在app“v2rayNG”中类型为“VLESS”的代理有多少个?[答案格式:101][手机取证] 继上次中国电信把 Xray-core 塞进 APP 后，这次公安部把 VLESS 塞进试题里了 无关政治，只谈技术攻防：即...</p>
+        </div></div></div>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://github.com/XTLS/BBS/issues/2">https://github.com/XTLS/BBS/issues/2</a>
+
+<blockquote><del>继上次中国电信把 Xray-core 塞进 APP 后，这次公安部把 VLESS 塞进试题里了</del></blockquote>
+<del>
+</del><blockquote><del>更要命的是现在的“中转机场”全是 Shadowsocks 还用得贼心安理得，用户还觉得自己是“优质线路”的人上人，还有一些不懂协议原理的周边开发者瞎几把点评什么协议是好的，技术细节吧又说不出个所以然全凭个人喜好，一言难尽</del></blockquote>
+
+<blockquote><b>省墙不封你 SS 你也用得开心，殊不知拿你密码来解密其实是上了试卷的基本操作</b></blockquote></div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-30">misc/tg/2025-10-30</a> / <a href="/misc/tg/2025-10-30/2025-10-30_09.41.21">2025-10-30_09.41.21</a> <span>2025-10-30 09:41:21 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/vps_xhq" title="Telegram PeerChannel handle: vps_xhq" data-title="tg:vps_xhq">VPS信号旗播报</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><b>微软 Azure 云服务在凌晨发生故障</b>
+
+微软 Azure Front Door (AFD) 服务因一次意外的内部配置更改错误导致大量 AFD 节点（CDN服务器）无法正常工作。
+
+由于 AFD 是许多其他 Azure 服务（如 Azure 门户、Azure AD B2C、Azure SQL 数据库等）依赖的核心服务，故障迅速蔓延至下游，导致广泛的延迟、超时和连接错误。
+
+微软初步追溯事故的原因是一个有缺陷的部署流程，其中的一个软件缺陷导致安全验证机制失效，使得错误配置得以部署。
+
+该故障从29日23:45(UTC+8)开始出现，至30日08:05(UTC+8)修复，历时8个小时。虽然此次故障波及面比上次AWS故障来得小，但也导致大量应用无法使用。据了解追踪网络中断的网站 Downdetector 上用户报告的报告，Office 365、Minecraft、Xbox Live、Copilot、Costco、星巴克和许多其他服务都出现了问题，荷兰全国火车系统因此停摆了数个小时。
+
+[消息等级 Level C · 一般]</div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-30">misc/tg/2025-10-30</a> / <a href="/misc/tg/2025-10-30/2025-10-30_09.41.15">2025-10-30_09.41.15</a> <span>2025-10-30 09:41:15 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body">2.5次元日常
+      <div class="tg-involvement-layout"><div class="tg-involvement-layout"><div  class="tg-involvement-layout tg-involvement-type">
+      <span class="tg-involvement-type">[Re]</span>
+      </div><div class="tg-involvement-layout tg-involvement-body">2.5次元日常
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">全家福</div>[[ Telegram document (image_2025-10-30_03-23-09.png, 1121534 bytes) - Non-downloadable here ]]
+      </div></div></div>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><del>OTA了Azure</del></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5194936822424274594.png" title="Telegram media id 5194936822424274594" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-30">misc/tg/2025-10-30</a> / <a href="/misc/tg/2025-10-30/2025-10-30_09.32.49">2025-10-30_09.32.49</a> <span>2025-10-30 09:32:49 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-4900321616613542706.png" title="Telegram media id 4900321616613542706" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-29">misc/tg/2025-10-29</a> / <a href="/misc/tg/2025-10-29/2025-10-29_22.00.36">2025-10-29_22.00.36</a> <span>2025-10-29 22:00:36 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/prdm_thoughts" title="Telegram PeerChannel handle: prdm_thoughts" data-title="tg:prdm_thoughts">Pseudorandom Thoughts</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://blog.zhilu.site/2025/unpopular-blog-tech">https://blog.zhilu.site/2025/unpopular-blog-tech</a></div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://blog.zhilu.site/2025/unpopular-blog-tech">纸鹿摸鱼处</a>
+          <h6>谈谈不受欢迎的博客技术特征 | 纸鹿摸鱼处</h6>
+          <p>从弹窗干扰到服务滥用，文章剖析博客网站「自以为在优化，实则在添堵」的负面技术特征。</p>
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-29">misc/tg/2025-10-29</a> / <a href="/misc/tg/2025-10-29/2025-10-29_21.57.57">2025-10-29_21.57.57</a> <span>2025-10-29 21:57:57 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/bupt_moe" title="Telegram PeerChannel handle: bupt_moe" data-title="tg:bupt_moe">bupt.moe</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://cg.163.com">https://cg.163.com</a> 用了一些东西来防止用户打开开发者工具，我倒是很好奇他们为什么要这么做，看有没有有心人去分析一下。
+搜了一下以前还专门有一个bug来反馈这个问题 <a href="https://issues.chromium.org/issues/41290322#comment17">https://issues.chromium.org/issues/41290322#comment17</a>
+
+Tips: Chrome用户可以用 Chrome://inspect -&gt; Pages 找到相应的标签页然后直接pause就可以打开开发者工具并且暂停 js</div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://cg.163.com/">163</a>
+          <h6>网易云游戏_网易官方云游戏平台_云电脑_云手机_免下载畅玩_cg.163.com</h6>
+          <p>网易云游戏是网易官方推出的云游戏平台，并提供免费的云电脑，云手机。不占空间，不耗电，不吃配置，不发烫，突破了端和设备限制，已支持安卓、iPhone、iPad、网页版、Windows版、Mac、电视TV；低配手机电脑流畅运行。热门手游、端游免下载游玩。手游电脑版、端游手机版、想在手机、电脑、平板上随时游玩黑神话：悟空、蛋仔派对、光遇、第五人格、永劫无间、逆水寒、逆水寒手游、阴阳师、明日之后等游戏，一键畅玩，还有超多免费福利礼包。</p>
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5989150513964363760.png" title="Telegram wepbage media id 5989150513964363760" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-29">misc/tg/2025-10-29</a> / <a href="/misc/tg/2025-10-29/2025-10-29_21.42.51">2025-10-29_21.42.51</a> <span>2025-10-29 21:42:51 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/moonvoidclass" title="Telegram PeerChannel handle: moonvoidclass" data-title="tg:moonvoidclass">inside class</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://fixupx.com/LeahLundqvist/status/1525873114281910273">https://fixupx.com/LeahLundqvist/status/1525873114281910273</a></div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://fixupx.com/LeahLundqvist/status/1525873114281910273">FixupX</a>
+          <h6>leah lundqvist (@LeahLundqvist)</h6>
+          <p>✨ Windows — The Design Museum ✨</p>
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5770755477120682832.png" title="Telegram wepbage media id 5770755477120682832" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-29">misc/tg/2025-10-29</a> / <a href="/misc/tg/2025-10-29/2025-10-29_19.13.21">2025-10-29_19.13.21</a> <span>2025-10-29 19:13:21 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-4900321616613542702.png" title="Telegram media id 4900321616613542702" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-29">misc/tg/2025-10-29</a> / <a href="/misc/tg/2025-10-29/2025-10-29_12.55.05">2025-10-29_12.55.05</a> <span>2025-10-29 12:55:05 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/ReadItLater_OrNever">#ReadItLater_OrNever</a></span>
+    </div>
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/yahnc" title="Telegram PeerChannel handle: yahnc" data-title="tg:yahnc">Hacker News</a> (<span class="tg-author">yahnc_bot</span>)
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><b>The decline of deviance</b>  <a href="https://www.experimental-history.com/p/the-decline-of-deviance">https://www.experimental-history.com/p/the-decline-of-deviance</a></div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://www.experimental-history.com/p/the-decline-of-deviance">Experimental-History</a>
+          <h6>The Decline of Deviance</h6>
+          <p>Where has all the weirdness gone?</p>
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5768379462557829951.png" title="Telegram wepbage media id 5768379462557829951" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-28_20.49.14">2025-10-28_20.49.14</a> <span>2025-10-28 20:49:14 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/WhatIAmOntoNow">#WhatIAmOntoNow</a></span>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/ShareAiPrompt">#ShareAiPrompt</a></span>
+    </div><pre><code>Give source code for a minimal (but complete - do not omit) and secure docker setup of Java + Maven + Tomcat + SFTP-hosted JSP (with an initial page of &quot;Hello world&quot;), suitable to be deployed to Fly.io .
+</code></pre>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-28">misc/tg/2025-10-28</a> / <a href="/misc/tg/2025-10-28/2025-10-28_00.03.42">2025-10-28_00.03.42</a> <span>2025-10-28 00:03:42 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/reorx_share" title="Telegram PeerChannel handle: reorx_share" data-title="tg:reorx_share">Reorx’s Forge</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">「Child's Attraction (Joaquin Joe Claussell's Supplication Passage Version)」- Nujabes
+专辑: Child's Attraction (Joaquin Joe Claussell Remix)
+#网易云音乐 #mp3 35.79MB 320.11kbps
+via @Music163bot</div>[[ Telegram document (Nujabes_Child_s_Attraction_Joaquin_Joe_Claussell_s_Supplicati.mp3, 37530724 bytes) - Non-downloadable here ]]
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-27">misc/tg/2025-10-27</a> / <a href="/misc/tg/2025-10-27/2025-10-27_23.57.22">2025-10-27_23.57.22</a> <span>2025-10-27 23:57:22 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/plumzme" title="Telegram PeerChannel handle: plumzme" data-title="tg:plumzme">普拉姆的胡言乱语</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://www.ghacks.net/2025/10/27/apple-maps-may-display-ads-in-search-results/">https://www.ghacks.net/2025/10/27/apple-maps-may-display-ads-in-search-results/</a>
+我觉得这真的是苹果没有节操的开始，大家为什么接受你苹果卖高溢价，是因为你配置好？性能好？系统好？不是吧，是因为接受了你的生态和体验好，其中有重要一条就是没广告推送，你现在已经在越界了。</div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://www.ghacks.net/2025/10/27/apple-maps-may-display-ads-in-search-results/">ghacks.net</a>
+          <h6>Apple Maps may display ads in search results</h6>
+          <p>Apple Maps is getting ready to introduce ads in the app. Bloomberg&#39;s Mark Gurman reports that Apple could introduce promoted slots in search results. ADVERTISEMENT Apple Maps on the web debuted last […]</p>
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6052249660925086608.png" title="Telegram wepbage media id 6052249660925086608" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-27">misc/tg/2025-10-27</a> / <a href="/misc/tg/2025-10-27/2025-10-27_22.54.57">2025-10-27_22.54.57</a> <span>2025-10-27 22:54:57 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body">Kunagisa labs
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span>
+          webRTCCat | Present Day, Present Time
+    </div>
+      <div class="tg-involvement-layout"><div class="tg-involvement-layout"><div  class="tg-involvement-layout tg-involvement-type">
+      <span class="tg-involvement-type">[Re]</span>
+      </div><div class="tg-involvement-layout tg-involvement-body">Kunagisa labs
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span>
+          Gulu YYUMN
+    </div>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">何用途？</div>
+      </div></div></div>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">防止出现把ego翻译成真我的神人现象，不知道还以为你接了oddo广告呢</div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-27">misc/tg/2025-10-27</a> / <a href="/misc/tg/2025-10-27/2025-10-27_22.54.35">2025-10-27_22.54.35</a> <span>2025-10-27 22:54:35 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/usr_bin_cat" title="Telegram PeerChannel handle: usr_bin_cat" data-title="tg:usr_bin_cat">🐱 Ch. | Patrick’s Catbox</a> (<span class="tg-author">webRTCCat | Present Day, Present Time</span>)
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">推荐以后某些神人本地化团队以及神人翻译学会使用
+<a href="https://www.termonline.cn/search?searchText=ego">https://www.termonline.cn/search</a></div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://www.termonline.cn/search?searchText=ego">www.termonline.cn</a>
+          <h6>术语在线</h6>
+          <p>“术语在线”是由全国科学技术名词审定委员会主办，委托北京市电通电话技术开发有限公司搭建运营的国家审定公布术语查询平台，提供自然科学、工程技术、社会科学及人文科学等领域的规范术语及其英文对照。该网站收录了超过80万条经专家审定的标准术语，支持中英文关键词检索。其内容权威、更新及时，是编辑出版、科研、翻译、教育及学术写作中不可或缺的工具，旨在促进专业术语使用的标准化与国际化。</p>
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-27">misc/tg/2025-10-27</a> / <a href="/misc/tg/2025-10-27/2025-10-27_17.37.29">2025-10-27_17.37.29</a> <span>2025-10-27 17:37:29 UTC+8</span> <a target="_blank" href="/misc/tg/2025-10-27/2025-10-27_17.37.29" title="Go to detail page for more information.">*</a></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5179343548522892075.png" title="Telegram media id 5179343548522892075" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-27_01.03.08">2025-10-27_01.03.08</a> <span>2025-10-27 01:03:08 UTC+8</span></div>
 </div>
 
       
           <div class="group-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>现在浏览器御二家对于简体中文的字体fallback依然是狗屎。证据：</p>
+<div class="lang-wrapper" lang="zh-Hans"><p>不是，找了个没收录过的URL试了下，怎么感觉IA和AT的这两个api都没用啊，提交了后还是反查不到，还是说要排队？不管了，反正已经提交获取到200返回，尽最大努力了，它收不收录是它的事。</p>
 <ul>
-<li>&quot;<code>font.name-list.monospace.zh-CN</code>&quot; is &quot;<code>NSimSun, SimSun, MS Song, SimSun-ExtB</code>&quot; by default on ff</li>
-<li><a href="https://issues.chromium.org/issues/41104519" target="_blank">https://issues.chromium.org/issues/41104519</a></li>
-</ul>
-<p>所以本站所有目前<code>lang=&quot;zh-Hans&quot;</code>下的<code>font-family: monospace</code>（等宽字体 Fixed-width font）内容仍然是宋体，如： <span style="font-family:monospace;">这是一段等宽字体文字</span> ，没有任何浏览器内建设置可供调整，唯一调整办法是用<a href="/styleCustomizer" target="_blank">/styleCustomizer</a>或者UserScript或者UserStyle自定义页面样式。</p>
-<ul>
-<li>2025-10-27 10:59:55 更新：验证了一下，这似乎是一个仅Windows端的问题。</li>
+<li>2025-10-27 11:00:54 更新：后续确认，AT的接口没问题，提交了之后几分钟出结果。IA调整了一下参数要求其尽快存档，如此修改了之后IA几分钟后也可成功存档。</li>
 </ul>
 
 
@@ -129,10 +774,37 @@
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-19_22.41.33">2025-10-19_22.41.33</a> <span>2025-10-19 22:41:33 UTC+8</span></div>
+      <div class="group-layout">
+          
+          <div class="group-layout group-ref-primary group-asset">
+          <div class="group-layout group-ref-primary group-asset" colspan=&#34;2&#34;><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-27_00.56.34">2025-10-27_00.56.34</a> <span>2025-10-27 00:56:34 UTC+8</span></div>
     <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>浏览器里给了一句<code>font-family: monospace</code>，结果它的字体还和当前节点所属的lang有关？是中文直接变宋体，忽略浏览器设置？？</p>
+<div class="lang-wrapper" lang="zh-Hans"><p>好了，我弄通了在手机上给网页机翻+留档的流程：</p>
+<ul>
+<li>使用Ultimatum，较新版Android Chromium系浏览器安装扩展插件的唯一办法。虽然作者现在不更了。</li>
+<li>安装SingleFile-MV3、ScriptCat、ScTranslator。</li>
+<li>最重要的：SingleFile把misc-save in background关掉，否则下载报错；下载前确认dialog也可以关掉。SingleFile通过导出配置，编辑，导入的方式把userscript隐藏选项打开。</li>
+<li>ScriptCat安装Eruda UserScript，方便随时开控制台。写一个SingleFile事件处理器，保存前先将当前网页请求留档到Internet Archive和archive.today。</li>
+<li>done。现在可以先打开网页，点工具栏ScTranslator全文翻译，然后点一下SingleFile，网页就被抓下来提示保存到本地了。</li>
+</ul>
+
+
+</div>
+</div>
+</div>
+
+          </div>
+          </div>
+
+      </div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-27_00.49.44">2025-10-27_00.49.44</a> <span>2025-10-27 00:49:44 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>这个博客的其他文章好像特别喜欢不说人话，which让我比较在意</p>
+<p>The Great SaaS-Lighting: How IT Users Got Gaslit – Unworkable Ideas - <a href="https://unworkableideas.com/the-great-saas-lighting-how-it-users-got-gaslit/" target="_blank">https://unworkableideas.com/the-great-saas-lighting-how-it-users-got-gaslit/</a></p>
+<p><a href="/miscMedia/SlipBox_7uewgqdg_0_The%20Great%20SaaS-Lighting%EF%BC%9A%20How%20IT%20Users%20Got%20Gaslit%20%E2%80%93%20Unworkable%20Ideas%20(2025_10_27%2000%EF%BC%9A48%EF%BC%9A15).html" class="md-attach md-attach-file-link" target="_blank">留档</a></p>
 
 
 </div>
@@ -140,9 +812,12 @@
 </div>
 
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-24">misc/tg/2025-10-24</a> / <a href="/misc/tg/2025-10-24/2025-10-24_17.14.48">2025-10-24_17.14.48</a> <span>2025-10-24 17:14:48 UTC+8</span></div>
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-26">misc/tg/2025-10-26</a> / <a href="/misc/tg/2025-10-26/2025-10-26_20.45.08">2025-10-26_20.45.08</a> <span>2025-10-26 20:45:08 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/iAppleTime">#iAppleTime</a></span>
+    </div>
 
   <div class="tg-wrapper-layout">
     <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
@@ -150,10 +825,10 @@
 </div>
 
     </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a> (<span class="tg-author">GM</span>)
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a>
 
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6039711968488262663.png" title="Telegram media id 6039711968488262663" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">the state of apple intelligence in the year 2025</div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5181742747319208743.png" title="Telegram media id 5181742747319208743" alt="A picture from Telegram, related to current message. No more alt detail for now." />
     </div></div>
   </div>
 
@@ -163,10 +838,12 @@
 </div>
 
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-24">misc/tg/2025-10-24</a> / <a href="/misc/tg/2025-10-24/2025-10-24_17.05.05">2025-10-24_17.05.05</a> <span>2025-10-24 17:05:05 UTC+8</span></div>
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-26">misc/tg/2025-10-26</a> / <a href="/misc/tg/2025-10-26/2025-10-26_20.42.58">2025-10-26_20.42.58</a> <span>2025-10-26 20:42:58 UTC+8</span></div>
     <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>经典内置浏览器做外部登录SSO</p>
-
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
+    </div>
 
   <div class="tg-wrapper-layout">
     <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
@@ -174,25 +851,203 @@
 </div>
 
     </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/illusory_world" title="Telegram PeerChannel handle: illusory_world" data-title="tg:illusory_world">不存在的世界</a>
-      <div class="tg-involvement-layout"><div class="tg-involvement-layout"><div  class="tg-involvement-layout tg-involvement-type">
-      <span class="tg-involvement-type">[Re]</span>
-      </div><div class="tg-involvement-layout tg-involvement-body"><a target="_blank" href="https://t.me/illusory_world" title="Telegram PeerChannel handle: illusory_world" data-title="tg:illusory_world">不存在的世界</a>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/getoutforchina" title="Telegram PeerChannel handle: getoutforchina" data-title="tg:getoutforchina">今天你想跑路了吗？？</a>
 
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">想不懂麦当劳要 GitHub 账号干嘛，可能只是一种商业统计吧（总之领了！
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><b>美国密歇根州提案禁止</b> <b>VPN
+</b>
+美国密歇根州共和党议员提出《反公共道德堕落法案》，拟禁止民众使用虚拟专用网络（VPN）、代理服务器及加密隧道访问被认定为“腐蚀道德”的网络内容，其中包括色情、ASMR及涉及跨性别者的内容。若通过，这将成为美国首个禁止VPN的州法案。
 
-PS: 原来不是免费兑换，而是还要花 29.9……</div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6330354028906220416.png" title="Telegram media id 6330354028906220416" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-      </div></div></div>
+该法案引发广泛反对，维权组织Fight for the Future发起“VPN行动日”，已有逾1.5万人签署公开信，呼吁保护用户网络隐私与访问自由。专家指出，VPN不仅用于绕过审查，也在网络安全、防止数据泄露等方面发挥关键作用。
 
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">据群友补充，认证过程不是跳转 GitHub App 或者浏览器走 OAuth，而是在麦当劳 App 内置的浏览器进行的，先登录账号然后再走 OAuth。
+这下殊途同归了</div>
+    </div></div>
+  </div>
 
-理论上麦当劳 App 是能拿到你的 GitHub session，然后在登录状态下操作你的 GitHub 账户。
 
-图内就是使用麦当劳 iOS App 认证后新建的 web session，设备显示是 "Unknown Browser on iOS iPhone"
+</div>
+</div>
+</div>
 
-所以如果有人去认证账号了，记得去 revoke web session 吧。</div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6330010483062148046.png" title="Telegram media id 6330010483062148046" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-26_20.11.53">2025-10-26_20.11.53</a> <span>2025-10-26 20:11:53 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Any decent error message is a kind of oracle — Digital Seams - <a href="https://digitalseams.com/blog/any-decent-error-message-is-a-kind-of-oracle" target="_blank">https://digitalseams.com/blog/any-decent-error-message-is-a-kind-of-oracle</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-26_17.26.53">2025-10-26_17.26.53</a> <span>2025-10-26 17:26:53 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>笑死我了，llama.cpp自带的那个Web界面刷新内容会让Chromium吃死GPU，查了半天为什么模型跑起来卡卡的结果发现GPU占用最多的不是模型自己</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-26">misc/tg/2025-10-26</a> / <a href="/misc/tg/2025-10-26/2025-10-26_13.38.11">2025-10-26_13.38.11</a> <span>2025-10-26 13:38:11 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/noticeboardthings" title="Telegram PeerChannel handle: noticeboardthings" data-title="tg:noticeboardthings">布告栏上的贴纸</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">笑话成真了🤣
+
+中国 BIOS 新标准「UBIOS」正式发布，这一标准将带来哪些影响？ - 地狱少年丶的回答 - 知乎
+<a href="https://www.zhihu.com/question/1964065968503361781/answer/1964771887243560608">https://www.zhihu.com/question/1964065968503361781/answer/1964771887243560608</a>
+
+官方网站：<a href="https://www.gccorg.com/article/69/426.html">https://www.gccorg.com/article/69/426.html</a></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6327689444080684322.png" title="Telegram media id 6327689444080684322" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6327689444080684321.png" title="Telegram media id 6327689444080684321" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9ACursedKnowledge">TheDesk/MegaPost：CursedKnowledge</a> / <a href="/TheDesk/MegaPost%EF%BC%9ACursedKnowledge/2025-10-26_12.39.57">2025-10-26_12.39.57</a> <span>2025-10-26 12:39:57 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/TIL">#TIL</a></span>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/WebJs">#WebJs</a></span>
+    </div><p>如果你用浏览器JavaScript的新剪贴板粘贴API，则会发现它不仅只支持在Secure Context下使用，而且还不支持粘贴“文件”类型： <a href="https://stackoverflow.com/questions/62293013/new-clipboard-api-access-to-non-text-plain-content" target="_blank">https://stackoverflow.com/questions/62293013/new-clipboard-api-access-to-non-text-plain-content</a> ，只支持文本和图片（而且不能是本地复制图片文件后粘贴，而是类似截图后粘贴才行）。而且Chrome已经明确这一点Won't fix： <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=897289" target="_blank">https://bugs.chromium.org/p/chromium/issues/detail?id=897289</a></p>
+<p>但是如果用老API（paste事件），则一切完美运作。越适配新标准越当孙子</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9ACursedKnowledge">TheDesk/MegaPost：CursedKnowledge</a> / <a href="/TheDesk/MegaPost%EF%BC%9ACursedKnowledge/2025-10-26_12.37.50">2025-10-26_12.37.50</a> <span>2025-10-26 12:37:50 UTC+8</span></div>
+</div>
+
+      
+          <div class="group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>当然了当然了！我们当然也要有这个CursedKnowledge页，否则对不起我这个一路走来被无数克系知识和nuances侵蚀过的脑子和心智。</p>
+<p>要注意，这个Cursed Knowledge和“知识的诅咒”这个概念本身没有特别联系/有一定差异。</p>
+
+
+</div>
+</div>
+</div>
+
+          </div>
+      <div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/misc/tg/2025-10-06">misc/tg/2025-10-06</a> / <a href="/misc/tg/2025-10-06/2025-10-06_10.50.53">2025-10-06_10.50.53</a> <span>2025-10-06 10:50:53 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/reorx_share" title="Telegram PeerChannel handle: reorx_share" data-title="tg:reorx_share">Reorx’s Forge</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">Immich 有个 Cursed Knowledge, 是其维护者们收集的开发过程中遇到的各种恶心的坑，这些坑并非单纯的难以解决或影响严重，而是反直觉或者让人感到「不该如此」，虽然花了大量时间解决，却让人感到痛苦远大于成就。回顾我记录过的一些 <code>#issue-log</code>, 也有不少这种被诅咒的知识，你有遇到过哪些，来一起分享下
+
+<a href="https://immich.app/cursed-knowledge">https://immich.app/cursed-knowledge</a></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5983228922294291733.png" title="Telegram media id 5983228922294291733" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-26">misc/tg/2025-10-26</a> / <a href="/misc/tg/2025-10-26/2025-10-26_11.12.10">2025-10-26_11.12.10</a> <span>2025-10-26 11:12:10 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/jisfw" title="Telegram PeerChannel handle: jisfw" data-title="tg:jisfw">〄FW</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6334688973757812160.png" title="Telegram media id 6334688973757812160" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-26">misc/tg/2025-10-26</a> / <a href="/misc/tg/2025-10-26/2025-10-26_11.09.25">2025-10-26_11.09.25</a> <span>2025-10-26 11:09:25 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/yahnc" title="Telegram PeerChannel handle: yahnc" data-title="tg:yahnc">Hacker News</a> (<span class="tg-author">yahnc_bot</span>)
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><b>Against SQL (2021)</b>  <a href="https://www.scattered-thoughts.net/writing/against-sql/">https://www.scattered-thoughts.net/writing/against-sql/</a></div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-26_10.51.08">2025-10-26_10.51.08</a> <span>2025-10-26 10:51:08 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Tarmageddon: RCE vulnerability highlights challenges of open source abandonware Tamageddon: RCE 漏洞突出开源弃用软件的挑战 - <a href="https://edera.dev/stories/tarmageddon" target="_blank">https://edera.dev/stories/tarmageddon</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-25">misc/tg/2025-10-25</a> / <a href="/misc/tg/2025-10-25/2025-10-25_23.18.40">2025-10-25_23.18.40</a> <span>2025-10-25 23:18:40 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a>
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span><a target="_blank" href="https://t.me/archlinuxgang" title="Telegram PeerChannel handle: archlinuxgang" data-title="tg:archlinuxgang">Arch Linux + Memes</a>
+    </div> (<span class="tg-author">. ᅠᅠᅠᅠᅠᅠก้้้้้้้้้้้้้้้้้้้้</span>)
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5895561548791924374.png" title="Telegram media id 5895561548791924374" alt="A picture from Telegram, related to current message. No more alt detail for now." />
     </div></div>
   </div>
 
