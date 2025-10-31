@@ -311,3 +311,15 @@ The Great SaaS-Lighting: How IT Users Got Gaslit – Unworkable Ideas - https://
 ```
 Give source code for a minimal (but complete - do not omit) and secure docker setup of Java + Maven + Tomcat + SFTP-hosted JSP (with an initial page of "Hello world"), suitable to be deployed to Fly.io .
 ```
+
+2025-10-31 23:42:18 又一个Chromium on Android with Extension Support：
+
+https://github.com/jqssun/android-helium-browser
+
+HN讨论：
+
+https://news.ycombinator.com/item?id=45715752
+
+这可能得益于Chromium 142（？）起对移动端扩展的官方支持，谷歌官方也对支持移动端扩展的Chromium进行了官方构建发布，这个GitHub仓库将其自动获取下来发布为Release：
+
+https://github.com/andrewginns/chromium-browser-snapshots-AndroidDesktop_arm64/releases
