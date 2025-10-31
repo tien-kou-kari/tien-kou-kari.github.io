@@ -323,3 +323,5 @@ https://news.ycombinator.com/item?id=45715752
 这可能得益于Chromium 142（？）起对移动端扩展的官方支持，谷歌官方也对支持移动端扩展的Chromium进行了官方构建发布，这个GitHub仓库将其自动获取下来发布为Release：
 
 https://github.com/andrewginns/chromium-browser-snapshots-AndroidDesktop_arm64/releases
+
+2025-11-01 00:44:49 repost=guarded/SlipBox/2025-10-31_23.42.18 试了下，这两个浏览器在加载本地已解包的扩展程序目录后都是直接闪退，纯烂。看来现阶段少不了Ultimatum那样对扩展程序在移动端做单独适配。
