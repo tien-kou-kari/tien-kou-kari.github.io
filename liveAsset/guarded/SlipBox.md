@@ -329,3 +329,9 @@ https://github.com/andrewginns/chromium-browser-snapshots-AndroidDesktop_arm64/r
 2025-11-01 01:02:49 repost=guarded/SlipBox/2025-10-31_23.42.18 Helium说是proudly based on Ungoogled Chromium，但看起来Android端并没有很Ungoogled啊，搜索引擎有Google，也能直跳Chrome扩展商店页（一般的Ungoogled Chromium分支应该都做了对google域名全量替换屏蔽）。但是这次发现了Mullvad Leta这个搜索引擎代理站，可以代理搜Brave搜索引擎和Google，好东西。
 
 https://leta.mullvad.net/search?q=hello
+
+2025-11-01 13:45:15 我们仍未知道那位日本人所说的风、竿子和龙的含义
+
+https://entropicthoughts.com/the-wind-a-pole-and-the-dragon
+
+36天前的HN讨论： https://news.ycombinator.com/item?id=45371309
