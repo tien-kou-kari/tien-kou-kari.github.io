@@ -326,6 +326,6 @@ https://github.com/andrewginns/chromium-browser-snapshots-AndroidDesktop_arm64/r
 
 2025-11-01 00:44:49 repost=guarded/SlipBox/2025-10-31_23.42.18 试了下，这两个浏览器在加载本地已解包的扩展程序目录后都是直接闪退，纯烂。看来现阶段少不了Ultimatum那样对扩展程序在移动端做单独适配。
 
-2025-11-01 01:02:49 repost=guarded/SlipBox/2025-10-31_23.42.18 Helium说是proudly based on Ungoogled Chromium，但看起来Android端并没有很Ungoogled啊，搜索引擎有Google，也能直跳Chrome扩展商店页。但是发现了Mullvad Leta这个搜索引擎代理站，可以代理搜DuckDuckGo和Google，好东西。
+2025-11-01 01:02:49 repost=guarded/SlipBox/2025-10-31_23.42.18 Helium说是proudly based on Ungoogled Chromium，但看起来Android端并没有很Ungoogled啊，搜索引擎有Google，也能直跳Chrome扩展商店页（一般的Ungoogled Chromium分支应该都做了对google域名全量替换屏蔽）。但是这次发现了Mullvad Leta这个搜索引擎代理站，可以代理搜DuckDuckGo和Google，好东西。
 
 https://leta.mullvad.net/search?q=hello
