@@ -335,3 +335,9 @@ https://leta.mullvad.net/search?q=hello
 https://entropicthoughts.com/the-wind-a-pole-and-the-dragon
 
 36天前的HN讨论： https://news.ycombinator.com/item?id=45371309
+
+2025-11-01 18:35:31 #Windows
+
+https://jspaint.app/
+
+https://98.js.org/
