@@ -341,3 +341,9 @@ https://entropicthoughts.com/the-wind-a-pole-and-the-dragon
 https://jspaint.app/
 
 https://98.js.org/
+
+2025-11-02 14:02:14 https://fxgn.dev/blog/anubis/
+
+一个比Anubis简单得多的，似乎同样能有效防止现阶段AI/LLM公司爬虫的方案，基于一段简短的JavaScript和Cookies校验
+
+（针对性的绕过很容易！
