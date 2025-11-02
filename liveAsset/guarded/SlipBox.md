@@ -355,3 +355,9 @@ Tech Crimes Telegram频道的人已经发现这些页面了：https://t.me/techc
 <a href="/miscMedia/SlipBox_3z4fpnbh_0_Screenshot_2025-11-02-19-03-01-25_ab4d794cbd93f5c7689532989c84240a.jpg" class="md-attach md-attach-img-link" target="_blank">
             <img src="/miscMedia/SlipBox_3z4fpnbh_0_Screenshot_2025-11-02-19-03-01-25_ab4d794cbd93f5c7689532989c84240a.jpg" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
         </a>
+
+2025-11-02 21:09:41 We reduced a container image from 800GB to 2GB 我们将容器映像从 800GB 减少到 2GB - https://sealos.io/blog/reduce-container-image-size-case-study
+
+HN讨论 https://news.ycombinator.com/item?id=45719237
+
+抛开他们展示的公司内糟糕的docker层级管理不论，我已经见到docker image squash工具被独立发明至少3次以上了…
