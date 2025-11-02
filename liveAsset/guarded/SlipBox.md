@@ -347,3 +347,11 @@ https://98.js.org/
 一个比Anubis简单得多的，似乎同样能有效防止现阶段AI/LLM公司爬虫的方案，基于一段简短的JavaScript和Cookies校验
 
 （针对性的绕过很容易！
+
+2025-11-02 19:03:32 repost=guarded/SlipBox/2025-10-22_23.46.35
+
+Tech Crimes Telegram频道的人已经发现这些页面了：https://t.me/techcrimes/14915
+
+<a href="/miscMedia/SlipBox_3z4fpnbh_0_Screenshot_2025-11-02-19-03-01-25_ab4d794cbd93f5c7689532989c84240a.jpg" class="md-attach md-attach-img-link" target="_blank">
+            <img src="/miscMedia/SlipBox_3z4fpnbh_0_Screenshot_2025-11-02-19-03-01-25_ab4d794cbd93f5c7689532989c84240a.jpg" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
+        </a>
