@@ -361,3 +361,9 @@ Tech Crimes Telegram频道的人已经发现这些页面了：https://t.me/techc
 HN讨论 https://news.ycombinator.com/item?id=45719237
 
 抛开他们展示的公司内糟糕的docker层级管理不论，我已经见到docker image squash工具被独立发明至少3次以上了…
+
+2025-11-04 01:50:12 mycophobia's web site - Debian+MATE: An OS that stays put
+
+https://mycophobia.org/debian_mate.html
+
+《永恒OS》
