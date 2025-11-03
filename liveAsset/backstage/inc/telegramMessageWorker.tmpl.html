@@ -139,7 +139,7 @@
       {%- if ptg.media.document.isUnavailable %}
 
       {%- else %}
-        {%- if ptg.media.document.mimeType == 'image/webp' %}
+        {%- if ptg.media.document.mimeType | startsWith: 'image/' %}
           <img loading="lazy" class="tg-img tg-{{ tgDocType }}" src="{{ tgMediaWebPathPrefix }}/m-{{ptg.media.document.id}}.dat" title="Telegram media id {{ptg.media.document.id}}" alt="A {{ tgDocType }} from Telegram, related to current message. {{ tgDocAltDesc }}" />
           {%- assign tgDocHandled = true %}
         {%- elsif ptg.media.document.mimeType | startsWith: 'video/' %}
