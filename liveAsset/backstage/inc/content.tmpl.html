@@ -41,7 +41,7 @@ endif
       </div></div>
       <div class="tidbit-pair"><div class="tidbit-key">Locator</div><div class="tidbit-value white-space-preserve">{{ asset.asset_locator }}</div></div>
       <div class="tidbit-pair"><div class="tidbit-key">Locator (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">{{ asset.asset_locator }}</div></div>
-      {%- if rgc.serverProfileName == 'insiders' and reqPathTidy == '' %}
+      {%- if rgc.serverProfileName == 'insiders' %}
         <div class="tidbit-pair"><div class="tidbit-key">Repost</div>
 
           <a id="tk-sender-repost-link" target="_blank" href="http://tksend.hpn54lw/?text=repost%3D{{ asset.asset_locator |  url_encode }}+">Repost this asset</a>
