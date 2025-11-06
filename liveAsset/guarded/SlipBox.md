@@ -401,3 +401,7 @@ https://mycophobia.org/debian_mate.html
 2025-11-06 22:11:46 https://blog.fooleap.org/use-non-monospaced-font-in-gvim.html
 
 在 gVim 中使用“非等宽字体”
+
+2025-11-06 22:30:35 repost=guarded/SlipBox/2025-11-06_22.11.46  https://github.com/laishulu/Sarasa-Term-SC-Nerd
+
+修正Panose元数据为等宽的更纱黑体
