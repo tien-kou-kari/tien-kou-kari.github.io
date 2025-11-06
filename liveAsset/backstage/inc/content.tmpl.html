@@ -51,7 +51,7 @@ endif
             if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
               const link = document.getElementById('tk-sender-repost-link');
               if (link) {
-                link.href = 'http://127.0.112.32:30080/file/tk-sender.html/?text=repost%3D{{ asset.asset_locator |  url_encode }}+';
+                link.href = 'http://127.0.112.32:30080/file/tk-sender.html?text=repost%3D{{ asset.asset_locator |  url_encode }}+';
                 console.log('Link updated for mobile device');
               }
             }
