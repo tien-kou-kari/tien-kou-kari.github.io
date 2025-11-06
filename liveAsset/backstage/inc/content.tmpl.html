@@ -44,22 +44,22 @@ endif
       {%- if rgc.serverProfileName == 'insiders' and reqPathTidy == '' %}
         <div class="tidbit-pair"><div class="tidbit-key">Repost</div>
 
-        <a id="tk-sender-repost-link" target="_blank" href="http://tksend.hpn54lw/?text=repost%3D{{ asset.asset_locator |  url_encode }}+">Repost this asset</a>
-        {%-# because mobile Cromite doesnt show datalist items if not in secure context? %}
-        <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-            const link = document.getElementById('tk-sender-repost-link');
-            if (link) {
-              link.href = 'http://127.0.112.32:30080/file/tk-sender.html/?text=repost%3D{{ asset.asset_locator |  url_encode }}+';
-              console.log('Link updated for mobile device');
+          <a id="tk-sender-repost-link" target="_blank" href="http://tksend.hpn54lw/?text=repost%3D{{ asset.asset_locator |  url_encode }}+">Repost this asset</a>
+          {%-# because mobile Cromite doesnt show datalist items if not in secure context? %}
+          <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+              const link = document.getElementById('tk-sender-repost-link');
+              if (link) {
+                link.href = 'http://127.0.112.32:30080/file/tk-sender.html/?text=repost%3D{{ asset.asset_locator |  url_encode }}+';
+                console.log('Link updated for mobile device');
+              }
             }
-          }
-        });
-        </script>
+          });
+          </script>
+        </div>
       {%- endif %}
       
-      </div>
       <div class="tidbit-pair"><div class="tidbit-key">WebUrlPathUnencoded</div><div class="tidbit-value white-space-preserve">{{ asset.web_url_path_unencoded }}</div></div>
       <div class="tidbit-pair"><div class="tidbit-key">WebUrlPathUnencoded (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">{{ asset.web_url_path_unencoded }}</div></div>
       <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath</div><div class="tidbit-value white-space-preserve">{{ asset.web_url_path }}</div></div>
