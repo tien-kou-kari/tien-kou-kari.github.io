@@ -397,3 +397,7 @@ https://mycophobia.org/debian_mate.html
 在 gVim 中使用“非等宽字体”
 
 <a href="/miscMedia/SlipBox_3ldy0vip_0_%E5%9C%A8%20gVim%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E2%80%9C%E9%9D%9E%E7%AD%89%E5%AE%BD%E5%AD%97%E4%BD%93%E2%80%9D%20_%20Fooleap&#039;s%20Blog%20(11_6_2025%209_33_09%20PM).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_3ldy0vip_0_在 gVim 中使用“非等宽字体” _ Fooleap&#039;s Blog (11_6_2025 9_33_09 PM).html</a>
+
+2025-11-06 22:11:46 https://blog.fooleap.org/use-non-monospaced-font-in-gvim.html
+
+在 gVim 中使用“非等宽字体”
