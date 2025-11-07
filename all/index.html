@@ -330,6 +330,217 @@ pre:has(> code) {
 </script>
 <main>
 <div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-08_02.31.15">2025-11-08_02.31.15</a> <span>2025-11-08 02:31:15 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p><a href="https://www.youtube.com/watch?v=esCNvfKV9Rc" target="_blank">https://www.youtube.com/watch?v=esCNvfKV9Rc</a></p>
+<p>Yoo Se Yoon - Don't Skip the Interlude | Rooftop Live (1997~)</p>
+<p>又整了第三版，带制作</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AHack">TheDesk/MegaPost：Hack</a> / <a href="/TheDesk/MegaPost%EF%BC%9AHack/2025-11-08_01.38.34">2025-11-08_01.38.34</a> <span>2025-11-08 01:38:34 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><h4>利用GNU coreutils env -S的特殊性质，把一个bash脚本变成一个可直接执行的systemctl --user shebang wrapper</h4>
+<p>Shebang最长允许256字节，且只允许拆为两个命令行arg，即使有多个空格分隔，第二个空格开始其分割作用也不生效，统一归入第二个arg。由此GNU env提供了-S选项，允许将它的一个arg再次以空格劈为多个arg（并且还实现了很贴心的引号、变量引用等一些基本类Shell句法！）做真正的执行。借此可让Shebang机制对当前文件做复杂的逻辑处理。</p>
+<pre><code>#!/usr/bin/env -S /bin/bash -c 'F=&quot;$(cat &quot;$1&quot;)&quot;; LAUNCHER=&quot;${F%%$'\''---\n'\''*}; exit;&quot;; if [ &quot;$LAUNCHER&quot; = &quot;$F&quot; ]; then echo shebang/===/launcher/---/conf/---/script, /=LF &gt;&amp;2; exit 4; fi; $0 -c &quot;${LAUNCHER#*$'\''===\n'\''}&quot; $0 &quot;$@&quot;' /bin/bash
+
+echo Should be launched by launcher only &gt;&amp;2
+exit 4
+
+===
+
+ORIG_FILE_PATH=&quot;$1&quot;
+F=&quot;$(cat &quot;$ORIG_FILE_PATH&quot;)&quot;
+CUT_1=&quot;${F#*$'---\n'}&quot;
+CONF=&quot;${CUT_1%%$'---\n'*}&quot;
+MAIN_SCRIPT=&quot;${CUT_1#*$'---\n'}&quot;
+shift
+
+eval &quot;$CONF&quot;
+
+if [ -z &quot;$UNIT_NAME&quot; ]; then
+	UNIT_NAME=&quot;${ORIG_FILE_PATH##*/}&quot;
+	UNIT_NAME=&quot;${UNIT_NAME%.sh}&quot;
+	if [ -z &quot;${UNIT_NAME}&quot; ]; then
+		echo No unit name &gt;&amp;2
+		exit
+	fi
+fi
+UNIT_NAME=&quot;${UNIT_NAME%.service}.service&quot;
+
+echorun ()
+{
+    local a
+    local i
+	echo -n '+' 1&gt;&amp;2
+    for a in &quot;$@&quot;
+    do
+		if [ &quot;${a%%$'\n'*}&quot; = &quot;$a&quot; ]; then
+        	echo -n &quot; '${a}'&quot; 1&gt;&amp;2
+		else
+        	echo -n &quot; '...'&quot; 1&gt;&amp;2
+		fi
+    done
+	echo 1&gt;&amp;2
+	&quot;$@&quot;
+}
+
+SHOULD_RUN=1
+[ $#&quot;$1&quot; = 1stop ] &amp;&amp; SHOULD_RUN=0
+SHOULD_LOG=0
+LOG_ARGS=' -n 200 --follow'
+[ $#&quot;$1&quot; = 1log -o $#&quot;$1&quot; = 1l ] &amp;&amp; SHOULD_LOG=1 &amp;&amp; SHOULD_RUN=0
+[ $#&quot;$1&quot; = 1logp -o $#&quot;$1&quot; = 1lp ] &amp;&amp; LOG_ARGS=' -n 2999' &amp;&amp; SHOULD_LOG=1 &amp;&amp; SHOULD_RUN=0
+SHOULD_STATUS=0
+[ $#&quot;$1&quot; = 1status -o $#&quot;$1&quot; = 1s ] &amp;&amp; SHOULD_STATUS=1 &amp;&amp; SHOULD_RUN=0
+
+if [ $SHOULD_STATUS = 1 ]; then
+        echorun systemctl --user --no-pager status &quot;$UNIT_NAME&quot;
+elif [ $SHOULD_LOG = 1 ]; then
+        echorun journalctl --user --unit &quot;$UNIT_NAME&quot; --pager-end ${LOG_ARGS}
+else
+        echorun systemctl --user stop &quot;$UNIT_NAME&quot;
+        if [ $SHOULD_RUN = 1 ]; then
+                echorun systemd-run --user --unit &quot;$UNIT_NAME&quot; ${SYSTEMD_RUN_ARGS} --same-dir --collect -- /bin/bash -c &quot;$MAIN_SCRIPT&quot; /bin/bash &quot;$@&quot;
+                sleep 1
+                echorun journalctl --user --unit &quot;$UNIT_NAME&quot; --pager-end -n 50 --follow
+        fi
+fi
+
+exit
+---
+# UNIT_NAME=my-unit-1
+# SYSTEMD_RUN_ARGS='--property=RuntimeMaxSec=7200 --property=Restart=always '
+# may need to set systemd user to be lingering to live through ssh logout
+---
+
+&lt;bash script content goes here&gt;
+
+
+</code></pre>
+<p>用法：</p>
+<pre><code>./xxx # 将当前bash脚本以systemd用户服务的形式启动或重启
+./xxx l # 看日志
+./xxx stop # 停止服务
+</code></pre>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AHack">TheDesk/MegaPost：Hack</a> / <a href="/TheDesk/MegaPost%EF%BC%9AHack/2025-11-08_01.31.04">2025-11-08_01.31.04</a> <span>2025-11-08 01:31:04 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><h4>Chromium ArgumentList</h4>
+<pre><code>--profile-directory= --user-data-dir= --window-position= --window-size=  --no-default-browser-check --no-first-run --ash-no-nudges --password-store=basic
+--disable-gpu --no-sandbox --disable-dev-shm-usage --no-default-browser-check --no-first-run --ash-no-nudges --password-store=basic
+</code></pre>
+<p>酌情挑选使用，只要知道自己在做什么。</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AHack">TheDesk/MegaPost：Hack</a> / <a href="/TheDesk/MegaPost%EF%BC%9AHack/2025-11-08_01.30.12">2025-11-08_01.30.12</a> <span>2025-11-08 01:30:12 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><h4>Background Process 无 nohup 和 setsid 情况下起一个后台</h4>
+<pre><code>(( command 0&lt;&amp;- &gt;/dev/null 2&gt;&amp;1 &amp;) &amp;) &amp;
+</code></pre>
+<p>（有StackExchange回答引证，需要补充引证）</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AHack">TheDesk/MegaPost：Hack</a> / <a href="/TheDesk/MegaPost%EF%BC%9AHack/2025-11-08_01.26.14">2025-11-08_01.26.14</a> <span>2025-11-08 01:26:14 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E7%BB%8F%E5%85%B8%E6%B0%B8%E6%B5%81%E4%BC%A0">#经典永流传</a></span>
+    </div><p><a href="https://learn.microsoft.com/en-us/archive/blogs/twistylittlepassagesallalike/everyone-quotes-command-line-arguments-the-wrong-way" target="_blank">https://learn.microsoft.com/en-us/archive/blogs/twistylittlepassagesallalike/everyone-quotes-command-line-arguments-the-wrong-way</a></p>
+<p>Everyone quotes command line arguments the wrong way</p>
+<p>附：PowerShell/PoSh/pwsh 带引号的命令行解析转义逻辑耻辱柱（节选）</p>
+<ul>
+<li><a href="https://github.com/PowerShell/PowerShell/issues/5576" target="_blank">https://github.com/PowerShell/PowerShell/issues/5576</a></li>
+<li><a href="https://stackoverflow.com/questions/6714165/powershell-stripping-double-quotes-from-command-line-arguments" target="_blank">https://stackoverflow.com/questions/6714165/powershell-stripping-double-quotes-from-command-line-arguments</a>
+<ul>
+<li>然后Powershell V7的Quoting rules又与v5不同……又一个python3了属于是</li>
+</ul>
+</li>
+<li><a href="https://stackoverflow.com/questions/6714165/powershell-stripping-double-quotes-from-command-line-arguments/59681993#59681993" target="_blank">https://stackoverflow.com/questions/6714165/powershell-stripping-double-quotes-from-command-line-arguments/59681993#59681993</a>
+<ul>
+<li>一条在powershell v5上还起码报出哪里有句法错误的语句，在v7上跑起来直接静默崩溃，没有报错输出，只会将errorlevel设为1。。。</li>
+</ul>
+</li>
+</ul>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AHack">TheDesk/MegaPost：Hack</a> / <a href="/TheDesk/MegaPost%EF%BC%9AHack/2025-11-08_01.26.11">2025-11-08_01.26.11</a> <span>2025-11-08 01:26:11 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><h4>runhidden alternative in pure python (Windows)</h4>
+<pre><code>pythonw.exe -I -P -c &quot;import sys, subprocess as sp, ctypes as ct; MIN = 6; HID = 0; i = sp.STARTUPINFO(); i.dwFlags |= sp.STARTF_USESHOWWINDOW; i.wShowWindow |= HID; rt = sp.run(sys.argv[1:], startupinfo=i, creationflags=sp.CREATE_NEW_CONSOLE).returncode; app_name = 'XXXXXX'; ct.windll.user32.MessageBoxW(None, app_name + ' exited with code ' + str(rt) + ' . Is that expected?', 'Warning: ' + app_name + ' exited', 0x30); sys.exit(rt);&quot; MyCommandLineTool.exe arg1 arg2
+</code></pre>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AHack">TheDesk/MegaPost：Hack</a> / <a href="/TheDesk/MegaPost%EF%BC%9AHack/2025-11-08_01.22.37">2025-11-08_01.22.37</a> <span>2025-11-08 01:22:37 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><h4>Quickly Share Cookies from One Browser to Another</h4>
+<p><code>document.cookie</code></p>
+<p><code> '...'.split(';').forEach(c =&gt; document.cookie=c);</code></p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AHack">TheDesk/MegaPost：Hack</a> / <a href="/TheDesk/MegaPost%EF%BC%9AHack/2025-11-08_01.15.48">2025-11-08_01.15.48</a> <span>2025-11-08 01:15:48 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><h4>BugMeNot - share login, share user, share password, share account</h4>
+<p><a href="https://bugmenot.com/" target="_blank">https://bugmenot.com/</a></p>
+<p>至少对Oracle官网和Broadcom（VMWare）官网这种不不登录不给下载的毒瘤还有用</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AHack">TheDesk/MegaPost：Hack</a> / <a href="/TheDesk/MegaPost%EF%BC%9AHack/2025-11-08_01.13.37">2025-11-08_01.13.37</a> <span>2025-11-08 01:13:37 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><h4>Ventoy安装在本地硬盘上与Windows共存的办法</h4>
+<ul>
+<li>必须缩小+挪动Windows C盘，使得其前面有一块较大区域。</li>
+<li>将原EFI扩大并挪动，使得EFI分区从1MB开始（2048扇区），占用较大空间，与Microsoft保留分区间隔40MB以上。</li>
+<li>从Windows安装Ventoy，必须选择“无损安装”，Ventoy应能无需再操作分区，自行将VTOYEFI分区安装在上述40MB空闲空间内。</li>
+<li>此时EFI分区将作为Ventoy承载ISO和配置的分区，即使其空间不足以放ISO，也可以用Vlnk的方式引用C盘或后面分区的ISO、Vtoy等文件。</li>
+</ul>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-06_22.30.35">2025-11-06_22.30.35</a> <span>2025-11-06 22:30:35 UTC+8</span></div>
 </div>
 
@@ -1129,257 +1340,6 @@ Ref: <a href="https://x.com/yisibl/status/1979132340942041270">https://x.com/yis
           <a target="_blank" href="https://blog.zhilu.site/2025/unpopular-blog-tech">纸鹿摸鱼处</a>
           <h6>谈谈不受欢迎的博客技术特征 | 纸鹿摸鱼处</h6>
           <p>从弹窗干扰到服务滥用，文章剖析博客网站「自以为在优化，实则在添堵」的负面技术特征。</p>
-        </td></tr></table>
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-29">misc/tg/2025-10-29</a> / <a href="/misc/tg/2025-10-29/2025-10-29_21.57.57">2025-10-29_21.57.57</a> <span>2025-10-29 21:57:57 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/bupt_moe" title="Telegram PeerChannel handle: bupt_moe" data-title="tg:bupt_moe">bupt.moe</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://cg.163.com">https://cg.163.com</a> 用了一些东西来防止用户打开开发者工具，我倒是很好奇他们为什么要这么做，看有没有有心人去分析一下。
-搜了一下以前还专门有一个bug来反馈这个问题 <a href="https://issues.chromium.org/issues/41290322#comment17">https://issues.chromium.org/issues/41290322#comment17</a>
-
-Tips: Chrome用户可以用 Chrome://inspect -&gt; Pages 找到相应的标签页然后直接pause就可以打开开发者工具并且暂停 js</div>
-      
-        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
-          <a target="_blank" href="https://cg.163.com/">163</a>
-          <h6>网易云游戏_网易官方云游戏平台_云电脑_云手机_免下载畅玩_cg.163.com</h6>
-          <p>网易云游戏是网易官方推出的云游戏平台，并提供免费的云电脑，云手机。不占空间，不耗电，不吃配置，不发烫，突破了端和设备限制，已支持安卓、iPhone、iPad、网页版、Windows版、Mac、电视TV；低配手机电脑流畅运行。热门手游、端游免下载游玩。手游电脑版、端游手机版、想在手机、电脑、平板上随时游玩黑神话：悟空、蛋仔派对、光遇、第五人格、永劫无间、逆水寒、逆水寒手游、阴阳师、明日之后等游戏，一键畅玩，还有超多免费福利礼包。</p>
-            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5989150513964363760.png" title="Telegram wepbage media id 5989150513964363760" alt="A picture related to current telegram webpage message. No more alt detail for now." />
-        </td></tr></table>
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-29">misc/tg/2025-10-29</a> / <a href="/misc/tg/2025-10-29/2025-10-29_21.42.51">2025-10-29_21.42.51</a> <span>2025-10-29 21:42:51 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/moonvoidclass" title="Telegram PeerChannel handle: moonvoidclass" data-title="tg:moonvoidclass">inside class</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://fixupx.com/LeahLundqvist/status/1525873114281910273">https://fixupx.com/LeahLundqvist/status/1525873114281910273</a></div>
-      
-        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
-          <a target="_blank" href="https://fixupx.com/LeahLundqvist/status/1525873114281910273">FixupX</a>
-          <h6>leah lundqvist (@LeahLundqvist)</h6>
-          <p>✨ Windows — The Design Museum ✨</p>
-            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5770755477120682832.png" title="Telegram wepbage media id 5770755477120682832" alt="A picture related to current telegram webpage message. No more alt detail for now." />
-        </td></tr></table>
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-29">misc/tg/2025-10-29</a> / <a href="/misc/tg/2025-10-29/2025-10-29_19.13.21">2025-10-29_19.13.21</a> <span>2025-10-29 19:13:21 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-4900321616613542702.png" title="Telegram media id 4900321616613542702" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-29">misc/tg/2025-10-29</a> / <a href="/misc/tg/2025-10-29/2025-10-29_12.55.05">2025-10-29_12.55.05</a> <span>2025-10-29 12:55:05 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-    <div>
-      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/ReadItLater_OrNever">#ReadItLater_OrNever</a></span>
-    </div>
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/yahnc" title="Telegram PeerChannel handle: yahnc" data-title="tg:yahnc">Hacker News</a> (<span class="tg-author">yahnc_bot</span>)
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><b>The decline of deviance</b>  <a href="https://www.experimental-history.com/p/the-decline-of-deviance">https://www.experimental-history.com/p/the-decline-of-deviance</a></div>
-      
-        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
-          <a target="_blank" href="https://www.experimental-history.com/p/the-decline-of-deviance">Experimental-History</a>
-          <h6>The Decline of Deviance</h6>
-          <p>Where has all the weirdness gone?</p>
-            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5768379462557829951.png" title="Telegram wepbage media id 5768379462557829951" alt="A picture related to current telegram webpage message. No more alt detail for now." />
-        </td></tr></table>
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-28_20.49.14">2025-10-28_20.49.14</a> <span>2025-10-28 20:49:14 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-    <div>
-      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/WhatIAmOntoNow">#WhatIAmOntoNow</a></span>
-      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/ShareAiPrompt">#ShareAiPrompt</a></span>
-    </div><pre><code>Give source code for a minimal (but complete - do not omit) and secure docker setup of Java + Maven + Tomcat + SFTP-hosted JSP (with an initial page of &quot;Hello world&quot;), suitable to be deployed to Fly.io .
-</code></pre>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-28">misc/tg/2025-10-28</a> / <a href="/misc/tg/2025-10-28/2025-10-28_00.03.42">2025-10-28_00.03.42</a> <span>2025-10-28 00:03:42 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/reorx_share" title="Telegram PeerChannel handle: reorx_share" data-title="tg:reorx_share">Reorx’s Forge</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">「Child's Attraction (Joaquin Joe Claussell's Supplication Passage Version)」- Nujabes
-专辑: Child's Attraction (Joaquin Joe Claussell Remix)
-#网易云音乐 #mp3 35.79MB 320.11kbps
-via @Music163bot</div>[[ Telegram document (Nujabes_Child_s_Attraction_Joaquin_Joe_Claussell_s_Supplicati.mp3, 37530724 bytes) - Non-downloadable here ]]
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-27">misc/tg/2025-10-27</a> / <a href="/misc/tg/2025-10-27/2025-10-27_23.57.22">2025-10-27_23.57.22</a> <span>2025-10-27 23:57:22 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/plumzme" title="Telegram PeerChannel handle: plumzme" data-title="tg:plumzme">普拉姆的胡言乱语</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://www.ghacks.net/2025/10/27/apple-maps-may-display-ads-in-search-results/">https://www.ghacks.net/2025/10/27/apple-maps-may-display-ads-in-search-results/</a>
-我觉得这真的是苹果没有节操的开始，大家为什么接受你苹果卖高溢价，是因为你配置好？性能好？系统好？不是吧，是因为接受了你的生态和体验好，其中有重要一条就是没广告推送，你现在已经在越界了。</div>
-      
-        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
-          <a target="_blank" href="https://www.ghacks.net/2025/10/27/apple-maps-may-display-ads-in-search-results/">ghacks.net</a>
-          <h6>Apple Maps may display ads in search results</h6>
-          <p>Apple Maps is getting ready to introduce ads in the app. Bloomberg&#39;s Mark Gurman reports that Apple could introduce promoted slots in search results. ADVERTISEMENT Apple Maps on the web debuted last […]</p>
-            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6052249660925086608.png" title="Telegram wepbage media id 6052249660925086608" alt="A picture related to current telegram webpage message. No more alt detail for now." />
-        </td></tr></table>
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-27">misc/tg/2025-10-27</a> / <a href="/misc/tg/2025-10-27/2025-10-27_22.54.57">2025-10-27_22.54.57</a> <span>2025-10-27 22:54:57 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body">Kunagisa labs
-    <div class="tg-msg-source-lv2">
-      <span class="tg-msg-source-lv2-explain">Forwarded from </span>
-          webRTCCat | Present Day, Present Time
-    </div>
-      <table class="tg-involvement-layout"><tr class="tg-involvement-layout"><td  class="tg-involvement-layout tg-involvement-type">
-      <span class="tg-involvement-type">[Re]</span>
-      </td><td class="tg-involvement-layout tg-involvement-body">Kunagisa labs
-    <div class="tg-msg-source-lv2">
-      <span class="tg-msg-source-lv2-explain">Forwarded from </span>
-          Gulu YYUMN
-    </div>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">何用途？</div>
-      </td></tr></table>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">防止出现把ego翻译成真我的神人现象，不知道还以为你接了oddo广告呢</div>
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-27">misc/tg/2025-10-27</a> / <a href="/misc/tg/2025-10-27/2025-10-27_22.54.35">2025-10-27_22.54.35</a> <span>2025-10-27 22:54:35 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/usr_bin_cat" title="Telegram PeerChannel handle: usr_bin_cat" data-title="tg:usr_bin_cat">🐱 Ch. | Patrick’s Catbox</a> (<span class="tg-author">webRTCCat | Present Day, Present Time</span>)
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">推荐以后某些神人本地化团队以及神人翻译学会使用
-<a href="https://www.termonline.cn/search?searchText=ego">https://www.termonline.cn/search</a></div>
-      
-        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
-          <a target="_blank" href="https://www.termonline.cn/search?searchText=ego">www.termonline.cn</a>
-          <h6>术语在线</h6>
-          <p>“术语在线”是由全国科学技术名词审定委员会主办，委托北京市电通电话技术开发有限公司搭建运营的国家审定公布术语查询平台，提供自然科学、工程技术、社会科学及人文科学等领域的规范术语及其英文对照。该网站收录了超过80万条经专家审定的标准术语，支持中英文关键词检索。其内容权威、更新及时，是编辑出版、科研、翻译、教育及学术写作中不可或缺的工具，旨在促进专业术语使用的标准化与国际化。</p>
         </td></tr></table>
     </td></tr>
   </table>
