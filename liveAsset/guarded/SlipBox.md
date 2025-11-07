@@ -377,3 +377,9 @@ https://mycophobia.org/debian_mate.html
 2025-11-06 22:30:35 repost=guarded/SlipBox/2025-11-06_21.40.13  https://github.com/laishulu/Sarasa-Term-SC-Nerd
 
 修正Panose元数据为等宽的更纱黑体
+
+2025-11-08 02:31:15 https://www.youtube.com/watch?v=esCNvfKV9Rc
+
+Yoo Se Yoon - Don't Skip the Interlude | Rooftop Live (1997~)
+
+又整了第三版，带制作
