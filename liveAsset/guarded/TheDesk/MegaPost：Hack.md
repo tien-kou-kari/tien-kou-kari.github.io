@@ -62,4 +62,13 @@ Everyone quotes command line arguments the wrong way
 
 （有StackExchange回答引证，需要补充引证）
 
+2025-11-08 01:31:04
 
+##### Chromium ArgumentList
+
+```
+--profile-directory= --user-data-dir= --window-position= --window-size=  --no-default-browser-check --no-first-run --ash-no-nudges --password-store=basic
+--disable-gpu --no-sandbox --disable-dev-shm-usage --no-default-browser-check --no-first-run --ash-no-nudges --password-store=basic
+```
+
+酌情挑选使用，只要知道自己在做什么。
