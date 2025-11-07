@@ -43,3 +43,23 @@ pythonw.exe -I -P -c "import sys, subprocess as sp, ctypes as ct; MIN = 6; HID =
 https://learn.microsoft.com/en-us/archive/blogs/twistylittlepassagesallalike/everyone-quotes-command-line-arguments-the-wrong-way
 
 Everyone quotes command line arguments the wrong way
+
+附：PowerShell/PoSh/pwsh 带引号的命令行解析转义逻辑耻辱柱（节选）
+
+- https://github.com/PowerShell/PowerShell/issues/5576
+- https://stackoverflow.com/questions/6714165/powershell-stripping-double-quotes-from-command-line-arguments
+    - 然后Powershell V7的Quoting rules又与v5不同……又一个python3了属于是
+- https://stackoverflow.com/questions/6714165/powershell-stripping-double-quotes-from-command-line-arguments/59681993#59681993
+    - 一条在powershell v5上还起码报出哪里有句法错误的语句，在v7上跑起来直接静默崩溃，没有报错输出，只会将errorlevel设为1。。。
+
+2025-11-08 01:30:12
+
+##### Background Process 无 nohup 和 setsid 情况下起一个后台
+
+```
+(( command 0<&- >/dev/null 2>&1 &) &) &
+```
+
+（有StackExchange回答引证，需要补充引证）
+
+
