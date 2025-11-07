@@ -7,7 +7,7 @@ title: 'MegaPost: Hack，或计算世界中的诸多魔法/巫术/術/器/怪异
 
 2025-11-08 01:13:37
 
-##### Ventoy安装在本地硬盘上与Windows共存的办法
+#### Ventoy安装在本地硬盘上与Windows共存的办法
 
 - 必须缩小+挪动Windows C盘，使得其前面有一块较大区域。
 - 将原EFI扩大并挪动，使得EFI分区从1MB开始（2048扇区），占用较大空间，与Microsoft保留分区间隔40MB以上。
@@ -16,7 +16,7 @@ title: 'MegaPost: Hack，或计算世界中的诸多魔法/巫术/術/器/怪异
 
 2025-11-08 01:15:48
 
-##### BugMeNot - share login, share user, share password, share account
+#### BugMeNot - share login, share user, share password, share account
 
 https://bugmenot.com/
 
