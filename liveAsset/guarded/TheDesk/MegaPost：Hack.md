@@ -2,7 +2,7 @@
 publishTime: '2025-11-08 01:03:46'
 childrenSortOrder: condTimeDesc
 isDerivableIntoChildren: true
-title: 'MegaPost: Hack，或计算世界中的诸多魔法/巫术/怪异/奇谭/訳/无奈与妥协'
+title: 'MegaPost: Hack，或计算世界中的诸多魔法/巫术/術/器/怪异/奇谭/訳/无奈与妥协'
 ---
 
 2025-11-08 01:13:37
