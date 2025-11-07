@@ -32,7 +32,7 @@ https://bugmenot.com/
 
 2025-11-08 01:26:11
 
-##### runhidden alternative in pure python (Windows)
+#### runhidden alternative in pure python (Windows)
 
 ```
 pythonw.exe -I -P -c "import sys, subprocess as sp, ctypes as ct; MIN = 6; HID = 0; i = sp.STARTUPINFO(); i.dwFlags |= sp.STARTF_USESHOWWINDOW; i.wShowWindow |= HID; rt = sp.run(sys.argv[1:], startupinfo=i, creationflags=sp.CREATE_NEW_CONSOLE).returncode; app_name = 'XXXXXX'; ct.windll.user32.MessageBoxW(None, app_name + ' exited with code ' + str(rt) + ' . Is that expected?', 'Warning: ' + app_name + ' exited', 0x30); sys.exit(rt);" MyCommandLineTool.exe arg1 arg2
@@ -54,7 +54,7 @@ Everyone quotes command line arguments the wrong way
 
 2025-11-08 01:30:12
 
-##### Background Process 无 nohup 和 setsid 情况下起一个后台
+#### Background Process 无 nohup 和 setsid 情况下起一个后台
 
 ```
 (( command 0<&- >/dev/null 2>&1 &) &) &
@@ -64,7 +64,7 @@ Everyone quotes command line arguments the wrong way
 
 2025-11-08 01:31:04
 
-##### Chromium ArgumentList
+#### Chromium ArgumentList
 
 ```
 --profile-directory= --user-data-dir= --window-position= --window-size=  --no-default-browser-check --no-first-run --ash-no-nudges --password-store=basic
