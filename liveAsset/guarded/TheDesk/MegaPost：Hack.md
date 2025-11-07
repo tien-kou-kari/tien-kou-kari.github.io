@@ -30,8 +30,16 @@ https://bugmenot.com/
 
 ` '...'.split(';').forEach(c => document.cookie=c);`
 
+2025-11-08 01:26:11
+
 ##### runhidden alternative in pure python (Windows)
 
 ```
 pythonw.exe -I -P -c "import sys, subprocess as sp, ctypes as ct; MIN = 6; HID = 0; i = sp.STARTUPINFO(); i.dwFlags |= sp.STARTF_USESHOWWINDOW; i.wShowWindow |= HID; rt = sp.run(sys.argv[1:], startupinfo=i, creationflags=sp.CREATE_NEW_CONSOLE).returncode; app_name = 'XXXXXX'; ct.windll.user32.MessageBoxW(None, app_name + ' exited with code ' + str(rt) + ' . Is that expected?', 'Warning: ' + app_name + ' exited', 0x30); sys.exit(rt);" MyCommandLineTool.exe arg1 arg2
 ```
+
+2025-11-08 01:26:14 #经典永流传
+
+https://learn.microsoft.com/en-us/archive/blogs/twistylittlepassagesallalike/everyone-quotes-command-line-arguments-the-wrong-way
+
+Everyone quotes command line arguments the wrong way
