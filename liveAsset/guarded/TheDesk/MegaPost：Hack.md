@@ -22,3 +22,9 @@ https://bugmenot.com/
 
 至少对Oracle官网和Broadcom（VMWare）官网这种不不登录不给下载的毒瘤还有用
 
+2025-11-08 01:22:37
+
+#### Quickly Share Cookies from One Browser to Another
+
+`document.cookie`
+` '...'.split(';').forEach(c => document.cookie=c);`
