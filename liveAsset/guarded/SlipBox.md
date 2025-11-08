@@ -389,3 +389,10 @@ Yoo Se Yoon - Don't Skip the Interlude | Rooftop Live (1997~)
 https://news.itsfoss.com/youtube-removes-windows-11-bypass-tutorials/
 
 越来越离谱
+
+2025-11-08 14:20:38 repost=guarded/SlipBox/2025-11-01_01.02.49 
+
+Mullvad: Shutting down our search proxy Leta
+https://mullvad.net/en/blog/shutting-down-our-search-proxy-leta
+
+不是…？
