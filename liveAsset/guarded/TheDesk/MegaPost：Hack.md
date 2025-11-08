@@ -164,3 +164,17 @@ exit
 ./xxx l # 看日志
 ./xxx stop # 停止服务
 ```
+
+2025-11-08 13:20:15 #TIL 总之目前GTK WebKit在NVIDIA显卡上是无法开箱即用的，这甚至影响到了Debian MATE默认的yelp帮助程序。
+
+于是又有了如下咒语：
+
+```
+WEBKIT_DISABLE_COMPOSITING_MODE=1
+```
+
+或者
+
+```
+WEBKIT_DISABLE_DMABUF_RENDERER=1
+```
