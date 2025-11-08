@@ -348,7 +348,7 @@ pre:has(> code) {
       <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath</div><div class="tidbit-value white-space-preserve">/TheDesk/MegaPost%EF%BC%9AHack/2025-11-08_01.38.34</div></div>
       <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/TheDesk/MegaPost%EF%BC%9AHack/2025-11-08_01.38.34</div></div>
         <div class="tidbit-pair"><div class="tidbit-key">PublishTime</div><div class="tidbit-value white-space-preserve">2025-11-08 01:38:34 UTC+8</div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1762537637704</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1762628480784</div></div>
     </details><h4>利用GNU coreutils env -S的特殊性质，把一个bash脚本变成一个可直接执行的systemctl --user shebang wrapper</h4>
 <p>Shebang最长允许256字节，且只允许拆为两个命令行arg，即使有多个空格分隔，第二个空格开始其分割作用也不生效，统一归入第二个arg。由此GNU env提供了-S选项，允许将它的一个arg再次以空格劈为多个arg（并且还实现了很贴心的引号、变量引用等一些基本类Shell句法！）做真正的执行。借此可让Shebang机制对当前文件做复杂的逻辑处理。</p>
 <pre><code>#!/usr/bin/env -S /bin/bash -c 'F=&quot;$(cat &quot;$1&quot;)&quot;; LAUNCHER=&quot;${F%%$'\''---\n'\''*}; exit;&quot;; if [ &quot;$LAUNCHER&quot; = &quot;$F&quot; ]; then echo shebang/===/launcher/---/conf/---/script, /=LF &gt;&amp;2; exit 4; fi; $0 -c &quot;${LAUNCHER#*$'\''===\n'\''}&quot; $0 &quot;$@&quot;' /bin/bash

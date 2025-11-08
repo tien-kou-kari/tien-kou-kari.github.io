@@ -6,6 +6,135 @@
     <atom:link href="http://pseudo-tien-kou-app.home.arpa/rss?feedTitle=Tien-kou+Daily&amp;periodType=fixedMinutes&amp;periodNumParam=1440&amp;periodDateParam=2000-01-01T06%3A30%3A00%2B08%3A00&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou Daily Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou Daily 2025-11-08T06:30:00+08:00</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake/</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-fixedMinutes-2025-11-08T06:30:00+08:00</guid>
+        <pubDate>Sat, 08 Nov 2025 06:30:00 +0800</pubDate>
+        <description><![CDATA[
+<div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AFolklore">TheDesk/MegaPost：Folklore</a> / <a href="/TheDesk/MegaPost%EF%BC%9AFolklore/2025-11-09_02.52.54">2025-11-09_02.52.54</a> <span>2025-11-09 02:52:54 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>sddm甚至会在AMD CPU的随机数生成器不工作时（WARNING: CPU random generator seem to be failing, disabling hardware random number generation）导致登入桌面登出（注销，log out）后第二次显示greeter失败（可能是因为随机数变成了固定数，前后两次socket名相同？）反正总之更新主板BIOS（这又是另一个痛苦的故事）后不再报随机数错误，也修复了sddm的问题。</p>
+<hr />
+<p>但是紧接着就出现了另一个问题：KDE的log out有概率不起作用了。有时是不显示弹出菜单，有的是显示弹出菜单点击了Log out确认按钮后没有注销，有的甚至是注销再次sddm登录时卡几秒黑屏后重新回到greeter。有可能和session保存功能有关，但是关了之后也有概率复现。用loginctl unlock-session有时能解除sddm无法登录的状态。</p>
+<p>possibly related: <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2404966" target="_blank">https://bugzilla.redhat.com/show_bug.cgi?id=2404966</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-11-08">misc/tg/2025-11-08</a> / <a href="/misc/tg/2025-11-08/2025-11-08_23.53.50">2025-11-08_23.53.50</a> <span>2025-11-08 23:53:50 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/re_searchlight" title="Telegram PeerChannel handle: re_searchlight" data-title="tg:re_searchlight">Re: searchlight</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">😅
+
+上下文：这个域名是中国电信用了很多年的反向解析域名，至少一年前就被私人卖家买走了；反向解析确实不需要域名所有权，只是很奇怪电信为什么不拿在手里</div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6325464307423972106.png" title="Telegram media id 6325464307423972106" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AFolklore">TheDesk/MegaPost：Folklore</a> / <a href="/TheDesk/MegaPost%EF%BC%9AFolklore/2025-11-08_19.51.12">2025-11-08_19.51.12</a> <span>2025-11-08 19:51:12 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>然后Debian KDE现在默认采用wayland后仍附带安装了im-config，会导致ibus默认是以（Xwayland？）形式启动的，进系统就会报一堆天书一样的通知告诉你ibus不能这么启动。解决办法是卸载（或禁用在Wayland启动？）im-config，然后真正以Wayland的方式启动ibus：在系统设置里找到Virtual Keyboard，置为IBus Wayland。</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AFolklore">TheDesk/MegaPost：Folklore</a> / <a href="/TheDesk/MegaPost%EF%BC%9AFolklore/2025-11-08_19.36.25">2025-11-08_19.36.25</a> <span>2025-11-08 19:36:25 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/TIL">#TIL</a></span>
+    </div><p>纯Firefox目前在KDE上与系统特性的集成一团糟，例如采用不了KDE的代理设置（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=834039" target="_blank">bugzilla.mozilla.org/~</a>；<a href="https://github.com/openSUSE/firefox-maintenance/blob/4092babd795b7a697ccceb8948ea5f51eb8f2f9f/mozilla-nongnome-proxies.patch" target="_blank">github.com/openSUSE/~.patch</a>）；文件对话框也没有采用KDE风格的，而是采用了臭名昭著的GTK File Chooser（<a href="https://www.google.com/search?q=gtk+file+chooser+sucks" target="_blank">google.com/search?~</a>）。为此Arch AUR和OpenSUSE都有自己的Firefox发行版/补丁专门弥补这些问题（<a href="https://aur.archlinux.org/packages/firefox-kde-opensuse" target="_blank">https://aur.archlinux.org/packages/firefox-kde-opensuse</a> ）。</p>
+<p>当然以上两个问题都可以用环境变量workaround过去：<code>all_proxy=http://xx:xx GTK_USE_PORTAL=1 firefox-esr</code>（需要安装xdg-desktop-portal-kde；按理说xdg portal也支持获取系统代理信息，但可能Firefox没对接吧，所以<code>all_proxy</code>环境变量还是需要），但这就是易用性和<span style="text-decoration: underline dotted;" title="开箱即用体验">OOBE</span>的问题了。</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-08_14.20.38">2025-11-08_14.20.38</a> <span>2025-11-08 14:20:38 UTC+8</span></div>
+</div>
+
+      
+          <div class="group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Mullvad: Shutting down our search proxy Leta
+<a href="https://mullvad.net/en/blog/shutting-down-our-search-proxy-leta" target="_blank">https://mullvad.net/en/blog/shutting-down-our-search-proxy-leta</a></p>
+<p>不是…？</p>
+
+
+</div>
+</div>
+</div>
+
+          </div>
+      <div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-01_01.02.49">2025-11-01_01.02.49</a> <span>2025-11-01 01:02:49 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Helium说是proudly based on Ungoogled Chromium，但看起来Android端并没有很Ungoogled啊，搜索引擎有Google，也能直跳Chrome扩展商店页（一般的Ungoogled Chromium分支应该都做了对google域名全量替换屏蔽）。但是这次发现了Mullvad Leta这个搜索引擎代理站，可以代理搜Brave搜索引擎和Google，好东西。</p>
+<p><a href="https://leta.mullvad.net/search?q=hello" target="_blank">https://leta.mullvad.net/search?q=hello</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AFolklore">TheDesk/MegaPost：Folklore</a> / <a href="/TheDesk/MegaPost%EF%BC%9AFolklore/2025-11-08_13.20.15">2025-11-08_13.20.15</a> <span>2025-11-08 13:20:15 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/TIL">#TIL</a></span>
+    </div><p>总之目前GTK WebKit在NVIDIA显卡上是无法开箱即用的，这甚至影响到了Debian MATE默认的yelp帮助程序。</p>
+<p>于是又有了如下咒语：</p>
+<pre><code>WEBKIT_DISABLE_COMPOSITING_MODE=1
+</code></pre>
+<p>或者</p>
+<pre><code>WEBKIT_DISABLE_DMABUF_RENDERER=1
+</code></pre>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-08_11.02.27">2025-11-08_11.02.27</a> <span>2025-11-08 11:02:27 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>YouTube Removes Windows 11 Bypass Tutorials, Claims 'Risk of Physical Harm' YouTube 删除 Windows 11 旁路教程，声称存在 “身体伤害风险”</p>
+<p><a href="https://news.itsfoss.com/youtube-removes-windows-11-bypass-tutorials/" target="_blank">https://news.itsfoss.com/youtube-removes-windows-11-bypass-tutorials/</a></p>
+<p>越来越离谱</p>
+
+
+</div>
+</div>
+</div>
+
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou Daily 2025-11-07T06:30:00+08:00</title>
         <link>https://tien-kou.shunf4.workers.dev/fakefake/</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-fixedMinutes-2025-11-07T06:30:00+08:00</guid>
@@ -143,13 +272,13 @@ exit
 </div>
 
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AHack">TheDesk/MegaPost：Hack</a> / <a href="/TheDesk/MegaPost%EF%BC%9AHack/2025-11-08_01.26.14">2025-11-08_01.26.14</a> <span>2025-11-08 01:26:14 UTC+8</span></div>
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AFolklore">TheDesk/MegaPost：Folklore</a> / <a href="/TheDesk/MegaPost%EF%BC%9AFolklore/2025-11-08_01.26.14">2025-11-08_01.26.14</a> <span>2025-11-08 01:26:14 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E7%BB%8F%E5%85%B8%E6%B0%B8%E6%B5%81%E4%BC%A0">#经典永流传</a></span>
-    </div><p><a href="https://learn.microsoft.com/en-us/archive/blogs/twistylittlepassagesallalike/everyone-quotes-command-line-arguments-the-wrong-way" target="_blank">https://learn.microsoft.com/en-us/archive/blogs/twistylittlepassagesallalike/everyone-quotes-command-line-arguments-the-wrong-way</a></p>
-<p>Everyone quotes command line arguments the wrong way</p>
+    </div><p>Everyone quotes command line arguments the wrong way</p>
+<p><a href="https://learn.microsoft.com/en-us/archive/blogs/twistylittlepassagesallalike/everyone-quotes-command-line-arguments-the-wrong-way" target="_blank">https://learn.microsoft.com/en-us/archive/blogs/twistylittlepassagesallalike/everyone-quotes-command-line-arguments-the-wrong-way</a></p>
 <p>附：PowerShell/PoSh/pwsh 带引号的命令行解析转义逻辑耻辱柱（节选）</p>
 <ul>
 <li><a href="https://github.com/PowerShell/PowerShell/issues/5576" target="_blank">https://github.com/PowerShell/PowerShell/issues/5576</a></li>
@@ -590,179 +719,6 @@ via <a href="https://weibo.com/1401527553/QbYvmkrvP">tombkeeper的微博</a></di
 <div class="lang-wrapper" lang="zh-Hans"><p>我们仍未知道那位日本人所说的风、竿子和龙的含义</p>
 <p><a href="https://entropicthoughts.com/the-wind-a-pole-and-the-dragon" target="_blank">https://entropicthoughts.com/the-wind-a-pole-and-the-dragon</a></p>
 <p>36天前的HN讨论： <a href="https://news.ycombinator.com/item?id=45371309" target="_blank">https://news.ycombinator.com/item?id=45371309</a></p>
-
-
-</div>
-</div>
-</div>
-
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou Daily 2025-10-31T06:30:00+08:00</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake/</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-fixedMinutes-2025-10-31T06:30:00+08:00</guid>
-        <pubDate>Fri, 31 Oct 2025 06:30:00 +0800</pubDate>
-        <description><![CDATA[
-<div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-11-01">misc/tg/2025-11-01</a> / <a href="/misc/tg/2025-11-01/2025-11-01_01.59.50">2025-11-01_01.59.50</a> <span>2025-11-01 01:59:50 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body">Oasis 的时光杂货店
-    <div class="tg-msg-source-lv2">
-      <span class="tg-msg-source-lv2-explain">Forwarded from </span><a target="_blank" href="https://t.me/ce_observe" title="Telegram PeerChannel handle: ce_observe" data-title="tg:ce_observe">每日消费电子观察</a>
-    </div> (<span class="tg-author">septs</span>)
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">研究人员在 Chromium 引擎中发现可以 30 秒耗尽内存导致死机的漏洞 但谷歌迟迟没有修复
-
-<a href="https://www.landiannews.com/archives/111050.html">https://www.landiannews.com/archives/111050.html</a>
-
-<a href="https://ygcaicn.github.io/Brash">https://ygcaicn.github.io/Brash</a> (PoC)
-
-研究人员称，攻击途径源于 <code>document.title</code> API 更新完全没有速率限制，因此攻击者可以每秒注入高达数百万次的 DOM 变更，在注入过程中阻塞主线程并干扰事件循环最终导致崩溃。</div>
-    </div></div>
-  </div>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-11-01">misc/tg/2025-11-01</a> / <a href="/misc/tg/2025-11-01/2025-11-01_01.58.04">2025-11-01_01.58.04</a> <span>2025-11-01 01:58:04 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body">Oasis 的时光杂货店
-    <div class="tg-msg-source-lv2">
-      <span class="tg-msg-source-lv2-explain">Forwarded from </span>開掛之達人
-    </div>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6055096902116027042.png" title="Telegram media id 6055096902116027042" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </div></div>
-  </div>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-01_01.02.49">2025-11-01_01.02.49</a> <span>2025-11-01 01:02:49 UTC+8</span></div>
-</div>
-
-      
-          <div class="group-asset"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>Helium说是proudly based on Ungoogled Chromium，但看起来Android端并没有很Ungoogled啊，搜索引擎有Google，也能直跳Chrome扩展商店页（一般的Ungoogled Chromium分支应该都做了对google域名全量替换屏蔽）。但是这次发现了Mullvad Leta这个搜索引擎代理站，可以代理搜Brave搜索引擎和Google，好东西。</p>
-<p><a href="https://leta.mullvad.net/search?q=hello" target="_blank">https://leta.mullvad.net/search?q=hello</a></p>
-
-
-</div>
-</div>
-</div>
-
-          </div>
-      <div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-31_23.42.18">2025-10-31_23.42.18</a> <span>2025-10-31 23:42:18 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>又一个Chromium on Android with Extension Support：</p>
-<p><a href="https://github.com/jqssun/android-helium-browser" target="_blank">https://github.com/jqssun/android-helium-browser</a></p>
-<p>HN讨论：</p>
-<p><a href="https://news.ycombinator.com/item?id=45715752" target="_blank">https://news.ycombinator.com/item?id=45715752</a></p>
-<p>这可能得益于Chromium 142（？）起对移动端扩展的官方支持，谷歌官方也对支持移动端扩展的Chromium进行了官方构建发布，这个GitHub仓库将其自动获取下来发布为Release：</p>
-<p><a href="https://github.com/andrewginns/chromium-browser-snapshots-AndroidDesktop_arm64/releases" target="_blank">https://github.com/andrewginns/chromium-browser-snapshots-AndroidDesktop_arm64/releases</a></p>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-01_00.44.49">2025-11-01_00.44.49</a> <span>2025-11-01 00:44:49 UTC+8</span></div>
-</div>
-
-      
-          <div class="group-asset"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>试了下，这两个浏览器在加载本地已解包的扩展程序目录后都是直接闪退，纯烂。看来现阶段少不了Ultimatum那样对扩展程序在移动端做单独适配。</p>
-
-
-</div>
-</div>
-</div>
-
-          </div>
-      <div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-31_23.42.18">2025-10-31_23.42.18</a> <span>2025-10-31 23:42:18 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>又一个Chromium on Android with Extension Support：</p>
-<p><a href="https://github.com/jqssun/android-helium-browser" target="_blank">https://github.com/jqssun/android-helium-browser</a></p>
-<p>HN讨论：</p>
-<p><a href="https://news.ycombinator.com/item?id=45715752" target="_blank">https://news.ycombinator.com/item?id=45715752</a></p>
-<p>这可能得益于Chromium 142（？）起对移动端扩展的官方支持，谷歌官方也对支持移动端扩展的Chromium进行了官方构建发布，这个GitHub仓库将其自动获取下来发布为Release：</p>
-<p><a href="https://github.com/andrewginns/chromium-browser-snapshots-AndroidDesktop_arm64/releases" target="_blank">https://github.com/andrewginns/chromium-browser-snapshots-AndroidDesktop_arm64/releases</a></p>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-31_23.42.18">2025-10-31_23.42.18</a> <span>2025-10-31 23:42:18 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>又一个Chromium on Android with Extension Support：</p>
-<p><a href="https://github.com/jqssun/android-helium-browser" target="_blank">https://github.com/jqssun/android-helium-browser</a></p>
-<p>HN讨论：</p>
-<p><a href="https://news.ycombinator.com/item?id=45715752" target="_blank">https://news.ycombinator.com/item?id=45715752</a></p>
-<p>这可能得益于Chromium 142（？）起对移动端扩展的官方支持，谷歌官方也对支持移动端扩展的Chromium进行了官方构建发布，这个GitHub仓库将其自动获取下来发布为Release：</p>
-<p><a href="https://github.com/andrewginns/chromium-browser-snapshots-AndroidDesktop_arm64/releases" target="_blank">https://github.com/andrewginns/chromium-browser-snapshots-AndroidDesktop_arm64/releases</a></p>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-31">misc/tg/2025-10-31</a> / <a href="/misc/tg/2025-10-31/2025-10-31_13.35.27">2025-10-31_13.35.27</a> <span>2025-10-31 13:35:27 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-    <div>
-      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/ReadItLater_OrNever">#ReadItLater_OrNever</a></span>
-    </div>
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/plumzme" title="Telegram PeerChannel handle: plumzme" data-title="tg:plumzme">普拉姆的胡言乱语</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://zexwoo.blog/posts/research/fat-cat/">https://zexwoo.blog/posts/research/fat-cat/</a></div>
-      
-        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
-          <a target="_blank" href="https://zexwoo.blog/posts/research/fat-cat/">浴沂咏归</a>
-          <h6>「『胖猫』跳江自杀」事件研究</h6>
-          <p>毛主席在《关心群众生活，注意工作方法》中提到：「一切工作，如果仅仅提出任务而不注意实行时候的工作方法，不反对官僚主义的工作方法而采取实际的具体的工作方法，不抛弃命令主义的工作方法而采取耐心说服的工作方法，那末，什么任务也是不能实现的。」又，毛主席 1962 年 1 月 30 日《在扩大的中央工作会议上的讲话》中提到：「总之，让人讲话，天不会塌下来，自己也不会垮台。不让人家讲话呢？那就难免有一天要垮台。」</p>
-            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5775234419340806993.png" title="Telegram wepbage media id 5775234419340806993" alt="A picture related to current telegram webpage message. No more alt detail for now." />
-        </div></div></div>
-    </div></div>
-  </div>
 
 
 </div>

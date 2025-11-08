@@ -300,6 +300,127 @@ pre:has(> code) {
 </script>
 <main>
 <div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AFolklore">TheDesk/MegaPost：Folklore</a> / <a href="/TheDesk/MegaPost%EF%BC%9AFolklore/2025-11-09_02.52.54">2025-11-09_02.52.54</a> <span>2025-11-09 02:52:54 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>sddm甚至会在AMD CPU的随机数生成器不工作时（WARNING: CPU random generator seem to be failing, disabling hardware random number generation）导致登入桌面登出（注销，log out）后第二次显示greeter失败（可能是因为随机数变成了固定数，前后两次socket名相同？）反正总之更新主板BIOS（这又是另一个痛苦的故事）后不再报随机数错误，也修复了sddm的问题。</p>
+<hr />
+<p>但是紧接着就出现了另一个问题：KDE的log out有概率不起作用了。有时是不显示弹出菜单，有的是显示弹出菜单点击了Log out确认按钮后没有注销，有的甚至是注销再次sddm登录时卡几秒黑屏后重新回到greeter。有可能和session保存功能有关，但是关了之后也有概率复现。用loginctl unlock-session有时能解除sddm无法登录的状态。</p>
+<p>possibly related: <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2404966" target="_blank">https://bugzilla.redhat.com/show_bug.cgi?id=2404966</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-11-08">misc/tg/2025-11-08</a> / <a href="/misc/tg/2025-11-08/2025-11-08_23.53.50">2025-11-08_23.53.50</a> <span>2025-11-08 23:53:50 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/re_searchlight" title="Telegram PeerChannel handle: re_searchlight" data-title="tg:re_searchlight">Re: searchlight</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">😅
+
+上下文：这个域名是中国电信用了很多年的反向解析域名，至少一年前就被私人卖家买走了；反向解析确实不需要域名所有权，只是很奇怪电信为什么不拿在手里</div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6325464307423972106.png" title="Telegram media id 6325464307423972106" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AFolklore">TheDesk/MegaPost：Folklore</a> / <a href="/TheDesk/MegaPost%EF%BC%9AFolklore/2025-11-08_19.51.12">2025-11-08_19.51.12</a> <span>2025-11-08 19:51:12 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>然后Debian KDE现在默认采用wayland后仍附带安装了im-config，会导致ibus默认是以（Xwayland？）形式启动的，进系统就会报一堆天书一样的通知告诉你ibus不能这么启动。解决办法是卸载（或禁用在Wayland启动？）im-config，然后真正以Wayland的方式启动ibus：在系统设置里找到Virtual Keyboard，置为IBus Wayland。</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AFolklore">TheDesk/MegaPost：Folklore</a> / <a href="/TheDesk/MegaPost%EF%BC%9AFolklore/2025-11-08_19.36.25">2025-11-08_19.36.25</a> <span>2025-11-08 19:36:25 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/TIL">#TIL</a></span>
+    </div><p>纯Firefox目前在KDE上与系统特性的集成一团糟，例如采用不了KDE的代理设置（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=834039" target="_blank">bugzilla.mozilla.org/~</a>；<a href="https://github.com/openSUSE/firefox-maintenance/blob/4092babd795b7a697ccceb8948ea5f51eb8f2f9f/mozilla-nongnome-proxies.patch" target="_blank">github.com/openSUSE/~.patch</a>）；文件对话框也没有采用KDE风格的，而是采用了臭名昭著的GTK File Chooser（<a href="https://www.google.com/search?q=gtk+file+chooser+sucks" target="_blank">google.com/search?~</a>）。为此Arch AUR和OpenSUSE都有自己的Firefox发行版/补丁专门弥补这些问题（<a href="https://aur.archlinux.org/packages/firefox-kde-opensuse" target="_blank">https://aur.archlinux.org/packages/firefox-kde-opensuse</a> ）。</p>
+<p>当然以上两个问题都可以用环境变量workaround过去：<code>all_proxy=http://xx:xx GTK_USE_PORTAL=1 firefox-esr</code>（需要安装xdg-desktop-portal-kde；按理说xdg portal也支持获取系统代理信息，但可能Firefox没对接吧，所以<code>all_proxy</code>环境变量还是需要），但这就是易用性和<span style="text-decoration: underline dotted;" title="开箱即用体验">OOBE</span>的问题了。</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-08_14.20.38">2025-11-08_14.20.38</a> <span>2025-11-08 14:20:38 UTC+8</span></div>
+</div>
+
+      
+          <div class="group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Mullvad: Shutting down our search proxy Leta
+<a href="https://mullvad.net/en/blog/shutting-down-our-search-proxy-leta" target="_blank">https://mullvad.net/en/blog/shutting-down-our-search-proxy-leta</a></p>
+<p>不是…？</p>
+
+
+</div>
+</div>
+</div>
+
+          </div>
+      <div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-01_01.02.49">2025-11-01_01.02.49</a> <span>2025-11-01 01:02:49 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Helium说是proudly based on Ungoogled Chromium，但看起来Android端并没有很Ungoogled啊，搜索引擎有Google，也能直跳Chrome扩展商店页（一般的Ungoogled Chromium分支应该都做了对google域名全量替换屏蔽）。但是这次发现了Mullvad Leta这个搜索引擎代理站，可以代理搜Brave搜索引擎和Google，好东西。</p>
+<p><a href="https://leta.mullvad.net/search?q=hello" target="_blank">https://leta.mullvad.net/search?q=hello</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AFolklore">TheDesk/MegaPost：Folklore</a> / <a href="/TheDesk/MegaPost%EF%BC%9AFolklore/2025-11-08_13.20.15">2025-11-08_13.20.15</a> <span>2025-11-08 13:20:15 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/TIL">#TIL</a></span>
+    </div><p>总之目前GTK WebKit在NVIDIA显卡上是无法开箱即用的，这甚至影响到了Debian MATE默认的yelp帮助程序。</p>
+<p>于是又有了如下咒语：</p>
+<pre><code>WEBKIT_DISABLE_COMPOSITING_MODE=1
+</code></pre>
+<p>或者</p>
+<pre><code>WEBKIT_DISABLE_DMABUF_RENDERER=1
+</code></pre>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-08_11.02.27">2025-11-08_11.02.27</a> <span>2025-11-08 11:02:27 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>YouTube Removes Windows 11 Bypass Tutorials, Claims 'Risk of Physical Harm' YouTube 删除 Windows 11 旁路教程，声称存在 “身体伤害风险”</p>
+<p><a href="https://news.itsfoss.com/youtube-removes-windows-11-bypass-tutorials/" target="_blank">https://news.itsfoss.com/youtube-removes-windows-11-bypass-tutorials/</a></p>
+<p>越来越离谱</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-08_02.31.15">2025-11-08_02.31.15</a> <span>2025-11-08 02:31:15 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p><a href="https://www.youtube.com/watch?v=esCNvfKV9Rc" target="_blank">https://www.youtube.com/watch?v=esCNvfKV9Rc</a></p>
@@ -431,13 +552,13 @@ exit
 </div>
 
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AHack">TheDesk/MegaPost：Hack</a> / <a href="/TheDesk/MegaPost%EF%BC%9AHack/2025-11-08_01.26.14">2025-11-08_01.26.14</a> <span>2025-11-08 01:26:14 UTC+8</span></div>
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/TheDesk/MegaPost%EF%BC%9AFolklore">TheDesk/MegaPost：Folklore</a> / <a href="/TheDesk/MegaPost%EF%BC%9AFolklore/2025-11-08_01.26.14">2025-11-08_01.26.14</a> <span>2025-11-08 01:26:14 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans">
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E7%BB%8F%E5%85%B8%E6%B0%B8%E6%B5%81%E4%BC%A0">#经典永流传</a></span>
-    </div><p><a href="https://learn.microsoft.com/en-us/archive/blogs/twistylittlepassagesallalike/everyone-quotes-command-line-arguments-the-wrong-way" target="_blank">https://learn.microsoft.com/en-us/archive/blogs/twistylittlepassagesallalike/everyone-quotes-command-line-arguments-the-wrong-way</a></p>
-<p>Everyone quotes command line arguments the wrong way</p>
+    </div><p>Everyone quotes command line arguments the wrong way</p>
+<p><a href="https://learn.microsoft.com/en-us/archive/blogs/twistylittlepassagesallalike/everyone-quotes-command-line-arguments-the-wrong-way" target="_blank">https://learn.microsoft.com/en-us/archive/blogs/twistylittlepassagesallalike/everyone-quotes-command-line-arguments-the-wrong-way</a></p>
 <p>附：PowerShell/PoSh/pwsh 带引号的命令行解析转义逻辑耻辱柱（节选）</p>
 <ul>
 <li><a href="https://github.com/PowerShell/PowerShell/issues/5576" target="_blank">https://github.com/PowerShell/PowerShell/issues/5576</a></li>
@@ -1111,205 +1232,6 @@ Ref: <a href="https://x.com/yisibl/status/1979132340942041270">https://x.com/yis
           <h6>Century Egg | Thiings Collection</h6>
           <p>Download the free 3D icon. A century egg is a Chinese delicacy made by preserving duck, chicken, or quail eggs in a mixture of clay, ash, salt, quicklime, and rice hulls for several weeks to months. The process transforms the egg yolk into a creamy, dark green or gray color and the white into a translucent brown jelly, giving it a unique flavor and aroma.</p>
             <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5772893945632328833.png" title="Telegram wepbage media id 5772893945632328833" alt="A picture related to current telegram webpage message. No more alt detail for now." />
-        </td></tr></table>
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-30">misc/tg/2025-10-30</a> / <a href="/misc/tg/2025-10-30/2025-10-30_17.04.41">2025-10-30_17.04.41</a> <span>2025-10-30 17:04:41 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-4900321616613542717.png" title="Telegram media id 4900321616613542717" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-30">misc/tg/2025-10-30</a> / <a href="/misc/tg/2025-10-30/2025-10-30_10.54.05">2025-10-30_10.54.05</a> <span>2025-10-30 10:54:05 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/landiansub" title="Telegram PeerChannel handle: landiansub" data-title="tg:landiansub">蓝点网订阅频道</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">#网站应用 <b>社交媒体网站 X 将彻底停用 Twitter[.]com 域名，已经绑定通行密钥的用户必须解绑重新绑定，否则将无法正常登录账户。</b>
-
-当然如果已经开通其他 2FA 验证也是可以的，这样可以单独解绑现有通行密钥继续使用，如果你使用 Yubikey 之类的硬件密钥也记得解绑重新绑定。
-
-查看全文：<a href="https://ourl.co/111024">https://ourl.co/111024</a>
-
-<tg-emoji emoji-id="undefined">🎲</tg-emoji> <a href="https://t.me/landiansub">订阅频道</a> <tg-emoji emoji-id="undefined">🎲</tg-emoji> <a href="https://x.com/landiantech">蓝点网</a> <tg-emoji emoji-id="undefined">✅</tg-emoji><a href="https://t.me/landiansub/12423">99元/年CN2服务器</a></div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6053009389100141396.png" title="Telegram media id 6053009389100141396" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-30">misc/tg/2025-10-30</a> / <a href="/misc/tg/2025-10-30/2025-10-30_10.53.46">2025-10-30_10.53.46</a> <span>2025-10-30 10:53:46 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/projectxtls" title="Telegram PeerChannel handle: projectxtls" data-title="tg:projectxtls">Project X Channel</a>
-      
-        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
-          <a target="_blank" href="https://github.com/XTLS/BBS/issues/2">GitHub</a>
-          <h6>根据“2025年第五届全国刑事技术技能比武个人赛题目”分析为什么不应该使用 Shadowsocks、VMess 等不具有“客户端配置安全”的加密方式 · Issue #2 · XTLS/BBS</h6>
-          <p>有人给我分享了一份被 archive 的题目 https://archive.fo/rYnom ，“电子物证-手机部分”第 20 题： 20、(1 分)根据小米手机备份分析，在app“v2rayNG”中类型为“VLESS”的代理有多少个?[答案格式:101][手机取证] 继上次中国电信把 Xray-core 塞进 APP 后，这次公安部把 VLESS 塞进试题里了 无关政治，只谈技术攻防：即...</p>
-        </td></tr></table>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://github.com/XTLS/BBS/issues/2">https://github.com/XTLS/BBS/issues/2</a>
-
-<blockquote><del>继上次中国电信把 Xray-core 塞进 APP 后，这次公安部把 VLESS 塞进试题里了</del></blockquote>
-<del>
-</del><blockquote><del>更要命的是现在的“中转机场”全是 Shadowsocks 还用得贼心安理得，用户还觉得自己是“优质线路”的人上人，还有一些不懂协议原理的周边开发者瞎几把点评什么协议是好的，技术细节吧又说不出个所以然全凭个人喜好，一言难尽</del></blockquote>
-
-<blockquote><b>省墙不封你 SS 你也用得开心，殊不知拿你密码来解密其实是上了试卷的基本操作</b></blockquote></div>
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-30">misc/tg/2025-10-30</a> / <a href="/misc/tg/2025-10-30/2025-10-30_09.41.21">2025-10-30_09.41.21</a> <span>2025-10-30 09:41:21 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/vps_xhq" title="Telegram PeerChannel handle: vps_xhq" data-title="tg:vps_xhq">VPS信号旗播报</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><b>微软 Azure 云服务在凌晨发生故障</b>
-
-微软 Azure Front Door (AFD) 服务因一次意外的内部配置更改错误导致大量 AFD 节点（CDN服务器）无法正常工作。
-
-由于 AFD 是许多其他 Azure 服务（如 Azure 门户、Azure AD B2C、Azure SQL 数据库等）依赖的核心服务，故障迅速蔓延至下游，导致广泛的延迟、超时和连接错误。
-
-微软初步追溯事故的原因是一个有缺陷的部署流程，其中的一个软件缺陷导致安全验证机制失效，使得错误配置得以部署。
-
-该故障从29日23:45(UTC+8)开始出现，至30日08:05(UTC+8)修复，历时8个小时。虽然此次故障波及面比上次AWS故障来得小，但也导致大量应用无法使用。据了解追踪网络中断的网站 Downdetector 上用户报告的报告，Office 365、Minecraft、Xbox Live、Copilot、Costco、星巴克和许多其他服务都出现了问题，荷兰全国火车系统因此停摆了数个小时。
-
-[消息等级 Level C · 一般]</div>
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-30">misc/tg/2025-10-30</a> / <a href="/misc/tg/2025-10-30/2025-10-30_09.41.15">2025-10-30_09.41.15</a> <span>2025-10-30 09:41:15 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body">2.5次元日常
-      <table class="tg-involvement-layout"><tr class="tg-involvement-layout"><td  class="tg-involvement-layout tg-involvement-type">
-      <span class="tg-involvement-type">[Re]</span>
-      </td><td class="tg-involvement-layout tg-involvement-body">2.5次元日常
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">全家福</div>
-          <img loading="lazy" class="tg-img tg-document" src="/misc/tg/media/m-6057553751802125457.dat" title="Telegram media id 6057553751802125457" alt="A document from Telegram, related to current message. No more alt detail for now." />
-      </td></tr></table>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><del>OTA了Azure</del></div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5194936822424274594.png" title="Telegram media id 5194936822424274594" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-30">misc/tg/2025-10-30</a> / <a href="/misc/tg/2025-10-30/2025-10-30_09.32.49">2025-10-30_09.32.49</a> <span>2025-10-30 09:32:49 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-4900321616613542706.png" title="Telegram media id 4900321616613542706" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </td></tr>
-  </table>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-29">misc/tg/2025-10-29</a> / <a href="/misc/tg/2025-10-29/2025-10-29_22.00.36">2025-10-29_22.00.36</a> <span>2025-10-29 22:00:36 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <table class="tg-wrapper-layout">
-    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </td></tr>
-    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/prdm_thoughts" title="Telegram PeerChannel handle: prdm_thoughts" data-title="tg:prdm_thoughts">Pseudorandom Thoughts</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://blog.zhilu.site/2025/unpopular-blog-tech">https://blog.zhilu.site/2025/unpopular-blog-tech</a></div>
-      
-        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
-          <a target="_blank" href="https://blog.zhilu.site/2025/unpopular-blog-tech">纸鹿摸鱼处</a>
-          <h6>谈谈不受欢迎的博客技术特征 | 纸鹿摸鱼处</h6>
-          <p>从弹窗干扰到服务滥用，文章剖析博客网站「自以为在优化，实则在添堵」的负面技术特征。</p>
         </td></tr></table>
     </td></tr>
   </table>
