@@ -5,11 +5,9 @@ isDerivableIntoChildren: true
 title: 'MegaPost: Folklore，或计算世界中的诸多怪异/奇谭/訳/无奈与妥协'
 ---
 
-2025-11-08 01:26:14 #经典永流传
+2025-11-08 01:26:14 #经典永流传 Everyone quotes command line arguments the wrong way
 
 https://learn.microsoft.com/en-us/archive/blogs/twistylittlepassagesallalike/everyone-quotes-command-line-arguments-the-wrong-way
-
-Everyone quotes command line arguments the wrong way
 
 附：PowerShell/PoSh/pwsh 带引号的命令行解析转义逻辑耻辱柱（节选）
 
