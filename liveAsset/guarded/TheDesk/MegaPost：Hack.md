@@ -184,3 +184,11 @@ WEBKIT_DISABLE_DMABUF_RENDERER=1
 当然以上两个问题都可以用环境变量workaround过去：`all_proxy=http://xx:xx GTK_USE_PORTAL=1 firefox-esr`（需要安装xdg-desktop-portal-kde；按理说xdg portal也支持获取系统代理信息，但可能Firefox没对接吧，所以`all_proxy`环境变量还是需要），但这就是易用性和<span style="text-decoration: underline dotted;" title="开箱即用体验">OOBE</span>的问题了。
 
 2025-11-08 19:51:12 然后Debian KDE现在默认采用wayland后仍附带安装了im-config，会导致ibus默认是以（Xwayland？）形式启动的，进系统就会报一堆天书一样的通知告诉你ibus不能这么启动。解决办法是卸载（或禁用在Wayland启动？）im-config，然后真正以Wayland的方式启动ibus：在系统设置里找到Virtual Keyboard，置为IBus Wayland。
+
+2025-11-09 02:52:54 sddm甚至会在AMD CPU的随机数生成器不工作时（WARNING: CPU random generator seem to be failing, disabling hardware random number generation）导致登入桌面登出（注销，log out）后第二次显示greeter失败（可能是因为随机数变成了固定数，前后两次socket名相同？）反正总之更新主板BIOS（这又是另一个痛苦的故事）后不再报随机数错误，也修复了sddm的问题。
+
+---
+
+但是紧接着就出现了另一个问题：KDE的log out有概率不起作用了。有时是不显示弹出菜单，有的是显示弹出菜单点击了Log out确认按钮后没有注销，有的甚至是注销再次sddm登录时卡几秒黑屏后重新回到greeter。有可能和session保存功能有关，但是关了之后也有概率复现。用loginctl unlock-session有时能解除sddm无法登录的状态。
+
+possibly related: https://bugzilla.redhat.com/show_bug.cgi?id=2404966
