@@ -182,3 +182,5 @@ WEBKIT_DISABLE_DMABUF_RENDERER=1
 2025-11-08 19:36:25 #TIL 纯Firefox目前在KDE上与系统特性的集成一团糟，例如采用不了KDE的代理设置（[bugzilla.mozilla.org/~](https://bugzilla.mozilla.org/show_bug.cgi?id=834039)；[github.com/openSUSE/~.patch](https://github.com/openSUSE/firefox-maintenance/blob/4092babd795b7a697ccceb8948ea5f51eb8f2f9f/mozilla-nongnome-proxies.patch)）；文件对话框也没有采用KDE风格的，而是采用了臭名昭著的GTK File Chooser（[google.com/search?~](https://www.google.com/search?q=gtk+file+chooser+sucks)）。为此Arch AUR和OpenSUSE都有自己的Firefox发行版/补丁专门弥补这些问题（https://aur.archlinux.org/packages/firefox-kde-opensuse ）。
 
 当然以上两个问题都可以用环境变量workaround过去：`all_proxy=http://xx:xx GTK_USE_PORTAL=1 firefox-esr`（需要安装xdg-desktop-portal-kde；按理说xdg portal也支持获取系统代理信息，但可能Firefox没对接吧，所以`all_proxy`环境变量还是需要），但这就是易用性和<span style="text-decoration: underline dotted;" title="开箱即用体验">OOBE</span>的问题了。
+
+2025-11-08 19:51:12 然后Debian KDE现在默认采用wayland后仍附带安装了im-config，会导致ibus默认是以（Xwayland？）形式启动的，进系统就会报一堆天书一样的通知告诉你ibus不能这么启动。解决办法是卸载（或禁用在Wayland启动？）im-config，然后真正以Wayland的方式启动ibus：在系统设置里找到Virtual Keyboard，置为IBus Wayland。
