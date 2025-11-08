@@ -383,3 +383,9 @@ https://mycophobia.org/debian_mate.html
 Yoo Se Yoon - Don't Skip the Interlude | Rooftop Live (1997~)
 
 又整了第三版，带制作
+
+2025-11-08 11:02:27 YouTube Removes Windows 11 Bypass Tutorials, Claims 'Risk of Physical Harm' YouTube 删除 Windows 11 旁路教程，声称存在 “身体伤害风险”
+
+https://news.itsfoss.com/youtube-removes-windows-11-bypass-tutorials/
+
+越来越离谱
