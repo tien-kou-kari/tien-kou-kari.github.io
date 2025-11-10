@@ -400,3 +400,7 @@ https://mullvad.net/en/blog/shutting-down-our-search-proxy-leta
 2025-11-09 20:46:32 Ticker: Don’t Die of Heart Disease
 
 https://myticker.com/
+
+2025-11-10 12:31:14 Cromite前几天释出了支持扩展程序的测试版本，我们终于要再次拥有自由源码的Android端支持扩展且可维持更新的Chromium浏览器了： https://github.com/uazo/cromite/issues/256
+
+比较搞笑的是扩展程序Load Unpacked功能还是闪退的（[不止一个用户验证了](https://github.com/uazo/cromite/issues/256#issuecomment-3495723111)），贴里给的workaround竟然是用Android原生文件应用**分屏拖放**.crx文件，第一次见这种操作！
