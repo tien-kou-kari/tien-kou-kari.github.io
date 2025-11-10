@@ -405,3 +405,5 @@ https://myticker.com/
 
 比较搞笑的是扩展程序Load Unpacked功能还是闪退的（[不止一个用户验证了](https://github.com/uazo/cromite/issues/256#issuecomment-3495723111)），贴里给的workaround竟然是用Android原生文件应用**分屏拖放**.crx文件，第一次见这种操作！
 
+
+2025-11-11 01:16:37 repost=guarded/SlipBox/2025-11-10_12.31.14 装上了，用上扩展插件了。So far so good
