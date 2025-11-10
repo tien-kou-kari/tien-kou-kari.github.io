@@ -404,3 +404,8 @@ https://myticker.com/
 2025-11-10 12:31:14 Cromite前几天释出了支持扩展程序的测试版本，我们终于要再次拥有自由源码的Android端支持扩展且可维持更新的Chromium浏览器了： https://github.com/uazo/cromite/issues/256
 
 比较搞笑的是扩展程序Load Unpacked功能还是闪退的（[不止一个用户验证了](https://github.com/uazo/cromite/issues/256#issuecomment-3495723111)），贴里给的workaround竟然是用Android原生文件应用**分屏拖放**.crx文件，第一次见这种操作！
+
+2025-11-10 23:06:15 #AiPrompt #Pastebin
+
+On my Linux machine, SDDM goes into blank screen on the second login attempt (after the first session logs out), non-recoverable until sddm systemd service is restarted. Systemd journal shows sddm-greeter-qt6 complaining "QLocalSocket::connectToServer: Invalid name". I also noticed "WARNING: CPU random generator seem to be failing" and indeed sddm assigns the second socket a same (should have been random) socket name as the first socket. After fixing CPU random generator issue (AMD RDRAND issue; resolved by upgrading BIOS firmware) the SDDM issue disappeared. What could have caused the issue?
+
