@@ -409,3 +409,32 @@ https://myticker.com/
 2025-11-11 01:16:37 repost=guarded/SlipBox/2025-11-10_12.31.14 装上了，用上扩展插件了。So far so good
 
 2025-11-11 01:35:10 妈的我撤回前言
+
+2025-11-11 20:15:18 Comments on https://markusstrasser.org/creative-work-landscapes.html , from https://news.ycombinator.com/item?id=45885242 :
+
+qlm:
+
+> Perhaps a controversial view on this particular forum but I find the tendency of a certain type of person* to write about everything in this overly-technical way regardless of whether it is appropriate to the subject matter to be very tiresome ("executing cached heuristics", "constrained the search space").
+>
+>这可能是这个特定论坛上的一个有争议的观点，但我发现某种类型的人 * 倾向于以这种过于技术化的方式写所有东西，而不考虑主题是否适合变得非常令人厌烦 (“执行缓存启发式”、“限制搜索空间”)。
+>
+>*I associate it with the asinine contemporary "rationalist" movement (LessWrong et al.) but I'm not making any claims the author is associated with this.
+>
+>*我将其与愚蠢的当代 “理性主义” 运动 (LessWrong 等人) 联系在一起，但我并不认为作者与此有任何关联。
+>
+
+jbreckmckye:
+
+>I have observed it too, it is heavily inspired by economics and mathematics.
+>
+>我也观察到了，它在很大程度上受到了经济学和数学的启发。
+>
+>Saying "it's better to complete something imperfect than spend forever polishing" - dumb, trite, anyone knows that. Saying "effort is a utility curve function that must be clamped to achieve meta-optimisation" - ooh, clever, this guy Has a Blog.
+>
+>说什么 “完成不完美的事情总比永远打磨要好”—— 愚蠢，陈词滥调，谁都知道。说什么 “努力是一个效用曲线函数，必须加以约束才能实现元优化”—— 哦，聪明，这家伙有个博客。
+>
+>If I was going to be uncharitable, I think there is a corner of the internet where people without much training in either economics or philosophy write straightforward things that appeal to their audience's bias, but dress it up in technical language to launder it as somehow academic and data driven.
+>
+>如果我要说得不客气的话，我认为互联网上有一个角落，那里的人既没有受过太多经济学或哲学方面的培训，却能写出直截了当的内容，迎合他们受众的偏见，同时又用技术性语言进行粉饰，以便在某种程度上以学术和数据驱动的形式进行洗白。
+
+好骂
