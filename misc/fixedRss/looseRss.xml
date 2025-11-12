@@ -6,6 +6,39 @@
     <atom:link href="http://pseudo-tien-kou-app.home.arpa/rss?periodType=loose&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou - 2025-11-12_17.19.34</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-11-12/2025-11-12_17.19.34</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-11-12/2025-11-12_17.19.34</guid>
+        <pubDate>Wed, 12 Nov 2025 17:19:34 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>笑死我了</p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-4944979763139382093.png" title="Telegram media id 4944979763139382093" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou - 2025-11-11_23.12.07</title>
         <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-11-11/2025-11-11_23.12.07</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-11-11/2025-11-11_23.12.07</guid>
@@ -273,26 +306,6 @@ https://www.v2ex.com/t/1171392?p=1</p>
 </div>
 </div>
 
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2025-11-10_12.31.14</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-11-10_12.31.14</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-11-10_12.31.14</guid>
-        <pubDate>Mon, 10 Nov 2025 12:31:14 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>Cromite前几天释出了支持扩展程序的测试版本，我们终于要再次拥有自由源码的Android端支持扩展且可维持更新的Chromium浏览器了： <a href="https://github.com/uazo/cromite/issues/256" target="_blank">https://github.com/uazo/cromite/issues/256</a></p>
-<p>比较搞笑的是扩展程序Load Unpacked功能还是闪退的（<a href="https://github.com/uazo/cromite/issues/256#issuecomment-3495723111" target="_blank">不止一个用户验证了</a>），贴里给的workaround竟然是用Android原生文件应用<strong>分屏拖放</strong>.crx文件，第一次见这种操作！</p>
-
-
-</div>
-
-  </div>
-</div>
         ]]></description>
       </item>
   </channel>
