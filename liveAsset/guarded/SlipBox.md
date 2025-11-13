@@ -440,3 +440,9 @@ jbreckmckye:
 好骂
 
 2025-11-13 14:34:40 我知道为什么我对AutoHotKey的第一印象这么差了，当时错认为它是AutoIt，一个很久之前碰过的特别臃肿的同样做Windows自动化脚本的Freeware。
+
+2025-11-14 00:43:56 Pure Sh Bible (Archived)
+
+https://github.com/dylanaraps/pure-sh-bible
+
+...
