@@ -6,6 +6,91 @@
     <atom:link href="http://pseudo-tien-kou-app.home.arpa/rss?periodType=loose&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou - 2025-11-14_00.43.56</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-11-14_00.43.56</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-11-14_00.43.56</guid>
+        <pubDate>Fri, 14 Nov 2025 00:43:56 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Pure Sh Bible (Archived)</p>
+<p><a href="https://github.com/dylanaraps/pure-sh-bible" target="_blank">https://github.com/dylanaraps/pure-sh-bible</a></p>
+<p>...</p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2025-11-13_16.44.41</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-11-13/2025-11-13_16.44.41</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-11-13/2025-11-13_16.44.41</guid>
+        <pubDate>Thu, 13 Nov 2025 16:44:41 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>我会转一些精心收集的乐子合集大字报</p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/fishing_daily" title="Telegram PeerChannel handle: fishing_daily" data-title="tg:fishing_daily">摸鱼见闻</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">喜报
+
+Ubuntu 的新 ⚡️ memory safe 🦀 blazing fast 🚀 sudo-rs 出 CVE 了：
+
+<a href="https://www.phoronix.com/news/sudo-rs-security-ubuntu-25.10">https://www.phoronix.com/news/sudo-rs-security-ubuntu-25.10</a>
+
+近期一同出锅的还有：
+* <a href="https://t.me/MeowMiniMeow/11094">「uutils (rust coreutils) 看到不认识的参数居然是 silently ignore... 这太糟糕了，这 Ubuntu 怎么敢发出来的？」</a>
+* <a href="https://t.me/c/1827683159/322966">「TMD ubuntu 的 uutils 的 chroot 在 bin/chroot coreutils 的 chroot 在 sbin/chroot 这样导致 sbuild 内部有一些硬编码 sbin/chroot 路径当场 GG」</a>
+
+再放送：
+* <a href="https://www.phoronix.com/news/Ubuntu-Rust-Coreutils-Perf"> Ubuntu 25.10's Rust Coreutils Transition Has Uncovered Performance Shortcomings</a>
+* <a href="https://www.phoronix.com/news/Ubuntu-25.10-Coreutils-Makeself">Ubuntu 25.10's Move To Rust Coreutils Is Causing Major Breakage For Some Executables</a> 
+* <a href="https://www.phoronix.com/news/Ubuntu-25.10-Broken-Upgrade">Ubuntu 25.10 Unattended Upgrades Broken Due To Rust Coreutils Bug</a></div>
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2025-11-13_14.34.40</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-11-13_14.34.40</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-11-13_14.34.40</guid>
+        <pubDate>Thu, 13 Nov 2025 14:34:40 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>我知道为什么我对AutoHotKey的第一印象这么差了，当时错认为它是AutoIt，一个很久之前碰过的特别臃肿的同样做Windows自动化脚本的Freeware。</p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou - 2025-11-12_17.19.34</title>
         <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-11-12/2025-11-12_17.19.34</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-11-12/2025-11-12_17.19.34</guid>
@@ -217,95 +302,6 @@ https://www.v2ex.com/t/1171392?p=1</p>
 
   </div>
 </div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2025-11-11_20.15.18</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-11-11_20.15.18</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-11-11_20.15.18</guid>
-        <pubDate>Tue, 11 Nov 2025 20:15:18 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>Comments on <a href="https://markusstrasser.org/creative-work-landscapes.html" target="_blank">https://markusstrasser.org/creative-work-landscapes.html</a> , from <a href="https://news.ycombinator.com/item?id=45885242" target="_blank">https://news.ycombinator.com/item?id=45885242</a> :</p>
-<p>qlm:</p>
-<blockquote>
-<p>Perhaps a controversial view on this particular forum but I find the tendency of a certain type of person* to write about everything in this overly-technical way regardless of whether it is appropriate to the subject matter to be very tiresome (&quot;executing cached heuristics&quot;, &quot;constrained the search space&quot;).</p>
-<p>这可能是这个特定论坛上的一个有争议的观点，但我发现某种类型的人 * 倾向于以这种过于技术化的方式写所有东西，而不考虑主题是否适合变得非常令人厌烦 (“执行缓存启发式”、“限制搜索空间”)。</p>
-<p>*I associate it with the asinine contemporary &quot;rationalist&quot; movement (LessWrong et al.) but I'm not making any claims the author is associated with this.</p>
-<p>*我将其与愚蠢的当代 “理性主义” 运动 (LessWrong 等人) 联系在一起，但我并不认为作者与此有任何关联。</p>
-</blockquote>
-<p>jbreckmckye:</p>
-<blockquote>
-<p>I have observed it too, it is heavily inspired by economics and mathematics.</p>
-<p>我也观察到了，它在很大程度上受到了经济学和数学的启发。</p>
-<p>Saying &quot;it's better to complete something imperfect than spend forever polishing&quot; - dumb, trite, anyone knows that. Saying &quot;effort is a utility curve function that must be clamped to achieve meta-optimisation&quot; - ooh, clever, this guy Has a Blog.</p>
-<p>说什么 “完成不完美的事情总比永远打磨要好”—— 愚蠢，陈词滥调，谁都知道。说什么 “努力是一个效用曲线函数，必须加以约束才能实现元优化”—— 哦，聪明，这家伙有个博客。</p>
-<p>If I was going to be uncharitable, I think there is a corner of the internet where people without much training in either economics or philosophy write straightforward things that appeal to their audience's bias, but dress it up in technical language to launder it as somehow academic and data driven.</p>
-<p>如果我要说得不客气的话，我认为互联网上有一个角落，那里的人既没有受过太多经济学或哲学方面的培训，却能写出直截了当的内容，迎合他们受众的偏见，同时又用技术性语言进行粉饰，以便在某种程度上以学术和数据驱动的形式进行洗白。</p>
-</blockquote>
-<p>好骂</p>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2025-11-11_01.35.10</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-11-11_01.35.10</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-11-11_01.35.10</guid>
-        <pubDate>Tue, 11 Nov 2025 01:35:10 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>妈的我撤回前言</p>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2025-11-11_01.16.37</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-11-11_01.16.37</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-11-11_01.16.37</guid>
-        <pubDate>Tue, 11 Nov 2025 01:16:37 +0800</pubDate>
-        <description><![CDATA[
-<div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-11_01.16.37">2025-11-11_01.16.37</a> <span>2025-11-11 01:16:37 UTC+8</span></div>
-</div>
-
-      
-          <div class="group-asset"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>装上了，用上扩展插件了。So far so good</p>
-
-
-</div>
-</div>
-</div>
-
-          </div>
-      <div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-10_12.31.14">2025-11-10_12.31.14</a> <span>2025-11-10 12:31:14 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>Cromite前几天释出了支持扩展程序的测试版本，我们终于要再次拥有自由源码的Android端支持扩展且可维持更新的Chromium浏览器了： <a href="https://github.com/uazo/cromite/issues/256" target="_blank">https://github.com/uazo/cromite/issues/256</a></p>
-<p>比较搞笑的是扩展程序Load Unpacked功能还是闪退的（<a href="https://github.com/uazo/cromite/issues/256#issuecomment-3495723111" target="_blank">不止一个用户验证了</a>），贴里给的workaround竟然是用Android原生文件应用<strong>分屏拖放</strong>.crx文件，第一次见这种操作！</p>
-
-
-</div>
-</div>
-</div>
-
         ]]></description>
       </item>
   </channel>
