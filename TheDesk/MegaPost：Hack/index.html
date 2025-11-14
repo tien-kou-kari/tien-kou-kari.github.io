@@ -346,7 +346,7 @@ pre:has(> code) {
       <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath</div><div class="tidbit-value white-space-preserve">/TheDesk/MegaPost%EF%BC%9AHack</div></div>
       <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/TheDesk/MegaPost%EF%BC%9AHack</div></div>
         <div class="tidbit-pair"><div class="tidbit-key">PublishTime</div><div class="tidbit-value white-space-preserve">2025-11-08 01:03:46 UTC+8</div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1762628480784</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1763106937947</div></div>
     </details>
     <h3 class="md-title">MegaPost: Hack，或计算世界中的诸多魔法/巫术/術/器</h3>
 
@@ -440,6 +440,10 @@ exit
 ./xxx l # 看日志
 ./xxx stop # 停止服务
 </code></pre>
+<h4>mintty 开启一个带标签页管理的新窗口</h4>
+<p>首先在<code>~/.minttyrc</code>里写<code>NewTabs=1</code>（使得从其他地方启动mintty的窗口总是新开标签页组，也即不纳入当前标签页组管理）。</p>
+<p>之后在已有窗口里写<code>( ( mintty &lt;...mintty options&gt; --newtabs --tabbar=4 &lt;&amp;- &gt;/dev/null 2&gt;&amp;1 &amp; ) &amp; ) &amp;</code>，即可新开带tab管理的窗口。</p>
+<p>注意：<em>目前没有很干净的办法将<strong>当前</strong>窗口纳入标签页管理。</em></p>
 
 
 </div>
