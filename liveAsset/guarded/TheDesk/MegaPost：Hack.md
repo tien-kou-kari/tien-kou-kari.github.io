@@ -155,5 +155,5 @@ exit
 
 首先在`~/.minttyrc`里写`NewTabs=1`（使得从其他地方启动mintty的窗口总是新开标签页组，也即不纳入当前标签页组管理）。
 
-之后在已有窗口里写`mintty -p @1 --newtabs --tabbar=4 &`
+之后在已有窗口里写`( ( mintty -p @1 --newtabs --tabbar=4 <&- >/dev/null 2>&1 & ) & ) &`
 
