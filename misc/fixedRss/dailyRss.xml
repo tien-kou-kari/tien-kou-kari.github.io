@@ -6,6 +6,41 @@
     <atom:link href="http://pseudo-tien-kou-app.home.arpa/rss?feedTitle=Tien-kou+Daily&amp;periodType=fixedMinutes&amp;periodNumParam=1440&amp;periodDateParam=2000-01-01T06%3A30%3A00%2B08%3A00&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou Daily Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou Daily 2025-11-15T06:30:00+08:00</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake/</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-fixedMinutes-2025-11-15T06:30:00+08:00</guid>
+        <pubDate>Sat, 15 Nov 2025 06:30:00 +0800</pubDate>
+        <description><![CDATA[
+<div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-15_19.48.49">2025-11-15_19.48.49</a> <span>2025-11-15 19:48:49 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><blockquote>
+<p>aorth 2 hours ago | parent | context | favorite | on: Unofficial Microsoft Teams client for Linux</p>
+<p>True! I've been doing this for years on Linux. I use a dedicated Chromium instance in app mode:
+/usr/bin/chromium --ozone-platform=wayland --enable-features=UseOzonePlatform,WaylandWindowDecorations,WebRTCPipeWireCapturer --user-data-dir=/home/myuser/.config/chromium-ilri --app=<a href="https://teams.microsoft.com" target="_blank">https://teams.microsoft.com</a>
+Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=</code> and you can launch it via your desktop's launcher). Some of the settings may not be needed anymore, as Chromium has come a long way in terms of Wayland support. I use Firefox for everything else, but haven't tried Teams there.</p>
+</blockquote>
+<p><a href="https://news.ycombinator.com/item?id=45936249" target="_blank">https://news.ycombinator.com/item?id=45936249</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-15_10.20.36">2025-11-15_10.20.36</a> <span>2025-11-15 10:20:36 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>AI World Clocks AI 世界时钟 - <a href="https://clocks.brianmoore.com/" target="_blank">https://clocks.brianmoore.com/</a></p>
+<p>可以和Simon的鹈鹕自行车测试一起列为AI的<a href="https://en.wikipedia.org/wiki/Executive_dysfunction#Clock_drawing_test" target="_blank">画钟试验</a>了（原来Kimi K2这么强吗</p>
+
+
+</div>
+</div>
+</div>
+
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou Daily 2025-11-13T06:30:00+08:00</title>
         <link>https://tien-kou.shunf4.workers.dev/fakefake/</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-fixedMinutes-2025-11-13T06:30:00+08:00</guid>
@@ -733,54 +768,6 @@ exit
 <li>从Windows安装Ventoy，必须选择“无损安装”，Ventoy应能无需再操作分区，自行将VTOYEFI分区安装在上述40MB空闲空间内。</li>
 <li>此时EFI分区将作为Ventoy承载ISO和配置的分区，即使其空间不足以放ISO，也可以用Vlnk的方式引用C盘或后面分区的ISO、Vtoy等文件。</li>
 </ul>
-
-
-</div>
-</div>
-</div>
-
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou Daily 2025-11-06T06:30:00+08:00</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake/</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-fixedMinutes-2025-11-06T06:30:00+08:00</guid>
-        <pubDate>Thu, 06 Nov 2025 06:30:00 +0800</pubDate>
-        <description><![CDATA[
-<div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-06_22.30.35">2025-11-06_22.30.35</a> <span>2025-11-06 22:30:35 UTC+8</span></div>
-</div>
-
-      
-          <div class="group-asset"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p><a href="https://github.com/laishulu/Sarasa-Term-SC-Nerd" target="_blank">https://github.com/laishulu/Sarasa-Term-SC-Nerd</a></p>
-<p>修正Panose元数据为等宽的更纱黑体</p>
-
-
-</div>
-</div>
-</div>
-
-          </div>
-      <div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-06_21.40.13">2025-11-06_21.40.13</a> <span>2025-11-06 21:40:13 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p><a href="https://blog.fooleap.org/use-non-monospaced-font-in-gvim.html" target="_blank">https://blog.fooleap.org/use-non-monospaced-font-in-gvim.html</a></p>
-<p>在 gVim 中使用“非等宽字体”</p>
-<p><a href="/miscMedia/SlipBox_3ldy0vip_0_%E5%9C%A8%20gVim%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E2%80%9C%E9%9D%9E%E7%AD%89%E5%AE%BD%E5%AD%97%E4%BD%93%E2%80%9D%20_%20Fooleap&#039;s%20Blog%20(11_6_2025%209_33_09%20PM).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_3ldy0vip_0_在 gVim 中使用“非等宽字体” _ Fooleap's Blog (11_6_2025 9_33_09 PM).html</a></p>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-06_21.40.13">2025-11-06_21.40.13</a> <span>2025-11-06 21:40:13 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p><a href="https://blog.fooleap.org/use-non-monospaced-font-in-gvim.html" target="_blank">https://blog.fooleap.org/use-non-monospaced-font-in-gvim.html</a></p>
-<p>在 gVim 中使用“非等宽字体”</p>
-<p><a href="/miscMedia/SlipBox_3ldy0vip_0_%E5%9C%A8%20gVim%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E2%80%9C%E9%9D%9E%E7%AD%89%E5%AE%BD%E5%AD%97%E4%BD%93%E2%80%9D%20_%20Fooleap&#039;s%20Blog%20(11_6_2025%209_33_09%20PM).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_3ldy0vip_0_在 gVim 中使用“非等宽字体” _ Fooleap's Blog (11_6_2025 9_33_09 PM).html</a></p>
 
 
 </div>
