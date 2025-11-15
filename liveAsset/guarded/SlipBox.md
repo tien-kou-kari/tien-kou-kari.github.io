@@ -446,3 +446,7 @@ jbreckmckye:
 https://github.com/dylanaraps/pure-sh-bible
 
 ...
+
+2025-11-15 10:20:36 AI World Clocks AI 世界时钟 - https://clocks.brianmoore.com/
+
+可以和Simon的鹈鹕自行车测试一起列为AI的[画钟试验](https://en.wikipedia.org/wiki/Executive_dysfunction#Clock_drawing_test)了（原来Kimi K2这么强吗
