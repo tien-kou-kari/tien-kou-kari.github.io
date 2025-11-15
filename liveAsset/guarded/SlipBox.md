@@ -450,3 +450,11 @@ https://github.com/dylanaraps/pure-sh-bible
 2025-11-15 10:20:36 AI World Clocks AI 世界时钟 - https://clocks.brianmoore.com/
 
 可以和Simon的鹈鹕自行车测试一起列为AI的[画钟试验](https://en.wikipedia.org/wiki/Executive_dysfunction#Clock_drawing_test)了（原来Kimi K2这么强吗
+
+2025-11-15 19:48:49 > aorth 2 hours ago | parent | context | favorite | on: Unofficial Microsoft Teams client for Linux
+>
+> True! I've been doing this for years on Linux. I use a dedicated Chromium instance in app mode:
+>     /usr/bin/chromium --ozone-platform=wayland --enable-features=UseOzonePlatform,WaylandWindowDecorations,WebRTCPipeWireCapturer --user-data-dir=/home/myuser/.config/chromium-ilri --app=https://teams.microsoft.com
+> Works incredibly well (put this in a `.desktop` file with `Exec=` and you can launch it via your desktop's launcher). Some of the settings may not be needed anymore, as Chromium has come a long way in terms of Wayland support. I use Firefox for everything else, but haven't tried Teams there.
+
+https://news.ycombinator.com/item?id=45936249
