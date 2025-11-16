@@ -476,3 +476,7 @@ https://news.ycombinator.com/item?id=45936249
 > * And worst of all, calling constructors which aren't even in your inheritance chain.
 
 https://news.ycombinator.com/item?id=45942215
+
+2025-11-16 19:53:11 Why I Don't Need a Steam Machine | Brain Baking
+
+https://brainbaking.com/post/2025/11/why-i-dont-need-a-steam-machine/
