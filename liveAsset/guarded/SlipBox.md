@@ -458,3 +458,21 @@ https://github.com/dylanaraps/pure-sh-bible
 > Works incredibly well (put this in a `.desktop` file with `Exec=` and you can launch it via your desktop's launcher). Some of the settings may not be needed anymore, as Chromium has come a long way in terms of Wayland support. I use Firefox for everything else, but haven't tried Teams there.
 
 https://news.ycombinator.com/item?id=45936249
+
+2025-11-16 11:34:06 > [...]
+>
+> And before you say "but no one does that", no, I've see that myself. Imagine you have a class that inherits from SteelMan but calls StealMan in it's constructor and Python's like "looks good to me".
+>
+> I've seen horrors you people can't imagine.
+> 
+> * I've seen superclass constructors called multiple times.
+> 
+> * I've seen constructors called out of order.
+> 
+> * I've seen intentional skipping of constructors (with comments saying "we have to do this because blah blah blah)
+> 
+> * I've seen intentional skipping of your parent's constructor and instead calling your grandparent's constructor.
+> 
+> * And worst of all, calling constructors which aren't even in your inheritance chain.
+
+https://news.ycombinator.com/item?id=45942215
