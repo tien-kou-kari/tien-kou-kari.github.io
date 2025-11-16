@@ -20,3 +20,5 @@ isDerivableIntoChildren: true
 
 On my Linux machine, SDDM goes into blank screen on the second login attempt (after the first session logs out), non-recoverable until sddm systemd service is restarted. Systemd journal shows sddm-greeter-qt6 complaining "QLocalSocket::connectToServer: Invalid name". I also noticed "WARNING: CPU random generator seem to be failing" and indeed sddm assigns the second socket a same (should have been random) socket name as the first socket. After fixing CPU random generator issue (AMD RDRAND issue; resolved by upgrading BIOS firmware) the SDDM issue disappeared. What could have caused the issue?
 
+
+2025-11-16 17:24:48 #ReadItLaterOrNever https://github.com/rumca-js/RSS-Link-Database-2025
