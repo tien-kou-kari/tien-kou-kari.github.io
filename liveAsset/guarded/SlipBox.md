@@ -480,3 +480,11 @@ https://news.ycombinator.com/item?id=45942215
 2025-11-16 19:53:11 Why I Don't Need a Steam Machine | Brain Baking
 
 https://brainbaking.com/post/2025/11/why-i-dont-need-a-steam-machine/
+
+2025-11-18 22:40:39 立 此 存 照
+见 证 历 史
+拍 照 打 卡
+
+<a href="/miscMedia/SlipBox_pj5cagby_0_image.png" class="md-attach md-attach-img-link" target="_blank">
+            <img src="/miscMedia/SlipBox_pj5cagby_0_image.png" class="md-attach md-attach-img" alt="本站的Cloudflare Workers实例 https://tien-kou.shunf4.workers.dev/ 在2025年11月18日的Cloudflare全球大宕机事件中访问呈现“Cloudflare网络内部错误”的截图。" title="本站的Cloudflare Workers实例 https://tien-kou.shunf4.workers.dev/ 在2025年11月18日的Cloudflare全球大宕机事件中访问呈现“Cloudflare网络内部错误”的截图。" style="max-width: 20rem; max-height: 40rem;">
+        </a>
