@@ -492,3 +492,9 @@ https://brainbaking.com/post/2025/11/why-i-dont-need-a-steam-machine/
 <a href="/miscMedia/SlipBox_pj5cagby_0_image.png" class="md-attach md-attach-img-link" target="_blank">
             <img src="/miscMedia/SlipBox_pj5cagby_0_image.png" class="md-attach md-attach-img" alt="本站的Cloudflare Workers实例 https://tien-kou.shunf4.workers.dev/ 在2025年11月18日的Cloudflare全球大宕机事件中访问呈现“Cloudflare网络内部错误”的截图。" title="本站的Cloudflare Workers实例 https://tien-kou.shunf4.workers.dev/ 在2025年11月18日的Cloudflare全球大宕机事件中访问呈现“Cloudflare网络内部错误”的截图。" style="max-width: 20rem; max-height: 40rem;">
         </a>
+
+2025-11-22 14:27:22 tidbits={"X-Note-On-Src":"截图是哔哩哔哩视频BV1djUEBPEmK的评论区。"}
+
+<a href="/miscMedia/SlipBox_su7g6bg9_0_Stitch19aaa39c17f.png" class="md-attach md-attach-img-link" target="_blank">
+            <img src="/miscMedia/SlipBox_su7g6bg9_0_Stitch19aaa39c17f.png" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
+        </a>
