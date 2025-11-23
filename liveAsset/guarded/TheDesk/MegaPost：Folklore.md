@@ -60,7 +60,7 @@ possibly related: https://bugzilla.redhat.com/show_bug.cgi?id=2404966
 
 https://gemini.google.com/share/6d141b742a13
 
-Archive.today存档： https://archive.is/l74AN#selection-3933.0-3941.7
+Archive.today存档： https://archive.is/l74AN
 
 Internet Archive (Wayback Machine)上似乎没有有效的存档。
 
