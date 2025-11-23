@@ -499,7 +499,7 @@ https://brainbaking.com/post/2025/11/why-i-dont-need-a-steam-machine/
             <img src="/miscMedia/SlipBox_su7g6bg9_0_Stitch19aaa39c17f.png" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
         </a>
 
-2025-11-23 09:50:40 https://kevinboone.me/fingerprinting.html
+2025-11-23 09:50:40 The privacy nightmare of browser fingerprinting https://kevinboone.me/fingerprinting.html
 
 一个综述
 
