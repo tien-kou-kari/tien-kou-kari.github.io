@@ -48,3 +48,4 @@ WEBKIT_DISABLE_DMABUF_RENDERER=1
 但是紧接着就出现了另一个问题：KDE的log out有概率不起作用了。有时是不显示弹出菜单，有的是显示弹出菜单点击了Log out确认按钮后没有注销，有的甚至是注销再次sddm登录时卡几秒黑屏后重新回到greeter。有可能和session保存功能有关，但是关了之后也有概率复现。用loginctl unlock-session有时能解除sddm无法登录的状态。
 
 possibly related: https://bugzilla.redhat.com/show_bug.cgi?id=2404966
+
