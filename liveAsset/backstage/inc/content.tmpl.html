@@ -59,7 +59,7 @@ endif
           </script>
         </div>
         <div class="tidbit-pair"><div class="tidbit-key">OriginFilePath</div><div class="tidbit-value white-space-preserve">{{ asset.origin_file_path }}</div></div>
-        <div class="tidbit-pair"><div class="tidbit-key">OriginFilePathForTkSend (Select All)</div><div class="tidbit-value white-space-preserve">{{ asset.origin_file_path | remove_first: 'guarded/' }}</div></div>
+        <div class="tidbit-pair"><div class="tidbit-key">OriginFilePathForTkSend (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">{{ asset.origin_file_path | remove_first: 'guarded/' }}</div></div>
 
       {%- endif %}
       
