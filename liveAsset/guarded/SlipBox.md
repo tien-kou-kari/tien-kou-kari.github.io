@@ -498,3 +498,21 @@ https://brainbaking.com/post/2025/11/why-i-dont-need-a-steam-machine/
 <a href="/miscMedia/SlipBox_su7g6bg9_0_Stitch19aaa39c17f.png" class="md-attach md-attach-img-link" target="_blank">
             <img src="/miscMedia/SlipBox_su7g6bg9_0_Stitch19aaa39c17f.png" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
         </a>
+
+2025-11-23 09:50:40 https://kevinboone.me/fingerprinting.html
+
+一个综述
+
+HN评论也很有意思： https://news.ycombinator.com/item?id=46016249
+
+> Some time ago I noticed that in Chrome, every time you click "Never translate $language", $language quietly gets added to the Accept-Language header that Chrome sends to every website!
+> 
+> My header ended up looking like a permuted version of this:
+> 
+>     en-US,en;q=0.9,zh-CN;q=0.8,de;q=0.7,ja;q=0.6
+> 
+> [...]
+> 
+> There was even a proposal to reduce this surface area, but it wasn't adopted:
+> 
+> https://github.com/explainers-by-googlers/reduce-accept-lang...
