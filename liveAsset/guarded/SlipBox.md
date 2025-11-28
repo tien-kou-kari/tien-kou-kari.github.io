@@ -522,3 +522,7 @@ HN评论也很有意思： https://news.ycombinator.com/item?id=46016249
 2025-11-28 13:12:46 History of Zero-based Months? - https://www.jefftk.com/p/history-of-zero-based-months
 
 2025-11-28 20:17:36 repost=guarded/misc/tg/2025-11-28/2025-11-28_20.16.28 我觉得值得一个 #DystopianDaily
+
+2025-11-29 00:49:02 #TIL 抽水马桶两个冲水按键一起按，只相当于按了小按键。（啊？）
+
+https://b23.tv/BV1nZi1YtEjx 03:20
