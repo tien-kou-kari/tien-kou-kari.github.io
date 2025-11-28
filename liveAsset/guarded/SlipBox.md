@@ -518,3 +518,5 @@ HN评论也很有意思： https://news.ycombinator.com/item?id=46016249
 > https://github.com/explainers-by-googlers/reduce-accept-lang...
 
 2025-11-23 20:28:35 https://news.ycombinator.com/item?id=45992035
+
+2025-11-28 13:12:46 History of Zero-based Months? - https://www.jefftk.com/p/history-of-zero-based-months
