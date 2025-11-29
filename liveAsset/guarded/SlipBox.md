@@ -526,3 +526,7 @@ HN评论也很有意思： https://news.ycombinator.com/item?id=46016249
 2025-11-29 00:49:02 #TIL 抽水马桶两个冲水按键一起按，只相当于按了小按键。（啊？）
 
 https://b23.tv/BV1nZi1YtEjx 03:20
+
+2025-11-29 16:33:44 https://kerrick.blog/articles/2025/confessions-of-a-software-developer-no-more-self-censorship/
+
+发现的第一个特别明显的多种分类分不同RSS Feed链接的个人博客
