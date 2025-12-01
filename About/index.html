@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <base href="../" />
+      <base href="." />
     <link rel="stylesheet" href="about:blank" title="Tien-kou Builtin Style" />
     <link rel="alternate stylesheet" href="about:blank" title="Tien-kou Empty Style (for customization)" />
-    <title>Tien-kou</title>
+    <title>关于此站 - Tien-kou</title>
     
   </head>
   <body>
@@ -18,7 +18,7 @@
         }
       </style>
       <div id="homeLinkWrapper" class="home-link-wrapper" style="margin-top: 0.8rem; margin-bottom: 1.2rem; margin-left: 1rem;;">
-        <a href="/">Tien-kou <span lang="ja-JP">(仮)</span>.</a> v1764628434307-v1764628448873
+        <a href="/">Tien-kou <span lang="ja-JP">(仮)</span>.</a>
       </div>
       <script type="text/javascript">
         function insertAfter(newElement, referenceElement) {
@@ -329,8 +329,10 @@ pre:has(> code) {
 
 </script>
 <main>
-  <div class="parent-p-content-wrapper">
-    <div class="principal-content">
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
 <div class="lang-wrapper" lang="zh-Hans">
     <details style="margin-bottom: 0.4rem" lang="en">
       <summary>...</summary>
@@ -338,39 +340,64 @@ pre:has(> code) {
         <div class="asset-parent-line"><a class="secondary" href="">/</a>
         </div>
       </div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">Locator</div><div class="tidbit-value white-space-preserve">guarded/</div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">Locator (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">guarded/</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">Locator</div><div class="tidbit-value white-space-preserve">guarded/About</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">Locator (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">guarded/About</div></div>
       
-      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPathUnencoded</div><div class="tidbit-value white-space-preserve">/</div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPathUnencoded (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/</div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath</div><div class="tidbit-value white-space-preserve">/</div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/</div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1764405224951</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPathUnencoded</div><div class="tidbit-value white-space-preserve">/About</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPathUnencoded (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/About</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath</div><div class="tidbit-value white-space-preserve">/About</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/About</div></div>
+        <div class="tidbit-pair"><div class="tidbit-key">PublishTime</div><div class="tidbit-value white-space-preserve">2025-09-23 00:52:52 UTC+8</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1761536180137</div></div>
     </details>
+    <h3 class="md-title">关于此站</h3><p>Tien-kou不是站名。它是本站底层引擎的名称，站名本身还没有确定。因此顶侧主页链接标了<span lang="ja-JP">(仮)</span>。</p>
+<p>这个引擎是之前已流产的几个项目litel、freefalltrajectory、kowareship的延续。当我失去开发/维护这几个项目的动力后，想到Web 2.0之前/早期的时候用PHP和FTP就能创建和维护一个网站的时候。</p>
+<p>（WIP）</p>
+<h4>Posts View</h4>
+<p>(Dynamic) Today's posts: <a href="/today" target="_blank">/today</a></p>
+<p>(Dynamic) Posts of a specific day: <a href="/day/2025-09-21" target="_blank">/day/2025-09-21</a></p>
+<p>(Dynamic) Pagination: <a href="/day/2025-09-21?pageSize=3&amp;pageNum=0" target="_blank">/day/2025-09-21?pageSize=3&amp;pageNum=0</a></p>
+<p>(Dynamic+Partially Static) Posts filter: <a href="/filter?tags=tk%E6%BC%94%E8%BF%9B&amp;ancestors2=TheDesk/&amp;groups3=zxf-struggled" target="_blank">/filter?tags=tk%E6%BC%94%E8%BF%9B&amp;ancestors2=TheDesk/&amp;groups3=zxf-struggled</a></p>
+<p>(Dynamic+Partially Static) TheNoise: <a href="/TheNoise" target="_blank">/TheNoise</a></p>
+<p>(Dynamic+Partially Static) All posts (first 20): <a href="/all?pageSize=20" target="_blank">/all?pageSize=20</a></p>
+<p>(Dynamic+Static) Slug: <a href="/sl/solidot-sugar-mango" target="_blank">/sl/solidot-sugar-mango</a></p>
+<h4>Style</h4>
+<p>(Dynamic+Static) Style Customizer: <a href="/styleCustomizer" target="_blank">/styleCustomizer</a></p>
+<h4>RSS</h4>
+<p>(Dynamic) RSS: <a href="/rss?periodType=loose&amp;spec=flow" target="_blank">/rss?periodType=loose&amp;spec=flow</a></p>
+<p>(Dynamic) RSS Daily: <a href="/rss?feedTitle=Tien-kou%20Daily&amp;periodType=fixedMinutes&amp;periodNumParam=1440&amp;periodDateParam=2000-01-01T06:30:00%2B08:00&amp;spec=flow" target="_blank">/rss?feedTitle=Tien-kou%20Daily&amp;periodType=fixedMinutes&amp;periodNumParam=1440&amp;periodDateParam=2000-01-01T06:30:00%2B08:00&amp;spec=flow</a></p>
+<p>(Post filters apply.)</p>
+<p>(Dynamic) RSS Daily with filter: <a href="/rss?periodType=fixedMinutes&amp;periodNumParam=1440&amp;periodDateParam=2000-01-01T06:30:00%2B08:00&amp;tags=LatestStageCapitalism" target="_blank">/rss?periodType=fixedMinutes&amp;periodNumParam=1440&amp;periodDateParam=2000-01-01T06:30:00%2B08:00&amp;tags=LatestStageCapitalism</a></p>
+<p>(Dynamic) RSS Weekly: <a href="/rss?feedTitle=Tien-kou%20Weekly&amp;periodType=fixedMinutes&amp;periodNumParam=10080&amp;periodDateParam=2000-01-01T06:30:00%2B08:00&amp;spec=flow" target="_blank">/rss?feedTitle=Tien-kou%20Weekly&amp;periodType=fixedMinutes&amp;periodNumParam=10080&amp;periodDateParam=2000-01-01T06:30:00%2B08:00&amp;spec=flow</a></p>
+<p>(Dynamic) RSS Monthly: <a href="/rss?periodType=everyMonth&amp;periodNumParam=1440&amp;spec=flow" target="_blank">/rss?periodType=everyMonth&amp;periodNumParam=1440&amp;spec=flow</a></p>
+<p>(Dynamic) RSS Yearly: <a href="/rss?periodType=everyYear&amp;periodNumParam=1440&amp;spec=flow" target="_blank">/rss?periodType=everyYear&amp;periodNumParam=1440&amp;spec=flow</a></p>
+<p>(Dynamic+Static) Fixed RSS:</p>
+<ul>
+<li><a href="/misc/fixedRss/looseRss.xml" target="_blank">/misc/fixedRss/looseRss.xml</a></li>
+<li><a href="/misc/fixedRss/dailyRss.xml" target="_blank">/misc/fixedRss/dailyRss.xml</a></li>
+<li><a href="/misc/fixedRss/weeklyRss.xml" target="_blank">/misc/fixedRss/weeklyRss.xml</a></li>
+<li><a href="/misc/fixedRss/monthlyRss.xml" target="_blank">/misc/fixedRss/monthlyRss.xml</a></li>
+</ul>
+<h4>Deployment</h4>
+<p>This site is available at:</p>
+<ul>
+<li><a href="https://tien-kou.fly.dev/" target="_blank">https://tien-kou.fly.dev/</a> (Node.JS, Cloud Database, Dynamic)</li>
+<li><a href="https://tien-kou.shunf4.workers.dev/" target="_blank">https://tien-kou.shunf4.workers.dev/</a> (Cloudflare Workers, Cloud Database, Dynamic, May hit resource limit)</li>
+<li>(An internal address) (Node.JS, Local Database, Dynamic, Insiders version)</li>
+<li><a href="https://tien-kou-kari.github.io/" target="_blank">https://tien-kou-kari.github.io/</a> (Static, Less Frequently Updated)</li>
+</ul>
+<h4>Source Code</h4>
+<p>The site's source code:</p>
+<ul>
+<li><a href="https://github.com/tien-kou-kari/tien-kou-kari.github.io" target="_blank">https://github.com/tien-kou-kari/tien-kou-kari.github.io</a> (tk_asset_main branch, Site-specific templates, contents and configurations)</li>
+<li><a href="https://github.com/ProjectKoto/tien-kou" target="_blank">https://github.com/ProjectKoto/tien-kou</a> (Infrastructure: server, hoarder, etc.)</li>
+</ul>
+
 
 </div>
 
-    </div>
   </div>
-<div style="margin-top: 1rem; margin-left: 1rem;">
-
-  <h3>
-    <a href="/%EF%BC%8ATheFlow">/＊TheFlow</a>
-  </h3>
-
-  <h3>
-    <a href="/SlipBox">/SlipBox</a>
-  </h3>
-
-  <h3>
-    <a href="/TheDesk">/The Desk</a>
-  </h3>
-
-  <h3>
-    <a href="/About">/About</a>
-  </h3>
-</div>
-</main>
+</div></main>
     </div>
   </body>
 </html>
