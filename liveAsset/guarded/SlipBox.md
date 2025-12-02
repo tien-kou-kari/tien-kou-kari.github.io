@@ -530,3 +530,5 @@ https://b23.tv/BV1nZi1YtEjx 03:20
 2025-11-29 16:33:44 https://kerrick.blog/articles/2025/confessions-of-a-software-developer-no-more-self-censorship/
 
 发现的第一个特别明显的多种分类分不同RSS Feed链接的个人博客
+
+2025-12-02 19:52:09 #DystopianDaily India orders smartphone makers to preload state-owned cyber safety app 印度要求智能手机制造商预装国有网络安全应用程序 - https://www.reuters.com/sustainability/boards-policy-regulation/india-orders-mobile-phones-preloaded-with-government-app-ensure-cyber-safety-2025-12-01/
