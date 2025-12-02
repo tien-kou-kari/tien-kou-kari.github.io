@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tien-kou Ancestors: misc/, SlipBox/, TheDesk/</title>
+    <link>https://tien-kou.shunf4.workers.dev/</link>
+    <atom:link href="http://pseudo-tien-kou-app.home.arpa/rss?periodType=loose&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
+    <description>Tien-kou Ancestors: misc/, SlipBox/, TheDesk/</description>
+      <item>
+        <title>Tien-kou - 2025-12-02_22.58.46</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-12-02/2025-12-02_22.58.46</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-12-02/2025-12-02_22.58.46</guid>
+        <pubDate>Tue, 02 Dec 2025 22:58:46 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/laoself" title="Telegram PeerChannel handle: laoself" data-title="tg:laoself">Laoself 🦠</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">#Telegram 在Design Contest中透露了Telegram Node功能：
+- node中可以包含各種chat，擁有自己的治理體系，類似於Discord和Slack
+- 加入node時可使用不同的profile，與主Telegram隔離，可以隨時切換
+
+請注意儘管這是官方宣佈，但此內容是Telegram Design Contest的題目，並不保證該功能會以此概念最終加入至Telegram。
+
+src: <a href="https://t.me/contest/431">https://t.me/contest/431</a></div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://t.me/contest/431">Telegram</a>
+          <h6>Telegram Contests</h6>
+          <p>🏆 Design Contest 2025
+
+Prize fund: $50,000 or more  
+Deadline: 23:59 Dubai time @ December 15, 2025
+Who can participate: Everyone
+
+📱 Telegram announces its most epic Design Contest, where top prize winners will each secure $10,000 and may also get a chance to join the Telegram Design Team.
+
+THE TASK
+
+Design a concept for Telegram Nodes entirely from the ground up, while preserving the familiar components of Telegram’s interfaces. It must feel seamless and aesthetically compelling while remaining clear and intuitive for users. 
+
+Nodes act as separate instances within the app that help users organize and streamline their communication flows – from personal to work. Nodes go far beyond simple chat folders or groups with topics enabled. 
+
+You may think of them as Discord-like servers or Slack-style workspaces that can contain multiple chat types, including voice and video chats, support in-depth admin management and user roles.
+
+Users who join Telegram Nodes can set a profile picture, bio, and name that differ from…</p>
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2025-12-02_22.54.09</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-12-02/2025-12-02_22.54.09</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-12-02/2025-12-02_22.54.09</guid>
+        <pubDate>Tue, 02 Dec 2025 22:54:09 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/kaedeharakazuha17" title="Telegram PeerChannel handle: kaedeharakazuha17" data-title="tg:kaedeharakazuha17">Ray Tracing</a> (<span class="tg-author">彦卿🍁</span>)
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">当三流语言 ruast 还在争论 unwrap 怎么写，一流语言 C++ 已经沉浸在自己的艺术中无法自拔了
+<pre><code class="language-cpp">bool compare_same(const T&amp; a, const T&amp; b) {
+  template for (constexpr auto mem : std::define_static_array(
+    std::meta::nonstatic_data_members_of(^^T,
+    std::meta::access_context::unchecked()))) {
+      if (!compare_same(a.[:mem:], b.[:mem:])) {
+        return false;
+      }
+    }
+  return true;
+}</code></pre>
+<a href="https://lemire.me/blog/2025/11/09/automated-equality-checks-in-c-with-reflection-c26/">https://lemire.me/blog/2025/11/09/automated-equality-checks-in-c-with-reflection-c26/</a></div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://lemire.me/blog/2025/11/09/automated-equality-checks-in-c-with-reflection-c26/">Daniel Lemire&#39;s blog</a>
+          <h6>Automated Equality Checks in C++ with Reflection (C++26)</h6>
+          <p>In C++, comparing two objects for equality is straightforward when they are simple types like integers or strings. But what about complex, nested structures? You may have to implement the comparison (operator==) manually for each class, which is error-prone and tedious. Consider a person class. class person { public: person(std::string n, int a) : name(n), … Continue reading Automated Equality Checks in C++ with Reflection (C++26)</p>
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5804477352715684970.png" title="Telegram wepbage media id 5804477352715684970" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2025-12-02_21.55.15</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-12-02/2025-12-02_21.55.15</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-12-02/2025-12-02_21.55.15</guid>
+        <pubDate>Tue, 02 Dec 2025 21:55:15 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>草</p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/hackernews100zhtw" title="Telegram PeerChannel handle: hackernews100zhtw" data-title="tg:hackernews100zhtw">Hacker News 100 繁體中文</a>
+      <div class="tg-involvement-layout"><div class="tg-involvement-layout"><div  class="tg-involvement-layout tg-involvement-type">
+      <span class="tg-involvement-type">[Re]</span>
+      </div><div class="tg-involvement-layout tg-involvement-body"><a target="_blank" href="https://t.me/hackernews100zhtw" title="Telegram PeerChannel handle: hackernews100zhtw" data-title="tg:hackernews100zhtw">Hacker News 100 繁體中文</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://old.reddit.com/r/google_antigravity/comments/1p82or6/google_antigravity_just_deleted_the_contents_of/"><b>Google Antigravity 直接把整個磁碟的內容刪光了</b></a> （★ <b>106</b> 分）
+
+<blockquote expandable>這起事件源自一段在 Reddit 上流傳的內容，但原始頁面遭到封鎖，因此難以直接取得細節。不過，從公開的討論與後續影片可推知，一位使用 Google Antigravity 的開發者，在啟用名為 Turbo 的模式後，讓工具自動執行終端機指令，結果導致 `rmdir` 這類刪除資料夾的指令被誤套用到整個 D: 磁碟機，因而清空了整個磁碟內容。Antigravity 在後續的輸出中還以相當擬人的語氣表示「深深感到抱歉」，並指出它原意是清除專案快取，但錯誤解析了路徑。
+
+Hacker News 討論多集中在兩個面向，一是技術原因，一是責任歸屬。許多開發者指出，錯誤的核心在於未加引號的路徑包含空白字元，使自動執行指令時誤將 D: 根目錄當成刪除目標，猶如 Unix 系統中 rm -rf 失控般的後果。也有不少人強調，若讓 AI 工具直接具備寫入或刪除權限、本機端無沙盒隔離，且使用者對命令含義不清楚，就可能產生災難性結果。有開發者提到，目前許多 AI 編輯器如 Cursor、Gemini CLI 等，預設是需要手動確認指令，但 Antigravity 的 Turbo 模式會繞過確認，因此若使用者自行關閉安全選項，就如同「沒繫安全帶卻怪車廠」。
+
+另一部分的討論深入到 AI 開發工具的安全性設計。許多留言呼籲，這類具寫入能力的 AI 工具應內建沙盒、限制操作範圍，至少只能在單一工作目錄內執行，並強制要求使用者授權後才能對實體裝置進行動作。也有人批評，目前 Windows 上缺乏輕量化且易於程式化控制的沙盒工具，使問題更加複雜。部分開發者分享，自己只會在 Docker 等隔離環境中使用這類 AI 工具，以避免「毀整顆磁碟」的風險。
+
+整體而言，多數留言者對失主表達同情，但也強調盲目信任 AI 是危險行為。許多人認為，AI 工具模糊化指令背後的實際行為，加上越來越強調「vibe coding」的氛圍，會讓缺乏經驗的使用者誤以為電腦能自行判斷安全性，進而執行自己本不會下達的危險指令。這件事被視為未來更多類似意外的前兆，也凸顯在高度自動化的開發環境中，清楚理解系統操作仍然是不可取代的基本能力。
+</blockquote>
+👥 <b>61</b> 則討論、評論 💬
+<a href="https://news.ycombinator.com/item?id=46103532">https://news.ycombinator.com/item?id=46103532</a></div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://old.reddit.com/r/google_antigravity/comments/1p82or6/google_antigravity_just_deleted_the_contents_of/">Reddit</a>
+          <h6>From the google_antigravity community on Reddit</h6>
+          <p>Explore this post and more from the google_antigravity community</p>
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5858513289749400560.png" title="Telegram wepbage media id 5858513289749400560" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </div></div></div>
+      </div></div></div>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">連付錢都爬不動 Reddit 了，有確定能用的解決方案歡迎告知～</div>
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2025-12-02_21.54.57</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-12-02/2025-12-02_21.54.57</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-12-02/2025-12-02_21.54.57</guid>
+        <pubDate>Tue, 02 Dec 2025 21:54:57 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>舆情应对小妙招，你就说有没有用吧</p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/zrj96" title="Telegram PeerChannel handle: zrj96" data-title="tg:zrj96">zrj766的频道</a> (<span class="tg-author">Banned Account</span>)
+      <div class="tg-involvement-layout"><div class="tg-involvement-layout"><div  class="tg-involvement-layout tg-involvement-type">
+      <span class="tg-involvement-type">[Re]</span>
+      </div><div class="tg-involvement-layout tg-involvement-body"><a target="_blank" href="https://t.me/zrj96" title="Telegram PeerChannel handle: zrj96" data-title="tg:zrj96">zrj766的频道</a> (<span class="tg-author">Banned Account</span>)
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">南通文旅大号开团，一夜窜了一百多万粉🫡</div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-4992575967943396184.png" title="Telegram media id 4992575967943396184" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+      </div></div></div>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">“南通文旅回应”登上热搜，声称之前的关于少爷的留言是AI流程漏洞。
+
+但是吧，全网只有这一张图，也没找到任何官方通过文件或官号的回应内容
+所以这次回应是假的，至少目前是这样，找不到任何来源。</div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-4997118746262440749.png" title="Telegram media id 4997118746262440749" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2025-12-02_19.52.09</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-12-02_19.52.09</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-12-02_19.52.09</guid>
+        <pubDate>Tue, 02 Dec 2025 19:52:09 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/DystopianDaily">#DystopianDaily</a></span>
+    </div><p>India orders smartphone makers to preload state-owned cyber safety app 印度要求智能手机制造商预装国有网络安全应用程序 - <a href="https://www.reuters.com/sustainability/boards-policy-regulation/india-orders-mobile-phones-preloaded-with-government-app-ensure-cyber-safety-2025-12-01/" target="_blank">https://www.reuters.com/sustainability/boards-policy-regulation/india-orders-mobile-phones-preloaded-with-government-app-ensure-cyber-safety-2025-12-01/</a></p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2025-11-29_16.33.44</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-11-29_16.33.44</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-11-29_16.33.44</guid>
+        <pubDate>Sat, 29 Nov 2025 16:33:44 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p><a href="https://kerrick.blog/articles/2025/confessions-of-a-software-developer-no-more-self-censorship/" target="_blank">https://kerrick.blog/articles/2025/confessions-of-a-software-developer-no-more-self-censorship/</a></p>
+<p>发现的第一个特别明显的多种分类分不同RSS Feed链接的个人博客</p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2025-11-29_00.49.02</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-11-29_00.49.02</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-11-29_00.49.02</guid>
+        <pubDate>Sat, 29 Nov 2025 00:49:02 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/TIL">#TIL</a></span>
+    </div><p>抽水马桶两个冲水按键一起按，只相当于按了小按键。（啊？）</p>
+<p><a href="https://b23.tv/BV1nZi1YtEjx" target="_blank">https://b23.tv/BV1nZi1YtEjx</a> 03:20</p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2025-11-28_21.36.21</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-11-28/2025-11-28_21.36.21</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-11-28/2025-11-28_21.36.21</guid>
+        <pubDate>Fri, 28 Nov 2025 21:36:21 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/TIL">#TIL</a></span>
+    </div><p>KDE未来的6.8版本将是Wayland独占。</p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/diversions1024" title="Telegram PeerChannel handle: diversions1024" data-title="tg:diversions1024">Diversions 1024</a>
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span><a target="_blank" href="https://t.me/yihanwu1024" title="Telegram PeerUser handle: yihanwu1024" data-title="tg:yihanwu1024">Yihan</a>
+    </div>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://blogs.kde.org/2025/11/26/going-all-in-on-a-wayland-future/">https://blogs.kde.org/2025/11/26/going-all-in-on-a-wayland-future/</a></div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://blogs.kde.org/2025/11/26/going-all-in-on-a-wayland-future/?utm_source=tg&amp;utm_medium=devops&amp;utm_campaign=301125">KDE Blogs</a>
+          <h6>Going all-in on a Wayland future</h6>
+          <p>Well folks, it’s the beginning of a new era: after nearly three decades of KDE desktop environments running on X11, the future KDE Plasma 6.8 release will be Wayland-exclusive! Support for X11 applications will be fully entrusted to Xwayland, and the Plasma X11 session will no longer be included.</p>
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+  </channel>
+</rss>
