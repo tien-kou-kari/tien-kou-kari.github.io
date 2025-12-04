@@ -532,3 +532,7 @@ https://b23.tv/BV1nZi1YtEjx 03:20
 发现的第一个特别明显的多种分类分不同RSS Feed链接的个人博客
 
 2025-12-02 19:52:09 #DystopianDaily India orders smartphone makers to preload state-owned cyber safety app 印度要求智能手机制造商预装国有网络安全应用程序 - https://www.reuters.com/sustainability/boards-policy-regulation/india-orders-mobile-phones-preloaded-with-government-app-ensure-cyber-safety-2025-12-01/
+
+2025-12-04 20:16:01 > 但后来我意识到，这不仅仅是一次对话。每次我与西雅图的工程师分享 Wanderfugl 时，我都会得到同样条件反射式的、批评性的、负面的反应。在巴厘岛、东京、巴黎或旧金山，情况并非如此。那里的人们很好奇，很投入，想要理解我正在建造的东西。但在西雅图呢？他们一听到 “AI” 这个词就会立即产生敌意。
+
+Everyone in Seattle Hates AI — Jonathon Ready - https://jonready.com/blog/posts/everyone-in-seattle-hates-ai.html
