@@ -536,3 +536,9 @@ https://b23.tv/BV1nZi1YtEjx 03:20
 2025-12-04 20:16:01 > 但后来我意识到，这不仅仅是一次对话。每次我与西雅图的工程师分享 Wanderfugl 时，我都会得到同样条件反射式的、批评性的、负面的反应。在巴厘岛、东京、巴黎或旧金山，情况并非如此。那里的人们很好奇，很投入，想要理解我正在建造的东西。但在西雅图呢？他们一听到 “AI” 这个词就会立即产生敌意。
 
 Everyone in Seattle Hates AI — Jonathon Ready - https://jonready.com/blog/posts/everyone-in-seattle-hates-ai.html
+
+2025-12-04 20:21:23 > 只要用户以诗歌的形式表达问题，人工智能聊天机器人就会就核武器、儿童性虐待材料和恶意软件等话题进行讨论。研究表明：“诗歌框架在手工诗歌中的平均越狱成功率为 62%, 在元即时转换中约为 43%。”
+
+Prompt Injection via Poetry 通过诗歌提前注入 - https://www.wired.com/story/poems-can-trick-ai-into-helping-you-make-a-nuclear-weapon/
+
+(archive.today可绕付费墙)
