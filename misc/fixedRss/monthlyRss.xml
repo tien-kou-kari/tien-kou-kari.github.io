@@ -768,46 +768,6 @@ by @programmer_humor</div>
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-11-19">misc/tg/2025-11-19</a> / <a href="/misc/tg/2025-11-19/2025-11-19_08.58.20">2025-11-19_08.58.20</a> <span>2025-11-19 08:58:20 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/bupt_moe" title="Telegram PeerChannel handle: bupt_moe" data-title="tg:bupt_moe">bupt.moe</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">#ops
-CF验尸报告：
-
-省流：
-1. ClickHouse 的权限改动导致非预期的 Bot Management 配置文件增大。
-2. Cloudflare 模块因为性能原因是预分配内存的，所以在读到过大的配置文件时……
-3.  因为是自己生成的配置文件，所以自然而然的使用了 <code>.unwrap()</code> ，也就自然而然地 panic 了。
-4. 因为这个 ClickHouse 的改动是逐步部署的，所以大家看到了喜闻乐见的仰卧起坐情况。
-5. 部署修复之后，一大堆人同时试着登录以及默认的重试也降低了服务可用性。
-
-CF 打算做的增强：
-1. 对自己生成的配置文件也按照用户输入进行读取；
-2. 提供全局开关来控制特性启用；
-3. Coredumps和其他错误报告不再干死整个系统；
-4. 重新检查所有代理模块的失效模型。
-
-编者点评：
-这个模块为啥不能是 fail-open 的？
-<a href="https://blog.cloudflare.com/18-november-2025-outage/">https://blog.cloudflare.com/18-november-2025-outage/</a></div>
-    </div></div>
-  </div>
-
-
-</div>
-</div>
-</div>
-
         ]]></description>
       </item>
   </channel>
