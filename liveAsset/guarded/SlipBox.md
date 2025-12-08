@@ -542,3 +542,7 @@ Everyone in Seattle Hates AI — Jonathon Ready - https://jonready.com/blog/post
 Prompt Injection via Poetry 通过诗歌提前注入 - https://www.wired.com/story/poems-can-trick-ai-into-helping-you-make-a-nuclear-weapon/
 
 (archive.today可绕付费墙)
+
+2025-12-08 20:03:40 GitHub Actions Has a Package Manager, and It Might Be the Worst GitHub Actions 有一个包管理器，这可能是最糟糕的 - https://nesbitt.io/2025/12/06/github-actions-package-manager.html
+
+非常好吹哨
