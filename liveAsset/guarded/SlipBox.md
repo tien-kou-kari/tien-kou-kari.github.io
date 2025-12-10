@@ -546,3 +546,7 @@ Prompt Injection via Poetry 通过诗歌提前注入 - https://www.wired.com/sto
 2025-12-08 20:03:40 GitHub Actions Has a Package Manager, and It Might Be the Worst GitHub Actions 有一个包管理器，这可能是最糟糕的 - https://nesbitt.io/2025/12/06/github-actions-package-manager.html
 
 非常好吹哨
+
+2025-12-10 20:07:31 Show HN: Gemini Pro 3 hallucinates the HN front page 10 years from now 展示 HN:Gemini Pro 3 在 10 年后的 HN 首页上呈现幻觉 - https://dosaygo-studio.github.io/hn-front-page-2035/news
+
+我踏马服了
