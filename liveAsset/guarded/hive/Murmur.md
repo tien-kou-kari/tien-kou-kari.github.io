@@ -24,3 +24,5 @@ On my Linux machine, SDDM goes into blank screen on the second login attempt (af
 2025-11-16 17:24:48 #ReadItLaterOrNever https://github.com/rumca-js/RSS-Link-Database-2025
 
 2025-11-28 18:50:19 https://pluto0x0.github.io/X_based_china/
+
+2025-12-11 19:38:43 https://gwern.net/doc/statistics/stylometry/truesight/index
