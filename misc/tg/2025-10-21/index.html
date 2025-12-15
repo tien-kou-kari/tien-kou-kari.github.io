@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <base href="." />
+    <link rel="stylesheet" href="about:blank" title="Tien-kou Builtin Style" />
+    <link rel="alternate stylesheet" href="about:blank" title="Tien-kou Empty Style (for customization)" />
+    <title>misc/tg/2025-10-21 - Tien-kou</title>
+    
+  </head>
+  <body>
+    <div id="tkRootWrapper" class="tien-kou-page">
+      <style type="text/css">
+        #tkRootWrapper {
+          container-name: tien-kou-page;
+          container-type: inline-size;
+        }
+      </style>
+      <div id="homeLinkWrapper" class="home-link-wrapper" style="margin-top: 0.8rem; margin-bottom: 1.2rem; margin-left: 1rem;;">
+        <a href="/">Tien-kou <span lang="ja-JP">(仮)</span>.</a>
+      </div>
+      <script type="text/javascript">
+        function insertAfter(newElement, referenceElement) {
+          if (!newElement || !referenceElement) {
+              return false;
+          }
+          if (!referenceElement.parentNode) {
+              return false;
+          }
+          
+          var parent = referenceElement.parentNode;
+          if (referenceElement.nextSibling) {
+              parent.insertBefore(newElement, referenceElement.nextSibling);
+          } else {
+              parent.appendChild(newElement);
+          }
+          
+          return true;
+        }
+
+        if (location.search && location.search != '?') {
+          var alertStaticQueryStrEl = document.createElement('div');
+          alertStaticQueryStrEl.setAttribute('class', 'alert alert-primary');
+          alertStaticQueryStrEl.setAttribute('role', 'alert');
+          alertStaticQueryStrEl.innerText = 'Warn: you are viewing a static version of this site. The query string in the URL will not work. Instead, the site will behave if no query is provided.';
+          var alertStaticQueryStrBrEl = document.createElement('br');
+          var alertStaticQueryStrBr2El = document.createElement('br');
+          alertStaticQueryStrEl.appendChild(alertStaticQueryStrBrEl);
+          alertStaticQueryStrEl.appendChild(alertStaticQueryStrBr2El);
+          insertAfter(alertStaticQueryStrEl, document.getElementById('homeLinkWrapper'));
+        }
+      </script><style type="text/css" title="Tien-kou Empty Style (for customization)">
+</style>
+
+<noscript>
+  <style type="text/css" title="Tien-kou Builtin Style">
+
+    
+
+html {
+  color-scheme: light dark;
+}
+
+#tkRootWrapper {
+  text-autospace: normal;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font-family: System UI;
+  font-size: 0.75rem;
+}
+
+main {
+  max-width: min(80ch, 100% - 2ch);
+  max-width: min(40rem, 100% - 2rem);
+}
+
+p {
+  margin-top: 0.32rem;
+  margin-bottom: 0.32rem;
+}
+
+p:first-child {
+  margin-top: 0.16rem;
+}
+
+.white-space-preserve {
+  white-space-collapse: preserve;
+}
+
+div.principal-content {
+  /*margin-top: 0.5rem;*/
+}
+
+div.one-in-seq-wrapper {
+  margin-inline-start: 0.4rem;
+  max-width: 96%;
+  max-width: max(96%, 100% - 1rem);
+}
+
+/**/
+
+table.tg-wrapper-layout {
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  min-width: 10rem;
+}
+
+table.tg-wrapper-layout,
+th.tg-wrapper-layout,
+td.tg-wrapper-layout  {
+  border: 2px ridge lightgrey;
+  border-collapse: collapse;
+}
+
+/**/
+
+table.tg-involvement-layout {
+  margin-left: 0.3rem;
+  margin-top: 0.5rem;
+  min-width: 6rem;
+}
+
+table.tg-involvement-layout,
+th.tg-involvement-layout,
+td.tg-involvement-layout  {
+  border: 2px ridge lightgrey;
+  border-collapse: collapse;
+}
+
+/**/
+
+table.tg-websummary-layout {
+  margin-left: 0.3rem;
+  margin-top: 0.5rem;
+  min-width: 6rem;
+}
+
+table.tg-websummary-layout,
+th.tg-websummary-layout,
+td.tg-websummary-layout {
+  border: 2px ridge lightgrey;
+  border-collapse: collapse;
+}
+
+/**/
+
+table.group-layout {
+  margin-left: 0.3rem;
+  margin-top: 0.5rem;
+  min-width: 10rem;
+}
+
+table.group-layout,
+th.group-layout,
+td.group-layout {
+  border: 2px ridge lightgrey;
+  border-collapse: collapse;
+}
+
+/**/
+
+td.group-ref-primary.group-ref-scroll .principal-content {
+  max-height: 20rem;
+  overflow-y: scroll;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.tg-img, .tg-video {
+  max-width: 20rem;
+  max-height: 40rem;
+}
+
+a.tag-link {
+
+}
+
+.tag-wrapper {
+  margin-right: 0.6rem;
+}
+
+
+table.tg-wrapper-layout a {
+  filter: brightness(5) contrast(0.7) saturate(0.6);
+  text-decoration: underline dashed;
+}
+
+a.secondary {
+  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */
+  filter: brightness(3) contrast(0.26);
+  text-decoration: underline dotted;
+}
+
+.tidbit-value.white-space-preserve {
+  white-space: pre-wrap;
+  font-family: monospace;
+}
+
+.tidbit-value {
+}
+
+.tidbit-key {
+  font-weight: bold;
+  flex-shrink: 1;
+  margin-inline-end: 0.6rem;
+  min-width: 7.6rem;
+}
+
+.tidbit-key::after {
+  content: ': ';
+}
+
+.tidbit-pair {
+  display: flex;
+}
+
+blockquote {
+  margin: 0.1rem 0;
+  padding: 0.1rem 0.2rem 0.1rem 0.8rem;
+  background-color: #fafafa;
+
+  border: 1px solid #6e6e6e;
+  border-left: 5px solid #6e6e6e;
+}
+
+a.md-attach {
+  display: block;
+  width: fit-content;
+}
+
+.md-attach img {
+  display: inline;
+}
+
+hr.sep-in-seq {
+  margin-block-start: 0.75rem;
+  margin-block-end: 0.75rem;
+}
+
+div.ref-marker {
+  letter-spacing: -0.08rem;
+  margin-right: 0.4rem;
+  font-weight: bold;
+  margin-top: 0.8rem;
+  display: inline-block;
+}
+
+div.asset-info-line {
+  margin-bottom: 0.2rem;
+}
+
+pre:has(> code) {
+  border: 1px solid #cccccc;
+  padding: 0.8rem;
+  background: #f5f5f5;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+
+
+  </style>
+</noscript><script type="text/javascript">
+  function setCookie(name, value, days) {
+    var expires = "";
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + encodeURIComponent(value) + expires + "; path=/";
+  }
+  function removeCookie(name) {
+    document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+  }
+  function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) == 0) return decodeURIComponent(c.substring(nameEQ.length, c.length));
+    }
+    return null;
+  }
+  function getElement(id) {
+    return document.getElementById(id);
+  }
+
+  var tkDefaultStyle = "\n\nhtml {\n  color-scheme: light dark;\n}\n\n#tkRootWrapper {\n  text-autospace: normal;\n}\n\nimg,\nsvg,\nvideo {\n  max-width: 100%;\n  display: block;\n}\n\nbody {\n  font-family: System UI;\n  font-size: 0.75rem;\n}\n\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\np {\n  margin-top: 0.32rem;\n  margin-bottom: 0.32rem;\n}\n\np:first-child {\n  margin-top: 0.16rem;\n}\n\n.white-space-preserve {\n  white-space-collapse: preserve;\n}\n\ndiv.principal-content {\n  /*margin-top: 0.5rem;*/\n}\n\ndiv.one-in-seq-wrapper {\n  margin-inline-start: 0.4rem;\n  max-width: 96%;\n  max-width: max(96%, 100% - 1rem);\n}\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-involvement-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-websummary-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntd.group-ref-primary.group-ref-scroll .principal-content {\n  max-height: 20rem;\n  overflow-y: scroll;\n}\n\nh1, h2, h3 {\n  color: #2c3e50;\n  border-bottom: 1px solid #eee;\n  padding-bottom: 5px;\n}\n\n.tg-img, .tg-video {\n  max-width: 20rem;\n  max-height: 40rem;\n}\n\na.tag-link {\n\n}\n\n.tag-wrapper {\n  margin-right: 0.6rem;\n}\n\n\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n.tidbit-value.white-space-preserve {\n  white-space: pre-wrap;\n  font-family: monospace;\n}\n\n.tidbit-value {\n}\n\n.tidbit-key {\n  font-weight: bold;\n  flex-shrink: 1;\n  margin-inline-end: 0.6rem;\n  min-width: 7.6rem;\n}\n\n.tidbit-key::after {\n  content: ': ';\n}\n\n.tidbit-pair {\n  display: flex;\n}\n\nblockquote {\n  margin: 0.1rem 0;\n  padding: 0.1rem 0.2rem 0.1rem 0.8rem;\n  background-color: #fafafa;\n\n  border: 1px solid #6e6e6e;\n  border-left: 5px solid #6e6e6e;\n}\n\na.md-attach {\n  display: block;\n  width: fit-content;\n}\n\n.md-attach img {\n  display: inline;\n}\n\nhr.sep-in-seq {\n  margin-block-start: 0.75rem;\n  margin-block-end: 0.75rem;\n}\n\ndiv.ref-marker {\n  letter-spacing: -0.08rem;\n  margin-right: 0.4rem;\n  font-weight: bold;\n  margin-top: 0.8rem;\n  display: inline-block;\n}\n\ndiv.asset-info-line {\n  margin-bottom: 0.2rem;\n}\n\npre:has(> code) {\n  border: 1px solid #cccccc;\n  padding: 0.8rem;\n  background: #f5f5f5;\n  white-space: pre-wrap;\n  word-wrap: break-word;\n}\n\n"
+
+  var tkStyleContent = getCookie('tkStyle');
+  var tkStyleElement = document.createElement('style');
+  tkStyleElement.type = 'text/css';
+  tkStyleElement.setAttribute('title', 'Tien-kou Builtin Style');
+
+  if (tkStyleContent) {
+    // If cookie exists, use its value
+    if (tkStyleElement.styleSheet) {
+      // For IE
+      tkStyleElement.styleSheet.cssText = tkStyleContent;
+    } else {
+      tkStyleElement.appendChild(document.createTextNode(tkStyleContent));
+    }
+  } else {
+    // If no cookie, use default but don't save to cookie
+    if (tkStyleElement.styleSheet) {
+      tkStyleElement.styleSheet.cssText = tkDefaultStyle;
+    } else {
+      tkStyleElement.appendChild(document.createTextNode(tkDefaultStyle));
+    }
+  }
+
+  // Add style to head
+  document.getElementsByTagName('head')[0].appendChild(tkStyleElement);
+
+</script>
+<main>
+  <div class="parent-p-content-wrapper">
+    <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <details style="margin-bottom: 0.4rem" lang="en">
+      <summary>...</summary>
+      <div class="tidbit-pair"><div class="tidbit-key">Parent</div><div class="tidbit-value">
+        <div class="asset-parent-line"><a class="secondary" href="/misc/tg">misc/tg/</a>
+        </div>
+      </div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">Locator</div><div class="tidbit-value white-space-preserve">guarded/misc/tg/2025-10-21</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">Locator (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">guarded/misc/tg/2025-10-21</div></div>
+      
+      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPathUnencoded</div><div class="tidbit-value white-space-preserve">/misc/tg/2025-10-21</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPathUnencoded (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/misc/tg/2025-10-21</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath</div><div class="tidbit-value white-space-preserve">/misc/tg/2025-10-21</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/misc/tg/2025-10-21</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1761056806885</div></div>
+    </details>
+
+</div>
+
+    </div>
+  </div>
+<div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-21">misc/tg/2025-10-21</a> / <a href="/misc/tg/2025-10-21/2025-10-21_22.26.40">2025-10-21_22.26.40</a> <span>2025-10-21 22:26:40 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>提供大量信息的一个观察</p>
+<p>via <a href="https://t.me/gaojiriji/6404" target="_blank">https://t.me/gaojiriji/6404</a></p>
+
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/justpaper81663" title="Telegram PeerChannel handle: justpaper81663" data-title="tg:justpaper81663">Just Paper‘s Channel</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">Apple Music中文歌词显示乱码或者闪退问题的盲猜根源是26系统（不包括macOS 26） 的歌词部分源码变动及历史遗留bug（主唱歌词和和声歌词时间轴重复重叠 <a href="http://bilibili.com/BV1nUWtzoE65">source）与简繁体中文的转换</a> 在中文歌（包含国语 粤语 闽南语等）且外区Apple Music会有简体和繁体中文两套歌词根据系统语言切换，国区只显示简体中文的歌词，由于版权方提供的歌词的时间轴出现的与iOS26的兼容问题会导致国区的孤勇者闪退，但外区涉及到简繁的切换会乱码直接绕开了这个问题就不会闪退。对于Android设备的Apple Music，虽然有简繁体中文混杂，但并没有多余括号歌词和和声歌词重叠导致发生闪退。
+
+苹果在26系统对Apple Music的歌词动了场大手术（不包括macOS 26） 除了增加了发音和翻译，歌词时间轴显示也做了相应的调整 比如在NewJeans的OMG里的They keep on asking “who is he”的和声是在主唱前面的新版本的Apple Music比较符合歌曲本身的时间轴，而在iOS18或早期版本，无论时间轴如何设置，和声歌词一定放在主场歌词的下面。
+
+据传在WWDC25之前苹果就要求唱片公司提供歌词翻译，我估计是只有欧美和韩国公司比较积极所以就只支持英语至中文 (简体)、英语至日语、韩语至中文 (简体)、韩语至英语、韩语至日语，西班牙语至英语。所以欧美歌翻译质量比较直白，kpop歌只翻译韩语部分不翻译英语部分（韩团YouTube官方频道的mv中文歌词就是这样）。到后续苹果不仅会为没有翻译的歌（热度到位的前提下）才用AI翻译+人工校准，对于之前翻译不好的歌会重制翻译（比如 SEVENTEEN的孙悟空这首歌里，마치된것같아 손오공 这句原来翻译是：仿佛化身为孙悟空，而苹果最近更新的翻译是：恍若已成就 齐天大圣）
+ 
+其实唱片公司并没有问题因为提供的歌词及时间轴是没问题的，甚至Apple Music负责歌词的项目组也没问题，本意推出这个功能也是为了优化Apple Music Sing。而问题出在软件团队的远古历史原因留下的烂摊子，但至少在以前的系统版本不会出现闪退问题，苹果软件生态的口碑逐渐败坏，或许AI领域的落后，对汽车行业优柔寡断不一定是苹果的凶手，但软件一定是死杀死苹果的凶手。</div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5168277737083439940.png" title="Telegram media id 5168277737083439940" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-21">misc/tg/2025-10-21</a> / <a href="/misc/tg/2025-10-21/2025-10-21_22.20.35">2025-10-21_22.20.35</a> <span>2025-10-21 22:20:35 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a> (<span class="tg-author">дамир ✿</span>)
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5456528149253847542.png" title="Telegram media id 5456528149253847542" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-21">misc/tg/2025-10-21</a> / <a href="/misc/tg/2025-10-21/2025-10-21_20.01.52">2025-10-21_20.01.52</a> <span>2025-10-21 20:01:52 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/manjusakah" title="Telegram PeerChannel handle: manjusakah" data-title="tg:manjusakah">Manjusaka 的碎碎念（以及摇曳露营 S4 制作确定！）</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">简单复盘一下 AWS 这次事件作为一个 AIGC Startup SRE 的一些操作吧，希望能帮到大家
+从入职开始发现我们主要的集群在 USE1 之后，我就开始做一些准备了。
+我主要做的事情有这几件事
+1. 将我们核心的几个数据库做了多地的备份，形成了 USE1，Tokyo，SG 三地备份。这样在极端情况下，我们损失一部分数据，但是也能保证服务的继续
+2. 将我们 SG 的测试集群从原本的 EC2 自己简单搭的 K3S，重构为了一个标准的 AWS EKS 集群。这样可以在灾害时刻快速 warmup 一个集群，复用 AWS 已有组件。将 manifest 变更的代价降至最小
+3. 简单梳理了一个 SOP，包含用户公告，DNS 切换，封版等事宜
+
+回到今天，我大概在 AWS 事故发生后的10min，发现了我们容器中有新的 Pod 无法 setup。
+
+在和 AWS 支持确认是 USE1 的问题后，我意识到 ECR 的事件必然关联其余事件，于是我就果断按照我自己规划的 Tier1 等级事件开始处理（对于 SRE 来说，这种事情宁可错，但是不能错过）
+
+T+0 min，我发布了全员公告，开始进入紧急模式。我 setup 了一个全员公开会议。所有人员可以随时加入
+T+2 min，我确认事件如我所预期的一样，在逐渐扩大，我发出了两个指令，1. 全线禁止任何代码合入/提交（主要是避免新创建资源会导致 Pod rotate 进而影响流量），2. 请运营同学准备公告
+T+3 min, 我开始按照 SOP，开始进行数据库在 SG 区域的恢复，并且级联创建诸如 OpenSearch / Redis 等在内的依赖
+T+5 min，我们开始正式的确认上下游依赖的具体问题，确认一个新上线的核心服务受到影响
+T+10min，我们停服公告和其余服务的受影响公告发出
+T+10min，我请另外两位同时协助 setup 新的 ECR 以及清理测试环境已有资源，并同步 CTO ，在极端情况下，我们可能会存在保体验，丢数据的决策。
+T+15min， 我们最终确认目前已创建的资源以及流量入方向不会受到太大影响。切换方案挂起，但是我们继续准备相关资源
+T+30min，我们第一个数据库恢复完毕
+T+40min，我们第二个数据库恢复完毕
+T+1h，我们所有关联的核心 infra，RDS/ES/Redis 都 stand by，并且按照生产架构设置主从等优化选项。同时我们也开始正在新的集群启动新的服务
+所幸，最终 AWS 的 crash 没有影响我们全部服务。我们无须面对切换流量后复杂的数据修复工作
+大概 T+2h 到 T+3h 后，我正式通报全员，紧急状态解除。为保险起见，今晚依旧对 feature 封版。
+
+回顾整个事故，我还可以做的更多
+1.  将我之前为自己准备的极端 case  SOP，对全员公开。这样确保我即便不在线，也有人能接替我
+2. 我们可以做一些提前的预先演练
+3. 指令下达可以更果断一些
+
+差不多就是这样，一点分享，希望能帮到大家</div>
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-21">misc/tg/2025-10-21</a> / <a href="/misc/tg/2025-10-21/2025-10-21_19.39.40">2025-10-21_19.39.40</a> <span>2025-10-21 19:39:40 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gaojiriji" title="Telegram PeerChannel handle: gaojiriji" data-title="tg:gaojiriji">搞机日记</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://fxtwitter.com/hoenheimer/status/1980181754146369570">https://fxtwitter.com/hoenheimer/status/1980181754146369570</a></div>
+      
+        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
+          <a target="_blank" href="https://fxtwitter.com/hoenheimer/status/1980181754146369570">FxTwitter</a>
+          <h6>张张张子恒 (@Hoenheimer)</h6>
+          <p>Only Apple Can Do.</p>
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6031648734321949382.png" title="Telegram wepbage media id 6031648734321949382" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </td></tr></table>
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-21">misc/tg/2025-10-21</a> / <a href="/misc/tg/2025-10-21/2025-10-21_19.33.53">2025-10-21_19.33.53</a> <span>2025-10-21 19:33:53 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/dai_daily" title="Telegram PeerChannel handle: dai_daily" data-title="tg:dai_daily">💈就在这理发店💈</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6321147543168945303.png" title="Telegram media id 6321147543168945303" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-21">misc/tg/2025-10-21</a> / <a href="/misc/tg/2025-10-21/2025-10-21_19.28.17">2025-10-21_19.28.17</a> <span>2025-10-21 19:28:17 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/reorx_share" title="Telegram PeerChannel handle: reorx_share" data-title="tg:reorx_share">Reorx’s Forge</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">教科书般的故障应对，kudos!
+
+<a href="https://t.me/ManjusakaH/578">https://t.me/ManjusakaH/578</a></div>
+      
+        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
+          <a target="_blank" href="https://t.me/ManjusakaH/578">Telegram</a>
+          <h6>Manjusaka 的碎碎念（以及摇曳露营 S4 制作确定！）</h6>
+          <p>简单复盘一下 AWS 这次事件作为一个 AIGC Startup SRE 的一些操作吧，希望能帮到大家
+从入职开始发现我们主要的集群在 USE1 之后，我就开始做一些准备了。
+我主要做的事情有这几件事
+1. 将我们核心的几个数据库做了多地的备份，形成了 USE1，Tokyo，SG 三地备份。这样在极端情况下，我们损失一部分数据，但是也能保证服务的继续
+2. 将我们 SG 的测试集群从原本的 EC2 自己简单搭的 K3S，重构为了一个标准的 AWS EKS 集群。这样可以在灾害时刻快速 warmup 一个集群，复用 AWS 已有组件。将 manifest 变更的代价降至最小
+3. 简单梳理了一个 SOP，包含用户公告，DNS 切换，封版等事宜
+
+回到今天，我大概在 AWS 事故发生后的10min，发现了我们容器中有新的 Pod 无法 setup。
+
+在和 AWS 支持确认是 USE1 的问题后，我意识到 ECR 的事件必然关联其余事件，于是我就果断按照我自己规划的 Tier1 等级事件开始处理（对于 SRE 来说，这种事情宁可错，但是不能错过）
+
+T+0 min，我发布了全员公告，开始进入紧急模式。我 setup 了一个全员公开会议。所有人员可以随时加入
+T+2 min，我确认事件如我所预期的一样，在逐渐扩大，我发出了两个指令，1. 全线禁止任何代码合入/提交（主要是避免新创建资源会导致 Pod rotate 进而影响流量），2. 请运营同学准备公告
+T+3 min, 我开始按照 SOP，开始进行数据库在 SG 区域的恢复，并且级联创建诸如 OpenSearch / Redis 等在内的依赖
+T+5 min，我们开始正式的确认上下游依赖的具体问题，确认一个新上线的核心服务受到影响
+T+10min，我们停服公告和其余服务的受影响公告发出
+T+10min，我请另外两位同时协助 setup 新的 ECR 以及清理测试环境已有资源，并同步 CTO ，在极端情况下，我们可能会存在保体验，丢数据的决策。
+T+15min， 我们最终确认目前已创建的资源以及流量入方向不会受到太大影响。切换方案挂起，但是我们继续准备相关资源
+T+30min，我们第一个数据库恢复完毕
+T+40min，我们第二个数据库恢复完毕
+T+1h，我们所有关联的核心 infra，RDS/ES/Redis 都 stand by，并且按照生产架构设置主从等优化选项…</p>
+        </td></tr></table>
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-21">misc/tg/2025-10-21</a> / <a href="/misc/tg/2025-10-21/2025-10-21_19.25.06">2025-10-21_19.25.06</a> <span>2025-10-21 19:25:06 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>草</p>
+
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/reorx_share" title="Telegram PeerChannel handle: reorx_share" data-title="tg:reorx_share">Reorx’s Forge</a>
+      <table class="tg-involvement-layout"><tr class="tg-involvement-layout"><td  class="tg-involvement-layout tg-involvement-type">
+      <span class="tg-involvement-type">[Re]</span>
+      </td><td class="tg-involvement-layout tg-involvement-body"><a target="_blank" href="https://t.me/suibian_tietie" title="Telegram PeerChannel handle: suibian_tietie" data-title="tg:suibian_tietie">ニヤニヤ的随便贴贴</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">等等 突然想到
+
+GitHub 封存在南极的代码是保存完整的前LLM时代资料</div>
+      </td></tr></table>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">”低本底代码”</div>
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-21">misc/tg/2025-10-21</a> / <a href="/misc/tg/2025-10-21/2025-10-21_19.24.09">2025-10-21_19.24.09</a> <span>2025-10-21 19:24:09 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a> (<span class="tg-author">GM</span>)
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6030826879444961758.png" title="Telegram media id 6030826879444961758" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-21">misc/tg/2025-10-21</a> / <a href="/misc/tg/2025-10-21/2025-10-21_19.21.35">2025-10-21_19.21.35</a> <span>2025-10-21 19:21:35 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body">谭家胖的自留地🫸🎨😳 📺🫷
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">翻相册翻到这张，这是当年在做某一期内容的时候，特别受触动然后保存的一张照片。
+
+某个消费者很开心地将这个照片发布在了拼多多上的二手组装电视的评论区。而这样的垃圾电视当时正在拼多多泛滥。
+
+利用旧零部件组装电视，卖小米电视的价格，再通过虚报尺寸获得对品牌机的营销优势。而无数下沉市场的群众在拼多多上搜索电视的时候，优先看到的就是这一类假王牌拼多多电视。
+
+评论者和他的孩子应该很高兴家里多了一台 65、75 寸大电视，他们没心机去量电视的对角线，这也不是普通消费者的责任。
+
+看着这张图片里面兴奋的眼神，我真的到现在都感到无比愧疚。
+
+因为墙上挂的是一台 65 装 75，43 装 65 的、用回收料后壳加上拆机屏幕组成的一台电视。
+这些电视显示不佳、易燃、易损。
+
+而我始终觉得自己有责任。
+
+这些在广州白云和番禺的吸血鬼，通过在上海的一群伟大而体面的人，吸吮着全国无数农村和乡镇消费者的骨血，继续着整个劫贫济富的主线剧情。
+
+而那群体面的人，从这片血海中一瓢一瓢地舀起并吞下。这还嫌不够，那些为他们创造了财富的下属，却连基本的需求都不能满足，整层人共享着少得可怜的厕所，人被逼到在坑位外面拉屎。
+
+我真的不知道拼多多对我的乡亲们有什么好处，真的；就像我不知道仅退款对整个行业有什么好处一样。
+
+当我在拼多多上买到假的小米排插、假的小米充电版（是的小米是重灾区）、假冒伪劣拼多多电视的时候，仅退款怎么就没有弹出来呢？怎么就要我上黑猫，上 12315 投诉呢？我们只是上网说了事实，怎么就给我们发律师函呢？
+
+画面上这个女孩应该是小学年纪，现在应该已经快要接受高等教育，或者出来工作了，以中国家庭的节俭程度，他们大概率还在用这一台电视……</div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6320870199950773217.png" title="Telegram media id 6320870199950773217" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-21">misc/tg/2025-10-21</a> / <a href="/misc/tg/2025-10-21/2025-10-21_18.52.31">2025-10-21_18.52.31</a> <span>2025-10-21 18:52:31 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/laoself" title="Telegram PeerChannel handle: laoself" data-title="tg:laoself">Laoself 🦠</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">我覺得這些年讓人覺得軟體品質下降的最大原因，還是軟體要處理的不同狀態實在是太多了。
+iPhone 4S年代，iOS只有兩種熒幕邏輯尺寸（iPhone和iPad），只有一種硬體按鍵佈局（switch+volume+home button），app只能full screen（不管是iPad還是iPhone），沒有Dark Mode，沒有除了系統app和個別API墓碑特例以外的背景駐留，沒有第三方提供的share extension（分享全靠系統內建），設定app在3.5吋的iPhone 4S上除了首頁基本上都在兩屏以內。
+過去擔心素材需要一個@2x，現在雖然可以給svg/pdf，但是要考慮dark mode、increased contrast、reduced opacity、bold text、dynamic type，以及至少三種iPhone size、iPad上fullscreen、sliderover、windowed。
+多一個系統級的on/off選項就會造成多一倍的需要測試驗收的狀態，是指數增長。Apple在sherlock越獄插件的同時，實際上把iOS本身變成了一個打滿越獄補丁和模組的怪獸。</div>
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-10-21">misc/tg/2025-10-21</a> / <a href="/misc/tg/2025-10-21/2025-10-21_14.49.33">2025-10-21_14.49.33</a> <span>2025-10-21 14:49:33 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>应得的</p>
+
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/ycombinatornews" title="Telegram PeerChannel handle: ycombinatornews" data-title="tg:ycombinatornews">YCombinator News</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><b>Postman which I thought worked locally on my computer, is down</b>
+<i>300 points by helloguillecl  ago | 139 comments</i>
+<a href="https://news.ycombinator.com/item?id=45645172">https://news.ycombinator.com/item?id=45645172</a></div>
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+</main>
+    </div>
+  </body>
+</html>
