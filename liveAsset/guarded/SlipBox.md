@@ -550,3 +550,9 @@ Prompt Injection via Poetry 通过诗歌提前注入 - https://www.wired.com/sto
 2025-12-10 20:07:31 Show HN: Gemini Pro 3 hallucinates the HN front page 10 years from now 展示 HN:Gemini Pro 3 在 10 年后的 HN 首页上呈现幻觉 - https://dosaygo-studio.github.io/hn-front-page-2035/news
 
 我踏马服了
+
+2025-12-16 08:58:16 Vaxry's Blog - https://blog.vaxry.net/articles/2025-dbusSucks
+
+好开
+
+我们Linux桌面真是太安全啦
