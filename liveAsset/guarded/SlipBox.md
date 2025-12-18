@@ -556,3 +556,5 @@ Prompt Injection via Poetry 通过诗歌提前注入 - https://www.wired.com/sto
 好开
 
 我们Linux桌面真是太安全啦
+
+2025-12-18 11:14:19 Working quickly is more important than it seems (2015) 快速工作比看起来更重要 (2015) - https://jsomers.net/blog/speed-matters
