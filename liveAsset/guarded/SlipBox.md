@@ -558,3 +558,7 @@ Prompt Injection via Poetry 通过诗歌提前注入 - https://www.wired.com/sto
 我们Linux桌面真是太安全啦
 
 2025-12-18 11:14:19 Working quickly is more important than it seems (2015) 快速工作比看起来更重要 (2015) - https://jsomers.net/blog/speed-matters
+
+2025-12-20 16:11:40 #TIL 新加坡管AIDS叫爱之病，看联合早报RSS才知道
+
+台卫福部：台北袭击案一伤员是爱之病患者 - https://www.zaobao.com/realtime/china/story20251220-7993602
