@@ -564,3 +564,11 @@ Prompt Injection via Poetry 通过诗歌提前注入 - https://www.wired.com/sto
 台卫福部：台北袭击案一伤员是爱之病患者 - https://www.zaobao.com/realtime/china/story20251220-7993602
 
 2025-12-20 16:14:03 repost=guarded/SlipBox/2025-12-20_16.11.40 然后维基百科（手机端）的语言选择列表预览看不出来，需要点选新加坡中文跳转后才能看出来： https://zh.wikipedia.org/wiki/艾滋病#/languages
+
+2025-12-20 20:18:01 不是，AutoHotKey都能有Cloud Playground的吗？？
+
+还有人做了AHK v1自动转v2的迁移工具？？？
+
+天才
+
+https://autohotkey.wiki/cloudahk
