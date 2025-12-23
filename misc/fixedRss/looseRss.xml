@@ -6,6 +6,112 @@
     <atom:link href="http://pseudo-tien-kou-app.home.arpa/rss?periodType=loose&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou - 2025-12-23_17.00.48</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-12-23/2025-12-23_17.00.48</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-12-23/2025-12-23_17.00.48</guid>
+        <pubDate>Tue, 23 Dec 2025 17:00:48 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/qingmingjian123" title="Telegram PeerChannel handle: qingmingjian123" data-title="tg:qingmingjian123">[Patience Forever]</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><b>通过 Microsoft Photos（ms-photos URI）泄露 NTLMv2 ——「这不是 Bug，这是 Feature……」</b>
+
+研究人员发现，Microsoft Photos 应用在其 URI 协议 ms-photos: 中接受如下参数：
+fileName=\\UNC\path
+只需在浏览器中点击一次链接，Photos.exe 就会被启动，并自动向攻击者控制的 SMB 服务器发送 NTLMv2-SSP challenge/response
+
+Microsoft 未承认这是漏洞，因此 没有 CVE 编号。即使通过 302 重定向 也能正常触发。
+可与 Responder / LLMNR 组合使用 → 哈希在无任何弹窗提示的情况下被直接泄露。
+
+<a href="https://t.me/securixy_kz/1272">https://t.me/securixy_kz/1272</a></div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://t.me/securixy_kz/1272">Telegram</a>
+          <h6>SecuriXy.kz</h6>
+          <p>🚨 Zero‑Day: утечка NTLMv2 через Microsoft Photos (ms-photos URI) - «Это не баг - это фича…»
+
+💡 Исследователь обнаружил, что приложение Microsoft Photos принимает параметр
+fileName=\\UNC\path в URI-схеме ms-photos:. Достаточно одного клика по ссылке в браузере - Photos.exe запускается и автоматически отправляет NTLMv2‑SSP challenge/response на SMB‑сервер атакующего.
+
+⚠️ Microsoft баг не признала, CVE нет. 
+Работает даже через 302‑редирект.
+Комбинируется с Responder/LLMNR → хэши уходят без каких-либо попапов.
+
+🔍 Что может сделать злоумышленник:
+• Собирать Net‑NTLMv2 для оффлайн-брута
+• Делать NTLM‑relay в доменной среде
+• Встраивать эксплойт в веб-сайты или фишинг → supply‑chain сценарии
+
+🛡 Защита:
+• Блокируем исходящий SMB (TCP/445) наружу - MUST HAVE
+• Отключаем LLMNR + NetBIOS
+• Мониторим запуск Photos.exe с UNC-путями
+• По желанию: блокируем ms-photos URI через AppLocker/WDAC
+
+🔗Источник: https://youtu.be/e-lM_vP6HwQ?si=-_vwV3Dzt88PQXG3
+🔗 PoC: https://github.com/rubenformation/ms-photos_NTLM_Leak</p>
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5352566052086287479.png" title="Telegram wepbage media id 5352566052086287479" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2025-12-23_16.56.00</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-12-23/2025-12-23_16.56.00</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-12-23/2025-12-23_16.56.00</guid>
+        <pubDate>Tue, 23 Dec 2025 16:56:00 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/landiansub" title="Telegram PeerChannel handle: landiansub" data-title="tg:landiansub">蓝点网订阅频道</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">#行业资讯 <b>微软计划在 2030 年前彻底删除微软代码库中的每一行 C/C++ 代码，转而使用 Rust 语言替代这些代码。</b>
+
+招聘信息显示微软的愿景是由人工智能协助，1 名工程师、1 个月、100 万行代码，将人工智能与算法相结合重写微软最大的代码库。
+
+查看全文：<a href="https://ourl.co/111418">https://ourl.co/111418</a>
+
+<tg-emoji emoji-id="undefined">🤪</tg-emoji><a href="https://t.me/landiansub">订阅</a> <tg-emoji emoji-id="undefined">😁</tg-emoji><a href="https://x.com/landiantech">Twitter</a> <tg-emoji emoji-id="undefined">👍</tg-emoji><a href="https://t.me/landiansub/12423">CN2VPS</a> <tg-emoji emoji-id="undefined">👀</tg-emoji><a href="https://t.me/landiansub/14197">解封</a></div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6219692439883156413.png" title="Telegram media id 6219692439883156413" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou - 2025-12-22_19.39.38</title>
         <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-12-22/2025-12-22_19.39.38</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-12-22/2025-12-22_19.39.38</guid>
@@ -211,57 +317,6 @@ All music on this channel is not to be used without permission. It&#39;s made fo
 
     <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://dosaygo-studio.github.io/hn-front-page-2035/news-honest.html">https://dosaygo-studio.github.io/hn-front-page-2035/news-honest.html</a></div>
       <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5057724591689632555.png" title="Telegram media id 5057724591689632555" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </div></div>
-  </div>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2025-12-18_11.14.19</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-12-18_11.14.19</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-12-18_11.14.19</guid>
-        <pubDate>Thu, 18 Dec 2025 11:14:19 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>Working quickly is more important than it seems (2015) 快速工作比看起来更重要 (2015) - <a href="https://jsomers.net/blog/speed-matters" target="_blank">https://jsomers.net/blog/speed-matters</a></p>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2025-12-18_01.11.51</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-12-18/2025-12-18_01.11.51</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-12-18/2025-12-18_01.11.51</guid>
-        <pubDate>Thu, 18 Dec 2025 01:11:51 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/profunctor_io" title="Telegram PeerChannel handle: profunctor_io" data-title="tg:profunctor_io">∏ρØƒuñçτØρ Øπτµç∑ | 👁‍🗨››››</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5330120677551443941.png" title="Telegram media id 5330120677551443941" alt="A picture from Telegram, related to current message. No more alt detail for now." />
     </div></div>
   </div>
 
