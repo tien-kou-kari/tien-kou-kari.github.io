@@ -572,3 +572,37 @@ Prompt Injection via Poetry 通过诗歌提前注入 - https://www.wired.com/sto
 天才
 
 https://autohotkey.wiki/cloudahk
+
+2025-12-27 20:36:31 From https://news.ycombinator.com/item?id=46395184 :
+
+
+teddyh 16 hours ago | next [–]
+
+> I then decided to contact Insulet to get the kernel source code for it, being GPLv2 licensed, they're obligated to provide it.
+This is technically not true. It is an oversimplification of the common case, but what actually normally should happen is that:
+
+1. The GPL requires the company to send the user a written offer of source code.
+
+2. The user uses this offer to request the source code from the company.
+
+3. If the user does not receive the source code, the user can sue the company for not honoring its promises, i.e. the offer of source code. This is not a GPL violation; it is a straight contract violation; the contract in this case being the explicit offer of source code, and not the GPL.
+
+Note that all this is completely off the rails if the user does not receive a written offer of source code in the first place. In this case, the user has no right to source code, since the user did not receive an offer for source code.
+
+However, the copyright holders can immediately sue the company for violating the GPL, since the company did not send a written offer of source code to the user. It does not matter if the company does or does not send the source code to the user; the fact that the company did not send a written offer to the user in the first place is by itself a GPL violation.
+
+(IANAL)
+
+reply
+
+	
+JoshTriplett 14 hours ago | parent | next [–]
+
+This is an open legal question, which the Conservancy v Vizio case will hopefully change; in that case, Conservancy is arguing that consumers have the right to enforce the GPL in order to receive source code.
+reply
+
+	
+schmuckonwheels 13 hours ago | root | parent | next [–]
+
+This got buried on HN a few days ago which is a shame:
+https://social.kernel.org/notice/B1aR6QFuzksLVSyBZQ
