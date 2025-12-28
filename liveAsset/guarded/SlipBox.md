@@ -606,3 +606,9 @@ schmuckonwheels 13 hours ago | root | parent | next [–]
 
 This got buried on HN a few days ago which is a shame:
 https://social.kernel.org/notice/B1aR6QFuzksLVSyBZQ
+
+2025-12-28 10:09:18 From https://news.ycombinator.com/item?id=46404848 :
+
+> Presumably this was what "journalism" was originally supposed to be.
+
+《这就是新闻学》
