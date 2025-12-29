@@ -932,46 +932,6 @@ Users who join Telegram Nodes can set a profile picture, bio, and name that diff
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-12-02">misc/tg/2025-12-02</a> / <a href="/misc/tg/2025-12-02/2025-12-02_22.54.09">2025-12-02_22.54.09</a> <span>2025-12-02 22:54:09 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/kaedeharakazuha17" title="Telegram PeerChannel handle: kaedeharakazuha17" data-title="tg:kaedeharakazuha17">Ray Tracing</a> (<span class="tg-author">彦卿🍁</span>)
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">当三流语言 ruast 还在争论 unwrap 怎么写，一流语言 C++ 已经沉浸在自己的艺术中无法自拔了
-<pre><code class="language-cpp">bool compare_same(const T&amp; a, const T&amp; b) {
-  template for (constexpr auto mem : std::define_static_array(
-    std::meta::nonstatic_data_members_of(^^T,
-    std::meta::access_context::unchecked()))) {
-      if (!compare_same(a.[:mem:], b.[:mem:])) {
-        return false;
-      }
-    }
-  return true;
-}</code></pre>
-<a href="https://lemire.me/blog/2025/11/09/automated-equality-checks-in-c-with-reflection-c26/">https://lemire.me/blog/2025/11/09/automated-equality-checks-in-c-with-reflection-c26/</a></div>
-      
-        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
-          <a target="_blank" href="https://lemire.me/blog/2025/11/09/automated-equality-checks-in-c-with-reflection-c26/">Daniel Lemire&#39;s blog</a>
-          <h6>Automated Equality Checks in C++ with Reflection (C++26)</h6>
-          <p>In C++, comparing two objects for equality is straightforward when they are simple types like integers or strings. But what about complex, nested structures? You may have to implement the comparison (operator==) manually for each class, which is error-prone and tedious. Consider a person class. class person { public: person(std::string n, int a) : name(n), … Continue reading Automated Equality Checks in C++ with Reflection (C++26)</p>
-            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5804477352715684970.png" title="Telegram wepbage media id 5804477352715684970" alt="A picture related to current telegram webpage message. No more alt detail for now." />
-        </div></div></div>
-    </div></div>
-  </div>
-
-
-</div>
-</div>
-</div>
-
         ]]></description>
       </item>
   </channel>
