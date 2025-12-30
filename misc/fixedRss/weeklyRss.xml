@@ -882,56 +882,6 @@ You will live in the pods. You will eat the bugs. You will stream the compute.</
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2025-12-02">misc/tg/2025-12-02</a> / <a href="/misc/tg/2025-12-02/2025-12-02_22.58.46">2025-12-02_22.58.46</a> <span>2025-12-02 22:58:46 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/laoself" title="Telegram PeerChannel handle: laoself" data-title="tg:laoself">Laoself 🦠</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">#Telegram 在Design Contest中透露了Telegram Node功能：
-- node中可以包含各種chat，擁有自己的治理體系，類似於Discord和Slack
-- 加入node時可使用不同的profile，與主Telegram隔離，可以隨時切換
-
-請注意儘管這是官方宣佈，但此內容是Telegram Design Contest的題目，並不保證該功能會以此概念最終加入至Telegram。
-
-src: <a href="https://t.me/contest/431">https://t.me/contest/431</a></div>
-      
-        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
-          <a target="_blank" href="https://t.me/contest/431">Telegram</a>
-          <h6>Telegram Contests</h6>
-          <p>🏆 Design Contest 2025
-
-Prize fund: $50,000 or more  
-Deadline: 23:59 Dubai time @ December 15, 2025
-Who can participate: Everyone
-
-📱 Telegram announces its most epic Design Contest, where top prize winners will each secure $10,000 and may also get a chance to join the Telegram Design Team.
-
-THE TASK
-
-Design a concept for Telegram Nodes entirely from the ground up, while preserving the familiar components of Telegram’s interfaces. It must feel seamless and aesthetically compelling while remaining clear and intuitive for users. 
-
-Nodes act as separate instances within the app that help users organize and streamline their communication flows – from personal to work. Nodes go far beyond simple chat folders or groups with topics enabled. 
-
-You may think of them as Discord-like servers or Slack-style workspaces that can contain multiple chat types, including voice and video chats, support in-depth admin management and user roles.
-
-Users who join Telegram Nodes can set a profile picture, bio, and name that differ from…</p>
-        </div></div></div>
-    </div></div>
-  </div>
-
-
-</div>
-</div>
-</div>
-
         ]]></description>
       </item>
   </channel>
