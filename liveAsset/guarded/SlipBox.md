@@ -616,3 +616,7 @@ https://social.kernel.org/notice/B1aR6QFuzksLVSyBZQ
 2025-12-28 19:45:39 https://substack.com/inbox/post/182743659
 
 中核404厂往事
+
+2025-12-30 08:53:00 Mistakes engineers make in large established codebases - https://www.seangoedecke.com/large-established-codebases/
+
+You can't design software you don't work on - https://www.seangoedecke.com/you-cant-design-software-you-dont-work-on/
