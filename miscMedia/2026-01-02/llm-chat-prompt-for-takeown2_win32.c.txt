@@ -1,0 +1,18 @@
+To Deepseek:
+
+Please write a win32 MinGW-w64 C command line alternative for Windows takeown.exe:
+
+- Use Win32 API whereever possible.
+- The command line argument scheme can be re-designed to be modern.
+- The tool which recursively force a folder's owner to a specific user. It should better have the similar mechanism as takeown.exe (please repeat it in the output before giving the code), because for some mechanism (like which be used in icacls) the set owner operation will still report permission denied, even if run as Administrator or SYSTEM account with highest integrity)
+- The tool shouldn't have maximum path characters limit
+- The tool should have support for UNC path.
+- After giving the source code, also give the command line to compile it.
+
+---
+
+
+Please modify the above C MinGW-w64 command line program:
+
+- check it has any mistakes and fix them; (please BE CAUTIOUS AND CAREFUL ABOUT what to change; only change parts that are certain to be a mistake; otherwise only do minimal change. DO NOT DO ANY SIMPLIFY OR LOGIC REMOVAL IF NOT ABSOLUTELY CERTAIN - THE CORE PART OF THE CODE IS PROVEN TO WORK BEFORE)
+- change its command line argument scheme to mimic that of `takeown.exe` (based on existing feature set - do not add any features) , but rename the program itself to `takeown2`.

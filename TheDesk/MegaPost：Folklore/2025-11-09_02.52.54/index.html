@@ -348,7 +348,7 @@ pre:has(> code) {
       <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath</div><div class="tidbit-value white-space-preserve">/TheDesk/MegaPost%EF%BC%9AFolklore/2025-11-09_02.52.54</div></div>
       <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/TheDesk/MegaPost%EF%BC%9AFolklore/2025-11-09_02.52.54</div></div>
         <div class="tidbit-pair"><div class="tidbit-key">PublishTime</div><div class="tidbit-value white-space-preserve">2025-11-09 02:52:54 UTC+8</div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1763870178591</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1767363458163</div></div>
     </details><p>sddm甚至会在AMD CPU的随机数生成器不工作时（WARNING: CPU random generator seem to be failing, disabling hardware random number generation）导致登入桌面登出（注销，log out）后第二次显示greeter失败（可能是因为随机数变成了固定数，前后两次socket名相同？）反正总之更新主板BIOS（这又是另一个痛苦的故事）后不再报随机数错误，也修复了sddm的问题。</p>
 <hr />
 <p>但是紧接着就出现了另一个问题：KDE的log out有概率不起作用了。有时是不显示弹出菜单，有的是显示弹出菜单点击了Log out确认按钮后没有注销，有的甚至是注销再次sddm登录时卡几秒黑屏后重新回到greeter。有可能和session保存功能有关，但是关了之后也有概率复现。用loginctl unlock-session有时能解除sddm无法登录的状态。</p>
