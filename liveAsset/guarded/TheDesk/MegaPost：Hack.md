@@ -27,6 +27,8 @@ icacls \\?\C:\mydir\mydir2 /reset /T /Q /C /L
 
 <a href="/miscMedia/2026-01-02/takeown2_win32.c" class="md-attach md-attach-file-link" target="_blank">takeown2_win32.c</a>
 
+<a href="/miscMedia/2026-01-02/llm-chat-prompt-for-takeown2_win32.c.txt" class="md-attach md-attach-file-link" target="_blank">llm-chat-prompt-for-takeown2_win32.c.txt</a>
+
 
 2025-11-08 01:13:37
 
