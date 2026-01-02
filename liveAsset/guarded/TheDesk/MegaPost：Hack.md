@@ -5,6 +5,29 @@ isDerivableIntoChildren: true
 title: 'MegaPost: Hack，或计算世界中的诸多魔法/巫术/術/器'
 ---
 
+
+2026-01-02 22:15:10
+
+### Windows takeown命令遇到长路径时怎么办 - WriteUp
+
+- Windows NTFS文件系统下遇到目录文件权限乱套（例如，从另一台系统搬过来的硬盘）时一般考虑takeown+icacls一把梭
+  - `takeown /f <file> /r /d y`（多次？）用来改文件的所有者
+    - 虽然icacls有`/setowner`选项也能改所有者，但致命缺陷在于它完全遵守ACL，如果ACL不允许当前用户有“Take Ownership”这一项权限，则icacls不会尝试任何其他方式提权，而是直接拒绝执行操作。而takeown能顺利提权。
+  - `icacls <file> /reset /T /C /Q /L`在当前用户已成为文件所有者时（此时无论实际ACL是否赋予了“修改权限”的权限都能执行修改权限的操作）可以对其重设权限为sensible default。
+- 但是takeown同样也有一个致命缺陷：它无法绕过260字符的总路径长度限制。当遍历目录时一旦遇到一个文件的总路径长度超过时，它直接报错“The system cannot find the path specified”。icacls虽然也有这个问题，但有一个workaround：传UNC路径`\\?\C:\dir\...\file`即可；但takeown不接受UNC路径。
+  - 有一个第三方SetACL.exe似乎能解决这个问题，但它是Freeware，源码不可用。
+- 于是摸索了一下午最后认为最合理的解决方案是让DeepSeek写一个MinGW-w64 C程序作为takeown的支持长路径的替代，我将其命名为takeown2，源码见附件。
+  - 最后的整体解决方案为：
+```
+(在管理员命令提示符下，或sudo -i System -s下)
+.\takeown2.exe /r /U myuser /f C:\mydir\mydir2
+(之后切回到当前用户的普通用户的命令提示符下，或当前用户的管理员命令提示符下，但不能切换为`sudo -i System`/`sudo -s`，那样将作为SYSTEM用户执行改命令，反而会因为不是owner被拒绝权限)
+icacls \\?\C:\mydir\mydir2 /reset /T /Q /C /L
+```
+
+<a href="/miscMedia/2026-01-02/takeown2_win32.c" class="md-attach md-attach-file-link" target="_blank">takeown2_win32.c</a>
+
+
 2025-11-08 01:13:37
 
 #### Ventoy安装在本地硬盘上与Windows共存的办法
