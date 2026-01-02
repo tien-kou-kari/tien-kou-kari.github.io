@@ -12,7 +12,7 @@ title: 'MegaPost: Hack，或计算世界中的诸多魔法/巫术/術/器'
 
 - Windows NTFS文件系统下遇到目录文件权限乱套（例如，从另一台系统搬过来的硬盘）时一般考虑takeown+icacls一把梭
   - `takeown /f <file> /r /d y`（多次？）用来改文件的所有者
-    - 虽然icacls有`/setowner`选项也能改所有者，但致命缺陷在于它完全遵守ACL，如果ACL不允许当前用户有“Take Ownership”这一项权限，则icacls不会尝试任何其他方式提权，而是直接拒绝执行操作。而takeown能顺利提权。
+    - 虽然icacls有`/setowner`选项也能改所有者，但致命缺陷在于它完全遵守ACL，如果ACL不允许当前用户有“Take Ownership”这一项权限，则icacls即使以管理员权限运行也不会尝试任何其他方式提权，而是直接拒绝执行操作。而takeown能顺利提权（也许是SeRestorePrivilege？这个特权允许忽视NTFS ACL对文件进行任意操作）。
   - `icacls <file> /reset /T /C /Q /L`在当前用户已成为文件所有者时（此时无论实际ACL是否赋予了“修改权限”的权限都能执行修改权限的操作）可以对其重设权限为sensible default。
 - 但是takeown同样也有一个致命缺陷：它无法绕过260字符的总路径长度限制。当遍历目录时一旦遇到一个文件的总路径长度超过时，它直接报错“The system cannot find the path specified”。icacls虽然也有这个问题，但有一个workaround：传UNC路径`\\?\C:\dir\...\file`即可；但takeown不接受UNC路径。
   - 有一个第三方SetACL.exe似乎能解决这个问题，但它是Freeware，源码不可用。
