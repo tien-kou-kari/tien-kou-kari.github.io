@@ -620,3 +620,5 @@ https://social.kernel.org/notice/B1aR6QFuzksLVSyBZQ
 2025-12-30 08:53:00 Mistakes engineers make in large established codebases - https://www.seangoedecke.com/large-established-codebases/
 
 You can't design software you don't work on - https://www.seangoedecke.com/you-cant-design-software-you-dont-work-on/
+
+2026-01-03 12:47:53 Publish (On Your) Own Site, Syndicate Elsewhere - https://indieweb.org/POSSE#
