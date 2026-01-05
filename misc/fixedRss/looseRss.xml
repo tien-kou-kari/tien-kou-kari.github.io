@@ -6,6 +6,44 @@
     <atom:link href="http://pseudo-tien-kou-app.home.arpa/rss?periodType=loose&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou - 2026-01-05_22.08.52</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2026-01-05/2026-01-05_22.08.52</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2026-01-05/2026-01-05_22.08.52</guid>
+        <pubDate>Mon, 05 Jan 2026 22:08:52 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/plumzme" title="Telegram PeerChannel handle: plumzme" data-title="tg:plumzme">普拉姆的胡言乱语</a>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://www.tjsky.net/windows/1316">https://www.tjsky.net/windows/1316</a></div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://www.tjsky.net/windows/1316">秋风于渭水</a>
+          <h6>记一次“闹鬼”的故障：Windows 点击 google 链接没反应，竟是安卓子系统 (WSA) 惹的祸？ - 秋风于渭水</h6>
+          <p>最近你是否遇到了这种诡异情况：在 Telegram 等软件中点击 Google 搜索链接时，系统毫无反应，仿佛鼠标点击被&#34;吃&#34;掉了一样？你可能已经尝试过重置默认浏览器、清理 DNS、检查 Hosts 文件、痛骂网络运营商、怀疑你的魔法上网工具，但问题依旧。 别急，这很可能不是网络故障，而是你的 Windows 安卓子系统 (WSA)在作祟！本文记录了一次深度排错过程：揭秘崩溃的 &#39;WsaClient.exe&#39; 进程如何通过 URL Scheme 劫持（App Links）&#34;绑架&#34;了系统的 http/https 跳转请求，并提供了一份修改注册表彻底修复链接失效的终极解决方案。</p>
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5971074714606177055.png" title="Telegram wepbage media id 5971074714606177055" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou - 2026-01-03_12.47.53</title>
         <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2026-01-03_12.47.53</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2026-01-03_12.47.53</guid>
@@ -239,26 +277,6 @@ icacls \\?\C:\mydir\mydir2 /reset /T /Q /C /L
       <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5082707243924392824.png" title="Telegram media id 5082707243924392824" alt="A picture from Telegram, related to current message. No more alt detail for now." />
     </div></div>
   </div>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2025-12-28_19.45.39</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2025-12-28_19.45.39</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2025-12-28_19.45.39</guid>
-        <pubDate>Sun, 28 Dec 2025 19:45:39 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p><a href="https://substack.com/inbox/post/182743659" target="_blank">https://substack.com/inbox/post/182743659</a></p>
-<p>中核404厂往事</p>
 
 
 </div>
