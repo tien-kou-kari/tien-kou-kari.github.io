@@ -622,3 +622,7 @@ https://social.kernel.org/notice/B1aR6QFuzksLVSyBZQ
 You can't design software you don't work on - https://www.seangoedecke.com/you-cant-design-software-you-dont-work-on/
 
 2026-01-03 12:47:53 Publish (On Your) Own Site, Syndicate Elsewhere - https://indieweb.org/POSSE#
+
+2026-01-08 20:43:55 So you wanna de-bog yourself (2024) https://www.experimental-history.com/p/so-you-wanna-de-bog-yourself
+
+很好鸡汤文，有助于识别一些心理/行为上的谬误/困境
