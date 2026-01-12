@@ -626,3 +626,9 @@ You can't design software you don't work on - https://www.seangoedecke.com/you-c
 2026-01-08 20:43:55 So you wanna de-bog yourself (2024) https://www.experimental-history.com/p/so-you-wanna-de-bog-yourself
 
 很好鸡汤文，有助于识别一些心理/行为上的谬误/困境
+
+2026-01-10 14:03:01 #启示录最新进程 
+
+The Vietnam government has banned rooted phones from using any banking app
+
+https://xdaforums.com/t/discussion-the-root-and-mod-hiding-fingerprint-spoofing-keybox-stealing-cat-and-mouse-game.4425939/post-90441375
