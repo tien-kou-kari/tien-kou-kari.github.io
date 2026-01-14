@@ -6,6 +6,51 @@
     <atom:link href="http://pseudo-tien-kou-app.home.arpa/rss?periodType=loose&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou - 2026-01-14_16.55.32</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2026-01-14/2026-01-14_16.55.32</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2026-01-14/2026-01-14_16.55.32</guid>
+        <pubDate>Wed, 14 Jan 2026 16:55:32 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body">2.5次元日常
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span>WA Daily
+    </div>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><blockquote>经过仔细调查发现，gitlab-ce 上游提供的 apt 仓库中，不同发行版中，为不同发行版打包的相同 gitlab 版本的二进制包的包名和版本号均相同，并且所在路径也相同，但实际上是不同的二进制包文件。我们目前无法正确镜像这样的仓库。
+gitlab 的上游 apt 仓库之所以能正常工作，<b>是因为它的服务器会记录访问者的 IP 地址上一次请求的 Release 文件所属的发行版，并在请求二进制包文件时返回对应发行版的二进制包文件</b>。</blockquote>
+
+<a href="https://github.com/tuna/issues/issues/2395#issuecomment-3745611787">https://github.com/tuna/issues/issues/2395#issuecomment-3745611787</a>
+
+震撼我妈一整年了属于是，这是有多闲才能做出这种玩意儿来</div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://github.com/tuna/issues/issues/2395">GitHub</a>
+          <h6>gitlab-ce/ubuntu 尺寸/哈希与索引不符，导致 apt 安装失败 · Issue #2395 · tuna/issues</h6>
+          <p>先决条件 (Prerequisites) 我已确认这个问题没有在其他 issues中提出过。 I am sure that this problem has NEVER been discussed in other issues. 发生了什么（What happened） 检查时间 2026-01-05 14:00 (UTC+8) 镜像地址 https://mirrors.tuna.tsi...</p>
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou - 2026-01-10_14.03.01</title>
         <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2026-01-10_14.03.01</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2026-01-10_14.03.01</guid>
@@ -212,40 +257,6 @@ icacls \\?\C:\mydir\mydir2 /reset /T /Q /C /L
 
     <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
       <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5089413234061675425.png" title="Telegram media id 5089413234061675425" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </div></div>
-  </div>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2025-12-31_23.38.36</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2025-12-31/2025-12-31_23.38.36</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2025-12-31/2025-12-31_23.38.36</guid>
-        <pubDate>Wed, 31 Dec 2025 23:38:36 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/‘s Tech Memes</a>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
-          <video controls class="tg-video tg-video" src="/misc/tg/media/m-5953780989674134307.dat" title="Telegram media id 5953780989674134307" alt="A video from Telegram, related to current message. No more alt detail for now.">
-            Your browser does not support the video tag.
-          </video>
     </div></div>
   </div>
 
