@@ -656,3 +656,7 @@ https://xdaforums.com/t/discussion-the-root-and-mod-hiding-fingerprint-spoofing-
 > So LLMs it is, the new reality.
 
 https://news.ycombinator.com/item?id=46771564
+
+2026-01-31 23:10:09 https://en.wikipedia.org/wiki/Dinkus
+
+https://en.wikipedia.org/wiki/Asterism_(typography)
