@@ -6,14 +6,17 @@ title: '2025 Letter (WIP)'
 
 [0]: https://danwang.co/2025-letter/  https://zhengdongwang.com/2025/12/30/2025-letter.html
 
-<span style="user-select: none; font-size: small; color: gray;">⁂</span>
+<div style="user-select: none;font-size: xx-small;color: gray;margin: 0.8rem 0.1rem;">＊ ＊ ＊</div>
 
 写不出多少，只写我能写和愿意写的。梦到什么写什么；部分地方可能会先只写个引子；可能永远不会写完；所列事实版本和观点高度个人化，但内容本身不甚直接关涉个人经历。暴论很正常地不给论证和论据。
 
 从我的世界观出发，很难想象时间线来到2025年结束甚至2026（？！）年后还能怎么继续发展下去。2019大流行之后，人类社会不应该自此转向堕落和衰弱吗？难道它不应该终结于2025年或以前的又一次（或多次）灾难级事件，或在敌托邦制度的泛滥下自此开始漫长、黑暗的低谷年代吗？
 
 很遗憾，时代烂透了，但它还要继续下去。新旧事物继续上升幻灭[1]。欢迎来到2026。
+
 [1] 万青《採石》。
+
+<div style="user-select: none;font-size: xx-small;color: gray;margin: 0.8rem 0.1rem;">＊ ＊ ＊</div>
 
 #### 政治性抑郁，再一次（※或许没那么严重？）
 
