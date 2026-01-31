@@ -632,3 +632,27 @@ You can't design software you don't work on - https://www.seangoedecke.com/you-c
 The Vietnam government has banned rooted phones from using any banking app
 
 https://xdaforums.com/t/discussion-the-root-and-mod-hiding-fingerprint-spoofing-keybox-stealing-cat-and-mouse-game.4425939/post-90441375
+
+2026-01-23 20:12:39 #TIL GitHub可以在Settings-Appearance里启用高对比度模式，效果如图。
+
+好几次看到别人的截图里有这样的界面，好奇是用了什么浏览器扩展或者UserStyles，最后发现原来是GitHub自带。
+
+<a href="/miscMedia/SlipBox_uqejygrs_0_image.png" class="md-attach md-attach-img-link" target="_blank">
+            <img src="/miscMedia/SlipBox_uqejygrs_0_image.png" class="md-attach md-attach-img" alt="一张截图，内容是GitHub网站的dnGrep/dnGrep仓库首页。浅色主题，启用了高对比度模式，对比非高对比度模式的情况，着色加深。原来有渐变背景色的区域也没有了渐变，抹平成了纯色。所有的分界边框线条变得更灰，似乎也变得更粗了。" title="一张截图，内容是GitHub网站的dnGrep/dnGrep仓库首页。浅色主题，启用了高对比度模式，对比非高对比度模式的情况，着色加深。原来有渐变背景色的区域也没有了渐变，抹平成了纯色。所有的分界边框线条变得更灰，似乎也变得更粗了。" style="max-width: 20rem; max-height: 40rem;">
+        </a>
+
+2026-01-25 20:01:06 https://news.ycombinator.com/item?id=46688804
+
+含有一些Android和iOS生态的应用程序体验的争论
+
+2026-01-29 20:15:15 https://growtika.com/blog/authenticity-edge
+
+2026-01-29 20:33:11 > I remember the good old days of J2ME of writing everything from scratch. Or writing some graph editor for universiry, or some speculative, huffman coding algorithm.
+> 
+> That kept me sharp.
+> 
+> But today I feel like I'm living in that netflix series about people being in Hell and the Devil tricking them they're in Heaven and tormenting them: how on planet Earth do I keep sharp with java, streams, virtual threads, rxjava, tuning the jvm, react, kafka, kafka streams, aws, k8s, helm, jenkins pipelines, CI-CD, ECR, istio issues, in-house service discovery, hierarchical multi-regions, metrics and monitoring, autoscaling, spot instances and multi-arch images, multi-az, reliable and scalable yet as cheap as possible, yet as cloud native as possible, hazelcast and distributed systems, low level postgresql performance tuning, apache iceberg, trino, various in-house frameworks and idioms over all of this? Oh, and let's not forget the business domain, coding standards, code reviews, mentorships and organazing technical events. Also, it's 2026 so nobody hires QA or scrum masters anymore so take on those hats as well.
+> 
+> So LLMs it is, the new reality.
+
+https://news.ycombinator.com/item?id=46771564
