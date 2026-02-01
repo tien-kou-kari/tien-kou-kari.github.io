@@ -31,7 +31,7 @@ title: '2025 Letter (WIP)'
 
 史特金定律（[Sturgeon's Law](https://en.wikipedia.org/wiki/Sturgeon%27s_law)）说万物中90%都是垃圾。我想尤其到GenAI商业铺开这几年往后，这个数字得提到95%：哲学上来说，一切领域中形成的东西95%是垃圾；有4.5%可以看出一定程度的品味/秩序，或经过熟虑，可圈可点，在对其中的取舍和nuances有把控的情况下能谨慎取用；有0.5%是真正competitively crafted，大可放心依赖的作品/工作。
 
-以下事物从2026年开始将显得更加珍贵：
+以下事物从2026年开始将显得更加珍贵（至于是否“有用”则我不知道了）：
 
 * [老派无聊的计算机技术 (Old and boring technology)](https://mcfunley.com/choose-boring-technology) （其一个隐含意义是“成熟且不再较大变动”，或接近[Finished software](https://josem.co/the-beauty-of-finished-software/)的含义），以及经过审慎的权衡考虑选用它们的公司/实体/专案
 * 由人手工制作/完成的，特别地是，在形成过程中作者进行了大量精细的实现路径选择[2]的作品/工作
