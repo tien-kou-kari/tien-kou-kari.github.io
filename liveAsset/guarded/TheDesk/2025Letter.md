@@ -58,10 +58,11 @@ title: '2025 Letter (WIP)'
 
 以下事物从2026年开始将显得更加珍贵（至于是否“有用”则我不知道了）：
 
-* [老派无聊的计算机技术 (Old and boring technology)](https://mcfunley.com/choose-boring-technology) （其一个隐含意义是“成熟且不再较大变动”，或接近[Finished software](https://josem.co/the-beauty-of-finished-software/)的含义），以及经过审慎的权衡考虑选用它们的公司/实体/专案
-* 由人手工制作/完成的，特别地是，在形成过程中作者进行了大量精细的实现路径选择[2]的作品/工作
+* [老派无聊的计算机技术 (Old and boring technology)](https://mcfunley.com/choose-boring-technology) （其一个隐含意义是“成熟且不再较大变动”，或接近[Finished software](https://josem.co/the-beauty-of-finished-software/)的含义），以及经过审慎的权衡考虑选用它们的公司/实体/专案。
+* 由人手工制作/完成的，特别地是，在形成过程中作者进行了大量精细的实现路径选择[2]的作品/工作。
 * 提供信息，提供能被便利地找到的条件，但是不刻意（甚至是有意抑制）吸引他人注意力的事物
-* 能（至少是在一个较大范围内，即使局限于爱好者群体）广泛凝聚共识和协同工作的载体（各种有效运作的Wiki是其代表之一）
+* 能（至少是在一个较大范围内，即使局限于爱好者群体）广泛凝聚共识和协同工作的载体（各种有效运作的Wiki是其代表之一）。
+* 业余感。
 
 [2] 出典应该来自于看过的某篇博客。 
 
