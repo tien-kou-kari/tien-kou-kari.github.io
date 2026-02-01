@@ -660,3 +660,7 @@ https://news.ycombinator.com/item?id=46771564
 2026-01-31 23:10:09 https://en.wikipedia.org/wiki/Dinkus
 
 https://en.wikipedia.org/wiki/Asterism_(typography)
+
+2026-02-01 20:27:33 What I learned building an opinionated and minimal coding agent - https://mariozechner.at/posts/2025-11-30-pi-coding-agent/
+
+敬佩，OpenClaw背后的agent实现，作者用了大量boring efforts去做的各提供商之间的抽象和尽最大努力的整合工作
