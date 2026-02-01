@@ -4,7 +4,7 @@ title: '2025 Letter (WIP)'
 
 别人能写[0]我为什么不能写呢。
 
-[0]: https://danwang.co/2025-letter/  https://zhengdongwang.com/2025/12/30/2025-letter.html
+[0] https://danwang.co/2025-letter/  https://zhengdongwang.com/2025/12/30/2025-letter.html
 
 <div style="user-select: none;font-size: xx-small;color: gray;margin: 1.2rem 0.1rem;">＊ ＊ ＊</div>
 
@@ -29,4 +29,13 @@ title: '2025 Letter (WIP)'
 
 #### 史特金定律的再确认
 
-史特金定律（[Sturgeon's Law](https://en.wikipedia.org/wiki/Sturgeon%27s_law)）说万物中90%都是垃圾。我想尤其到GenAI商业铺开这几年往后，这个数字得提到95%：哲学上来说，一切领域中形成的东西95%是垃圾；有4.5%可以看出一定程度的品味、秩序，或经过熟虑，可圈可点，在对其中的取舍和nuances有把控的情况下能谨慎取用；有0.5%是真正competitively crafted，大可放心依赖的作品、工作。
+史特金定律（[Sturgeon's Law](https://en.wikipedia.org/wiki/Sturgeon%27s_law)）说万物中90%都是垃圾。我想尤其到GenAI商业铺开这几年往后，这个数字得提到95%：哲学上来说，一切领域中形成的东西95%是垃圾；有4.5%可以看出一定程度的品味/秩序，或经过熟虑，可圈可点，在对其中的取舍和nuances有把控的情况下能谨慎取用；有0.5%是真正competitively crafted，大可放心依赖的作品/工作。
+
+以下事物从2026年开始将显得更加珍贵：
+
+* [老派无聊的计算机技术 (Old and boring technology)](https://mcfunley.com/choose-boring-technology) （其一个隐含意义是“成熟且不再较大变动”，或接近[Finished software](https://josem.co/the-beauty-of-finished-software/)的含义），以及经过审慎的权衡考虑选用它们的公司/实体/专案
+* 由人手工制作/完成的，特别地是，在形成过程中作者进行了大量精细的实现路径选择[2]的作品/工作
+* 提供信息，提供能被便利地找到的条件，但是不刻意（甚至是有意抑制）吸引他人注意力的事物
+* 
+
+[2] 出典应该来自于看过的某篇博客。 
