@@ -670,3 +670,5 @@ https://en.wikipedia.org/wiki/Asterism_(typography)
 Start all of your commands with a comma - https://rhodesmill.org/brandon/2009/commands-with-comma/
 
 2026-02-08 19:50:00 (AI) Slop Terrifies Me - https://ezhik.jp/ai-slop-terrifies-me/
+
+- 2026-02-08 21:10:01 补：值得再读一遍。他居然用了temufication这个词…
