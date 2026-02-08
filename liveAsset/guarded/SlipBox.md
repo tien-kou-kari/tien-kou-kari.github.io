@@ -664,3 +664,9 @@ https://en.wikipedia.org/wiki/Asterism_(typography)
 2026-02-01 20:27:33 What I learned building an opinionated and minimal coding agent - https://mariozechner.at/posts/2025-11-30-pi-coding-agent/
 
 敬佩，OpenClaw背后的agent实现，作者用了大量boring efforts去做的各提供商之间的抽象和尽最大努力的整合工作
+
+2026-02-07 19:52:14 #ADHD小妙招
+
+Start all of your commands with a comma - https://rhodesmill.org/brandon/2009/commands-with-comma/
+
+2026-02-08 19:50:00 (AI) Slop Terrifies Me - https://ezhik.jp/ai-slop-terrifies-me/
