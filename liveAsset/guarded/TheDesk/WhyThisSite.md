@@ -49,3 +49,5 @@ https://en.wikipedia.org/wiki/Zettelkasten
 > 
 > A card file for personal knowledge management can be made up of notes containing numbers, tags (blue) and cross-references to other notes (red). A tag index (bottom right) allows topical cross-referencing.
 > In the 1980s, the card file began to be used as metaphor in the interface of some hypertextual personal knowledge base software applications such as NoteCards. In the 1990s, such software inspired the invention of wikis.
+
+2026-02-12 23:48:07 http://meatballwiki.org/
