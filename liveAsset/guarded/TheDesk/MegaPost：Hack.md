@@ -38,6 +38,9 @@ icacls \\?\C:\mydir\mydir2 /reset /T /Q /C /L
 - 将原EFI扩大并挪动，使得EFI分区从1MB开始（2048扇区），占用较大空间，与Microsoft保留分区间隔40MB以上。
 - 从Windows安装Ventoy，必须选择“无损安装”，Ventoy应能无需再操作分区，自行将VTOYEFI分区安装在上述40MB空闲空间内。
 - 此时EFI分区将作为Ventoy承载ISO和配置的分区，即使其空间不足以放ISO，也可以用Vlnk的方式引用C盘或后面分区的ISO、Vtoy等文件。
+- `sudo hexdump -s 0x1b8 -n 4 -C /dev/sdx`（cygwin下也可，用管理员权限运行） 确定当前磁盘的signature（ventoy唯一识别有用到）
+- 若是全0， `sudo dd if=/dev/urandom of=/dev/sdX bs=1 count=4 seek=440 conv=fsync` 设置当前磁盘的signature（ventoy唯一识别有用到）
+- `printf '\x78\x56\x34\x12' | sudo dd of=/dev/sdX bs=1 count=4 seek=440 conv=fsync` 可手动指定。
 
 2025-11-08 01:15:48
 

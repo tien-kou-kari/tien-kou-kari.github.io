@@ -672,3 +672,19 @@ Start all of your commands with a comma - https://rhodesmill.org/brandon/2009/co
 2026-02-08 19:50:00 (AI) Slop Terrifies Me - https://ezhik.jp/ai-slop-terrifies-me/
 
 - 2026-02-08 21:10:01 补：值得再读一遍。他居然用了temufication这个词…
+
+2026-03-22 00:45:39 要像抵御病毒一样抵御GenAI。
+
+2026-03-22 00:46:19 今日的 #TPOB : https://b23.tv/BV1a6wpz3EdW
+
+2026-06-06 13:41:54 #TIL 某个论证“含有水分”/“holds water”在中文和英文中的意思是相反的。
+
+2026-07-02 21:32:29 https://github.com/samyk/evercookie
+
+一个利用尽可能多的浏览器存储机制来延伸 cookie 的存储，以达到尽可能规避清理，持续识别会话的效果
+
+2026-07-04 11:12:53 MSI Center - How to gain SYSTEM privileges in seconds! | MrBruh's Epic Blog https://mrbruh.com/msicenter/
+
+软件的平均水平be like，而且我前两天刚装了因为风扇不转
+
+里面提到了Detect-It-Easy，似乎也和UniExtract2一样可以分析exe安装包的打包方式的，用来分析一些闭源专有安装包可能有用
