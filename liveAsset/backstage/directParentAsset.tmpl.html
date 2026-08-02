@@ -12,6 +12,12 @@ endif
 
 assign isLcp = c.isLocatableContentHasDerivedChildren
 
+if c.isLocatableContentHasDerivedChildren
+  echo '<span>XXXXXXXXXXXXX</span>'
+else
+  echo '<span>YYYYYYYYYYY</span>'
+endif
+
 x asset.asset_locator | rgcSet: 'currPageFocusedAssetLocator'
 x asset.metadata.title | rgcSet: "pageTitlePart"
 
