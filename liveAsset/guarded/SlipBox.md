@@ -690,3 +690,5 @@ Start all of your commands with a comma - https://rhodesmill.org/brandon/2009/co
 里面提到了Detect-It-Easy，似乎也和UniExtract2一样可以分析exe安装包的打包方式的，用来分析一些闭源专有安装包可能有用
 
 2026-08-01 19:35:29 tk翻新工事中…
+
+2026-08-02 23:32:54 tk todo: 需要查看对于telegram新特性（例如，那个大字体）的兼容性
