@@ -109,6 +109,9 @@
     {%- endif %}
 
     {{ ptg | tgMsg | raw }}
+    {%- if ptg.richMessage %}
+      {{ ptg.richMessage | tgRichMsg | raw }}
+    {%- endif %}
 
     {%- if ptg.media.photo.id %}
       <img loading="lazy" class="tg-img tg-photo" src="{{ tgMediaWebPathPrefix }}/m-{{ptg.media.photo.id}}.png" title="Telegram media id {{ptg.media.photo.id}}" alt="A picture from Telegram, related to current message. No more alt detail for now." />
