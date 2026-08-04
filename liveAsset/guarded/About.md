@@ -56,8 +56,8 @@ Tien-kou不是站名。它是本站底层引擎的名称，站名本身还没有
 
 This site is available at:
 
-- [https://tien-kou.fly.dev/](https://tien-kou.fly.dev/) (Node.JS, Cloud Database, Dynamic)
-- [https://tien-kou.shunf4.workers.dev/](https://tien-kou.shunf4.workers.dev/) (Cloudflare Workers, Cloud Database, Dynamic, May hit resource limit)
+- [https://tien-kou.fly.dev/](https://tien-kou.fly.dev/) (Node.JS, Cloud, On-Site Database, Dynamic)
+- [https://tien-kou.shunf4.workers.dev/](https://tien-kou.shunf4.workers.dev/) (Cloudflare Workers, Connects to https://tien-kou.fly.dev/ for database connection, Dynamic, May hit resource limit)
 - (An internal address) (Node.JS, Local Database, Dynamic, Insiders version)
 - [https://tien-kou-kari.github.io/](https://tien-kou-kari.github.io/) (Static, Less Frequently Updated)
 
