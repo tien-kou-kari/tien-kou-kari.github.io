@@ -6,6 +6,83 @@
     <atom:link href="http://pseudo-tien-kou-app.home.arpa/rss?feedTitle=Tien-kou+Daily&amp;periodType=fixedMinutes&amp;periodNumParam=1440&amp;periodDateParam=2000-01-01T06%3A30%3A00%2B08%3A00&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou Daily Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou Daily 2026-08-05T06:30:00+08:00</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake/</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-fixedMinutes-2026-08-05T06:30:00+08:00</guid>
+        <pubDate>Wed, 05 Aug 2026 06:30:00 +0800</pubDate>
+        <description><![CDATA[
+<div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-08-05_22.45.53">2026-08-05_22.45.53</a> <span>2026-08-05 22:45:53 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p><a href="https://github.com/chenxiaolong/BasicSync" target="_blank">https://github.com/chenxiaolong/BasicSync</a></p>
+<p>我的意思是，妳看到了这个README.md列出的各种技术细节、对各种Android版本限制的因应，甚至还专门列出了Android多用户/多profile下运行多实例遇到问题怎么解决，就很难不让人不信任这个项目了。同时也让人感伤今时今日在这个还算“安全”的隔离应用操作系统由资本增值动机、平台moderation需要、政府监管要求共同塑造的技术架构下做开发，要处理多少带着镣铐还要转体前空翻托马斯全旋的事情。</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2026-08-05">misc/tg/2026-08-05</a> / <a href="/misc/tg/2026-08-05/2026-08-05_22.33.05">2026-08-05_22.33.05</a> <span>2026-08-05 22:33:05 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>草草草草</p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/microblock_pub" title="Telegram PeerChannel handle: microblock_pub" data-title="tg:microblock_pub">橘橘橘子汁 &amp; 🍊</a>
+
+    <span class="tg-timestamp">2026-08-05T22:07:49+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">我不行了 你们都这么写路由的吗</div>
+      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6312297131695346203.png" title="Telegram media id 6312297131695346203" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2026-08-05">misc/tg/2026-08-05</a> / <a href="/misc/tg/2026-08-05/2026-08-05_08.42.33">2026-08-05_08.42.33</a> <span>2026-08-05 08:42:33 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>好似</p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/lsposed" title="Telegram PeerChannel handle: lsposed" data-title="tg:lsposed">LSPosed</a>
+
+    <span class="tg-timestamp">2026-08-05T00:28:31+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">We discovered a privileged process arbitrary code execution vulnerability in Android 17. This vulnerability was patched in Android 17 QPR1 but was not included in any security bulletin. Combined with the dirty frag vulnerability (CVE-2026-43284), we achieved full root privilege escalation on Android 17.0.
+
+The DirtyFrag vulnerability was disclosed 3 months ago but is still exploitabe, because Google has delayed the release frequency of vulnerability patches, changing from monthly to quarterly security bulletins. In the AI ​​era, this behavior is completely incomprehensible. A large number of devices in the Android ecosystem are vulnerable to attacks due to the vulnerability details leaked in the Pixel system; even Pixel devices not participating in the beta program are not immune.
+
+Therefore, we used two "already patched" vulnerabilities to demonstrate full rooting on Google Pixel 10 with the latest patches as a warning, urging Google to change its practices and release vulnerability patches promptly.</div>
+          <video controls class="tg-video tg-video" src="/misc/tg/media/m-6309666987752562763.dat" title="Telegram media id 6309666987752562763" alt="A video from Telegram, related to current message. No more alt detail for now.">
+            Your browser does not support the video tag.
+          </video>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou Daily 2026-08-04T06:30:00+08:00</title>
         <link>https://tien-kou.shunf4.workers.dev/fakefake/</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-fixedMinutes-2026-08-04T06:30:00+08:00</guid>
@@ -24,6 +101,8 @@
 
     </div></div>
     <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/usr_bin_cat" title="Telegram PeerChannel handle: usr_bin_cat" data-title="tg:usr_bin_cat">Cat Ch.</a> (<span class="tg-author">webRTCCat | Present Day, Present Time</span>)
+
+    <span class="tg-timestamp">2026-08-04T17:20:51+08:00</span>
 
     <div class="tg-white-space-preserve white-space-preserve tg-msg">RTOS 要点：叮咚鸡（指等中断），大狗叫（看门狗），一段一段待一段（指优先级调度）</div>
     </div></div>
@@ -46,6 +125,8 @@
 
     </div></div>
     <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/&#39;s Tech Memes</a>
+
+    <span class="tg-timestamp">2026-08-04T04:25:12+08:00</span>
 
     <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://blinry.org/multi-seat-wayland/">https://blinry.org/multi-seat-wayland/</a></div>
       
@@ -79,6 +160,8 @@
       <span class="tg-msg-source-lv2-explain">Forwarded from </span><a target="_blank" href="https://t.me/unexplrd" title="Telegram PeerUser handle: unexplrd" data-title="tg:unexplrd">кавуся (&#34;слободна&#34;);</a>
     </div>
 
+    <span class="tg-timestamp">2026-08-04T17:08:38+08:00</span>
+
     <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://wren.wtf/shower-thoughts/stop-using-opencode/">https://wren.wtf/shower-thoughts/stop-using-opencode/</a></div>
     </div></div>
   </div>
@@ -109,6 +192,8 @@
     </div></div>
     <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/laoself" title="Telegram PeerChannel handle: laoself" data-title="tg:laoself">Laoself 🫈</a>
 
+    <span class="tg-timestamp">2025-12-27T20:43:37+08:00</span>
+
     <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://www.gcores.com/articles/157189">https://www.gcores.com/articles/157189</a>
 實際上，這裡很多問題都不是翻譯應該來處理的，而是一開始文案寫作就有的問題。濫用感嘆號、濫用「抱歉」、使用黑話、受眾角色不明確都是非常經典的copywriting問題，放在哪個語言裡都是不適當的。
 建議所有寫文案的人，如果沒有時間研究文案寫作，也要至少讀一讀 <a href="https://developer.apple.com/design/human-interface-guidelines/writing">Apple Human Interface Guidelines裡面的Writing部分</a> ，裡面有很多基本的原則和案例可以參考。</div>
@@ -133,6 +218,8 @@
     </div></div>
     <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/&#39;s Tech Memes</a>
 
+    <span class="tg-timestamp">2026-07-30T21:00:24+08:00</span>
+
     <div class="tg-white-space-preserve white-space-preserve tg-msg">The torrenting of consent</div>
       <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5141195820798512370.png" title="Telegram media id 5141195820798512370" alt="A picture from Telegram, related to current message. No more alt detail for now." />
     </div></div>
@@ -156,6 +243,8 @@
     </div></div>
     <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body">me
 
+    <span class="tg-timestamp">2026-08-04T02:18:08+08:00</span>
+
     <div class="tg-white-space-preserve white-space-preserve tg-msg">I scream!!!</div>
     </div></div>
   </div>
@@ -177,6 +266,8 @@
 
     </div></div>
     <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body">me
+
+    <span class="tg-timestamp">2026-08-04T02:17:19+08:00</span>
 
     <div class="tg-white-space-preserve white-space-preserve tg-msg">I scream.</div>
     </div></div>
@@ -210,6 +301,8 @@
     </div></div>
     <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body">我喜欢你 (<span class="tg-author">baka</span>)
 
+    <span class="tg-timestamp">2026-07-31T20:12:06+08:00</span>
+
     <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
       <div class="tg-white-space-preserve white-space-preserve tg-msg tg-rich-msg"><h3>规范互联网渠道售卡管理 运营商停止第三方互联网渠道号卡办理</h3><p>中国电信、中国移动和中国联通7月31日晚发布“关于规范互联网渠道售卡管理的公告”。《公告》称：为保障用户权益和数据信息安全，对互联网渠道号卡订购业务进行统一规范。自2026年8月1日起，用户如需在互联网渠道订购号卡，只能通过电信运营商官方App、官方网站等渠道办理，第三方互联网渠道不再提供电信号卡办理相关服务。</p><p>运营商在《公告》中表示，近期发现有不法商家冒用“运营商授权合作”名义发布虚假售卡信息，或假借售卡名义收集用户身份证件、住址、联系方式等个人敏感信息，侵害了用户权益，给用户带来了极大的信息泄露风险。</p><a href="https://jingji.cctv.com/2026/07/31/ARTIi8x7z6Q80bayPKkeWFyG260731.shtml" target="_blank">央视新闻</a><blockquote><p>中国移动 <a href="https://10086.cn/aboutus/news/announced/index_detail_55578.html" target="_blank">https://10086.cn/~</a></p><p>中国联通 <a href="https://www.10010.com/wt_links/index.html#/announcementDetail?announcementId=2c1a004d9e74ac34019fb810081b0230&amp;amp;procode=011" target="_blank">https://www.10010.com/~</a></p><p>中国电信 <a href="https://www.189.cn/web/notice/detail?order=1&amp;amp;amp;amp;amp;amp;offerCode=518652200001&amp;amp;amp;amp;amp;amp;type=wt_sy_jtgg" target="_blank">https://www.189.cn/~</a></p></blockquote></div>
     </div></div>
@@ -232,6 +325,8 @@
 
     </div></div>
     <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body">我喜欢你 (<span class="tg-author">baka</span>)
+
+    <span class="tg-timestamp">2026-07-31T20:12:06+08:00</span>
 
     <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
       <div class="tg-white-space-preserve white-space-preserve tg-msg tg-rich-msg"><h3>规范互联网渠道售卡管理 运营商停止第三方互联网渠道号卡办理</h3><p>中国电信、中国移动和中国联通7月31日晚发布“关于规范互联网渠道售卡管理的公告”。《公告》称：为保障用户权益和数据信息安全，对互联网渠道号卡订购业务进行统一规范。自2026年8月1日起，用户如需在互联网渠道订购号卡，只能通过电信运营商官方App、官方网站等渠道办理，第三方互联网渠道不再提供电信号卡办理相关服务。</p><p>运营商在《公告》中表示，近期发现有不法商家冒用“运营商授权合作”名义发布虚假售卡信息，或假借售卡名义收集用户身份证件、住址、联系方式等个人敏感信息，侵害了用户权益，给用户带来了极大的信息泄露风险。</p><a href="https://jingji.cctv.com/2026/07/31/ARTIi8x7z6Q80bayPKkeWFyG260731.shtml" target="_blank">央视新闻</a><blockquote><p>中国移动 <a href="https://10086.cn/aboutus/news/announced/index_detail_55578.html" target="_blank">https://10086.cn/~</a></p><p>中国联通 <a href="https://www.10010.com/wt_links/index.html#/announcementDetail?announcementId=2c1a004d9e74ac34019fb810081b0230&amp;amp;procode=011" target="_blank">https://www.10010.com/~</a></p><p>中国电信 <a href="https://www.189.cn/web/notice/detail?order=1&amp;amp;amp;amp;amp;amp;offerCode=518652200001&amp;amp;amp;amp;amp;amp;type=wt_sy_jtgg" target="_blank">https://www.189.cn/~</a></p></blockquote></div>
@@ -283,6 +378,8 @@
 
     </div></div>
     <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/solidot" title="Telegram PeerChannel handle: solidot" data-title="tg:solidot">Solidot</a>
+
+    <span class="tg-timestamp">2026-07-31T19:20:19+08:00</span>
 
     <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://www.solidot.org/story?sid=84977"><b>Google 为 Chrome 开发不重启打补丁功能</b></a>
 
@@ -373,34 +470,6 @@ Google 官方博客称，LLM 正在解锁自动化漏洞发现的能力，使得
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/TIL">#TIL</a></span>
     </div><p>某个论证“含有水分”/“holds water”在中文和英文中的意思是相反的。</p>
-
-
-</div>
-</div>
-</div>
-
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou Daily 2026-03-21T06:30:00+08:00</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake/</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-fixedMinutes-2026-03-21T06:30:00+08:00</guid>
-        <pubDate>Sat, 21 Mar 2026 06:30:00 +0800</pubDate>
-        <description><![CDATA[
-<div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-03-22_00.46.19">2026-03-22_00.46.19</a> <span>2026-03-22 00:46:19 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>今日的 <a  target="_blank" href="/tag/TPOB" class="tag">#TPOB</a> : <a href="https://b23.tv/BV1a6wpz3EdW" target="_blank">https://b23.tv/BV1a6wpz3EdW</a></p>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-03-22_00.45.39">2026-03-22_00.45.39</a> <span>2026-03-22 00:45:39 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>要像抵御病毒一样抵御GenAI。</p>
 
 
 </div>
