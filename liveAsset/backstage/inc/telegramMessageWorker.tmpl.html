@@ -90,6 +90,8 @@
       {%- assign tgMediaWebPathPrefix = '/misc/Unreleased/tg/media' %}
     {%- endif %}
 
+    <span class="tg-timestamp">{{ ptg.date | date: "%Y-%m-%dT%H:%M:%S+08:00", -480 }}</span>
+
     {%- assign tgWebpagePreview = undefined %}
     {%- if ptg.media.webpage %}
       {%- capture tgWebpagePreview %}
