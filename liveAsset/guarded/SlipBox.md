@@ -700,3 +700,7 @@ Start all of your commands with a comma - https://rhodesmill.org/brandon/2009/co
 2026-08-05 22:45:53 https://github.com/chenxiaolong/BasicSync
 
 我的意思是，妳看到了这个README.md列出的各种技术细节、对各种Android版本限制的因应，甚至还专门列出了Android多用户/多profile下运行多实例遇到问题怎么解决，就很难不让人不信任这个项目了。同时也让人感伤今时今日在这个还算“安全”的隔离应用操作系统由资本增值动机、平台moderation需要、政府监管要求共同塑造的技术架构下做开发，要处理多少带着镣铐还要转体前空翻托马斯全旋的事情。
+
+2026-08-06 20:18:44 Pareto front - Wikipedia https://en.wikipedia.org/wiki/Pareto_front
+
+#FromHn 近似于中国互联网上最近热议为“DeepSeek V4 Flash斩杀线”的概念（虽然今早dpsk宣布将涨价拉了
