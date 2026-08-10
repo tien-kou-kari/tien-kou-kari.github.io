@@ -708,3 +708,7 @@ Start all of your commands with a comma - https://rhodesmill.org/brandon/2009/co
 2026-08-06 20:27:08 Let’s all meet up in the Y2K  ⌘I  Get Info https://blog.gingerbeardman.com/2026/08/06/lets-all-meet-up-in-the-y2k/
 
 #FromHn
+
+2026-08-10 20:04:14 Everything You Do Is Being Recorded - The Atlantic https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/
+
+#FromHn #Ril
