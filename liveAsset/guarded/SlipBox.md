@@ -712,3 +712,9 @@ Start all of your commands with a comma - https://rhodesmill.org/brandon/2009/co
 2026-08-10 20:04:14 Everything You Do Is Being Recorded - The Atlantic https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/
 
 #FromHn #Ril
+
+2026-08-13 21:18:38 > AI makes projects with weak engineering culture fail much faster.
+
+AI is removing the middle class of software engineering https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html
+
+#FromHn
