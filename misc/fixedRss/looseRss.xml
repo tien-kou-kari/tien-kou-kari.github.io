@@ -6,6 +6,29 @@
     <atom:link href="http://pseudo-tien-kou-app.home.arpa/rss?periodType=loose&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou - 2026-08-13_21.18.38</title>
+        <link>https://tien-kou.shunf4.workers.dev/fakefake//SlipBox/2026-08-13_21.18.38</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/SlipBox/2026-08-13_21.18.38</guid>
+        <pubDate>Thu, 13 Aug 2026 21:18:38 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><blockquote>
+<p>AI makes projects with weak engineering culture fail much faster.</p>
+</blockquote>
+<p>AI is removing the middle class of software engineering <a href="https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html" target="_blank">https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html</a></p>
+<p><a  target="_blank" href="/tag/FromHn" class="tag">#FromHn</a></p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou - 2026-08-12_01.31.45</title>
         <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2026-08-12/2026-08-12_01.31.45</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2026-08-12/2026-08-12_01.31.45</guid>
@@ -194,47 +217,6 @@
 
     <div class="tg-white-space-preserve white-space-preserve tg-msg">我不行了 你们都这么写路由的吗</div>
       <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6312297131695346203.png" title="Telegram media id 6312297131695346203" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </div></div>
-  </div>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-08-05_08.42.33</title>
-        <link>https://tien-kou.shunf4.workers.dev/fakefake//misc/tg/2026-08-05/2026-08-05_08.42.33</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou.shunf4.workers.dev/-e1-guarded/misc/tg/2026-08-05/2026-08-05_08.42.33</guid>
-        <pubDate>Wed, 05 Aug 2026 08:42:33 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>好似</p>
-
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/lsposed" title="Telegram PeerChannel handle: lsposed" data-title="tg:lsposed">LSPosed</a>
-
-    <span class="tg-timestamp">2026-08-05T00:28:31+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">We discovered a privileged process arbitrary code execution vulnerability in Android 17. This vulnerability was patched in Android 17 QPR1 but was not included in any security bulletin. Combined with the dirty frag vulnerability (CVE-2026-43284), we achieved full root privilege escalation on Android 17.0.
-
-The DirtyFrag vulnerability was disclosed 3 months ago but is still exploitabe, because Google has delayed the release frequency of vulnerability patches, changing from monthly to quarterly security bulletins. In the AI ​​era, this behavior is completely incomprehensible. A large number of devices in the Android ecosystem are vulnerable to attacks due to the vulnerability details leaked in the Pixel system; even Pixel devices not participating in the beta program are not immune.
-
-Therefore, we used two "already patched" vulnerabilities to demonstrate full rooting on Google Pixel 10 with the latest patches as a warning, urging Google to change its practices and release vulnerability patches promptly.</div>
-          <video controls class="tg-video tg-video" src="/misc/tg/media/m-6309666987752562763.dat" title="Telegram media id 6309666987752562763" alt="A video from Telegram, related to current message. No more alt detail for now.">
-            Your browser does not support the video tag.
-          </video>
     </div></div>
   </div>
 

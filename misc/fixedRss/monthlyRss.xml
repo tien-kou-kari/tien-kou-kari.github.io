@@ -273,33 +273,6 @@ gitlab 的上游 apt 仓库之所以能正常工作，<b>是因为它的服务�
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2026-01-06">misc/tg/2026-01-06</a> / <a href="/misc/tg/2026-01-06/2026-01-06_16.57.41">2026-01-06_16.57.41</a> <span>2026-01-06 16:57:41 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>6
-我们TLS的基础设施真是太健壮啦</p>
-
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/bupt_moe" title="Telegram PeerChannel handle: bupt_moe" data-title="tg:bupt_moe">bupt.moe</a>
-
-    <span class="tg-timestamp">2026-01-06T07:35:15+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><code>acme.sh</code> 这什么发版机制，有了改动不bump版本号的？</div>
-      <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-6260093303156050983.png" title="Telegram media id 6260093303156050983" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </div></div>
-  </div>
-
-
-</div>
-</div>
-</div>
-
         ]]></description>
       </item>
   </channel>
