@@ -719,4 +719,4 @@ AI is removing the middle class of software engineering https://blog.florianherr
 
 #FromHn
 
-2026-08-17 01:14:42 `q^badge/0yt^dQw4w9WgXcQ^` -> q^badge/0yt^dQw4w9WgXcQ^
+2026-08-17 01:14:42 `q<hat>badge/0yt<hat>dQw4w9WgXcQ<hat>` (change `<hat>` to `^`) -> q^badge/0yt^dQw4w9WgXcQ^
