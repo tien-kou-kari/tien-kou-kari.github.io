@@ -71,7 +71,7 @@ else
           endif
         endunless
         if not thisLangLinkUrl contains '/' and thisLangLinkUrl
-          assign thisLangLinkUrl = asset.asset_locator | split: '/' | inplaceRemoveLast | inplacePush: thisLangLinkUrl | join: '/'
+          assign thisLangLinkUrl = asset.asset_locator | split: '/' | inplaceRemoveLast | inplacePush: thisLangLinkUrl | join: '/' | remove_first: 'guarded/' | prepend: '/'
         endif
         
         if thisLangLinkUrl
