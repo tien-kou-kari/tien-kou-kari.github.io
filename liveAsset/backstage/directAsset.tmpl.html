@@ -17,10 +17,10 @@ elsif c.isSrc
 
   echo '<pre style="white-space: pre-wrap;">'
   assign assetSrcClone = asset | cloneObj
-  unless assetSrcClone.asset_processed_bytes == undefined
+  unless assetSrcClone.asset_processed_bytes == undefined or assetSrcClone.asset_processed_bytes == null
     x assetSrcClone.asset_processed_bytes | btos | objSet: 'asset_processed_bytes'
   endunless
-  unless assetSrcClone.asset_raw_bytes == undefined
+  unless assetSrcClone.asset_raw_bytes == undefined or assetSrcClone.asset_raw_bytes == null
     x assetSrcClone.asset_raw_bytes | btos | objSet: 'asset_raw_bytes'
   endunless
   echo assetSrcClone | inspect: 2 | escape
