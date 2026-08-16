@@ -23,6 +23,10 @@ if rgc.isLocatableContentDirectory and shouldUseRgcForAssetStatus
   x asset.metadata.dirMdContent | default: '' | setToObj: asset, 'asset_raw_bytes'
 else
   assign isMarkdown = asset.origin_file_path | isEndWithExtension: rgc.markdownExtNames
+  if asset.metadata.includeMetadataOfAsset
+    assign includedMetadataAssetPath = asset.asset_raw_path | resolveRelPathInUrlManner: asset.metadata.includeMetadataOfAsset
+    assign includedMetadataAsset = includedMetadataAssetPath | fetchLocatableContent: shouldThrowIfNotFound: true, shouldThrowIfNotExpectedCategory: true, shouldFetchRawBytesIfLight: false
+  endif
 endif
 
 assign shouldProcessSourceQuickmacro = true
