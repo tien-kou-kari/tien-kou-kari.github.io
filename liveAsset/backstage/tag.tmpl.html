@@ -10,7 +10,9 @@ assign tagContent = 'tagTopic/' | append: tag | fetchLocatableContent: shouldThr
 assign shouldRenderTagTopicContent = false
 assign tagTitleMdStr = '\n### #' | append: tag | append: '\n\n'
 
-if c.isLocatableContent and c.isLocatableContentFound and c.isLocatableContentNotDirectory and tagContent.asset_raw_bytes != undefined and tagContent != undefined
+assign assetBytes = tagContent.asset_processsed_bytes | default: tagContent.asset_raw_bytes
+
+if c.isLocatableContent and c.isLocatableContentFound and c.isLocatableContentNotDirectory and assetBytes != undefined and tagContent != undefined
 
   assign shouldRenderTagTopicContent = true
 
