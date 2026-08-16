@@ -1,3 +1,9 @@
+---
+title: '去它的，至少产物代码是可修改的'
+includeMetadataOfAsset: ScrewItEditableProduction
+lang: zh-Hans-CN
+---
+
 ### 去它的，至少产物代码是可修改的
 
 2026-01-19
