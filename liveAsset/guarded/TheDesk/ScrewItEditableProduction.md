@@ -10,7 +10,7 @@ langLinkUrl_en-US: ScrewItEditableProduction
 2026-01-19
 
 > [!NOTE]  
-> This article is AI-translated (LLM, ChatGPT 5.2) from [original Chinese version (on the same page)](#file-md). The translation is reviewed by the author.
+> This article is AI-translated (LLM, ChatGPT 5.2) from original Chinese version (see above for link). The translation is reviewed by the author.
 
 Today I was tweaking an open-source web auto-translation browser extension \[0]. What I wanted was simple: automatically trigger translation globally on every page, and use a dedicated Profile just for browsing foreign-language sites.
 
