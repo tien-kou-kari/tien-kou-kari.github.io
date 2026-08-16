@@ -216,7 +216,7 @@ assign hasKeywords = false
               {%- if kwQueryMeta %}
                 {%- assign kw = kw | slice: 1, kw.size %}
               {%- endif %}
-              asset_raw_bytes GLOB ?
+              asset_raw_bytes GLOB ? OR asset_processed_bytes GLOB ?
               {%- x kw | sqlGlobPatternEscape | append: '*' | prepend: '*' | inplacePushTo: currSqlArgs %}
               {%- if kwQueryMeta %}
                 OR
