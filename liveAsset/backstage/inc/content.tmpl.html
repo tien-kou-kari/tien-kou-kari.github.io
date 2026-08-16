@@ -26,6 +26,9 @@ else
   if asset.metadata.includeMetadataOfAsset
     assign includedMetadataAssetPath = asset.asset_raw_path | resolveRelPathInUrlManner: asset.metadata.includeMetadataOfAsset
     assign includedMetadataAsset = includedMetadataAssetPath | fetchLocatableContent: shouldThrowIfNotFound: true, shouldThrowIfNotExpectedCategory: true, shouldFetchRawBytesIfLight: false
+    if includedMetadataAsset.metadata
+      x asset.metadata | objAssign: includedMetadataAsset.metadata
+    endif
   endif
 endif
 
