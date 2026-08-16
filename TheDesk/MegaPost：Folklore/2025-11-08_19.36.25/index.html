@@ -351,7 +351,7 @@ pre:has(> code) {
       <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1767363458163</div></div>
     </details>
     <div>
-      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/TIL">#TIL</a></span>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/TodayILearned">#TodayILearned</a></span>
     </div><p>纯Firefox目前在KDE上与系统特性的集成一团糟，例如采用不了KDE的代理设置（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=834039" target="_blank">bugzilla.mozilla.org/~</a>；<a href="https://github.com/openSUSE/firefox-maintenance/blob/4092babd795b7a697ccceb8948ea5f51eb8f2f9f/mozilla-nongnome-proxies.patch" target="_blank">github.com/openSUSE/~.patch</a>）；文件对话框也没有采用KDE风格的，而是采用了臭名昭著的GTK File Chooser（<a href="https://www.google.com/search?q=gtk+file+chooser+sucks" target="_blank">google.com/search?~</a>）。为此Arch AUR和OpenSUSE都有自己的Firefox发行版/补丁专门弥补这些问题（<a href="https://aur.archlinux.org/packages/firefox-kde-opensuse" target="_blank">https://aur.archlinux.org/packages/firefox-kde-opensuse</a> ）。</p>
 <p>当然以上两个问题都可以用环境变量workaround过去：<code>all_proxy=http://xx:xx GTK_USE_PORTAL=1 firefox-esr</code>（需要安装xdg-desktop-portal-kde；按理说xdg portal也支持获取系统代理信息，但可能Firefox没对接吧，所以<code>all_proxy</code>环境变量还是需要），但这就是易用性和<span style="text-decoration: underline dotted;" title="开箱即用体验">OOBE</span>的问题了。</p>
 
