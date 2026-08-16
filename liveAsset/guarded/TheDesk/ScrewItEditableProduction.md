@@ -4,6 +4,7 @@ multiLangVariants: en-US,zh-Hans-CN
 lang: en-US
 langLinkUrlTemplate: ScrewItEditableProduction____LANG___
 langLinkText_zh-Hans-CN: 简体中文版本
+langLinkUrl_en-US: ScrewItEditableProduction
 ---
 
 2026-01-19
