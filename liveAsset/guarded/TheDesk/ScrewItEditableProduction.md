@@ -2,7 +2,8 @@
 title: 'Screw it — at least the production artifact is editable'
 multiLangVariants: en-US,zh-Hans-CN
 lang: en-US
-langLinkUrlTemplate: 
+langLinkUrlTemplate: ScrewItEditableProduction____LANG___
+langLinkText_zh-Hans-CN: 简体中文版本
 ---
 
 ### Screw it — at least the production artifact is editable
