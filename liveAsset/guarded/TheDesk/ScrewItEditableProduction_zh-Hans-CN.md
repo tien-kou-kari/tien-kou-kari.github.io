@@ -4,8 +4,6 @@ includeMetadataOfAsset: ScrewItEditableProduction
 lang: zh-Hans-CN
 ---
 
-### 去它的，至少产物代码是可修改的
-
 2026-01-19
 
 [AI翻译的英文版在同一页面，点此](#file-screw-it-at-least-the-production-artifact-is-editable-md)
