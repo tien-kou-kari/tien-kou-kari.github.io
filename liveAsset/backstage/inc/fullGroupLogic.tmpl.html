@@ -125,7 +125,7 @@ endif
           {%- elsif currGroupViewPrimary.metadata.title %}
             {{- currGroupViewPrimary.metadata.title }}
           {%- else %}
-            {{- currGroupViewPrimary.asset_raw_bytes | default: "" | btos | split: "\n" | find_exp: 'item', 'item | strip | toBoolean' | mdInline | raw }}
+            {{- asset.asset_processed_bytes | default: asset.asset_raw_bytes | default: "" | btos | split: "\n" | find_exp: 'item', 'item | strip | toBoolean' | mdInline | raw }}
           {%- endif %}
         </{% echo tdEl %}>
       </{% echo trEl %}>
