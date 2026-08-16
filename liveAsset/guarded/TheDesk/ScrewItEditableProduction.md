@@ -1,6 +1,6 @@
 ---
 title: 'Screw it — at least the production artifact is editable'
-
+multiLangVariants: en-US,zh-Hans-CN
 ---
 
 ### Screw it — at least the production artifact is editable
