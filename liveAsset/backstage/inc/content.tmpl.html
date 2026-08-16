@@ -24,9 +24,8 @@ if rgc.isLocatableContentDirectory and shouldUseRgcForAssetStatus
 else
   assign isMarkdown = asset.origin_file_path | isEndWithExtension: rgc.markdownExtNames
   if asset.metadata.includeMetadataOfAsset
-    assign includedMetadataAssetPath = asset.asset_raw_path | resolveRelPathInUrlManner: asset.metadata.includeMetadataOfAsset
-    echo includedMetadataAssetPath
-    # assign includedMetadataAsset = includedMetadataAssetPath | fetchLocatableContent: shouldThrowIfNotFound: true, shouldThrowIfNotExpectedCategory: true, shouldFetchRawBytesIfLight: false
+    assign includedMetadataAssetPath = asset.asset_raw_path | resolveRelPathInUrlManner: asset.metadata.includeMetadataOfAsset | split: '/' | 
+    assign includedMetadataAsset = includedMetadataAssetPath | fetchLocatableContent: shouldThrowIfNotFound: true, shouldThrowIfNotExpectedCategory: true, shouldFetchRawBytesIfLight: false
     if includedMetadataAsset.metadata
       x asset.metadata | objAssignIfAbsent: includedMetadataAsset.metadata
     endif
