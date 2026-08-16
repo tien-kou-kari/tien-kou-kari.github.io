@@ -18,7 +18,7 @@ elsif c.isSrc
   echo '<pre style="white-space: pre-wrap;">'
   assign assetSrcClone = asset | cloneObj
   unless assetSrcClone.asset_processed_bytes == undefined or assetSrcClone.asset_processed_bytes == null
-    x assetSrcClone.asset_processed_bytes | btos | objSet: assetSrcClone, 'asset_processed_bytes'
+    x assetSrcClone.asset_processed_bytes | btos | setToObj: assetSrcClone, 'asset_processed_bytes'
   endunless
   unless assetSrcClone.asset_raw_bytes == undefined or assetSrcClone.asset_raw_bytes == null
     x assetSrcClone.asset_raw_bytes | btos | setToObj: assetSrcClone, 'asset_raw_bytes'
