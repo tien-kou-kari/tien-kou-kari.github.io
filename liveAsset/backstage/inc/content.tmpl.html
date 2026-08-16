@@ -91,7 +91,7 @@ endif
 assign shouldProcessSourceQuickmacro = true
 assign shouldSkipProcessSourceQuickmacroInMetadata = asset.metadata.shouldSkipSourceQuickmacro | default: false, allow_false: true
 if shouldSkipProcessSourceQuickmacroInMetadata
-  shouldProcessSourceQuickmacro = false
+  assign shouldProcessSourceQuickmacro = false
 endif
 
 
