@@ -25,6 +25,13 @@ else
   assign isMarkdown = asset.origin_file_path | isEndWithExtension: rgc.markdownExtNames
 endif
 
+assign shouldProcessSourceQuickmacro = true
+assign shouldSkipProcessSourceQuickmacroInMetadata = asset.metadata.shouldSkipSourceQuickmacro | default: false, allow_false: true
+if shouldSkipProcessSourceQuickmacroInMetadata
+  shouldProcessSourceQuickmacro = false
+endif
+
+
 %}
 
 {%- if isMarkdown %}
@@ -94,10 +101,10 @@ endif
   {%- liquid
   if asset.metadata.tg
     # {{- asset.asset_processed_bytes | default: asset.asset_raw_bytes | default: "" | btos | split: "\n" | first | mdInline | raw }}
-    echo asset.asset_processed_bytes | default: asset.asset_raw_bytes | default: "" | btos | md | raw
+    echo asset.asset_processed_bytes | default: asset.asset_raw_bytes | default: "" | btos | processSourceQuickmacroSyntax: shouldProcessSourceQuickmacro | md | raw
     render 'inc/telegramMessage.tmpl.html', tg: asset.metadata.tg, asset: asset
   else
-    echo asset.asset_processed_bytes | default: asset.asset_raw_bytes | default: "" | btos | applyFilters: asset.runtime_mdPostProcessors | md | raw
+    echo asset.asset_processed_bytes | default: asset.asset_raw_bytes | default: "" | btos | applyFilters: asset.runtime_mdPostProcessors | processSourceQuickmacroSyntax: shouldProcessSourceQuickmacro | md | raw
   endif
   %}
 {%- else %}
