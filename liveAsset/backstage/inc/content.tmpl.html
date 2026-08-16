@@ -27,8 +27,64 @@ else
     assign includedMetadataAssetPath = asset.asset_raw_path | resolveRelPathInUrlManner: asset.metadata.includeMetadataOfAsset
     assign includedMetadataAsset = includedMetadataAssetPath | fetchLocatableContent: shouldThrowIfNotFound: true, shouldThrowIfNotExpectedCategory: true, shouldFetchRawBytesIfLight: false
     if includedMetadataAsset.metadata
-      x asset.metadata | objAssign: includedMetadataAsset.metadata
+      x asset.metadata | objAssignIfAbsent: includedMetadataAsset.metadata
     endif
+  endif
+
+  if asset.metadata.multiLangVariants
+    assign multiLangVariants = asset.metadata.multiLangVariants | coerceToArr
+    echo '<div class="multi-lang-wrapper">' | raw
+    assign multiLangHint = asset.metadata.multiLangDefaultHint
+    if asset.metadata.lang
+      assign langHintKey = asset.metadata.lang | prepend: 'multiLangHint_'
+      assign multiLangHint = asset.metadata[langHintKey] | default: multiLangHint
+    endif
+    if multiLangHint
+      echo multiLangHint | escape | prepend: '<div class="multi-lang-hint">' | append: '</div>' | raw
+    endif
+    echo '<div class="multi-lang-list">' | raw
+    for lang in multiLangVariants
+      assign lang = lang | strip
+      unless lang
+        continue
+      endunless
+      echo '<div class="one-lang-link' | raw
+      assign thisLangLinkText = lang
+      assign thisLangLinkTextKey = lang | prepend: 'langLinkText_'
+      assign thisLangLinkText = asset.metadata[thisLangLinkTextKey] | default: thisLangLinkText
+
+      assign thisLangLinkUrl = undefined
+      if lang == asset.metadata.lang
+        echo ' curr-lang">' | raw
+      else
+        echo ' alt-lang">' | raw
+        assign thisLangLinkUrlKey = lang | prepend: 'langLinkUrl_'
+        assign thisLangLinkUrl = asset.metadata[thisLangLinkUrlKey]
+        if asset.metadata.langLinkUrlTemplate and not thisLangLinkUrl
+          assign thisLangLinkUrl = asset.metadata.langLinkUrlTemplate | replace: '___LANG___', lang
+        endif
+        unless thisLangLinkUrl
+          assign assetBaseName = asset.asset_locator | split: '/' | last
+          assign thisLangLinkUrl = assetBaseName | replace_last: asset.metadata.lang, lang
+          if assetBaseName == thisLangLinkUrl
+            assign thisLangLinkUrl = undefined
+          endif
+        endunless
+        if not thisLangLinkUrl contains '/' and thisLangLinkUrl
+          assign thisLangLinkUrl = asset.asset_locator | split: '/' | inplaceRemoveLast | inplacePush: thisLangLinkUrl | join: '/'
+        endif
+        
+        if thisLangLinkUrl
+          echo thisLangLinkUrl | escape | prepend: '<a target="_blank" href="' | append: '">' | raw
+        endif
+      endif
+      echo thisLangLinkText
+      if thisLangLinkUrl
+        echo '</a>' | raw
+      endif
+      echo '</div>' | raw
+    endfor
+    echo '</div></div>' | raw
   endif
 endif
 
