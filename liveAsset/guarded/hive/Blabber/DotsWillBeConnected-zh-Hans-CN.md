@@ -2,6 +2,7 @@
 title: 'Dots Will Be Connected 连点成线'
 includeMetadataOfAsset: DotsWillBeConnected-MultiLangMeta.cfg
 lang: zh-Hans-CN
+pubTime: 2026-08-17 23:55:27
 ---
 
 #海贼翻译 https://theconvivialsociety.substack.com/p/dots-will-be-connected
