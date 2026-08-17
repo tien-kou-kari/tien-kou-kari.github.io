@@ -149,7 +149,7 @@ unless rgc.isLocatableContentDirectory and shouldUseRgcForAssetStatus
         endif
         
         if thisLangLinkUrl
-          echo thisLangLinkUrl | escape | prepend: '<a target="_blank" href="' | append: '">' | raw
+          echo thisLangLinkUrl | escape | prepend: '<a href="' | append: '">' | raw
         endif
       endif
       echo thisLangLinkText
