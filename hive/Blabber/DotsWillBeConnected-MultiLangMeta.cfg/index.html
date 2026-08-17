@@ -6,7 +6,7 @@
       <base href="." />
     <link rel="stylesheet" href="about:blank" title="Tien-kou Builtin Style" />
     <link rel="alternate stylesheet" href="about:blank" title="Tien-kou Empty Style (for customization)" />
-    <title>去它的，至少产物代码是可修改的 - Tien-kou</title>
+    <title>hive/Blabber/DotsWillBeConnected-MultiLangMeta.cfg - Tien-kou</title>
     
   </head>
   <body>
@@ -333,30 +333,8 @@ pre:has(> code) {
 
 <div class="sole-content-wrapper">
   <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans-CN">
-    <details style="margin-bottom: 0.4rem" lang="en">
-      <summary>...</summary>
-      <div class="tidbit-pair"><div class="tidbit-key">Parent</div><div class="tidbit-value">
-        <div class="asset-parent-line"><a class="secondary" href="/TheDesk">TheDesk/</a>
-        </div>
-      </div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">Locator</div><div class="tidbit-value white-space-preserve">guarded/TheDesk/ScrewItEditableProduction_zh-Hans-CN</div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">Locator (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">guarded/TheDesk/ScrewItEditableProduction_zh-Hans-CN</div></div>
-      
-      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPathUnencoded</div><div class="tidbit-value white-space-preserve">/TheDesk/ScrewItEditableProduction_zh-Hans-CN</div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPathUnencoded (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/TheDesk/ScrewItEditableProduction_zh-Hans-CN</div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath</div><div class="tidbit-value white-space-preserve">/TheDesk/ScrewItEditableProduction_zh-Hans-CN</div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/TheDesk/ScrewItEditableProduction_zh-Hans-CN</div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1786910310908</div></div>
-    </details><div class="multi-lang-wrapper"><div class="multi-lang-list"><div class="one-lang-link alt-lang"><a href="/TheDesk/ScrewItEditableProduction">en-US</a></div><div class="one-lang-link curr-lang">简体中文版本</div></div></div>
-    <h3 class="md-title">去它的，至少产物代码是可修改的</h3><p>2026-01-19</p>
-<p>我今天在调整一个开源网页自动翻译浏览器扩展[0]，希望它能全局对所有网页自动触发翻译，单独设一个Profile专门用来浏览外语网页。然后我发现……行不通，设置项可以填入域名的允许列表（allowlist），对这些域名自动触发翻译，但是没有地方可以设置成全局。允许列表也不能填通配符、正则表达式之类的东西，我在源码里确认过了，那个判断逻辑就是<code>someArray.include(...)</code>。真残酷。</p>
-<p>我接着看源码，想hack它。我想到：用UserScript、bookmarklet或干脆另建一个扩展去触发翻译可以吗？第一条路——看扩展是否在浏览器window对象中留下公开可访问的API或hook方法等。如我所料没有：一切东西完美地封装在React中。第二条路——模拟扩展的内部信息传递机制，即对于tab的message——同样也行不通，Chrome对于扩展的消息机制有完善的隔离，除非扩展的清单文件（manifest.json）明确允许，第三方扩展才能与其进行消息交互。第三条路——扩展对Chrome暴露了一系列叫command的入口，专门用来实现键盘快捷键对功能的绑定，其中也包含我需要的触发翻译的行为——同样没法外部触发。同样是隔离！</p>
-<p>我懒得拖源码到本地编译——精神上的阻尼（mental friction）迫使我不想这么干，再说了天知道设定项目构建又会出什么幺蛾子。我也不想提issue和拉取请求——硬要我解释我会说我没有延迟满足的耐心，我懒，并且我不确定其他人真会想要这样的特性吗？——自动对所有网页触发一个可能并不想要的动作，有可能把网页弄乱？——并且允许了这玩意可能会促进对公开的翻译API造成大规模滥用。我不想走这条路。</p>
-<p>最后我决定：去它的，我走脏路子了。至少构建产物是可以修改的JavaScript，不是什么更隐晦的东西。于是我下载了Release的已打包扩展zip文件，没有解压直接编辑content.js文件，在一大堆的minified代码中搜索<code>someArray.include</code>然后在这个条件周围包裹上<code>(... || true)</code>，保存到压缩文件中，然后将压缩文件导入开启了开发者模式的Chrome扩展管理器。然后……这一切就工作了，整个过程只花了几分钟。</p>
-<p>我清楚如果扩展之后有更新的话我需要重复这种替换（我为什么要更新呢？我又不需要更多新功能），但是又怎样呢？至少这是又快又能让事情如我预期工作的唯一方法。这大概就是产物代码可修改的意义吧。</p>
-<p>[0] <a href="https://github.com/chunibyocola/sc-translator-crx" target="_blank">这个扩展</a>。</p>
-
+<div class="lang-wrapper" lang="zh-Hans"><div class="multi-lang-wrapper"><div class="multi-lang-list"><div class="one-lang-link alt-lang"><a href="/hive/Blabber/DotsWillBeConnected-en">English (Original) Version</a></div><div class="one-lang-link alt-lang"><a href="/hive/Blabber/DotsWillBeConnected-zh-Hans-CN">简体中文版本（海贼翻译）</a></div></div></div>
+  Don't know how to render this asset.
 
 </div>
 
