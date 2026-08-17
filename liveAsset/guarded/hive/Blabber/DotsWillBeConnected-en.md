@@ -5,7 +5,7 @@ lang: en
 ---
 
 > [!NOTE]  
-> This article is pirated (unauthorized copy) from https://theconvivialsociety.substack.com/p/dots-will-be-connected .
+> This article is pirated (unauthorized copy and Chinese translation) from https://theconvivialsociety.substack.com/p/dots-will-be-connected .
 
 ### The Convivial Society: Vol. 4, No. 3
 
