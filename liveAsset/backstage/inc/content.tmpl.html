@@ -145,7 +145,7 @@ unless rgc.isLocatableContentDirectory and shouldUseRgcForAssetStatus
           endif
         endunless
         if not thisLangLinkUrl contains '/' and thisLangLinkUrl
-          assign thisLangLinkUrl = asset.asset_locator | split: '/' | inplaceRemoveLast | inplacePush: thisLangLinkUrl | join: '/' | remove_first: 'guarded/' | prepend: '/'
+          assign thisLangLinkUrl = asset.asset_locator | split: '/' | inplaceRemoveLast | inplacePush: thisLangLinkUrl | join: '/' | removeLocatableAssetPathTopDir | prepend: '/'
         endif
         
         if thisLangLinkUrl
