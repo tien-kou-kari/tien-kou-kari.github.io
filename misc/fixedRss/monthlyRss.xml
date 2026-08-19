@@ -210,58 +210,6 @@
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/misc/tg/2026-01-14">misc/tg/2026-01-14</a> / <a href="/misc/tg/2026-01-14/2026-01-14_16.55.32">2026-01-14_16.55.32</a> <span>2026-01-14 16:55:32 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body">2.5次元日常
-    <div class="tg-msg-source-lv2">
-      <span class="tg-msg-source-lv2-explain">Forwarded from </span>WA Daily
-    </div>
-
-    <span class="tg-timestamp">2026-01-14T09:59:43+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><blockquote>经过仔细调查发现，gitlab-ce 上游提供的 apt 仓库中，不同发行版中，为不同发行版打包的相同 gitlab 版本的二进制包的包名和版本号均相同，并且所在路径也相同，但实际上是不同的二进制包文件。我们目前无法正确镜像这样的仓库。
-gitlab 的上游 apt 仓库之所以能正常工作，<b>是因为它的服务器会记录访问者的 IP 地址上一次请求的 Release 文件所属的发行版，并在请求二进制包文件时返回对应发行版的二进制包文件</b>。</blockquote>
-
-<a href="https://github.com/tuna/issues/issues/2395#issuecomment-3745611787">https://github.com/tuna/issues/issues/2395#issuecomment-3745611787</a>
-
-震撼我妈一整年了属于是，这是有多闲才能做出这种玩意儿来</div>
-      
-        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
-          <a target="_blank" href="https://github.com/tuna/issues/issues/2395">GitHub</a>
-          <h6>gitlab-ce/ubuntu 尺寸/哈希与索引不符，导致 apt 安装失败 · Issue #2395 · tuna/issues</h6>
-          <p>先决条件 (Prerequisites) 我已确认这个问题没有在其他 issues中提出过。 I am sure that this problem has NEVER been discussed in other issues. 发生了什么（What happened） 检查时间 2026-01-05 14:00 (UTC+8) 镜像地址 https://mirrors.tuna.tsi...</p>
-        </div></div></div>
-    </div></div>
-  </div>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-01-10_14.03.01">2026-01-10_14.03.01</a> <span>2026-01-10 14:03:01 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-    <div>
-      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%90%AF%E7%A4%BA%E5%BD%95%E6%9C%80%E6%96%B0%E8%BF%9B%E7%A8%8B">#启示录最新进程</a></span>
-    </div><p>The Vietnam government has banned rooted phones from using any banking app</p>
-<p><a href="https://xdaforums.com/t/discussion-the-root-and-mod-hiding-fingerprint-spoofing-keybox-stealing-cat-and-mouse-game.4425939/post-90441375" target="_blank">https://xdaforums.com/t/discussion-the-root-and-mod-hiding-fingerprint-spoofing-keybox-stealing-cat-and-mouse-game.4425939/post-90441375</a></p>
-
-
-</div>
-</div>
-</div>
-
         ]]></description>
       </item>
   </channel>
