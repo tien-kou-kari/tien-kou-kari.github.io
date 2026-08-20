@@ -723,4 +723,4 @@ AI is removing the middle class of software engineering https://blog.florianherr
 
 2026-08-20 20:19:01 laserphile: AliExpress webpage keeping multipoint Bluetooth headphones active with WebAudio fingerprinting https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html?m=1
 
-#fhn まだ阴险的老中dark pattern
+#fhn また阴险的老中dark pattern
