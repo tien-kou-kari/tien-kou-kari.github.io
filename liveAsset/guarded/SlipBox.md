@@ -720,3 +720,7 @@ AI is removing the middle class of software engineering https://blog.florianherr
 #FromHn
 
 2026-08-17 01:14:42 `q<hat>badge/0yt<hat>dQw4w9WgXcQ<hat>` (change `<hat>` to `^`) -> q^badge/0yt^dQw4w9WgXcQ^
+
+2026-08-20 20:19:01 laserphile: AliExpress webpage keeping multipoint Bluetooth headphones active with WebAudio fingerprinting https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html?m=1
+
+#fhn まだ阴险的老中dark pattern
