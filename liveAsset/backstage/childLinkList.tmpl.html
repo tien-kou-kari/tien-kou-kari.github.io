@@ -30,7 +30,7 @@
   endif
   -%}
   >
-    <a href="{{post.web_url_path}}">{{ post.metadata.friendlyChildName | default: webUrlPathUnencoded | replace: '${path}', webUrlPathUnencoded | replace: '${dir}', webUrlDirPathUnencoded }}</a>
+    <a href="{{ rgc.urlPrefixWhenIsRss }}{{post.web_url_path}}">{{ post.metadata.friendlyChildName | default: webUrlPathUnencoded | replace: '${path}', webUrlPathUnencoded | replace: '${dir}', webUrlDirPathUnencoded }}</a>
   </h3>
 
 {%- else %}

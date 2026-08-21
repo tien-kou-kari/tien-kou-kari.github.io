@@ -55,7 +55,7 @@ endif
       {%- endif -%}
       </summary>
       <div class="tidbit-pair"><div class="tidbit-key">Parent</div><div class="tidbit-value">
-        <div class="asset-parent-line"><a class="secondary" href="{{ asset.web_url_path | split: '/' | inplaceRemoveLast | join: '/' }}">{{ asset.web_url_path_tidy | split: '/' | inplaceRemoveLast | join: '/' }}/</a>
+        <div class="asset-parent-line"><a class="secondary" href="{{ rgc.urlPrefixWhenIsRss }}{{ asset.web_url_path | split: '/' | inplaceRemoveLast | join: '/' }}">{{ asset.web_url_path_tidy | split: '/' | inplaceRemoveLast | join: '/' }}/</a>
         </div>
       </div></div>
       <div class="tidbit-pair"><div class="tidbit-key">Locator</div><div class="tidbit-value white-space-preserve">{{ asset.asset_locator }}</div></div>
@@ -90,7 +90,7 @@ endif
         <div class="tidbit-pair"><div class="tidbit-key">PublishTime</div><div class="tidbit-value white-space-preserve">{{ asset.publish_time_by_metadata | divided_by: 1000 | date: "%Y-%m-%d %H:%M:%S UTC+8", -480 }}</div></div>
       {%- endif %}
       {%- if rgc.serverProfileName == 'insiders' %}
-        <div class="tidbit-pair"><div class="tidbit-key">Source</div><div class="tidbit-value"><a href="/src{{ asset.web_url_path }}" target="_blank">/src{{ asset.web_url_path_unencoded }}</a></div></div>
+        <div class="tidbit-pair"><div class="tidbit-key">Source</div><div class="tidbit-value"><a href="{{ rgc.urlPrefixWhenIsRss }}/src{{ asset.web_url_path }}" target="_blank">/src{{ asset.web_url_path_unencoded }}</a></div></div>
       {%- endif %}
       <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">{{ asset.update_time_by_hoard }}</div></div>
       {%- if asset.metadata.tidbits %}
@@ -149,7 +149,7 @@ unless rgc.isLocatableContentDirectory and shouldUseRgcForAssetStatus
         endif
         
         if thisLangLinkUrlUnencoded
-          echo thisLangLinkUrlUnencoded | uri_escape | escape | prepend: '<a href="' | append: '">' | raw
+          echo thisLangLinkUrlUnencoded | prepend: rgc.urlPrefixWhenIsRss | uri_escape | escape | prepend: '<a href="' | append: '">' | raw
         endif
       endif
       echo thisLangLinkText
