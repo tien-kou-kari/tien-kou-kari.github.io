@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{%- block rssTitle -%}{{ rssTitle | default: 'Tien-kou' }}{%- endblock %}</title>
-    <link>https://tien-kou.shunf4.workers.dev/</link>
+    <link>{{ rgc.reqUrlSchemeHostOnly }}</link>
     <atom:link href="{{ rgc.reqUrl }}" rel="self" type="application/rss+xml" />
     <description>{%- block rssDescription -%}{{ rssDescription | default: 'Tien-kou' }}{%- endblock %}</description>
     {%- block rssItemList %}
