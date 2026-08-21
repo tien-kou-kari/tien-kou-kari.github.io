@@ -1,5 +1,7 @@
 {%- layout 'layout.tmpl.html' -%}
 
+{%- x '' | rgcSet: 'urlPrefixWhenIsRss' %}
+
 {%- block pageTitle -%}
   {%- backpatch pageTitle %}
 {%- endblock -%}
