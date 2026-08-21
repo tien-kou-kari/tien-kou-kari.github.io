@@ -127,33 +127,33 @@ unless rgc.isLocatableContentDirectory and shouldUseRgcForAssetStatus
       assign thisLangLinkTextKey = lang | prepend: 'langLinkText_'
       assign thisLangLinkText = asset.metadata[thisLangLinkTextKey] | default: thisLangLinkText
 
-      assign thisLangLinkUrl = undefined
+      assign thisLangLinkUrlUnencoded = undefined
       if lang == asset.metadata.lang
         echo ' curr-lang">' | raw
       else
         echo ' alt-lang">' | raw
-        assign thisLangLinkUrlKey = lang | prepend: 'langLinkUrl_'
-        assign thisLangLinkUrl = asset.metadata[thisLangLinkUrlKey]
-        if asset.metadata.langLinkUrlTemplate and not thisLangLinkUrl
-          assign thisLangLinkUrl = asset.metadata.langLinkUrlTemplate | replace: '___LANG___', lang
+        assign thisLangLinkUrlUnencodedKey = lang | prepend: 'langLinkUrl_'
+        assign thisLangLinkUrlUnencoded = asset.metadata[thisLangLinkUrlUnencodedKey]
+        if asset.metadata.langLinkUrlTemplate and not thisLangLinkUrlUnencoded
+          assign thisLangLinkUrlUnencoded = asset.metadata.langLinkUrlTemplate | replace: '___LANG___', lang
         endif
-        unless thisLangLinkUrl
+        unless thisLangLinkUrlUnencoded
           assign assetBaseName = asset.asset_locator | split: '/' | last
-          assign thisLangLinkUrl = assetBaseName | replace_last: asset.metadata.lang, lang
-          if assetBaseName == thisLangLinkUrl
-            assign thisLangLinkUrl = undefined
+          assign thisLangLinkUrlUnencoded = assetBaseName | replace_last: asset.metadata.lang, lang
+          if assetBaseName == thisLangLinkUrlUnencoded
+            assign thisLangLinkUrlUnencoded = undefined
           endif
         endunless
-        if not thisLangLinkUrl contains '/' and thisLangLinkUrl
-          assign thisLangLinkUrl = asset.asset_locator | split: '/' | inplaceRemoveLast | inplacePush: thisLangLinkUrl | join: '/' | removeLocatableAssetPathTopDir | prepend: '/'
+        if not thisLangLinkUrlUnencoded contains '/' and thisLangLinkUrlUnencoded
+          assign thisLangLinkUrlUnencoded = asset.asset_locator | split: '/' | inplaceRemoveLast | inplacePush: thisLangLinkUrlUnencoded | join: '/' | removeLocatableAssetPathTopDir | prepend: '/'
         endif
         
-        if thisLangLinkUrl
-          echo thisLangLinkUrl | escape | prepend: '<a href="' | append: '">' | raw
+        if thisLangLinkUrlUnencoded
+          echo thisLangLinkUrlUnencoded | url_encode | escape | prepend: '<a href="' | append: '">' | raw
         endif
       endif
       echo thisLangLinkText
-      if thisLangLinkUrl
+      if thisLangLinkUrlUnencoded
         echo '</a>' | raw
       endif
       echo '</div>' | raw
