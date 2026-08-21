@@ -149,7 +149,7 @@ unless rgc.isLocatableContentDirectory and shouldUseRgcForAssetStatus
         endif
         
         if thisLangLinkUrlUnencoded
-          echo thisLangLinkUrlUnencoded | url_encode | escape | prepend: '<a href="' | append: '">' | raw
+          echo thisLangLinkUrlUnencoded | uri_escape | escape | prepend: '<a href="' | append: '">' | raw
         endif
       endif
       echo thisLangLinkText
