@@ -96,7 +96,7 @@
     {%- if ptg.media.webpage %}
       {%- capture tgWebpagePreview %}
         <{% echo tableEl %} class="tg-websummary-layout"><{% echo trEl %} class="tg-websummary-layout"><{% echo tdEl %} class="tg-websummary-layout">
-          <a target="_blank" href="{{ rgc.urlPrefixWhenIsRss }}{{ ptg.media.webpage.url }}">{{ ptg.media.webpage.siteName }}</a>
+          <a target="_blank" href="{{ ptg.media.webpage.url }}">{{ ptg.media.webpage.siteName }}</a>
           <h6>{{ ptg.media.webpage.title }}</h6>
           <p>{{ ptg.media.webpage.description }}</p>
           {%- if ptg.media.webpage.photo.id %}
