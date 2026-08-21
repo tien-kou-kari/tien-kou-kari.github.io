@@ -1,7 +1,7 @@
 {%- layout 'rssLayout.tmpl.html' -%}
 
 {%- x true | rgcSet: 'isRss' %}
-{%- x rgc.reqUrlSchemeHostOnly | append: '/' | rgcSet: 'urlPrefixWhenIsRss' %}
+{%- x rgc.reqUrlSchemeHostOnly | rgcSet: 'urlPrefixWhenIsRss' %}
 
 {%- block rssTitle -%}
   {%- backpatch rssTitle %}

@@ -165,7 +165,7 @@ endif
         {%- endif %}
 
         {%- if partialGroupLogicCtx.groupMinPubTimeInPageMap[currGroupViewPrimaryLocator] != partialGroupLogicCtx.groupMinTimeMap[currGroupViewPrimaryLocator] and not currGroupViewIsPrivate %}
-          <{% echo trEl %} class="group-layout group-min-ellipsis"><{% echo tdEl %} class="group-layout group-min-ellipsis"><a title="Jump to this group" class="group-jump-link" href="/group/{{ currGroupViewPrimaryLocator }}">...</a></{% echo tdEl %}></{% echo trEl %}>
+          <{% echo trEl %} class="group-layout group-min-ellipsis"><{% echo tdEl %} class="group-layout group-min-ellipsis"><a title="Jump to this group" class="group-jump-link" href="{{ rgc.urlPrefixWhenIsRss }}/group/{{ currGroupViewPrimaryLocator }}">...</a></{% echo tdEl %}></{% echo trEl %}>
         {%- endif %}
       
         {%- if currGroupViewType == 'inTableBottomPostRef' or currGroupViewType == 'bottomPostRef' %}
@@ -191,7 +191,7 @@ endif
         {%- endif %}
 
         {%- if partialGroupLogicCtx.groupMaxPubTimeInPageMap[currGroupViewPrimaryLocator] != partialGroupLogicCtx.groupMaxTimeMap[currGroupViewPrimaryLocator] and not currGroupViewIsPrivate %}
-          <{% echo trEl %} class="group-layout group-max-ellipsis"><{% echo tdEl %} class="group-layout group-max-ellipsis"><a title="Jump to this group" class="group-jump-link" href="/group/{{ currGroupViewPrimaryLocator }}">...</a></{% echo tdEl %}></{% echo trEl %}>
+          <{% echo trEl %} class="group-layout group-max-ellipsis"><{% echo tdEl %} class="group-layout group-max-ellipsis"><a title="Jump to this group" class="group-jump-link" href="{{ rgc.urlPrefixWhenIsRss }}/group/{{ currGroupViewPrimaryLocator }}">...</a></{% echo tdEl %}></{% echo trEl %}>
         {%- endif %}
 
       </{% echo tableEl %}>

@@ -96,11 +96,11 @@
     {%- if ptg.media.webpage %}
       {%- capture tgWebpagePreview %}
         <{% echo tableEl %} class="tg-websummary-layout"><{% echo trEl %} class="tg-websummary-layout"><{% echo tdEl %} class="tg-websummary-layout">
-          <a target="_blank" href="{{ ptg.media.webpage.url }}">{{ ptg.media.webpage.siteName }}</a>
+          <a target="_blank" href="{{ rgc.urlPrefixWhenIsRss }}{{ ptg.media.webpage.url }}">{{ ptg.media.webpage.siteName }}</a>
           <h6>{{ ptg.media.webpage.title }}</h6>
           <p>{{ ptg.media.webpage.description }}</p>
           {%- if ptg.media.webpage.photo.id %}
-            <img loading="lazy" class="tg-img tg-photo" src="{{ tgMediaWebPathPrefix }}/m-{{ptg.media.webpage.photo.id}}.png" title="Telegram wepbage media id {{ptg.media.webpage.photo.id}}" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+            <img loading="lazy" class="tg-img tg-photo" src="{{ rgc.urlPrefixWhenIsRss }}{{ tgMediaWebPathPrefix }}/m-{{ptg.media.webpage.photo.id}}.png" title="Telegram wepbage media id {{ptg.media.webpage.photo.id}}" alt="A picture related to current telegram webpage message. No more alt detail for now." />
           {%- endif %}
         </{% echo tdEl %}></{% echo trEl %}></{% echo tableEl %}>
       {%- endcapture %}
@@ -116,7 +116,7 @@
     {%- endif %}
 
     {%- if ptg.media.photo.id %}
-      <img loading="lazy" class="tg-img tg-photo" src="{{ tgMediaWebPathPrefix }}/m-{{ptg.media.photo.id}}.png" title="Telegram media id {{ptg.media.photo.id}}" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+      <img loading="lazy" class="tg-img tg-photo" src="{{ rgc.urlPrefixWhenIsRss }}{{ tgMediaWebPathPrefix }}/m-{{ptg.media.photo.id}}.png" title="Telegram media id {{ptg.media.photo.id}}" alt="A picture from Telegram, related to current message. No more alt detail for now." />
     {%- endif %}
 
     {%- if ptg.media.document.id %}
@@ -145,11 +145,11 @@
 
       {%- else %}
         {%- if ptg.media.document.mimeType | startsWith: 'image/' %}
-          <img loading="lazy" class="tg-img tg-{{ tgDocType }}" src="{{ tgMediaWebPathPrefix }}/m-{{ptg.media.document.id}}.dat" title="Telegram media id {{ptg.media.document.id}}" alt="A {{ tgDocType }} from Telegram, related to current message. {{ tgDocAltDesc }}" />
+          <img loading="lazy" class="tg-img tg-{{ tgDocType }}" src="{{ rgc.urlPrefixWhenIsRss }}{{ tgMediaWebPathPrefix }}/m-{{ptg.media.document.id}}.dat" title="Telegram media id {{ptg.media.document.id}}" alt="A {{ tgDocType }} from Telegram, related to current message. {{ tgDocAltDesc }}" />
           {%- assign tgDocHandled = true %}
         {%- elsif ptg.media.document.mimeType | startsWith: 'video/' %}
           {%- assign tgDocType = 'video' %}
-          <video controls class="tg-video tg-{{ tgDocType }}" src="{{ tgMediaWebPathPrefix }}/m-{{ptg.media.document.id}}.dat" title="Telegram media id {{ptg.media.document.id}}" alt="A {{ tgDocType }} from Telegram, related to current message. {{ tgDocAltDesc }}">
+          <video controls class="tg-video tg-{{ tgDocType }}" src="{{ rgc.urlPrefixWhenIsRss }}{{ tgMediaWebPathPrefix }}/m-{{ptg.media.document.id}}.dat" title="Telegram media id {{ptg.media.document.id}}" alt="A {{ tgDocType }} from Telegram, related to current message. {{ tgDocAltDesc }}">
             Your browser does not support the video tag.
           </video>
           {%- assign tgDocHandled = true %}
