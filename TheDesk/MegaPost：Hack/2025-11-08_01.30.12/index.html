@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <base href="." />
-    <link rel="stylesheet" href="about:blank" title="Tien-kou Builtin Style" />
+      <link rel="stylesheet" href="about:blank" title="Tien-kou Builtin Style" />
     <link rel="alternate stylesheet" href="about:blank" title="Tien-kou Empty Style (for customization)" />
     <title>TheDesk/MegaPost：Hack/2025-11-08_01.30.12 - Tien-kou</title>
     
@@ -52,54 +52,28 @@
         }
       </script><style type="text/css" title="Tien-kou Empty Style (for customization)">
 </style>
-
 <noscript>
   <style type="text/css" title="Tien-kou Builtin Style">
-
     
 
-html {
-  color-scheme: light dark;
-}
+/* cookie has 4096 bytes per site limit, so be compact */
+html {color-scheme: light dark;}
+#tkRootWrapper {text-autospace: normal;}
 
-#tkRootWrapper {
-  text-autospace: normal;
-}
+img,svg,video { max-width: 100%; display: block; }
 
-img,
-svg,
-video {
-  max-width: 100%;
-  display: block;
-}
-
-body {
-  font-family: System UI;
-  font-size: 0.75rem;
-}
-
+body { font-family: System UI; font-size: 0.75rem; }
 main {
   max-width: min(80ch, 100% - 2ch);
   max-width: min(40rem, 100% - 2rem);
 }
 
-p {
-  margin-top: 0.32rem;
-  margin-bottom: 0.32rem;
-}
+p { margin-top: 0.32rem; margin-bottom: 0.32rem; }
+p:first-child { margin-top: 0.16rem; }
 
-p:first-child {
-  margin-top: 0.16rem;
-}
+.white-space-preserve { white-space-collapse: preserve; }
 
-.white-space-preserve {
-  white-space-collapse: preserve;
-}
-
-div.principal-content {
-  /*margin-top: 0.5rem;*/
-}
-
+div.principal-content { /*margin-top: 0.5rem;*/ }
 div.one-in-seq-wrapper {
   margin-inline-start: 0.4rem;
   max-width: 96%;
@@ -116,40 +90,22 @@ table.tg-wrapper-layout {
 
 table.tg-wrapper-layout,
 th.tg-wrapper-layout,
-td.tg-wrapper-layout  {
-  border: 2px ridge lightgrey;
-  border-collapse: collapse;
-}
+td.tg-wrapper-layout { border: 2px ridge lightgrey; border-collapse: collapse; }
 
-/**/
-
-table.tg-involvement-layout {
-  margin-left: 0.3rem;
-  margin-top: 0.5rem;
-  min-width: 6rem;
-}
-
+table.tg-involvement-layout { margin-left: 0.3rem; margin-top: 0.5rem; min-width: 6rem; }
 table.tg-involvement-layout,
 th.tg-involvement-layout,
-td.tg-involvement-layout  {
-  border: 2px ridge lightgrey;
-  border-collapse: collapse;
-}
+td.tg-involvement-layout { border: 2px ridge lightgrey; border-collapse: collapse; }
 
-/**/
-
-table.tg-websummary-layout {
-  margin-left: 0.3rem;
-  margin-top: 0.5rem;
-  min-width: 6rem;
-}
-
+table.tg-websummary-layout { margin-left: 0.3rem; margin-top: 0.5rem; min-width: 6rem; }
 table.tg-websummary-layout,
 th.tg-websummary-layout,
-td.tg-websummary-layout {
-  border: 2px ridge lightgrey;
-  border-collapse: collapse;
+td.tg-websummary-layout { border: 2px ridge lightgrey; border-collapse: collapse; }
+table.tg-wrapper-layout a {
+  filter: brightness(5) contrast(0.7) saturate(0.6);
+  text-decoration: underline dashed;
 }
+.tg-img, .tg-video { max-width: 20rem; max-height: 40rem; }
 
 /**/
 
@@ -158,97 +114,46 @@ table.group-layout {
   margin-top: 0.5rem;
   min-width: 10rem;
 }
-
 table.group-layout,
 th.group-layout,
 td.group-layout {
   border: 2px ridge lightgrey;
   border-collapse: collapse;
 }
+td.group-ref-primary.group-ref-scroll .principal-content { max-height: 20rem; overflow-y: scroll; }
 
-/**/
-
-td.group-ref-primary.group-ref-scroll .principal-content {
-  max-height: 20rem;
-  overflow-y: scroll;
-}
-
-h1, h2, h3 {
-  color: #2c3e50;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 5px;
-}
-
-.tg-img, .tg-video {
-  max-width: 20rem;
-  max-height: 40rem;
-}
-
-a.tag-link {
-
-}
-
-.tag-wrapper {
-  margin-right: 0.6rem;
-}
-
-
-table.tg-wrapper-layout a {
-  filter: brightness(5) contrast(0.7) saturate(0.6);
-  text-decoration: underline dashed;
-}
-
+h1, h2, h3 { color: #2c3e50; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+a.tag-link { }
+.tag-wrapper { margin-right: 0.6rem; }
 a.secondary {
   /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */
   filter: brightness(3) contrast(0.26);
   text-decoration: underline dotted;
 }
 
-.tidbit-value.white-space-preserve {
-  white-space: pre-wrap;
-  font-family: monospace;
-}
-
-.tidbit-value {
-}
-
+.tidbit-value.white-space-preserve { white-space: pre-wrap; font-family: monospace; }
+.tidbit-value { }
 .tidbit-key {
   font-weight: bold;
   flex-shrink: 1;
   margin-inline-end: 0.6rem;
   min-width: 7.6rem;
 }
-
-.tidbit-key::after {
-  content: ': ';
-}
-
-.tidbit-pair {
-  display: flex;
-}
+.tidbit-key::after { content: ': '; }
+.tidbit-pair { display: flex; }
 
 blockquote {
   margin: 0.1rem 0;
   padding: 0.1rem 0.2rem 0.1rem 0.8rem;
   background-color: #fafafa;
-
   border: 1px solid #6e6e6e;
   border-left: 5px solid #6e6e6e;
 }
 
-a.md-attach {
-  display: block;
-  width: fit-content;
-}
+a.md-attach { display: block; width: fit-content; }
+.md-attach img { display: inline; }
 
-.md-attach img {
-  display: inline;
-}
-
-hr.sep-in-seq {
-  margin-block-start: 0.75rem;
-  margin-block-end: 0.75rem;
-}
+hr.sep-in-seq { margin-block-start: 0.75rem; margin-block-end: 0.75rem; }
 
 div.ref-marker {
   letter-spacing: -0.08rem;
@@ -258,9 +163,7 @@ div.ref-marker {
   display: inline-block;
 }
 
-div.asset-info-line {
-  margin-bottom: 0.2rem;
-}
+div.asset-info-line { margin-bottom: 0.2rem; }
 
 pre:has(> code) {
   border: 1px solid #cccccc;
@@ -271,9 +174,96 @@ pre:has(> code) {
 }
 
 
-
   </style>
 </noscript><script type="text/javascript">
+  // credit https://github.com/dankogai/js-base64 BSD-3-Clause
+  (function (root, factory) {
+      if (typeof define === 'function' && define.amd) {
+        // AMD. Register as an anonymous module.
+        define([], function () { factory(root); });
+      } else factory(root);
+      // node.js has always supported base64 conversions, while browsers that support
+      // web workers support base64 too, but you may never know.
+    })(typeof exports !== "undefined" ? exports : this, function (root) {
+    if (root.atob) {
+      // Some browsers' implementation of atob doesn't support whitespaces
+      // in the encoded string (notably, IE). This wraps the native atob
+      // in a function that strips the whitespaces.
+      // The original function can be retrieved in atob.original
+      try {
+        root.atob(" ");
+      } catch (e) {
+        root.atob = (function (atob) {
+          var func = function (string) {
+            return atob(String(string).replace(/[\t\n\f\r ]+/g, ""));
+          };
+          func.original = atob;
+          return func;
+        })(root.atob);
+      }
+      return;
+    }
+
+    // base64 character set, plus padding character (=)
+    var b64 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
+      // Regular expression to check formal correctness of base64 encoded strings
+      b64re = /^(?:[A-Za-z\d+\/]{4})*?(?:[A-Za-z\d+\/]{2}(?:==)?|[A-Za-z\d+\/]{3}=?)?$/;
+
+    root.btoa = function (string) {
+      string = String(string);
+      var bitmap, a, b, c,
+        result = "", i = 0,
+        rest = string.length % 3; // To determine the final padding
+
+      for (; i < string.length;) {
+        if ((a = string.charCodeAt(i++)) > 255
+          || (b = string.charCodeAt(i++)) > 255
+          || (c = string.charCodeAt(i++)) > 255)
+          throw new TypeError("Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range.");
+
+        bitmap = (a << 16) | (b << 8) | c;
+        result += b64.charAt(bitmap >> 18 & 63) + b64.charAt(bitmap >> 12 & 63)
+          + b64.charAt(bitmap >> 6 & 63) + b64.charAt(bitmap & 63);
+      }
+
+      // If there's need of padding, replace the last 'A's with equal signs
+      return rest ? result.slice(0, rest - 3) + "===".substring(rest) : result;
+    };
+
+    root.atob = function (string) {
+      // atob can work with strings with whitespaces, even inside the encoded part,
+      // but only \t, \n, \f, \r and ' ', which can be stripped.
+      string = String(string).replace(/[\t\n\f\r ]+/g, "");
+      if (!b64re.test(string))
+        throw new TypeError("Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.");
+
+      // Adding the padding if missing, for semplicity
+      string += "==".slice(2 - (string.length & 3));
+      var bitmap, result = "", r1, r2, i = 0;
+      for (; i < string.length;) {
+        bitmap = b64.indexOf(string.charAt(i++)) << 18 | b64.indexOf(string.charAt(i++)) << 12
+          | (r1 = b64.indexOf(string.charAt(i++))) << 6 | (r2 = b64.indexOf(string.charAt(i++)));
+
+        result += r1 === 64 ? String.fromCharCode(bitmap >> 16 & 255)
+          : r2 === 64 ? String.fromCharCode(bitmap >> 16 & 255, bitmap >> 8 & 255)
+            : String.fromCharCode(bitmap >> 16 & 255, bitmap >> 8 & 255, bitmap & 255);
+      }
+      return result;
+    };
+  });
+
+  var b64urlsafe_regex_slash = /\//g;
+  var b64urlsafe_regex_plus = /\+/g;
+  var b64urlsafe_regex_undersc = /_/g;
+  var b64urlsafe_regex_hyphen = /-/g;
+
+  function b64urlsafe_encode(a) {
+    return btoa(a).replace(b64urlsafe_regex_slash, '_').replace(b64urlsafe_regex_plus, '-');
+  }
+  function b64urlsafe_decode(a) {
+    return atob(a.replace(b64urlsafe_regex_undersc, '/').replace(b64urlsafe_regex_hyphen, '+'));
+  }
+
   function setCookie(name, value, days) {
     var expires = "";
     if (days) {
@@ -281,7 +271,12 @@ pre:has(> code) {
       date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
       expires = "; expires=" + date.toUTCString();
     }
-    document.cookie = name + "=" + encodeURIComponent(value) + expires + "; path=/";
+    var encodedCookieValue = encodeURIComponent(value);
+    if (encodedCookieValue.length >= 4090) {
+      alert("error: encoded cookie value reaches 4090 bytes.");
+      return;
+    }
+    document.cookie = name + "=" + encodedCookieValue + expires + "; path=/";
   }
   function removeCookie(name) {
     document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
@@ -300,7 +295,7 @@ pre:has(> code) {
     return document.getElementById(id);
   }
 
-  var tkDefaultStyle = "\n\nhtml {\n  color-scheme: light dark;\n}\n\n#tkRootWrapper {\n  text-autospace: normal;\n}\n\nimg,\nsvg,\nvideo {\n  max-width: 100%;\n  display: block;\n}\n\nbody {\n  font-family: System UI;\n  font-size: 0.75rem;\n}\n\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\np {\n  margin-top: 0.32rem;\n  margin-bottom: 0.32rem;\n}\n\np:first-child {\n  margin-top: 0.16rem;\n}\n\n.white-space-preserve {\n  white-space-collapse: preserve;\n}\n\ndiv.principal-content {\n  /*margin-top: 0.5rem;*/\n}\n\ndiv.one-in-seq-wrapper {\n  margin-inline-start: 0.4rem;\n  max-width: 96%;\n  max-width: max(96%, 100% - 1rem);\n}\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-involvement-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout  {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.tg-websummary-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 6rem;\n}\n\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\n\n/**/\n\ntd.group-ref-primary.group-ref-scroll .principal-content {\n  max-height: 20rem;\n  overflow-y: scroll;\n}\n\nh1, h2, h3 {\n  color: #2c3e50;\n  border-bottom: 1px solid #eee;\n  padding-bottom: 5px;\n}\n\n.tg-img, .tg-video {\n  max-width: 20rem;\n  max-height: 40rem;\n}\n\na.tag-link {\n\n}\n\n.tag-wrapper {\n  margin-right: 0.6rem;\n}\n\n\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n.tidbit-value.white-space-preserve {\n  white-space: pre-wrap;\n  font-family: monospace;\n}\n\n.tidbit-value {\n}\n\n.tidbit-key {\n  font-weight: bold;\n  flex-shrink: 1;\n  margin-inline-end: 0.6rem;\n  min-width: 7.6rem;\n}\n\n.tidbit-key::after {\n  content: ': ';\n}\n\n.tidbit-pair {\n  display: flex;\n}\n\nblockquote {\n  margin: 0.1rem 0;\n  padding: 0.1rem 0.2rem 0.1rem 0.8rem;\n  background-color: #fafafa;\n\n  border: 1px solid #6e6e6e;\n  border-left: 5px solid #6e6e6e;\n}\n\na.md-attach {\n  display: block;\n  width: fit-content;\n}\n\n.md-attach img {\n  display: inline;\n}\n\nhr.sep-in-seq {\n  margin-block-start: 0.75rem;\n  margin-block-end: 0.75rem;\n}\n\ndiv.ref-marker {\n  letter-spacing: -0.08rem;\n  margin-right: 0.4rem;\n  font-weight: bold;\n  margin-top: 0.8rem;\n  display: inline-block;\n}\n\ndiv.asset-info-line {\n  margin-bottom: 0.2rem;\n}\n\npre:has(> code) {\n  border: 1px solid #cccccc;\n  padding: 0.8rem;\n  background: #f5f5f5;\n  white-space: pre-wrap;\n  word-wrap: break-word;\n}\n\n"
+  var tkDefaultStyle = "\n\n/* cookie has 4096 bytes per site limit, so be compact */\nhtml {color-scheme: light dark;}\n#tkRootWrapper {text-autospace: normal;}\n\nimg,svg,video { max-width: 100%; display: block; }\n\nbody { font-family: System UI; font-size: 0.75rem; }\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\np { margin-top: 0.32rem; margin-bottom: 0.32rem; }\np:first-child { margin-top: 0.16rem; }\n\n.white-space-preserve { white-space-collapse: preserve; }\n\ndiv.principal-content { /*margin-top: 0.5rem;*/ }\ndiv.one-in-seq-wrapper {\n  margin-inline-start: 0.4rem;\n  max-width: 96%;\n  max-width: max(96%, 100% - 1rem);\n}\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout { border: 2px ridge lightgrey; border-collapse: collapse; }\n\ntable.tg-involvement-layout { margin-left: 0.3rem; margin-top: 0.5rem; min-width: 6rem; }\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout { border: 2px ridge lightgrey; border-collapse: collapse; }\n\ntable.tg-websummary-layout { margin-left: 0.3rem; margin-top: 0.5rem; min-width: 6rem; }\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout { border: 2px ridge lightgrey; border-collapse: collapse; }\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n.tg-img, .tg-video { max-width: 20rem; max-height: 40rem; }\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\ntd.group-ref-primary.group-ref-scroll .principal-content { max-height: 20rem; overflow-y: scroll; }\n\nh1, h2, h3 { color: #2c3e50; border-bottom: 1px solid #eee; padding-bottom: 5px; }\na.tag-link { }\n.tag-wrapper { margin-right: 0.6rem; }\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n.tidbit-value.white-space-preserve { white-space: pre-wrap; font-family: monospace; }\n.tidbit-value { }\n.tidbit-key {\n  font-weight: bold;\n  flex-shrink: 1;\n  margin-inline-end: 0.6rem;\n  min-width: 7.6rem;\n}\n.tidbit-key::after { content: ': '; }\n.tidbit-pair { display: flex; }\n\nblockquote {\n  margin: 0.1rem 0;\n  padding: 0.1rem 0.2rem 0.1rem 0.8rem;\n  background-color: #fafafa;\n  border: 1px solid #6e6e6e;\n  border-left: 5px solid #6e6e6e;\n}\n\na.md-attach { display: block; width: fit-content; }\n.md-attach img { display: inline; }\n\nhr.sep-in-seq { margin-block-start: 0.75rem; margin-block-end: 0.75rem; }\n\ndiv.ref-marker {\n  letter-spacing: -0.08rem;\n  margin-right: 0.4rem;\n  font-weight: bold;\n  margin-top: 0.8rem;\n  display: inline-block;\n}\n\ndiv.asset-info-line { margin-bottom: 0.2rem; }\n\npre:has(> code) {\n  border: 1px solid #cccccc;\n  padding: 0.8rem;\n  background: #f5f5f5;\n  white-space: pre-wrap;\n  word-wrap: break-word;\n}\n\n"
 
   var tkStyleContent = getCookie('tkStyle');
   var tkStyleElement = document.createElement('style');
@@ -308,12 +303,13 @@ pre:has(> code) {
   tkStyleElement.setAttribute('title', 'Tien-kou Builtin Style');
 
   if (tkStyleContent) {
+    var tkStyleContentExpanded = tkStyleContent.replace(/___TK_USE_DEFAULT_STYLE_HERE___/g, tkDefaultStyle);
     // If cookie exists, use its value
     if (tkStyleElement.styleSheet) {
       // For IE
-      tkStyleElement.styleSheet.cssText = tkStyleContent;
+      tkStyleElement.styleSheet.cssText = tkStyleContentExpanded;
     } else {
-      tkStyleElement.appendChild(document.createTextNode(tkStyleContent));
+      tkStyleElement.appendChild(document.createTextNode(tkStyleContentExpanded));
     }
   } else {
     // If no cookie, use default but don't save to cookie
