@@ -1,19 +1,28 @@
 
 {%- liquid
-  
-  assign eTagOfCurrVerCurrReqPathWithQuotes = serverDeployVersion | quickStrHash: ':', dataVersion, ':', reqPathTidy | toString | prepend: 'W/"Tk' | append: '"'
 
+  if rgc.reqQuery.noCache == '1' and rgc.reqQuery
+    x true | rgcSet: 'respDoNotCache'
+  endif
+  
   assign sent304 = false
 
-  if reqIfNoneMatchHeader
-    if reqIfNoneMatchHeader == eTagOfCurrVerCurrReqPathWithQuotes
-      x true | rgcSet: "respSend304"
-      assign sent304 = true
+  unless rgc.respDoNotCache
+    assign eTagOfCurrVerCurrReqPathWithQuotes = serverDeployVersion | quickStrHash: ':', dataVersion, ':', reqPathTidy | toString | prepend: 'W/"Tk' | append: '"'
+
+    if reqIfNoneMatchHeader
+      if reqIfNoneMatchHeader == eTagOfCurrVerCurrReqPathWithQuotes
+        x true | rgcSet: "respSend304"
+        assign sent304 = true
+      endif
     endif
-  endif
+
+    unless sent304
+      x eTagOfCurrVerCurrReqPathWithQuotes | rgcSet: "respETag"
+    endunless
+  endunless
 
   unless sent304
-    x eTagOfCurrVerCurrReqPathWithQuotes | rgcSet: "respETag"
     if reqPathTidy == 'rss'
       render 'rssCurate.tmpl.html'
     else
