@@ -107,14 +107,16 @@ endif
     {%- endif %}
 
     {%- if isGroupTypeRef and not currGroupViewType == 'inTableBottomPostRef' and not currGroupViewType == 'inTableRef' %}
-      {%-# render asset info line itself %}
-
+      {%-# render first asset info line itself %}
+      {%- assign hoistedGroupNonPrimaryFirstLocator = undefined %}
       {%- for assetInGroup in currGroupViewAssetList %}
         {%- liquid
         if assetInGroup.asset_locator == currGroupViewPrimary.asset_locator
           continue
         endif
         render 'inc/oneInSeq.tmpl.html', post: assetInGroup, notRenderContent: true
+        assign hoistedGroupNonPrimaryFirstLocator = assetInGroup.asset_locator
+        break
         %}
       {%- endfor %}
 
@@ -123,12 +125,15 @@ endif
 
         {%- for assetInGroup in currGroupViewAssetList %}
           {%- liquid
+          assign currAssetInGroupNotRenderInfoLine = false
           if assetInGroup.asset_locator == currGroupViewPrimary.asset_locator
             continue
+          elsif hoistedGroupNonPrimaryFirstLocator == assetInGroup.asset_locator
+            assign currAssetInGroupNotRenderInfoLine = true
           endif
           %}
           <div class="group-asset">
-            {%- render 'inc/oneInSeq.tmpl.html', post: assetInGroup, notRenderInfoLine: true %}
+            {%- render 'inc/oneInSeq.tmpl.html', post: assetInGroup, notRenderInfoLine: currAssetInGroupNotRenderInfoLine %}
           </div>
         {%- endfor %}
       {%- endcapture %}
