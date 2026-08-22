@@ -146,8 +146,9 @@ endif
     {%- if currGroupViewType == 'noBorderRef' %}
       {{ refRender | raw }}
       {%- if not currGroupViewIsPrivate %}
-      {%- if partialGroupLogicCtx.groupMinPubTimeInPageMap[currGroupViewPrimaryLocator] != partialGroupLogicCtx.groupMinTimeMap[currGroupViewPrimaryLocator] or partialGroupLogicCtx.groupMaxPubTimeInPageMap[currGroupViewPrimaryLocator] != partialGroupLogicCtx.groupMaxTimeMap[currGroupViewPrimaryLocator] %}
-        <div class="group-layout group-ellipsis"><a title="Jump to this group" class="group-jump-link" href="{{ rgc.urlPrefixWhenIsRss }}/group/{{ currGroupViewPrimaryLocator }}">...</a></{% echo tdEl %}></{% echo trEl %}>
+        {%- if partialGroupLogicCtx.groupMinPubTimeInPageMap[currGroupViewPrimaryLocator] != partialGroupLogicCtx.groupMinTimeMap[currGroupViewPrimaryLocator] or partialGroupLogicCtx.groupMaxPubTimeInPageMap[currGroupViewPrimaryLocator] != partialGroupLogicCtx.groupMaxTimeMap[currGroupViewPrimaryLocator] %}
+          <div class="group-layout group-ellipsis"><a title="Jump to this group" class="group-jump-link" href="{{ rgc.urlPrefixWhenIsRss }}/group/{{ currGroupViewPrimaryLocator }}">...</a></div>
+        {%- endif %}
       {%- endif %}
     {%- endif %}
 
