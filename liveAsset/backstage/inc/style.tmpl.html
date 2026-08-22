@@ -264,13 +264,13 @@ pre:has(> code) {
   tkStyleElement.setAttribute('title', 'Tien-kou Builtin Style');
 
   if (tkStyleContent) {
-    tkStyleContent = tkStyleContent.replace(/___TK_USE_DEFAULT_STYLE_HERE___/g, tkDefaultStyle);
+    var tkStyleContentExpanded = tkStyleContent.replace(/___TK_USE_DEFAULT_STYLE_HERE___/g, tkDefaultStyle);
     // If cookie exists, use its value
     if (tkStyleElement.styleSheet) {
       // For IE
-      tkStyleElement.styleSheet.cssText = tkStyleContent;
+      tkStyleElement.styleSheet.cssText = tkStyleContentExpanded;
     } else {
-      tkStyleElement.appendChild(document.createTextNode(tkStyleContent));
+      tkStyleElement.appendChild(document.createTextNode(tkStyleContentExpanded));
     }
   } else {
     // If no cookie, use default but don't save to cookie
