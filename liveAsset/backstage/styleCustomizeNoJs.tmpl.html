@@ -75,14 +75,14 @@ endif
 <div class="container style-customize-wrapper" id="styleCustomizeWrapper">
   <h1>Style Customizer (Pure No JavaScript Impl)</h1>
 
-  <h2>WARN: this is only an experimental feature. Server-side styling doesn't fit public site because of page cache
+  <p>WARN: this is only an experimental feature. Server-side styling doesn't fit public site because of page cache
 {%- if rgc.serverProfileName == 'insiders' %}
  and is only enabled on insiders version
 {%- else -%}
 , so it is disabled
 {%- endif -%}
-. 
-  </h2>
+. Client script impl is the only sane way.
+  </p>
 
   <div class="container">
   <form method="post" action="">
