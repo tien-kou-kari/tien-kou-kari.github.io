@@ -730,3 +730,7 @@ AI is removing the middle class of software engineering https://blog.florianherr
 <a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_umhvnsro_0_C1%7BK4YFKE%7B9O3H$%7B@35_4)T_tmb.jpg" class="md-attach md-attach-img-link" target="_blank">
             <img tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_umhvnsro_0_C1%7BK4YFKE%7B9O3H$%7B@35_4)T_tmb.jpg" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
         </a>
+
+2026-08-22 10:36:22 I accidentally logged hundreds of thousands of phone calls to military bases - lina's blog https://lina.sh/blog/hijacking-e164-arpa
+
+#fhn
