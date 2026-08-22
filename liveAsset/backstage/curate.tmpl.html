@@ -142,20 +142,16 @@
   endif
 
   if rgc.serverProfileName == 'insiders' and reqPathTidy == ''
-    echo '<br/><br/><font size="3"><a id="tk-sender-write-link" target="_blank" href="http://tksend.shadaw/">Write</a></font>'
-    echo '<br/><h2>Latest</h2>'
+    assign tkSendLink = 'http://tksend.shadaw/'
+    # credit: http://detectmobilebrowsers.com/ node.js version
+    assign reqUserAgentIsMobile = 'User-Agent' | reqGetHeader | regexITest: '(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino'
+
     # because mobile Cromite doesnt show datalist items if not in secure context?
-    echo '<script>'
-    echo "document.addEventListener('DOMContentLoaded', function() {"
-    echo "  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {"
-    echo "    const link = document.getElementById('tk-sender-write-link');"
-    echo "    if (link) {"
-    echo "      link.href = 'http://127.0.112.32:30080/file/tk-sender.html';"
-    echo "      console.log('Link updated for mobile device');"
-    echo "    }"
-    echo "  }"
-    echo "});"
-    echo '</script>'
+    if reqUserAgentIsMobile
+      assign tkSendLink = 'http://127.0.112.32:30080/file/tk-sender.html'
+    endif
+    echo tkSendLink | prepend: '<br/><br/><font size="3"><a id="tk-sender-write-link" target="_blank" href="' | append: '">Write</a></font>'
+    echo '<br/><h2>Latest</h2>'
 
     assign pseudoReqQueryFlow = undefined | newObj
     x pseudoReqQueryFlow | objSet: 'spec', 'flow'
