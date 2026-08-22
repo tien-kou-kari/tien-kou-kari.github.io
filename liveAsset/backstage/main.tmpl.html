@@ -1,5 +1,7 @@
 {%- if reqPathTidy == 'styleCustomizer' %}
   {%- render 'styleCustomize.tmpl.html' %}
+{%- elsif reqPathTidy == 'styleCustomizerNoJs' %}
+  {%- render 'styleCustomizeNoJs.tmpl.html' %}
 {%- elsif reqPathTidy == 'precache' %}
   {%- render 'preloadTmpl.tmpl.html' %}
 {%- elsif reqPathTidy == 'playground' %}
