@@ -734,3 +734,9 @@ AI is removing the middle class of software engineering https://blog.florianherr
 2026-08-22 10:36:22 I accidentally logged hundreds of thousands of phone calls to military bases - lina's blog https://lina.sh/blog/hijacking-e164-arpa
 
 #fhn
+
+2026-08-22 20:16:54 Stop Making TUIs — Quarrelsome https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/
+
+前摇太长了，但核心观点是自洽的
+
+#fhn
