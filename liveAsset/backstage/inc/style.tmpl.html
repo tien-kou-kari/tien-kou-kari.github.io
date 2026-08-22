@@ -308,6 +308,18 @@ pre:has(> code) {
     };
   });
 
+  var b64urlsafe_regex_slash = /\//g;
+  var b64urlsafe_regex_plus = /\+/g;
+  var b64urlsafe_regex_undersc = /_/g;
+  var b64urlsafe_regex_hyphen = /-/g;
+
+  function b64urlsafe_encode(a) {
+    return btoa(a).replace(b64urlsafe_regex_slash, '_').replace(b64urlsafe_regex_plus, '-');
+  }
+  function b64urlsafe_decode(a) {
+    return atob(a.replace(b64urlsafe_regex_undersc, '/').replace(b64urlsafe_regex_hyphen, '+'));
+  }
+
   function setCookie(name, value, days) {
     var expires = "";
     if (days) {
