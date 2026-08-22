@@ -1,48 +1,24 @@
 {%- capture tkDefaultStyle %}
 {%-# https://thecascade.dev/article/least-amount-of-css/ %}
 
-html {
-  color-scheme: light dark;
-}
+/* cookie has 4096 bytes per site limit, so be compact */
+html {color-scheme: light dark;}
+#tkRootWrapper {text-autospace: normal;}
 
-#tkRootWrapper {
-  text-autospace: normal;
-}
+img,svg,video { max-width: 100%; display: block; }
 
-img,
-svg,
-video {
-  max-width: 100%;
-  display: block;
-}
-
-body {
-  font-family: System UI;
-  font-size: 0.75rem;
-}
-
+body { font-family: System UI; font-size: 0.75rem; }
 main {
   max-width: min(80ch, 100% - 2ch);
   max-width: min(40rem, 100% - 2rem);
 }
 
-p {
-  margin-top: 0.32rem;
-  margin-bottom: 0.32rem;
-}
+p { margin-top: 0.32rem; margin-bottom: 0.32rem; }
+p:first-child { margin-top: 0.16rem; }
 
-p:first-child {
-  margin-top: 0.16rem;
-}
+.white-space-preserve { white-space-collapse: preserve; }
 
-.white-space-preserve {
-  white-space-collapse: preserve;
-}
-
-div.principal-content {
-  /*margin-top: 0.5rem;*/
-}
-
+div.principal-content { /*margin-top: 0.5rem;*/ }
 div.one-in-seq-wrapper {
   margin-inline-start: 0.4rem;
   max-width: 96%;
@@ -59,40 +35,22 @@ table.tg-wrapper-layout {
 
 table.tg-wrapper-layout,
 th.tg-wrapper-layout,
-td.tg-wrapper-layout  {
-  border: 2px ridge lightgrey;
-  border-collapse: collapse;
-}
+td.tg-wrapper-layout { border: 2px ridge lightgrey; border-collapse: collapse; }
 
-/**/
-
-table.tg-involvement-layout {
-  margin-left: 0.3rem;
-  margin-top: 0.5rem;
-  min-width: 6rem;
-}
-
+table.tg-involvement-layout { margin-left: 0.3rem; margin-top: 0.5rem; min-width: 6rem; }
 table.tg-involvement-layout,
 th.tg-involvement-layout,
-td.tg-involvement-layout  {
-  border: 2px ridge lightgrey;
-  border-collapse: collapse;
-}
+td.tg-involvement-layout { border: 2px ridge lightgrey; border-collapse: collapse; }
 
-/**/
-
-table.tg-websummary-layout {
-  margin-left: 0.3rem;
-  margin-top: 0.5rem;
-  min-width: 6rem;
-}
-
+table.tg-websummary-layout { margin-left: 0.3rem; margin-top: 0.5rem; min-width: 6rem; }
 table.tg-websummary-layout,
 th.tg-websummary-layout,
-td.tg-websummary-layout {
-  border: 2px ridge lightgrey;
-  border-collapse: collapse;
+td.tg-websummary-layout { border: 2px ridge lightgrey; border-collapse: collapse; }
+table.tg-wrapper-layout a {
+  filter: brightness(5) contrast(0.7) saturate(0.6);
+  text-decoration: underline dashed;
 }
+.tg-img, .tg-video { max-width: 20rem; max-height: 40rem; }
 
 /**/
 
@@ -101,97 +59,46 @@ table.group-layout {
   margin-top: 0.5rem;
   min-width: 10rem;
 }
-
 table.group-layout,
 th.group-layout,
 td.group-layout {
   border: 2px ridge lightgrey;
   border-collapse: collapse;
 }
+td.group-ref-primary.group-ref-scroll .principal-content { max-height: 20rem; overflow-y: scroll; }
 
-/**/
-
-td.group-ref-primary.group-ref-scroll .principal-content {
-  max-height: 20rem;
-  overflow-y: scroll;
-}
-
-h1, h2, h3 {
-  color: #2c3e50;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 5px;
-}
-
-.tg-img, .tg-video {
-  max-width: 20rem;
-  max-height: 40rem;
-}
-
-a.tag-link {
-
-}
-
-.tag-wrapper {
-  margin-right: 0.6rem;
-}
-
-
-table.tg-wrapper-layout a {
-  filter: brightness(5) contrast(0.7) saturate(0.6);
-  text-decoration: underline dashed;
-}
-
+h1, h2, h3 { color: #2c3e50; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+a.tag-link { }
+.tag-wrapper { margin-right: 0.6rem; }
 a.secondary {
   /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */
   filter: brightness(3) contrast(0.26);
   text-decoration: underline dotted;
 }
 
-.tidbit-value.white-space-preserve {
-  white-space: pre-wrap;
-  font-family: monospace;
-}
-
-.tidbit-value {
-}
-
+.tidbit-value.white-space-preserve { white-space: pre-wrap; font-family: monospace; }
+.tidbit-value { }
 .tidbit-key {
   font-weight: bold;
   flex-shrink: 1;
   margin-inline-end: 0.6rem;
   min-width: 7.6rem;
 }
-
-.tidbit-key::after {
-  content: ': ';
-}
-
-.tidbit-pair {
-  display: flex;
-}
+.tidbit-key::after { content: ': '; }
+.tidbit-pair { display: flex; }
 
 blockquote {
   margin: 0.1rem 0;
   padding: 0.1rem 0.2rem 0.1rem 0.8rem;
   background-color: #fafafa;
-
   border: 1px solid #6e6e6e;
   border-left: 5px solid #6e6e6e;
 }
 
-a.md-attach {
-  display: block;
-  width: fit-content;
-}
+a.md-attach { display: block; width: fit-content; }
+.md-attach img { display: inline; }
 
-.md-attach img {
-  display: inline;
-}
-
-hr.sep-in-seq {
-  margin-block-start: 0.75rem;
-  margin-block-end: 0.75rem;
-}
+hr.sep-in-seq { margin-block-start: 0.75rem; margin-block-end: 0.75rem; }
 
 div.ref-marker {
   letter-spacing: -0.08rem;
@@ -201,9 +108,7 @@ div.ref-marker {
   display: inline-block;
 }
 
-div.asset-info-line {
-  margin-bottom: 0.2rem;
-}
+div.asset-info-line { margin-bottom: 0.2rem; }
 
 pre:has(> code) {
   border: 1px solid #cccccc;
@@ -328,8 +233,8 @@ pre:has(> code) {
       expires = "; expires=" + date.toUTCString();
     }
     var encodedCookieValue = encodeURIComponent(value);
-    if (encodedCookieValue.length >= 4096) {
-      alert("error: encoded cookie value reaches 4096 bytes.");
+    if (encodedCookieValue.length >= 4090) {
+      alert("error: encoded cookie value reaches 4090 bytes.");
       return;
     }
     document.cookie = name + "=" + encodedCookieValue + expires + "; path=/";
@@ -359,6 +264,7 @@ pre:has(> code) {
   tkStyleElement.setAttribute('title', 'Tien-kou Builtin Style');
 
   if (tkStyleContent) {
+    tkStyleContent = tkStyleContent.replace(/___TK_USE_DEFAULT_STYLE_HERE___/g, tkDefaultStyle);
     // If cookie exists, use its value
     if (tkStyleElement.styleSheet) {
       // For IE
