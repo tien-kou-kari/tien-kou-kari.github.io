@@ -747,6 +747,3 @@ AI is removing the middle class of software engineering https://blog.florianherr
 
 翻回来看居然发现我用多重否定用错了，意义相反了…正确应为“很难让人不信任这个项目”
 
-2026-08-22 23:11:04 groupType=noBorderRef g=guarded/SlipBox/2026-08-05_22.45.53
-
-reply2
