@@ -65,6 +65,7 @@ endif
 
           <a id="tk-sender-repost-link" target="_blank" href="http://tksend.shadaw/?text=repost%3D{{ asset.asset_locator |  url_encode }}+">Repost this asset</a>
           {%-# because mobile Cromite doesnt show datalist items if not in secure context? %}
+          {%-# AND: client script impl is the only sane way, because of page cache %}
           <script>
           document.addEventListener('DOMContentLoaded', function() {
             if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
