@@ -63,19 +63,18 @@ endif
       {%- if rgc.serverProfileName == 'insiders' %}
         <div class="tidbit-pair"><div class="tidbit-key">Repost</div>
 
-          <a id="tk-sender-repost-link" target="_blank" href="http://tksend.shadaw/?text=repost%3D{{ asset.asset_locator |  url_encode }}+">Repost this asset</a>
-          {%-# because mobile Cromite doesnt show datalist items if not in secure context? %}
-          <script>
-          document.addEventListener('DOMContentLoaded', function() {
-            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-              const link = document.getElementById('tk-sender-repost-link');
-              if (link) {
-                link.href = 'http://127.0.112.32:30080/file/tk-sender.html?text=repost%3D{{ asset.asset_locator |  url_encode }}+';
-                console.log('Link updated for mobile device');
-              }
-            }
-          });
-          </script>
+          {%- liquid
+            assign tkSendLink = 'http://tksend.shadaw/'
+            # credit: http://detectmobilebrowsers.com/ node.js version
+            assign reqUserAgentIsMobile = 'User-Agent' | reqGetHeader | regexITest: '(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino'
+
+            # because mobile Cromite doesnt show datalist items if not in secure context?
+            if reqUserAgentIsMobile
+              assign tkSendLink = 'http://127.0.112.32:30080/file/tk-sender.html'
+            endif
+          %}
+
+          <a id="tk-sender-repost-link" target="_blank" href="{{ tkSendLink | raw }}?text=repost%3D{{ asset.asset_locator |  url_encode }}+">Repost this asset</a>
         </div>
         <div class="tidbit-pair"><div class="tidbit-key">OriginFilePath</div><div class="tidbit-value white-space-preserve">{{ asset.origin_file_path }}</div></div>
         <div class="tidbit-pair"><div class="tidbit-key">OriginFilePathForTkSend (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">{{ asset.origin_file_path | remove_first: 'guarded/' }}</div></div>
