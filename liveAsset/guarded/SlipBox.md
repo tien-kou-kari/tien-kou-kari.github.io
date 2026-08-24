@@ -757,3 +757,11 @@ AI is removing the middle class of software engineering https://blog.florianherr
 2026-08-24 21:25:41 groupType=noBorderRef g=guarded/misc/tg/2026-08-24/2026-08-24_21.24.18
 
 <a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_22v5oqpb_0_%E4%B8%89%E6%98%9F%E5%AE%89%E5%8D%93%E7%B3%BB%E7%BB%9FBUG%E6%8E%92%E6%9F%A5%E8%AE%B0%E5%BD%95%EF%BC%9A%E4%BA%91%E9%97%AA%E4%BB%98%E3%80%81%E9%93%81%E8%B7%AF12306%E3%80%81%E4%B8%AA%E4%BA%BA%E6%89%80%E5%BE%97%E7%A8%8E%E3%80%81%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E7%AD%89App%EF%BC%8C%E9%95%BF%E6%9C%9F%E9%97%AA%E9%80%80%E7%9A%84%E6%A0%B9%E6%9C%AC%E5%8E%9F%E5%9B%A0%E5%88%86%E6%9E%90%20(8_24_2026%209%EF%BC%9A26%EF%BC%9A23%20PM).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_22v5oqpb_0_三星安卓系统BUG排查记录：云闪付、铁路12306、个人所得税、中国移动等App，长期闪退的根本原因分析 (8_24_2026 9：26：23 PM).html</a>
+
+2026-08-24 21:30:09 groupType=noBorderRef g=guarded/misc/tg/2026-08-24/2026-08-24_21.24.18 
+
+> 我想起了以前一份工作中非常不好的经历，那就是领导非让用 sha256sum 命令获取文件的哈希值，因为领导说，“linux命令极度高效，应该会比你java效率高！”，由于领导没有系统学过计算机，甚至不了解进程和线程的关系，解释不通，也不听解释。
+
+> 前同事还因此奉命使用系统自带的 tar 命令实现文件压缩，由于部分vivo系统对tar命令参数做了修改，导致部分用户功能异常，我们自己的测试机却无法复现[...]
+
+又给我看力竭了
