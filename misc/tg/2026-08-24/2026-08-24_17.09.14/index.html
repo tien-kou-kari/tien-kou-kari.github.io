@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <base href="." />
+      <link rel="stylesheet" href="about:blank" title="Tien-kou Builtin Style" />
+    <link rel="alternate stylesheet" href="about:blank" title="Tien-kou Empty Style (for customization)" />
+    <title>misc/tg/2026-08-24/2026-08-24_17.09.14 - Tien-kou</title>
+    
+  </head>
+  <body>
+    <div id="tkRootWrapper" class="tien-kou-page">
+      <style type="text/css">
+        #tkRootWrapper {
+          container-name: tien-kou-page;
+          container-type: inline-size;
+        }
+      </style>
+      <div id="homeLinkWrapper" class="home-link-wrapper" style="margin-top: 0.8rem; margin-bottom: 1.2rem; margin-left: 1rem;;">
+        <a href="/">Tien-kou <span lang="ja-JP">(仮)</span>.</a>
+      </div>
+      <script type="text/javascript">
+        function insertAfter(newElement, referenceElement) {
+          if (!newElement || !referenceElement) {
+              return false;
+          }
+          if (!referenceElement.parentNode) {
+              return false;
+          }
+          
+          var parent = referenceElement.parentNode;
+          if (referenceElement.nextSibling) {
+              parent.insertBefore(newElement, referenceElement.nextSibling);
+          } else {
+              parent.appendChild(newElement);
+          }
+          
+          return true;
+        }
+
+        if (location.search && location.search != '?') {
+          var alertStaticQueryStrEl = document.createElement('div');
+          alertStaticQueryStrEl.setAttribute('class', 'alert alert-primary');
+          alertStaticQueryStrEl.setAttribute('role', 'alert');
+          alertStaticQueryStrEl.innerText = 'Warn: you are viewing a static version of this site. The query string in the URL will not work. Instead, the site will behave if no query is provided.';
+          var alertStaticQueryStrBrEl = document.createElement('br');
+          var alertStaticQueryStrBr2El = document.createElement('br');
+          alertStaticQueryStrEl.appendChild(alertStaticQueryStrBrEl);
+          alertStaticQueryStrEl.appendChild(alertStaticQueryStrBr2El);
+          insertAfter(alertStaticQueryStrEl, document.getElementById('homeLinkWrapper'));
+        }
+      </script><style type="text/css" title="Tien-kou Empty Style (for customization)">
+</style>
+<noscript>
+  <style type="text/css" title="Tien-kou Builtin Style">
+    
+
+/* cookie has 4096 bytes per site limit, so be compact */
+html {color-scheme: light dark;}
+#tkRootWrapper {text-autospace: normal;}
+
+img,svg,video { max-width: 100%; display: block; }
+
+body { font-family: System UI; font-size: 0.75rem; }
+main {
+  max-width: min(80ch, 100% - 2ch);
+  max-width: min(40rem, 100% - 2rem);
+}
+
+p { margin-top: 0.32rem; margin-bottom: 0.32rem; }
+p:first-child { margin-top: 0.16rem; }
+
+.white-space-preserve { white-space-collapse: preserve; }
+
+div.principal-content { /*margin-top: 0.5rem;*/ }
+div.one-in-seq-wrapper {
+  margin-inline-start: 0.4rem;
+  max-width: 96%;
+  max-width: max(96%, 100% - 1rem);
+}
+
+/**/
+
+table.tg-wrapper-layout {
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  min-width: 10rem;
+}
+
+table.tg-wrapper-layout,
+th.tg-wrapper-layout,
+td.tg-wrapper-layout { border: 2px ridge lightgrey; border-collapse: collapse; }
+
+table.tg-involvement-layout { margin-left: 0.3rem; margin-top: 0.5rem; min-width: 6rem; }
+table.tg-involvement-layout,
+th.tg-involvement-layout,
+td.tg-involvement-layout { border: 2px ridge lightgrey; border-collapse: collapse; }
+
+table.tg-websummary-layout { margin-left: 0.3rem; margin-top: 0.5rem; min-width: 6rem; }
+table.tg-websummary-layout,
+th.tg-websummary-layout,
+td.tg-websummary-layout { border: 2px ridge lightgrey; border-collapse: collapse; }
+table.tg-wrapper-layout a {
+  filter: brightness(5) contrast(0.7) saturate(0.6);
+  text-decoration: underline dashed;
+}
+.tg-img, .tg-video { max-width: 20rem; max-height: 40rem; }
+
+/**/
+
+table.group-layout {
+  margin-left: 0.3rem;
+  margin-top: 0.5rem;
+  min-width: 10rem;
+}
+table.group-layout,
+th.group-layout,
+td.group-layout {
+  border: 2px ridge lightgrey;
+  border-collapse: collapse;
+}
+td.group-ref-primary.group-ref-scroll .principal-content { max-height: 20rem; overflow-y: scroll; }
+
+h1, h2, h3 { color: #2c3e50; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+a.tag-link { }
+.tag-wrapper { margin-right: 0.6rem; }
+a.secondary {
+  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */
+  filter: brightness(3) contrast(0.26);
+  text-decoration: underline dotted;
+}
+
+.tidbit-value.white-space-preserve { white-space: pre-wrap; font-family: monospace; }
+.tidbit-value { }
+.tidbit-key {
+  font-weight: bold;
+  flex-shrink: 1;
+  margin-inline-end: 0.6rem;
+  min-width: 7.6rem;
+}
+.tidbit-key::after { content: ': '; }
+.tidbit-pair { display: flex; }
+
+blockquote {
+  margin: 0.1rem 0;
+  padding: 0.1rem 0.2rem 0.1rem 0.8rem;
+  background-color: #fafafa;
+  border: 1px solid #6e6e6e;
+  border-left: 5px solid #6e6e6e;
+}
+
+a.md-attach { display: block; width: fit-content; }
+.md-attach img { display: inline; }
+
+hr.sep-in-seq { margin-block-start: 0.75rem; margin-block-end: 0.75rem; }
+
+div.ref-marker {
+  letter-spacing: -0.08rem;
+  margin-right: 0.4rem;
+  font-weight: bold;
+  margin-top: 0.8rem;
+  display: inline-block;
+}
+
+div.asset-info-line { margin-bottom: 0.2rem; }
+
+pre:has(> code) {
+  border: 1px solid #cccccc;
+  padding: 0.8rem;
+  background: #f5f5f5;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+
+  </style>
+</noscript><script type="text/javascript">
+  // credit https://github.com/dankogai/js-base64 BSD-3-Clause
+  (function (root, factory) {
+      if (typeof define === 'function' && define.amd) {
+        // AMD. Register as an anonymous module.
+        define([], function () { factory(root); });
+      } else factory(root);
+      // node.js has always supported base64 conversions, while browsers that support
+      // web workers support base64 too, but you may never know.
+    })(typeof exports !== "undefined" ? exports : this, function (root) {
+    if (root.atob) {
+      // Some browsers' implementation of atob doesn't support whitespaces
+      // in the encoded string (notably, IE). This wraps the native atob
+      // in a function that strips the whitespaces.
+      // The original function can be retrieved in atob.original
+      try {
+        root.atob(" ");
+      } catch (e) {
+        root.atob = (function (atob) {
+          var func = function (string) {
+            return atob(String(string).replace(/[\t\n\f\r ]+/g, ""));
+          };
+          func.original = atob;
+          return func;
+        })(root.atob);
+      }
+      return;
+    }
+
+    // base64 character set, plus padding character (=)
+    var b64 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
+      // Regular expression to check formal correctness of base64 encoded strings
+      b64re = /^(?:[A-Za-z\d+\/]{4})*?(?:[A-Za-z\d+\/]{2}(?:==)?|[A-Za-z\d+\/]{3}=?)?$/;
+
+    root.btoa = function (string) {
+      string = String(string);
+      var bitmap, a, b, c,
+        result = "", i = 0,
+        rest = string.length % 3; // To determine the final padding
+
+      for (; i < string.length;) {
+        if ((a = string.charCodeAt(i++)) > 255
+          || (b = string.charCodeAt(i++)) > 255
+          || (c = string.charCodeAt(i++)) > 255)
+          throw new TypeError("Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range.");
+
+        bitmap = (a << 16) | (b << 8) | c;
+        result += b64.charAt(bitmap >> 18 & 63) + b64.charAt(bitmap >> 12 & 63)
+          + b64.charAt(bitmap >> 6 & 63) + b64.charAt(bitmap & 63);
+      }
+
+      // If there's need of padding, replace the last 'A's with equal signs
+      return rest ? result.slice(0, rest - 3) + "===".substring(rest) : result;
+    };
+
+    root.atob = function (string) {
+      // atob can work with strings with whitespaces, even inside the encoded part,
+      // but only \t, \n, \f, \r and ' ', which can be stripped.
+      string = String(string).replace(/[\t\n\f\r ]+/g, "");
+      if (!b64re.test(string))
+        throw new TypeError("Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.");
+
+      // Adding the padding if missing, for semplicity
+      string += "==".slice(2 - (string.length & 3));
+      var bitmap, result = "", r1, r2, i = 0;
+      for (; i < string.length;) {
+        bitmap = b64.indexOf(string.charAt(i++)) << 18 | b64.indexOf(string.charAt(i++)) << 12
+          | (r1 = b64.indexOf(string.charAt(i++))) << 6 | (r2 = b64.indexOf(string.charAt(i++)));
+
+        result += r1 === 64 ? String.fromCharCode(bitmap >> 16 & 255)
+          : r2 === 64 ? String.fromCharCode(bitmap >> 16 & 255, bitmap >> 8 & 255)
+            : String.fromCharCode(bitmap >> 16 & 255, bitmap >> 8 & 255, bitmap & 255);
+      }
+      return result;
+    };
+  });
+
+  var b64urlsafe_regex_slash = /\//g;
+  var b64urlsafe_regex_plus = /\+/g;
+  var b64urlsafe_regex_undersc = /_/g;
+  var b64urlsafe_regex_hyphen = /-/g;
+
+  function b64urlsafe_encode(a) {
+    return btoa(a).replace(b64urlsafe_regex_slash, '_').replace(b64urlsafe_regex_plus, '-');
+  }
+  function b64urlsafe_decode(a) {
+    return atob(a.replace(b64urlsafe_regex_undersc, '/').replace(b64urlsafe_regex_hyphen, '+'));
+  }
+
+  function setCookie(name, value, days) {
+    var expires = "";
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = "; expires=" + date.toUTCString();
+    }
+    var encodedCookieValue = encodeURIComponent(value);
+    if (encodedCookieValue.length >= 4090) {
+      alert("error: encoded cookie value reaches 4090 bytes.");
+      return;
+    }
+    document.cookie = name + "=" + encodedCookieValue + expires + "; path=/";
+  }
+  function removeCookie(name) {
+    document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+  }
+  function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) == 0) return decodeURIComponent(c.substring(nameEQ.length, c.length));
+    }
+    return null;
+  }
+  function getElement(id) {
+    return document.getElementById(id);
+  }
+
+  var tkDefaultStyle = "\n\n/* cookie has 4096 bytes per site limit, so be compact */\nhtml {color-scheme: light dark;}\n#tkRootWrapper {text-autospace: normal;}\n\nimg,svg,video { max-width: 100%; display: block; }\n\nbody { font-family: System UI; font-size: 0.75rem; }\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\np { margin-top: 0.32rem; margin-bottom: 0.32rem; }\np:first-child { margin-top: 0.16rem; }\n\n.white-space-preserve { white-space-collapse: preserve; }\n\ndiv.principal-content { /*margin-top: 0.5rem;*/ }\ndiv.one-in-seq-wrapper {\n  margin-inline-start: 0.4rem;\n  max-width: 96%;\n  max-width: max(96%, 100% - 1rem);\n}\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout { border: 2px ridge lightgrey; border-collapse: collapse; }\n\ntable.tg-involvement-layout { margin-left: 0.3rem; margin-top: 0.5rem; min-width: 6rem; }\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout { border: 2px ridge lightgrey; border-collapse: collapse; }\n\ntable.tg-websummary-layout { margin-left: 0.3rem; margin-top: 0.5rem; min-width: 6rem; }\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout { border: 2px ridge lightgrey; border-collapse: collapse; }\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n.tg-img, .tg-video { max-width: 20rem; max-height: 40rem; }\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\ntd.group-ref-primary.group-ref-scroll .principal-content { max-height: 20rem; overflow-y: scroll; }\n\nh1, h2, h3 { color: #2c3e50; border-bottom: 1px solid #eee; padding-bottom: 5px; }\na.tag-link { }\n.tag-wrapper { margin-right: 0.6rem; }\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n.tidbit-value.white-space-preserve { white-space: pre-wrap; font-family: monospace; }\n.tidbit-value { }\n.tidbit-key {\n  font-weight: bold;\n  flex-shrink: 1;\n  margin-inline-end: 0.6rem;\n  min-width: 7.6rem;\n}\n.tidbit-key::after { content: ': '; }\n.tidbit-pair { display: flex; }\n\nblockquote {\n  margin: 0.1rem 0;\n  padding: 0.1rem 0.2rem 0.1rem 0.8rem;\n  background-color: #fafafa;\n  border: 1px solid #6e6e6e;\n  border-left: 5px solid #6e6e6e;\n}\n\na.md-attach { display: block; width: fit-content; }\n.md-attach img { display: inline; }\n\nhr.sep-in-seq { margin-block-start: 0.75rem; margin-block-end: 0.75rem; }\n\ndiv.ref-marker {\n  letter-spacing: -0.08rem;\n  margin-right: 0.4rem;\n  font-weight: bold;\n  margin-top: 0.8rem;\n  display: inline-block;\n}\n\ndiv.asset-info-line { margin-bottom: 0.2rem; }\n\npre:has(> code) {\n  border: 1px solid #cccccc;\n  padding: 0.8rem;\n  background: #f5f5f5;\n  white-space: pre-wrap;\n  word-wrap: break-word;\n}\n\n"
+
+  var tkStyleContent = getCookie('tkStyle');
+  var tkStyleElement = document.createElement('style');
+  tkStyleElement.type = 'text/css';
+  tkStyleElement.setAttribute('title', 'Tien-kou Builtin Style');
+
+  if (tkStyleContent) {
+    var tkStyleContentExpanded = tkStyleContent.replace(/___TK_USE_DEFAULT_STYLE_HERE___/g, tkDefaultStyle);
+    // If cookie exists, use its value
+    if (tkStyleElement.styleSheet) {
+      // For IE
+      tkStyleElement.styleSheet.cssText = tkStyleContentExpanded;
+    } else {
+      tkStyleElement.appendChild(document.createTextNode(tkStyleContentExpanded));
+    }
+  } else {
+    // If no cookie, use default but don't save to cookie
+    if (tkStyleElement.styleSheet) {
+      tkStyleElement.styleSheet.cssText = tkDefaultStyle;
+    } else {
+      tkStyleElement.appendChild(document.createTextNode(tkDefaultStyle));
+    }
+  }
+
+  // Add style to head
+  document.getElementsByTagName('head')[0].appendChild(tkStyleElement);
+
+</script>
+<main>
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <details style="margin-bottom: 0.4rem" lang="en">
+      <summary>...</summary>
+      <div class="tidbit-pair"><div class="tidbit-key">Parent</div><div class="tidbit-value">
+        <div class="asset-parent-line"><a class="secondary" href="/misc/tg/2026-08-24">misc/tg/2026-08-24/</a>
+        </div>
+      </div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">Locator</div><div class="tidbit-value white-space-preserve">guarded/misc/tg/2026-08-24/2026-08-24_17.09.14</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">Locator (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">guarded/misc/tg/2026-08-24/2026-08-24_17.09.14</div></div>
+      
+      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPathUnencoded</div><div class="tidbit-value white-space-preserve">/misc/tg/2026-08-24/2026-08-24_17.09.14</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPathUnencoded (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/misc/tg/2026-08-24/2026-08-24_17.09.14</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath</div><div class="tidbit-value white-space-preserve">/misc/tg/2026-08-24/2026-08-24_17.09.14</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/misc/tg/2026-08-24/2026-08-24_17.09.14</div></div>
+        <div class="tidbit-pair"><div class="tidbit-key">PublishTime</div><div class="tidbit-value white-space-preserve">2026-08-24 17:09:14 UTC+8</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1787577866611</div></div>
+    </details><p>4/4 reddit</p>
+
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gmemeschat" title="Telegram PeerChannel handle: gmemeschat" data-title="tg:gmemeschat">/g/‘s Tech Memes Chat</a>
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span><a target="_blank" href="https://t.me/velocita84" title="Telegram PeerUser handle: velocita84" data-title="tg:velocita84">Velocita 👁</a>
+    </div>
+
+    <span class="tg-timestamp">2026-08-24T17:09:59+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">Doesn't even matter either way because archivers exist <a href="https://rosint.dev/">https://rosint.dev/</a></div>
+      
+        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
+          <a target="_blank" href="https://rosint.dev/">rosint.dev</a>
+          <h6>Rosint - View Deleted Reddit Posts, Comments &amp; Private Profiles</h6>
+          <p>Search any Reddit username to view deleted posts, removed comments, and private or suspended profiles. Free, no login required.</p>
+            <img loading="lazy" class="tg-img tg-photo" src="/misc/tg/media/m-5937397807318764716.png" title="Telegram wepbage media id 5937397807318764716" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </td></tr></table>
+    </td></tr>
+  </table>
+
+
+</div>
+
+  </div>
+</div></main>
+    </div>
+  </body>
+</html>

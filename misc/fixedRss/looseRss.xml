@@ -6,56 +6,25 @@
     <atom:link href="https://tien-kou-kari.github.io/rss?periodType=loose&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
-        <title>Tien-kou - 2026-08-23_12.20.52</title>
-        <link>https://tien-kou-kari.github.io/misc/tg/2026-08-23/2026-08-23_12.20.52</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-08-23/2026-08-23_12.20.52</guid>
-        <pubDate>Sun, 23 Aug 2026 12:20:52 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/david_random" title="Telegram PeerChannel handle: david_random" data-title="tg:david_random">David&#39;s random thoughts</a>
-
-    <span class="tg-timestamp">2026-08-23T12:19:41+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">自从玩过wasm之后我再也不嘲笑5G是无效基建了（图为brotli压缩后的web app）</div>
-      <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-4922703704805281217.png" title="Telegram media id 4922703704805281217" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </div></div>
-  </div>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-08-22_22.59.54</title>
-        <link>https://tien-kou-kari.github.io/SlipBox/2026-08-22_22.59.54</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-08-22_22.59.54</guid>
-        <pubDate>Sat, 22 Aug 2026 22:59:54 +0800</pubDate>
+        <title>Tien-kou - 2026-08-24_21.30.09</title>
+        <link>https://tien-kou-kari.github.io/SlipBox/2026-08-24_21.30.09</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-08-24_21.30.09</guid>
+        <pubDate>Mon, 24 Aug 2026 21:30:09 +0800</pubDate>
         <description><![CDATA[
 <div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-08-22_22.59.54">2026-08-22_22.59.54</a> <span>2026-08-22 22:59:54 UTC+8</span></div>
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-08-24_21.30.09">2026-08-24_21.30.09</a> <span>2026-08-24 21:30:09 UTC+8</span></div>
 </div>
 
       
           <div class="group-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><blockquote>
-<p>很难不让人不信任这个项目</p>
+<p>我想起了以前一份工作中非常不好的经历，那就是领导非让用 sha256sum 命令获取文件的哈希值，因为领导说，“linux命令极度高效，应该会比你java效率高！”，由于领导没有系统学过计算机，甚至不了解进程和线程的关系，解释不通，也不听解释。</p>
 </blockquote>
-<p>翻回来看居然发现我用多重否定用错了，意义相反了…正确应为“很难让人不信任这个项目”</p>
+<blockquote>
+<p>前同事还因此奉命使用系统自带的 tar 命令实现文件压缩，由于部分vivo系统对tar命令参数做了修改，导致部分用户功能异常，我们自己的测试机却无法复现[...]</p>
+</blockquote>
+<p>又给我看力竭了</p>
 
 
 </div>
@@ -64,111 +33,8 @@
 
           </div>
       <div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-08-05_22.45.53">2026-08-05_22.45.53</a> <span>2026-08-05 22:45:53 UTC+8</span></div>
+    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-08-24">misc/tg/2026-08-24</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-08-24/2026-08-24_21.24.18">2026-08-24_21.24.18</a> <span>2026-08-24 21:24:18 UTC+8</span></div>
     <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p><a href="https://github.com/chenxiaolong/BasicSync" target="_blank">https://github.com/chenxiaolong/BasicSync</a></p>
-<p>我的意思是，妳看到了这个README.md列出的各种技术细节、对各种Android版本限制的因应，甚至还专门列出了Android多用户/多profile下运行多实例遇到问题怎么解决，就很难不让人不信任这个项目了。同时也让人感伤今时今日在这个还算“安全”的隔离应用操作系统由资本增值动机、平台moderation需要、政府监管要求共同塑造的技术架构下做开发，要处理多少带着镣铐还要转体前空翻托马斯全旋的事情。</p>
-
-
-</div>
-</div>
-</div>
-
-          <div class="group-layout group-ellipsis"><a title="Jump to this group" class="group-jump-link" href="https://tien-kou-kari.github.io/group/guarded/SlipBox/2026-08-05_22.45.53">...</a></div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-08-22_20.16.54</title>
-        <link>https://tien-kou-kari.github.io/SlipBox/2026-08-22_20.16.54</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-08-22_20.16.54</guid>
-        <pubDate>Sat, 22 Aug 2026 20:16:54 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>Stop Making TUIs — Quarrelsome <a href="https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/" target="_blank">https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/</a></p>
-<p>前摇太长了，但核心观点是自洽的</p>
-<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a></p>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-08-22_10.36.22</title>
-        <link>https://tien-kou-kari.github.io/SlipBox/2026-08-22_10.36.22</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-08-22_10.36.22</guid>
-        <pubDate>Sat, 22 Aug 2026 10:36:22 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>I accidentally logged hundreds of thousands of phone calls to military bases - lina's blog <a href="https://lina.sh/blog/hijacking-e164-arpa" target="_blank">https://lina.sh/blog/hijacking-e164-arpa</a></p>
-<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a></p>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-08-21_23.48.23</title>
-        <link>https://tien-kou-kari.github.io/SlipBox/2026-08-21_23.48.23</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-08-21_23.48.23</guid>
-        <pubDate>Fri, 21 Aug 2026 23:48:23 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>Yes</p>
-<a tien-kou-marker-for-url-prefix-replace="1" href="https://tien-kou-kari.github.io/miscMedia/SlipBox_umhvnsro_0_C1%7BK4YFKE%7B9O3H$%7B@35_4)T_tmb.jpg" class="md-attach md-attach-img-link" target="_blank">
-            <img tien-kou-marker-for-url-prefix-replace="1" src="https://tien-kou-kari.github.io/miscMedia/SlipBox_umhvnsro_0_C1%7BK4YFKE%7B9O3H$%7B@35_4)T_tmb.jpg" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
-        </a>
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-08-20_20.19.01</title>
-        <link>https://tien-kou-kari.github.io/SlipBox/2026-08-20_20.19.01</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-08-20_20.19.01</guid>
-        <pubDate>Thu, 20 Aug 2026 20:19:01 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>laserphile: AliExpress webpage keeping multipoint Bluetooth headphones active with WebAudio fingerprinting <a href="https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html?m=1" target="_blank">https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html?m=1</a></p>
-<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a> また阴险的老中dark pattern</p>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-08-20_00.46.19</title>
-        <link>https://tien-kou-kari.github.io/misc/tg/2026-08-20/2026-08-20_00.46.19</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-08-20/2026-08-20_00.46.19</guid>
-        <pubDate>Thu, 20 Aug 2026 00:46:19 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
 <div class="lang-wrapper" lang="zh-Hans">
 
   <div class="tg-wrapper-layout">
@@ -177,15 +43,181 @@
 </div>
 
     </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/ce_observe" title="Telegram PeerChannel handle: ce_observe" data-title="tg:ce_observe">每日消费电子观察</a> (<span class="tg-author">septs</span>)
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/autoivbot" title="Telegram PeerUser handle: autoivbot" data-title="tg:autoivbot">Auto Instant View</a>
 
-    <span class="tg-timestamp">2026-08-19T17:25:50+08:00</span>
+    <span class="tg-timestamp">2026-08-24T21:25:41+08:00</span>
 
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">谷歌不再公开发布Pixel内核源代码 开发者手动填表申请 谷歌通过网盘发送源代码
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://t.me/iv?rhash=a04c22e20f9bda&url=https%3A%2F%2Fmp.weixin.qq.com%2Fmp%2Fwappoc_appmsgcaptcha%3Ftarget_url%3Dhttps%253A%252F%252Fmp.weixin.qq.com%252Fs%252FEXNJVccwxilEY15wGlLTlA">‎</a><a href="https://mp.weixin.qq.com/s/EXNJVccwxilEY15wGlLTlA">https://mp.weixin.qq.com/~</a></div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://t.me/iv?rhash=a04c22e20f9bda&amp;url=https%3A%2F%2Fmp.weixin.qq.com%2Fmp%2Fwappoc_appmsgcaptcha%3Ftarget_url%3Dhttps%253A%252F%252Fmp.weixin.qq.com%252Fs%252FEXNJVccwxilEY15wGlLTlA">微信公众号</a>
+          <h6>三星安卓系统BUG排查记录：云闪付、铁路12306、个人所得税、中国移动等App，长期闪退的根本原因分析</h6>
+          <p></p>
+            <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-5793224843342843786.png" title="Telegram wepbage media id 5793224843342843786" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </div></div></div>
+    </div></div>
+  </div>
 
-<a href="https://www.landian.news/archives/126338.html">https://www.landian.news/archives/126338.html</a>
 
-但第三方系统 GrapheneOS 开发团队表示，目前 Pixel 部分内核源代码已经改成手动申请，开发者填写谷歌提供的表单后需要等待谷歌审核然后通过 Google Drive 分享下载链接，原本直接查看 Git 就可以获取的源代码，现在有时候可能需要等待数周才能收到谷歌回应。</div>
+</div>
+</div>
+</div>
+
+          <div class="group-layout group-ellipsis"><a title="Jump to this group" class="group-jump-link" href="https://tien-kou-kari.github.io/group/guarded/misc/tg/2026-08-24/2026-08-24_21.24.18">...</a></div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2026-08-24_21.25.41</title>
+        <link>https://tien-kou-kari.github.io/SlipBox/2026-08-24_21.25.41</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-08-24_21.25.41</guid>
+        <pubDate>Mon, 24 Aug 2026 21:25:41 +0800</pubDate>
+        <description><![CDATA[
+<div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-08-24_21.25.41">2026-08-24_21.25.41</a> <span>2026-08-24 21:25:41 UTC+8</span></div>
+</div>
+
+      
+          <div class="group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p><a tien-kou-marker-for-url-prefix-replace="1" href="https://tien-kou-kari.github.io/miscMedia/SlipBox_22v5oqpb_0_%E4%B8%89%E6%98%9F%E5%AE%89%E5%8D%93%E7%B3%BB%E7%BB%9FBUG%E6%8E%92%E6%9F%A5%E8%AE%B0%E5%BD%95%EF%BC%9A%E4%BA%91%E9%97%AA%E4%BB%98%E3%80%81%E9%93%81%E8%B7%AF12306%E3%80%81%E4%B8%AA%E4%BA%BA%E6%89%80%E5%BE%97%E7%A8%8E%E3%80%81%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E7%AD%89App%EF%BC%8C%E9%95%BF%E6%9C%9F%E9%97%AA%E9%80%80%E7%9A%84%E6%A0%B9%E6%9C%AC%E5%8E%9F%E5%9B%A0%E5%88%86%E6%9E%90%20(8_24_2026%209%EF%BC%9A26%EF%BC%9A23%20PM).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_22v5oqpb_0_三星安卓系统BUG排查记录：云闪付、铁路12306、个人所得税、中国移动等App，长期闪退的根本原因分析 (8_24_2026 9：26：23 PM).html</a></p>
+
+
+</div>
+</div>
+</div>
+
+          </div>
+      <div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-08-24">misc/tg/2026-08-24</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-08-24/2026-08-24_21.24.18">2026-08-24_21.24.18</a> <span>2026-08-24 21:24:18 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/autoivbot" title="Telegram PeerUser handle: autoivbot" data-title="tg:autoivbot">Auto Instant View</a>
+
+    <span class="tg-timestamp">2026-08-24T21:25:41+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://t.me/iv?rhash=a04c22e20f9bda&url=https%3A%2F%2Fmp.weixin.qq.com%2Fmp%2Fwappoc_appmsgcaptcha%3Ftarget_url%3Dhttps%253A%252F%252Fmp.weixin.qq.com%252Fs%252FEXNJVccwxilEY15wGlLTlA">‎</a><a href="https://mp.weixin.qq.com/s/EXNJVccwxilEY15wGlLTlA">https://mp.weixin.qq.com/~</a></div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://t.me/iv?rhash=a04c22e20f9bda&amp;url=https%3A%2F%2Fmp.weixin.qq.com%2Fmp%2Fwappoc_appmsgcaptcha%3Ftarget_url%3Dhttps%253A%252F%252Fmp.weixin.qq.com%252Fs%252FEXNJVccwxilEY15wGlLTlA">微信公众号</a>
+          <h6>三星安卓系统BUG排查记录：云闪付、铁路12306、个人所得税、中国移动等App，长期闪退的根本原因分析</h6>
+          <p></p>
+            <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-5793224843342843786.png" title="Telegram wepbage media id 5793224843342843786" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+          <div class="group-layout group-ellipsis"><a title="Jump to this group" class="group-jump-link" href="https://tien-kou-kari.github.io/group/guarded/misc/tg/2026-08-24/2026-08-24_21.24.18">...</a></div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2026-08-24_21.24.18</title>
+        <link>https://tien-kou-kari.github.io/misc/tg/2026-08-24/2026-08-24_21.24.18</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-08-24/2026-08-24_21.24.18</guid>
+        <pubDate>Mon, 24 Aug 2026 21:24:18 +0800</pubDate>
+        <description><![CDATA[
+
+      
+      <div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-08-24">misc/tg/2026-08-24</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-08-24/2026-08-24_21.24.18">2026-08-24_21.24.18</a> <span>2026-08-24 21:24:18 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/autoivbot" title="Telegram PeerUser handle: autoivbot" data-title="tg:autoivbot">Auto Instant View</a>
+
+    <span class="tg-timestamp">2026-08-24T21:25:41+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://t.me/iv?rhash=a04c22e20f9bda&url=https%3A%2F%2Fmp.weixin.qq.com%2Fmp%2Fwappoc_appmsgcaptcha%3Ftarget_url%3Dhttps%253A%252F%252Fmp.weixin.qq.com%252Fs%252FEXNJVccwxilEY15wGlLTlA">‎</a><a href="https://mp.weixin.qq.com/s/EXNJVccwxilEY15wGlLTlA">https://mp.weixin.qq.com/~</a></div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://t.me/iv?rhash=a04c22e20f9bda&amp;url=https%3A%2F%2Fmp.weixin.qq.com%2Fmp%2Fwappoc_appmsgcaptcha%3Ftarget_url%3Dhttps%253A%252F%252Fmp.weixin.qq.com%252Fs%252FEXNJVccwxilEY15wGlLTlA">微信公众号</a>
+          <h6>三星安卓系统BUG排查记录：云闪付、铁路12306、个人所得税、中国移动等App，长期闪退的根本原因分析</h6>
+          <p></p>
+            <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-5793224843342843786.png" title="Telegram wepbage media id 5793224843342843786" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+          <div class="group-layout group-ellipsis"><a title="Jump to this group" class="group-jump-link" href="https://tien-kou-kari.github.io/group/guarded/misc/tg/2026-08-24/2026-08-24_21.24.18">...</a></div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2026-08-24_20.07.33</title>
+        <link>https://tien-kou-kari.github.io/SlipBox/2026-08-24_20.07.33</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-08-24_20.07.33</guid>
+        <pubDate>Mon, 24 Aug 2026 20:07:33 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>A website for debloated open source alternatives <a href="https://debloat.dev/" target="_blank">https://debloat.dev/</a></p>
+<p>不错的网站。另外我发现Hacker News提交者开始越来越多地对提交的网页标题行使编辑行为了…</p>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a></p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2026-08-24_17.09.14</title>
+        <link>https://tien-kou-kari.github.io/misc/tg/2026-08-24/2026-08-24_17.09.14</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-08-24/2026-08-24_17.09.14</guid>
+        <pubDate>Mon, 24 Aug 2026 17:09:14 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>4/4 reddit</p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gmemeschat" title="Telegram PeerChannel handle: gmemeschat" data-title="tg:gmemeschat">/g/‘s Tech Memes Chat</a>
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span><a target="_blank" href="https://t.me/velocita84" title="Telegram PeerUser handle: velocita84" data-title="tg:velocita84">Velocita 👁</a>
+    </div>
+
+    <span class="tg-timestamp">2026-08-24T17:09:59+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">Doesn't even matter either way because archivers exist <a href="https://rosint.dev/">https://rosint.dev/</a></div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://rosint.dev/">rosint.dev</a>
+          <h6>Rosint - View Deleted Reddit Posts, Comments &amp; Private Profiles</h6>
+          <p>Search any Reddit username to view deleted posts, removed comments, and private or suspended profiles. Free, no login required.</p>
+            <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-5937397807318764716.png" title="Telegram wepbage media id 5937397807318764716" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </div></div></div>
     </div></div>
   </div>
 
@@ -197,16 +229,16 @@
         ]]></description>
       </item>
       <item>
-        <title>Tien-kou - 2026-08-20_00.44.44</title>
-        <link>https://tien-kou-kari.github.io/misc/tg/2026-08-20/2026-08-20_00.44.44</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-08-20/2026-08-20_00.44.44</guid>
-        <pubDate>Thu, 20 Aug 2026 00:44:44 +0800</pubDate>
+        <title>Tien-kou - 2026-08-24_17.09.05</title>
+        <link>https://tien-kou-kari.github.io/misc/tg/2026-08-24/2026-08-24_17.09.05</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-08-24/2026-08-24_17.09.05</guid>
+        <pubDate>Mon, 24 Aug 2026 17:09:05 +0800</pubDate>
         <description><![CDATA[
 
 
 <div class="sole-content-wrapper">
   <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>2333</p>
+<div class="lang-wrapper" lang="zh-Hans"><p>3/4</p>
 
 
   <div class="tg-wrapper-layout">
@@ -215,13 +247,102 @@
 </div>
 
     </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/sohadays" title="Telegram PeerChannel handle: sohadays" data-title="tg:sohadays">Soha 的日常</a> (<span class="tg-author">Soha Jin</span>)
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gmemeschat" title="Telegram PeerChannel handle: gmemeschat" data-title="tg:gmemeschat">/g/‘s Tech Memes Chat</a>
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span><a target="_blank" href="https://t.me/awaked" title="Telegram PeerChannel handle: awaked" data-title="tg:awaked">aaaa</a>
+    </div>
+      <div class="tg-involvement-layout"><div class="tg-involvement-layout"><div  class="tg-involvement-layout tg-involvement-type">
+      <span class="tg-involvement-type">[Re]</span>
+      </div><div class="tg-involvement-layout tg-involvement-body"><a target="_blank" href="https://t.me/gmemeschat" title="Telegram PeerChannel handle: gmemeschat" data-title="tg:gmemeschat">/g/‘s Tech Memes Chat</a>
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span>
+          cs6
+    </div>
 
-    <span class="tg-timestamp">2026-08-19T23:54:38+08:00</span>
+    <span class="tg-timestamp">2026-08-24T17:09:59+08:00</span>
 
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">一个人随机游走的时候发现了前两天在隔壁频道看到的 KFC+申通综合服务中心，位于南京东路地铁站。正巧撞见一名幸运乘客票卡异常，然后穿着 KFC T 恤和围裙的柜员刷开炸鸡进来，帮他在票务自助处理机上解决了问题。
-这下真是“请手持车票，依次通过炸鸡验票后出站”了。</div>
-      <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-6064317647148488256.png" title="Telegram media id 6064317647148488256" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="redact.dev">redact.dev</a></div>
+      </div></div></div>
+
+    <span class="tg-timestamp">2026-08-24T17:09:59+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="chud.dev">chud.dev</a></div>
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2026-08-24_17.08.57</title>
+        <link>https://tien-kou-kari.github.io/misc/tg/2026-08-24/2026-08-24_17.08.57</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-08-24/2026-08-24_17.08.57</guid>
+        <pubDate>Mon, 24 Aug 2026 17:08:57 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>2/4</p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gmemeschat" title="Telegram PeerChannel handle: gmemeschat" data-title="tg:gmemeschat">/g/‘s Tech Memes Chat</a>
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span>
+          cs6
+    </div>
+
+    <span class="tg-timestamp">2026-08-24T17:09:59+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="redact.dev">redact.dev</a></div>
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2026-08-24_17.08.51</title>
+        <link>https://tien-kou-kari.github.io/misc/tg/2026-08-24/2026-08-24_17.08.51</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-08-24/2026-08-24_17.08.51</guid>
+        <pubDate>Mon, 24 Aug 2026 17:08:51 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>1/4</p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gmemeschat" title="Telegram PeerChannel handle: gmemeschat" data-title="tg:gmemeschat">/g/‘s Tech Memes Chat</a>
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span><a target="_blank" href="https://t.me/theneovim" title="Telegram PeerChannel handle: theneovim" data-title="tg:theneovim">REAL vi improved(not a jeet)</a>
+    </div> (<span class="tg-author">500 000 year old spark plugs</span>)
+
+    <span class="tg-timestamp">2026-08-24T17:09:59+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-5213315825006223800.png" title="Telegram media id 5213315825006223800" alt="A picture from Telegram, related to current message. No more alt detail for now." />
     </div></div>
   </div>
 
