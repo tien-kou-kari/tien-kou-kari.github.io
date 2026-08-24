@@ -747,3 +747,15 @@ AI is removing the middle class of software engineering https://blog.florianherr
 
 翻回来看居然发现我用多重否定用错了，意义相反了…正确应为“很难让人不信任这个项目”
 
+
+2026-08-24 20:07:33 A website for debloated open source alternatives https://debloat.dev/
+
+不错的网站。另外我发现Hacker News提交者开始越来越多地对提交的网页标题行使编辑行为了…
+
+#fhn
+
+2026-08-24 20:07:37 A website for debloated open source alternatives https://debloat.dev/
+
+不错的网站。另外我发现Hacker News提交者开始越来越多地对提交的网页标题行使编辑行为了…
+
+#fhn
