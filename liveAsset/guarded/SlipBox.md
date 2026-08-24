@@ -754,12 +754,6 @@ AI is removing the middle class of software engineering https://blog.florianherr
 
 #fhn
 
-2026-08-24 20:07:37 A website for debloated open source alternatives https://debloat.dev/
-
-不错的网站。另外我发现Hacker News提交者开始越来越多地对提交的网页标题行使编辑行为了…
-
-#fhn
-
-2026-08-24 21:25:41 repost=guarded/misc/tg/2026-08-24/2026-08-24_21.24.18
+2026-08-24 21:25:41 groupType=noBorderRef g=guarded/misc/tg/2026-08-24/2026-08-24_21.24.18
 
 <a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_22v5oqpb_0_%E4%B8%89%E6%98%9F%E5%AE%89%E5%8D%93%E7%B3%BB%E7%BB%9FBUG%E6%8E%92%E6%9F%A5%E8%AE%B0%E5%BD%95%EF%BC%9A%E4%BA%91%E9%97%AA%E4%BB%98%E3%80%81%E9%93%81%E8%B7%AF12306%E3%80%81%E4%B8%AA%E4%BA%BA%E6%89%80%E5%BE%97%E7%A8%8E%E3%80%81%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E7%AD%89App%EF%BC%8C%E9%95%BF%E6%9C%9F%E9%97%AA%E9%80%80%E7%9A%84%E6%A0%B9%E6%9C%AC%E5%8E%9F%E5%9B%A0%E5%88%86%E6%9E%90%20(8_24_2026%209%EF%BC%9A26%EF%BC%9A23%20PM).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_22v5oqpb_0_三星安卓系统BUG排查记录：云闪付、铁路12306、个人所得税、中国移动等App，长期闪退的根本原因分析 (8_24_2026 9：26：23 PM).html</a>
