@@ -39,7 +39,7 @@ icacls \\?\C:\mydir\mydir2 /reset /T /Q /C /L
   - EFI分区是FAT32，则缩水后不能小于256MB，否则簇数不够不是合法FAT32，fsck会给warning，HPPB也不认。
 - 从Windows/Linux安装Ventoy，必须选择“无损安装”/Non-destructive mode，Ventoy应能无需再操作分区，自行将VTOYEFI分区安装在上述40MB空闲空间内。
 - 确保EFI分区存在/EFI/Boot/Bootx64.efi（将想要的efi（只试过Debian的grubx64.efi）复制到/EFI/Boot/Bootx64.efi，可以在Windows发癫/HPPB BIOS发癫等不明原因导致启动项全部被删掉时，从这个fallback efi顺利启动GRUB。），防止HPPB识别第二分区VtoyEFI分区拿来做EFI分区。
-- （添加一个EFI Entry指向第二分区的EFI？）
+- （添加一个EFI Entry指向第二分区的`\EFI\BOOT\BOOTX64.EFI`？）
 - 此时EFI分区将作为Ventoy承载ISO和配置的分区，即使其空间不足以放ISO，也可以用Vlnk的方式引用C盘或后面分区的ISO、Vtoy等文件。
   - 可以把VtoyEFI的mmia64.efi拷贝，用来做提示文字。
   - Ventoy启动时还可按F2启动浏览器，启动Ventoy分区未列出的其他硬盘分区的文件。
