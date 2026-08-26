@@ -36,6 +36,7 @@ icacls \\?\C:\mydir\mydir2 /reset /T /Q /C /L
 
 - 必须缩小+挪动Windows C盘，使得其前面有一块较大区域。
 - 将原EFI扩大并挪动，使得EFI分区从1MB开始（2048扇区），占用较大空间，与Microsoft保留分区间隔40MB以上。
+  - EFI分区是FAT32，则缩水后不能小于256MB，否则簇数不够不是合法FAT32，fsck会给warning，HPPB也不认。
 - 从Windows安装Ventoy，必须选择“无损安装”，Ventoy应能无需再操作分区，自行将VTOYEFI分区安装在上述40MB空闲空间内。
 - 此时EFI分区将作为Ventoy承载ISO和配置的分区，即使其空间不足以放ISO，也可以用Vlnk的方式引用C盘或后面分区的ISO、Vtoy等文件。
 - `sudo hexdump -s 0x1b8 -n 4 -C /dev/sdx`（cygwin下也可，用管理员权限运行） 确定当前磁盘的signature（ventoy唯一识别有用到）
