@@ -6,6 +6,62 @@
     <atom:link href="https://tien-kou-kari.github.io/rss?feedTitle=Tien-kou+Daily&amp;periodType=fixedMinutes&amp;periodNumParam=1440&amp;periodDateParam=2000-01-01T06%3A30%3A00%2B08%3A00&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou Daily Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou Daily 2026-08-29T06:30:00+08:00</title>
+        <link>https://tien-kou-kari.github.io</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-fixedMinutes-2026-08-29T06:30:00+08:00</guid>
+        <pubDate>Sat, 29 Aug 2026 06:30:00 +0800</pubDate>
+        <description><![CDATA[
+<div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-08-29">misc/tg/2026-08-29</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-08-29/2026-08-29_23.16.27">2026-08-29_23.16.27</a> <span>2026-08-29 23:16:27 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/moonvoidclass" title="Telegram PeerChannel handle: moonvoidclass" data-title="tg:moonvoidclass">inside class</a>
+      <div class="tg-involvement-layout"><div class="tg-involvement-layout"><div  class="tg-involvement-layout tg-involvement-type">
+      <span class="tg-involvement-type">[Re]</span>
+      </div><div class="tg-involvement-layout tg-involvement-body"><a target="_blank" href="https://t.me/moonvoidclass" title="Telegram PeerChannel handle: moonvoidclass" data-title="tg:moonvoidclass">inside class</a>
+
+    <span class="tg-timestamp">2026-08-25T16:18:31+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">dsh 太脚手架了，明明是鲸鱼造了给猿神玩的玩具。
+
+没发 vision exp 版本时我就发现 dsh 可以插入图片但是模型读不了图片，我调用 qwen3.8 发现还是读不了图片，只能给 qwen 传地址。
+
+对了，现在 dsh 还不能给 dpsk 传 JSON 文件</div>
+      </div></div></div>
+
+    <span class="tg-timestamp">2026-08-29T22:27:14+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">为了实现其他 code agent 的基础功能，先给 dsh 装上以上四个插件。</div>
+      <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-6096151644098727972.png" title="Telegram media id 6096151644098727972" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-08-29_23.11.18">2026-08-29_23.11.18</a> <span>2026-08-29 23:11:18 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Wikipedia - Desktop metaphor 桌面隐喻 <a href="https://en.wikipedia.org/wiki/Desktop_metaphor" target="_blank">https://en.wikipedia.org/wiki/Desktop_metaphor</a>
+Wikipedia - Interface metaphor (用户)界面隐喻 <a href="https://en.wikipedia.org/wiki/Interface_metaphor" target="_blank">https://en.wikipedia.org/wiki/Interface_metaphor</a></p>
+
+
+</div>
+</div>
+</div>
+
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou Daily 2026-08-28T06:30:00+08:00</title>
         <link>https://tien-kou-kari.github.io</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-fixedMinutes-2026-08-28T06:30:00+08:00</guid>
@@ -594,69 +650,6 @@ thread: <a href="https://t.me/outvivid/4888">/4888</a>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p>laserphile: AliExpress webpage keeping multipoint Bluetooth headphones active with WebAudio fingerprinting <a href="https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html?m=1" target="_blank">https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html?m=1</a></p>
 <p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a> また阴险的老中dark pattern</p>
-
-
-</div>
-</div>
-</div>
-
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou Daily 2026-08-19T06:30:00+08:00</title>
-        <link>https://tien-kou-kari.github.io</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-fixedMinutes-2026-08-19T06:30:00+08:00</guid>
-        <pubDate>Wed, 19 Aug 2026 06:30:00 +0800</pubDate>
-        <description><![CDATA[
-<div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-08-20">misc/tg/2026-08-20</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-08-20/2026-08-20_00.46.19">2026-08-20_00.46.19</a> <span>2026-08-20 00:46:19 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/ce_observe" title="Telegram PeerChannel handle: ce_observe" data-title="tg:ce_observe">每日消费电子观察</a> (<span class="tg-author">septs</span>)
-
-    <span class="tg-timestamp">2026-08-19T17:25:50+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">谷歌不再公开发布Pixel内核源代码 开发者手动填表申请 谷歌通过网盘发送源代码
-
-<a href="https://www.landian.news/archives/126338.html">https://www.landian.news/archives/126338.html</a>
-
-但第三方系统 GrapheneOS 开发团队表示，目前 Pixel 部分内核源代码已经改成手动申请，开发者填写谷歌提供的表单后需要等待谷歌审核然后通过 Google Drive 分享下载链接，原本直接查看 Git 就可以获取的源代码，现在有时候可能需要等待数周才能收到谷歌回应。</div>
-    </div></div>
-  </div>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-08-20">misc/tg/2026-08-20</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-08-20/2026-08-20_00.44.44">2026-08-20_00.44.44</a> <span>2026-08-20 00:44:44 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>2333</p>
-
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/sohadays" title="Telegram PeerChannel handle: sohadays" data-title="tg:sohadays">Soha 的日常</a> (<span class="tg-author">Soha Jin</span>)
-
-    <span class="tg-timestamp">2026-08-19T23:54:38+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">一个人随机游走的时候发现了前两天在隔壁频道看到的 KFC+申通综合服务中心，位于南京东路地铁站。正巧撞见一名幸运乘客票卡异常，然后穿着 KFC T 恤和围裙的柜员刷开炸鸡进来，帮他在票务自助处理机上解决了问题。
-这下真是“请手持车票，依次通过炸鸡验票后出站”了。</div>
-      <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-6064317647148488256.png" title="Telegram media id 6064317647148488256" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </div></div>
-  </div>
 
 
 </div>
