@@ -773,3 +773,6 @@ AI is removing the middle class of software engineering https://blog.florianherr
 2026-08-28 16:54:55 groupType=noBorderRef g=guarded/misc/tg/2026-08-28/2026-08-28_16.54.09
 
 <a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_nz4lscvx_0_Cloudflare%20SNI%20Proxy%20List.txt" class="md-attach md-attach-file-link" target="_blank">Archive</a>
+
+2026-08-29 23:11:18 Wikipedia - Desktop metaphor 桌面隐喻 https://en.wikipedia.org/wiki/Desktop_metaphor
+Wikipedia - Interface metaphor (用户)界面隐喻 https://en.wikipedia.org/wiki/Interface_metaphor
