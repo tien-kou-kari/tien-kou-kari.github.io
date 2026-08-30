@@ -778,3 +778,9 @@ AI is removing the middle class of software engineering https://blog.florianherr
 Wikipedia - Interface metaphor (用户)界面隐喻 https://en.wikipedia.org/wiki/Interface_metaphor
 
 2026-08-30 13:27:26 repost=guarded/misc/tg/2026-08-30/2026-08-30_12.51.00 See Also: https://tchina.kyodonews.net/list/news/premier_movement
+
+2026-08-30 18:47:23 Bug blindness https://danluu.com/bug-blind/
+
+Everything is broken https://danluu.com/everything-is-broken/
+
+#fhn 灵视这一块，仪式这一块
