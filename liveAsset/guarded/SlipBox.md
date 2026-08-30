@@ -784,3 +784,11 @@ Wikipedia - Interface metaphor (用户)界面隐喻 https://en.wikipedia.org/wik
 Everything is broken https://danluu.com/everything-is-broken/
 
 #fhn 灵视这一块，仪式这一块
+
+2026-08-30 20:03:49 https://blog.happyfellow.dev/merchants-of-insecurity/ 
+
+> First, a PSA: Do NOT use Omarchy if you care about security of your machine even a little bit.
+>
+> # You can't polish a turd
+
+#fhn
