@@ -794,3 +794,7 @@ Everything is broken https://danluu.com/everything-is-broken/
 #fhn
 
 2026-08-31 08:54:22 元朝和爪哇的战争 - 维基百科，自由的百科全书 - https://zh.wikipedia.org/zh-cn/%E5%85%83%E6%9C%9D%E5%92%8C%E7%88%AA%E5%93%87%E7%9A%84%E6%88%98%E4%BA%89
+
+2026-08-31 20:15:45 https://people.kernel.org/monsieuricon/creepy-crawlies
+
+#fhn Linux kernel git Web服务迄今为止的反爬状况总结
