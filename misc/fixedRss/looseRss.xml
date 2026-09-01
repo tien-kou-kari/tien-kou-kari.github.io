@@ -6,6 +6,110 @@
     <atom:link href="https://tien-kou-kari.github.io/rss?periodType=loose&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou - 2026-09-01_22.55.21</title>
+        <link>https://tien-kou-kari.github.io/misc/tg/2026-09-01/2026-09-01_22.55.21</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-09-01/2026-09-01_22.55.21</guid>
+        <pubDate>Tue, 01 Sep 2026 22:55:21 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/usr_bin_cat" title="Telegram PeerChannel handle: usr_bin_cat" data-title="tg:usr_bin_cat">Cat Ch.</a> (<span class="tg-author">webRTCCat | Present Day, Present Time</span>)
+
+    <span class="tg-timestamp">2026-09-01T10:02:54+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://x.com/reactos/status/2094473269134926224">https://x.com/reactos/status/2094473269134926224</a>
+？</div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://x.com/reactos/status/2094473269134926224">X (formerly Twitter)</a>
+          <h6>ReactOS (@reactos) on X</h6>
+          <p>With recently merged job object and job UI restriction works, &#34;Unchinesed&#34; (modified) version of 360 Chrome 13.0.2250.0 (Chromium 86.0.4240.198) now works fine in #ReactOS, without disabling sandb…</p>
+            <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-5813335851612704671.png" title="Telegram wepbage media id 5813335851612704671" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2026-09-01_22.35.25</title>
+        <link>https://tien-kou-kari.github.io/misc/tg/2026-09-01/2026-09-01_22.35.25</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-09-01/2026-09-01_22.35.25</guid>
+        <pubDate>Tue, 01 Sep 2026 22:35:25 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/sthsbswh" title="Telegram PeerChannel handle: sthsbswh" data-title="tg:sthsbswh">观瞻-The Viewpoint</a> (<span class="tg-author">メルトリリス</span>)
+
+    <span class="tg-timestamp">2026-09-01T19:16:22+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://x.com/ungetsuli"><b>UNGETSU</b></a>:
+最近在 Fable 5 和 Opus 的长程任务里，频繁看到 CC 一种近乎于发狂、呓语的自造方言、遣词造句的诡异语言现象，类似于：
+
+“账本 15/15 全绿，再给你加几条铁律和红线与你对拍，请你拍板。”
+“无主 → 已当场归户。”
+“137 项 spine 落地 + 3 死门归零 + 全套绿 + 终审干净。”
+“皮要不要重新揉？”
+“单腿哑火，打回重判，”
+
+中文社区给它起了一个很准确的名字：新时代文言文。
+
+我倾向于把它理解成 Agent 内部工作语域对 Reporting Layer 的穿透。
+
+Agent 执行长程任务时，需要处理大量工具调用、测试结果、中间状态、异常分支和子代理汇报。为了在有限的 Context Window 中维持工作，它会不断压缩已经形成共识的信息，并为高频状态创造速记。
+
+举例来说，“全绿”压缩了全部测试通过，“归户”压缩了责任模块的重新分配，“死门”指向某个必然阻塞交付的检查点。对于刚刚经历完整任务过程的模型，这些词各自对应着确定的状态；对于只看到最终汇报的人，它们省略的是一段从未参与过的工作历史。
+
+因此，文言文的类比比想象中更加准确。
+
+想起本科在中文系学习古典文献学时，提到过文言文通过省略虚词和共享典故，在昂贵的书写介质上压缩信息；那么 Agent 的工作语言同样受到 Token、时延和上下文长度的约束。文言文作为书面语长期独立演化，逐渐远离口语；Agent 在长程任务中主要阅读自己和子代理的输出，其局部语言环境也越来越多地由自己生成。
+
+因为每一个典故都要求读者预先知道一段历史。新时代文言文中的每个黑话，背后则是一段用户没有看见的 Context。
+
+很显然，可读性比任务结果更难获得稳定的显式 Reward。
+
+测试是否通过、代码能否运行、文件有没有生成，都存在相对清楚的反馈。一段最终汇报被用户接受，无法证明用户真正理解了它；用户没有要求重写，也无法证明这套表达是清楚的。
+
+追溯到 25 年，DeepSeek-R1 的公开论文…
+<a href="https://telegra.ph/UNGETSU-09-01">Read full post on Telegra.ph</a>
+
+<a href="https://x.com/ungetsuli/status/2094380958510096706">https://x.com/ungetsuli/status/2094380958510096706</a></div>
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou - 2026-08-31_23.46.48</title>
         <link>https://tien-kou-kari.github.io/SlipBox/2026-08-31_23.46.48</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-08-31_23.46.48</guid>
@@ -264,82 +368,6 @@
 
   </div>
 </div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-08-30_18.47.23</title>
-        <link>https://tien-kou-kari.github.io/SlipBox/2026-08-30_18.47.23</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-08-30_18.47.23</guid>
-        <pubDate>Sun, 30 Aug 2026 18:47:23 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>Bug blindness <a href="https://danluu.com/bug-blind/" target="_blank">https://danluu.com/bug-blind/</a></p>
-<p>Everything is broken <a href="https://danluu.com/everything-is-broken/" target="_blank">https://danluu.com/everything-is-broken/</a></p>
-<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a> 灵视这一块，仪式这一块</p>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-08-30_13.27.26</title>
-        <link>https://tien-kou-kari.github.io/SlipBox/2026-08-30_13.27.26</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-08-30_13.27.26</guid>
-        <pubDate>Sun, 30 Aug 2026 13:27:26 +0800</pubDate>
-        <description><![CDATA[
-<div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-08-30_13.27.26">2026-08-30_13.27.26</a> <span>2026-08-30 13:27:26 UTC+8</span></div>
-</div>
-
-      
-          <div class="group-asset"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>See Also: <a href="https://tchina.kyodonews.net/list/news/premier_movement" target="_blank">https://tchina.kyodonews.net/list/news/premier_movement</a></p>
-
-
-</div>
-</div>
-</div>
-
-          </div>
-      <div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-08-30">misc/tg/2026-08-30</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-08-30/2026-08-30_12.51.00">2026-08-30_12.51.00</a> <span>2026-08-30 12:51:00 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/kyodo_news" title="Telegram PeerChannel handle: kyodo_news" data-title="tg:kyodo_news">共同通訊 (繁體字)</a>
-
-    <span class="tg-timestamp">2026-08-30T01:11:13+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">追蹤高市早苗首相（29日）
-<a href="https://tchina.kyodonews.net/articles/-/12848">https://tchina.kyodonews.net/articles/-/12848</a></div>
-      
-        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
-          <a target="_blank" href="https://tchina.kyodonews.net/articles/-/12848">共同網</a>
-          <h6>追蹤高市早苗首相（29日）</h6>
-          <p>終日在公邸度過。（完）</p>
-            <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-5984671984064859017.png" title="Telegram wepbage media id 5984671984064859017" alt="A picture related to current telegram webpage message. No more alt detail for now." />
-        </div></div></div>
-    </div></div>
-  </div>
-
-
-</div>
-</div>
-</div>
-
         ]]></description>
       </item>
   </channel>
