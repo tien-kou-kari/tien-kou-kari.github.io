@@ -7,30 +7,36 @@ assign pageNum = reqQuery.pageNum | default: '0' | to_integer
 assign pageSize = reqQuery.pageSize | default: '0' | to_integer
 assign allowedCondCount = 4
 assign tagConds = undefined | newArr
+assign noTagConds = undefined | newArr
 assign groupConds = undefined | newArr
 assign ancestorConds = undefined | newArr
 assign keywordConds = undefined | newArr
 
 for i in (1..allowedCondCount)
   x undefined | inplacePushTo: tagConds
+  x undefined | inplacePushTo: noTagConds
   x undefined | inplacePushTo: groupConds
   x undefined | inplacePushTo: ancestorConds
   x undefined | inplacePushTo: keywordConds
 endfor
 
 x reqQuery.tags | default: '' | split: ',' | setToObj: tagConds, 0
+x reqQuery.notags | default: '' | split: ',' | setToObj: noTagConds, 0
 x reqQuery.groups | default: '' | split: ',' | setToObj: groupConds, 0
 x reqQuery.ancestors | default: '' | split: ',' | setToObj: ancestorConds, 0
 x reqQuery.keywords | default: '' | split: ',' | setToObj: keywordConds, 0
 x reqQuery.tags2 | default: '' | split: ','  | setToObj: tagConds, 1
+x reqQuery.notags2 | default: '' | split: ','  | setToObj: noTagConds, 1
 x reqQuery.groups2 | default: '' | split: ',' | setToObj: groupConds, 1
 x reqQuery.ancestors2 | default: '' | split: ',' | setToObj: ancestorConds, 1
 x reqQuery.keywords2 | default: '' | split: ',' | setToObj: keywordConds, 1
 x reqQuery.tags3 | default: '' | split: ',' | setToObj: tagConds, 2
+x reqQuery.notags3 | default: '' | split: ',' | setToObj: noTagConds, 2
 x reqQuery.groups3 | default: '' | split: ',' | setToObj: groupConds, 2
 x reqQuery.ancestors3 | default: '' | split: ',' | setToObj: ancestorConds, 2
 x reqQuery.keyword3 | default: '' | split: ',' | setToObj: keywordConds, 2
 x reqQuery.tags4 | default: '' | split: ',' | setToObj: tagConds, 3
+x reqQuery.notags4 | default: '' | split: ',' | setToObj: noTagConds, 3
 x reqQuery.groups4 | default: '' | split: ',' | setToObj: groupConds, 3
 x reqQuery.ancestors4 | default: '' | split: ',' | setToObj: ancestorConds, 3
 x reqQuery.keywords4 | default: '' | split: ',' | setToObj: keywordConds, 3
@@ -40,6 +46,7 @@ if reqQuery.spec != '' and reqQuery.spec
   for i in (1..allowedCondCount)
     assign izero = i | minus: 1
     x undefined | setToObj: tagConds, izero
+    x undefined | setToObj: noTagConds, izero
     x undefined | setToObj: groupConds, izero
     x undefined | setToObj: ancestorConds, izero
     x undefined | setToObj: keywordConds, izero
@@ -47,6 +54,7 @@ if reqQuery.spec != '' and reqQuery.spec
 
   if reqQuery.spec == 'flow'
     x 'misc/,SlipBox/,TheDesk/' | default: '' | split: ',' | setToObj: ancestorConds, 0
+    x 'Noise' | default: '' | split: ',' | setToObj: noTagConds, 0
   endif
 
   if reqQuery.spec == 'noise'
@@ -120,7 +128,7 @@ assign hasKeywords = false
 
 # ######
 # NOTE
-#   in one condition, the multiple item in "tags" are ANDed;
+#   in one condition, the multiple item in "(no)tags" are ANDed;
 #   the multiple keywords are ANDed;
 #   but the groups and ancestors are ORed.
 #   this may change in the future.
@@ -136,11 +144,12 @@ assign hasKeywords = false
       {%- assign izero = i | minus: 1 %}
       
       {%- assign tags = tagConds[izero] %}
+      {%- assign noTags = noTagConds[izero] %}
       {%- assign groups = groupConds[izero] %}
       {%- assign ancestors = ancestorConds[izero] %}
       {%- assign keywords = keywordConds[izero] %}
       {%- unless forloop.first %}
-        {%- if tags.size > 0 or groups.size > 0 or ancestors.size > 0 or keywords.size > 0 %}
+        {%- if tags.size > 0 or noTags.size > 0 or groups.size > 0 or ancestors.size > 0 or keywords.size > 0 %}
           OR
           {%- assign resultDesc = resultDesc | append: ' or ' %}
         {%- else %}
@@ -157,6 +166,17 @@ assign hasKeywords = false
 
           {%- for tag in tags %}
             {%- x currSqlArgs | inplacePush: tag %}
+          {%- endfor %}
+          
+        {%- endif %}
+        {%- if noTags.size > 0 %}
+          {%- assign noTagsStr = noTags | join: ', ' %}
+          {%- assign resultDesc = resultDesc | append: ' No Tags: ' | append: noTagsStr %}
+          {%- assign currSqlPlaceholders = noTags.size | newArr: '?' | join: ', ' %}
+          AND ( SELECT COUNT(*) FROM json_each(json_extract(metadata, '$.declaredTags')) WHERE value IN ( {{ currSqlPlaceholders }} ) ) = 0
+
+          {%- for noTag in noTags %}
+            {%- x currSqlArgs | inplacePush: noTag %}
           {%- endfor %}
           
         {%- endif %}
