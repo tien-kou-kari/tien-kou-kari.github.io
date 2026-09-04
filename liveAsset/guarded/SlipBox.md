@@ -806,3 +806,5 @@ Everything is broken https://danluu.com/everything-is-broken/
 2026-08-31 23:46:48 groupType=noBorderRef g=guarded/misc/tg/2026-08-30/2026-08-30_12.25.07 **勘误** 显然这是出生人口增幅。
 
 2026-09-02 08:54:53 我宣布从现在起停止所有Side Project一个月不得破戒
+
+2026-09-04 21:52:16 Fluent RDP - Modern RDP client with live window resizing and zoom (by DPI). Drop-in replacement for `mstsc.exe`. https://github.com/fschick/FluentRDP
