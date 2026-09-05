@@ -12,11 +12,11 @@
   assign isHive = webUrlPathUnencoded == '/hive'
   assign isTag = webUrlPathUnencoded == '/tag'
   assign isTagTopic = webUrlPathUnencoded == '/tagTopic'
-  assign isTheNoise = webUrlPathUnencoded == '/TheNoise' and not rgc.serverProfileName == 'insiders'
+  assign isTheNoiseHide = webUrlPathUnencoded == '/TheNoise' and not rgc.serverProfileName == 'insiders' and false
   assign isWebArc = webUrlPathUnencoded == '/webArc'
   assign isTest = webUrlPathUnencoded == '/Test' or webUrlPathUnencoded == '/SendTest'
 
-  if isMisc1 or isMisc2 or isHive or isTag or isTagTopic or isWebArc or isTest or isTheNoise
+  if isMisc1 or isMisc2 or isHive or isTag or isTagTopic or isWebArc or isTest or isTheNoiseHide
     continue
   endif
 
