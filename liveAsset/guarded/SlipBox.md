@@ -808,3 +808,10 @@ Everything is broken https://danluu.com/everything-is-broken/
 2026-09-02 08:54:53 我宣布从现在起停止所有Side Project一个月不得破戒
 
 2026-09-04 21:52:16 Fluent RDP - Modern RDP client with live window resizing and zoom (by DPI). Drop-in replacement for `mstsc.exe`. https://github.com/fschick/FluentRDP
+
+2026-09-05 13:27:26 From https://news.ycombinator.com/item?id=49572574 :
+
+> quarantines for the Eternal September population
+Hacker News actually has a way to do this quarantine, a version that only counts votes from accounts created before 2008: https://news.ycombinator.com/classic . About a decade after Eternal September started, but not bad.
+
+#fhn
