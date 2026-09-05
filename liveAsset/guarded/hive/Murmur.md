@@ -26,3 +26,5 @@ On my Linux machine, SDDM goes into blank screen on the second login attempt (af
 2025-11-28 18:50:19 https://pluto0x0.github.io/X_based_china/
 
 2025-12-11 19:38:43 https://gwern.net/doc/statistics/stylometry/truesight/index
+
+2026-09-05 23:26:28 #UnpopularIdea 一类很可能被liberal的知识分子所不齿的思想/理论体系的一种共同特质：它们成立的程度/可能性在相当程度上依赖于它被传播/被人所知的广度和深度。有别于“一般和通常意义上”的社会科学。
