@@ -1,6 +1,6 @@
 ---
-shouldRenderDeclaringTagAssetList: false
-shouldRenderReferencingTagAssetList: true
+shouldRenderDeclaringTagAssetList: true
+shouldRenderReferencingTagAssetList: false
 declaringTagTitleMd: |
     #### ~~~
 referencingTagTitleMd: |
