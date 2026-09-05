@@ -811,7 +811,8 @@ Everything is broken https://danluu.com/everything-is-broken/
 
 2026-09-05 13:27:26 From https://news.ycombinator.com/item?id=49572574 :
 
-> quarantines for the Eternal September population
-Hacker News actually has a way to do this quarantine, a version that only counts votes from accounts created before 2008: https://news.ycombinator.com/classic . About a decade after Eternal September started, but not bad.
+> > quarantines for the Eternal September population
+>
+> Hacker News actually has a way to do this quarantine, a version that only counts votes from accounts created before 2008: https://news.ycombinator.com/classic . About a decade after Eternal September started, but not bad.
 
 #fhn
