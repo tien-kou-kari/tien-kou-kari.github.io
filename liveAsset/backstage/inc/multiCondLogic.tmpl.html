@@ -54,7 +54,7 @@ if reqQuery.spec != '' and reqQuery.spec
 
   if reqQuery.spec == 'flow'
     x 'misc/,SlipBox/,TheDesk/' | default: '' | split: ',' | setToObj: ancestorConds, 0
-    x 'Noise' | default: '' | split: ',' | setToObj: noTagConds, 0
+    x 'Noise,Silence' | default: '' | split: ',' | setToObj: noTagConds, 0
   endif
 
   if reqQuery.spec == 'noise'
