@@ -344,7 +344,7 @@ pre:has(> code) {
       <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath</div><div class="tidbit-value white-space-preserve">/TheDesk/MegaPost%EF%BC%9AHack/2025-11-08_01.13.37</div></div>
       <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/TheDesk/MegaPost%EF%BC%9AHack/2025-11-08_01.13.37</div></div>
         <div class="tidbit-pair"><div class="tidbit-key">PublishTime</div><div class="tidbit-value white-space-preserve">2025-11-08 01:13:37 UTC+8</div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1787758395571</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1788704831594</div></div>
     </details><h4>Ventoy安装在本地硬盘上与Windows共存的办法</h4>
 <ul>
 <li>必须缩小+挪动Windows C盘，使得其前面有一块较大区域。</li>
@@ -354,8 +354,8 @@ pre:has(> code) {
 </ul>
 </li>
 <li>从Windows/Linux安装Ventoy，必须选择“无损安装”/Non-destructive mode，Ventoy应能无需再操作分区，自行将VTOYEFI分区安装在上述40MB空闲空间内。</li>
-<li>确保EFI分区存在/EFI/Boot/Bootx64.efi（将想要的efi（只试过Debian的grubx64.efi）复制到/EFI/Boot/Bootx64.efi，可以在Windows发癫/HPPB BIOS发癫等不明原因导致启动项全部被删掉时，从这个fallback efi顺利启动GRUB。），防止HPPB识别第二分区VtoyEFI分区拿来做EFI分区。</li>
-<li>（添加一个EFI Entry指向第二分区的<code>\EFI\BOOT\BOOTX64.此时EFI分区将被Ventoy识别为Ventoy分区</code>？）</li>
+<li>确保EFI分区存在/EFI/Boot/Bootx64.efi（将想要的efi（只试过Debian的grubx64.efi；Ventoy分区的<code>\EFI\BOOT\BOOTX64.EFI</code>应该也可以）复制到/EFI/Boot/Bootx64.efi，可以在Windows发癫/HPPB BIOS发癫等不明原因导致启动项全部被删掉时，从这个fallback efi顺利启动GRUB。），防止HPPB识别第二分区VtoyEFI分区拿来做EFI分区。</li>
+<li>（添加一个EFI Entry指向第二分区的<code>\EFI\BOOT\BOOTX64.EFI.此时EFI分区将被Ventoy识别为Ventoy分区</code>？）</li>
 <li>此时EFI分区将作为Ventoy承载ISO和配置的分区，即使其空间不足以放ISO，也可以用Vlnk的方式引用C盘或后面分区的ISO、Vtoy等文件。
 <ul>
 <li>可以把VtoyEFI的mmia64.efi拷贝，用来做提示文字。</li>
