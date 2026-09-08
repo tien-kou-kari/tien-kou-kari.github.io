@@ -820,3 +820,5 @@ Everything is broken https://danluu.com/everything-is-broken/
 2026-09-06 10:47:44 South African diamond mines are closing due to weak sales and lab-grown stones - https://www.wsj.com/business/diamond-mines-are-closing-and-south-africans-have-few-alternatives-fa3b8cbf
 
 #fhn
+
+2026-09-08 20:16:41 2025–present global memory supply shortage - Wikipedia https://en.wikipedia.org/wiki/2025%E2%80%93present_global_memory_supply_shortage
