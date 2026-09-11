@@ -827,4 +827,4 @@ Everything is broken https://danluu.com/everything-is-broken/
 
 <a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_jcfxirve_0_AnthropicSerifWebText.ttf" class="md-attach md-attach-file-link" target="_blank">Archive</a>
 
-2026-09-11 22:47:16 repost=guarded/SlipBox/2026-09-11_22.43.06 `body { font-family: "Anthropic Serif Web Text", "Noto Serif CJK SC" !important; }`
+2026-09-11 22:47:16 repost=guarded/SlipBox/2026-09-11_22.43.06 `body { font-family: "Anthropic Serif Web Text", "Noto Serif CJK TC" !important; }`
