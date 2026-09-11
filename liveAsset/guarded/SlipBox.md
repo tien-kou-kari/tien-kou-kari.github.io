@@ -822,3 +822,7 @@ Everything is broken https://danluu.com/everything-is-broken/
 #fhn
 
 2026-09-08 20:16:41 2025–present global memory supply shortage - Wikipedia https://en.wikipedia.org/wiki/2025%E2%80%93present_global_memory_supply_shortage
+
+2026-09-11 22:43:06 https://github.com/Isilsolme/dsh-anthropic-fonts/blob/main/fonts/AnthropicSerifWebText.ttf
+
+<a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_jcfxirve_0_AnthropicSerifWebText.ttf" class="md-attach md-attach-file-link" target="_blank">Archive</a>
