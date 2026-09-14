@@ -832,3 +832,7 @@ Everything is broken https://danluu.com/everything-is-broken/
 2026-09-12 20:09:48 A Design Space Exploration of Async/Await https://cel.cs.brown.edu/blog/design-space-async-await/
 
 #fhn
+
+2026-09-14 19:44:55 https://www.vals.ai/blogs/fable-solves-cyphral-distich Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher
+
+#fhn
