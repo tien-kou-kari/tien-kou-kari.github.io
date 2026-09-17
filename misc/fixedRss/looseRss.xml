@@ -6,6 +6,39 @@
     <atom:link href="https://tien-kou-kari.github.io/rss?periodType=loose&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou No Tags: Noise, Silence Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou - 2026-09-17_21.14.05</title>
+        <link>https://tien-kou-kari.github.io/misc/tg/2026-09-17/2026-09-17_21.14.05</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-09-17/2026-09-17_21.14.05</guid>
+        <pubDate>Thu, 17 Sep 2026 21:14:05 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/usr_bin_cat" title="Telegram PeerChannel handle: usr_bin_cat" data-title="tg:usr_bin_cat">Cat Ch.</a> (<span class="tg-author">webRTCCat | Present Day, Present Time</span>)
+
+    <span class="tg-timestamp">2026-09-17T20:23:57+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">我觉得必应中文，百度和 360 搜索应该改名叫搜狐，因为搜出来前几条经常是银狐</div>
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou - 2026-09-14_19.44.55</title>
         <link>https://tien-kou-kari.github.io/SlipBox/2026-09-14_19.44.55</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-09-14_19.44.55</guid>
@@ -212,48 +245,6 @@ experimental: pnpm v12.4 can install Rust and Python dependencies too. So in a m
   <div class="principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p><a href="https://github.com/Isilsolme/dsh-anthropic-fonts/blob/main/fonts/AnthropicSerifWebText.ttf" target="_blank">https://github.com/Isilsolme/dsh-anthropic-fonts/blob/main/fonts/AnthropicSerifWebText.ttf</a></p>
 <p><a tien-kou-marker-for-url-prefix-replace="1" href="https://tien-kou-kari.github.io/miscMedia/SlipBox_jcfxirve_0_AnthropicSerifWebText.ttf" class="md-attach md-attach-file-link" target="_blank">Archive</a></p>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-09-11_18.31.53</title>
-        <link>https://tien-kou-kari.github.io/misc/tg/2026-09-11/2026-09-11_18.31.53</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-09-11/2026-09-11_18.31.53</guid>
-        <pubDate>Fri, 11 Sep 2026 18:31:53 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>然后第二天炸开花是吧</p>
-
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/solidot" title="Telegram PeerChannel handle: solidot" data-title="tg:solidot">Solidot</a>
-
-    <span class="tg-timestamp">2026-09-10T20:40:15+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://www.solidot.org/story?sid=85338"><b>微软九月例行更新修复近千个 Bug</b></a>
-
-2026-09-10 19:42 by 梦侦探
-
-在 AI 辅助发现 bug 的时代，主要操作系统每个月修复的 bug 数都在飙升。微软周二释出了九月例行安全更新，总共修复了 974 个 bug，数量为史上最多，今年的安全补丁数已超过 2600。最新补丁包括了 2 个正被利用的提权 0day 漏洞 CVE-2026-81963 和 CVE-2026-85880，113 个 bug 被列为高危，438 个提权 bug，19 个安全功能绕过 bug，258 个远程代码执行 bug，173 个信息泄露 bug，56 个拒绝服务 bug，16 个欺骗 bug。比较严重的 bug 包括存在于 Windows Server 2012 以上版本 和 Windows 10 的 DNS 漏洞 CVE-2026-69730，未经身份验证的攻击者只需向受影响系统发送特制数据包即可利用该漏洞；另一个是 Windows Shell 程代码执行 bug CVE-2026-69829，威胁评分 9.8.10，极其容易利用。
-
-<a href="https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/">https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/</a>
-
-#安全</div>
-    </div></div>
-  </div>
 
 
 </div>
