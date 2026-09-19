@@ -838,3 +838,7 @@ Everything is broken https://danluu.com/everything-is-broken/
 #fhn
 
 2026-09-19 17:51:17 https://app.fxtwitter.com/ Horizon Alpha，一个仿官方Twitter/X界面的社交媒体替代前端，支持Twitter/X，据称也支持Mastodon、Bluesky、Threads、Tiktok等。没有开源也未曾公开宣发。
+
+2026-09-19 20:06:46 GPT-6 Astra Solves a WWI German Radio Cipher - prinz https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio
+
+#fhn 人们继续用GenAI破解更多历史上未解开的密文
