@@ -836,3 +836,5 @@ Everything is broken https://danluu.com/everything-is-broken/
 2026-09-14 19:44:55 https://www.vals.ai/blogs/fable-solves-cyphral-distich Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher
 
 #fhn
+
+2026-09-19 17:51:17 https://app.fxtwitter.com/ Horizon Alpha，一个仿官方Twitter/X界面的社交媒体替代前端，支持Twitter/X，据称也支持Mastodon、Bluesky、Threads、Tiktok等。没有开源也未曾公开宣发。
