@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <base href="." />
+      <link rel="stylesheet" href="about:blank" title="Tien-kou Builtin Style" />
+    <link rel="alternate stylesheet" href="about:blank" title="Tien-kou Empty Style (for customization)" />
+    <title>misc/tg/2026-09-19/2026-09-19_20.17.49 - Tien-kou</title>
+    
+  </head>
+  <body>
+    <div id="tkRootWrapper" class="tien-kou-page">
+      <style type="text/css">
+        #tkRootWrapper {
+          container-name: tien-kou-page;
+          container-type: inline-size;
+        }
+      </style>
+      <div id="homeLinkWrapper" class="home-link-wrapper" style="margin-top: 0.8rem; margin-bottom: 1.2rem; margin-left: 1rem;;">
+        <a href="/">Tien-kou <span lang="ja-JP">(仮)</span>.</a>
+      </div>
+      <script type="text/javascript">
+        function insertAfter(newElement, referenceElement) {
+          if (!newElement || !referenceElement) {
+              return false;
+          }
+          if (!referenceElement.parentNode) {
+              return false;
+          }
+          
+          var parent = referenceElement.parentNode;
+          if (referenceElement.nextSibling) {
+              parent.insertBefore(newElement, referenceElement.nextSibling);
+          } else {
+              parent.appendChild(newElement);
+          }
+          
+          return true;
+        }
+
+        if (location.search && location.search != '?') {
+          var alertStaticQueryStrEl = document.createElement('div');
+          alertStaticQueryStrEl.setAttribute('class', 'alert alert-primary');
+          alertStaticQueryStrEl.setAttribute('role', 'alert');
+          alertStaticQueryStrEl.innerText = 'Warn: you are viewing a static version of this site. The query string in the URL will not work. Instead, the site will behave if no query is provided.';
+          var alertStaticQueryStrBrEl = document.createElement('br');
+          var alertStaticQueryStrBr2El = document.createElement('br');
+          alertStaticQueryStrEl.appendChild(alertStaticQueryStrBrEl);
+          alertStaticQueryStrEl.appendChild(alertStaticQueryStrBr2El);
+          insertAfter(alertStaticQueryStrEl, document.getElementById('homeLinkWrapper'));
+        }
+      </script><style type="text/css" title="Tien-kou Empty Style (for customization)">
+</style>
+<noscript>
+  <style type="text/css" title="Tien-kou Builtin Style">
+    
+
+/* cookie has 4096 bytes per site limit, so be compact */
+html {color-scheme: light dark;}
+#tkRootWrapper {text-autospace: normal;}
+
+img,svg,video { max-width: 100%; display: block; }
+
+body { font-family: System UI; font-size: 0.75rem; }
+main {
+  max-width: min(80ch, 100% - 2ch);
+  max-width: min(40rem, 100% - 2rem);
+}
+
+p { margin-top: 0.32rem; margin-bottom: 0.32rem; }
+p:first-child { margin-top: 0.16rem; }
+
+.white-space-preserve { white-space-collapse: preserve; }
+
+div.principal-content { /*margin-top: 0.5rem;*/ }
+div.one-in-seq-wrapper {
+  margin-inline-start: 0.4rem;
+  max-width: 96%;
+  max-width: max(96%, 100% - 1rem);
+}
+
+/**/
+
+table.tg-wrapper-layout {
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  min-width: 10rem;
+}
+
+table.tg-wrapper-layout,
+th.tg-wrapper-layout,
+td.tg-wrapper-layout { border: 2px ridge lightgrey; border-collapse: collapse; }
+
+table.tg-involvement-layout { margin-left: 0.3rem; margin-top: 0.5rem; min-width: 6rem; }
+table.tg-involvement-layout,
+th.tg-involvement-layout,
+td.tg-involvement-layout { border: 2px ridge lightgrey; border-collapse: collapse; }
+
+table.tg-websummary-layout { margin-left: 0.3rem; margin-top: 0.5rem; min-width: 6rem; }
+table.tg-websummary-layout,
+th.tg-websummary-layout,
+td.tg-websummary-layout { border: 2px ridge lightgrey; border-collapse: collapse; }
+table.tg-wrapper-layout a {
+  filter: brightness(5) contrast(0.7) saturate(0.6);
+  text-decoration: underline dashed;
+}
+.tg-img, .tg-video { max-width: 20rem; max-height: 40rem; }
+
+/**/
+
+table.group-layout {
+  margin-left: 0.3rem;
+  margin-top: 0.5rem;
+  min-width: 10rem;
+}
+table.group-layout,
+th.group-layout,
+td.group-layout {
+  border: 2px ridge lightgrey;
+  border-collapse: collapse;
+}
+td.group-ref-primary.group-ref-scroll .principal-content { max-height: 20rem; overflow-y: scroll; }
+
+h1, h2, h3 { color: #2c3e50; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+a.tag-link { }
+.tag-wrapper { margin-right: 0.6rem; }
+a.secondary {
+  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */
+  filter: brightness(3) contrast(0.26);
+  text-decoration: underline dotted;
+}
+
+.tidbit-value.white-space-preserve { white-space: pre-wrap; font-family: monospace; }
+.tidbit-value { }
+.tidbit-key {
+  font-weight: bold;
+  flex-shrink: 1;
+  margin-inline-end: 0.6rem;
+  min-width: 7.6rem;
+}
+.tidbit-key::after { content: ': '; }
+.tidbit-pair { display: flex; }
+
+blockquote {
+  margin: 0.1rem 0;
+  padding: 0.1rem 0.2rem 0.1rem 0.8rem;
+  background-color: #fafafa;
+  border: 1px solid #6e6e6e;
+  border-left: 5px solid #6e6e6e;
+}
+
+a.md-attach { display: block; width: fit-content; }
+.md-attach img { display: inline; }
+
+hr.sep-in-seq { margin-block-start: 0.75rem; margin-block-end: 0.75rem; }
+
+div.ref-marker {
+  letter-spacing: -0.08rem;
+  margin-right: 0.4rem;
+  font-weight: bold;
+  margin-top: 0.8rem;
+  display: inline-block;
+}
+
+div.asset-info-line { margin-bottom: 0.2rem; }
+
+pre:has(> code) {
+  border: 1px solid #cccccc;
+  padding: 0.8rem;
+  background: #f5f5f5;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+
+  </style>
+</noscript><script type="text/javascript">
+  // credit https://github.com/dankogai/js-base64 BSD-3-Clause
+  (function (root, factory) {
+      if (typeof define === 'function' && define.amd) {
+        // AMD. Register as an anonymous module.
+        define([], function () { factory(root); });
+      } else factory(root);
+      // node.js has always supported base64 conversions, while browsers that support
+      // web workers support base64 too, but you may never know.
+    })(typeof exports !== "undefined" ? exports : this, function (root) {
+    if (root.atob) {
+      // Some browsers' implementation of atob doesn't support whitespaces
+      // in the encoded string (notably, IE). This wraps the native atob
+      // in a function that strips the whitespaces.
+      // The original function can be retrieved in atob.original
+      try {
+        root.atob(" ");
+      } catch (e) {
+        root.atob = (function (atob) {
+          var func = function (string) {
+            return atob(String(string).replace(/[\t\n\f\r ]+/g, ""));
+          };
+          func.original = atob;
+          return func;
+        })(root.atob);
+      }
+      return;
+    }
+
+    // base64 character set, plus padding character (=)
+    var b64 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
+      // Regular expression to check formal correctness of base64 encoded strings
+      b64re = /^(?:[A-Za-z\d+\/]{4})*?(?:[A-Za-z\d+\/]{2}(?:==)?|[A-Za-z\d+\/]{3}=?)?$/;
+
+    root.btoa = function (string) {
+      string = String(string);
+      var bitmap, a, b, c,
+        result = "", i = 0,
+        rest = string.length % 3; // To determine the final padding
+
+      for (; i < string.length;) {
+        if ((a = string.charCodeAt(i++)) > 255
+          || (b = string.charCodeAt(i++)) > 255
+          || (c = string.charCodeAt(i++)) > 255)
+          throw new TypeError("Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range.");
+
+        bitmap = (a << 16) | (b << 8) | c;
+        result += b64.charAt(bitmap >> 18 & 63) + b64.charAt(bitmap >> 12 & 63)
+          + b64.charAt(bitmap >> 6 & 63) + b64.charAt(bitmap & 63);
+      }
+
+      // If there's need of padding, replace the last 'A's with equal signs
+      return rest ? result.slice(0, rest - 3) + "===".substring(rest) : result;
+    };
+
+    root.atob = function (string) {
+      // atob can work with strings with whitespaces, even inside the encoded part,
+      // but only \t, \n, \f, \r and ' ', which can be stripped.
+      string = String(string).replace(/[\t\n\f\r ]+/g, "");
+      if (!b64re.test(string))
+        throw new TypeError("Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.");
+
+      // Adding the padding if missing, for semplicity
+      string += "==".slice(2 - (string.length & 3));
+      var bitmap, result = "", r1, r2, i = 0;
+      for (; i < string.length;) {
+        bitmap = b64.indexOf(string.charAt(i++)) << 18 | b64.indexOf(string.charAt(i++)) << 12
+          | (r1 = b64.indexOf(string.charAt(i++))) << 6 | (r2 = b64.indexOf(string.charAt(i++)));
+
+        result += r1 === 64 ? String.fromCharCode(bitmap >> 16 & 255)
+          : r2 === 64 ? String.fromCharCode(bitmap >> 16 & 255, bitmap >> 8 & 255)
+            : String.fromCharCode(bitmap >> 16 & 255, bitmap >> 8 & 255, bitmap & 255);
+      }
+      return result;
+    };
+  });
+
+  var b64urlsafe_regex_slash = /\//g;
+  var b64urlsafe_regex_plus = /\+/g;
+  var b64urlsafe_regex_undersc = /_/g;
+  var b64urlsafe_regex_hyphen = /-/g;
+
+  function b64urlsafe_encode(a) {
+    return btoa(a).replace(b64urlsafe_regex_slash, '_').replace(b64urlsafe_regex_plus, '-');
+  }
+  function b64urlsafe_decode(a) {
+    return atob(a.replace(b64urlsafe_regex_undersc, '/').replace(b64urlsafe_regex_hyphen, '+'));
+  }
+
+  function setCookie(name, value, days) {
+    var expires = "";
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = "; expires=" + date.toUTCString();
+    }
+    var encodedCookieValue = encodeURIComponent(value);
+    if (encodedCookieValue.length >= 4090) {
+      alert("error: encoded cookie value reaches 4090 bytes.");
+      return;
+    }
+    document.cookie = name + "=" + encodedCookieValue + expires + "; path=/";
+  }
+  function removeCookie(name) {
+    document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+  }
+  function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) == 0) return decodeURIComponent(c.substring(nameEQ.length, c.length));
+    }
+    return null;
+  }
+  function getElement(id) {
+    return document.getElementById(id);
+  }
+
+  var tkDefaultStyle = "\n\n/* cookie has 4096 bytes per site limit, so be compact */\nhtml {color-scheme: light dark;}\n#tkRootWrapper {text-autospace: normal;}\n\nimg,svg,video { max-width: 100%; display: block; }\n\nbody { font-family: System UI; font-size: 0.75rem; }\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\np { margin-top: 0.32rem; margin-bottom: 0.32rem; }\np:first-child { margin-top: 0.16rem; }\n\n.white-space-preserve { white-space-collapse: preserve; }\n\ndiv.principal-content { /*margin-top: 0.5rem;*/ }\ndiv.one-in-seq-wrapper {\n  margin-inline-start: 0.4rem;\n  max-width: 96%;\n  max-width: max(96%, 100% - 1rem);\n}\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout { border: 2px ridge lightgrey; border-collapse: collapse; }\n\ntable.tg-involvement-layout { margin-left: 0.3rem; margin-top: 0.5rem; min-width: 6rem; }\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout { border: 2px ridge lightgrey; border-collapse: collapse; }\n\ntable.tg-websummary-layout { margin-left: 0.3rem; margin-top: 0.5rem; min-width: 6rem; }\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout { border: 2px ridge lightgrey; border-collapse: collapse; }\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n.tg-img, .tg-video { max-width: 20rem; max-height: 40rem; }\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\ntd.group-ref-primary.group-ref-scroll .principal-content { max-height: 20rem; overflow-y: scroll; }\n\nh1, h2, h3 { color: #2c3e50; border-bottom: 1px solid #eee; padding-bottom: 5px; }\na.tag-link { }\n.tag-wrapper { margin-right: 0.6rem; }\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n.tidbit-value.white-space-preserve { white-space: pre-wrap; font-family: monospace; }\n.tidbit-value { }\n.tidbit-key {\n  font-weight: bold;\n  flex-shrink: 1;\n  margin-inline-end: 0.6rem;\n  min-width: 7.6rem;\n}\n.tidbit-key::after { content: ': '; }\n.tidbit-pair { display: flex; }\n\nblockquote {\n  margin: 0.1rem 0;\n  padding: 0.1rem 0.2rem 0.1rem 0.8rem;\n  background-color: #fafafa;\n  border: 1px solid #6e6e6e;\n  border-left: 5px solid #6e6e6e;\n}\n\na.md-attach { display: block; width: fit-content; }\n.md-attach img { display: inline; }\n\nhr.sep-in-seq { margin-block-start: 0.75rem; margin-block-end: 0.75rem; }\n\ndiv.ref-marker {\n  letter-spacing: -0.08rem;\n  margin-right: 0.4rem;\n  font-weight: bold;\n  margin-top: 0.8rem;\n  display: inline-block;\n}\n\ndiv.asset-info-line { margin-bottom: 0.2rem; }\n\npre:has(> code) {\n  border: 1px solid #cccccc;\n  padding: 0.8rem;\n  background: #f5f5f5;\n  white-space: pre-wrap;\n  word-wrap: break-word;\n}\n\n"
+
+  var tkStyleContent = getCookie('tkStyle');
+  var tkStyleElement = document.createElement('style');
+  tkStyleElement.type = 'text/css';
+  tkStyleElement.setAttribute('title', 'Tien-kou Builtin Style');
+
+  if (tkStyleContent) {
+    var tkStyleContentExpanded = tkStyleContent.replace(/___TK_USE_DEFAULT_STYLE_HERE___/g, tkDefaultStyle);
+    // If cookie exists, use its value
+    if (tkStyleElement.styleSheet) {
+      // For IE
+      tkStyleElement.styleSheet.cssText = tkStyleContentExpanded;
+    } else {
+      tkStyleElement.appendChild(document.createTextNode(tkStyleContentExpanded));
+    }
+  } else {
+    // If no cookie, use default but don't save to cookie
+    if (tkStyleElement.styleSheet) {
+      tkStyleElement.styleSheet.cssText = tkDefaultStyle;
+    } else {
+      tkStyleElement.appendChild(document.createTextNode(tkDefaultStyle));
+    }
+  }
+
+  // Add style to head
+  document.getElementsByTagName('head')[0].appendChild(tkStyleElement);
+
+</script>
+<main>
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <details style="margin-bottom: 0.4rem" lang="en">
+      <summary>...</summary>
+      <div class="tidbit-pair"><div class="tidbit-key">Parent</div><div class="tidbit-value">
+        <div class="asset-parent-line"><a class="secondary" href="/misc/tg/2026-09-19">misc/tg/2026-09-19/</a>
+        </div>
+      </div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">Locator</div><div class="tidbit-value white-space-preserve">guarded/misc/tg/2026-09-19/2026-09-19_20.17.49</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">Locator (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">guarded/misc/tg/2026-09-19/2026-09-19_20.17.49</div></div>
+      
+      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPathUnencoded</div><div class="tidbit-value white-space-preserve">/misc/tg/2026-09-19/2026-09-19_20.17.49</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPathUnencoded (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/misc/tg/2026-09-19/2026-09-19_20.17.49</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath</div><div class="tidbit-value white-space-preserve">/misc/tg/2026-09-19/2026-09-19_20.17.49</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/misc/tg/2026-09-19/2026-09-19_20.17.49</div></div>
+        <div class="tidbit-pair"><div class="tidbit-key">PublishTime</div><div class="tidbit-value white-space-preserve">2026-09-19 20:17:49 UTC+8</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1789820276059</div></div>
+    </details><p>乐</p>
+
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/laozhoubuluo_opcenter" title="Telegram PeerChannel handle: laozhoubuluo_opcenter" data-title="tg:laozhoubuluo_opcenter">老周部落运营中心</a>
+      <table class="tg-involvement-layout"><tr class="tg-involvement-layout"><td  class="tg-involvement-layout tg-involvement-type">
+      <span class="tg-involvement-type">[Re]</span>
+      </td><td class="tg-involvement-layout tg-involvement-body"><a target="_blank" href="https://t.me/laozhoubuluo_opcenter" title="Telegram PeerChannel handle: laozhoubuluo_opcenter" data-title="tg:laozhoubuluo_opcenter">老周部落运营中心</a>
+
+    <span class="tg-timestamp">2026-09-19T19:11:35+08:00</span>
+      
+        <table class="tg-websummary-layout"><tr class="tg-websummary-layout"><td class="tg-websummary-layout">
+          <a target="_blank" href="https://telegra.ph/%E5%93%AA%E4%BA%9B%E7%9F%AD%E7%AF%87%E7%A7%91%E5%B9%BB%E5%B0%8F%E8%AF%B4%E8%AE%A9%E4%BD%A0%E9%9C%87%E6%83%8A%E4%B8%94%E5%BF%B5%E5%BF%B5%E4%B8%8D%E5%BF%98-09-19">Telegraph</a>
+          <h6>哪些短篇科幻小说让你震惊且念念不忘？</h6>
+          <p>外星文明第一次抵达地球时，没有摧毁舰队，没有广播素数，也没有问候“地球人，你们好”。</p>
+        </td></tr></table>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://telegra.ph/哪些短篇科幻小说让你震惊且念念不忘-09-19"><b>哪些短篇科幻小说让你震惊且念念不忘？</b></a>
+
+<b>▎</b><a href="https://www.zhihu.com/question/41047159/answer/2080319773230081417"><b>Source</b></a></div>
+      </td></tr></table>
+
+    <span class="tg-timestamp">2026-09-19T19:26:27+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">评论区有大神用 Deepseek 老师写了一下后续
+关于太阳系主体工程例行保洁作业（第二期）的有关事项
+
+<blockquote expandable>一
+
+一百二十个标准年，折合地球时间七十四年零两个月。
+
+这段时间里，人类活得比历史上任何时期都好。预期寿命提高了十一年，极端贫困人口下降至百分之三点四，跨国战争归零——因为没有哪个国家再愿意为一片"附着物表面"投入长期预算。各国把军费转投环保与养老，理由是：既然不构成文明，就不必承担文明的开支。
+
+一位哲学家在晚年写道：被注销为霉菌，是人类集体生活质量的第一次实质性提升。
+
+这句话被印在了协调署大楼的墙上。
+
+二
+
+保洁船比验收船安静。它没有悬停，也没有白光，只是在近地轨道按工单顺序排队。下来的是两个作业单元，外形近似金属拖把，其中一个的履带上沾着别处的泥。
+
+全球直播观看人数不足三亿。
+
+作业单元落地后的第一句话是：
+
+"工单编号确认一下。第二期，表面附着物清除，标准工时四十八小时。谁是现场对接人？"
+
+没有人提"签到表"。也没有人提"纪律"。协调署第三任署长递上接待方案——那套方案是照着七十四年前的版本重印的，只改了日期。
+
+作业单元没有接。
+
+"我们不看方案。"它说，"我们看工单。工单上写的是清除。"
+
+三
+
+署长姓陈，三十九岁，是周守诚那套方法论的第三代传人，也是它最纯粹的产物。他从不发抖，从不沉默，也从不感到痛苦——不是因为他坚强，是因为这类反应从来不在他的考核指标里。
+
+他试了第一次。
+
+"作业单元同志，"他笑容诚恳，"我方对工单事实无异议，但对施工界面存在异议。我方主张，地球表面现存碳基覆盖物与主体结构存在结构性粘连，不属于常规保洁范畴，应按主体结构维修程序另行立项、另行招标。"
+
+这是周守诚留下的遗产里最锋利的一件。它不否认污渍的存在，它只把污渍改造成一个需要走流程的问题。
+
+作业单元体内闪了一下——不是光，是一盏工装指示灯。
+
+"粘连深度？"
+
+"平均一点二米，局部达七层。"
+
+"有检测报告吗？"
+
+陈署长递上。那是人类用七十三年准备的。三千四百名地质、材料、生物工程人员参与，覆盖全球二十万个采样点，结论只有一句：人类已经与地表长在一起，单独剥离的成本高于保留。​
+
+作业单元读取了四十七秒。
+
+"报告有效。"它说，"但你们搞错了一件事。"
+
+"请指正。"
+
+"我们不是发包方。"作业单元说，"我们只接单。你们要主张工单内容有误，应当向发包方提出变更申请。"
+
+"请问发包方是——"
+
+"工单系统上不显示。"它说，"我们也是接单的。"
+
+四
+
+人类花了十九个小时才找到那个"发包方"。线索在附件序号的最末端：总站已于四十一万年前完成机构改革，原"银河悬臂基础环境建设与生命工程质量监督总站"被并入一家跨星系设施管理集团；该集团下辖六个事业部，其中第四事业部负责"已注销行政区域遗留资产处置"。
+
+第四事业部的客服系统保留了自动应答。
+
+应答内容共两行：
+
+一、本事业部不受理已注销行政区域内的项目申诉。​
+二、如需现场处置，请直接联系作业单位。​
+
+页脚有一行灰色小字：请勿重复提交，重复提交将延长处理周期。
+
+也就是说，人类申诉的对象，是一个自动回复。
+
+五
+
+陈署长没有慌。他做了这一代公务员最正确的决定：把申斥转化成成本。
+
+人类不再主张自己不是智慧生命——那个身份在七十四年前就已经注销，无从翻案。这次的主张更简洁：
+
+我们很难擦，擦完可能弄坏管子。​
+
+协调署提交了《关于延长保洁作业周期的经济性论证》，核心结论是：立即清除需占用作业单元一百七十小时，超出工单预算百分之二百五十四；若延后至下一个保养周期，随着表层结构性粘连的进一步发育，综合成本将上升，但可由届时的预算覆盖。
+
+作业单元读了很久。它体内的指示灯从绿色变成黄色，又变回绿色。
+
+"这个理由，"它说，"是我今年收到的最像样的理由。"
+
+它按下了"建议留待下周期"。
+
+六
+
+当天的新闻头条是《人类再次胜利》。
+
+广场上有人放烟花，有人举旗，有人高喊"我们守住了地球"。庆祝活动持续到凌晨。三场原定的停火谈判没有恢复——因为没人再需要停火了，战争已经在七十年前就自发消亡。一家能源公司的股价因页岩气新储量创下历史新高。
+
+陈署长在办公室核对了最终回单。
+
+回单的第一栏写着作业结论：本期保洁未执行，建议留待下周期。​
+
+第二栏是处置分类。他看了两遍才看懂——分类从原来的"表面附着物（可定期清除）"，被改成了：
+
+主体结构附属惰性沉积层（随主体结构拆除时一并处理）。​
+
+他沉默了一会儿。没有说话——不是因为发现的问题不在指标里，是因为这份回单，从技术上讲，是一次升级。
+
+人类不再是能单独清除的污渍了。人类成了地球的一部分。
+
+从此以后，地球不会单独被拆。地球要跟着一起走。
+
+他打开抽屉，把周守诚留下的那张维护计划表取出来，在"可定期清除"五个字后面，用铅笔添了一行注释：
+
+本行已于本期作废。​
+
+然后他锁好抽屉，拿起电话，想通知秘书长。
+
+号码拨到一半。他想了想这次该怎么说——用哪种身份、哪套话术、哪个附件序号。
+
+想到一半，他把电话放了回去。
+
+明天再报吧。反正离下一期，还有七十四年。</blockquote></div>
+    </td></tr>
+  </table>
+
+
+</div>
+
+  </div>
+</div></main>
+    </div>
+  </body>
+</html>
