@@ -40,7 +40,7 @@
     endif
   endunless
 
-  unless asset.metadata.shouldSuppressExtInvolvement == 'true' or asset.metadata.shouldSuppressExtInvolvementAbove2 == 'true'
+  unless asset.metadata.shouldSuppressExtInvolvement == true or asset.metadata.shouldSuppressExtInvolvementAbove2 == true
     if tg.extInvolvedMessage
       if isCurrMsgProminent
         render 'inc/telegramMessageWorker.tmpl.html', tg: tg.extInvolvedMessage, asset: asset
