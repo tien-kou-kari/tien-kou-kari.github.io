@@ -842,3 +842,7 @@ Everything is broken https://danluu.com/everything-is-broken/
 2026-09-19 20:06:46 GPT-6 Astra Solves a WWI German Radio Cipher - prinz https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio
 
 #fhn 人们继续用GenAI破解更多历史上未解开的密文
+
+2026-09-20 19:36:32 Telling a Computer to Do Things · will keleher https://will-keleher.com/posts/telling-your-computer-to-do-things/
+
+#fhn 优质好文
