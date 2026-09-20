@@ -6,6 +6,54 @@
     <atom:link href="https://tien-kou-kari.github.io/rss?feedTitle=Tien-kou+Daily&amp;periodType=fixedMinutes&amp;periodNumParam=1440&amp;periodDateParam=2000-01-01T06%3A30%3A00%2B08%3A00&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou Daily No Tags: Noise, Silence Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou Daily 2026-09-20T06:30:00+08:00</title>
+        <link>https://tien-kou-kari.github.io</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-fixedMinutes-2026-09-20T06:30:00+08:00</guid>
+        <pubDate>Sun, 20 Sep 2026 06:30:00 +0800</pubDate>
+        <description><![CDATA[
+<div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-09-20_19.36.32">2026-09-20_19.36.32</a> <span>2026-09-20 19:36:32 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Telling a Computer to Do Things · will keleher <a href="https://will-keleher.com/posts/telling-your-computer-to-do-things/" target="_blank">https://will-keleher.com/posts/telling-your-computer-to-do-things/</a></p>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a> 优质好文</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-20">misc/tg/2026-09-20</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-20/2026-09-20_12.44.03">2026-09-20_12.44.03</a> <span>2026-09-20 12:44:03 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/tnews365" title="Telegram PeerChannel handle: tnews365" data-title="tg:tnews365">竹新社</a>
+
+    <span class="tg-timestamp">2026-09-20T06:03:18+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">CNN从多名知情人士独家获悉，今年美伊开战后的春季时分，美军曾收到一份由AI聊天机器人参与生成的情报报告，误指一艘在中东海域航行的中国货船（具体船只、航行时间与地点未披露）运载有核武器相关部件。美军据此一度启动武装登检拦截计划，直到最后一刻才发现情报系AI伪造并紧急叫停。一知情人士称，该情报报告“完全为假”，但“差点引发一场（中美）战争”。
+​美军特种作战司令部一名情报分析师，使用AI聊天机器人对开源情报与政府内部的机密信号情报进行汇总。在此过程中，AI发生严重“幻觉”，凭空虚构并错判了该船只的货物清单。尽管并不清楚所使用的AI是商业还是美政府版本，但一名熟悉军队与情报分析师所使用的AI系统的前政府官员指，其内部工具只是商业版AI套皮。
+该​分析师未能识别出AI的错误，反而再次利用AI将上述虚构内容格式化为一份标准的正式军事情报报告。这份报告随后在美军内部分发。
+​基于这份报告，美军迅速部署拦截行动。行动展开时，美军战机已升空，武装人员已准备登船。直到登检前夕，军方官员重新核查该报告，才发现报告虚假、由AI帮助生成，行动被紧急取消。
+美军近期大力推广AI在军内的相关使用，但熟悉情况的多名官员表示，推广情况是去中心化的，不同的政府部门使用不同安全标准下的不同AI工具，因而其相对可靠性和功能性区别很大。一知情人士透露，自从AI工具在政府内部广泛投入使用后，美国情报界因“幻觉”产生的事故并不只有以上这一例。
+（<a href="https://edition.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship">CNN</a>）</div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou Daily 2026-09-19T06:30:00+08:00</title>
         <link>https://tien-kou-kari.github.io</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-fixedMinutes-2026-09-19T06:30:00+08:00</guid>
@@ -621,46 +669,6 @@ experimental: pnpm v12.4 can install Rust and Python dependencies too. So in a m
 <a href="https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/">https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/</a>
 
 #安全</div>
-    </div></div>
-  </div>
-
-
-</div>
-</div>
-</div>
-
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou Daily 2026-09-10T06:30:00+08:00</title>
-        <link>https://tien-kou-kari.github.io</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-fixedMinutes-2026-09-10T06:30:00+08:00</guid>
-        <pubDate>Thu, 10 Sep 2026 06:30:00 +0800</pubDate>
-        <description><![CDATA[
-<div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-10">misc/tg/2026-09-10</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-10/2026-09-10_16.54.52">2026-09-10_16.54.52</a> <span>2026-09-10 16:54:52 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/rynif" title="Telegram PeerChannel handle: rynif" data-title="tg:rynif">&amp;&#39;a ::rynco::UntitledChannel</a> (<span class="tg-author">Rynco Maekawa</span>)
-
-    <span class="tg-timestamp">2026-09-10T10:02:25+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://fixupx.com/alright_mark/status/2097800377080889409?s=20">https://fixupx.com/alright_mark/status/2097800377080889409?s=20</a>
-继苍蝇跳 YMCA、苍蝇打节奏光剑、苍蝇看烂苹果、苍蝇打 Doom 之后，我们迎来了苍蝇开车</div>
-      
-        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
-          <a target="_blank" href="https://fixupx.com/alright_mark/status/2097800377080889409?s=20">🧵 Thread • FixupX</a>
-          <h6>Breg Grockman (@alright_mark)</h6>
-          <p>the fly is learning to drive</p>
-            <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-5840226392744857796.png" title="Telegram wepbage media id 5840226392744857796" alt="A picture related to current telegram webpage message. No more alt detail for now." />
-        </div></div></div>
     </div></div>
   </div>
 
