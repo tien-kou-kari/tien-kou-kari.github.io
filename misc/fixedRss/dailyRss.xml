@@ -6,6 +6,138 @@
     <atom:link href="https://tien-kou-kari.github.io/rss?feedTitle=Tien-kou+Daily&amp;periodType=fixedMinutes&amp;periodNumParam=1440&amp;periodDateParam=2000-01-01T06%3A30%3A00%2B08%3A00&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou Daily No Tags: Noise, Silence Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou Daily 2026-09-22T06:30:00+08:00</title>
+        <link>https://tien-kou-kari.github.io</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-fixedMinutes-2026-09-22T06:30:00+08:00</guid>
+        <pubDate>Tue, 22 Sep 2026 06:30:00 +0800</pubDate>
+        <description><![CDATA[
+<div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-09-22_20.37.07">2026-09-22_20.37.07</a> <span>2026-09-22 20:37:07 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Nobody pays for open source. We can force them to.  <a href="https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/" target="_blank">https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/</a></p>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a> 一个开源经济学观点</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-22">misc/tg/2026-09-22</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-22/2026-09-22_20.20.10">2026-09-22_20.20.10</a> <span>2026-09-22 20:20:10 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/rinrinmoe" title="Telegram PeerChannel handle: rinrinmoe" data-title="tg:rinrinmoe">凛の碎碎念</a>
+
+    <span class="tg-timestamp">2026-09-22T16:11:23+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">一觉醒来，我穿越到了剑与魔法的异世界。
+
+“宿主，我是你的系统。”
+
+哦哦哦，穿越标配系统，这次也给我用上了，不是？什么叫数据库管理系统？？你tm到底哪门子系统？？Mysql5.1 你这什么破版本？
+
+算了算了，SHOW DATABASES; 我脑子里刚想了一下这一行指令，只见系统页面上闪过
+
+world, heaven, underworld……
+
+卧槽？？ 那 USE world;  
+
+[今日最大查询配额 (max_user_connections / query_limit) 已耗尽，明日 00:00 刷新]
+
+草，一天只能一句是吧？
+
+从此，这一天一句的 SQL 成为了我唯一的希望
+
+今天 SELECT 探隐藏神器，明天 UPDATE 偷改爆率，靠着一天一句 SQL，我混得顺风顺水
+
+直到最终战。魔神降临，队友全部战死。
+
+零点了配额刷新。
+
+这是我赌上一切的绝杀 UPDATE boss SET hp = 0;
+
+[ERROR 1142: UPDATE command denied to user 'guest']
+[今日配额已耗尽：0/1]
+
+啊？？？你现在告诉我没权限？？
+
+魔神的攻势丝毫没有停歇，巨刃当头劈落
+
+濒死刹那，我突然想起了前世那个上古禁术 CVE-2012-2122
+
+for i in {1..500}; do mysql -u root --password=fuck; done
+
+刀锋贴脸的瞬间，我看到了那行绿字
+
+Welcome, root</div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-22">misc/tg/2026-09-22</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-22/2026-09-22_17.11.35">2026-09-22_17.11.35</a> <span>2026-09-22 17:11:35 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/plumzme" title="Telegram PeerChannel handle: plumzme" data-title="tg:plumzme">普拉姆的胡言乱语</a>
+
+    <span class="tg-timestamp">2026-09-22T08:24:20+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-6165469444138799355.png" title="Telegram media id 6165469444138799355" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-22">misc/tg/2026-09-22</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-22/2026-09-22_12.22.26">2026-09-22_12.22.26</a> <span>2026-09-22 12:22:26 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>虽然hn都在骂但是X这无所顾忌一锤砸破语言障壁（reddit同样，甚至更为重要因为它是多语言版本同时开放给Google索引）确实在互联网全球交流中引入了特别aggressive的新变化。</p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/usr_bin_cat" title="Telegram PeerChannel handle: usr_bin_cat" data-title="tg:usr_bin_cat">Cat Ch.</a> (<span class="tg-author">webRTCCat | Present Day, Present Time</span>)
+
+    <span class="tg-timestamp">2026-09-22T11:41:15+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">我说马一龙加的最好的功能是大巴别塔自动翻译，沉重打击了幽默牢日，第二好的功能是社区笔记，为蓝标寻找失落的母亲，有没有同意的？</div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou Daily 2026-09-21T06:30:00+08:00</title>
         <link>https://tien-kou-kari.github.io</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-fixedMinutes-2026-09-21T06:30:00+08:00</guid>
@@ -633,61 +765,6 @@ I gave him a couple hundred common english words to choose from + punctuation</p
           <h6></h6>
           <p></p>
         </div></div></div>
-    </div></div>
-  </div>
-
-
-</div>
-</div>
-</div>
-
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou Daily 2026-09-12T06:30:00+08:00</title>
-        <link>https://tien-kou-kari.github.io</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-fixedMinutes-2026-09-12T06:30:00+08:00</guid>
-        <pubDate>Sat, 12 Sep 2026 06:30:00 +0800</pubDate>
-        <description><![CDATA[
-<div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-09-12_20.09.48">2026-09-12_20.09.48</a> <span>2026-09-12 20:09:48 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>A Design Space Exploration of Async/Await <a href="https://cel.cs.brown.edu/blog/design-space-async-await/" target="_blank">https://cel.cs.brown.edu/blog/design-space-async-await/</a></p>
-<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a></p>
-
-
-</div>
-</div>
-</div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-12">misc/tg/2026-09-12</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-12/2026-09-12_11.58.44">2026-09-12_11.58.44</a> <span>2026-09-12 11:58:44 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/rynif" title="Telegram PeerChannel handle: rynif" data-title="tg:rynif">&amp;&#39;a ::rynco::UntitledChannel</a> (<span class="tg-author">Rynco Maekawa</span>)
-
-    <span class="tg-timestamp">2026-09-12T10:52:43+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://twitter.com/object_nullll">吊顶高松灯</a>:
-：Python 社区迎来了一个新的包管理器
-：（看着十几种包管理器方案）这有什么奇怪的
-：它是 pnpm
-
-<a href="https://twitter.com/object_nullll/status/2098596441921106346">https://twitter.com/object_nullll/status/2098596441921106346</a>
-
-<blockquote expandable><a href="https://twitter.com/pnpmjs">pnpm</a>:
-experimental: pnpm v12.4 can install Rust and Python dependencies too. So in a multi-language repository you get js packages, crates, and pypi packages downloaded concurrently.
-
-<a href="https://pnpm.io/blog/releases/12.4">pnpm.io/blog/releases/…</a>
-
-<a href="https://twitter.com/pnpmjs/status/2098426330194792669">https://twitter.com/pnpmjs/status/2098426330194792669</a></blockquote></div>
     </div></div>
   </div>
 
