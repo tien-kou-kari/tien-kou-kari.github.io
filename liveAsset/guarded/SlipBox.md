@@ -846,3 +846,7 @@ Everything is broken https://danluu.com/everything-is-broken/
 2026-09-20 19:36:32 Telling a Computer to Do Things · will keleher https://will-keleher.com/posts/telling-your-computer-to-do-things/
 
 #fhn 优质好文
+
+2026-09-22 20:37:07 Nobody pays for open source. We can force them to.  https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/
+
+#fhn 一个开源经济学观点
