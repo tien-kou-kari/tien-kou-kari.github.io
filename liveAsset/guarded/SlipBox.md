@@ -868,3 +868,5 @@ Related: https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in
 2026-09-25 20:23:32 Tech needs humanists more than ever – Fabrizio Ferri Benedetti https://passo.uno/tech-needs-humanists-more-than-ever/
 
 #fhn
+
+2026-09-25 21:30:01 List of surviving ancient ships - Wikipedia https://en.wikipedia.org/wiki/List_of_surviving_ancient_ships
