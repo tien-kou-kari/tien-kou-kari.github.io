@@ -858,3 +858,5 @@ Everything is broken https://danluu.com/everything-is-broken/
 Related: https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in
 
 <a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_nffm02cu_0_Page%20by%20SE%20Gyges%20%EF%BD%9C%20@segyges.bsky.social%20(9_25_2026%2012%EF%BC%9A43%EF%BC%9A48%20PM).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_nffm02cu_0_Page by SE Gyges ｜ @segyges.bsky.social (9_25_2026 12：43：48 PM).html</a>
+
+2026-09-25 12:54:42 repost=guarded/SlipBox/2025-09-15_01.43.43 居然十天前忘了庆祝本站的生日！
