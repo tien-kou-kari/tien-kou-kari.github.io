@@ -864,3 +864,7 @@ Related: https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in
 2026-09-25 20:11:39 Avoid smooth spinners, use low-FPS spinners! https://nh2.me/low-fps-spinners/low-fps-spinners.html
 
 #fhn 设计网页时偏好用低FPS、纯CSS的旋转加载动画以节约浏览器资源
+
+2026-09-25 20:23:32 Tech needs humanists more than ever – Fabrizio Ferri Benedetti https://passo.uno/tech-needs-humanists-more-than-ever/
+
+#fhn
