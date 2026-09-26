@@ -870,3 +870,7 @@ Related: https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in
 #fhn
 
 2026-09-25 21:30:01 List of surviving ancient ships - Wikipedia https://en.wikipedia.org/wiki/List_of_surviving_ancient_ships
+
+2026-09-26 12:12:49 Plan mode is dead | Ayman Nadeem https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html
+
+#fhn plan赶不上后续不断探索的新发现可能引出的更优方案，反而污染context
