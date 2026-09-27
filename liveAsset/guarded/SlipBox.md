@@ -876,3 +876,9 @@ Related: https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in
 #fhn plan赶不上后续不断探索的新发现可能引出的更优方案，反而污染context
 
 2026-09-27 10:41:41 【朝鲜教育】生成式人工智能技术与应用（龙南山电视台·混写+中文字幕） https://www.bilibili.com/video/BV1ZNhd6NE16
+
+2026-09-27 20:13:49 What is the size of Yemen? (2024) https://theborys.substack.com/p/what-is-the-size-of-yemen
+
+#fhn 也门的面积，很长一段时间直到最近在各主流资料中的数据都与实际情况有巨大偏差，这来源于对两个历史上错误数据不加验证的持续沿用…
+
+> Although I do hope too that people don't lose their sense of meaning and curiosity too much, it's worth keeping in mind that this article was published in 2024 which was a very different world from now. Curiosity requires energy, and it'll be hard for a creature relying on energy for survival to justify using their own energy for some activity when there's a more energy-efficient way to reach a specific goal. But just like going to the gym makes your body healthier despite the fact that this requires energy, thinking on your own will be increasingly important for maintaining a healthy mind and the sense of self.
