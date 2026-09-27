@@ -874,3 +874,5 @@ Related: https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in
 2026-09-26 12:12:49 Plan mode is dead | Ayman Nadeem https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html
 
 #fhn plan赶不上后续不断探索的新发现可能引出的更优方案，反而污染context
+
+2026-09-27 10:41:41 【朝鲜教育】生成式人工智能技术与应用（龙南山电视台·混写+中文字幕） https://www.bilibili.com/video/BV1ZNhd6NE16
