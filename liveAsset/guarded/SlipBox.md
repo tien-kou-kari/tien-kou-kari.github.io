@@ -882,3 +882,13 @@ Related: https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in
 #fhn 也门的面积，很长一段时间直到最近在各主流资料中的数据都与实际情况有巨大偏差，这来源于对两个历史上错误数据不加验证的持续沿用…
 
 > Although I do hope too that people don't lose their sense of meaning and curiosity too much, it's worth keeping in mind that this article was published in 2024 which was a very different world from now. Curiosity requires energy, and it'll be hard for a creature relying on energy for survival to justify using their own energy for some activity when there's a more energy-efficient way to reach a specific goal. But just like going to the gym makes your body healthier despite the fact that this requires energy, thinking on your own will be increasingly important for maintaining a healthy mind and the sense of self.
+
+2026-09-29 10:24:32 chromium.woolyss.com shuts down permanently on 31 august 2026 after nineteen years
+
+https://woolyss.com/410/
+https://www.reddit.com/r/browsers/comments/1tzq9ba/chromiumwoolysscom_shutting_down/
+https://github.com/AmirAgassi/chromiumbuilds
+
+<a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_p4tgdkgs_0_image.png" class="md-attach md-attach-img-link" target="_blank">
+            <img tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_p4tgdkgs_0_image.png" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
+        </a>
