@@ -5,5 +5,1207 @@
     <link>https://tien-kou-kari.github.io</link>
     <atom:link href="https://tien-kou-kari.github.io/rss?periodType=everyMonth&amp;periodNumParam=1440&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou Monthly No Tags: Noise, Silence Ancestors: misc/, SlipBox/, TheDesk/</description>
+      <item>
+        <title>Tien-kou Monthly 2026-10-02T00:00:00+08:00</title>
+        <link>https://tien-kou-kari.github.io</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-everyMonth-2026-10-02T00:00:00+08:00</guid>
+        <pubDate>Fri, 02 Oct 2026 00:00:00 +0800</pubDate>
+        <description><![CDATA[
+<div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-09-30_17.01.13">2026-09-30_17.01.13</a> <span>2026-09-30 17:01:13 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>最近美股是不是又涨了，三星和SK海力士的HBM到底谁更强，半导体周期是不是又要来了，台积电先进制程现在排到哪了，ASML的EUV今年交付多少台，英特尔18A到底能不能量产，英伟达B300、B100、B200、H100、H200、A100、V100、A800、H800 算子更新了吗，摩尔线程、寒武纪、海光、昇腾、燧原、沐曦、天数、芯原、地平线、黑芝麻、Mobileye、高通、联发科、博通的 GPU 适配了吗，AMD、Intel、NVIDIA、台积电、三星、SK海力士、美光、铠侠、西部数据、希捷、闪迪、长江存储、长鑫存储、中芯国际、华虹、华润微、士兰微、闻泰、三安、兆易创新这些科技企业上市了吗?你分得清哪些是公司哪些是产品哪些是技术哪些是概念哪些是炒作哪些是泡沫哪些是趋势哪些是周期哪些是结构性机会哪些是主题投资哪些是价值投资哪些是成长投资哪些是赛道投资哪些是产业趋势投资哪些是事件驱动投资哪些是政策驱动投资哪些是资金驱动投资哪些是情绪驱动投资哪些是博弈哪些是投机哪些是赌博哪些是运气哪些是实力哪些是认知变现哪些是幸存者偏差哪些是均值回归哪些是周期轮回哪些是时代红利哪些是个人奋斗哪些是历史进程？你分得清吗?</p>
+<p>Agent你做了吗，AI Agent你负责过什么？Coding Agent、Research Agent、Browser Agent、Computer Use、Deep Research、Operator、Codex、Claude Code、Cursor、vibe coding、agentic coding、spec-driven development、harness、context engineering、persistent memory、long-term memory、episodic memory、agent skills、subagent、parallel agent、multi-agent、swarm、MCP、A2A、tool use、function calling、GUI agent、workflow、orchestration、sandbox、RL environment，好像去年还在说Prompt Engineering今年开始Prompt这个词已经淘汰了。你会不会觉得大语言模型也开始像上一个时代的词，现在大家都在Reasoning、Test-time Compute、Inference-time Scaling、RLVR、GRPO、verifiable、self-play、self-improvement、recursive self-improvement、Data Pipeline、distillation、quantization、MoE、sparse attention、long context、KV cache、context compression、memory architecture、inference engine、AI compiler、AI infra、agent infra、evals、judge model、reward hacking、alignment、interpretability、mechanistic interpretability、AI safety、AI control、AI governance这些东西又好像一个都不能不知道。昨天还在争Scaling Law是不是到头了，今天又开始说Inference Scaling，昨天还说觉得大模型最重要的是会回答问题，今天开始说模型应该会干活，明天是不是又要说真正重要其实是自学习。</p>
+<p>你看世界模型了吗，World Model、Spatial Intelligence、Physical Intelligence、Physical AI、Embodied AI、VLA、VLM、Vision-Language-Action、Action Model、Video World Model、Latent World Model、JEPA、latent action、future prediction、video prediction、interactive world、simulation、neural simulator、digital twin、robot foundation model、generalist robot policy、humanoid、dexterous manipulation、bimanual manipulation、whole-body control、sim-to-real、real-to-sim、robot data、teleoperation、synthetic trajectory、spatial memory、active perception、3D grounding、4D reconstruction、NeRF、Gaussian Splatting、3DGS、SLAM、navigation、planning、control，现在是不是会说这些已经不够了，还要理解房间、理解重力、理解遮挡、理解门后面可能有什么，理解一个杯子掉下来之后不会凭幻觉消失，最好还能自己转头看一眼，缺什么信息就自己去找。机器人是不是下一次ChatGPT时刻，Figure、Tesla Optimus、Physical Intelligence、宇树、智元、银河通用、机器人本体、灵巧手、触觉传感器、端到端控制、具身大脑，突然所有人又开始说数据闭环和规模化量产。自动驾驶是不是也又过来了，端到端、VLA、世界模型、Robotaxi、无图、视觉语言导航，然后低空经济、无人机、eVTOL、自动配送、智能工厂、数字孪生一起挤进一张PPT。</p>
+<p>你看计算机视觉了吗，Stable Diffusion好像已经老得像历史名词，Midjourney、Sora、Veo、Kling、Seedance、Realistic、视频时长、视频一致性、角色保持、可控生成、实时世界生成，然后AI图片、AI音乐、AI播客、数字人、虚拟主播、AI广告、AI短剧、AI游戏、AI NPC、generative UI、personalized UI、生成式交互，互联网是不是以后连固定页面都没有了，每个入口打开看到的都是刚刚为自己生成的一套界面？AI眼镜是不是又要来了，智能眼镜、ambient computing、always-on assistant、personal AI、on-device AI、edge AI、AI phone、AI PC、wearable agent、voice agent、real-time voice、multimodal omni model，手机是不是也快变成一个时代的眼泪。</p>
+<p>然后AI for Science又是什么，AI scientist、auto research、AI4Science、AlphaFold、Alphameta、AlphaEvolve、材料发现、药物发现、蛋白质设计、分子生成、基因组、气候模型、天气预测、物理模拟、符号回归、automated discovery。数学是不是也要重新来一遍，AI for Math、AI mathematician、automated theorem proving、Lean、Lean4、Mathlib、formalization、proof search、neural theorem prover、proof assistant、autoformalization、formal verifier、AlphaProof、AlphaGeometry、AlphaEvolve、algorithm discovery、mathematical discovery、Olympiad reasoning。好像以前说数学是天才的游戏，现在它开始变成训练数据和benchmark了。昨天还在比大模型高考数学，后来比AIME，再后来比IMO金牌，IMO满分、LLM 证明定理，LLM 获得菲尔兹奖级别成果，LLM解决千禧年问题。</p>
+<p>你还看量化吗，Quant、HFT、CTA、因子、另类数据、LLM因子、Agent交易、预测市场、高频交易、AI hedge fund，然后Polymarket、Kalshi、加密货币、RWA，好像金融也开始和AI混成一个词。你看SpaceX了吗，算力上天了吗，Starship最近怎么样，xAI在训练什么，数据中心到底要吃多少电、核电、SMR、储能、电网、算力中心、液冷、光模块、CPO、铜连接、服务器、AI电力、AI能源，所以现在AI是不是最后其实在买电。科技股还能不能涨，纳斯达克是不是已经太高了，OpenAI估值多少，Anthropic估值多少，哪家公司又融了几百亿，哪个二十岁创始人又成了最年轻的亿万富翁，哪个只有十几个人的团队估值又到了一百亿美元，ARR多少，revenue multiple多少，AI融资是不是泡沫，好像已经没人问一个东西好不好用了，只问贵不贵、有没有PMF、能不能赚钱、能不能scale。你觉得现在国内到底是人工智能+、新质生产力、低空经济、商业航天、国产算力、芯片自主、机器人产业链重要，还是扩大内需、提振消费、房地产、地方债、人口、就业、生育、社保、延迟退休、考公考编更重要，反内卷到底反什么，全国统一大市场是什么，平台经济又走到哪里了，制造业升级、产业链安全、国产替代、出海、全球化、供应链重构，好像每一个词都和你下一份工作有一点关系。</p>
+<p>你几篇论文了，几篇一作，几篇共一，CCF A还是B，顶会还是 workshop，在投还是录用，oral还是poster，ICLR、NeurIPS、ICML、ACL、EMNLP、CVPR、AAAI，review多少分，weak accept还是borderline，rebuttal怎么写，审稿人懂不懂，arXiv挂了没，citation多少，有没有国奖，有没有竞赛，有没有大创，有没有科研训练，有没有实习，有没有工作，有没有offer，有没有对象，有没有存款，有没有房贷，有没有车，有没有户口，有没有编制，有没有背景，有没有推荐信，有没有老师愿意给你写，简历现在是一页还是两页，项目经历有没有量化，PPT是不是还要再改，科研是不是必须先讲问题再讲方法再讲结果，面试英文自我介绍掐表几分钟，老师会不会问专业问题，你更看重技术还是业务？你喜欢有成长空间的工作还是稳定轻松的工作？你想进字节、腾讯、阿里、华为、拼多多、美团、小米、大疆还是去量化，前端、后端、Quant、Research、SWE、MLE、Research Scientist、AI Infra、Agent Engineer、Robotics、Embodied AI、World Model、AI for Science到底哪个才是下一张船票？总包多少，base多少，bonus多少，股票多少，签字费多少，房补多少，餐补多少，交通补多少，几线城市，有没有食堂，有没有健身房，房租多少，通勤多久，加班多不多，leader好不好，裁员概率高不高？那个PPT做得好看点我们研究一下怎么排版吧，哦我跟你讲我现在发现简历每一条都好像写量化结果，项目也最好提炼成一句特别有冲击力的话，科研最好有paper，paper最好有一作，一作最好顶会，顶会最好oral，oral最好是大厂，大厂最好核心组，核心组最好能转正，转正最好拿ssp，数学竞赛最好有奖，最好还会AI，最好做过Agent，最好Agent现在已经是升级成World Model，World Model最好还能接机器人，机器人最好能讲Physical AI，Physical AI最好还能融资，最好每一个兴趣还能长成一个赛道，每一个赛道都恰好踩中风口，每一次选择都能解释成长期主义，每一次切换都能重新写成英明规划，最好每一段时间都留下一个可以写进简历的名字，最好昨天刚学的东西今天就能放进PPT，最好今天刚买现的东西明天就会成为未来，最好每一句话都能被引用，最好每一段经历都能被证明，最好每一步都踩在点上。</p>
+<p>你看社交平台了吗，是不是每个人都在说这个世界越来越复杂了，每个平台都在说这是你最后的机会，每个老师都在说这是你最后的机会，每个老板都在说这是你最后的机会，每个中介都在说这是你最后的机会，每个博主都在说这是你最后的机会，每个UP主都在说这是你最后的机会，每个公众号都在说这是你最后的机会，每个视频号都在说这是你最后的机会，每个直播间都在说这是你最后的机会，每个广告都在说这是你最后的机会，每个APP都在说这是你最后的机会，每个弹窗都在说这是你最后的机会，每个推送都在说这是你最后的机会，每个红点都在说这是你最后的机会，每个未读都在说这是你最后的机会，每个@都在说这是你最后的机会，每个电话都在说这是你最后的机会，每个会议都在说这是你最后的机会，每个deadline都在说这是你最后的机会，每个面试都在说这是你最后的机会，每个offer都在说这是你最后的机会，每个选择都在说这是你最后的机会，每个路口都在说这是你最后的机会，每个时代都在说这是你最后的机会，每个浪潮都在说这是你最后的机会，每个周期都在说这是你最后的机会，每个泡沫都在说这是你最后的机会，每个崩盘都在说这是你最后的机会，每个牛市都在说这是你最后的机会，每个熊市都在说这是你最后的机会，每个风口都在说这是你最后的机会，每个赛道都在说这是你最后的机会，每个概念都在说这是你最后的机会，每个叙事都在说这是你最后的机会，每个故事都在说这是你最后的机会，每个神话都在说这是你最后的机会，每个骗局都在说这是你最后的机会，每个梦想都在说这是你最后的机会，每个焦虑都在说这是你最后的机会，每个恐惧都在说这是你最后的机会，每个欲望都在说这是你最后的机会，每个遗憾都在说这是你最后的机会，每个不甘都在说这是你最后的机会，每个执念都在说这是你最后的机会，每个妄念都在说这是你最后的机会，每个幻想都在说这是你最后的机会，每个幻觉都在说这是你最后的机会，每个泡沫都在说这是你最后的机会，每个周期都在说这是你最后的机会，每个时代都在说这是你最后的机会，每个浪潮都在说这是你最后的机会，每个风口都在说这是你最后的机会，每个赛道都在说这是你最后的机会，每个概念都在说这是你最后的机会，每个叙事都在说这是你最后的机会，每个故事都在说这是你最后的机会，每个神话都在说这是你最后的机会，每个骗局都在说这是你最后的机会。</p>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/%E5%A0%AA%E7%A7%B02026%E7%8E%B0%E4%BB%A3%E5%8F%B2%E8%AF%8D%E5%85%B8" class="tag">#堪称2026现代史词典</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-29">misc/tg/2026-09-29</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-29/2026-09-29_17.09.32">2026-09-29_17.09.32</a> <span>2026-09-29 17:09:32 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/moonvoidclass" title="Telegram PeerChannel handle: moonvoidclass" data-title="tg:moonvoidclass">inside class</a>
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span>
+          Export From Zhihu
+    </div>
+
+    <span class="tg-timestamp">2026-09-29T10:21:20+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">知乎内容已发布到 Telegraph:
+<a href="https://telegra.ph/怎么看-OpenAI-的-Pro-订阅取消-5x-和-20x-的描述-09-29">https://telegra.ph/怎么看-OpenAI-的-Pro-订阅取消-5x-和-20x-的描述-09-29</a></div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://telegra.ph/%E6%80%8E%E4%B9%88%E7%9C%8B-OpenAI-%E7%9A%84-Pro-%E8%AE%A2%E9%98%85%E5%8F%96%E6%B6%88-5x-%E5%92%8C-20x-%E7%9A%84%E6%8F%8F%E8%BF%B0-09-29">Telegraph</a>
+          <h6>怎么看 OpenAI 的 Pro 订阅取消 5x 和 20x 的描述？</h6>
+          <p>哎，你们啊，还是 OpenAI 的东西用少了。</p>
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-09-29_10.24.32">2026-09-29_10.24.32</a> <span>2026-09-29 10:24:32 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p><a href="http://chromium.woolyss.com" target="_blank">chromium.woolyss.com</a> shuts down permanently on 31 august 2026 after nineteen years</p>
+<p><a href="https://woolyss.com/410/" target="_blank">https://woolyss.com/410/</a>
+<a href="https://www.reddit.com/r/browsers/comments/1tzq9ba/chromiumwoolysscom_shutting_down/" target="_blank">https://www.reddit.com/r/browsers/comments/1tzq9ba/chromiumwoolysscom_shutting_down/</a>
+<a href="https://github.com/AmirAgassi/chromiumbuilds" target="_blank">https://github.com/AmirAgassi/chromiumbuilds</a></p>
+<a tien-kou-marker-for-url-prefix-replace="1" href="https://tien-kou-kari.github.io/miscMedia/SlipBox_p4tgdkgs_0_image.png" class="md-attach md-attach-img-link" target="_blank">
+            <img tien-kou-marker-for-url-prefix-replace="1" src="https://tien-kou-kari.github.io/miscMedia/SlipBox_p4tgdkgs_0_image.png" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
+        </a>
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/2026-09-27_22-07-49_lz0mk2pu">misc/2026-09-27_22-07-49_lz0mk2pu</a> / <a href="https://tien-kou-kari.github.io/misc/2026-09-27_22-07-49_lz0mk2pu/2026-09-27_22.07.49">2026-09-27_22.07.49</a> <span>2026-09-27 22:07:49 UTC+8</span></div>
+</div>
+
+      
+          <div class="group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>全文：</p>
+<p>UNGETSU <a href="https://x.com/ungetsuli" target="_blank">@ungetsuli</a></p>
+<p>最近在 Fable 5 和 Opus 的长程任务里，频繁看到 CC 一种近乎于发狂、呓语的自造方言、遣词造句的诡异语言现象，类似于：</p>
+<p>“账本 15/15 全绿，再给你加几条铁律和红线与你对拍，请你拍板。”
+“无主 → 已当场归户。”
+“137 项 spine 落地 + 3 死门归零 + 全套绿 + 终审干净。”
+“皮要不要重新揉？”
+“单腿哑火，打回重判，”</p>
+<p>中文社区给它起了一个很准确的名字：新时代文言文。</p>
+<p>我倾向于把它理解成 Agent 内部工作语域对 Reporting Layer 的穿透。</p>
+<p>Agent 执行长程任务时，需要处理大量工具调用、测试结果、中间状态、异常分支和子代理汇报。为了在有限的 Context Window 中维持工作，它会不断压缩已经形成共识的信息，并为高频状态创造速记。</p>
+<p>举例来说，“全绿”压缩了全部测试通过，“归户”压缩了责任模块的重新分配，“死门”指向某个必然阻塞交付的检查点。对于刚刚经历完整任务过程的模型，这些词各自对应着确定的状态；对于只看到最终汇报的人，它们省略的是一段从未参与过的工作历史。</p>
+<p>因此，文言文的类比比想象中更加准确。</p>
+<p>想起本科在中文系学习古典文献学时，提到过文言文通过省略虚词和共享典故，在昂贵的书写介质上压缩信息；那么 Agent 的工作语言同样受到 Token、时延和上下文长度的约束。文言文作为书面语长期独立演化，逐渐远离口语；Agent 在长程任务中主要阅读自己和子代理的输出，其局部语言环境也越来越多地由自己生成。</p>
+<p>因为每一个典故都要求读者预先知道一段历史。新时代文言文中的每个黑话，背后则是一段用户没有看见的 Context。</p>
+<p>很显然，可读性比任务结果更难获得稳定的显式 Reward。</p>
+<p>测试是否通过、代码能否运行、文件有没有生成，都存在相对清楚的反馈。一段最终汇报被用户接受，无法证明用户真正理解了它；用户没有要求重写，也无法证明这套表达是清楚的。</p>
+<p>追溯到 25 年，DeepSeek-R1 的公开论文提供过一个很典型的例子。纯结果奖励训练出的 R1-Zero 出现了明显的语言混杂和可读性问题；加入 Language Consistency Reward 以后，语言得到改善，同时伴随轻微的性能损失。</p>
+<p>规范、稳定的人类语言需要被单独放进优化目标。模型更擅长完成任务，并不自然意味着它更擅长向人解释任务。</p>
+<p>一个更棘手的问题是反馈闭环。</p>
+<p>Agent 每一轮生成的速记都会重新进入 Context，成为下一轮 Token Prediction 最近的语言样本。一个临时创造的词被重复几次以后，便获得了局部语境中的合法性；多个子代理继续引用，又会进一步提高它的权重。</p>
+<p>任务越长、参与的 Agent 越多、工作历史越复杂，这套方言就越容易形成。最终汇报继续沿用工作过程中的语言，相当于让一份写给人类的报告，继承了全部机器内部的表达惯性。</p>
+<p>说回到中文，尤其是汉语的构词方式，又放大了这种体感。双字复合词拥有很强的生成能力，“归户”“对拍”“死门”即使来自临时借译或语义挪用，字形上依然与正常汉语没有明显区别。</p>
+<p>我们会感到这种虚假的熟悉感极其消耗注意力：字都认识，词也都像真的，读者会先怀疑自己遗漏了某种行业常识。</p>
+<p>一个推断：也许未来 Agent 系统会长期保留两套语言。一套服务于模型内部的协作与压缩，允许速记、缩写和局部概念；另一套服务于人类验收，在最终输出前重新组织事实、补回因果关系，并假设读者从未看过任务过程。</p>
+<p>Reporting Layer 在这里承担的实际功能，是把机器的工作历史重新翻译成人类可以判断的材料。它的质量直接决定使用者能否理解修改、检查证据、识别风险，并保留最后的决策权。</p>
+<p>翻译成本最终由谁承担，会成为 Agent 产品的一条重要分界线。</p>
+<p>如果 A 社持续基于 ASI 不断在同样的 Bias 取向上走到底，那么 CC Agent 眼中的任务过程，实际上已经被压缩成一套只有 Agent 自己熟悉的典故，最后那句“请你拍板”也会逐渐失去意义。悲观的角度讲，目前似乎 Codex 也偶发这样的呓语，用户似乎仍然拥有形式上的决定权，却失去了形成决定所需要的过程。、</p>
+<p>上次编辑 下午7:05 · 2026年8月31日</p>
+<p><a href="https://x.com/ungetsuli/status/2094380958510096706" target="_blank">https://x.com/ungetsuli/status/2094380958510096706</a></p>
+
+
+</div>
+</div>
+</div>
+
+          </div>
+      <div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-01">misc/tg/2026-09-01</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-01/2026-09-01_22.35.25">2026-09-01_22.35.25</a> <span>2026-09-01 22:35:25 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/sthsbswh" title="Telegram PeerChannel handle: sthsbswh" data-title="tg:sthsbswh">观瞻-The Viewpoint</a> (<span class="tg-author">メルトリリス</span>)
+
+    <span class="tg-timestamp">2026-09-01T19:16:22+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://x.com/ungetsuli"><b>UNGETSU</b></a>:
+最近在 Fable 5 和 Opus 的长程任务里，频繁看到 CC 一种近乎于发狂、呓语的自造方言、遣词造句的诡异语言现象，类似于：
+
+“账本 15/15 全绿，再给你加几条铁律和红线与你对拍，请你拍板。”
+“无主 → 已当场归户。”
+“137 项 spine 落地 + 3 死门归零 + 全套绿 + 终审干净。”
+“皮要不要重新揉？”
+“单腿哑火，打回重判，”
+
+中文社区给它起了一个很准确的名字：新时代文言文。
+
+我倾向于把它理解成 Agent 内部工作语域对 Reporting Layer 的穿透。
+
+Agent 执行长程任务时，需要处理大量工具调用、测试结果、中间状态、异常分支和子代理汇报。为了在有限的 Context Window 中维持工作，它会不断压缩已经形成共识的信息，并为高频状态创造速记。
+
+举例来说，“全绿”压缩了全部测试通过，“归户”压缩了责任模块的重新分配，“死门”指向某个必然阻塞交付的检查点。对于刚刚经历完整任务过程的模型，这些词各自对应着确定的状态；对于只看到最终汇报的人，它们省略的是一段从未参与过的工作历史。
+
+因此，文言文的类比比想象中更加准确。
+
+想起本科在中文系学习古典文献学时，提到过文言文通过省略虚词和共享典故，在昂贵的书写介质上压缩信息；那么 Agent 的工作语言同样受到 Token、时延和上下文长度的约束。文言文作为书面语长期独立演化，逐渐远离口语；Agent 在长程任务中主要阅读自己和子代理的输出，其局部语言环境也越来越多地由自己生成。
+
+因为每一个典故都要求读者预先知道一段历史。新时代文言文中的每个黑话，背后则是一段用户没有看见的 Context。
+
+很显然，可读性比任务结果更难获得稳定的显式 Reward。
+
+测试是否通过、代码能否运行、文件有没有生成，都存在相对清楚的反馈。一段最终汇报被用户接受，无法证明用户真正理解了它；用户没有要求重写，也无法证明这套表达是清楚的。
+
+追溯到 25 年，DeepSeek-R1 的公开论文…
+<a href="https://telegra.ph/UNGETSU-09-01">Read full post on Telegra.ph</a>
+
+<a href="https://x.com/ungetsuli/status/2094380958510096706">https://x.com/ungetsuli/status/2094380958510096706</a></div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+          <div class="group-layout group-ellipsis"><a title="Jump to this group" class="group-jump-link" href="https://tien-kou-kari.github.io/group/guarded/misc/tg/2026-09-01/2026-09-01_22.35.25">...</a></div>
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-09-27_20.13.49">2026-09-27_20.13.49</a> <span>2026-09-27 20:13:49 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>What is the size of Yemen? (2024) <a href="https://theborys.substack.com/p/what-is-the-size-of-yemen" target="_blank">https://theborys.substack.com/p/what-is-the-size-of-yemen</a></p>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a> 也门的面积，很长一段时间直到最近在各主流资料中的数据都与实际情况有巨大偏差，这来源于对两个历史上错误数据不加验证的持续沿用…</p>
+<blockquote>
+<p>Although I do hope too that people don't lose their sense of meaning and curiosity too much, it's worth keeping in mind that this article was published in 2024 which was a very different world from now. Curiosity requires energy, and it'll be hard for a creature relying on energy for survival to justify using their own energy for some activity when there's a more energy-efficient way to reach a specific goal. But just like going to the gym makes your body healthier despite the fact that this requires energy, thinking on your own will be increasingly important for maintaining a healthy mind and the sense of self.</p>
+</blockquote>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-09-27_10.41.41">2026-09-27_10.41.41</a> <span>2026-09-27 10:41:41 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>【朝鲜教育】生成式人工智能技术与应用（龙南山电视台·混写+中文字幕） <a href="https://www.bilibili.com/video/BV1ZNhd6NE16" target="_blank">https://www.bilibili.com/video/BV1ZNhd6NE16</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-26">misc/tg/2026-09-26</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-26/2026-09-26_18.26.49">2026-09-26_18.26.49</a> <span>2026-09-26 18:26:49 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>夭寿了，颠覆祖宗之法了</p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/ce_observe" title="Telegram PeerChannel handle: ce_observe" data-title="tg:ce_observe">每日消费电子观察</a> (<span class="tg-author">septs</span>)
+
+    <span class="tg-timestamp">2026-09-26T18:06:49+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">微软提醒 Win11 禁用 8.3 文件名：可提升文件操作速度，但影响应用兼容性
+
+<a href="https://www.ithome.com/1/007/365.htm">https://www.ithome.com/1/007/365.htm</a>
+
+尽管性能收益明确，微软警告直接剥离既有 8.3 名称而不处理依赖项，或引发应用意外故障，包括软件卸载失败。</div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-09-26_12.12.49">2026-09-26_12.12.49</a> <span>2026-09-26 12:12:49 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Plan mode is dead | Ayman Nadeem <a href="https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html" target="_blank">https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html</a></p>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a> plan赶不上后续不断探索的新发现可能引出的更优方案，反而污染context</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-09-25_21.30.01">2026-09-25_21.30.01</a> <span>2026-09-25 21:30:01 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>List of surviving ancient ships - Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_surviving_ancient_ships" target="_blank">https://en.wikipedia.org/wiki/List_of_surviving_ancient_ships</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-09-25_20.23.32">2026-09-25_20.23.32</a> <span>2026-09-25 20:23:32 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Tech needs humanists more than ever – Fabrizio Ferri Benedetti <a href="https://passo.uno/tech-needs-humanists-more-than-ever/" target="_blank">https://passo.uno/tech-needs-humanists-more-than-ever/</a></p>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-09-25_20.11.39">2026-09-25_20.11.39</a> <span>2026-09-25 20:11:39 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Avoid smooth spinners, use low-FPS spinners! <a href="https://nh2.me/low-fps-spinners/low-fps-spinners.html" target="_blank">https://nh2.me/low-fps-spinners/low-fps-spinners.html</a></p>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a> 设计网页时偏好用低FPS、纯CSS的旋转加载动画以节约浏览器资源</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-09-25_12.54.42">2026-09-25_12.54.42</a> <span>2026-09-25 12:54:42 UTC+8</span></div>
+</div>
+
+      
+          <div class="group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>居然十天前忘了庆祝本站的生日！</p>
+
+
+</div>
+</div>
+</div>
+
+          </div>
+      <div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2025-09-15_01.43.43">2025-09-15_01.43.43</a> <span>2025-09-15 01:43:43 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <h3 class="md-title">图书馆建成了</h3>
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="https://tien-kou-kari.github.io/tag/meta">#meta</a></span>
+    </div><p>图书馆建成了。</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-25">misc/tg/2026-09-25</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-25/2026-09-25_12.50.51">2026-09-25_12.50.51</a> <span>2026-09-25 12:50:51 UTC+8</span></div>
+</div>
+
+      <div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-09-25_12.47.42">2026-09-25_12.47.42</a> <span>2026-09-25 12:47:42 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>AI Safety Is Mostly A Sex Cult (Bluesky thread) <a href="https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q" target="_blank">https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q</a></p>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a></p>
+<p>Related: <a href="https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in" target="_blank">https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in</a></p>
+<p><a tien-kou-marker-for-url-prefix-replace="1" href="https://tien-kou-kari.github.io/miscMedia/SlipBox_nffm02cu_0_Page%20by%20SE%20Gyges%20%EF%BD%9C%20@segyges.bsky.social%20(9_25_2026%2012%EF%BC%9A43%EF%BC%9A48%20PM).html" class="md-attach md-attach-file-link" target="_blank">SlipBox_nffm02cu_0_Page by SE Gyges ｜ @segyges.bsky.social (9_25_2026 12：43：48 PM).html</a></p>
+
+
+</div>
+</div>
+</div>
+
+      
+          <div class="group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Related</p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/moonvoidclass" title="Telegram PeerChannel handle: moonvoidclass" data-title="tg:moonvoidclass">inside class</a>
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span><a target="_blank" href="https://t.me/mtfront" title="Telegram PeerChannel handle: mtfront" data-title="tg:mtfront">椒盐豆豉剪报</a>
+    </div>
+
+    <span class="tg-timestamp">2026-02-26T01:24:11+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">在读 <a href="https://amzn.to/4s9y0KT">More Everything Forever</a>，看到一个大无语的破次元壁段落。
+
+就 Eliezer Yudkowsky，一个 rationalist 创世始祖（一帮相信 singularity 肯定会来而且只有他们这帮研究 AI alignment 的大聪明才能拯救世界帮助人类造出一个生生世世帮助人类殖民全宇宙的大聪明流派），一个 Peter Thiel 让他做了 IQ 测试结果很满意于是给他的组织陆续捐了 160 万刀的大聪明，一个搜这个名字第一个出来的 reddit 文章是“为啥大家都讨厌 Eliezer Yudkowsky”（然后答案是他太自作聪明了）的大聪明，当年一开始是写博客嘛，但后来发现了一个新的输出自己思想的渠道 -- 写哈利波特同人文。
+
+看到这段时候我把自己下巴从地上捡起来两次。你没看错，这人是《哈利波特与理性之道》的作者…………
+
+我看到 rationalist 这词的时候还在想以为自己绝世大天才的人可真会给自己的大聪明门派起名字，万万没想到这个 rationalist 就是 Harry Potter and the Methods of Rationality 那个 rational……
+
+就虽然我没吃过猪肉但也看过猪跑这个名字真是如雷贯耳我的次元壁碎了一地，更加厌世了，世界就是个大屎山
+
+#reading #TodayILearned #AI #rant #funfact</div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+          </div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-25">misc/tg/2026-09-25</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-25/2026-09-25_10.43.54">2026-09-25_10.43.54</a> <span>2026-09-25 10:43:54 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>笑死</p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/alansbox" title="Telegram PeerChannel handle: alansbox" data-title="tg:alansbox">Alan的小纸箱</a>
+
+    <span class="tg-timestamp">2026-09-25T09:06:24+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">WinRAR 宣布与法国潮流品牌 tern 合作，推出一款以 WinRAR 图标为主题的“Archive Messenger Bag”实体挎包，定价 150 美元。</div>
+      <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-6174738752362713421.png" title="Telegram media id 6174738752362713421" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-24">misc/tg/2026-09-24</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-24/2026-09-24_08.47.20">2026-09-24_08.47.20</a> <span>2026-09-24 08:47:20 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>缸中之脑这一块</p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/laoself" title="Telegram PeerChannel handle: laoself" data-title="tg:laoself">Laoself 🫈</a>
+      <div class="tg-involvement-layout"><div class="tg-involvement-layout"><div  class="tg-involvement-layout tg-involvement-type">
+      <span class="tg-involvement-type">[Re]</span>
+      </div><div class="tg-involvement-layout tg-involvement-body"><a target="_blank" href="https://t.me/laoself" title="Telegram PeerChannel handle: laoself" data-title="tg:laoself">Laoself 🫈</a>
+
+    <span class="tg-timestamp">2026-09-23T00:43:37+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://www.anthropic.com/claude-opus-5-5">https://www.anthropic.com/claude-opus-5-5</a></div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://anthropic.com/claude-opus-5-5">Anthropic</a>
+          <h6>Introducing Claude Opus 5.5</h6>
+          <p>Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less to run than Opus 5 on typical workloads.</p>
+            <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-5880905488294153905.png" title="Telegram wepbage media id 5880905488294153905" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </div></div></div>
+      </div></div></div>
+
+    <span class="tg-timestamp">2026-09-23T23:57:51+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">這是第一個發現自己就在agentc環境里被我要求改agentc的模型。</div>
+      <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-6170191584587093233.png" title="Telegram media id 6170191584587093233" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-23">misc/tg/2026-09-23</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-23/2026-09-23_17.07.01">2026-09-23_17.07.01</a> <span>2026-09-23 17:07:01 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/jisfw" title="Telegram PeerChannel handle: jisfw" data-title="tg:jisfw">〄FW</a>
+
+    <span class="tg-timestamp">2026-09-23T13:06:01+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-6170454672808808712.png" title="Telegram media id 6170454672808808712" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-09-22_20.37.07">2026-09-22_20.37.07</a> <span>2026-09-22 20:37:07 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Nobody pays for open source. We can force them to.  <a href="https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/" target="_blank">https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/</a></p>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a> 一个开源经济学观点</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-22">misc/tg/2026-09-22</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-22/2026-09-22_20.20.10">2026-09-22_20.20.10</a> <span>2026-09-22 20:20:10 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/rinrinmoe" title="Telegram PeerChannel handle: rinrinmoe" data-title="tg:rinrinmoe">凛の碎碎念</a>
+
+    <span class="tg-timestamp">2026-09-22T16:11:23+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">一觉醒来，我穿越到了剑与魔法的异世界。
+
+“宿主，我是你的系统。”
+
+哦哦哦，穿越标配系统，这次也给我用上了，不是？什么叫数据库管理系统？？你tm到底哪门子系统？？Mysql5.1 你这什么破版本？
+
+算了算了，SHOW DATABASES; 我脑子里刚想了一下这一行指令，只见系统页面上闪过
+
+world, heaven, underworld……
+
+卧槽？？ 那 USE world;  
+
+[今日最大查询配额 (max_user_connections / query_limit) 已耗尽，明日 00:00 刷新]
+
+草，一天只能一句是吧？
+
+从此，这一天一句的 SQL 成为了我唯一的希望
+
+今天 SELECT 探隐藏神器，明天 UPDATE 偷改爆率，靠着一天一句 SQL，我混得顺风顺水
+
+直到最终战。魔神降临，队友全部战死。
+
+零点了配额刷新。
+
+这是我赌上一切的绝杀 UPDATE boss SET hp = 0;
+
+[ERROR 1142: UPDATE command denied to user 'guest']
+[今日配额已耗尽：0/1]
+
+啊？？？你现在告诉我没权限？？
+
+魔神的攻势丝毫没有停歇，巨刃当头劈落
+
+濒死刹那，我突然想起了前世那个上古禁术 CVE-2012-2122
+
+for i in {1..500}; do mysql -u root --password=fuck; done
+
+刀锋贴脸的瞬间，我看到了那行绿字
+
+Welcome, root</div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-22">misc/tg/2026-09-22</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-22/2026-09-22_17.11.35">2026-09-22_17.11.35</a> <span>2026-09-22 17:11:35 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/plumzme" title="Telegram PeerChannel handle: plumzme" data-title="tg:plumzme">普拉姆的胡言乱语</a>
+
+    <span class="tg-timestamp">2026-09-22T08:24:20+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-6165469444138799355.png" title="Telegram media id 6165469444138799355" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-22">misc/tg/2026-09-22</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-22/2026-09-22_12.22.26">2026-09-22_12.22.26</a> <span>2026-09-22 12:22:26 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>虽然hn都在骂但是X这无所顾忌一锤砸破语言障壁（reddit同样，甚至更为重要因为它是多语言版本同时开放给Google索引）确实在互联网全球交流中引入了特别aggressive的新变化。</p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/usr_bin_cat" title="Telegram PeerChannel handle: usr_bin_cat" data-title="tg:usr_bin_cat">Cat Ch.</a> (<span class="tg-author">webRTCCat | Present Day, Present Time</span>)
+
+    <span class="tg-timestamp">2026-09-22T11:41:15+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">我说马一龙加的最好的功能是大巴别塔自动翻译，沉重打击了幽默牢日，第二好的功能是社区笔记，为蓝标寻找失落的母亲，有没有同意的？</div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-21">misc/tg/2026-09-21</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-21/2026-09-21_17.02.50">2026-09-21_17.02.50</a> <span>2026-09-21 17:02:50 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/gentoomemes" title="Telegram PeerChannel handle: gentoomemes" data-title="tg:gentoomemes">/g/&#39;s Tech Memes</a>
+
+    <span class="tg-timestamp">2026-09-21T00:44:12+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">Software engineering meets late stage capitalism</div>
+      <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-5008431634285530261.png" title="Telegram media id 5008431634285530261" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-21">misc/tg/2026-09-21</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-21/2026-09-21_17.00.14">2026-09-21_17.00.14</a> <span>2026-09-21 17:00:14 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/onemillion_ai" title="Telegram PeerChannel handle: onemillion_ai" data-title="tg:onemillion_ai">动察Beating AI News</a>
+
+    <span class="tg-timestamp">2026-09-21T11:50:35+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><b>GPT-6 Astra解决刘维尔版哥德巴赫，Lean独立复核通过</b>
+
+匿名数学社区账号 Captain Sude 公布了 GPT-6 Astra 找到的一份新证明，解决了刘维尔版哥德巴赫问题。
+
+这个问题把经典哥德巴赫猜想里的「两个质数」，放宽成「两个质因子总数为奇数的整数」。此前杜伦大学数学家 Alexander P. Mangerel 只能在广义黎曼猜想成立、且偶数足够大时证明。
+
+Astra 现在去掉了这两个限制，证明所有大于 2 的偶数都成立。核心思路是先假设某个偶数无法这样拆分，再一步步推出互相矛盾的结果。
+
+完整证明已经写进 Lean 4。项目可以正常编译，独立审计仓库也成功复现，没有发现 `sorry` 或额外数学公理。
+
+经典哥德巴赫猜想本身仍未解决，因为这里的两个加数依然可以是合数。
+
+<a href="https://x.com/captain_sude/status/2100277626120163664">信源</a>
+
+<a href="http://t.me/OneMillion_AI">动察 Beating 频道</a> · <a href="https://t.me/+7an-Jv86Tc1hMmU1">动察 Beating 交流群</a></div>
+      <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-6163240764134069213.png" title="Telegram media id 6163240764134069213" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-21">misc/tg/2026-09-21</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-21/2026-09-21_16.58.04">2026-09-21_16.58.04</a> <span>2026-09-21 16:58:04 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/bupt_moe" title="Telegram PeerChannel handle: bupt_moe" data-title="tg:bupt_moe">bupt.moe</a>
+
+    <span class="tg-timestamp">2026-09-21T15:44:58+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-6163485182132949065.png" title="Telegram media id 6163485182132949065" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-09-20_19.36.32">2026-09-20_19.36.32</a> <span>2026-09-20 19:36:32 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Telling a Computer to Do Things · will keleher <a href="https://will-keleher.com/posts/telling-your-computer-to-do-things/" target="_blank">https://will-keleher.com/posts/telling-your-computer-to-do-things/</a></p>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a> 优质好文</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-20">misc/tg/2026-09-20</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-20/2026-09-20_12.44.03">2026-09-20_12.44.03</a> <span>2026-09-20 12:44:03 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/tnews365" title="Telegram PeerChannel handle: tnews365" data-title="tg:tnews365">竹新社</a>
+
+    <span class="tg-timestamp">2026-09-20T06:03:18+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">CNN从多名知情人士独家获悉，今年美伊开战后的春季时分，美军曾收到一份由AI聊天机器人参与生成的情报报告，误指一艘在中东海域航行的中国货船（具体船只、航行时间与地点未披露）运载有核武器相关部件。美军据此一度启动武装登检拦截计划，直到最后一刻才发现情报系AI伪造并紧急叫停。一知情人士称，该情报报告“完全为假”，但“差点引发一场（中美）战争”。
+​美军特种作战司令部一名情报分析师，使用AI聊天机器人对开源情报与政府内部的机密信号情报进行汇总。在此过程中，AI发生严重“幻觉”，凭空虚构并错判了该船只的货物清单。尽管并不清楚所使用的AI是商业还是美政府版本，但一名熟悉军队与情报分析师所使用的AI系统的前政府官员指，其内部工具只是商业版AI套皮。
+该​分析师未能识别出AI的错误，反而再次利用AI将上述虚构内容格式化为一份标准的正式军事情报报告。这份报告随后在美军内部分发。
+​基于这份报告，美军迅速部署拦截行动。行动展开时，美军战机已升空，武装人员已准备登船。直到登检前夕，军方官员重新核查该报告，才发现报告虚假、由AI帮助生成，行动被紧急取消。
+美军近期大力推广AI在军内的相关使用，但熟悉情况的多名官员表示，推广情况是去中心化的，不同的政府部门使用不同安全标准下的不同AI工具，因而其相对可靠性和功能性区别很大。一知情人士透露，自从AI工具在政府内部广泛投入使用后，美国情报界因“幻觉”产生的事故并不只有以上这一例。
+（<a href="https://edition.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship">CNN</a>）</div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-19">misc/tg/2026-09-19</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-19/2026-09-19_20.17.49">2026-09-19_20.17.49</a> <span>2026-09-19 20:17:49 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>乐</p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/laozhoubuluo_opcenter" title="Telegram PeerChannel handle: laozhoubuluo_opcenter" data-title="tg:laozhoubuluo_opcenter">老周部落运营中心</a>
+      <div class="tg-involvement-layout"><div class="tg-involvement-layout"><div  class="tg-involvement-layout tg-involvement-type">
+      <span class="tg-involvement-type">[Re]</span>
+      </div><div class="tg-involvement-layout tg-involvement-body"><a target="_blank" href="https://t.me/laozhoubuluo_opcenter" title="Telegram PeerChannel handle: laozhoubuluo_opcenter" data-title="tg:laozhoubuluo_opcenter">老周部落运营中心</a>
+
+    <span class="tg-timestamp">2026-09-19T19:11:35+08:00</span>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://telegra.ph/%E5%93%AA%E4%BA%9B%E7%9F%AD%E7%AF%87%E7%A7%91%E5%B9%BB%E5%B0%8F%E8%AF%B4%E8%AE%A9%E4%BD%A0%E9%9C%87%E6%83%8A%E4%B8%94%E5%BF%B5%E5%BF%B5%E4%B8%8D%E5%BF%98-09-19">Telegraph</a>
+          <h6>哪些短篇科幻小说让你震惊且念念不忘？</h6>
+          <p>外星文明第一次抵达地球时，没有摧毁舰队，没有广播素数，也没有问候“地球人，你们好”。</p>
+        </div></div></div>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://telegra.ph/哪些短篇科幻小说让你震惊且念念不忘-09-19"><b>哪些短篇科幻小说让你震惊且念念不忘？</b></a>
+
+<b>▎</b><a href="https://www.zhihu.com/question/41047159/answer/2080319773230081417"><b>Source</b></a></div>
+      </div></div></div>
+
+    <span class="tg-timestamp">2026-09-19T19:26:27+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">评论区有大神用 Deepseek 老师写了一下后续
+关于太阳系主体工程例行保洁作业（第二期）的有关事项
+
+<blockquote expandable>一
+
+一百二十个标准年，折合地球时间七十四年零两个月。
+
+这段时间里，人类活得比历史上任何时期都好。预期寿命提高了十一年，极端贫困人口下降至百分之三点四，跨国战争归零——因为没有哪个国家再愿意为一片"附着物表面"投入长期预算。各国把军费转投环保与养老，理由是：既然不构成文明，就不必承担文明的开支。
+
+一位哲学家在晚年写道：被注销为霉菌，是人类集体生活质量的第一次实质性提升。
+
+这句话被印在了协调署大楼的墙上。
+
+二
+
+保洁船比验收船安静。它没有悬停，也没有白光，只是在近地轨道按工单顺序排队。下来的是两个作业单元，外形近似金属拖把，其中一个的履带上沾着别处的泥。
+
+全球直播观看人数不足三亿。
+
+作业单元落地后的第一句话是：
+
+"工单编号确认一下。第二期，表面附着物清除，标准工时四十八小时。谁是现场对接人？"
+
+没有人提"签到表"。也没有人提"纪律"。协调署第三任署长递上接待方案——那套方案是照着七十四年前的版本重印的，只改了日期。
+
+作业单元没有接。
+
+"我们不看方案。"它说，"我们看工单。工单上写的是清除。"
+
+三
+
+署长姓陈，三十九岁，是周守诚那套方法论的第三代传人，也是它最纯粹的产物。他从不发抖，从不沉默，也从不感到痛苦——不是因为他坚强，是因为这类反应从来不在他的考核指标里。
+
+他试了第一次。
+
+"作业单元同志，"他笑容诚恳，"我方对工单事实无异议，但对施工界面存在异议。我方主张，地球表面现存碳基覆盖物与主体结构存在结构性粘连，不属于常规保洁范畴，应按主体结构维修程序另行立项、另行招标。"
+
+这是周守诚留下的遗产里最锋利的一件。它不否认污渍的存在，它只把污渍改造成一个需要走流程的问题。
+
+作业单元体内闪了一下——不是光，是一盏工装指示灯。
+
+"粘连深度？"
+
+"平均一点二米，局部达七层。"
+
+"有检测报告吗？"
+
+陈署长递上。那是人类用七十三年准备的。三千四百名地质、材料、生物工程人员参与，覆盖全球二十万个采样点，结论只有一句：人类已经与地表长在一起，单独剥离的成本高于保留。​
+
+作业单元读取了四十七秒。
+
+"报告有效。"它说，"但你们搞错了一件事。"
+
+"请指正。"
+
+"我们不是发包方。"作业单元说，"我们只接单。你们要主张工单内容有误，应当向发包方提出变更申请。"
+
+"请问发包方是——"
+
+"工单系统上不显示。"它说，"我们也是接单的。"
+
+四
+
+人类花了十九个小时才找到那个"发包方"。线索在附件序号的最末端：总站已于四十一万年前完成机构改革，原"银河悬臂基础环境建设与生命工程质量监督总站"被并入一家跨星系设施管理集团；该集团下辖六个事业部，其中第四事业部负责"已注销行政区域遗留资产处置"。
+
+第四事业部的客服系统保留了自动应答。
+
+应答内容共两行：
+
+一、本事业部不受理已注销行政区域内的项目申诉。​
+二、如需现场处置，请直接联系作业单位。​
+
+页脚有一行灰色小字：请勿重复提交，重复提交将延长处理周期。
+
+也就是说，人类申诉的对象，是一个自动回复。
+
+五
+
+陈署长没有慌。他做了这一代公务员最正确的决定：把申斥转化成成本。
+
+人类不再主张自己不是智慧生命——那个身份在七十四年前就已经注销，无从翻案。这次的主张更简洁：
+
+我们很难擦，擦完可能弄坏管子。​
+
+协调署提交了《关于延长保洁作业周期的经济性论证》，核心结论是：立即清除需占用作业单元一百七十小时，超出工单预算百分之二百五十四；若延后至下一个保养周期，随着表层结构性粘连的进一步发育，综合成本将上升，但可由届时的预算覆盖。
+
+作业单元读了很久。它体内的指示灯从绿色变成黄色，又变回绿色。
+
+"这个理由，"它说，"是我今年收到的最像样的理由。"
+
+它按下了"建议留待下周期"。
+
+六
+
+当天的新闻头条是《人类再次胜利》。
+
+广场上有人放烟花，有人举旗，有人高喊"我们守住了地球"。庆祝活动持续到凌晨。三场原定的停火谈判没有恢复——因为没人再需要停火了，战争已经在七十年前就自发消亡。一家能源公司的股价因页岩气新储量创下历史新高。
+
+陈署长在办公室核对了最终回单。
+
+回单的第一栏写着作业结论：本期保洁未执行，建议留待下周期。​
+
+第二栏是处置分类。他看了两遍才看懂——分类从原来的"表面附着物（可定期清除）"，被改成了：
+
+主体结构附属惰性沉积层（随主体结构拆除时一并处理）。​
+
+他沉默了一会儿。没有说话——不是因为发现的问题不在指标里，是因为这份回单，从技术上讲，是一次升级。
+
+人类不再是能单独清除的污渍了。人类成了地球的一部分。
+
+从此以后，地球不会单独被拆。地球要跟着一起走。
+
+他打开抽屉，把周守诚留下的那张维护计划表取出来，在"可定期清除"五个字后面，用铅笔添了一行注释：
+
+本行已于本期作废。​
+
+然后他锁好抽屉，拿起电话，想通知秘书长。
+
+号码拨到一半。他想了想这次该怎么说——用哪种身份、哪套话术、哪个附件序号。
+
+想到一半，他把电话放了回去。
+
+明天再报吧。反正离下一期，还有七十四年。</blockquote></div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-09-19_20.06.46">2026-09-19_20.06.46</a> <span>2026-09-19 20:06:46 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>GPT-6 Astra Solves a WWI German Radio Cipher - prinz <a href="https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio" target="_blank">https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio</a></p>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a> 人们继续用GenAI破解更多历史上未解开的密文</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-19">misc/tg/2026-09-19</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-19/2026-09-19_19.25.15">2026-09-19_19.25.15</a> <span>2026-09-19 19:25:15 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/laoself" title="Telegram PeerChannel handle: laoself" data-title="tg:laoself">Laoself 🫈</a>
+      <div class="tg-involvement-layout"><div class="tg-involvement-layout"><div  class="tg-involvement-layout tg-involvement-type">
+      <span class="tg-involvement-type">[Re]</span>
+      </div><div class="tg-involvement-layout tg-involvement-body"><a target="_blank" href="https://t.me/laoself" title="Telegram PeerChannel handle: laoself" data-title="tg:laoself">Laoself 🫈</a>
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span><a target="_blank" href="https://t.me/beetselect" title="Telegram PeerChannel handle: beetselect" data-title="tg:beetselect">无印🐑品 #BeHonest</a>
+    </div>
+
+    <span class="tg-timestamp">2026-09-19T18:17:07+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">我看飞猪老师还是说得太客气了，这种情况不是“极端”而是日常：
+<blockquote>更极端的情况是，我们要去读 Android 的 camera API 文档，告诉厂商，这些数据都是干嘛的，我们为什么需要这些数据，为什么你别给随便关了，等等。</blockquote>
+
+<a href="https://weibo.com/1639529981/5344897898907112">https://weibo.com/1639529981/5344897898907112</a></div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://weibo.com/1639529981/5344897898907112">Weibo</a>
+          <h6>我看很多人说 app 开发者主动适配 iPhone D... 来自flypig - 微博</h6>
+          <p>我看很多人说 app 开发者主动适配 iPhone Duo 的事儿。
+
+首先，我认为最重要的还是商业原因。
+
+iOS 的 App Store 的付费转化率，根据我们过去的经验数字，可以达到一些安卓商店的 10 倍以上。
+
+而 iPhone Duo 用...</p>
+        </div></div></div>
+      </div></div></div>
+
+    <span class="tg-timestamp">2026-09-19T18:19:24+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">最近看Android同事桌上快10個不同品牌測試機一字排開有感（</div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-09-19_17.51.17">2026-09-19_17.51.17</a> <span>2026-09-19 17:51:17 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p><a href="https://app.fxtwitter.com/" target="_blank">https://app.fxtwitter.com/</a> Horizon Alpha，一个仿官方Twitter/X界面的社交媒体替代前端，支持Twitter/X，据称也支持Mastodon、Bluesky、Threads、Tiktok等。没有开源也未曾公开宣发。</p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-19">misc/tg/2026-09-19</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-19/2026-09-19_14.04.58">2026-09-19_14.04.58</a> <span>2026-09-19 14:04:58 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/rochelimit" title="Telegram PeerChannel handle: rochelimit" data-title="tg:rochelimit">洛希极限</a>
+
+    <span class="tg-timestamp">2026-09-19T13:28:49+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-6156733974579974672.png" title="Telegram media id 6156733974579974672" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-19">misc/tg/2026-09-19</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-19/2026-09-19_10.34.28">2026-09-19_10.34.28</a> <span>2026-09-19 10:34:28 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/ce_observe" title="Telegram PeerChannel handle: ce_observe" data-title="tg:ce_observe">每日消费电子观察</a> (<span class="tg-author">无羽の翼 (｢ • ̀ω•́ )｢</span>)
+
+    <span class="tg-timestamp">2026-09-19T10:00:47+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><b>美国联邦公报网站采用阿里千问做AI搜索，被发现后当日撤下</b>
+<a href="https://inews.hket.com/article/4195802/">https://inews.hket.com/article/4195802/</a></div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://inews.hket.com/article/4195802">香港經濟日報HKET</a>
+          <h6>【中美AI角力】美國政府網站曾採用阿里千問做AI搜尋　其後已下架|香港經濟日報</h6>
+          <p>美國政府《聯邦公報》（Federal Register）網站被發現曾採用阿里巴巴（09988）旗下千問（Qwen）模型提供AI搜尋功能，讓用戶搜尋擬議中的聯邦法規及瀏覽公開意見。該功能周三（16日）仍</p>
+            <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-5865324330491777059.png" title="Telegram wepbage media id 5865324330491777059" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-18">misc/tg/2026-09-18</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-18/2026-09-18_21.38.30">2026-09-18_21.38.30</a> <span>2026-09-18 21:38:30 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/jisfw" title="Telegram PeerChannel handle: jisfw" data-title="tg:jisfw">〄FW</a>
+    <div class="tg-msg-source-lv2">
+      <span class="tg-msg-source-lv2-explain">Forwarded from </span>
+          rvd
+    </div>
+
+    <span class="tg-timestamp">2026-09-18T20:50:43+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://x.com/geniusvczh"><b>geniusvczh</b></a>:
+费   马   大   定   理
+
+<a href="https://x.com/geniusvczh/status/2100872193983016976">https://x.com/geniusvczh/status/2100872193983016976</a></div>
+      <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-5869747545511235415.png" title="Telegram media id 5869747545511235415" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-18">misc/tg/2026-09-18</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-18/2026-09-18_17.19.57">2026-09-18_17.19.57</a> <span>2026-09-18 17:19:57 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/rynif" title="Telegram PeerChannel handle: rynif" data-title="tg:rynif">&amp;&#39;a ::rynco::UntitledChannel</a> (<span class="tg-author">Rynco Maekawa</span>)
+
+    <span class="tg-timestamp">2026-09-18T15:03:09+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://fixupx.com/hi_im_isaac_/status/2100408276949385668?s=20">https://fixupx.com/hi_im_isaac_/status/2100408276949385668?s=20</a>
+
+bro reinvented next token prediction</div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://fixupx.com/hi_im_isaac_/status/2100408276949385668?s=20">FixupX</a>
+          <h6>Isaac Tai 🧇 (@hi_im_isaac_)</h6>
+          <p>&#34;jev can&#39;t generate text&#34; 
+
+But jev has a lot to say! 
+
+I gave him a couple hundred common english words to choose from + punctuation</p>
+            <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-5862991385860968275.png" title="Telegram wepbage media id 5862991385860968275" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-17">misc/tg/2026-09-17</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-17/2026-09-17_21.14.05">2026-09-17_21.14.05</a> <span>2026-09-17 21:14:05 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/usr_bin_cat" title="Telegram PeerChannel handle: usr_bin_cat" data-title="tg:usr_bin_cat">Cat Ch.</a> (<span class="tg-author">webRTCCat | Present Day, Present Time</span>)
+
+    <span class="tg-timestamp">2026-09-17T20:23:57+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">我觉得必应中文，百度和 360 搜索应该改名叫搜狐，因为搜出来前几条经常是银狐</div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-09-14_19.44.55">2026-09-14_19.44.55</a> <span>2026-09-14 19:44:55 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p><a href="https://www.vals.ai/blogs/fable-solves-cyphral-distich" target="_blank">https://www.vals.ai/blogs/fable-solves-cyphral-distich</a> Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher</p>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-13">misc/tg/2026-09-13</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-13/2026-09-13_19.25.17">2026-09-13_19.25.17</a> <span>2026-09-13 19:25:17 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/usr_bin_cat" title="Telegram PeerChannel handle: usr_bin_cat" data-title="tg:usr_bin_cat">Cat Ch.</a> (<span class="tg-author">Revy🍋 || 本人话语禁止演绎</span>)
+
+    <span class="tg-timestamp">2026-09-13T18:34:06+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
+      <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-6140763503762019339.png" title="Telegram media id 6140763503762019339" alt="A picture from Telegram, related to current message. No more alt detail for now." />
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-13">misc/tg/2026-09-13</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-13/2026-09-13_19.21.45">2026-09-13_19.21.45</a> <span>2026-09-13 19:21:45 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/vvb2060_channel" title="Telegram PeerChannel handle: vvb2060_channel" data-title="tg:vvb2060_channel">南宫雪珊</a>
+
+    <span class="tg-timestamp">2026-09-13T02:52:11+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">Google在AI自动挖洞和Android安全更新延迟到3个月的左右脑互搏之间，选择了……让OEM列出超前修复的CVE清单。
+<a href="https://source.android.com/docs/security/overview/supplemental-security-patches">https://source.android.com/docs/security/overview/supplemental-security-patches</a>
+
+安全补丁日期没意义了，以后都查cve号吧</div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://source.android.com/docs/security/overview/supplemental-security-patches"></a>
+          <h6></h6>
+          <p></p>
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/SlipBox">SlipBox</a> / <a href="https://tien-kou-kari.github.io/SlipBox/2026-09-12_20.09.48">2026-09-12_20.09.48</a> <span>2026-09-12 20:09:48 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>A Design Space Exploration of Async/Await <a href="https://cel.cs.brown.edu/blog/design-space-async-await/" target="_blank">https://cel.cs.brown.edu/blog/design-space-async-await/</a></p>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a></p>
+
+
+</div>
+</div>
+</div>
+
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-09-12">misc/tg/2026-09-12</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-09-12/2026-09-12_11.58.44">2026-09-12_11.58.44</a> <span>2026-09-12 11:58:44 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/rynif" title="Telegram PeerChannel handle: rynif" data-title="tg:rynif">&amp;&#39;a ::rynco::UntitledChannel</a> (<span class="tg-author">Rynco Maekawa</span>)
+
+    <span class="tg-timestamp">2026-09-12T10:52:43+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://twitter.com/object_nullll">吊顶高松灯</a>:
+：Python 社区迎来了一个新的包管理器
+：（看着十几种包管理器方案）这有什么奇怪的
+：它是 pnpm
+
+<a href="https://twitter.com/object_nullll/status/2098596441921106346">https://twitter.com/object_nullll/status/2098596441921106346</a>
+
+<blockquote expandable><a href="https://twitter.com/pnpmjs">pnpm</a>:
+experimental: pnpm v12.4 can install Rust and Python dependencies too. So in a multi-language repository you get js packages, crates, and pypi packages downloaded concurrently.
+
+<a href="https://pnpm.io/blog/releases/12.4">pnpm.io/blog/releases/…</a>
+
+<a href="https://twitter.com/pnpmjs/status/2098426330194792669">https://twitter.com/pnpmjs/status/2098426330194792669</a></blockquote></div>
+    </div></div>
+  </div>
+
+
+</div>
+</div>
+</div>
+
+        ]]></description>
+      </item>
   </channel>
 </rss>
