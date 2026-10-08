@@ -11,3 +11,7 @@ isDerivableIntoChildren: true
 - 并且还有问题：疑似这个archive过程没有被incremental很好地处理（例如：先处理新开文件，再处理新出现的archive文件；或者反过来；或者两者都有问题），需要手动重启hoard全量一次才正常，后面看。
 
 2026-10-06 23:27:03 https://codeberg.org/ethical-foss/open-slopware
+
+2026-10-08 11:12:47 https://github.com/eternity4719/HowToLiveBetter
+
+https://cdyforever.github.io/how-to-live-better
