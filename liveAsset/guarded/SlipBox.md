@@ -29,3 +29,7 @@ https://cdyforever.github.io/how-to-live-better
 2026-10-08 20:16:39 The Search for Salvage | Shahid Hussain https://shahidhussain.com/writing/search-for-salvage/
 
 #fhn 这种搜寻失传媒体的努力过程真的很像赌博：不断努力会不断带来（可能是虚假的）希望，中途放弃将一无所获并因为沉没成本带来沉重的戒断反应。但是一旦成功…哇哦！
+
+2026-10-08 20:22:24 Living off-grid: Hundred Rabbits - https://100r.ca/site/home.html
+
+#fhn
