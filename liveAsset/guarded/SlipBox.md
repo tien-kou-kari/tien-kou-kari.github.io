@@ -25,3 +25,7 @@ https://cdyforever.github.io/how-to-live-better
 " title="翻译来自：bilibli BV1ss411o7S5 用户 10q4ever (91559)">“注意力不足症这个概念是由规律性的沙文主义者创造出来的。规律性的沙文主义者指的是那些认为人们应该每天、每个时间重复做相同的事的人。而这种做法会让我们中的一些人发疯。注意力不足症——我们需要一个更积极的词来代替它。蜂鸟般的思绪，我是这样想的。”</span>
 
 -- Ted Nilson, in [*The Curse of Xanadu* (1995)](https://www.wired.com/1995/06/xanadu/)
+
+2026-10-08 20:16:39 The Search for Salvage | Shahid Hussain https://shahidhussain.com/writing/search-for-salvage/
+
+#fhn 这种搜寻失传媒体的努力过程真的很像赌博：不断努力会不断带来（可能是虚假的）希望，中途放弃将一无所获并因为沉没成本带来沉重的戒断反应。但是一旦成功…哇哦！
