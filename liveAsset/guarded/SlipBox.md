@@ -37,3 +37,7 @@ https://cdyforever.github.io/how-to-live-better
 2026-10-08 20:31:22 Cleo (mathematician) - Wikipedia https://en.wikipedia.org/wiki/Cleo_(mathematician)
 
 #fhn 互联网版拉马努金
+
+2026-10-12 20:00:23 Passkeys are a trap. Do not use them. - by The Hack https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them
+
+#fhn 讲的很清楚了
