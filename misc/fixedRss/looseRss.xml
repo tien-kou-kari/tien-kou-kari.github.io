@@ -6,6 +6,37 @@
     <atom:link href="https://tien-kou-kari.github.io/rss?periodType=loose&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou No Tags: Noise, Silence Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou - 2026-10-16_20.14.47</title>
+        <link>https://tien-kou-kari.github.io/SlipBox/2026-10-16_20.14.47</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-10-16_20.14.47</guid>
+        <pubDate>Fri, 16 Oct 2026 20:14:47 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Neural Networks Are Already Clean</p>
+<blockquote>
+<p>早期模型组织体中多义性的原因不是叠加，而是几个普通的、大多可以解决的问题。我们现在可以理解模型中大多数神经元的数万亿个参数，并且认为机械可解释性的前景可能比我们想象的要好得多。</p>
+</blockquote>
+<p>(From author X)</p>
+<blockquote>
+<p>可解释性可能是目前世界上最重要的科学问题，因为我认为如果我们不知道我们在构建什么，我们就无法解决对齐问题。我认为我有一个好消息。我与 OpenAI 合作完成了机械可解释性的早期工作，结果很悲观，因为神经网络似乎会折叠成任意纠缠的结。几年后，我启动了 OpenAI 的第一个大规模自动化可解释性项目，发现用我们已有的原始工具可以识别约 2% 的神经元。</p>
+</blockquote>
+<blockquote>
+<p>使用现代智能体工具，再仔细观察，图像看起来完全不同。在高达数万亿参数的模型中，绝大多数都是可读的，它们的电路是美丽的。许多著名的纠缠神经元例子被证明是错误的。我预期的障碍大多不存在。我现在认为，雄心勃勃的可解释性将在我们最需要的时候得到解决，而且可能很快，因为自动化科学家正在不断改进。这可能是对可解释性的一个痛苦教训：简单的事物，在荒谬的尺度上，却能发挥作用。</p>
+</blockquote>
+<p><a href="https://already-clean.goodfire.com" target="_blank">https://already-clean.goodfire.com</a></p>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a></p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou - 2026-10-13_17.13.46</title>
         <link>https://tien-kou-kari.github.io/misc/tg/2026-10-13/2026-10-13_17.13.46</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-10-13/2026-10-13_17.13.46</guid>
@@ -229,26 +260,6 @@ src: <a href="https://x.com/deno_land/status/2108543358197207048?s=10">https://x
   <div class="principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p>Living off-grid: Hundred Rabbits - <a href="https://100r.ca/site/home.html" target="_blank">https://100r.ca/site/home.html</a></p>
 <p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a></p>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-10-08_20.16.39</title>
-        <link>https://tien-kou-kari.github.io/SlipBox/2026-10-08_20.16.39</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-10-08_20.16.39</guid>
-        <pubDate>Thu, 08 Oct 2026 20:16:39 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>The Search for Salvage | Shahid Hussain <a href="https://shahidhussain.com/writing/search-for-salvage/" target="_blank">https://shahidhussain.com/writing/search-for-salvage/</a></p>
-<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a> 这种搜寻失传媒体的努力过程真的很像赌博：不断努力会不断带来（可能是虚假的）希望，中途放弃将一无所获并因为沉没成本带来沉重的戒断反应。但是一旦成功…哇哦！</p>
 
 
 </div>
