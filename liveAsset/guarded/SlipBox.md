@@ -55,3 +55,9 @@ https://cdyforever.github.io/how-to-live-better
 https://already-clean.goodfire.com
 
 #fhn
+
+2026-10-17 13:28:10 TimeSlot=2026Q3 #大事记
+- LLM带来的混乱和冲击持续，但冲击性的安全/稳定性/恐慌事件的数量似乎有所缓和。可能大家都在逐渐习惯了。
+- LLM+个人电脑已成我身边各种背景的万能愿望机，只要给出完全权限直接许愿即可。几乎没人不订阅OpenAI Codex付费档，人人都在等Tibo Reset以及在Reset之前大蹬特蹬Astra。
+- 经济下行，保命要紧。短视频和X上形成赛博养生舆论热点：大水/小水/大睡觉理论，几乎人人都在控糖。
+
