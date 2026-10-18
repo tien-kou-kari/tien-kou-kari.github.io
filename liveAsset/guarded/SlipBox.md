@@ -80,3 +80,13 @@ https://already-clean.goodfire.com
 > 上海市监局曝光网红黄鱼面店 后厨不堪入目！(2025年12月22日视频) https://www.bilibili.com/video/BV1K3B4B5EwU/
 >
 > 号称"不接受差评""爱来不来"的上海网红面馆"明呈黄鱼面馆"，近日被市场监管部门揭开了不堪入目的后厨真相：地面包浆、消毒柜形同虚设执法人员连插头都找不到。更让人不能容忍的是，冰柜里一份又一份问题食材：变质的番茄，过期的香干、豆腐。
+
+2026-10-18 13:38:27 https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends
+
+HN标题：NY announces game ownership bill requiring ownership rather than licensing
+
+原标题节选：New York rep announces game ownership bill that would require consumer ownership rather than sale of licenses
+
+原文意思是联邦众院来自纽约州的代表提的全国性法案，妳看HN这么爱编辑标题编辑出了个什么，
+
+#fhn
