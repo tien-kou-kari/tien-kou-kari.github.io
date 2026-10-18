@@ -1,3 +1,6 @@
+---
+pubTime: 2026-10-19 00:18:01
+---
 Test Asset with Path containing `#` 2
 
 <a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/TestPathWith#Char2_y0vode5b_0__#__Figure_1.png" class="md-attach md-attach-img-link" target="_blank">
