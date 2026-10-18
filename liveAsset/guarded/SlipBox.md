@@ -90,3 +90,5 @@ HN标题：NY announces game ownership bill requiring ownership rather than lice
 原文意思是联邦众院来自纽约州的代表提的全国性法案，妳看HN这么爱编辑标题编辑出了个什么，
 
 #fhn
+
+2026-10-19 00:34:49 #tk演进 设计该如何让搜索引擎（Google）检索
