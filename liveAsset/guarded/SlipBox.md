@@ -92,3 +92,9 @@ HN标题：NY announces game ownership bill requiring ownership rather than lice
 #fhn
 
 2026-10-19 00:34:49 #tk演进 设计该如何让搜索引擎（Google）检索
+
+2026-10-20 13:11:01 https://bilibili.com/BV1kFJb6eEFe 警惕：现在国内床虱已经很泛滥了
+
+<a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_wlrpfmgp_0_1792472930525.jpg" class="md-attach md-attach-img-link" target="_blank">
+            <img tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_wlrpfmgp_0_1792472930525.jpg" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
+        </a>
