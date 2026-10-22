@@ -108,3 +108,7 @@ HN标题：NY announces game ownership bill requiring ownership rather than lice
 2026-10-22 19:52:10 No More Icons In Every Menu By Default - Jim Nielsen’s Blog - https://blog.jim-nielsen.com/2026/icons-in-every-menu/
 
 #fhn
+
+2026-10-22 20:03:16 mitmproxy adds --emudhra option - https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b
+
+#fhn 草，笑死，刚刚还在想会不会有这个
