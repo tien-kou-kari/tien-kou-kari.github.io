@@ -104,3 +104,7 @@ HN标题：NY announces game ownership bill requiring ownership rather than lice
 <a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_cmh0c0mp_0_2964d4bb5ae7859065eff27a509a0b6a_720.jpg" class="md-attach md-attach-img-link" target="_blank">
             <img tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_cmh0c0mp_0_2964d4bb5ae7859065eff27a509a0b6a_720.jpg" class="md-attach md-attach-img" alt="一张动漫风格的表情包图片。底部露出一位白发、紫眼、长有双角和尖耳的Q版可爱少女角色，中文互联网上一般理解为GPT大模型的龙娘拟人角色；上方是一个占据大部分画面的巨大对话框，内容是一段极其严谨繁琐的软件工程与质量保证黑话：“你说得对，但我要求开始核验、检索、探针、检查、审计、评估、冻结、快照、哈希、夹具、门禁和回滚了。我先明确目标、约束、边界和验收，核对事实与证据，建立唯一基线，记录指纹，完成备份与恢复演练；再拆解、验证。核对与实际差异，检查异常和副作用，再静态、单元、集成、回归、冒烟、安全检查、性能验证和故障注入，逐项确认全部门禁通过。还要 dry-run，校验依赖、权限、一致性；先灰度，再放量，发现异常立即回滚，最后跑验收矩阵，复核，将变更、证据链、异常处理和结论统一归档。”" title="一张动漫风格的表情包图片。底部露出一位白发、紫眼、长有双角和尖耳的Q版可爱少女角色，中文互联网上一般理解为GPT大模型的龙娘拟人角色；上方是一个占据大部分画面的巨大对话框，内容是一段极其严谨繁琐的软件工程与质量保证黑话：“你说得对，但我要求开始核验、检索、探针、检查、审计、评估、冻结、快照、哈希、夹具、门禁和回滚了。我先明确目标、约束、边界和验收，核对事实与证据，建立唯一基线，记录指纹，完成备份与恢复演练；再拆解、验证。核对与实际差异，检查异常和副作用，再静态、单元、集成、回归、冒烟、安全检查、性能验证和故障注入，逐项确认全部门禁通过。还要 dry-run，校验依赖、权限、一致性；先灰度，再放量，发现异常立即回滚，最后跑验收矩阵，复核，将变更、证据链、异常处理和结论统一归档。”" style="max-width: 20rem; max-height: 40rem;">
         </a>
+
+2026-10-22 19:52:10 No More Icons In Every Menu By Default - Jim Nielsen’s Blog - https://blog.jim-nielsen.com/2026/icons-in-every-menu/
+
+#fhn
