@@ -116,3 +116,7 @@ HN标题：NY announces game ownership bill requiring ownership rather than lice
 2026-10-24 11:54:56 Air Purifiers as White Noise Machines - https://www.jefftk.com/p/air-purifiers-as-white-noise-machines
 
 #fhn
+
+2026-10-25 00:07:20 【一人独立制作】语言学游戏Linkamic(遴溘敉椌)宣传片 - https://bilibili.com/BV1rRHP6qEsi
+
+#TPOB
