@@ -112,3 +112,7 @@ HN标题：NY announces game ownership bill requiring ownership rather than lice
 2026-10-22 20:03:16 mitmproxy adds --emudhra option - https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b
 
 #fhn 草，笑死，刚刚还在想会不会有这个
+
+2026-10-24 11:54:56 Air Purifiers as White Noise Machines - https://www.jefftk.com/p/air-purifiers-as-white-noise-machines
+
+#fhn
