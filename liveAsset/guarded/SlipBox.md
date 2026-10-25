@@ -124,3 +124,10 @@ HN标题：NY announces game ownership bill requiring ownership rather than lice
 2026-10-25 09:48:56 “We should be more ambitious with the software we build” - https://danluu.com/ambitious/
 
 #fhn danluu从也有对软件的UX/质保/工程细节有着超越常人的挑剔而且还有足够的执行力去做她想要的事情这一点看确实是个神人。但这一点究竟是好是坏呢…
+
+2026-10-25 11:22:43 selenelion - 新目鳥
+
+
+https://www.youtube.com/watch?v=aW_BPAh3wc8
+
+<video controls tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_0dz8ajpr_0_selenelion%20%5BaW_BPAh3wc8%5D.webm" class="md-attach md-attach-video" title="" alt="" style="max-width: 20rem; max-height: 40rem;"></video>
