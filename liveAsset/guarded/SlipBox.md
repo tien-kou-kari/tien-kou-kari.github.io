@@ -120,3 +120,7 @@ HN标题：NY announces game ownership bill requiring ownership rather than lice
 2026-10-25 00:07:20 【一人独立制作】语言学游戏Linkamic(遴溘敉椌)宣传片 - https://bilibili.com/BV1rRHP6qEsi
 
 #TPOB
+
+2026-10-25 09:48:56 “We should be more ambitious with the software we build” - https://danluu.com/ambitious/
+
+#fhn danluu从也有对软件的UX/质保/工程细节有着超越常人的挑剔而且还有足够的执行力去做她想要的事情这一点看确实是个神人。但这一点究竟是好是坏呢…
