@@ -139,3 +139,11 @@ https://www.youtube.com/watch?v=aW_BPAh3wc8
 https://www.youtube.com/watch?v=gH5A8MtW6x4
 
 <video controls tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_yep5pwnc_0_Refreqt%20%5BgH5A8MtW6x4%5D.webm" class="md-attach md-attach-video" title="" alt="" style="width: 48rem; max-width: 95%; max-height: 48rem;"></video>
+
+2026-10-25 16:00:26 wow，第一次见到了
+
+#DystopianDaily
+
+<a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_bhvx8sv5_0_image.png" class="md-attach md-attach-img-link" target="_blank">
+            <img tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_bhvx8sv5_0_image.png" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
+        </a>
