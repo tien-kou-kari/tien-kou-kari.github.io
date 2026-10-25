@@ -130,7 +130,7 @@ HN标题：NY announces game ownership bill requiring ownership rather than lice
 
 https://www.youtube.com/watch?v=aW_BPAh3wc8
 
-<video controls tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_0dz8ajpr_0_selenelion%20%5BaW_BPAh3wc8%5D.webm" class="md-attach md-attach-video" title="" alt="" style="max-width: 60rem; max-height: 60rem;"></video>
+<video controls tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_0dz8ajpr_0_selenelion%20%5BaW_BPAh3wc8%5D.webm" class="md-attach md-attach-video" title="" alt="" style="width: 48rem; max-width: 95%; max-height: 48rem;"></video>
 
 2026-10-25 11:25:36 Refreqt - 新目鳥
 
@@ -138,4 +138,4 @@ https://www.youtube.com/watch?v=aW_BPAh3wc8
 
 https://www.youtube.com/watch?v=gH5A8MtW6x4
 
-<video controls tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_yep5pwnc_0_Refreqt%20%5BgH5A8MtW6x4%5D.webm" class="md-attach md-attach-video" title="" alt="" style="max-width: 60rem; max-height: 60rem;"></video>
+<video controls tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_yep5pwnc_0_Refreqt%20%5BgH5A8MtW6x4%5D.webm" class="md-attach md-attach-video" title="" alt="" style="width: 48rem; max-width: 95%; max-height: 48rem;"></video>
