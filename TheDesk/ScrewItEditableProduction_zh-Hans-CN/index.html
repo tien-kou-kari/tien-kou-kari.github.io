@@ -343,7 +343,7 @@ pre:has(> code) {
       <div class="tidbit-pair"><div class="tidbit-key">WebUrlPathUnencoded (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/TheDesk/ScrewItEditableProduction_zh-Hans-CN</div></div>
       <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath</div><div class="tidbit-value white-space-preserve">/TheDesk/ScrewItEditableProduction_zh-Hans-CN</div></div>
       <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/TheDesk/ScrewItEditableProduction_zh-Hans-CN</div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1786910310908</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1786910310000</div></div>
     </details><div class="multi-lang-wrapper"><div class="multi-lang-list"><div class="one-lang-link alt-lang"><a href="/TheDesk/ScrewItEditableProduction">en-US</a></div><div class="one-lang-link curr-lang">简体中文版本</div></div></div>
     <h3 class="md-title">去它的，至少产物代码是可修改的</h3><p>2026-01-19</p>
 <p>我今天在调整一个开源网页自动翻译浏览器扩展[0]，希望它能全局对所有网页自动触发翻译，单独设一个Profile专门用来浏览外语网页。然后我发现……行不通，设置项可以填入域名的允许列表（allowlist），对这些域名自动触发翻译，但是没有地方可以设置成全局。允许列表也不能填通配符、正则表达式之类的东西，我在源码里确认过了，那个判断逻辑就是<code>someArray.include(...)</code>。真残酷。</p>
