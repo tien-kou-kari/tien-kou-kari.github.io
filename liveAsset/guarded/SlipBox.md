@@ -159,3 +159,9 @@ https://www.youtube.com/watch?v=gH5A8MtW6x4
 > Worse, macOS 27.2, released on 26th October, did not fix the issue and undid the workaround that users had applied by hand, leaving them vulnerable again.
 
 See Also: https://emudhra.we-have-a-problem.com/
+
+2026-10-31 20:03:55 Shiny object syndrome - Wikipedia https://en.wikipedia.org/wiki/Shiny_object_syndrome
+
+> **Shiny object syndrome** is the situation where people focus undue attention on an idea that is new and [trendy](https://en.wikipedia.org/wiki/Fad), yet drop it in its entirety as soon as something new can take its place.
+
+#fhn
