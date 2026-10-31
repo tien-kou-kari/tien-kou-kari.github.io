@@ -147,15 +147,3 @@ https://www.youtube.com/watch?v=gH5A8MtW6x4
 <a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_bhvx8sv5_0_image.png" class="md-attach md-attach-img-link" target="_blank">
             <img tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_bhvx8sv5_0_image.png" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
         </a>
-
-2026-10-31 13:50:24 From https://emudhra.we-have-a-problem.com/apple.html :
-
-> ### Apple's git still trusts the compromised eMudhra certificates
-> 
-> 28th October 2026
-> 
-> Apple was notified of the eMudhra incident on 17th October. As of 28th October, the developer tools Apple ships with macOS, including git, curl and python3, still trust the compromised certificates.
-> 
-> Worse, macOS 27.2, released on 26th October, did not fix the issue and undid the workaround that users had applied by hand, leaving them vulnerable again.
-
-See Also: https://emudhra.we-have-a-problem.com/
