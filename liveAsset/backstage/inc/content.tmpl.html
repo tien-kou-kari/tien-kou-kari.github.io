@@ -63,11 +63,11 @@ endif
       {%- if rgc.serverProfileName == 'insiders' %}
         <div class="tidbit-pair"><div class="tidbit-key">Repost</div>
 
-          <a id="tk-sender-repost-link" target="_blank" href="http://tksend.shadaw/?text=groupType%3DnoBorderRef%20g%3D{{ asset.asset_locator |  url_encode }}+">Repost this asset</a>
+          <a id="tk-sender-repost-link" target="_blank" href="http://tksend.sherw/?text=groupType%3DnoBorderRef%20g%3D{{ asset.asset_locator |  url_encode }}+">Repost this asset</a>
         </div>
         <div class="tidbit-pair"><div class="tidbit-key">Repost</div>
 
-          <a id="tk-sender-repost-link-private" target="_blank" href="http://tksend.shadaw/?text=repost%3D{{ asset.asset_locator |  url_encode }}+">Repost this asset (private)</a>
+          <a id="tk-sender-repost-link-private" target="_blank" href="http://tksend.sherw/?text=repost%3D{{ asset.asset_locator |  url_encode }}+">Repost this asset (private)</a>
           {%-# because mobile Cromite doesnt show datalist items if not in secure context? %}
           {%-# AND: client script impl is the only sane way, because of page cache %}
         </div>

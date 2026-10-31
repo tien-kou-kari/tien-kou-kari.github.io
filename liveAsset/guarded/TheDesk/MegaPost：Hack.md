@@ -42,6 +42,7 @@ icacls \\?\C:\mydir\mydir2 /reset /T /Q /C /L
 - （添加一个EFI Entry指向第二分区的`\EFI\BOOT\BOOTX64.EFI.此时EFI分区将被Ventoy识别为Ventoy分区`？）
 - 此时EFI分区将作为Ventoy承载ISO和配置的分区，即使其空间不足以放ISO，也可以用Vlnk的方式引用C盘或后面分区的ISO、Vtoy等文件。
   - 可以把VtoyEFI的mmia64.efi拷贝，用来做提示文字。
+  - 小分区的grub/themes/ventoy/background.png修改壁纸
   - Ventoy启动时还可按F2启动浏览器，启动Ventoy分区未列出的其他硬盘分区的文件。
 - `sudo hexdump -s 0x1b8 -n 4 -C /dev/sdx`（cygwin下也可，用管理员权限运行） 确定当前磁盘的signature（ventoy唯一识别有用到）
 - 若是全0， `sudo dd if=/dev/urandom of=/dev/sdX bs=1 count=4 seek=440 conv=fsync` 设置当前磁盘的signature（ventoy唯一识别有用到）
