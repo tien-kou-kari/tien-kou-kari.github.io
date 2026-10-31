@@ -6,6 +6,102 @@
     <atom:link href="https://tien-kou-kari.github.io/rss?periodType=loose&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou No Tags: Noise, Silence Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou - 2026-10-31_20.03.55</title>
+        <link>https://tien-kou-kari.github.io/SlipBox/2026-10-31_20.03.55</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-10-31_20.03.55</guid>
+        <pubDate>Sat, 31 Oct 2026 20:03:55 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Shiny object syndrome - Wikipedia <a href="https://en.wikipedia.org/wiki/Shiny_object_syndrome" target="_blank">https://en.wikipedia.org/wiki/Shiny_object_syndrome</a></p>
+<blockquote>
+<p><strong>Shiny object syndrome</strong> is the situation where people focus undue attention on an idea that is new and <a href="https://en.wikipedia.org/wiki/Fad" target="_blank">trendy</a>, yet drop it in its entirety as soon as something new can take its place.</p>
+</blockquote>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a></p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2026-10-31_13.50.24</title>
+        <link>https://tien-kou-kari.github.io/SlipBox/2026-10-31_13.50.24</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-10-31_13.50.24</guid>
+        <pubDate>Sat, 31 Oct 2026 13:50:24 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>From <a href="https://emudhra.we-have-a-problem.com/apple.html" target="_blank">https://emudhra.we-have-a-problem.com/apple.html</a> :</p>
+<blockquote>
+<h3>Apple's git still trusts the compromised eMudhra certificates</h3>
+<p>28th October 2026</p>
+<p>Apple was notified of the eMudhra incident on 17th October. As of 28th October, the developer tools Apple ships with macOS, including git, curl and python3, still trust the compromised certificates.</p>
+<p>Worse, macOS 27.2, released on 26th October, did not fix the issue and undid the workaround that users had applied by hand, leaving them vulnerable again.</p>
+</blockquote>
+<p>See Also: <a href="https://emudhra.we-have-a-problem.com/" target="_blank">https://emudhra.we-have-a-problem.com/</a></p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2026-10-30_17.22.35</title>
+        <link>https://tien-kou-kari.github.io/misc/tg/2026-10-30/2026-10-30_17.22.35</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-10-30/2026-10-30_17.22.35</guid>
+        <pubDate>Fri, 30 Oct 2026 17:22:35 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/ble_channel" title="Telegram PeerChannel handle: ble_channel" data-title="tg:ble_channel">鳖频道</a> (<span class="tg-author">莫思奇多</span>)
+
+    <span class="tg-timestamp">2026-10-28T20:17:26+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">PHP和群晖这件事之后，突然觉得跟着软件更新也没什么意义了，现在人手都是ai新挖的0day。PHP官方发补丁之前，群友就蹬出来实战化exp了，cloudflare也早在那天中午的时候已经检测到在野攻击流量了
+
+感觉以后token大大丰富之后的的防御方式是，开发的时候要求全部东西都让ai自己实现
+不用任何开源组件，也不对外开放任何服务组件代码
+只要我是黑盒，你不知道我怎么实现的，你就打不了我。你只能回到传统APT一个个打，一个个供应链供，又到了最薄弱的环节是人阶段.jpg
+也许这才是AI时代的防御方式吧
+
+现在我们需要的是，从网卡固件开始到系统TCPIP协议栈，全部重写。从二层重建到七层。（新闻连连看：<a href="https://www.anthropic.com/research/discovering-vulnerabilities-with-claude">A畜</a>刚挖了个Linux内核MPTCP的root rce <a href="https://linux.oracle.com/cve/CVE-2026-98432.html">CVE-2026-98432</a>）</div>
+      
+        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
+          <a target="_blank" href="https://anthropic.com/research/discovering-vulnerabilities-with-claude">Anthropic</a>
+          <h6>Discovering and exploiting vulnerabilities in critical, real-world software with Claude</h6>
+          <p>Over the past few months, we’ve used an unreleased, internal research model to find critical vulnerabilities in some of the world’s most widely used software, such as browsers and operating systems. In this post, we share details of five attack chains, which led to remote code execution and other critical impacts with little to no user interaction.</p>
+            <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-5880754425704419446.png" title="Telegram wepbage media id 5880754425704419446" alt="A picture related to current telegram webpage message. No more alt detail for now." />
+        </div></div></div>
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou - 2026-10-29_16.43.00</title>
         <link>https://tien-kou-kari.github.io/misc/tg/2026-10-29/2026-10-29_16.43.00</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-10-29/2026-10-29_16.43.00</guid>
@@ -211,148 +307,6 @@ linksrc: <a href="https://t.me/landiansub/17148">https://t.me/landiansub/17148</
 
     <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
       <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-5402608193520738510.png" title="Telegram media id 5402608193520738510" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </div></div>
-  </div>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-10-28_18.05.59</title>
-        <link>https://tien-kou-kari.github.io/misc/tg/2026-10-28/2026-10-28_18.05.59</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-10-28/2026-10-28_18.05.59</guid>
-        <pubDate>Wed, 28 Oct 2026 18:05:59 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/acwiki" title="Telegram PeerChannel handle: acwiki" data-title="tg:acwiki">Ac-Wiki | 真·青年大学习</a>
-
-    <span class="tg-timestamp">2026-10-27T18:23:16+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://jyywiki.cn">https://jyywiki.cn</a>
-
-南京大学蒋炎岩老师的个人博客，记录了自己负责教学的操作系统、计算机组成原理、软件工程的全部课程内容
-其中较为著名的是《生成式软件工程》
-
-主要回答了，在AI时代，为什么软件工程仍然不可替代且愈发重要，如何将软件工程思维应用于AI开发应用的全流程，实现软件开发的高效、清晰、稳定、易于维护，而不是产生大量AI slop，当算力部分乃至完全取代智力，我们如何正确驾驭
-
-课程涵盖
-<a href="https://jyywiki.cn/GSE/2026/lect1.md">欢迎来到未来</a>
-<a href="https://jyywiki.cn/GSE/2026/lect2.md">提示词与上下文工程</a>
-<a href="https://jyywiki.cn/GSE/2026/lect3.md">版本管理 (1)</a> | <a href="https://jyywiki.cn/GSE/2026/lab1.md">Lab1: 个人数字助手</a>
-<a href="https://jyywiki.cn/GSE/2026/lect4.md">版本管理 (2)</a>
-<a href="https://jyywiki.cn/GSE/2026/lect5.md">软件工程的来龙去脉</a>
-<a href="https://jyywiki.cn/GSE/2026/lect6.md">需求和架构 (1)</a>
-<a href="https://jyywiki.cn/GSE/2026/lect7.md">需求和架构 (2)</a> | <a href="https://jyywiki.cn/GSE/2026/lab2.md">Lab2: Deeper Research</a>
-<a href="https://jyywiki.cn/GSE/2026/lect8.md">Agent Native 开发</a>
-<a href="https://jyywiki.cn/GSE/2026/lect9.md">DeepSeek Harness</a> 
-
-“欢迎来到未来”</div>
-      
-        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
-          <a target="_blank" href="https://jyywiki.cn/"></a>
-          <h6></h6>
-          <p></p>
-        </div></div></div>
-    </div></div>
-  </div>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-10-27_16.52.48</title>
-        <link>https://tien-kou-kari.github.io/misc/tg/2026-10-27/2026-10-27_16.52.48</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-10-27/2026-10-27_16.52.48</guid>
-        <pubDate>Tue, 27 Oct 2026 16:52:48 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/foolishtracewind" title="Telegram PeerChannel handle: foolishtracewind" data-title="tg:foolishtracewind">Foolish TraceWind</a> (<span class="tg-author">风小痕</span>)
-
-    <span class="tg-timestamp">2026-10-27T06:33:31+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
-      <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-5978957315329167285.png" title="Telegram media id 5978957315329167285" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </div></div>
-  </div>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-10-25_22.43.33</title>
-        <link>https://tien-kou-kari.github.io/misc/tg/2026-10-25/2026-10-25_22.43.33</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-10-25/2026-10-25_22.43.33</guid>
-        <pubDate>Sun, 25 Oct 2026 22:43:33 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/hackernews100zhtw" title="Telegram PeerChannel handle: hackernews100zhtw" data-title="tg:hackernews100zhtw">Hacker News 100 繁體中文</a>
-
-    <span class="tg-timestamp">2026-10-25T21:27:40+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://twitter.com/mike64_t/status/2114150399406202896"><b>三星電視以 960 × 540 畫面執行 TensorFlow Lite 模型追蹤你</b></a> （★ <b>110</b> 分）
-
-<blockquote expandable>一名研究者檢視三星電視的 Tizen（三星智慧電視作業系統）後指出，裝置會定期擷取 960 × 540 解析度的畫面，並在本機以 TensorFlow Lite（適用於行動與嵌入式裝置的輕量機器學習框架）執行名為 `alex.tflite` 的模型。該模型採用 INT8 量化，即以 8 位元整數降低模型體積與運算成本；其架構看似基於 AlexNet，試圖辨識使用者正在玩的遊戲。
-
-貼文推測，模型會將畫面特徵與資料庫中的項目進行近鄰比對，以判定內容類型，但辨識成功率似乎很低，卻仍持續佔用 CPU 資源。更受質疑的是，這項影像分析可能在使用者同意資料蒐集前就已啟動；若尚未授權，分析結果似乎不會被後續使用。貼文附上模型圖與擷取畫面，但未提供三星官方說明或獨立驗證，因而仍難判定資料是否會外傳、保存多久，以及實際商業用途。
-
-Hacker News 討論普遍將此視為智慧電視以低售價換取廣告、預載服務曝光與觀影資料價值的縮影。多名留言者指出，高價電視未必較重視隱私，因此建議將電視當成純顯示器使用，避免連上家用網路；也有人希望路由器可為智慧家電提供只能連線、卻無法對外傳送資料的隔離網段。部分人則主張，電視應提供真正可關閉的追蹤功能，而不是以反覆跳出的連網提示和延後選項施壓。
-
-也有技術取向的意見建議取得裝置最高權限後移除追蹤元件、改裝系統，或直接將智慧電視功能與外接播放設備分開；不過這類作法門檻高，可能影響保固與串流服務的數位版權管理。討論中亦有人主張應設立類似 Energy Star 的隱私標章，並對不實宣告施以重罰。針對「大型科技公司無法管制」的說法，另有留言指出英國 GDPR（一般資料保護規則）已要求個資處理必須合法、公平且透明，問題更在於執法是否足夠有效。至於電視資料可用來預測股市等延伸猜測，其他人提醒這類說法缺乏量化證據，不能逕自推論。
-</blockquote>
-👥 <b>54</b> 則討論、評論 💬
-<a href="https://news.ycombinator.com/item?id=50230181">https://news.ycombinator.com/item?id=50230181</a></div>
-      
-        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
-          <a target="_blank" href="https://twitter.com/mike64_t/status/2114150399406202896">X (formerly Twitter)</a>
-          <h6>mike (@mike64_t) on X</h6>
-          <p>Ok, I just checked this, and its literally running a freaking TensorFlow Lite model on 960×540 images with INT8 quantization every couple of seconds in an attempt to figure out what game you are p…</p>
-            <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-5975313052758380571.png" title="Telegram wepbage media id 5975313052758380571" alt="A picture related to current telegram webpage message. No more alt detail for now." />
-        </div></div></div>
     </div></div>
   </div>
 
