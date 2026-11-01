@@ -5,6 +5,7 @@ x tag | prepend: 'Tag ' | rgcSet: "pageTitlePart"
 
 assign shouldRenderDeclaringTagAssetList = true
 assign shouldRenderReferencingTagAssetList = true
+assign shouldCollapseReferencingTagAssetList = true
 
 assign tagContent = 'tagTopic/' | append: tag | fetchLocatableContent: shouldThrowIfNotFound: false
 assign shouldRenderTagTopicContent = false
@@ -23,6 +24,9 @@ if c.isLocatableContent and c.isLocatableContentFound and c.isLocatableContentNo
   assign shouldRenderDeclaringTagAssetList = tagContent.metadata.shouldRenderDeclaringTagAssetList | default: true, allow_false: true
 
   assign shouldRenderReferencingTagAssetList = tagContent.metadata.shouldRenderReferencingTagAssetList | default: true, allow_false: true
+  if tagContent.metadata.shouldRenderReferencingTagAssetList == true
+    assign shouldCollapseReferencingTagAssetList = false
+  endif
 
 endif
 
@@ -55,18 +59,26 @@ if shouldRenderDeclaringTagAssetList
   render 'inc/sequence.tmpl.html' list: list
 
   if shouldRenderReferencingTagAssetList
-    echo '<hr/>' | raw
+    echo '<br/><hr/><br/>' | raw
   endif
 
 endif
 
 if shouldRenderReferencingTagAssetList
+  if shouldCollapseReferencingTagAssetList
+    echo '<details style="margin-bottom: 0.4rem" lang="en">'
+    echo '  <summary>'
+  endif
   echo tagContent.metadata.referencingTagTitleMd | default: '#### Referenced by\n' | md | raw
-
+  if shouldCollapseReferencingTagAssetList
+    echo '  </summary>'
+  endif
   assign list = '' | listAssetDescendants: false, 'condTimeDesc', pageNum, pageSize, " AND EXISTS ( SELECT 1 FROM json_each(json_extract(metadata, '$.referencedTags')) WHERE value = ? )", tag
 
   render 'inc/sequence.tmpl.html' list: list
-
+  if shouldCollapseReferencingTagAssetList
+    echo '  </details>'
+  endif
 endif
 
 -%}
