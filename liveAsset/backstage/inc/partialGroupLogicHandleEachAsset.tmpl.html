@@ -98,7 +98,9 @@ endif
         {%- render 'inc/oneInSeq.tmpl.html', post: currGroupViewPrimary, infoLinePrefixHtml: infoLinePrefixHtml, extraClass: extraClassForRef %}
         {%- if currGroupViewOtherPrimaryList %}
           {%- for otherPri in currGroupViewOtherPrimaryList %}
+            <div class="group-other-primary-asset">
             {%- render 'inc/oneInSeq.tmpl.html', post: otherPri, infoLinePrefixHtml: infoLinePrefixHtml %}
+            </div>
           {%- endfor %}
         {%- endif %}
         {%- if currGroupViewType == 'ref' or currGroupViewType == 'bottomPostRef' or currGroupViewType == 'inTableRef' or currGroupViewType == 'inTableBottomPostRef' %}
