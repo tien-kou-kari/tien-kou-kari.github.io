@@ -230,7 +230,7 @@ A conspiracy to kill IE6 (2019) 暗杀 IE6 的阴谋 (2019) - https://blog.chris
 
 7-Zip有一点不好：默认宋体，之后看有没有办法改
 
-2025-10-22 23:46:35 继Reddit内建全站贴文多语言AI翻译版本且开放给Google直接索引后 * ，现在知乎也同样开始做中译英了：
+2025-10-22 23:46:35 #巴别塔 继Reddit内建全站贴文多语言AI翻译版本且开放给Google直接索引后 * ，现在知乎也同样开始做中译英了：
 
 https://www.google.com/search?q=site%3Aen.zhihu.com
 
