@@ -728,7 +728,7 @@ AI is removing the middle class of software engineering https://blog.florianherr
 2026-08-21 23:48:23 Yes
 
 <a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_umhvnsro_0_C1%7BK4YFKE%7B9O3H$%7B@35_4)T_tmb.jpg" class="md-attach md-attach-img-link" target="_blank">
-            <img tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_umhvnsro_0_C1%7BK4YFKE%7B9O3H$%7B@35_4)T_tmb.jpg" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
+            <img loading="lazy" tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_umhvnsro_0_C1%7BK4YFKE%7B9O3H$%7B@35_4)T_tmb.jpg" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
         </a>
 
 2026-08-22 10:36:22 I accidentally logged hundreds of thousands of phone calls to military bases - lina's blog https://lina.sh/blog/hijacking-e164-arpa
@@ -890,7 +890,7 @@ https://www.reddit.com/r/browsers/comments/1tzq9ba/chromiumwoolysscom_shutting_d
 https://github.com/AmirAgassi/chromiumbuilds
 
 <a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_p4tgdkgs_0_image.png" class="md-attach md-attach-img-link" target="_blank">
-            <img tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_p4tgdkgs_0_image.png" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
+            <img loading="lazy" tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_p4tgdkgs_0_image.png" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
         </a>
 
 2026-09-30 17:01:13 最近美股是不是又涨了，三星和SK海力士的HBM到底谁更强，半导体周期是不是又要来了，台积电先进制程现在排到哪了，ASML的EUV今年交付多少台，英特尔18A到底能不能量产，英伟达B300、B100、B200、H100、H200、A100、V100、A800、H800 算子更新了吗，摩尔线程、寒武纪、海光、昇腾、燧原、沐曦、天数、芯原、地平线、黑芝麻、Mobileye、高通、联发科、博通的 GPU 适配了吗，AMD、Intel、NVIDIA、台积电、三星、SK海力士、美光、铠侠、西部数据、希捷、闪迪、长江存储、长鑫存储、中芯国际、华虹、华润微、士兰微、闻泰、三安、兆易创新这些科技企业上市了吗?你分得清哪些是公司哪些是产品哪些是技术哪些是概念哪些是炒作哪些是泡沫哪些是趋势哪些是周期哪些是结构性机会哪些是主题投资哪些是价值投资哪些是成长投资哪些是赛道投资哪些是产业趋势投资哪些是事件驱动投资哪些是政策驱动投资哪些是资金驱动投资哪些是情绪驱动投资哪些是博弈哪些是投机哪些是赌博哪些是运气哪些是实力哪些是认知变现哪些是幸存者偏差哪些是均值回归哪些是周期轮回哪些是时代红利哪些是个人奋斗哪些是历史进程？你分得清吗?
