@@ -24,7 +24,9 @@
 %}
 
       {%- if currGroupViewAssetList.size == 0 %}
-<p>Nothing in group</p>
+<div class="group-view full-group empty-group">
+  <p>Nothing in group</p>
+</div>
       {%- else %}
 
 {%- # to make https://github.com/Rongronggg9/RSS-to-Telegram-Bot/blob/e9839d92e88ee3a82e1322ffc2a5357d6a5bf466/src/parsing/html_parser.py happy %}
@@ -45,9 +47,11 @@
   assign isGroupTypeRef = false
   if currGroupViewType == 'ref' or currGroupViewType == 'bottomPostRef' or currGroupViewType == 'noBorderRef' or currGroupViewType == 'noBorderBottomPostRef' or currGroupViewType == 'inTableRef' or currGroupViewType == 'inTableBottomPostRef'
     assign isGroupTypeRef = true
-endif
+  endif
 
 %}
+
+<div class="group-view full-group">
 
 {%- if isGroupTypeRef %}
   {%- capture refRender %}
@@ -64,12 +68,17 @@ endif
       {%- endif %}
       <{% echo tdEl %} class="group-layout group-ref-primary group-asset"{{ primaryInTableColspan }}>
     {%- else %}
+      {%-# no border ref -%}
       {%- assign infoLinePrefixHtml = '<div class="ref-marker">&gt;&gt;&gt;</div> ' %}
+      <div class="group-asset group-refed-asset">
     {%- endif %}
     {%- render 'inc/oneInSeq.tmpl.html', post: currGroupViewPrimary, infoLinePrefixHtml: infoLinePrefixHtml %}
     {%- if currGroupViewType == 'ref' or currGroupViewType == 'bottomPostRef' or currGroupViewType == 'inTableRef' or currGroupViewType == 'inTableBottomPostRef' %}
       </{% echo tdEl %}>
       </{% echo trEl %}>
+      {%- else %}
+        {%-# no border ref -%}
+        </div>
     {%- endif %}
   {%- endcapture %}
 {%- endif %}
@@ -166,4 +175,6 @@ endif
   {{ noBorderAssetRender | raw }}
 {%- endif %}
 
+</div>
+        {%-# endif -- currGroupViewAssetList.size == 0 -%}
         {%- endif -%}

@@ -58,7 +58,7 @@ endif
 
 {%- unless currGroupViewPrimaryLocator == undefined or partialGroupLogicOneAssetCtx.shouldFullySkipRender %}
   {%- capture toRender %}
-
+    <div class="group-view partial-group">
     {%- liquid
 
     assign shouldShowRefPrimaryAsScroll = ''
@@ -91,9 +91,11 @@ endif
           {%- endif %}
           <{% echo tdEl %} class="group-layout group-ref-primary{{shouldShowRefPrimaryAsScroll}} group-asset"{{ primaryInTableColspan }}>
         {%- else %}
+          {%-# no border ref -%}
           {%- assign infoLinePrefixHtml = '<div class="ref-marker">&gt;&gt;&gt;</div> ' %}
+          <div class="group-asset group-refed-asset">
         {%- endif %}
-        {%- render 'inc/oneInSeq.tmpl.html', post: currGroupViewPrimary, infoLinePrefixHtml: infoLinePrefixHtml %}
+        {%- render 'inc/oneInSeq.tmpl.html', post: currGroupViewPrimary, infoLinePrefixHtml: infoLinePrefixHtml, extraClass: extraClassForRef %}
         {%- if currGroupViewOtherPrimaryList %}
           {%- for otherPri in currGroupViewOtherPrimaryList %}
             {%- render 'inc/oneInSeq.tmpl.html', post: otherPri, infoLinePrefixHtml: infoLinePrefixHtml %}
@@ -102,6 +104,9 @@ endif
         {%- if currGroupViewType == 'ref' or currGroupViewType == 'bottomPostRef' or currGroupViewType == 'inTableRef' or currGroupViewType == 'inTableBottomPostRef' %}
           </{% echo tdEl %}>
           </{% echo trEl %}>
+        {%- else %}
+          {%-# no border ref -%}
+          </div>
         {%- endif %}
       {%- endcapture %}
     {%- endif %}
@@ -211,6 +216,7 @@ endif
     {%- if currGroupViewType == 'bottomPostRef' %}
       {{ noBorderAssetRender | raw }}
     {%- endif %}
+    </div>
   {%- endcapture %}
 
   {%- x partialGroupLogicOneAssetCtx | objSet: 'toRender', toRender %}
