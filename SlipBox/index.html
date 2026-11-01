@@ -73,6 +73,8 @@ p:first-child { margin-top: 0.16rem; }
 
 .white-space-preserve { white-space-collapse: preserve; }
 
+.tk-tag-list-referencing-assets summary h4 { display: inline-block; }
+
 div.principal-content { /*margin-top: 0.5rem;*/ }
 div.one-in-seq-wrapper {
   margin-inline-start: 0.4rem;
@@ -161,6 +163,11 @@ div.ref-marker {
   font-weight: bold;
   margin-top: 0.8rem;
   display: inline-block;
+}
+
+.group-refed-asset .principal-content {
+  border-left: 2px solid #80a4d0;
+  padding-left: 0.6em;
 }
 
 div.asset-info-line { margin-bottom: 0.2rem; }
@@ -295,7 +302,7 @@ pre:has(> code) {
     return document.getElementById(id);
   }
 
-  var tkDefaultStyle = "\n\n/* cookie has 4096 bytes per site limit, so be compact */\nhtml {color-scheme: light dark;}\n#tkRootWrapper {text-autospace: normal;}\n\nimg,svg,video { max-width: 100%; display: block; }\n\nbody { font-family: System UI; font-size: 0.75rem; }\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\np { margin-top: 0.32rem; margin-bottom: 0.32rem; }\np:first-child { margin-top: 0.16rem; }\n\n.white-space-preserve { white-space-collapse: preserve; }\n\ndiv.principal-content { /*margin-top: 0.5rem;*/ }\ndiv.one-in-seq-wrapper {\n  margin-inline-start: 0.4rem;\n  max-width: 96%;\n  max-width: max(96%, 100% - 1rem);\n}\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout { border: 2px ridge lightgrey; border-collapse: collapse; }\n\ntable.tg-involvement-layout { margin-left: 0.3rem; margin-top: 0.5rem; min-width: 6rem; }\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout { border: 2px ridge lightgrey; border-collapse: collapse; }\n\ntable.tg-websummary-layout { margin-left: 0.3rem; margin-top: 0.5rem; min-width: 6rem; }\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout { border: 2px ridge lightgrey; border-collapse: collapse; }\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n.tg-img, .tg-video { max-width: 20rem; max-height: 40rem; }\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\ntd.group-ref-primary.group-ref-scroll .principal-content { max-height: 20rem; overflow-y: scroll; }\n\nh1, h2, h3 { color: #2c3e50; border-bottom: 1px solid #eee; padding-bottom: 5px; }\na.tag-link { }\n.tag-wrapper { margin-right: 0.6rem; }\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n.tidbit-value.white-space-preserve { white-space: pre-wrap; font-family: monospace; }\n.tidbit-value { }\n.tidbit-key {\n  font-weight: bold;\n  flex-shrink: 1;\n  margin-inline-end: 0.6rem;\n  min-width: 7.6rem;\n}\n.tidbit-key::after { content: ': '; }\n.tidbit-pair { display: flex; }\n\nblockquote {\n  margin: 0.1rem 0;\n  padding: 0.1rem 0.2rem 0.1rem 0.8rem;\n  background-color: #fafafa;\n  border: 1px solid #6e6e6e;\n  border-left: 5px solid #6e6e6e;\n}\n\na.md-attach { display: block; width: fit-content; }\n.md-attach img { display: inline; }\n\nhr.sep-in-seq { margin-block-start: 0.75rem; margin-block-end: 0.75rem; }\n\ndiv.ref-marker {\n  letter-spacing: -0.08rem;\n  margin-right: 0.4rem;\n  font-weight: bold;\n  margin-top: 0.8rem;\n  display: inline-block;\n}\n\ndiv.asset-info-line { margin-bottom: 0.2rem; }\n\npre:has(> code) {\n  border: 1px solid #cccccc;\n  padding: 0.8rem;\n  background: #f5f5f5;\n  white-space: pre-wrap;\n  word-wrap: break-word;\n}\n\n"
+  var tkDefaultStyle = "\n\n/* cookie has 4096 bytes per site limit, so be compact */\nhtml {color-scheme: light dark;}\n#tkRootWrapper {text-autospace: normal;}\n\nimg,svg,video { max-width: 100%; display: block; }\n\nbody { font-family: System UI; font-size: 0.75rem; }\nmain {\n  max-width: min(80ch, 100% - 2ch);\n  max-width: min(40rem, 100% - 2rem);\n}\n\np { margin-top: 0.32rem; margin-bottom: 0.32rem; }\np:first-child { margin-top: 0.16rem; }\n\n.white-space-preserve { white-space-collapse: preserve; }\n\n.tk-tag-list-referencing-assets summary h4 { display: inline-block; }\n\ndiv.principal-content { /*margin-top: 0.5rem;*/ }\ndiv.one-in-seq-wrapper {\n  margin-inline-start: 0.4rem;\n  max-width: 96%;\n  max-width: max(96%, 100% - 1rem);\n}\n\n/**/\n\ntable.tg-wrapper-layout {\n  margin-left: 0.5rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\n\ntable.tg-wrapper-layout,\nth.tg-wrapper-layout,\ntd.tg-wrapper-layout { border: 2px ridge lightgrey; border-collapse: collapse; }\n\ntable.tg-involvement-layout { margin-left: 0.3rem; margin-top: 0.5rem; min-width: 6rem; }\ntable.tg-involvement-layout,\nth.tg-involvement-layout,\ntd.tg-involvement-layout { border: 2px ridge lightgrey; border-collapse: collapse; }\n\ntable.tg-websummary-layout { margin-left: 0.3rem; margin-top: 0.5rem; min-width: 6rem; }\ntable.tg-websummary-layout,\nth.tg-websummary-layout,\ntd.tg-websummary-layout { border: 2px ridge lightgrey; border-collapse: collapse; }\ntable.tg-wrapper-layout a {\n  filter: brightness(5) contrast(0.7) saturate(0.6);\n  text-decoration: underline dashed;\n}\n.tg-img, .tg-video { max-width: 20rem; max-height: 40rem; }\n\n/**/\n\ntable.group-layout {\n  margin-left: 0.3rem;\n  margin-top: 0.5rem;\n  min-width: 10rem;\n}\ntable.group-layout,\nth.group-layout,\ntd.group-layout {\n  border: 2px ridge lightgrey;\n  border-collapse: collapse;\n}\ntd.group-ref-primary.group-ref-scroll .principal-content { max-height: 20rem; overflow-y: scroll; }\n\nh1, h2, h3 { color: #2c3e50; border-bottom: 1px solid #eee; padding-bottom: 5px; }\na.tag-link { }\n.tag-wrapper { margin-right: 0.6rem; }\na.secondary {\n  /* filter: invert(1) hue-rotate(180deg) brightness(0.7) contrast(0.7) saturate(4.4); */\n  filter: brightness(3) contrast(0.26);\n  text-decoration: underline dotted;\n}\n\n.tidbit-value.white-space-preserve { white-space: pre-wrap; font-family: monospace; }\n.tidbit-value { }\n.tidbit-key {\n  font-weight: bold;\n  flex-shrink: 1;\n  margin-inline-end: 0.6rem;\n  min-width: 7.6rem;\n}\n.tidbit-key::after { content: ': '; }\n.tidbit-pair { display: flex; }\n\nblockquote {\n  margin: 0.1rem 0;\n  padding: 0.1rem 0.2rem 0.1rem 0.8rem;\n  background-color: #fafafa;\n  border: 1px solid #6e6e6e;\n  border-left: 5px solid #6e6e6e;\n}\n\na.md-attach { display: block; width: fit-content; }\n.md-attach img { display: inline; }\n\nhr.sep-in-seq { margin-block-start: 0.75rem; margin-block-end: 0.75rem; }\n\ndiv.ref-marker {\n  letter-spacing: -0.08rem;\n  margin-right: 0.4rem;\n  font-weight: bold;\n  margin-top: 0.8rem;\n  display: inline-block;\n}\n\n.group-refed-asset .principal-content {\n  border-left: 2px solid #80a4d0;\n  padding-left: 0.6em;\n}\n\ndiv.asset-info-line { margin-bottom: 0.2rem; }\n\npre:has(> code) {\n  border: 1px solid #cccccc;\n  padding: 0.8rem;\n  background: #f5f5f5;\n  white-space: pre-wrap;\n  word-wrap: break-word;\n}\n\n"
 
   var tkStyleContent = getCookie('tkStyle');
   var tkStyleElement = document.createElement('style');
@@ -341,14 +348,65 @@ pre:has(> code) {
       <div class="tidbit-pair"><div class="tidbit-key">WebUrlPathUnencoded (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/SlipBox</div></div>
       <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath</div><div class="tidbit-value white-space-preserve">/SlipBox</div></div>
       <div class="tidbit-pair"><div class="tidbit-key">WebUrlPath (Select All)</div><div class="tidbit-value white-space-preserve" style="user-select: all;">/SlipBox</div></div>
-      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1793448235853</div></div>
+      <div class="tidbit-pair"><div class="tidbit-key">UpdateTimeByHoard</div><div class="tidbit-value white-space-preserve">1793528651373</div></div>
     </details>
 
 </div>
 
     </div>
   </div>
-<div class="one-in-seq-wrapper">
+
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-11-01_12.18.59">2026-11-01_12.18.59</a> <span>2026-11-01 12:18:59 UTC+8</span></div>
+</div>
+
+      
+          <div class="group-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%B7%B4%E5%88%AB%E5%A1%94">#巴别塔</a></span>
+    </div><p>X实装沉浸式翻译的2026年10月文化现象：“泛认爹主义”，为啥会被中国网友爆锤？中土大战的深度_哔哩哔哩_bilibili <a href="https://www.bilibili.com/video/BV1Muxv65EAZ/" target="_blank">https://www.bilibili.com/video/BV1Muxv65EAZ/</a></p>
+<p>已经开辟新tag： <a  target="_blank" href="/tag/%E5%B7%B4%E5%88%AB%E5%A1%94" class="tag">#巴别塔</a></p>
+<p><a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_4y2csxw4_0_%E2%80%9C%E6%B3%9B%E8%AE%A4%E7%88%B9%E4%B8%BB%E4%B9%89%E2%80%9D%EF%BC%8C%E4%B8%BA%E5%95%A5%E4%BC%9A%E8%A2%AB%E4%B8%AD%E5%9B%BD%E7%BD%91%E5%8F%8B%E7%88%86%E9%94%A4%EF%BC%9F%E4%B8%AD%E5%9C%9F%E5%A4%A7%E6%88%98%E7%9A%84%E6%B7%B1%E5%BA%A6_%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9_bilibili.srt" class="md-attach md-attach-file-link" target="_blank">srt字幕档（LLM识别）</a></p>
+
+
+</div>
+</div>
+</div>
+
+          </div>
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
+    <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/misc/tg/2026-09-22">misc/tg/2026-09-22</a> / <a href="/misc/tg/2026-09-22/2026-09-22_12.22.26">2026-09-22_12.22.26</a> <span>2026-09-22 12:22:26 UTC+8</span></div>
+    <div class="one-in-seq principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%B7%B4%E5%88%AB%E5%A1%94">#巴别塔</a></span>
+    </div><p>虽然hn都在骂但是X这无所顾忌一锤砸破语言障壁（reddit同样，甚至更为重要因为它是多语言版本同时开放给Google索引）确实在互联网全球交流中引入了特别aggressive的新变化。</p>
+
+
+  <table class="tg-wrapper-layout">
+    <tr class="tg-wrapper-layout tg-wrapper-brief"><td class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </td></tr>
+    <tr class="tg-wrapper-layout tg-wrapper-body"><td class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/usr_bin_cat" title="Telegram PeerChannel handle: usr_bin_cat" data-title="tg:usr_bin_cat">Cat Ch.</a> (<span class="tg-author">webRTCCat | Present Day, Present Time</span>)
+
+    <span class="tg-timestamp">2026-09-22T11:41:15+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">我说马一龙加的最好的功能是大巴别塔自动翻译，沉重打击了幽默牢日，第二好的功能是社区笔记，为蓝标寻找失落的母亲，有没有同意的？</div>
+    </td></tr>
+  </table>
+
+
+</div>
+</div>
+</div>
+</div>
+    </div>
+<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-10-31_20.03.55">2026-10-31_20.03.55</a> <span>2026-10-31 20:03:55 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p>Shiny object syndrome - Wikipedia <a href="https://en.wikipedia.org/wiki/Shiny_object_syndrome" target="_blank">https://en.wikipedia.org/wiki/Shiny_object_syndrome</a></p>
@@ -385,7 +443,7 @@ pre:has(> code) {
 <div class="lang-wrapper" lang="zh-Hans"><p>wow，第一次见到了</p>
 <p><a  target="_blank" href="/tag/DystopianDaily" class="tag">#DystopianDaily</a></p>
 <a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_bhvx8sv5_0_image.png" class="md-attach md-attach-img-link" target="_blank">
-            <img tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_bhvx8sv5_0_image.png" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
+            <img loading="lazy" tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_bhvx8sv5_0_image.png" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
         </a>
 
 </div>
@@ -398,7 +456,7 @@ pre:has(> code) {
 <div class="lang-wrapper" lang="zh-Hans"><p>Refreqt - 新目鳥</p>
 <p>架空站名这一块</p>
 <p><a href="https://www.youtube.com/watch?v=gH5A8MtW6x4" target="_blank">https://www.youtube.com/watch?v=gH5A8MtW6x4</a></p>
-<p><video controls tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_yep5pwnc_0_Refreqt%20%5BgH5A8MtW6x4%5D.webm" class="md-attach md-attach-video" title="" alt="" style="width: 48rem; max-width: 95%; max-height: 48rem;"></video></p>
+<p><video controls loading="lazy" tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_yep5pwnc_0_Refreqt%20%5BgH5A8MtW6x4%5D.webm" class="md-attach md-attach-video" title="" alt="" style="width: 48rem; max-width: 95%; max-height: 48rem;"></video></p>
 
 
 </div>
@@ -410,7 +468,7 @@ pre:has(> code) {
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p>selenelion - 新目鳥</p>
 <p><a href="https://www.youtube.com/watch?v=aW_BPAh3wc8" target="_blank">https://www.youtube.com/watch?v=aW_BPAh3wc8</a></p>
-<p><video controls tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_0dz8ajpr_0_selenelion%20%5BaW_BPAh3wc8%5D.webm" class="md-attach md-attach-video" title="" alt="" style="width: 48rem; max-width: 95%; max-height: 48rem;"></video></p>
+<p><video controls loading="lazy" tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_0dz8ajpr_0_selenelion%20%5BaW_BPAh3wc8%5D.webm" class="md-attach md-attach-video" title="" alt="" style="width: 48rem; max-width: 95%; max-height: 48rem;"></video></p>
 
 
 </div>
@@ -479,7 +537,7 @@ pre:has(> code) {
     <div>
       <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E9%9D%9E%E4%BA%BA%E7%B1%BB">#非人类</a></span>
     </div><a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_cmh0c0mp_0_2964d4bb5ae7859065eff27a509a0b6a_720.jpg" class="md-attach md-attach-img-link" target="_blank">
-            <img tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_cmh0c0mp_0_2964d4bb5ae7859065eff27a509a0b6a_720.jpg" class="md-attach md-attach-img" alt="一张动漫风格的表情包图片。底部露出一位白发、紫眼、长有双角和尖耳的Q版可爱少女角色，中文互联网上一般理解为GPT大模型的龙娘拟人角色；上方是一个占据大部分画面的巨大对话框，内容是一段极其严谨繁琐的软件工程与质量保证黑话：“你说得对，但我要求开始核验、检索、探针、检查、审计、评估、冻结、快照、哈希、夹具、门禁和回滚了。我先明确目标、约束、边界和验收，核对事实与证据，建立唯一基线，记录指纹，完成备份与恢复演练；再拆解、验证。核对与实际差异，检查异常和副作用，再静态、单元、集成、回归、冒烟、安全检查、性能验证和故障注入，逐项确认全部门禁通过。还要 dry-run，校验依赖、权限、一致性；先灰度，再放量，发现异常立即回滚，最后跑验收矩阵，复核，将变更、证据链、异常处理和结论统一归档。”" title="一张动漫风格的表情包图片。底部露出一位白发、紫眼、长有双角和尖耳的Q版可爱少女角色，中文互联网上一般理解为GPT大模型的龙娘拟人角色；上方是一个占据大部分画面的巨大对话框，内容是一段极其严谨繁琐的软件工程与质量保证黑话：“你说得对，但我要求开始核验、检索、探针、检查、审计、评估、冻结、快照、哈希、夹具、门禁和回滚了。我先明确目标、约束、边界和验收，核对事实与证据，建立唯一基线，记录指纹，完成备份与恢复演练；再拆解、验证。核对与实际差异，检查异常和副作用，再静态、单元、集成、回归、冒烟、安全检查、性能验证和故障注入，逐项确认全部门禁通过。还要 dry-run，校验依赖、权限、一致性；先灰度，再放量，发现异常立即回滚，最后跑验收矩阵，复核，将变更、证据链、异常处理和结论统一归档。”" style="max-width: 20rem; max-height: 40rem;">
+            <img loading="lazy" tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_cmh0c0mp_0_2964d4bb5ae7859065eff27a509a0b6a_720.jpg" class="md-attach md-attach-img" alt="一张动漫风格的表情包图片。底部露出一位白发、紫眼、长有双角和尖耳的Q版可爱少女角色，中文互联网上一般理解为GPT大模型的龙娘拟人角色；上方是一个占据大部分画面的巨大对话框，内容是一段极其严谨繁琐的软件工程与质量保证黑话：“你说得对，但我要求开始核验、检索、探针、检查、审计、评估、冻结、快照、哈希、夹具、门禁和回滚了。我先明确目标、约束、边界和验收，核对事实与证据，建立唯一基线，记录指纹，完成备份与恢复演练；再拆解、验证。核对与实际差异，检查异常和副作用，再静态、单元、集成、回归、冒烟、安全检查、性能验证和故障注入，逐项确认全部门禁通过。还要 dry-run，校验依赖、权限、一致性；先灰度，再放量，发现异常立即回滚，最后跑验收矩阵，复核，将变更、证据链、异常处理和结论统一归档。”" title="一张动漫风格的表情包图片。底部露出一位白发、紫眼、长有双角和尖耳的Q版可爱少女角色，中文互联网上一般理解为GPT大模型的龙娘拟人角色；上方是一个占据大部分画面的巨大对话框，内容是一段极其严谨繁琐的软件工程与质量保证黑话：“你说得对，但我要求开始核验、检索、探针、检查、审计、评估、冻结、快照、哈希、夹具、门禁和回滚了。我先明确目标、约束、边界和验收，核对事实与证据，建立唯一基线，记录指纹，完成备份与恢复演练；再拆解、验证。核对与实际差异，检查异常和副作用，再静态、单元、集成、回归、冒烟、安全检查、性能验证和故障注入，逐项确认全部门禁通过。还要 dry-run，校验依赖、权限、一致性；先灰度，再放量，发现异常立即回滚，最后跑验收矩阵，复核，将变更、证据链、异常处理和结论统一归档。”" style="max-width: 20rem; max-height: 40rem;">
         </a>
 
 </div>
@@ -491,7 +549,7 @@ pre:has(> code) {
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p><a href="https://bilibili.com/BV1kFJb6eEFe" target="_blank">https://bilibili.com/BV1kFJb6eEFe</a> 警惕：现在国内床虱已经很泛滥了</p>
 <a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_wlrpfmgp_0_1792472930525.jpg" class="md-attach md-attach-img-link" target="_blank">
-            <img tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_wlrpfmgp_0_1792472930525.jpg" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
+            <img loading="lazy" tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_wlrpfmgp_0_1792472930525.jpg" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
         </a>
 
 </div>
@@ -780,7 +838,7 @@ pre:has(> code) {
 <a href="https://www.reddit.com/r/browsers/comments/1tzq9ba/chromiumwoolysscom_shutting_down/" target="_blank">https://www.reddit.com/r/browsers/comments/1tzq9ba/chromiumwoolysscom_shutting_down/</a>
 <a href="https://github.com/AmirAgassi/chromiumbuilds" target="_blank">https://github.com/AmirAgassi/chromiumbuilds</a></p>
 <a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_p4tgdkgs_0_image.png" class="md-attach md-attach-img-link" target="_blank">
-            <img tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_p4tgdkgs_0_image.png" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
+            <img loading="lazy" tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_p4tgdkgs_0_image.png" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
         </a>
 
 </div>
@@ -854,7 +912,8 @@ pre:has(> code) {
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-09-25_12.54.42">2026-09-25_12.54.42</a> <span>2026-09-25 12:54:42 UTC+8</span></div>
 </div>
 
@@ -869,7 +928,8 @@ pre:has(> code) {
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-15_01.43.43">2025-09-15_01.43.43</a> <span>2025-09-15 01:43:43 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans">
@@ -882,9 +942,12 @@ pre:has(> code) {
 </div>
 </div>
 </div>
-
+</div>
+    </div>
 <hr class="sep-in-seq">
-      <div class="one-in-seq-wrapper">
+    <div class="group-view partial-group">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-09-25_12.47.42">2026-09-25_12.47.42</a> <span>2026-09-25 12:47:42 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p>AI Safety Is Mostly A Sex Cult (Bluesky thread) <a href="https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q" target="_blank">https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q</a></p>
@@ -896,8 +959,9 @@ pre:has(> code) {
 </div>
 </div>
 </div>
-
+</div>
       
+    </div>
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-09-22_20.37.07">2026-09-22_20.37.07</a> <span>2026-09-22 20:37:07 UTC+8</span></div>
     <div class="one-in-seq principal-content">
@@ -963,7 +1027,8 @@ pre:has(> code) {
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-09-11_22.47.16">2026-09-11_22.47.16</a> <span>2026-09-11 22:47:16 UTC+8</span></div>
 </div>
 
@@ -978,7 +1043,8 @@ pre:has(> code) {
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-09-11_22.43.06">2026-09-11_22.43.06</a> <span>2026-09-11 22:43:06 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p><a href="https://github.com/Isilsolme/dsh-anthropic-fonts/blob/main/fonts/AnthropicSerifWebText.ttf" target="_blank">https://github.com/Isilsolme/dsh-anthropic-fonts/blob/main/fonts/AnthropicSerifWebText.ttf</a></p>
@@ -988,7 +1054,8 @@ pre:has(> code) {
 </div>
 </div>
 </div>
-
+</div>
+    </div>
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-09-11_22.43.06">2026-09-11_22.43.06</a> <span>2026-09-11 22:43:06 UTC+8</span></div>
     <div class="one-in-seq principal-content">
@@ -1058,7 +1125,8 @@ pre:has(> code) {
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-08-31_23.46.48">2026-08-31_23.46.48</a> <span>2026-08-31 23:46:48 UTC+8</span></div>
 </div>
 
@@ -1073,7 +1141,8 @@ pre:has(> code) {
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/misc/tg/2026-08-30">misc/tg/2026-08-30</a> / <a href="/misc/tg/2026-08-30/2026-08-30_12.25.07">2026-08-30_12.25.07</a> <span>2026-08-30 12:25:07 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans">
@@ -1107,9 +1176,11 @@ pre:has(> code) {
 </div>
 </div>
 </div>
-
+</div>
           <div class="group-layout group-ellipsis"><a title="Jump to this group" class="group-jump-link" href="/group/guarded/misc/tg/2026-08-30/2026-08-30_12.25.07">...</a></div>
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+    </div>
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-08-31_23.44.32">2026-08-31_23.44.32</a> <span>2026-08-31 23:44:32 UTC+8</span></div>
 </div>
 
@@ -1124,7 +1195,8 @@ pre:has(> code) {
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/misc/tg/2026-08-31">misc/tg/2026-08-31</a> / <a href="/misc/tg/2026-08-31/2026-08-31_23.43.55">2026-08-31_23.43.55</a> <span>2026-08-31 23:43:55 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans">
@@ -1175,8 +1247,9 @@ pre:has(> code) {
 </div>
 </div>
 </div>
-
+</div>
           <div class="group-layout group-ellipsis"><a title="Jump to this group" class="group-jump-link" href="/group/guarded/misc/tg/2026-08-31/2026-08-31_23.43.55">...</a></div>
+    </div>
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-08-31_20.15.45">2026-08-31_20.15.45</a> <span>2026-08-31 20:15:45 UTC+8</span></div>
     <div class="one-in-seq principal-content">
@@ -1225,7 +1298,8 @@ pre:has(> code) {
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-08-30_13.27.26">2026-08-30_13.27.26</a> <span>2026-08-30 13:27:26 UTC+8</span></div>
 </div>
 
@@ -1240,7 +1314,8 @@ pre:has(> code) {
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/misc/tg/2026-08-30">misc/tg/2026-08-30</a> / <a href="/misc/tg/2026-08-30/2026-08-30_12.51.00">2026-08-30_12.51.00</a> <span>2026-08-30 12:51:00 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans">
@@ -1271,7 +1346,8 @@ pre:has(> code) {
 </div>
 </div>
 </div>
-
+</div>
+    </div>
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-08-29_23.11.18">2026-08-29_23.11.18</a> <span>2026-08-29 23:11:18 UTC+8</span></div>
     <div class="one-in-seq principal-content">
@@ -1283,7 +1359,8 @@ Wikipedia - Interface metaphor (用户)界面隐喻 <a href="https://en.wikipedi
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-08-28_16.54.55">2026-08-28_16.54.55</a> <span>2026-08-28 16:54:55 UTC+8</span></div>
 </div>
 
@@ -1298,7 +1375,8 @@ Wikipedia - Interface metaphor (用户)界面隐喻 <a href="https://en.wikipedi
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/misc/tg/2026-08-28">misc/tg/2026-08-28</a> / <a href="/misc/tg/2026-08-28/2026-08-28_16.54.09">2026-08-28_16.54.09</a> <span>2026-08-28 16:54:09 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans">
@@ -1331,8 +1409,9 @@ Wikipedia - Interface metaphor (用户)界面隐喻 <a href="https://en.wikipedi
 </div>
 </div>
 </div>
-
+</div>
           <div class="group-layout group-ellipsis"><a title="Jump to this group" class="group-jump-link" href="/group/guarded/misc/tg/2026-08-28/2026-08-28_16.54.09">...</a></div>
+    </div>
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-08-28_16.26.00">2026-08-28_16.26.00</a> <span>2026-08-28 16:26:00 UTC+8</span></div>
     <div class="one-in-seq principal-content">
@@ -1346,7 +1425,8 @@ Wikipedia - Interface metaphor (用户)界面隐喻 <a href="https://en.wikipedi
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-08-24_21.25.41">2026-08-24_21.25.41</a> <span>2026-08-24 21:25:41 UTC+8</span></div>
 </div>
 
@@ -1378,7 +1458,8 @@ Wikipedia - Interface metaphor (用户)界面隐喻 <a href="https://en.wikipedi
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/misc/tg/2026-08-24">misc/tg/2026-08-24</a> / <a href="/misc/tg/2026-08-24/2026-08-24_21.24.18">2026-08-24_21.24.18</a> <span>2026-08-24 21:24:18 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans">
@@ -1408,8 +1489,9 @@ Wikipedia - Interface metaphor (用户)界面隐喻 <a href="https://en.wikipedi
 </div>
 </div>
 </div>
-
+</div>
           <div class="group-layout group-ellipsis"><a title="Jump to this group" class="group-jump-link" href="/group/guarded/misc/tg/2026-08-24/2026-08-24_21.24.18">...</a></div>
+    </div>
 
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-08-24_20.07.33">2026-08-24_20.07.33</a> <span>2026-08-24 20:07:33 UTC+8</span></div>
@@ -1423,7 +1505,8 @@ Wikipedia - Interface metaphor (用户)界面隐喻 <a href="https://en.wikipedi
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-08-22_22.59.54">2026-08-22_22.59.54</a> <span>2026-08-22 22:59:54 UTC+8</span></div>
 </div>
 
@@ -1441,7 +1524,8 @@ Wikipedia - Interface metaphor (用户)界面隐喻 <a href="https://en.wikipedi
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-08-05_22.45.53">2026-08-05_22.45.53</a> <span>2026-08-05 22:45:53 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p><a href="https://github.com/chenxiaolong/BasicSync" target="_blank">https://github.com/chenxiaolong/BasicSync</a></p>
@@ -1451,7 +1535,8 @@ Wikipedia - Interface metaphor (用户)界面隐喻 <a href="https://en.wikipedi
 </div>
 </div>
 </div>
-
+</div>
+    </div>
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2026-08-22_20.16.54">2026-08-22_20.16.54</a> <span>2026-08-22 20:16:54 UTC+8</span></div>
     <div class="one-in-seq principal-content">
@@ -1480,7 +1565,7 @@ Wikipedia - Interface metaphor (用户)界面隐喻 <a href="https://en.wikipedi
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p>Yes</p>
 <a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_umhvnsro_0_C1%7BK4YFKE%7B9O3H$%7B@35_4)T_tmb.jpg" class="md-attach md-attach-img-link" target="_blank">
-            <img tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_umhvnsro_0_C1%7BK4YFKE%7B9O3H$%7B@35_4)T_tmb.jpg" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
+            <img loading="lazy" tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_umhvnsro_0_C1%7BK4YFKE%7B9O3H$%7B@35_4)T_tmb.jpg" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
         </a>
 
 </div>
@@ -1873,7 +1958,8 @@ reply</p>
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-12-20_16.14.03">2025-12-20_16.14.03</a> <span>2025-12-20 16:14:03 UTC+8</span></div>
 </div>
 
@@ -1888,7 +1974,8 @@ reply</p>
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-12-20_16.11.40">2025-12-20_16.11.40</a> <span>2025-12-20 16:11:40 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans">
@@ -1901,7 +1988,8 @@ reply</p>
 </div>
 </div>
 </div>
-
+</div>
+    </div>
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-12-20_16.11.40">2025-12-20_16.11.40</a> <span>2025-12-20 16:11:40 UTC+8</span></div>
     <div class="one-in-seq principal-content">
@@ -2025,7 +2113,8 @@ reply</p>
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-28_20.17.36">2025-11-28_20.17.36</a> <span>2025-11-28 20:17:36 UTC+8</span></div>
 </div>
 
@@ -2040,7 +2129,8 @@ reply</p>
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/misc/tg/2025-11-28">misc/tg/2025-11-28</a> / <a href="/misc/tg/2025-11-28/2025-11-28_20.16.28">2025-11-28_20.16.28</a> <span>2025-11-28 20:16:28 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans">
@@ -2068,7 +2158,8 @@ reply</p>
 </div>
 </div>
 </div>
-
+</div>
+    </div>
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-28_13.12.46">2025-11-28_13.12.46</a> <span>2025-11-28 13:12:46 UTC+8</span></div>
     <div class="one-in-seq principal-content">
@@ -2265,7 +2356,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-11_01.16.37">2025-11-11_01.16.37</a> <span>2025-11-11 01:16:37 UTC+8</span></div>
 </div>
 
@@ -2280,7 +2372,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-10_12.31.14">2025-11-10_12.31.14</a> <span>2025-11-10 12:31:14 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p>Cromite前几天释出了支持扩展程序的测试版本，我们终于要再次拥有自由源码的Android端支持扩展且可维持更新的Chromium浏览器了： <a href="https://github.com/uazo/cromite/issues/256" target="_blank">https://github.com/uazo/cromite/issues/256</a></p>
@@ -2290,7 +2383,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 </div>
-
+</div>
+    </div>
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-10_12.31.14">2025-11-10_12.31.14</a> <span>2025-11-10 12:31:14 UTC+8</span></div>
     <div class="one-in-seq principal-content">
@@ -2313,7 +2407,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-08_14.20.38">2025-11-08_14.20.38</a> <span>2025-11-08 14:20:38 UTC+8</span></div>
 </div>
 
@@ -2330,7 +2425,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-01_01.02.49">2025-11-01_01.02.49</a> <span>2025-11-01 01:02:49 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p>Helium说是proudly based on Ungoogled Chromium，但看起来Android端并没有很Ungoogled啊，搜索引擎有Google，也能直跳Chrome扩展商店页（一般的Ungoogled Chromium分支应该都做了对google域名全量替换屏蔽）。但是这次发现了Mullvad Leta这个搜索引擎代理站，可以代理搜Brave搜索引擎和Google，好东西。</p>
@@ -2340,7 +2436,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 </div>
-
+</div>
+    </div>
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-08_11.02.27">2025-11-08_11.02.27</a> <span>2025-11-08 11:02:27 UTC+8</span></div>
     <div class="one-in-seq principal-content">
@@ -2365,7 +2462,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-06_22.30.35">2025-11-06_22.30.35</a> <span>2025-11-06 22:30:35 UTC+8</span></div>
 </div>
 
@@ -2381,7 +2479,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-06_21.40.13">2025-11-06_21.40.13</a> <span>2025-11-06 21:40:13 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p><a href="https://blog.fooleap.org/use-non-monospaced-font-in-gvim.html" target="_blank">https://blog.fooleap.org/use-non-monospaced-font-in-gvim.html</a></p>
@@ -2392,7 +2491,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 </div>
-
+</div>
+    </div>
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-06_21.40.13">2025-11-06_21.40.13</a> <span>2025-11-06 21:40:13 UTC+8</span></div>
     <div class="one-in-seq principal-content">
@@ -2429,7 +2529,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-02_19.03.32">2025-11-02_19.03.32</a> <span>2025-11-02 19:03:32 UTC+8</span></div>
 </div>
 
@@ -2446,10 +2547,14 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-22_23.46.35">2025-10-22_23.46.35</a> <span>2025-10-22 23:46:35 UTC+8</span></div>
     <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>继Reddit内建全站贴文多语言AI翻译版本且开放给Google直接索引后 * ，现在知乎也同样开始做中译英了：</p>
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%B7%B4%E5%88%AB%E5%A1%94">#巴别塔</a></span>
+    </div><p>继Reddit内建全站贴文多语言AI翻译版本且开放给Google直接索引后 * ，现在知乎也同样开始做中译英了：</p>
 <p><a href="https://www.google.com/search?q=site%3Aen.zhihu.com" target="_blank">https://www.google.com/search?q=site%3Aen.zhihu.com</a></p>
 <p><a href="https://en.zhihu.com/answer/221354314" target="_blank">https://en.zhihu.com/answer/221354314</a></p>
 <p>---</p>
@@ -2462,7 +2567,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 </div>
-
+</div>
+    </div>
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-02_14.02.14">2025-11-02_14.02.14</a> <span>2025-11-02 14:02:14 UTC+8</span></div>
     <div class="one-in-seq principal-content">
@@ -2501,7 +2607,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-01_01.02.49">2025-11-01_01.02.49</a> <span>2025-11-01 01:02:49 UTC+8</span></div>
 </div>
 
@@ -2517,7 +2624,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-31_23.42.18">2025-10-31_23.42.18</a> <span>2025-10-31 23:42:18 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p>又一个Chromium on Android with Extension Support：</p>
@@ -2531,8 +2639,10 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 </div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+</div>
+    </div>
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-11-01_00.44.49">2025-11-01_00.44.49</a> <span>2025-11-01 00:44:49 UTC+8</span></div>
 </div>
 
@@ -2547,7 +2657,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-31_23.42.18">2025-10-31_23.42.18</a> <span>2025-10-31 23:42:18 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p>又一个Chromium on Android with Extension Support：</p>
@@ -2561,7 +2672,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 </div>
-
+</div>
+    </div>
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-31_23.42.18">2025-10-31_23.42.18</a> <span>2025-10-31 23:42:18 UTC+8</span></div>
     <div class="one-in-seq principal-content">
@@ -2593,7 +2705,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-27_01.03.08">2025-10-27_01.03.08</a> <span>2025-10-27 01:03:08 UTC+8</span></div>
 </div>
 
@@ -2635,6 +2748,7 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
           </tr>
 
       </table>
+    </div>
 
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-27_00.49.44">2025-10-27_00.49.44</a> <span>2025-10-27 00:49:44 UTC+8</span></div>
@@ -2688,7 +2802,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-25_00.20.43">2025-10-25_00.20.43</a> <span>2025-10-25 00:20:43 UTC+8</span></div>
 </div>
 
@@ -2703,7 +2818,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/misc/tg/2025-10-22">misc/tg/2025-10-22</a> / <a href="/misc/tg/2025-10-22/2025-10-22_16.58.30">2025-10-22_16.58.30</a> <span>2025-10-22 16:58:30 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p>终于。</p>
@@ -2737,8 +2853,10 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 </div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+</div>
+    </div>
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-24_21.52.18">2025-10-24_21.52.18</a> <span>2025-10-24 21:52:18 UTC+8</span></div>
 </div>
 
@@ -2761,7 +2879,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-19_22.41.33">2025-10-19_22.41.33</a> <span>2025-10-19 22:41:33 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p>浏览器里给了一句<code>font-family: monospace</code>，结果它的字体还和当前节点所属的lang有关？是中文直接变宋体，忽略浏览器设置？？</p>
@@ -2770,8 +2889,10 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 </div>
-
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+</div>
+    </div>
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-24_00.43.26">2025-10-24_00.43.26</a> <span>2025-10-24 00:43:26 UTC+8</span></div>
 </div>
 
@@ -2787,7 +2908,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-22_10.24.31">2025-10-22_10.24.31</a> <span>2025-10-22 10:24:31 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p>即使是NanaZip，相对于原版7-Zip的体验也有降级（启动速度；文件关联设置；以及所有的对话框都只在主显示器位置弹出而不是当前显示器），真不知道代码基是一样的为什么会改成这样。更别提PeaZip这个打开等几秒的了…</p>
@@ -2797,7 +2919,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 </div>
-<div class="one-in-seq-wrapper">
+
+            <div class="group-other-primary-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/hive/Rant">hive/Rant</a> / <a href="/hive/Rant/2025-10-13_17.57.32">2025-10-13_17.57.32</a> <span>2025-10-13 17:57:32 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p>因为7-Zip vuln，又下了PeaZip试了试。PeaZip到2025年了，还是没把Windows的文件关联搞明白…</p>
@@ -2808,6 +2931,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 
+            </div></div>
+    </div>
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-23_20.28.54">2025-10-23_20.28.54</a> <span>2025-10-23 20:28:54 UTC+8</span></div>
     <div class="one-in-seq principal-content">
@@ -2859,7 +2984,10 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-22_23.46.35">2025-10-22_23.46.35</a> <span>2025-10-22 23:46:35 UTC+8</span></div>
     <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>继Reddit内建全站贴文多语言AI翻译版本且开放给Google直接索引后 * ，现在知乎也同样开始做中译英了：</p>
+<div class="lang-wrapper" lang="zh-Hans">
+    <div>
+      <span class="tag-wrapper"><a target="_blank" class="tag-link" href="/tag/%E5%B7%B4%E5%88%AB%E5%A1%94">#巴别塔</a></span>
+    </div><p>继Reddit内建全站贴文多语言AI翻译版本且开放给Google直接索引后 * ，现在知乎也同样开始做中译英了：</p>
 <p><a href="https://www.google.com/search?q=site%3Aen.zhihu.com" target="_blank">https://www.google.com/search?q=site%3Aen.zhihu.com</a></p>
 <p><a href="https://en.zhihu.com/answer/221354314" target="_blank">https://en.zhihu.com/answer/221354314</a></p>
 <p>---</p>
@@ -2873,7 +3001,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-22_10.24.31">2025-10-22_10.24.31</a> <span>2025-10-22 10:24:31 UTC+8</span></div>
 </div>
 
@@ -2889,7 +3018,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/hive/Rant">hive/Rant</a> / <a href="/hive/Rant/2025-10-13_17.57.32">2025-10-13_17.57.32</a> <span>2025-10-13 17:57:32 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p>因为7-Zip vuln，又下了PeaZip试了试。PeaZip到2025年了，还是没把Windows的文件关联搞明白…</p>
@@ -2899,7 +3029,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 </div>
-
+</div>
+    </div>
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-22_08.57.01">2025-10-22_08.57.01</a> <span>2025-10-22 08:57:01 UTC+8</span></div>
     <div class="one-in-seq principal-content">
@@ -2928,7 +3059,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-20_01.51.50">2025-10-20_01.51.50</a> <span>2025-10-20 01:51:50 UTC+8</span></div>
 </div>
 
@@ -2945,7 +3077,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 
           </div>
-      <div class="one-in-seq-wrapper">
+      
+          <div class="group-asset group-refed-asset"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><div class="ref-marker">&gt;&gt;&gt;</div> <a target="_blank" class="secondary" href="/misc/tg/2025-10-19">misc/tg/2025-10-19</a> / <a href="/misc/tg/2025-10-19/2025-10-19_15.36.28">2025-10-19_15.36.28</a> <span>2025-10-19 15:36:28 UTC+8</span></div>
     <div class="one-in-seq principal-content">
 <div class="lang-wrapper" lang="zh-Hans">
@@ -3025,7 +3158,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 </div>
-
+</div>
+    </div>
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-20_00.00.26">2025-10-20_00.00.26</a> <span>2025-10-20 00:00:26 UTC+8</span></div>
     <div class="one-in-seq principal-content">
@@ -3357,7 +3491,8 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
+<hr class="sep-in-seq">
+    <div class="group-view partial-group"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-10-01_01.08.12">2025-10-01_01.08.12</a> <span>2025-10-01 01:08:12 UTC+8</span></div>
 </div>
 
@@ -3424,6 +3559,7 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
           </tr>
 
       </table>
+    </div>
 <hr class="sep-in-seq"><div class="one-in-seq-wrapper">
     <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="/SlipBox">SlipBox</a> / <a href="/SlipBox/2025-09-27_22.43.32">2025-09-27_22.43.32</a> <span>2025-09-27 22:43:32 UTC+8</span></div>
     <div class="one-in-seq principal-content">
@@ -3494,6 +3630,7 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
 </div>
 
 <hr class="sep-in-seq">
+    <div class="group-view partial-group">
       <table class="group-layout">
           <tr class="group-layout group-thread-brief">
             <td colspan="2" class="group-layout group-thread-brief">
@@ -3568,6 +3705,7 @@ Works incredibly well (put this in a <code>.desktop</code> file with <code>Exec=
           </td></tr>
 
       </table>
+    </div>
 
 
 
