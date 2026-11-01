@@ -170,4 +170,4 @@ See Also: https://emudhra.we-have-a-problem.com/
 
 已经开辟新tag： #巴别塔
 
-<a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_4y2csxw4_0_%E2%80%9C%E6%B3%9B%E8%AE%A4%E7%88%B9%E4%B8%BB%E4%B9%89%E2%80%9D%EF%BC%8C%E4%B8%BA%E5%95%A5%E4%BC%9A%E8%A2%AB%E4%B8%AD%E5%9B%BD%E7%BD%91%E5%8F%8B%E7%88%86%E9%94%A4%EF%BC%9F%E4%B8%AD%E5%9C%9F%E5%A4%A7%E6%88%98%E7%9A%84%E6%B7%B1%E5%BA%A6_%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9_bilibili.srt" class="md-attach md-attach-file-link" target="_blank">srt字幕档</a>
+<a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_4y2csxw4_0_%E2%80%9C%E6%B3%9B%E8%AE%A4%E7%88%B9%E4%B8%BB%E4%B9%89%E2%80%9D%EF%BC%8C%E4%B8%BA%E5%95%A5%E4%BC%9A%E8%A2%AB%E4%B8%AD%E5%9B%BD%E7%BD%91%E5%8F%8B%E7%88%86%E9%94%A4%EF%BC%9F%E4%B8%AD%E5%9C%9F%E5%A4%A7%E6%88%98%E7%9A%84%E6%B7%B1%E5%BA%A6_%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9_bilibili.srt" class="md-attach md-attach-file-link" target="_blank">srt字幕档（LLM识别）</a>
