@@ -66,7 +66,7 @@ endif
 
 if shouldRenderReferencingTagAssetList
   if shouldCollapseReferencingTagAssetList
-    echo '<details style="margin-bottom: 0.4rem" lang="en">'
+    echo '<details class="tk-tag-list-referencing-assets">'
     echo '  <summary>'
   endif
   echo tagContent.metadata.referencingTagTitleMd | default: '#### Referenced by\n' | md | raw
