@@ -95,7 +95,7 @@ endif
           {%- assign infoLinePrefixHtml = '<div class="ref-marker">&gt;&gt;&gt;</div> ' %}
           <div class="group-asset group-refed-asset">
         {%- endif %}
-        {%- render 'inc/oneInSeq.tmpl.html', post: currGroupViewPrimary, infoLinePrefixHtml: infoLinePrefixHtml, extraClass: extraClassForRef %}
+        {%- render 'inc/oneInSeq.tmpl.html', post: currGroupViewPrimary, infoLinePrefixHtml: infoLinePrefixHtml %}
         {%- if currGroupViewOtherPrimaryList %}
           {%- for otherPri in currGroupViewOtherPrimaryList %}
             <div class="group-other-primary-asset">
