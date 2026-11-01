@@ -165,3 +165,9 @@ See Also: https://emudhra.we-have-a-problem.com/
 > **Shiny object syndrome** is the situation where people focus undue attention on an idea that is new and [trendy](https://en.wikipedia.org/wiki/Fad), yet drop it in its entirety as soon as something new can take its place.
 
 #fhn
+
+2026-11-01 12:18:59 repost=guarded/misc/tg/2026-09-22/2026-09-22_12.22.26 #巴别塔 X实装沉浸式翻译的2026年10月文化现象：“泛认爹主义”，为啥会被中国网友爆锤？中土大战的深度_哔哩哔哩_bilibili https://www.bilibili.com/video/BV1Muxv65EAZ/
+
+已经开辟新tag： #巴别塔
+
+<a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_4y2csxw4_0_%E2%80%9C%E6%B3%9B%E8%AE%A4%E7%88%B9%E4%B8%BB%E4%B9%89%E2%80%9D%EF%BC%8C%E4%B8%BA%E5%95%A5%E4%BC%9A%E8%A2%AB%E4%B8%AD%E5%9B%BD%E7%BD%91%E5%8F%8B%E7%88%86%E9%94%A4%EF%BC%9F%E4%B8%AD%E5%9C%9F%E5%A4%A7%E6%88%98%E7%9A%84%E6%B7%B1%E5%BA%A6_%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9_bilibili.srt" class="md-attach md-attach-file-link" target="_blank">srt字幕档</a>
