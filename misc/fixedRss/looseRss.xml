@@ -6,6 +6,54 @@
     <atom:link href="https://tien-kou-kari.github.io/rss?periodType=loose&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou No Tags: Noise, Silence Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou - 2026-11-02_19.21.38</title>
+        <link>https://tien-kou-kari.github.io/SlipBox/2026-11-02_19.21.38</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-11-02_19.21.38</guid>
+        <pubDate>Mon, 02 Nov 2026 19:21:38 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Robert Haas: Postgres 19 is late, and it's AI's fault <a href="https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html?m=1" target="_blank">https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html?m=1</a></p>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a> 是在好的意义上</p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2026-11-02_19.14.33</title>
+        <link>https://tien-kou-kari.github.io/SlipBox/2026-11-02_19.14.33</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-11-02_19.14.33</guid>
+        <pubDate>Mon, 02 Nov 2026 19:14:33 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>From <a href="https://news.ycombinator.com/item?id=50333339" target="_blank">https://news.ycombinator.com/item?id=50333339</a> :</p>
+<blockquote>
+<p><a href="https://news.ycombinator.com/user?id=freakynit" target="_blank">freakynit</a> [1 hour ago]</p>
+<p>We have a continuously updated, publicly accessible hackernews database in BigQuery, in case more of you folks are interested in building similar projects:</p>
+<p><a href="https://console.cloud.google.com/marketplace/product/y-combinator/hacker-news" target="_blank">https://console.cloud.google.com/marketplace/product/y-combi...</a></p>
+<p>Clickhouse equivalent, updated in real-time: <a href="https://play.clickhouse.com/play?user=play#U0VMRUNUIG1heCh0aW1lKSBGUk9NIGhhY2tlcm5ld3NfaGlzdG9yeQ==" target="_blank">https://play.clickhouse.com/play?user=play#U0VMRUNUIG1heCh0a...</a></p>
+<p>Relevant post: <a href="https://news.ycombinator.com/item?id=40644563" target="_blank">https://news.ycombinator.com/item?id=40644563</a></p>
+<p>What's missing are entity-level extracted data, and embeddings.</p>
+</blockquote>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a></p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou - 2026-11-01_21.51.46</title>
         <link>https://tien-kou-kari.github.io/misc/tg/2026-11-01/2026-11-01_21.51.46</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-11-01/2026-11-01_21.51.46</guid>
@@ -249,103 +297,6 @@ calculateDeadlyLethalSuicideAspirinDosage
 <p>Worse, macOS 27.2, released on 26th October, did not fix the issue and undid the workaround that users had applied by hand, leaving them vulnerable again.</p>
 </blockquote>
 <p>See Also: <a href="https://emudhra.we-have-a-problem.com/" target="_blank">https://emudhra.we-have-a-problem.com/</a></p>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-10-30_17.22.35</title>
-        <link>https://tien-kou-kari.github.io/misc/tg/2026-10-30/2026-10-30_17.22.35</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-10-30/2026-10-30_17.22.35</guid>
-        <pubDate>Fri, 30 Oct 2026 17:22:35 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/ble_channel" title="Telegram PeerChannel handle: ble_channel" data-title="tg:ble_channel">鳖频道</a> (<span class="tg-author">莫思奇多</span>)
-
-    <span class="tg-timestamp">2026-10-28T20:17:26+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">PHP和群晖这件事之后，突然觉得跟着软件更新也没什么意义了，现在人手都是ai新挖的0day。PHP官方发补丁之前，群友就蹬出来实战化exp了，cloudflare也早在那天中午的时候已经检测到在野攻击流量了
-
-感觉以后token大大丰富之后的的防御方式是，开发的时候要求全部东西都让ai自己实现
-不用任何开源组件，也不对外开放任何服务组件代码
-只要我是黑盒，你不知道我怎么实现的，你就打不了我。你只能回到传统APT一个个打，一个个供应链供，又到了最薄弱的环节是人阶段.jpg
-也许这才是AI时代的防御方式吧
-
-现在我们需要的是，从网卡固件开始到系统TCPIP协议栈，全部重写。从二层重建到七层。（新闻连连看：<a href="https://www.anthropic.com/research/discovering-vulnerabilities-with-claude">A畜</a>刚挖了个Linux内核MPTCP的root rce <a href="https://linux.oracle.com/cve/CVE-2026-98432.html">CVE-2026-98432</a>）</div>
-      
-        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
-          <a target="_blank" href="https://anthropic.com/research/discovering-vulnerabilities-with-claude">Anthropic</a>
-          <h6>Discovering and exploiting vulnerabilities in critical, real-world software with Claude</h6>
-          <p>Over the past few months, we’ve used an unreleased, internal research model to find critical vulnerabilities in some of the world’s most widely used software, such as browsers and operating systems. In this post, we share details of five attack chains, which led to remote code execution and other critical impacts with little to no user interaction.</p>
-            <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-5880754425704419446.png" title="Telegram wepbage media id 5880754425704419446" alt="A picture related to current telegram webpage message. No more alt detail for now." />
-        </div></div></div>
-    </div></div>
-  </div>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-10-29_16.43.00</title>
-        <link>https://tien-kou-kari.github.io/misc/tg/2026-10-29/2026-10-29_16.43.00</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-10-29/2026-10-29_16.43.00</guid>
-        <pubDate>Thu, 29 Oct 2026 16:43:00 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>中国应用做成暗网，西方应用适配检索</p>
-
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/outvivid" title="Telegram PeerChannel handle: outvivid" data-title="tg:outvivid">层叠 - The Cascading</a>
-
-    <span class="tg-timestamp">2026-10-29T15:45:20+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">🔵 Discord 用户的消息将出现在网页并被搜索引擎索引；若非所愿请更新设置。
-
-- 11/16 起，Discord 将为 Discoverable Server 创建网页。
-- 用户消息可能会匿名地出现在网页上并被搜索引擎索引。
-- 用户可以在设置中 "Data &amp; Privacy" &gt; "Show my message content from Discoverable channels on web pages" 项调整偏好。默认是开启。
-
-<a href="https://support.discord.com/hc/en-us/articles/4673515000983">support.discord.com/~</a>
-
-linksrc: <a href="https://t.me/landiansub/17148">https://t.me/landiansub/17148</a>
-
-#Discord #Privacy</div>
-      
-        <div class="tg-websummary-layout"><div class="tg-websummary-layout"><div class="tg-websummary-layout">
-          <a target="_blank" href="http://support.discord.com/hc/en-us/articles/4673515000983">Discord</a>
-          <h6>Discord Server Web Pages</h6>
-          <p>Note: Starting November 16, 2026, every Discoverable Server will have a Server Web Page. If you haven&#39;t set one up yourself, a default page will be created automatically from your existing Server P...</p>
-        </div></div></div>
-    </div></div>
-  </div>
 
 
 </div>
