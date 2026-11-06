@@ -193,3 +193,9 @@ See Also: https://emudhra.we-have-a-problem.com/
 #fhn 是在好的意义上
 
 2026-11-04 15:02:13 我的意思是，无论是再晦暗的日常，但身处其中时想到，就算宏大的叙事、通行的价值随着时间演进出多大的变化，“某些人中的一个个人，从以前到如今和不远的未来，一直都在和我们一起持续经历”，光是知道这一点，不需要言语的互通和近况的打听，就足以构成一种慰藉。但是就算是这种慰藉，偶尔也会不幸地消失掉宝贵的一份。
+
+2026-11-06 15:07:27 Waterluvian's Law:
+
+> The more an article would benefit from photos, the less likely it’ll have them.
+
+#til
