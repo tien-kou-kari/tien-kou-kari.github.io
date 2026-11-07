@@ -199,3 +199,10 @@ See Also: https://emudhra.we-have-a-problem.com/
 > The more an article would benefit from photos, the less likely it’ll have them.
 
 #til
+
+2026-11-07 14:18:05 《早期“毕导”登上央视珍贵影像》
+
+https://b23.tv/BV1SaHw6yEFx 
+
+rhttps://tv.cctv.com/2014/04/07/VIDE1396877461658668.shtml（2014.4.7新闻联播，来源：央视网）
+对应焦点访谈：https://tv.cctv.com/2014/04/07/VIDE1396873260083140.shtml?spm=C53156045404.PP1dEaiKB4LV.0.0（2014.4.7焦点访谈，来源：央视网）
