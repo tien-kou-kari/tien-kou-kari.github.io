@@ -212,3 +212,11 @@ rhttps://tv.cctv.com/2014/04/07/VIDE1396877461658668.shtml（2014.4.7新闻联�
 <a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_ya53waup_0_image.png" class="md-attach md-attach-img-link" target="_blank">
             <img loading="lazy" tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_ya53waup_0_image.png" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
         </a>
+
+2026-11-07 20:56:04 acidvegas x blog - the port that does not exist
+
+https://acid.vegas/blog/the-port-that-does-not-exist/
+
+https://web.archive.org/web/20261106234640/https://acid.vegas/blog/the-port-that-does-not-exist/
+
+#fhn 在互联网上探测是否有人在监听本不应该监听也不太容易监听的0号端口，以及他们在提供什么服务
