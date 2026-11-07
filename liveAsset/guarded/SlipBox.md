@@ -206,3 +206,9 @@ https://b23.tv/BV1SaHw6yEFx
 
 rhttps://tv.cctv.com/2014/04/07/VIDE1396877461658668.shtml（2014.4.7新闻联播，来源：央视网）
 对应焦点访谈：https://tv.cctv.com/2014/04/07/VIDE1396873260083140.shtml?spm=C53156045404.PP1dEaiKB4LV.0.0（2014.4.7焦点访谈，来源：央视网）
+
+2026-11-07 16:24:59 groupType=noBorderRef g=guarded/misc/tg/2026-11-04/2026-11-04_16.43.36 Old Stockholm telephone tower - Wikipedia https://en.wikipedia.org/wiki/Old_Stockholm_telephone_tower
+
+<a tien-kou-marker-for-url-prefix-replace="1" href="/miscMedia/SlipBox_ya53waup_0_image.png" class="md-attach md-attach-img-link" target="_blank">
+            <img loading="lazy" tien-kou-marker-for-url-prefix-replace="1" src="/miscMedia/SlipBox_ya53waup_0_image.png" class="md-attach md-attach-img" alt="" title="" style="max-width: 20rem; max-height: 40rem;">
+        </a>
