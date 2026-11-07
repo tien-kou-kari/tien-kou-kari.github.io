@@ -51,3 +51,7 @@ https://en.wikipedia.org/wiki/Zettelkasten
 > In the 1980s, the card file began to be used as metaphor in the interface of some hypertextual personal knowledge base software applications such as NoteCards. In the 1990s, such software inspired the invention of wikis.
 
 2026-02-12 23:48:07 http://meatballwiki.org/
+
+2026-11-07 16:14:36 - 又一个类似项目：https://github.com/miantiao-me/BroadcastChannel
+
+看 https://deepwiki.com/miantiao-me/BroadcastChannel ，似乎这个项目并没有把Telegram的贴文进行持久化，而是只采用了cache。也就是说依赖Telegram。
