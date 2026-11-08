@@ -220,3 +220,7 @@ https://acid.vegas/blog/the-port-that-does-not-exist/
 https://web.archive.org/web/20261106234640/https://acid.vegas/blog/the-port-that-does-not-exist/
 
 #fhn 在互联网上探测是否有人在监听本不应该监听也不太容易监听的0号端口，以及他们在提供什么服务
+
+2026-11-08 13:14:43 Making any integer with four 2s - Eli Bendersky's website https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/
+
+#fhn 四个2解24点的通解
