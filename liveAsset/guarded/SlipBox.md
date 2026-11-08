@@ -224,3 +224,7 @@ https://web.archive.org/web/20261106234640/https://acid.vegas/blog/the-port-that
 2026-11-08 13:14:43 Making any integer with four 2s - Eli Bendersky's website https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/
 
 #fhn 四个2解24点的通解
+
+2026-11-08 20:14:37 Text.js: Build full-stack React apps that render inside console.log https://textjs.org/
+
+#fhn 啊？
