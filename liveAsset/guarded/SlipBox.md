@@ -232,3 +232,7 @@ https://web.archive.org/web/20261106234640/https://acid.vegas/blog/the-port-that
 2026-11-11 23:28:01 Apple is killing its Support Community forum next week  https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down
 
 #fhn
+
+2026-11-11 23:44:18 We need more goat sacrifices - by Adam Mastroianni https://www.experimental-history.com/p/we-need-more-goat-sacrifices
+
+#fhn
