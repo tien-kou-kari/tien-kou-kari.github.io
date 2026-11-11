@@ -228,3 +228,7 @@ https://web.archive.org/web/20261106234640/https://acid.vegas/blog/the-port-that
 2026-11-08 20:14:37 Text.js: Build full-stack React apps that render inside console.log https://textjs.org/
 
 #fhn 啊？
+
+2026-11-11 23:28:01 Apple is killing its Support Community forum next week  https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down
+
+#fhn
