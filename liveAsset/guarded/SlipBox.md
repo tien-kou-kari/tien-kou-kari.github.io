@@ -235,7 +235,7 @@ https://web.archive.org/web/20261106234640/https://acid.vegas/blog/the-port-that
 
 2026-11-11 23:44:18 We need more goat sacrifices - by Adam Mastroianni https://www.experimental-history.com/p/we-need-more-goat-sacrifices
 
-#fhn
+#fhn 社会决策无法预测实际效果的好坏，敬畏施加在民众身上的不可预知性
 
 2026-11-12 18:43:44 93% of Paint Splatters are Valid Perl Programs | Colin McMillen https://www.mcmillen.dev/sigbovik/
 
