@@ -240,3 +240,13 @@ https://web.archive.org/web/20261106234640/https://acid.vegas/blog/the-port-that
 2026-11-12 18:43:44 93% of Paint Splatters are Valid Perl Programs | Colin McMillen https://www.mcmillen.dev/sigbovik/
 
 #fhn 草，太搞了
+
+2026-11-14 13:16:58 https://news.ycombinator.com/item?id=50491423
+
+> Unfortunately mintty is the only terminal emulator I'm aware of which supports overstrike [0], as this would open up a world of new possibilities for TUI apps if more widely supported.
+>
+> [...]
+> 
+> [0] https://github.com/mintty/mintty/wiki/CtrlSeqs#overstrike
+
+#fhn
