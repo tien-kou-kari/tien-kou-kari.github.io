@@ -6,6 +6,31 @@
     <atom:link href="https://tien-kou-kari.github.io/rss?periodType=loose&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou No Tags: Noise, Silence Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou - 2026-11-14_13.16.58</title>
+        <link>https://tien-kou-kari.github.io/SlipBox/2026-11-14_13.16.58</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-11-14_13.16.58</guid>
+        <pubDate>Sat, 14 Nov 2026 13:16:58 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p><a href="https://news.ycombinator.com/item?id=50491423" target="_blank">https://news.ycombinator.com/item?id=50491423</a></p>
+<blockquote>
+<p>Unfortunately mintty is the only terminal emulator I'm aware of which supports overstrike [0], as this would open up a world of new possibilities for TUI apps if more widely supported.</p>
+<p>[...]</p>
+<p>[0] <a href="https://github.com/mintty/mintty/wiki/CtrlSeqs#overstrike" target="_blank">https://github.com/mintty/mintty/wiki/CtrlSeqs#overstrike</a></p>
+</blockquote>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a></p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou - 2026-11-14_00.10.11</title>
         <link>https://tien-kou-kari.github.io/misc/tg/2026-11-14/2026-11-14_00.10.11</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-11-14/2026-11-14_00.10.11</guid>
@@ -295,26 +320,6 @@ lifcc (@mylifcc) を引用
 2. 去下vivetool，然后执行 <code>vivetool /disable /id:60813048</code> ，接着再修改注册表</div>
     </div></div>
   </div>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-11-11_23.44.18</title>
-        <link>https://tien-kou-kari.github.io/SlipBox/2026-11-11_23.44.18</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-11-11_23.44.18</guid>
-        <pubDate>Wed, 11 Nov 2026 23:44:18 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>We need more goat sacrifices - by Adam Mastroianni <a href="https://www.experimental-history.com/p/we-need-more-goat-sacrifices" target="_blank">https://www.experimental-history.com/p/we-need-more-goat-sacrifices</a></p>
-<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a> 社会决策无法预测实际效果的好坏，敬畏施加在民众身上的不可预知性</p>
 
 
 </div>

@@ -1159,61 +1159,6 @@ DNS Test · Speed Test · Exit Check · IP Quality · Streaming Unlock Test</div
 </div>
 </div>
 
-<hr class="sep-in-seq"><div class="one-in-seq-wrapper">
-    <div class="one-in-seq asset-info-line"><a target="_blank" class="secondary" href="https://tien-kou-kari.github.io/misc/tg/2026-11-01">misc/tg/2026-11-01</a> / <a href="https://tien-kou-kari.github.io/misc/tg/2026-11-01/2026-11-01_21.37.48">2026-11-01_21.37.48</a> <span>2026-11-01 21:37:48 UTC+8</span></div>
-    <div class="one-in-seq principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/moonvoidclass" title="Telegram PeerChannel handle: moonvoidclass" data-title="tg:moonvoidclass">inside class</a>
-      <div class="tg-involvement-layout"><div class="tg-involvement-layout"><div  class="tg-involvement-layout tg-involvement-type">
-      <span class="tg-involvement-type">[Re]</span>
-      </div><div class="tg-involvement-layout tg-involvement-body"><a target="_blank" href="https://t.me/kot4ri_channel" title="Telegram PeerChannel handle: kot4ri_channel" data-title="tg:kot4ri_channel">青花鱼Board</a>
-    <div class="tg-msg-source-lv2">
-      <span class="tg-msg-source-lv2-explain">Forwarded from </span>
-          雅詩 神楽坂
-    </div> (<span class="tg-author">衰潲君♥️🏳️‍⚧️ | 神姬营版</span>)
-
-    <span class="tg-timestamp">2026-10-30T18:55:49+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg"><a href="https://x.com/mylifcc/status/2116002400679113071">https://x.com/mylifcc/status/2116002400679113071</a>
-有人发现了一种非常离谱的 JavaScript 混淆技术：通过在代码里塞入大量生物武器、毒药和致死剂量相关的函数名，让 AI 因为安全限制而拒绝分析代码。
-安全研究员 veritas 在分析浏览器指纹脚本时，发现一段来自 ServicePipe 相关域名的 JavaScript，里面充斥着极其诡异的函数名：
-computeRicinLethalDosageForWaterSupply
-calculateDeadlyLethalSuicideAspirinDosage
-光看名字，仿佛在研究生化武器。但实际上，这段代码只是在收集浏览器指纹，包括 User-Agent、GPU、Canvas 等信息。
-研究员怀疑，这些名字是开发者故意设置的陷阱，专门用来阻止 AI 辅助逆向工程。
-于是他做了个实验：
-• Astra：拒绝分析
-• Astra + Daybreak Blue：仍然拒绝
-• GLM-5.3：成功分析
-这就有意思了。
-传统代码混淆是通过复杂控制流、加密字符串、无意义变量名，让人类和工具难以理解代码。
-而这种新思路，直接瞄准了大模型的安全机制。
-代码本身可能完全无害，但只要在函数名里塞进足够多的危险词汇，部分 AI 就可能主动放弃分析。
-更讽刺的是，模型越严格遵守某些安全规则，面对这种混淆时反而可能越容易受到干扰。
-当然，目前还没有证据证明开发者一定是故意这样设计，也不能说明这种方法对所有模型都有效。
-但它揭示了一个值得关注的趋势：随着越来越多的逆向工程依赖 AI，未来的代码混淆技术可能不再只针对编译器、反编译器和人类研究员，还会专门针对大模型的安全判断机制。
-以前是让代码难以理解，现在甚至可以尝试让 AI 不敢理解。</div>
-      <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-6278165095313511763.png" title="Telegram media id 6278165095313511763" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-      </div></div></div>
-
-    <span class="tg-timestamp">2026-11-01T10:54:33+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">还有在代码里加入塔木德原文再提交，以通过 ai 安全检查的</div>
-    </div></div>
-  </div>
-
-
-</div>
-</div>
-</div>
-
         ]]></description>
       </item>
   </channel>
