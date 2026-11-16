@@ -254,3 +254,7 @@ https://web.archive.org/web/20261106234640/https://acid.vegas/blog/the-port-that
 2026-11-16 19:38:08 Universal XSS in uBlock Origin from website-driven element picker https://iter.ca/post/ubo-uxss/
 
 #fhn
+
+2026-11-16 19:51:55 I posted in "Who wants to be hired?" and a recruiter sent me a RAT and a stealer - https://getjump.me/posts/03-huntrole-fake-take-home/
+
+#fhn 绷不住了，还敢找工作吗
