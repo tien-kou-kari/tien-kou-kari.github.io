@@ -250,3 +250,7 @@ https://web.archive.org/web/20261106234640/https://acid.vegas/blog/the-port-that
 > [0] https://github.com/mintty/mintty/wiki/CtrlSeqs#overstrike
 
 #fhn
+
+2026-11-16 19:38:08 Universal XSS in uBlock Origin from website-driven element picker https://iter.ca/post/ubo-uxss/
+
+#fhn
