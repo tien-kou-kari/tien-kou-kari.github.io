@@ -258,3 +258,7 @@ https://web.archive.org/web/20261106234640/https://acid.vegas/blog/the-port-that
 2026-11-16 19:51:55 I posted in "Who wants to be hired?" and a recruiter sent me a RAT and a stealer - https://getjump.me/posts/03-huntrole-fake-take-home/
 
 #fhn 绷不住了，还敢找工作吗
+
+2026-11-18 19:39:40 Quad9’s withdrawal from France: A canary in the coal mine | Cloudflare Blog https://blog.cloudflare.com/quad9-withdrawal-from-france/
+
+#fhn #DystopianDaily
