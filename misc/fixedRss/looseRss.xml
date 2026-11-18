@@ -6,6 +6,66 @@
     <atom:link href="https://tien-kou-kari.github.io/rss?periodType=loose&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou No Tags: Noise, Silence Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou - 2026-11-18_19.39.40</title>
+        <link>https://tien-kou-kari.github.io/SlipBox/2026-11-18_19.39.40</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-11-18_19.39.40</guid>
+        <pubDate>Wed, 18 Nov 2026 19:39:40 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Quad9’s withdrawal from France: A canary in the coal mine | Cloudflare Blog <a href="https://blog.cloudflare.com/quad9-withdrawal-from-france/" target="_blank">https://blog.cloudflare.com/quad9-withdrawal-from-france/</a></p>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a> <a  target="_blank" href="https://tien-kou-kari.github.io/tag/DystopianDaily" class="tag">#DystopianDaily</a></p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2026-11-18_16.46.08</title>
+        <link>https://tien-kou-kari.github.io/misc/tg/2026-11-18/2026-11-18_16.46.08</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-11-18/2026-11-18_16.46.08</guid>
+        <pubDate>Wed, 18 Nov 2026 16:46:08 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans">
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/bupt_moe" title="Telegram PeerChannel handle: bupt_moe" data-title="tg:bupt_moe">bupt.moe</a>
+
+    <span class="tg-timestamp">2026-11-18T12:50:37+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">#security CVE-2026-114938
+Java RCE，需要cpu有 <code>avx512f</code> <code>avx512bw</code> <code>avx512vbmi</code> <code>bmi2</code> 四个flag。
+OpenJDK 手写的 base64 的硬件加速 asm 搞错长度了导致会多写62字节，虽然 Java 最终会拒绝这个输入，但是越界写已经完成了。
+缓解措施：
+1. <code>-XX:-UseBASE64Intrinsics</code> 禁用 base64 硬件加速
+2. <code>-XX:UseAVX=2</code> 禁用 AVX512
+编者注：之前看到了以为 avx512 没那么多，今天群友讨论才知道还不少。
+<a href="https://calif.io/java4shell">https://calif.io/java4shell</a></div>
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou - 2026-11-18_00.00.07</title>
         <link>https://tien-kou-kari.github.io/misc/tg/2026-11-18/2026-11-18_00.00.07</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-11-18/2026-11-18_00.00.07</guid>
@@ -238,51 +298,6 @@ IoC: <code>1688360.cc</code></div>
   <div class="principal-content">
 <div class="lang-wrapper" lang="zh-Hans"><p>I posted in &quot;Who wants to be hired?&quot; and a recruiter sent me a RAT and a stealer - <a href="https://getjump.me/posts/03-huntrole-fake-take-home/" target="_blank">https://getjump.me/posts/03-huntrole-fake-take-home/</a></p>
 <p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a> 绷不住了，还敢找工作吗</p>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-11-16_19.38.08</title>
-        <link>https://tien-kou-kari.github.io/SlipBox/2026-11-16_19.38.08</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-11-16_19.38.08</guid>
-        <pubDate>Mon, 16 Nov 2026 19:38:08 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>Universal XSS in uBlock Origin from website-driven element picker <a href="https://iter.ca/post/ubo-uxss/" target="_blank">https://iter.ca/post/ubo-uxss/</a></p>
-<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a></p>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-11-14_13.16.58</title>
-        <link>https://tien-kou-kari.github.io/SlipBox/2026-11-14_13.16.58</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-11-14_13.16.58</guid>
-        <pubDate>Sat, 14 Nov 2026 13:16:58 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p><a href="https://news.ycombinator.com/item?id=50491423" target="_blank">https://news.ycombinator.com/item?id=50491423</a></p>
-<blockquote>
-<p>Unfortunately mintty is the only terminal emulator I'm aware of which supports overstrike [0], as this would open up a world of new possibilities for TUI apps if more widely supported.</p>
-<p>[...]</p>
-<p>[0] <a href="https://github.com/mintty/mintty/wiki/CtrlSeqs#overstrike" target="_blank">https://github.com/mintty/mintty/wiki/CtrlSeqs#overstrike</a></p>
-</blockquote>
-<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a></p>
 
 
 </div>
