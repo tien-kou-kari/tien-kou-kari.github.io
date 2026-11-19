@@ -262,3 +262,5 @@ https://web.archive.org/web/20261106234640/https://acid.vegas/blog/the-port-that
 2026-11-18 19:39:40 Quad9’s withdrawal from France: A canary in the coal mine | Cloudflare Blog https://blog.cloudflare.com/quad9-withdrawal-from-france/
 
 #fhn #DystopianDaily
+
+2026-11-20 00:01:21 [2007] 狐の工作室 - なつおと https://www.youtube.com/watch?v=Jcv2g1Z0_II
