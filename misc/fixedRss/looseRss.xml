@@ -6,6 +6,117 @@
     <atom:link href="https://tien-kou-kari.github.io/rss?periodType=loose&amp;spec=flow&amp;isStaticGen302Target=1" rel="self" type="application/rss+xml" />
     <description>Tien-kou No Tags: Noise, Silence Ancestors: misc/, SlipBox/, TheDesk/</description>
       <item>
+        <title>Tien-kou - 2026-11-21_21.09.19</title>
+        <link>https://tien-kou-kari.github.io/misc/tg/2026-11-21/2026-11-21_21.09.19</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-11-21/2026-11-21_21.09.19</guid>
+        <pubDate>Sat, 21 Nov 2026 21:09:19 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>草。。。。</p>
+
+
+  <div class="tg-wrapper-layout">
+    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
+[[Telegram]]
+</div>
+
+    </div></div>
+    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/usr_bin_cat" title="Telegram PeerChannel handle: usr_bin_cat" data-title="tg:usr_bin_cat">Cat Ch.</a> (<span class="tg-author">webRTCCat | Present Day, Present Time</span>)
+
+    <span class="tg-timestamp">2026-11-20T14:37:26+08:00</span>
+
+    <div class="tg-white-space-preserve white-space-preserve tg-msg">目前群晖最震撼我的狠活：群晖部分平台许可证加密算法是什么你猜一猜，绝对猜不到
+答案：<span class="tg-spoiler">enigma（图灵：你妈）</span>
+不信的话让 ai 给你寻个 libsynocore</div>
+    </div></div>
+  </div>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2026-11-21_13.32.22</title>
+        <link>https://tien-kou-kari.github.io/SlipBox/2026-11-21_13.32.22</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-11-21_13.32.22</guid>
+        <pubDate>Sat, 21 Nov 2026 13:32:22 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><p>Slopstrap — Make your site look hastily vibecoded. - <a href="https://slopstrap.mikelacher.com/" target="_blank">https://slopstrap.mikelacher.com/</a></p>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a></p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2026-11-21_13.21.55</title>
+        <link>https://tien-kou-kari.github.io/SlipBox/2026-11-21_13.21.55</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-11-21_13.21.55</guid>
+        <pubDate>Sat, 21 Nov 2026 13:21:55 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><pre><code>Raymond Chen 13:17:45
+妈的草
+
+Raymond Chen 13:18:38
+我第一次见有markdown编辑器的加 blockquote 的方式是，把选中行有前置\&gt;的行去掉，没有\&gt;的行加上
+
+Raymond Chen 13:18:40
+气笑了
+</code></pre>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
+        <title>Tien-kou - 2026-11-21_13.16.07</title>
+        <link>https://tien-kou-kari.github.io/SlipBox/2026-11-21_13.16.07</link>
+        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-11-21_13.16.07</guid>
+        <pubDate>Sat, 21 Nov 2026 13:16:07 +0800</pubDate>
+        <description><![CDATA[
+
+
+<div class="sole-content-wrapper">
+  <div class="principal-content">
+<div class="lang-wrapper" lang="zh-Hans"><blockquote>
+<blockquote>
+<p>Am I an outlier in that every SWE job I've had has expected you to push back on requirements and design the data model for tickets you are handed?
+Yes, that is how most functional organizations operate.</p>
+</blockquote>
+<p>Architects are a bad meme, along the same lines as scrum masters and product managers. Good software engineers spend more time on design than implementation, and the best are helping their teammates with design, and auditing designs of adjacent teams to ensure integration success. So architecture is an important part of the job, but that doesn't mean that you can automatically declare a role with the title &quot;architect&quot; and make the whole organization better at design.</p>
+<p>Architect roles are a bad meme because the architect always ends up knowing less about the system and how it is used than the engineers and support staff, yet they have more influence over the decisions affecting those things. That's the essence of an organizational anti-pattern/bad-meme any time it shows up: influence over resources anti-correlated with decision quality. Additionally, architects often report to non-technical folks fairly high up the chain. Those people are bad at screening for such a technical role, sometimes even making the mistake of replacing an architect with an external hire.</p>
+</blockquote>
+<p><a href="https://news.ycombinator.com/item?id=50579331" target="_blank">https://news.ycombinator.com/item?id=50579331</a></p>
+<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a></p>
+
+
+</div>
+
+  </div>
+</div>
+        ]]></description>
+      </item>
+      <item>
         <title>Tien-kou - 2026-11-21_00.43.02</title>
         <link>https://tien-kou-kari.github.io/misc/tg/2026-11-21/2026-11-21_00.43.02</link>
         <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-11-21/2026-11-21_00.43.02</guid>
@@ -147,139 +258,6 @@
 
     <div class="tg-white-space-preserve white-space-preserve tg-msg"></div>
       <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-5161330855115427138.png" title="Telegram media id 5161330855115427138" alt="A picture from Telegram, related to current message. No more alt detail for now." />
-    </div></div>
-  </div>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-11-20_00.01.21</title>
-        <link>https://tien-kou-kari.github.io/SlipBox/2026-11-20_00.01.21</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-11-20_00.01.21</guid>
-        <pubDate>Fri, 20 Nov 2026 00:01:21 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>[2007] 狐の工作室 - なつおと <a href="https://www.youtube.com/watch?v=Jcv2g1Z0_II" target="_blank">https://www.youtube.com/watch?v=Jcv2g1Z0_II</a></p>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-11-18_19.39.40</title>
-        <link>https://tien-kou-kari.github.io/SlipBox/2026-11-18_19.39.40</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/SlipBox/2026-11-18_19.39.40</guid>
-        <pubDate>Wed, 18 Nov 2026 19:39:40 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans"><p>Quad9’s withdrawal from France: A canary in the coal mine | Cloudflare Blog <a href="https://blog.cloudflare.com/quad9-withdrawal-from-france/" target="_blank">https://blog.cloudflare.com/quad9-withdrawal-from-france/</a></p>
-<p><a  target="_blank" href="https://tien-kou-kari.github.io/tag/FromHn" class="tag">#FromHn</a> <a  target="_blank" href="https://tien-kou-kari.github.io/tag/DystopianDaily" class="tag">#DystopianDaily</a></p>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-11-18_16.46.08</title>
-        <link>https://tien-kou-kari.github.io/misc/tg/2026-11-18/2026-11-18_16.46.08</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-11-18/2026-11-18_16.46.08</guid>
-        <pubDate>Wed, 18 Nov 2026 16:46:08 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/bupt_moe" title="Telegram PeerChannel handle: bupt_moe" data-title="tg:bupt_moe">bupt.moe</a>
-
-    <span class="tg-timestamp">2026-11-18T12:50:37+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">#security CVE-2026-114938
-Java RCE，需要cpu有 <code>avx512f</code> <code>avx512bw</code> <code>avx512vbmi</code> <code>bmi2</code> 四个flag。
-OpenJDK 手写的 base64 的硬件加速 asm 搞错长度了导致会多写62字节，虽然 Java 最终会拒绝这个输入，但是越界写已经完成了。
-缓解措施：
-1. <code>-XX:-UseBASE64Intrinsics</code> 禁用 base64 硬件加速
-2. <code>-XX:UseAVX=2</code> 禁用 AVX512
-编者注：之前看到了以为 avx512 没那么多，今天群友讨论才知道还不少。
-<a href="https://calif.io/java4shell">https://calif.io/java4shell</a></div>
-    </div></div>
-  </div>
-
-
-</div>
-
-  </div>
-</div>
-        ]]></description>
-      </item>
-      <item>
-        <title>Tien-kou - 2026-11-18_00.00.07</title>
-        <link>https://tien-kou-kari.github.io/misc/tg/2026-11-18/2026-11-18_00.00.07</link>
-        <guid isPermaLink="false">tien-kou-https://tien-kou-kari.github.io/-e1-guarded/misc/tg/2026-11-18/2026-11-18_00.00.07</guid>
-        <pubDate>Wed, 18 Nov 2026 00:00:07 +0800</pubDate>
-        <description><![CDATA[
-
-
-<div class="sole-content-wrapper">
-  <div class="principal-content">
-<div class="lang-wrapper" lang="zh-Hans">
-
-  <div class="tg-wrapper-layout">
-    <div class="tg-wrapper-layout tg-wrapper-brief"><div class="tg-wrapper-layout tg-wrapper-brief"><div class="badge" style="display: inline-block; font-weight: bold;">
-[[Telegram]]
-</div>
-
-    </div></div>
-    <div class="tg-wrapper-layout tg-wrapper-body"><div class="tg-wrapper-layout tg-wrapper-body"><a target="_blank" href="https://t.me/abcthoughts" title="Telegram PeerChannel handle: abcthoughts" data-title="tg:abcthoughts">今天abc看了啥🤔</a>
-      <div class="tg-involvement-layout"><div class="tg-involvement-layout"><div  class="tg-involvement-layout tg-involvement-type">
-      <span class="tg-involvement-type">[Re]</span>
-      </div><div class="tg-involvement-layout tg-involvement-body"><a target="_blank" href="https://t.me/abcthoughts" title="Telegram PeerChannel handle: abcthoughts" data-title="tg:abcthoughts">今天abc看了啥🤔</a>
-    <div class="tg-msg-source-lv2">
-      <span class="tg-msg-source-lv2-explain">Forwarded from </span><a target="_blank" href="https://t.me/bupt_moe" title="Telegram PeerChannel handle: bupt_moe" data-title="tg:bupt_moe">bupt.moe</a>
-    </div>
-
-    <span class="tg-timestamp">2026-11-17T21:27:16+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">#security 
-大规模JS投毒事件
-<a href="https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/">https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/</a>
-IoC: <code>1688360.cc</code></div>
-      </div></div></div>
-
-    <span class="tg-timestamp">2026-11-17T21:31:26+08:00</span>
-
-    <div class="tg-white-space-preserve white-space-preserve tg-msg">仙之人兮列如麻，GitLab、Zoom 用户以及卡粉务必注意一下
-<blockquote>// from <a href="https://t.me/encmasuta/1165">https://t.me/encmasuta/1165</a>
-如您在16-17日访问过受污染的网页：
-- 若您使用 iOS 13-18.7.2 （包含两端版本）访问，请考虑更新您的iOS版本。
-- 若您输入过卡片三要素信息，请在后续留意是否出现未经授权的交易。
-- 若进行了加密货币转账，请检查交易对手是否为预期的交易对手。
-- 相关站点的 Cookies 及可能包含敏感信息的网页截图可能已被发送给攻击团伙掌握的服务器。</blockquote></div>
-      <img loading="lazy" class="tg-img tg-photo" src="https://tien-kou-kari.github.io/misc/tg/media/m-6332449861277521667.png" title="Telegram media id 6332449861277521667" alt="A picture from Telegram, related to current message. No more alt detail for now." />
     </div></div>
   </div>
 
