@@ -275,3 +275,14 @@ https://web.archive.org/web/20261106234640/https://acid.vegas/blog/the-port-that
 https://news.ycombinator.com/item?id=50579331
 
 #fhn
+
+2026-11-21 13:21:55 ```
+Raymond Chen 13:17:45
+妈的草
+
+Raymond Chen 13:18:38
+我第一次见有markdown编辑器的加 blockquote 的方式是，把选中行有前置\>的行去掉，没有\>的行加上
+
+Raymond Chen 13:18:40
+气笑了
+```
