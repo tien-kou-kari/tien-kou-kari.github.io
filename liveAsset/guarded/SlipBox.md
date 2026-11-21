@@ -264,3 +264,14 @@ https://web.archive.org/web/20261106234640/https://acid.vegas/blog/the-port-that
 #fhn #DystopianDaily
 
 2026-11-20 00:01:21 [2007] 狐の工作室 - なつおと https://www.youtube.com/watch?v=Jcv2g1Z0_II
+
+2026-11-21 13:16:07 > > Am I an outlier in that every SWE job I've had has expected you to push back on requirements and design the data model for tickets you are handed?
+> Yes, that is how most functional organizations operate.
+> 
+> Architects are a bad meme, along the same lines as scrum masters and product managers. Good software engineers spend more time on design than implementation, and the best are helping their teammates with design, and auditing designs of adjacent teams to ensure integration success. So architecture is an important part of the job, but that doesn't mean that you can automatically declare a role with the title "architect" and make the whole organization better at design.
+> 
+> Architect roles are a bad meme because the architect always ends up knowing less about the system and how it is used than the engineers and support staff, yet they have more influence over the decisions affecting those things. That's the essence of an organizational anti-pattern/bad-meme any time it shows up: influence over resources anti-correlated with decision quality. Additionally, architects often report to non-technical folks fairly high up the chain. Those people are bad at screening for such a technical role, sometimes even making the mistake of replacing an architect with an external hire.
+
+https://news.ycombinator.com/item?id=50579331
+
+#fhn
