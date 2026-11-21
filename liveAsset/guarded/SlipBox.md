@@ -286,3 +286,7 @@ Raymond Chen 13:18:38
 Raymond Chen 13:18:40
 气笑了
 ```
+
+2026-11-21 13:32:22 Slopstrap — Make your site look hastily vibecoded. - https://slopstrap.mikelacher.com/
+
+#fhn
