@@ -290,3 +290,5 @@ Raymond Chen 13:18:40
 2026-11-21 13:32:22 Slopstrap — Make your site look hastily vibecoded. - https://slopstrap.mikelacher.com/
 
 #fhn
+
+2026-11-22 21:15:03 年轻太阳黯淡佯谬 - 维基百科，自由的百科全书 https://zh.wikipedia.org/wiki/%E5%B9%B4%E8%BC%95%E5%A4%AA%E9%99%BD%E9%BB%AF%E6%B7%A1%E4%BD%AF%E8%AC%AC
