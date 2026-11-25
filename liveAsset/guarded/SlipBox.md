@@ -298,3 +298,7 @@ Raymond Chen 13:18:40
 2026-11-25 23:58:30 https://www.hntoplinks.com/stories/2026/01
 
 基于数据的每月Hacker News热门文章列表。虽然但是，我还是很想要有人类偏见和editorial的digest。
+
+2026-11-26 00:00:12 喜欢集体写作制度及其产物。
+
+主要藉由互联网联结进行的公开集体写作有哪些呢？Wikipedia/ArchLinux Wiki等各种wiki、贴吧、Reddit？
